@@ -1,0 +1,912 @@
+[
+ {
+  "text": "This",
+  "startMs": 80,
+  "endMs": 299,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cod",
+  "startMs": 300,
+  "endMs": 550,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 550,
+  "endMs": 736,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " caught",
+  "startMs": 740,
+  "endMs": 1009,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " off",
+  "startMs": 1010,
+  "endMs": 1170,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Scotland.",
+  "startMs": 1170,
+  "endMs": 1720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Before",
+  "startMs": 2020,
+  "endMs": 2200,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 2200,
+  "endMs": 2460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " reached",
+  "startMs": 2460,
+  "endMs": 2780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 2780,
+  "endMs": 2890,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " British",
+  "startMs": 2890,
+  "endMs": 3299,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " supermarket,",
+  "startMs": 3300,
+  "endMs": 3987,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 4120,
+  "endMs": 4250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " went",
+  "startMs": 4250,
+  "endMs": 4528,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 4530,
+  "endMs": 4640,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " China.",
+  "startMs": 4640,
+  "endMs": 5020,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " And",
+  "startMs": 5320,
+  "endMs": 5510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " back.",
+  "startMs": 5510,
+  "endMs": 5940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Here's",
+  "startMs": 6240,
+  "endMs": 6657,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " why.",
+  "startMs": 6670,
+  "endMs": 6990,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 7290,
+  "endMs": 7380,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " catch",
+  "startMs": 7380,
+  "endMs": 7630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 7630,
+  "endMs": 7784,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " frozen,",
+  "startMs": 7790,
+  "endMs": 8223,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " packed",
+  "startMs": 8440,
+  "endMs": 8710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " into",
+  "startMs": 8710,
+  "endMs": 8900,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 8900,
+  "endMs": 9156,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shipping",
+  "startMs": 9170,
+  "endMs": 9485,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " container,",
+  "startMs": 9500,
+  "endMs": 9979,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 10170,
+  "endMs": 10363,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sent",
+  "startMs": 10370,
+  "endMs": 10637,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " through",
+  "startMs": 10640,
+  "endMs": 10910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 10910,
+  "endMs": 10980,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Suez",
+  "startMs": 10980,
+  "endMs": 11300,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Canal.",
+  "startMs": 11300,
+  "endMs": 11680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 11980,
+  "endMs": 12120,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " China,",
+  "startMs": 12120,
+  "endMs": 12541,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it's",
+  "startMs": 12800,
+  "endMs": 12930,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thawed,",
+  "startMs": 12930,
+  "endMs": 13214,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 13400,
+  "endMs": 13570,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " filleted",
+  "startMs": 13570,
+  "endMs": 14055,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " by",
+  "startMs": 14060,
+  "endMs": 14280,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hand.",
+  "startMs": 14300,
+  "endMs": 14560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Every",
+  "startMs": 14860,
+  "endMs": 15146,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pin",
+  "startMs": 15150,
+  "endMs": 15375,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bone,",
+  "startMs": 15410,
+  "endMs": 15661,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pulled",
+  "startMs": 15890,
+  "endMs": 16140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " out",
+  "startMs": 16140,
+  "endMs": 16360,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 16360,
+  "endMs": 16580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " by",
+  "startMs": 16580,
+  "endMs": 16860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one.",
+  "startMs": 16860,
+  "endMs": 17090,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Then",
+  "startMs": 17390,
+  "endMs": 17590,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it's",
+  "startMs": 17590,
+  "endMs": 17740,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " frozen",
+  "startMs": 17740,
+  "endMs": 18197,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " again,",
+  "startMs": 18200,
+  "endMs": 18467,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 18620,
+  "endMs": 18840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shipped",
+  "startMs": 18840,
+  "endMs": 19080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " all",
+  "startMs": 19080,
+  "endMs": 19328,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 19360,
+  "endMs": 19430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " way",
+  "startMs": 19430,
+  "endMs": 19610,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " home.",
+  "startMs": 19610,
+  "endMs": 19920,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Weeks",
+  "startMs": 20220,
+  "endMs": 20630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 20630,
+  "endMs": 20740,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sea.",
+  "startMs": 20740,
+  "endMs": 21080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Twice.",
+  "startMs": 21380,
+  "endMs": 21960,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " For",
+  "startMs": 22260,
+  "endMs": 22460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 22460,
+  "endMs": 22791,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fillet.",
+  "startMs": 22800,
+  "endMs": 23190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Why?",
+  "startMs": 23490,
+  "endMs": 23950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Labour.",
+  "startMs": 24290,
+  "endMs": 24830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " When",
+  "startMs": 25130,
+  "endMs": 25350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " reporters",
+  "startMs": 25350,
+  "endMs": 25880,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " exposed",
+  "startMs": 25880,
+  "endMs": 26400,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " this",
+  "startMs": 26400,
+  "endMs": 26620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 26620,
+  "endMs": 26787,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 26790,
+  "endMs": 27008,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 27030,
+  "endMs": 27450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 27450,
+  "endMs": 27616,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nine,",
+  "startMs": 27620,
+  "endMs": 27892,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Chinese",
+  "startMs": 28110,
+  "endMs": 28610,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " factory",
+  "startMs": 28710,
+  "endMs": 29050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " workers",
+  "startMs": 29050,
+  "endMs": 29438,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " were",
+  "startMs": 29440,
+  "endMs": 29604,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " paid",
+  "startMs": 29610,
+  "endMs": 29880,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " under",
+  "startMs": 29880,
+  "endMs": 30080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 30080,
+  "endMs": 30322,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pound",
+  "startMs": 30390,
+  "endMs": 30653,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 30660,
+  "endMs": 30819,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " day.",
+  "startMs": 30820,
+  "endMs": 31040,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 31340,
+  "endMs": 31577,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shipping",
+  "startMs": 31580,
+  "endMs": 31930,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 31930,
+  "endMs": 32050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " across",
+  "startMs": 32050,
+  "endMs": 32465,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 32470,
+  "endMs": 32584,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " world",
+  "startMs": 32590,
+  "endMs": 32939,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 32940,
+  "endMs": 33040,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " still",
+  "startMs": 33040,
+  "endMs": 33410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cheaper",
+  "startMs": 33410,
+  "endMs": 33828,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " than",
+  "startMs": 33840,
+  "endMs": 34000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " filleting",
+  "startMs": 34000,
+  "endMs": 34479,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 34480,
+  "endMs": 34598,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 34600,
+  "endMs": 34775,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Britain.",
+  "startMs": 34810,
+  "endMs": 35190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " By",
+  "startMs": 35490,
+  "endMs": 35720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twenty",
+  "startMs": 35720,
+  "endMs": 36123,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twenty-two,",
+  "startMs": 36150,
+  "endMs": 36756,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " China",
+  "startMs": 36960,
+  "endMs": 37389,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 37470,
+  "endMs": 37590,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " overtaken",
+  "startMs": 37590,
+  "endMs": 38310,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Norway",
+  "startMs": 38310,
+  "endMs": 38771,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " as",
+  "startMs": 38800,
+  "endMs": 38870,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Britain's",
+  "startMs": 38870,
+  "endMs": 39300,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " biggest",
+  "startMs": 39300,
+  "endMs": 39749,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " seafood",
+  "startMs": 39760,
+  "endMs": 40210,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " supplier.",
+  "startMs": 40230,
+  "endMs": 40670,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 40970,
+  "endMs": 41187,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 41230,
+  "endMs": 41350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cod",
+  "startMs": 41350,
+  "endMs": 41590,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 41590,
+  "endMs": 41784,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " chips",
+  "startMs": 41820,
+  "endMs": 42109,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " may",
+  "startMs": 42140,
+  "endMs": 42326,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " have",
+  "startMs": 42330,
+  "endMs": 42540,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " seen",
+  "startMs": 42540,
+  "endMs": 42810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " more",
+  "startMs": 42810,
+  "endMs": 43085,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 43090,
+  "endMs": 43194,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 43200,
+  "endMs": 43302,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " world",
+  "startMs": 43310,
+  "endMs": 43628,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " than",
+  "startMs": 43630,
+  "endMs": 43790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 43790,
+  "endMs": 43953,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " have.",
+  "startMs": 43960,
+  "endMs": 44170,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

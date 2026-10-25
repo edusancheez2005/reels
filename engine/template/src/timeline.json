@@ -1,0 +1,1013 @@
+{
+ "slug": "whale-alert",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 1001,
+ "audio": null,
+ "captions": [
+  {
+   "text": "A",
+   "startMs": 50,
+   "endMs": 225,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " whale",
+   "startMs": 265,
+   "endMs": 620,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " just",
+   "startMs": 660,
+   "endMs": 970,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " moved",
+   "startMs": 1010,
+   "endMs": 1365,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " four",
+   "startMs": 1405,
+   "endMs": 1715,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hundred",
+   "startMs": 1755,
+   "endMs": 2200,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " million",
+   "startMs": 2240,
+   "endMs": 2685,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " dollars",
+   "startMs": 2725,
+   "endMs": 3170,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " of",
+   "startMs": 3210,
+   "endMs": 3430,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Bitcoin.",
+   "startMs": 3470,
+   "endMs": 3915,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Here's",
+   "startMs": 4235,
+   "endMs": 4590,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " how",
+   "startMs": 4630,
+   "endMs": 4895,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " you",
+   "startMs": 4935,
+   "endMs": 5200,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " see",
+   "startMs": 5240,
+   "endMs": 5505,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " it",
+   "startMs": 5545,
+   "endMs": 5765,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " before",
+   "startMs": 5805,
+   "endMs": 6205,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " the",
+   "startMs": 6245,
+   "endMs": 6510,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " market",
+   "startMs": 6550,
+   "endMs": 6950,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " does.",
+   "startMs": 6990,
+   "endMs": 7300,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Every",
+   "startMs": 7620,
+   "endMs": 7975,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " transaction",
+   "startMs": 8015,
+   "endMs": 8640,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " first",
+   "startMs": 8680,
+   "endMs": 9035,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " lands",
+   "startMs": 9075,
+   "endMs": 9430,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " in",
+   "startMs": 9470,
+   "endMs": 9690,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " the",
+   "startMs": 9730,
+   "endMs": 9995,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " mempool,",
+   "startMs": 10035,
+   "endMs": 10480,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " a",
+   "startMs": 10600,
+   "endMs": 10775,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " public",
+   "startMs": 10815,
+   "endMs": 11215,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " waiting",
+   "startMs": 11255,
+   "endMs": 11700,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " room.",
+   "startMs": 11740,
+   "endMs": 12050,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Bots",
+   "startMs": 12370,
+   "endMs": 12680,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " watch",
+   "startMs": 12720,
+   "endMs": 13075,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " it,",
+   "startMs": 13115,
+   "endMs": 13335,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " match",
+   "startMs": 13455,
+   "endMs": 13810,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " wallets",
+   "startMs": 13850,
+   "endMs": 14295,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " to",
+   "startMs": 14335,
+   "endMs": 14555,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " known",
+   "startMs": 14595,
+   "endMs": 14950,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " owners,",
+   "startMs": 14990,
+   "endMs": 15390,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " and",
+   "startMs": 15510,
+   "endMs": 15775,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " flag",
+   "startMs": 15815,
+   "endMs": 16125,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " anything",
+   "startMs": 16165,
+   "endMs": 16655,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " huge.",
+   "startMs": 16695,
+   "endMs": 17005,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Exchange",
+   "startMs": 17325,
+   "endMs": 17815,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " wallet",
+   "startMs": 17855,
+   "endMs": 18255,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " in?",
+   "startMs": 18295,
+   "endMs": 18515,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " That's",
+   "startMs": 18835,
+   "endMs": 19190,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " often",
+   "startMs": 19230,
+   "endMs": 19585,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " a",
+   "startMs": 19625,
+   "endMs": 19800,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " sell.",
+   "startMs": 19840,
+   "endMs": 20150,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Exchange",
+   "startMs": 20470,
+   "endMs": 20960,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " wallet",
+   "startMs": 21000,
+   "endMs": 21400,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " out?",
+   "startMs": 21440,
+   "endMs": 21705,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Usually",
+   "startMs": 22025,
+   "endMs": 22470,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " cold",
+   "startMs": 22510,
+   "endMs": 22820,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " storage.",
+   "startMs": 22860,
+   "endMs": 23305,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " One",
+   "startMs": 23625,
+   "endMs": 23890,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " whale",
+   "startMs": 23930,
+   "endMs": 24285,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " won't",
+   "startMs": 24325,
+   "endMs": 24635,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " move",
+   "startMs": 24675,
+   "endMs": 24985,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " the",
+   "startMs": 25025,
+   "endMs": 25290,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " market.",
+   "startMs": 25330,
+   "endMs": 25730,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " Ten",
+   "startMs": 26050,
+   "endMs": 26315,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " of",
+   "startMs": 26355,
+   "endMs": 26575,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " them,",
+   "startMs": 26615,
+   "endMs": 26925,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " the",
+   "startMs": 27045,
+   "endMs": 27310,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " same",
+   "startMs": 27350,
+   "endMs": 27660,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " hour,",
+   "startMs": 27700,
+   "endMs": 28010,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " might.",
+   "startMs": 28130,
+   "endMs": 28485,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " So",
+   "startMs": 28805,
+   "endMs": 29025,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " next",
+   "startMs": 29065,
+   "endMs": 29375,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " time",
+   "startMs": 29415,
+   "endMs": 29725,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " price",
+   "startMs": 29765,
+   "endMs": 30120,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " moves,",
+   "startMs": 30160,
+   "endMs": 30515,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " check",
+   "startMs": 30635,
+   "endMs": 30990,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " where",
+   "startMs": 31030,
+   "endMs": 31385,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " the",
+   "startMs": 31425,
+   "endMs": 31690,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " whales",
+   "startMs": 31730,
+   "endMs": 32130,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " went",
+   "startMs": 32170,
+   "endMs": 32480,
+   "timestampMs": null,
+   "confidence": null
+  },
+  {
+   "text": " first.",
+   "startMs": 32520,
+   "endMs": 32875,
+   "timestampMs": null,
+   "confidence": null
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s1",
+   "component": "Title",
+   "props": {
+    "lines": [
+     "\ud83d\udc0b",
+     "A whale",
+     "just moved"
+    ],
+    "accent": [
+     "whale"
+    ],
+    "size": 120
+   },
+   "from": 0,
+   "durationInFrames": 42,
+   "beats": [
+    2,
+    8,
+    30
+   ],
+   "anchorText": "A whale just moved"
+  },
+  {
+   "id": "s2",
+   "component": "Stat",
+   "props": {
+    "value": 400,
+    "prefix": "$",
+    "suffix": "M",
+    "label": "of Bitcoin, one transfer"
+   },
+   "from": 42,
+   "durationInFrames": 85,
+   "beats": [
+    25,
+    62
+   ],
+   "anchorText": "four hundred million dollars"
+  },
+  {
+   "id": "s3",
+   "component": "Title",
+   "props": {
+    "lines": [
+     "How you see it",
+     "before",
+     "the market does"
+    ],
+    "accent": [
+     "before"
+    ]
+   },
+   "from": 127,
+   "durationInFrames": 102,
+   "beats": [
+    12,
+    47,
+    69
+   ],
+   "anchorText": "Here's how you see"
+  },
+  {
+   "id": "s4",
+   "component": "Diagram",
+   "props": {
+    "nodes": [
+     {
+      "id": "tx",
+      "label": "New transaction",
+      "x": 500,
+      "y": 200,
+      "icon": "\u21c4"
+     },
+     {
+      "id": "mem",
+      "label": "Mempool",
+      "x": 500,
+      "y": 640,
+      "icon": "\u25f7"
+     }
+    ],
+    "edges": [
+     {
+      "from": "tx",
+      "to": "mem",
+      "label": "first stop"
+     }
+    ],
+    "order": [
+     "tx",
+     "tx>mem",
+     "mem"
+    ],
+    "pulse": "mem"
+   },
+   "from": 229,
+   "durationInFrames": 89,
+   "beats": [
+    11,
+    43,
+    72
+   ],
+   "anchorText": "Every transaction first lands"
+  },
+  {
+   "id": "s5",
+   "component": "Window",
+   "props": {
+    "url": "mempool explorer",
+    "title": "Pending \u00b7 public",
+    "rows": [
+     {
+      "label": "tx 8f3a\u2026c21",
+      "value": "0.02 BTC",
+      "tone": "muted"
+     },
+     {
+      "label": "tx 41be\u202609d",
+      "value": "1.30 BTC",
+      "tone": "muted"
+     },
+     {
+      "label": "tx d7c0\u2026a5e",
+      "value": "5,600 BTC",
+      "tone": "alert"
+     }
+    ],
+    "highlight": 2
+   },
+   "from": 318,
+   "durationInFrames": 53,
+   "beats": [
+    6,
+    20,
+    34
+   ],
+   "anchorText": "a public waiting room."
+  },
+  {
+   "id": "s6",
+   "component": "Steps",
+   "props": {
+    "items": [
+     {
+      "label": "Watch every tx",
+      "icon": "\ud83d\udc41"
+     },
+     {
+      "label": "Match wallet \u2192 owner",
+      "sub": "exchanges, funds, miners",
+      "icon": "\u2317"
+     }
+    ]
+   },
+   "from": 371,
+   "durationInFrames": 67,
+   "beats": [
+    11,
+    33
+   ],
+   "anchorText": "Bots watch it, match"
+  },
+  {
+   "id": "s7",
+   "component": "Diagram",
+   "props": {
+    "nodes": [
+     {
+      "id": "w",
+      "label": "bc1q\u20267f3a",
+      "x": 500,
+      "y": 220,
+      "icon": "\u25c9",
+      "tone": "muted"
+     },
+     {
+      "id": "o",
+      "label": "Exchange hot wallet",
+      "x": 500,
+      "y": 640,
+      "icon": "\u2605"
+     }
+    ],
+    "edges": [
+     {
+      "from": "w",
+      "to": "o",
+      "label": "labelled"
+     }
+    ],
+    "order": [
+     "w",
+     "w>o",
+     "o"
+    ]
+   },
+   "from": 438,
+   "durationInFrames": 36,
+   "beats": [
+    0,
+    12
+   ],
+   "anchorText": "known owners, and flag"
+  },
+  {
+   "id": "s8",
+   "component": "Title",
+   "props": {
+    "lines": [
+     "\u2691 Flag",
+     "anything huge"
+    ],
+    "accent": [
+     "huge"
+    ],
+    "size": 116
+   },
+   "from": 474,
+   "durationInFrames": 46,
+   "beats": [
+    0,
+    27
+   ],
+   "anchorText": "flag anything huge. Exchange"
+  },
+  {
+   "id": "s9",
+   "component": "Diagram",
+   "props": {
+    "nodes": [
+     {
+      "id": "whale",
+      "label": "Whale wallet",
+      "x": 500,
+      "y": 120,
+      "icon": "\ud83d\udc0b"
+     },
+     {
+      "id": "ex",
+      "label": "Exchange",
+      "x": 500,
+      "y": 450,
+      "icon": "\u21c5",
+      "tone": "alert"
+     },
+     {
+      "id": "sell",
+      "label": "Often a sell",
+      "x": 500,
+      "y": 780,
+      "icon": "\u2198",
+      "tone": "alert"
+     }
+    ],
+    "edges": [
+     {
+      "from": "whale",
+      "to": "ex",
+      "label": "in"
+     },
+     {
+      "from": "ex",
+      "to": "sell",
+      "dashed": true
+     }
+    ],
+    "order": [
+     "whale",
+     "whale>ex",
+     "ex",
+     "ex>sell",
+     "sell"
+    ]
+   },
+   "from": 520,
+   "durationInFrames": 94,
+   "beats": [
+    0,
+    16,
+    29,
+    57,
+    75
+   ],
+   "anchorText": "Exchange wallet in? That's"
+  },
+  {
+   "id": "s10",
+   "component": "Compare",
+   "props": {
+    "left": {
+     "title": "Into exchange",
+     "tone": "alert",
+     "items": [
+      "Often a sell"
+     ]
+    },
+    "right": {
+     "title": "Out of exchange",
+     "tone": "accent",
+     "items": [
+      "Usually cold storage"
+     ]
+    }
+   },
+   "from": 614,
+   "durationInFrames": 95,
+   "beats": [
+    0,
+    16,
+    29,
+    61
+   ],
+   "anchorText": "Exchange wallet out? Usually"
+  },
+  {
+   "id": "s11",
+   "component": "Window",
+   "props": {
+    "url": "sonartracker.io/alerts",
+    "title": "One whale",
+    "rows": [
+     {
+      "label": "BTC \u2192 exchange",
+      "value": "$41.2M",
+      "tone": "alert"
+     },
+     {
+      "label": "Order book",
+      "value": "deep",
+      "tone": "muted"
+     },
+     {
+      "label": "Price impact",
+      "value": "barely",
+      "tone": "muted"
+     }
+    ]
+   },
+   "from": 709,
+   "durationInFrames": 73,
+   "beats": [
+    9,
+    31,
+    51
+   ],
+   "anchorText": "One whale won't move"
+  },
+  {
+   "id": "s12",
+   "component": "Window",
+   "props": {
+    "url": "sonartracker.io/alerts",
+    "title": "Same hour",
+    "rows": [
+     {
+      "label": "BTC \u2192 exchange A",
+      "value": "$41.2M",
+      "tone": "alert"
+     },
+     {
+      "label": "BTC \u2192 exchange B",
+      "value": "$38.9M",
+      "tone": "alert"
+     },
+     {
+      "label": "BTC \u2192 exchange C",
+      "value": "$52.0M",
+      "tone": "alert"
+     },
+     {
+      "label": "Whales, 1 hour",
+      "value": "10",
+      "tone": "accent"
+     }
+    ],
+    "highlight": 3
+   },
+   "from": 782,
+   "durationInFrames": 82,
+   "beats": [
+    0,
+    16,
+    38,
+    49,
+    62
+   ],
+   "anchorText": "Ten of them, the"
+  },
+  {
+   "id": "s13",
+   "component": "Chart",
+   "props": {
+    "kind": "line",
+    "data": [
+     {
+      "label": "",
+      "value": 64
+     },
+     {
+      "label": "",
+      "value": 66
+     },
+     {
+      "label": "",
+      "value": 65
+     },
+     {
+      "label": "now",
+      "value": 58
+     }
+    ],
+    "unit": "k",
+    "highlight": 3
+   },
+   "from": 864,
+   "durationInFrames": 55,
+   "beats": [
+    8,
+    18,
+    29,
+    41
+   ],
+   "anchorText": "So next time price"
+  },
+  {
+   "id": "s14",
+   "component": "Title",
+   "props": {
+    "lines": [
+     "Check where",
+     "the whales",
+     "went first"
+    ],
+    "accent": [
+     "whales"
+    ],
+    "size": 112
+   },
+   "from": 919,
+   "durationInFrames": 82,
+   "beats": [
+    0,
+    33,
+    46
+   ],
+   "anchorText": "check where the whales"
+  }
+ ]
+}

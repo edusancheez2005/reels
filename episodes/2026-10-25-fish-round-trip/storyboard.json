@@ -1,0 +1,470 @@
+{
+ "slug": "fish-round-trip",
+ "theme": "light",
+ "tail": 0.9,
+ "emphasis": [
+  "cod",
+  "China.",
+  "back.",
+  "frozen,",
+  "Suez Canal.",
+  "by hand.",
+  "pin bone,",
+  "again,",
+  "Twice.",
+  "Labour.",
+  "two thousand and nine,",
+  "under a pound",
+  "cheaper",
+  "Norway",
+  "more of the world"
+ ],
+ "scenes": [
+  {
+   "anchor": "This cod",
+   "component": "SeaScene",
+   "theme": "light",
+   "moving": true,
+   "props": {
+    "place": "North Atlantic, off Scotland"
+   },
+   "beats": [
+    "caught",
+    "Scotland"
+   ]
+  },
+  {
+   "anchor": "Before it",
+   "component": "RouteMap",
+   "theme": "light",
+   "transition": "zoom",
+   "long": true,
+   "moving": true,
+   "props": {
+    "pins": [
+     {
+      "name": "Scotland",
+      "lon": -3.2,
+      "lat": 57.0,
+      "beat": 0,
+      "side": "left",
+      "hide": 2
+     },
+     {
+      "name": "UK supermarket",
+      "lon": -1.2,
+      "lat": 52.6,
+      "beat": 1,
+      "side": "right",
+      "hide": 2
+     },
+     {
+      "name": "China",
+      "lon": 120.4,
+      "lat": 36.0,
+      "beat": 3,
+      "side": "left"
+     },
+     {
+      "name": "UK",
+      "lon": -1.5,
+      "lat": 54.5,
+      "beat": 4,
+      "side": "right"
+     }
+    ],
+    "legs": [
+     {
+      "route": "uk-cn",
+      "beat": 2,
+      "dur": 34,
+      "ship": true
+     },
+     {
+      "route": "cn-uk",
+      "beat": 4,
+      "dur": 22,
+      "ship": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": 0,
+      "lon": -2.0,
+      "lat": 55.0,
+      "zoom": 3.4
+     },
+     {
+      "beat": 2,
+      "lon": 57.0,
+      "lat": 30.0,
+      "zoom": 1.0
+     }
+    ]
+   },
+   "beats": [
+    "Before",
+    "supermarket",
+    "went",
+    "China",
+    "back"
+   ]
+  },
+  {
+   "anchor": "Here's why",
+   "component": "Title",
+   "theme": "light",
+   "transition": "pop",
+   "props": {
+    "lines": [
+     "Here's",
+     "why."
+    ],
+    "accent": [
+     "why."
+    ],
+    "size": 150
+   },
+   "beats": [
+    "Here's",
+    "why"
+   ]
+  },
+  {
+   "anchor": "The catch",
+   "component": "ColdChain",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "label": "Refrigerated container",
+    "temp": -18
+   },
+   "beats": [
+    "catch",
+    "frozen",
+    "packed",
+    "shipping"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "and sent",
+   "component": "RouteMap",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "legs": [
+     {
+      "route": "uk-cn",
+      "beat": 0,
+      "dur": 1,
+      "color": "#B9C7D6"
+     },
+     {
+      "route": [
+       [
+        20.0,
+        34.4
+       ],
+       [
+        28.0,
+        32.4
+       ],
+       [
+        32.3,
+        31.4
+       ],
+       [
+        32.5,
+        30.3
+       ],
+       [
+        32.6,
+        29.6
+       ],
+       [
+        34.5,
+        26.8
+       ],
+       [
+        37.6,
+        22.0
+       ]
+      ],
+      "beat": 0,
+      "dur": 46,
+      "ship": true,
+      "label": "\u2744 \u221218\u00b0C"
+     }
+    ],
+    "pins": [
+     {
+      "name": "Suez Canal",
+      "lon": 32.55,
+      "lat": 30.4,
+      "beat": 1,
+      "side": "left"
+     }
+    ],
+    "cam": [
+     {
+      "beat": 0,
+      "lon": 30.5,
+      "lat": 29.5,
+      "zoom": 4.2
+     }
+    ]
+   },
+   "beats": [
+    "sent",
+    "Suez"
+   ]
+  },
+  {
+   "anchor": "In China",
+   "component": "Filleting",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {},
+   "beats": [
+    "China",
+    "thawed",
+    "filleted",
+    "by"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "Every pin",
+   "component": "PinBones",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "count": 8,
+    "label": "pin bones out"
+   },
+   "beats": [
+    "pin",
+    "one",
+    {
+     "anchor": "one",
+     "occurrence": 2
+    }
+   ]
+  },
+  {
+   "anchor": "Then it's",
+   "component": "RouteMap",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "pins": [
+     {
+      "name": "China",
+      "lon": 120.4,
+      "lat": 36.0,
+      "beat": 0,
+      "side": "left"
+     },
+     {
+      "name": "UK",
+      "lon": -1.5,
+      "lat": 54.5,
+      "beat": 2,
+      "side": "right"
+     }
+    ],
+    "legs": [
+     {
+      "route": "cn-uk",
+      "beat": 1,
+      "dur": 26,
+      "ship": true,
+      "label": "\u2744 refrozen"
+     }
+    ]
+   },
+   "beats": [
+    "frozen",
+    "shipped",
+    "home"
+   ]
+  },
+  {
+   "anchor": "Weeks at",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "Weeks at sea.",
+     "Twice."
+    ],
+    "accent": [
+     "Twice."
+    ],
+    "size": 118
+   },
+   "beats": [
+    "Weeks",
+    "Twice"
+   ]
+  },
+  {
+   "anchor": "For one",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "shape": "fish",
+    "label": "1 fillet",
+    "count": 900,
+    "tone": "accent"
+   },
+   "beats": [
+    "one",
+    "fillet"
+   ]
+  },
+  {
+   "anchor": "Why",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Why?",
+     "Labour."
+    ],
+    "accent": [
+     "Labour."
+    ],
+    "size": 140
+   },
+   "beats": [
+    "Why",
+    "Labour"
+   ]
+  },
+  {
+   "anchor": "When reporters",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "source": "Sunday Herald \u00b7 August 2009",
+    "text": "Cod caught off Scotland was shipped to China to be filleted, then sent back.",
+    "mark": "shipped to China",
+    "stamp": "2009"
+   },
+   "beats": [
+    "reporters",
+    "exposed",
+    "two"
+   ]
+  },
+  {
+   "anchor": "Chinese factory",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "pop",
+   "moving": true,
+   "props": {
+    "value": 1,
+    "decimals": 2,
+    "prefix": "< \u00a3",
+    "suffix": "/ day",
+    "label": "reported wage for fish workers in China, 2009",
+    "tone": "alert"
+   },
+   "beats": [
+    "Chinese",
+    "pound",
+    "day"
+   ]
+  },
+  {
+   "anchor": "So shipping",
+   "component": "Scale",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "left": {
+     "title": "Ship it to China & back",
+     "sub": "wages under \u00a31 a day",
+     "coins": 4
+    },
+    "right": {
+     "title": "Fillet it in Britain",
+     "sub": "UK wages",
+     "coins": 9
+    },
+    "verdict": "Cheaper"
+   },
+   "beats": [
+    "shipping",
+    "world",
+    "cheaper"
+   ],
+   "moving": true,
+   "long": true
+  },
+  {
+   "anchor": "By twenty",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "title": "UK seafood imports by weight, 2022",
+    "rows": [
+     {
+      "left": "1   China",
+      "right": "153,277 t",
+      "badge": "#1",
+      "tone": "accent"
+     },
+     {
+      "left": "2   Norway",
+      "badge": "#2",
+      "tone": "muted"
+     }
+    ],
+    "note": "Source: Seafish, Oct 2023"
+   },
+   "beats": [
+    "By",
+    "China",
+    "Norway",
+    "supplier"
+   ]
+  },
+  {
+   "anchor": "So your",
+   "component": "Souvenir",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "stamps": [
+     "SCOTLAND",
+     "SUEZ",
+     "CHINA",
+     "HOME"
+    ]
+   },
+   "beats": [
+    "cod",
+    "seen",
+    "more",
+    "world",
+    "you"
+   ],
+   "long": true
+  }
+ ]
+}

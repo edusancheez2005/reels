@@ -1,0 +1,8 @@
+# Fish round trip — sources
+
+- Cod caught in the North Atlantic off Scotland was deep-frozen, shipped via the Suez Canal to China, thawed and filleted, refrozen and shipped back to the UK; Chinese processing workers reportedly earned less than £1 a day. — Sunday Herald, 23 Aug 2009 (Merritt & Edwards), copy: https://robedwards53.wordpress.com/2009/08/22/the-madness-of-filleting-scottish-fish-in-china/
+- Same practice reported again: Pacific Standard, 1 Feb 2014 (citing Herald Scotland; Norway ships ~80% of minimally processed whitefish to filleters in Asia, Russia, Eastern Europe — Nordic Innovation): https://psmag.com/economics/fish-filleting-robot-eliminate-ridiculous-maritime-voyage-73769/
+- Reported again 2020, with supermarkets (Tesco, Asda, Iceland) quoted; Iceland: European plants "cannot match China on either quality or price": https://www.totallyveganbuzz.com/news/fish-caught-off-britain-shores-travel-10000-miles-before-reaching-supermarket-shelves-in-the-uk/
+- Scottish prawns (Dawnfresh) shipped >5,000 miles to China for hand-shelling and back; "cheaper to process overseas than in the UK" — The Fish Site, May 2007: https://thefishsite.com/articles/british-prawns-go-to-china-then-come-back-again
+- 2022: UK imported 153,277 t (live weight) of seafood from China, +7% on 2021, 12.8% of UK seafood imports; China overtook Norway as largest supplier by live-weight volume; cod, Alaskan pollock, haddock among top species from China — Seafish, 18 Oct 2023: https://www.seafish.org/about-us/news-blogs/outlaw-ocean-investigation-into-chinese-seafood-processors/
+- NOT used: the "10,000-mile round trip" figure (the sea route via Suez is much longer one way; no reliable distance source found, so the script avoids a number).

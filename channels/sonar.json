@@ -1,0 +1,16 @@
+{
+  "name": "sonar",
+  "instagram_account_id": "TODO: connect the Sonar Instagram (Creator/Business) in Windsor.ai, then paste the account id from get_connectors",
+  "handle": "TODO: Sonar Instagram handle",
+  "voice": "af_heart",
+  "brand": {"handle": "", "accent": "#4F8CFF", "fontSource": "system"},
+  "audience": "crypto traders and enthusiasts; sole traders, not institutions",
+  "tone": "calm, factual, no hype, no price predictions, no financial advice",
+  "signoff": "Whale moves, decoded. Track them live at sonartracker.io",
+  "hashtags_base": ["#bitcoin", "#crypto", "#onchain"],
+  "rules": [
+    "Never say or imply a price will go up or down; describe what on-chain moves can mean and that they are often not followed by price moves.",
+    "Every transaction mentioned must be verified on a block explorer and linked in research.md.",
+    "Mention Sonar at most once on screen (end card or a single Window/Shot scene), never as a hard sell."
+  ]
+}

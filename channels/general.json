@@ -1,0 +1,16 @@
+{
+  "name": "general",
+  "instagram_account_id": "same as sonar for now (posted on the Sonar account)",
+  "handle": "TODO: Sonar Instagram handle",
+  "voice": "af_heart",
+  "brand": {"handle": "", "accent": "#3D7BFF", "fontSource": "system"},
+  "audience": "curious people scrolling; no prior knowledge",
+  "tone": "warm, surprising, concrete; one mechanism + one surprising detail",
+  "signoff": "Follow for one 'how does that work?' a day.",
+  "hashtags_base": ["#howitworks", "#explained", "#didyouknow"],
+  "rules": [
+    "History topics: say what is known vs debated; no invented quotes or dates.",
+    "Science topics: one mechanism, explained with a picture for every sentence.",
+    "No Sonar mention in general episodes for now."
+  ]
+}

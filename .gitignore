@@ -1,0 +1,10 @@
+node_modules/
+reel-studio/
+.env
+.env.local
+*.mp4
+*.wav
+*.mov
+episodes/*/qa/
+episodes/*/timeline.json
+__pycache__/

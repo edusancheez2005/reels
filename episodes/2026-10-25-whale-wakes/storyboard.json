@@ -1,0 +1,736 @@
+{
+ "slug": "whale-wakes",
+ "tail": 0.9,
+ "emphasis": [
+  "twelfth",
+  "four thousand,",
+  "million dollars.",
+  "fee?",
+  "Sixty cents.",
+  "March",
+  "forty million.",
+  "flagged",
+  "public.",
+  "mempool,",
+  "bots",
+  "one input,",
+  "five outputs.",
+  "the rest.",
+  "exchange",
+  "selling.",
+  "storage.",
+  "Not one coin",
+  "price.",
+  "coins go."
+ ],
+ "scenes": [
+  {
+   "anchor": "On October",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "shape": "whale",
+    "label": "12 Oct 2026",
+    "sublabel": "18:37 UTC"
+   },
+   "beats": [
+    "twelfth",
+    "Bitcoin"
+   ]
+  },
+  {
+   "anchor": "address moved",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 4582,
+    "suffix": "BTC",
+    "logo": "bitcoin.svg",
+    "chip": "from 18VmXvk\u2026VpQ9x",
+    "tone": "text"
+   },
+   "beats": [
+    "address",
+    "eighty-two"
+   ]
+  },
+  {
+   "anchor": "About three",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "value": 377,
+    "prefix": "$",
+    "suffix": "M",
+    "label": "at $82,338 per bitcoin",
+    "tone": "good"
+   },
+   "beats": [
+    "About",
+    "million",
+    "dollars"
+   ]
+  },
+  {
+   "anchor": "The fee",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "src": "mempool-fee.png",
+    "url": "mempool.space/tx/fae42f\u2026c4d2",
+    "width": 940,
+    "maxHeight": 760,
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.62,
+      "zoom": 1.15
+     },
+     {
+      "x": 0.42,
+      "y": 0.7,
+      "zoom": 1.9
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 352,
+      "y": 430,
+      "w": 74,
+      "h": 40
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 258,
+      "y": 432,
+      "w": 88,
+      "h": 34,
+      "color": "#22C55E"
+     }
+    ],
+    "source": "mempool.space"
+   },
+   "beats": [
+    "fee",
+    "Sixty"
+   ]
+  },
+  {
+   "anchor": "Those coins",
+   "component": "Ruler",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "from": 2019.6,
+    "to": 2027.0,
+    "marks": [
+     {
+      "at": 2020.17,
+      "label": "3 Mar 2020",
+      "sub": "$8,759 / BTC"
+     },
+     {
+      "at": 2026.78,
+      "label": "12 Oct 2026",
+      "sub": "$82,338 / BTC"
+     }
+    ],
+    "span": {
+     "a": 0,
+     "b": 1,
+     "label": "6 years, 7 months"
+    }
+   },
+   "beats": [
+    "landed",
+    "March",
+    {
+     "anchor": "twenty",
+     "occurrence": 2
+    }
+   ]
+  },
+  {
+   "anchor": "when they",
+   "component": "Growth",
+   "theme": "light",
+   "props": {
+    "items": [
+     {
+      "label": "Mar 2020",
+      "value": 40.1,
+      "display": "$40M"
+     },
+     {
+      "label": "Oct 2026",
+      "value": 377.3,
+      "display": "$377M"
+     }
+    ],
+    "badge": "\u00d79.4"
+   },
+   "beats": [
+    "forty",
+    "million"
+   ]
+  },
+  {
+   "anchor": "Within hours",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "theblock-headline.png",
+    "url": "theblock.co",
+    "width": 760,
+    "maxHeight": 880,
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.42,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 160,
+      "y": 86,
+      "w": 100,
+      "h": 42
+     },
+     {
+      "beat": 2,
+      "kind": "circle",
+      "x": 104,
+      "y": 198,
+      "w": 196,
+      "h": 44
+     }
+    ],
+    "source": "The Block, 13 Oct 2026"
+   },
+   "beats": [
+    "hours",
+    "trackers",
+    "flagged"
+   ]
+  },
+  {
+   "anchor": "Because every",
+   "component": "TxWall",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "highlight": {
+     "hash": "fae42fe17f\u20266e9c4d2",
+     "amount": "4,581.94 BTC"
+    }
+   },
+   "beats": [
+    "every",
+    "Bitcoin",
+    "transfer",
+    "public"
+   ]
+  },
+  {
+   "anchor": "Before it's",
+   "component": "Mempool",
+   "theme": "dark",
+   "transition": "pop",
+   "moving": true,
+   "props": {
+    "mode": "fill",
+    "label": "The mempool",
+    "highlight": "4,582 BTC"
+   },
+   "beats": [
+    "confirmed",
+    "waits",
+    "mempool"
+   ]
+  },
+  {
+   "anchor": "where bots",
+   "component": "Mempool",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "mode": "scan",
+    "reader": "bots reading"
+   },
+   "beats": [
+    "bots",
+    "read",
+    "single"
+   ]
+  },
+  {
+   "anchor": "This one",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "mempool-flow.png",
+    "url": "mempool.space/tx/fae42f\u2026c4d2",
+    "width": 940,
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.3,
+      "y": 0.52,
+      "zoom": 1.35
+     },
+     {
+      "x": 0.72,
+      "y": 0.55,
+      "zoom": 1.35
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 18,
+      "y": 140,
+      "w": 125,
+      "h": 80
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 600,
+      "y": 80,
+      "w": 110,
+      "h": 236
+     }
+    ],
+    "source": "mempool.space"
+   },
+   "beats": [
+    "This",
+    "input",
+    "five"
+   ]
+  },
+  {
+   "anchor": "Four of",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "pop",
+   "props": {
+    "src": "mempool-io.png",
+    "url": "mempool.space/tx/fae42f\u2026c4d2",
+    "width": 940,
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.74,
+      "y": 0.5,
+      "zoom": 1.6
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 596,
+      "y": 58,
+      "w": 146,
+      "h": 26
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 596,
+      "y": 88,
+      "w": 146,
+      "h": 26
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 596,
+      "y": 148,
+      "w": 146,
+      "h": 26
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 596,
+      "y": 178,
+      "w": 146,
+      "h": 26
+     },
+     {
+      "beat": 3,
+      "kind": "circle",
+      "x": 604,
+      "y": 118,
+      "w": 136,
+      "h": 26
+     }
+    ],
+    "source": "mempool.space"
+   },
+   "beats": [
+    "Four",
+    "thousand",
+    "each",
+    "rest"
+   ]
+  },
+  {
+   "anchor": "Then everyone",
+   "component": "Phone",
+   "theme": "dark",
+   "transition": "rise",
+   "props": {
+    "time": "19:38",
+    "date": "Monday, 12 October",
+    "notifs": [
+     {
+      "app": "Chain alerts",
+      "icon": "\ud83d\udc0b",
+      "iconBg": "#1D4ED8",
+      "title": "4,582 BTC on the move",
+      "body": "Address 18VmXvk\u2026 active again"
+     },
+     {
+      "app": "Chain alerts",
+      "icon": "\u2464",
+      "iconBg": "#7C3AED",
+      "title": "Split into 5 new addresses",
+      "body": "4 \u00d7 1,000 BTC + 581.94 BTC"
+     },
+     {
+      "app": "Chain alerts",
+      "icon": "\ud83d\udc40",
+      "iconBg": "#0F766E",
+      "title": "Watching for exchange deposits",
+      "body": "bc1qfh5v\u2026, bc1q295g\u2026 and 3 more"
+     }
+    ]
+   },
+   "beats": [
+    "everyone",
+    "watched",
+    "next"
+   ]
+  },
+  {
+   "anchor": "An exchange",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "nodes": [
+     {
+      "id": "btc",
+      "logo": "bitcoin.svg",
+      "label": "4,582 BTC",
+      "x": 500,
+      "y": 150
+     },
+     {
+      "id": "bn",
+      "logo": "binance.svg",
+      "label": "Binance",
+      "x": 290,
+      "y": 520
+     },
+     {
+      "id": "cb",
+      "logo": "coinbase.svg",
+      "label": "Coinbase",
+      "x": 710,
+      "y": 520
+     },
+     {
+      "id": "sell",
+      "label": "Possible sell",
+      "tone": "alert",
+      "x": 500,
+      "y": 800
+     }
+    ],
+    "edges": [
+     {
+      "from": "btc",
+      "to": "bn",
+      "tone": "alert",
+      "flow": true
+     },
+     {
+      "from": "btc",
+      "to": "cb",
+      "tone": "alert",
+      "flow": true
+     }
+    ],
+    "order": [
+     "btc",
+     "btc>bn",
+     "bn",
+     "btc>cb",
+     "cb",
+     "sell"
+    ]
+   },
+   "beats": [
+    "An",
+    "exchange",
+    "would",
+    "hint",
+    "at",
+    "selling"
+   ]
+  },
+  {
+   "anchor": "New wallets",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "pop",
+   "props": {
+    "nodes": [
+     {
+      "id": "btc",
+      "logo": "bitcoin.svg",
+      "x": 500,
+      "y": 130,
+      "size": 0.85
+     },
+     {
+      "id": "w1",
+      "icon": "\ud83d\udd12",
+      "x": 110,
+      "y": 500,
+      "size": 0.72,
+      "tone": "good"
+     },
+     {
+      "id": "w2",
+      "icon": "\ud83d\udd12",
+      "x": 305,
+      "y": 500,
+      "size": 0.72,
+      "tone": "good"
+     },
+     {
+      "id": "w3",
+      "icon": "\ud83d\udd12",
+      "x": 500,
+      "y": 500,
+      "size": 0.72,
+      "tone": "good"
+     },
+     {
+      "id": "w4",
+      "icon": "\ud83d\udd12",
+      "x": 695,
+      "y": 500,
+      "size": 0.72,
+      "tone": "good"
+     },
+     {
+      "id": "w5",
+      "icon": "\ud83d\udd12",
+      "x": 890,
+      "y": 500,
+      "size": 0.72,
+      "tone": "good"
+     },
+     {
+      "id": "cold",
+      "label": "Usually storage",
+      "tone": "good",
+      "x": 500,
+      "y": 790
+     }
+    ],
+    "edges": [
+     {
+      "from": "btc",
+      "to": "w1",
+      "tone": "good",
+      "flow": true
+     },
+     {
+      "from": "btc",
+      "to": "w2",
+      "tone": "good",
+      "flow": true
+     },
+     {
+      "from": "btc",
+      "to": "w3",
+      "tone": "good",
+      "flow": true
+     },
+     {
+      "from": "btc",
+      "to": "w4",
+      "tone": "good",
+      "flow": true
+     },
+     {
+      "from": "btc",
+      "to": "w5",
+      "tone": "good",
+      "flow": true
+     }
+    ],
+    "order": [
+     "btc",
+     [
+      "btc>w1",
+      "btc>w2",
+      "btc>w3",
+      "btc>w4",
+      "btc>w5"
+     ],
+     [
+      "w1",
+      "w2",
+      "w3",
+      "w4",
+      "w5"
+     ],
+     "cold"
+    ]
+   },
+   "beats": [
+    "New",
+    "wallets",
+    "mean",
+    "storage"
+   ]
+  },
+  {
+   "anchor": "Nearly two",
+   "component": "Checklist",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "counter": {
+     "to": 13,
+     "suffix": "days"
+    },
+    "title": "later",
+    "rows": [
+     {
+      "left": "bc1qfh5v\u2026eyg3q9",
+      "right": "1,000",
+      "badge": "UNSPENT"
+     },
+     {
+      "left": "bc1qk2p5\u2026kx9r8g",
+      "right": "1,000",
+      "badge": "UNSPENT"
+     },
+     {
+      "left": "bc1q0n89\u2026565zpv",
+      "right": "581.94",
+      "badge": "UNSPENT"
+     },
+     {
+      "left": "bc1qccue\u2026x7x7ls7",
+      "right": "1,000",
+      "badge": "UNSPENT"
+     },
+     {
+      "left": "bc1q295g\u2026rekhj2",
+      "right": "1,000",
+      "badge": "UNSPENT"
+     }
+    ],
+    "note": "Checked on mempool.space, 25 Oct 2026"
+   },
+   "beats": [
+    "Nearly",
+    "two",
+    "weeks",
+    "later",
+    "Not",
+    "one",
+    "coin"
+   ]
+  },
+  {
+   "anchor": "So when",
+   "component": "PriceLine",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "label": "price",
+    "strike": "noise"
+   },
+   "beats": [
+    "whale",
+    "price"
+   ]
+  },
+  {
+   "anchor": "Watch where",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "shape": "whale",
+    "formed": true,
+    "split": [
+     {
+      "x": 110,
+      "y": 420,
+      "label": "bc1qfh5v\u2026"
+     },
+     {
+      "x": 305,
+      "y": 420,
+      "label": "bc1qk2p5\u2026"
+     },
+     {
+      "x": 500,
+      "y": 420,
+      "label": "bc1q0n89\u2026"
+     },
+     {
+      "x": 695,
+      "y": 420,
+      "label": "bc1qccue\u2026"
+     },
+     {
+      "x": 890,
+      "y": 420,
+      "label": "bc1q295g\u2026"
+     }
+    ]
+   },
+   "beats": [
+    "Watch",
+    "coins"
+   ]
+  }
+ ]
+}

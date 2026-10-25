@@ -1,0 +1,30 @@
+{
+  "name": "reel-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Word-synced explainer reels (Remotion). Driven by src/timeline.json from build_timeline.py.",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Reel out/reel.mp4 --codec h264 --crf 18",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/captions": "4.0.538",
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.538",
+    "simple-icons": "16.35.0",
+    "d3-geo": "3.1.1",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "typescript": "5.8.3",
+    "@types/d3-geo": "^3.1.0",
+    "@types/topojson-client": "^3.1.5",
+    "playwright": "^1.50.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "handle": "@yourhandle",
+  "voiceId": "",
+  "accent": "#4F8CFF",
+  "alert": "#FF5C5C",
+  "bg": "#0B0D12",
+  "panel": "#151923",
+  "line": "#2A3142",
+  "text": "#E8ECF4",
+  "muted": "#8A93A6",
+  "fontSource": "google",
+  "captionSize": 86,
+  "captionY": 1330,
+  "progressBar": true,
+  "notes": []
+}
