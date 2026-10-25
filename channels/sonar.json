@@ -5,20 +5,39 @@
   "voice": "af_heart",
   "brand": {
     "handle": "",
-    "accent": "#4F8CFF",
-    "fontSource": "system"
+    "fontSource": "system",
+    "bg": "#070b12",
+    "panel": "#0d141f",
+    "line": "#1c2a3c",
+    "text": "#e9f0f7",
+    "muted": "#8595a8",
+    "accent": "#3bc9ee",
+    "alert": "#ff5b6b"
   },
   "audience": "crypto traders and enthusiasts; sole traders, not institutions",
   "tone": "calm, factual, no hype, no price predictions, no financial advice",
-  "signoff": "Whale moves, decoded. Track them live at sonartracker.io",
+  "signoff": "Comment \"WHALE\" and Orca will DM you the breakdown.",
   "hashtags_base": [
-    "#bitcoin",
-    "#crypto",
-    "#onchain"
+    "#Bitcoin",
+    "#CryptoNews",
+    "#WhaleAlert",
+    "#OnChain",
+    "#SmartMoney",
+    "#Sonar"
   ],
   "rules": [
     "Never say or imply a price will go up or down; describe what on-chain moves can mean and that they are often not followed by price moves.",
     "Every transaction mentioned must be verified on a block explorer and linked in research.md.",
-    "Mention Sonar at most once on screen (end card or a single Window/Shot scene), never as a hard sell."
+    "Mention Sonar at most once on screen (end card or a single Window/Shot scene), never as a hard sell.",
+    "Green only for moves that are up over the window shown, red only for down; always pair colour with a text label."
+  ],
+  "style_source": "edusancheez2005/sonar: IG_CONTENT_PLAYBOOK.md \u00a72 (colours), \u00a76 (Orca voice), \u00a77 (data integrity), \u00a78 (captions). Same account, same look.",
+  "caption_format": [
+    "Line 1: the hook, keyword-rich (Instagram search reads captions).",
+    "1\u20132 lines with the real numbers.",
+    "Comment \"WHALE\" and Orca will DM you the breakdown.",
+    "Not financial advice.",
+    "5\u20137 hashtags mixing big and niche: #Bitcoin #CryptoNews #WhaleAlert #OnChain #SmartMoney #Sonar",
+    "Then a 'Sources:' block (posted as the first comment, not in the caption)."
   ]
 }

@@ -6,11 +6,16 @@
   "brand": {
     "handle": "",
     "accent": "#3D7BFF",
-    "fontSource": "system"
+    "fontSource": "system",
+    "bg": "#070b12",
+    "panel": "#0d141f",
+    "line": "#1c2a3c",
+    "text": "#e9f0f7",
+    "muted": "#8595a8"
   },
   "audience": "curious people scrolling; no prior knowledge",
   "tone": "warm, surprising, concrete; one mechanism + one surprising detail",
-  "signoff": "Follow for one 'how does that work?' a day.",
+  "signoff": "Follow @sonartracker.io for more.",
   "hashtags_base": [
     "#howitworks",
     "#explained",
@@ -20,5 +25,12 @@
     "History topics: say what is known vs debated; no invented quotes or dates.",
     "Science topics: one mechanism, explained with a picture for every sentence.",
     "No Sonar mention in general episodes for now."
+  ],
+  "caption_format": [
+    "Line 1: the hook as a question or surprising fact.",
+    "1\u20132 lines of substance.",
+    "Follow @sonartracker.io for one 'how does that work?' every week.",
+    "4\u20136 hashtags.",
+    "Then a 'Sources:' block for the first comment."
   ]
 }
