@@ -22,7 +22,8 @@ Repo: `edusancheez2005/reels` (public). Engine docs: `engine/SKILL.md` + `engine
 ## 0. Start
 
 ```bash
-# the repo is attached via add_repo (owner edusancheez2005, repo reels, access push)
+# attach first: add_repo(owner=edusancheez2005, repo=reels, access=push). If RUNBOOK.md is missing after cloning,
+# the engine hasn't been pushed yet: notify Edu ("reels repo is empty, setup unfinished") and stop.
 git clone https://github.com/edusancheez2005/reels.git ~/reels && cd ~/reels
 bash tools/setup.sh            # studio deps, voice model, headless Chrome; prints the env to source
 source .env.local              # REMOTION_BROWSER etc.
@@ -76,7 +77,7 @@ Then stop. Do not post.
 
 ## 5. When Edu replies
 
-- **"post it"** (explicit): publish with Windsor.ai → connector `instagram`, action `create_video_post`,
+- **"post it"** (explicit): publish with Windsor.ai (the "Windsor.ai for Social Media" connector) → connector `instagram`, action `create_video_post`,
   account = `channels/<channel>.json → instagram_account_id`, `video_url` = the release URL, `caption` =
   caption.txt without the Sources block, `share_to_feed: true`. Then post the Sources block as the first
   comment (`create_comment`) if the account allows it. Report the result. If the Instagram account isn't
