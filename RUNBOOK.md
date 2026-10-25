@@ -31,7 +31,7 @@ source .env.local              # REMOTION_BROWSER etc.
 
 ## 1. Pick the channel and topic
 
-- Channel = `channels/rota.json[weekday]` (Europe/London date). Load `channels/<channel>.json`.
+- Channel = `channels/rota.json[weekday]` (Europe/London date); if the day isn't listed (a manual weekend run), use `general`. Load `channels/<channel>.json`.
 - Apply its brand: `python3 tools/use_channel.py <channel>` (writes `reel-studio/brand.json`).
 - Topic:
   - **sonar**: first look for a notable verified on-chain event from the last 7 days (whale
