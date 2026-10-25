@@ -8,9 +8,9 @@ and posted to Instagram **only after a human approves each video**.
 - **RUNBOOK.md**: what every scheduled run does, including the approval gate.
 - **channels/**: brand, tone, rules and Instagram account per channel, plus `rota.json` (which weekday runs which channel).
 - **backlog/**: topic queues per channel (ticked when produced).
-- **episodes/**: every episode's script, sources, storyboard, word timings and caption. Videos are
-  attached to [Releases](../../releases), not committed.
-- **tools/**: `setup.sh`, `use_channel.py`, `finish_episode.py`, `release.sh`.
+- **episodes/**: every episode's script, sources, storyboard, word timings and caption. Videos live on the
+  `media` branch (newest 12 only), served at raw.githubusercontent.com links for Instagram to fetch.
+- **tools/**: `setup.sh`, `use_channel.py`, `finish_episode.py`, `publish_media.sh`.
 
 ## Schedule
 Mon/Wed/Fri: general "how does that work?" topics. Tue/Thu: Sonar on-chain topics.

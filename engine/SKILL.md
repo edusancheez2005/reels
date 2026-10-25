@@ -23,7 +23,7 @@ Read before the first episode, and whenever a step is unclear:
 - `references/script-guide.md` — hooks, structure, writing for the ear
 - `references/visual-style.md` — the look: kinetic captions, light/dark rhythm, motion, transitions
 - `references/storyboard-spec.md` — storyboard fields and every scene component with its props
-- `examples/whale-wakes/` (real data, screenshots, logos) and `examples/fish-round-trip/`
+- `../episodes/2026-10-25-whale-wakes/` (real data, screenshots, logos) and `../episodes/2026-10-25-fish-round-trip/`
   (pure illustration: map route, characters). Both pass validation; copy their density.
 
 ## 0. Setup (first run in a folder)

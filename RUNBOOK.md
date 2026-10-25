@@ -16,7 +16,7 @@ Repo: `edusancheez2005/reels` (public). Engine docs: `engine/SKILL.md` + `engine
    verified, cut it. Don't soften it.
 3. No fake screenshots, fake quotes, fake posts by real people or organisations, or hand-drawn logos
    (use `engine/scripts/get_logos.mjs`). Illustrations are labelled as illustrations where it matters.
-4. Never commit secrets. Never commit media (mp4, wav); media goes to GitHub Releases.
+4. Never commit secrets. Never commit media (mp4, wav) to `main`; videos go to the `media` branch via `tools/publish_media.sh`.
 5. Keep the run lean: read only what you need, at most 3 QA rounds, one final render.
 
 ## 0. Start
@@ -58,29 +58,33 @@ source .env.local              # REMOTION_BROWSER etc.
 - `cover.jpg` (strongest frame) and `caption.txt`: 1–2 lines + 3–5 hashtags + the channel's sign-off;
   a final "Sources:" block for the first comment.
 
-## 3. Save and publish the media (not the post)
+## 3. Save the episode and host the video (this is NOT posting)
 
 ```bash
-python3 tools/finish_episode.py episodes/<id>   # ticks the backlog item, writes episodes/<id>/meta.json
-git add -A && git commit -m "episode: <id>" && git push
-bash tools/release.sh episodes/<id>             # uploads mp4 + cover to a GitHub Release; prints the public video URL
+python3 tools/finish_episode.py episodes/<id> --channel <channel> --topic "<backlog item text>"
+git add -A && git commit -m "episode: <id>" && git push      # scripts, sources, storyboard, caption (no media)
+bash tools/publish_media.sh episodes/<id>                   # pushes mp4 + cover to the media branch; prints VIDEO_URL / COVER_URL
 ```
+`VIDEO_URL` is a public raw.githubusercontent.com link that Instagram downloads the video from. GitHub Releases
+are not available to these sessions, so don't use them.
 
 ## 4. Hand over and wait
 
 Send Edu (status "proactive", so it reaches his phone):
 - the mp4 (SendUserFile),
-- a message with the topic, the caption, the sources, the release URL, the target Instagram account, and:
+- a message with the topic, the caption, the sources, the VIDEO_URL, the target Instagram account (@sonartracker.io), and:
   **"Reply 'post it' to publish, or tell me what to change."**
 
 Then stop. Do not post.
 
 ## 5. When Edu replies
 
-- **"post it"** (explicit): publish with Windsor.ai (the "Windsor.ai for Social Media" connector) → connector `instagram`, action `create_video_post`,
-  account = `channels/<channel>.json → instagram_account_id`, `video_url` = the release URL, `caption` =
-  caption.txt without the Sources block, `share_to_feed: true`. Then post the Sources block as the first
-  comment (`create_comment`) if the account allows it. Report the result. If the Instagram account isn't
-  connected in Windsor, say so and leave the files for a manual upload.
-- **Changes requested**: edit, rebuild, re-render, re-upload (new release asset), and send again. Wait again.
+- **"post it"** (explicit): publish with the **Windsor.ai for Social Media** connector:
+  `execute_action(connector="instagram", account="17841440268229419", action="create_video_post",
+  params={video_url: VIDEO_URL, cover_url: COVER_URL, caption: <caption.txt without the Sources block>, share_to_feed: true})`.
+  Then post the Sources block as the first comment (`create_comment` with the new media id) if one is returned.
+  If Instagram rejects the video URL, retry once with the Pages URL if GitHub Pages is enabled; otherwise tell Edu
+  and attach the mp4 + caption for a manual upload. Report exactly what happened, then update `episodes/<id>/meta.json`
+  (`posted: true`, the permalink if available) and push.
+- **Changes requested**: edit, rebuild, re-render, re-run publish_media.sh (same id overwrites the video), and send again. Wait again.
 - **"skip"**: leave it unposted and untick nothing.

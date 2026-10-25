@@ -11,7 +11,7 @@ meta_p = ep / "meta.json"
 meta = json.loads(meta_p.read_text()) if meta_p.exists() else {}
 meta.update({"id": eid, "channel": a.channel or meta.get("channel"), "topic": a.topic or meta.get("topic"),
              "produced_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
-             "video_url": f"https://github.com/edusancheez2005/reels/releases/download/ep-{eid}/{eid}.mp4",
+             "video_url": f"https://raw.githubusercontent.com/edusancheez2005/reels/media/v/{eid}.mp4",
              "posted": meta.get("posted", False)})
 meta_p.write_text(json.dumps(meta, indent=2))
 if meta.get("channel") and meta.get("topic"):

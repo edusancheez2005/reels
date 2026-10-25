@@ -1,6 +1,6 @@
 {
   "name": "general",
-  "instagram_account_id": "PENDING: connect Instagram (Business/Creator) in Windsor via the \"Instagram\" connector, then use the account id from Windsor get_connectors (connector \"instagram\")",
+  "instagram_account_id": "17841440268229419",
   "handle": "@sonartracker.io",
   "voice": "af_heart",
   "brand": {
@@ -32,5 +32,6 @@
     "Follow @sonartracker.io for one 'how does that work?' every week.",
     "4\u20136 hashtags.",
     "Then a 'Sources:' block for the first comment."
-  ]
+  ],
+  "instagram_connector": "Windsor.ai for Social Media \u2192 connector \"instagram\" (account \"sonartracker.io\")"
 }
