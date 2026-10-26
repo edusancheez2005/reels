@@ -1,0 +1,901 @@
+{
+ "slug": "battery-lithium",
+ "theme": "dark",
+ "tail": 1.0,
+ "emphasis": [
+  "plastic wall",
+  "thinner",
+  "catch fire.",
+  "two sides.",
+  "Graphite",
+  "metal oxide",
+  "lithium",
+  "an electron",
+  "only lets the atom through.",
+  "long way,",
+  "power.",
+  "pierce",
+  "shortcut,",
+  "faster and faster,",
+  "burns.",
+  "twenty sixteen,",
+  "three million",
+  "thinner than most hairs."
+ ],
+ "scenes": [
+  {
+   "anchor": "There's",
+   "component": "Phone3D",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "rotY": 0.35,
+    "spinTo": 2.72,
+    "screenOn": true,
+    "actions": [
+     "spin",
+     "open",
+     "wall"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0,
+       10.2
+      ],
+      "look": [
+       0,
+       0,
+       0
+      ]
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       -0.3,
+       8.4
+      ],
+      "look": [
+       0,
+       -0.6,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "plastic",
+    "inside",
+    "phone"
+   ]
+  },
+  {
+   "anchor": "thinner",
+   "component": "Hair3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "hair": 80,
+    "film": 20,
+    "actions": [
+     "film",
+     "label:0",
+     "label:1"
+    ],
+    "caption": "Illustration to scale: hair \u2248 80 \u00b5m, separator \u2248 20 \u00b5m",
+    "tags": [
+     {
+      "text": "Human hair",
+      "x": 540,
+      "y": 560
+     },
+     {
+      "text": "The wall",
+      "x": 540,
+      "y": 1330,
+      "tone": "accent"
+     }
+    ]
+   },
+   "beats": [
+    "thinner",
+    "human",
+    "hairs"
+   ]
+  },
+  {
+   "anchor": "If it fails",
+   "component": "Phone3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "rotY": 2.72,
+    "opened": true,
+    "wall": 1,
+    "actions": [
+     "heat"
+    ],
+    "caption": "Illustration",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       -0.3,
+       8.8
+      ],
+      "look": [
+       0,
+       -0.6,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "fails"
+   ]
+  },
+  {
+   "anchor": "Here's why",
+   "component": "Phone3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "rotY": 2.4,
+    "rotX": 0.2,
+    "opened": true,
+    "wall": 1,
+    "actions": [
+     "explode",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Battery",
+      "x": 540,
+      "y": 440,
+      "tone": "accent"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0,
+       10.2
+      ],
+      "look": [
+       0,
+       0,
+       0
+      ]
+     },
+     {
+      "beat": 0,
+      "pos": [
+       6.5,
+       1.2,
+       8.5
+      ],
+      "look": [
+       0,
+       -0.4,
+       -0.8
+      ],
+      "dur": 34
+     }
+    ]
+   },
+   "beats": [
+    "why",
+    "there"
+   ]
+  },
+  {
+   "anchor": "Your battery",
+   "component": "Cell3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "ions": "cathode",
+    "actions": [
+     "build",
+     "cam"
+    ],
+    "caption": "Magnified illustration",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       10,
+       4,
+       17
+      ],
+      "look": [
+       0.3,
+       -0.9,
+       0
+      ]
+     },
+     {
+      "beat": 1,
+      "pos": [
+       7.5,
+       2.4,
+       13
+      ],
+      "look": [
+       0.3,
+       -0.9,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "battery",
+    "two"
+   ]
+  },
+  {
+   "anchor": "Graphite",
+   "component": "Cell3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "ions": "cathode",
+    "actions": [
+     "focusL",
+     "label:0",
+     "focusR",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "Graphite",
+      "x": 300,
+      "y": 430,
+      "tone": "accent"
+     },
+     {
+      "text": "Metal oxide",
+      "x": 800,
+      "y": 430,
+      "tone": "warm"
+     }
+    ]
+   },
+   "beats": [
+    "Graphite",
+    "one",
+    "metal",
+    "oxide"
+   ]
+  },
+  {
+   "anchor": "Charging",
+   "component": "Cell3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "ions": "cathode",
+    "dur": 34,
+    "actions": [
+     "wire",
+     "charge",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Charging",
+      "x": 540,
+      "y": 430,
+      "tone": "good"
+     }
+    ]
+   },
+   "beats": [
+    "Charging",
+    "pushes",
+    "graphite"
+   ]
+  },
+  {
+   "anchor": "Unplug",
+   "component": "Cell3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "ions": "anode",
+    "wire": true,
+    "actions": [
+     "restless",
+     "cam"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       7.5,
+       2.4,
+       13
+      ],
+      "look": [
+       0.3,
+       -0.9,
+       0
+      ]
+     },
+     {
+      "beat": 1,
+      "pos": [
+       4.6,
+       1.4,
+       9.5
+      ],
+      "look": [
+       -0.8,
+       -0.8,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "Unplug",
+    "wants"
+   ]
+  },
+  {
+   "anchor": "But to cross",
+   "component": "Cell3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "ions": "anode",
+    "wire": true,
+    "actions": [
+     "cam",
+     "split",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Electron",
+      "x": 540,
+      "y": 430,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       4.6,
+       1.4,
+       9.5
+      ],
+      "look": [
+       -0.8,
+       -0.8,
+       0
+      ]
+     },
+     {
+      "beat": 0,
+      "pos": [
+       0.4,
+       0.9,
+       6.8
+      ],
+      "look": [
+       -1.63,
+       -0.5,
+       0
+      ],
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "cross",
+    "leaves",
+    "electron"
+   ]
+  },
+  {
+   "anchor": "and the wall",
+   "component": "Cell3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "ions": "anode",
+    "wire": true,
+    "actions": [
+     "focusWall",
+     "block",
+     "pass"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       5.2,
+       1.4,
+       9.4
+      ],
+      "look": [
+       0,
+       -0.6,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "wall",
+    "only",
+    "atom"
+   ]
+  },
+  {
+   "anchor": "So electrons",
+   "component": "Phone3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "rotY": 2.9,
+    "opened": true,
+    "wall": 0.6,
+    "actions": [
+     "path",
+     "cam"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.3,
+       9.0
+      ],
+      "look": [
+       0,
+       -0.1,
+       0
+      ]
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       0.7,
+       7.2
+      ],
+      "look": [
+       0,
+       0.2,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "long",
+    "phone"
+   ]
+  },
+  {
+   "anchor": "That detour",
+   "component": "Phone3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "rotY": 0.3,
+    "pct": 0.35,
+    "pctTo": 0.82,
+    "actions": [
+     "screen"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0,
+       10.2
+      ],
+      "look": [
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "detour"
+   ]
+  },
+  {
+   "anchor": "Now pierce",
+   "component": "Cell3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "ions": "anode",
+    "wire": true,
+    "actions": [
+     "pierce"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       4.4,
+       1.2,
+       8.2
+      ],
+      "look": [
+       0.2,
+       -0.6,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "pierce"
+   ]
+  },
+  {
+   "anchor": "The electrons take",
+   "component": "Cell3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "ions": "anode",
+    "wire": true,
+    "hole": true,
+    "actions": [
+     "short",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Short circuit",
+      "x": 540,
+      "y": 430,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       4.4,
+       1.2,
+       8.2
+      ],
+      "look": [
+       0.2,
+       -0.6,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "shortcut",
+    "straight"
+   ]
+  },
+  {
+   "anchor": "The cell starts",
+   "component": "Cell3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "ions": "anode",
+    "wire": true,
+    "hole": true,
+    "actions": [
+     "short",
+     "heat",
+     "cam"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       7.5,
+       2.4,
+       13
+      ],
+      "look": [
+       0.3,
+       -0.9,
+       0
+      ]
+     },
+     {
+      "beat": 2,
+      "pos": [
+       6.2,
+       2.0,
+       11.2
+      ],
+      "look": [
+       0.2,
+       -0.8,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "cell",
+    "heating",
+    "faster"
+   ]
+  },
+  {
+   "anchor": "until it vents",
+   "component": "Phone3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "rotY": 2.75,
+    "opened": true,
+    "wall": 1,
+    "heat0": 0.55,
+    "actions": [
+     "heat"
+    ],
+    "caption": "Illustration",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       -0.2,
+       9.4
+      ],
+      "look": [
+       0,
+       -0.6,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "until"
+   ]
+  },
+  {
+   "anchor": "In twenty",
+   "component": "Cell3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "ions": "anode",
+    "wire": true,
+    "actions": [
+     "label:0",
+     "pierce",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "2016",
+      "x": 540,
+      "y": 440,
+      "size": 90
+     },
+     {
+      "text": "Metal burr",
+      "x": 760,
+      "y": 1250,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       4.6,
+       1.4,
+       8.6
+      ],
+      "look": [
+       0.4,
+       -0.6,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "twenty",
+    "burr",
+    "pierced"
+   ]
+  },
+  {
+   "anchor": "inside some",
+   "component": "Swarm3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "logo": "samsung.svg",
+    "title": "Galaxy Note 7",
+    "actions": [
+     "title"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       2.2,
+       6
+      ],
+      "look": [
+       0,
+       0,
+       -2
+      ]
+     },
+     {
+      "beat": 0,
+      "pos": [
+       0,
+       6,
+       10
+      ],
+      "look": [
+       0,
+       0,
+       -3
+      ],
+      "dur": 110
+     }
+    ]
+   },
+   "beats": [
+    "Samsung"
+   ]
+  },
+  {
+   "anchor": "about three",
+   "component": "Swarm3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "logo": "samsung.svg",
+    "title": "Galaxy Note 7 recall, 2016",
+    "value": 3000000,
+    "sub": "about 3 million phones",
+    "actions": [
+     "count"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       6,
+       10
+      ],
+      "look": [
+       0,
+       0,
+       -3
+      ]
+     },
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       6,
+       10
+      ],
+      "look": [
+       0,
+       0,
+       -3
+      ]
+     },
+     {
+      "beat": 0,
+      "pos": [
+       0,
+       14,
+       15
+      ],
+      "look": [
+       0,
+       0,
+       -5
+      ],
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "million"
+   ]
+  },
+  {
+   "anchor": "All because",
+   "component": "Phone3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "rotY": 2.72,
+    "opened": true,
+    "actions": [
+     "wall",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "The wall",
+      "x": 540,
+      "y": 440,
+      "tone": "accent",
+      "to": [
+       312,
+       1050
+      ]
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       -0.3,
+       8.4
+      ],
+      "look": [
+       0,
+       -0.6,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "wall",
+    "thinner"
+   ]
+  }
+ ]
+}

@@ -2,7 +2,9 @@
   "id": "2026-10-26-battery-lithium",
   "channel": "general",
   "topic": "How does a lithium-ion battery actually store energy?",
-  "produced_at": "2026-10-26T07:12:25+00:00",
+  "produced_at": "2026-10-26T13:25:24+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-26-battery-lithium.mp4",
-  "posted": false
+  "posted": false,
+  "version": 2,
+  "title": "The wall inside your phone battery"
 }

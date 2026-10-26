@@ -1,0 +1,16 @@
+There's a plastic wall inside your phone thinner than most human hairs. If it fails, your phone can catch fire. 🔥
+
+It keeps your battery's two sides apart, so electrons have to take the long way round, through your phone. Pierce it, and they take the shortcut. That's what happened inside some Galaxy Note 7 batteries in 2016.
+
+Follow @sonartracker.io for one "how does that work?" every week.
+
+#howitworks #explained #didyouknow #science #batteries #tech
+
+Sources:
+- Battery University BU-306, the separator: https://batteryuniversity.com/article/bu-306-what-is-the-function-of-the-separator
+- BioNumbers (Harvard), human hair diameter: https://bionumbers.hms.harvard.edu/bionumber.aspx?id=116402
+- UL Research Institutes, what causes thermal runaway: https://ul.org/research-updates/what-causes-thermal-runaway/
+- Argonne National Laboratory, Science 101: Batteries: https://www.anl.gov/science-101/batteries
+- Chemistry World (9 Oct 2019): https://www.chemistryworld.com/news/why-have-lithium-ion-batteries-just-won-the-chemistry-nobel-prize/4010479.article
+- The Engineer (Jan 2017), Samsung Note 7 findings: https://www.theengineer.co.uk/samsung-delivers-post-mortem-on-note-7-battery-malfunctions
+- MIT Technology Review (23 Jan 2017): https://www.technologyreview.com/2017/01/23/154440/samsung-explains-the-details-behind-the-galaxy-note-7s-fiery-end/

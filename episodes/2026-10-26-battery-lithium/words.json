@@ -1,981 +1,988 @@
 [
  {
-  "text": "Your",
+  "text": "There's",
   "startMs": 80,
-  "endMs": 260,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " phone",
-  "startMs": 260,
-  "endMs": 560,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " battery",
-  "startMs": 560,
-  "endMs": 980,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " doesn't",
-  "startMs": 980,
-  "endMs": 1400,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " store",
-  "startMs": 1420,
-  "endMs": 1760,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " electricity.",
-  "startMs": 1760,
-  "endMs": 2480,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " It",
-  "startMs": 2780,
-  "endMs": 2860,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " stores",
-  "startMs": 2860,
-  "endMs": 3240,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " lithium,",
-  "startMs": 3240,
-  "endMs": 3650,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " parked",
-  "startMs": 3860,
-  "endMs": 4110,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " on",
-  "startMs": 4110,
-  "endMs": 4410,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 4410,
-  "endMs": 4520,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " wrong",
-  "startMs": 4580,
-  "endMs": 4738,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " side.",
-  "startMs": 4740,
-  "endMs": 5010,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " Inside",
-  "startMs": 5310,
-  "endMs": 5732,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " are",
-  "startMs": 5780,
-  "endMs": 5913,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " two",
-  "startMs": 5920,
-  "endMs": 6150,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " layered",
-  "startMs": 6150,
-  "endMs": 6517,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " materials.",
-  "startMs": 6540,
-  "endMs": 7120,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " On",
-  "startMs": 7420,
-  "endMs": 7595,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " one",
-  "startMs": 7600,
-  "endMs": 7828,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " side,",
-  "startMs": 7840,
-  "endMs": 8120,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " graphite,",
-  "startMs": 8350,
-  "endMs": 8820,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 9050,
-  "endMs": 9170,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " same",
-  "startMs": 9170,
-  "endMs": 9400,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " stuff",
-  "startMs": 9400,
-  "endMs": 9750,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " as",
-  "startMs": 9750,
-  "endMs": 9870,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " pencil",
-  "startMs": 9870,
-  "endMs": 10240,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " lead.",
-  "startMs": 10240,
-  "endMs": 10570,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " On",
-  "startMs": 10870,
-  "endMs": 11045,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 11090,
-  "endMs": 11162,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " other,",
-  "startMs": 11250,
-  "endMs": 11395,
+  "endMs": 350,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " a",
-  "startMs": 11580,
-  "endMs": 11803,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " metal",
-  "startMs": 11860,
-  "endMs": 12153,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " oxide.",
-  "startMs": 12160,
-  "endMs": 12620,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " Between",
-  "startMs": 12920,
-  "endMs": 13335,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " them,",
-  "startMs": 13350,
-  "endMs": 13543,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " a",
-  "startMs": 13680,
-  "endMs": 13906,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " liquid,",
-  "startMs": 13910,
-  "endMs": 14269,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " and",
-  "startMs": 14540,
-  "endMs": 14630,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " a",
-  "startMs": 14630,
-  "endMs": 14788,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " thin",
-  "startMs": 14870,
-  "endMs": 14940,
+  "startMs": 350,
+  "endMs": 513,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " plastic",
-  "startMs": 14940,
-  "endMs": 15411,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " wall.",
-  "startMs": 15420,
-  "endMs": 15670,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " Plug",
-  "startMs": 15970,
-  "endMs": 16190,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " in,",
-  "startMs": 16190,
-  "endMs": 16411,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " and",
-  "startMs": 16630,
-  "endMs": 16720,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 16720,
-  "endMs": 16908,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " charger",
-  "startMs": 16910,
-  "endMs": 17405,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " drives",
-  "startMs": 17410,
-  "endMs": 17791,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " lithium",
-  "startMs": 17800,
-  "endMs": 18170,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " out",
-  "startMs": 18170,
-  "endMs": 18390,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " of",
-  "startMs": 18390,
-  "endMs": 18490,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 18490,
-  "endMs": 18619,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " oxide.",
-  "startMs": 18620,
-  "endMs": 19060,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " It",
-  "startMs": 19360,
-  "endMs": 19464,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " drifts",
-  "startMs": 19470,
-  "endMs": 19830,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " through",
-  "startMs": 19830,
-  "endMs": 20070,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 20070,
-  "endMs": 20190,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " liquid,",
-  "startMs": 20190,
-  "endMs": 20560,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " slips",
-  "startMs": 20750,
-  "endMs": 21080,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " through",
-  "startMs": 21080,
-  "endMs": 21340,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 21340,
-  "endMs": 21447,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " wall,",
-  "startMs": 21450,
-  "endMs": 21708,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " and",
-  "startMs": 21920,
-  "endMs": 22020,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " slots",
-  "startMs": 22020,
-  "endMs": 22438,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " between",
-  "startMs": 22440,
-  "endMs": 22770,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 22770,
-  "endMs": 22960,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " graphite",
-  "startMs": 22970,
-  "endMs": 23377,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " layers.",
-  "startMs": 23380,
-  "endMs": 23690,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " That's",
-  "startMs": 23990,
-  "endMs": 24280,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " a",
-  "startMs": 24280,
-  "endMs": 24380,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " full",
-  "startMs": 24380,
-  "endMs": 24690,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " battery.",
-  "startMs": 24690,
-  "endMs": 25110,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " Unplug,",
-  "startMs": 25410,
-  "endMs": 25775,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " and",
-  "startMs": 25990,
-  "endMs": 26130,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 26130,
-  "endMs": 26245,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " lithium",
-  "startMs": 26250,
-  "endMs": 26500,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " wants",
-  "startMs": 26500,
-  "endMs": 26880,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " to",
-  "startMs": 26880,
-  "endMs": 27040,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " go",
-  "startMs": 27040,
-  "endMs": 27289,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " home.",
-  "startMs": 27310,
-  "endMs": 27550,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " But",
-  "startMs": 27850,
-  "endMs": 28070,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " to",
-  "startMs": 28070,
-  "endMs": 28160,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " cross,",
-  "startMs": 28160,
-  "endMs": 28522,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " each",
-  "startMs": 28740,
-  "endMs": 29020,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " atom",
-  "startMs": 29020,
-  "endMs": 29306,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " drops",
-  "startMs": 29370,
-  "endMs": 29670,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " an",
-  "startMs": 29670,
-  "endMs": 29810,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " electron,",
-  "startMs": 29810,
-  "endMs": 30370,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " and",
-  "startMs": 30590,
-  "endMs": 30760,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 30760,
-  "endMs": 30874,
+  "startMs": 530,
+  "endMs": 947,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " wall",
-  "startMs": 30980,
-  "endMs": 31150,
+  "startMs": 950,
+  "endMs": 1218,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " won't",
-  "startMs": 31150,
-  "endMs": 31490,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " let",
-  "startMs": 31540,
-  "endMs": 31690,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " electrons",
-  "startMs": 31690,
-  "endMs": 32330,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " through.",
-  "startMs": 32330,
-  "endMs": 32610,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " So",
-  "startMs": 32910,
-  "endMs": 33123,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " they",
-  "startMs": 33190,
-  "endMs": 33260,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " take",
-  "startMs": 33260,
-  "endMs": 33540,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 33540,
-  "endMs": 33657,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " long",
-  "startMs": 33690,
-  "endMs": 33870,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " way,",
-  "startMs": 33870,
-  "endMs": 34083,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " through",
-  "startMs": 34270,
-  "endMs": 34560,
+  "text": " inside",
+  "startMs": 1220,
+  "endMs": 1597,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " your",
-  "startMs": 34560,
-  "endMs": 34723,
+  "startMs": 1600,
+  "endMs": 1760,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " phone.",
-  "startMs": 34730,
-  "endMs": 34990,
+  "text": " phone,",
+  "startMs": 1760,
+  "endMs": 2030,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " That",
-  "startMs": 35290,
-  "endMs": 35550,
+  "text": " thinner",
+  "startMs": 2250,
+  "endMs": 2518,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " flow",
-  "startMs": 35550,
-  "endMs": 35880,
+  "text": " than",
+  "startMs": 2600,
+  "endMs": 2680,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " is",
-  "startMs": 35920,
-  "endMs": 36010,
+  "text": " most",
+  "startMs": 2680,
+  "endMs": 3006,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " the",
-  "startMs": 36010,
-  "endMs": 36140,
+  "text": " human",
+  "startMs": 3010,
+  "endMs": 3439,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " power.",
-  "startMs": 36140,
-  "endMs": 36470,
+  "text": " hairs.",
+  "startMs": 3440,
+  "endMs": 3710,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " Then",
-  "startMs": 36770,
-  "endMs": 37002,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " the",
-  "startMs": 37030,
-  "endMs": 37117,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " charger",
-  "startMs": 37130,
-  "endMs": 37638,
-  "timestampMs": null,
-  "confidence": null
- },
- {
-  "text": " pushes",
-  "startMs": 37660,
-  "endMs": 37980,
+  "text": " If",
+  "startMs": 4010,
+  "endMs": 4110,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " it",
-  "startMs": 37980,
-  "endMs": 38102,
+  "startMs": 4110,
+  "endMs": 4230,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " all",
-  "startMs": 38160,
-  "endMs": 38333,
+  "text": " fails,",
+  "startMs": 4230,
+  "endMs": 4566,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " back",
-  "startMs": 38360,
-  "endMs": 38565,
+  "text": " your",
+  "startMs": 4740,
+  "endMs": 4930,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " again,",
-  "startMs": 38570,
-  "endMs": 38854,
+  "text": " phone",
+  "startMs": 4930,
+  "endMs": 5232,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " hundreds",
-  "startMs": 39070,
-  "endMs": 39600,
+  "text": " can",
+  "startMs": 5270,
+  "endMs": 5454,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " of",
-  "startMs": 39600,
-  "endMs": 39723,
+  "text": " catch",
+  "startMs": 5460,
+  "endMs": 5732,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " times.",
-  "startMs": 39730,
-  "endMs": 40070,
+  "text": " fire.",
+  "startMs": 5740,
+  "endMs": 6010,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " And",
-  "startMs": 40370,
-  "endMs": 40519,
+  "text": " Here's",
+  "startMs": 6310,
+  "endMs": 6620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " why",
+  "startMs": 6620,
+  "endMs": 6900,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it's",
+  "startMs": 6900,
+  "endMs": 7105,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " there.",
+  "startMs": 7120,
+  "endMs": 7370,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Your",
+  "startMs": 7670,
+  "endMs": 7830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " battery",
+  "startMs": 7830,
+  "endMs": 8220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " has",
+  "startMs": 8220,
+  "endMs": 8450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 8450,
+  "endMs": 8705,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sides.",
+  "startMs": 8710,
+  "endMs": 9050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Graphite",
+  "startMs": 9350,
+  "endMs": 9750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 9750,
+  "endMs": 9986,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one,",
+  "startMs": 9990,
+  "endMs": 10217,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 10450,
+  "endMs": 10621,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " metal",
+  "startMs": 10640,
+  "endMs": 10910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " oxide",
+  "startMs": 10910,
+  "endMs": 11430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 11430,
+  "endMs": 11603,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " the",
-  "startMs": 40520,
-  "endMs": 40618,
+  "startMs": 11610,
+  "endMs": 11719,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " man",
-  "startMs": 40620,
-  "endMs": 40817,
+  "text": " other.",
+  "startMs": 11740,
+  "endMs": 11950,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " who",
-  "startMs": 40820,
-  "endMs": 40990,
+  "text": " Charging",
+  "startMs": 12250,
+  "endMs": 12829,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " found",
-  "startMs": 40990,
-  "endMs": 41310,
+  "text": " pushes",
+  "startMs": 12830,
+  "endMs": 13176,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lithium",
+  "startMs": 13230,
+  "endMs": 13580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " into",
+  "startMs": 13580,
+  "endMs": 13840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 13840,
+  "endMs": 13960,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " graphite.",
+  "startMs": 13960,
+  "endMs": 14450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Unplug,",
+  "startMs": 14750,
+  "endMs": 15104,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 15310,
+  "endMs": 15450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 15450,
+  "endMs": 15560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wants",
+  "startMs": 15600,
+  "endMs": 15863,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 15910,
+  "endMs": 16015,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " go",
+  "startMs": 16050,
+  "endMs": 16218,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " back.",
+  "startMs": 16220,
+  "endMs": 16420,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " But",
+  "startMs": 16720,
+  "endMs": 16950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 16950,
+  "endMs": 17030,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cross,",
+  "startMs": 17030,
+  "endMs": 17425,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " each",
+  "startMs": 17630,
+  "endMs": 17940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lithium",
+  "startMs": 17940,
+  "endMs": 18360,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " atom",
+  "startMs": 18360,
+  "endMs": 18659,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " leaves",
+  "startMs": 18660,
+  "endMs": 19010,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 19010,
+  "endMs": 19129,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " electron",
+  "startMs": 19130,
+  "endMs": 19716,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " behind,",
+  "startMs": 19720,
+  "endMs": 20186,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 20410,
+  "endMs": 20597,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 20610,
+  "endMs": 20710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wall",
+  "startMs": 20710,
+  "endMs": 21009,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " only",
+  "startMs": 21010,
+  "endMs": 21360,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lets",
+  "startMs": 21360,
+  "endMs": 21630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 21630,
+  "endMs": 21772,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " atom",
+  "startMs": 21780,
+  "endMs": 22066,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " through.",
+  "startMs": 22070,
+  "endMs": 22360,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 22660,
+  "endMs": 22878,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " electrons",
+  "startMs": 22890,
+  "endMs": 23420,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " take",
+  "startMs": 23420,
+  "endMs": 23720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 23720,
+  "endMs": 23858,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " long",
+  "startMs": 23860,
+  "endMs": 24076,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " way,",
+  "startMs": 24080,
+  "endMs": 24294,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " through",
+  "startMs": 24490,
+  "endMs": 24780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 24780,
+  "endMs": 24948,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " phone.",
+  "startMs": 24960,
+  "endMs": 25220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " That",
+  "startMs": 25520,
+  "endMs": 25750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " detour",
+  "startMs": 25750,
+  "endMs": 26175,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 26200,
+  "endMs": 26294,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 26310,
+  "endMs": 26472,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " power.",
+  "startMs": 26520,
+  "endMs": 26770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Now",
+  "startMs": 27070,
+  "endMs": 27330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pierce",
+  "startMs": 27330,
+  "endMs": 27650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 27650,
+  "endMs": 27750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wall.",
+  "startMs": 27750,
+  "endMs": 28120,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 28420,
+  "endMs": 28529,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " electrons",
+  "startMs": 28590,
+  "endMs": 29120,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " take",
+  "startMs": 29120,
+  "endMs": 29404,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 29410,
+  "endMs": 29513,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shortcut,",
+  "startMs": 29610,
+  "endMs": 30005,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " straight",
+  "startMs": 30240,
+  "endMs": 30560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " through.",
+  "startMs": 30560,
+  "endMs": 30880,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 31180,
+  "endMs": 31290,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cell",
+  "startMs": 31290,
+  "endMs": 31524,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " starts",
+  "startMs": 31540,
+  "endMs": 31982,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " heating",
+  "startMs": 32010,
+  "endMs": 32340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " itself,",
+  "startMs": 32340,
+  "endMs": 32784,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " faster",
+  "startMs": 33040,
+  "endMs": 33350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 33350,
+  "endMs": 33529,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " faster,",
+  "startMs": 33530,
+  "endMs": 33873,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " until",
+  "startMs": 34100,
+  "endMs": 34446,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 34450,
+  "endMs": 34560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vents,",
+  "startMs": 34560,
+  "endMs": 34904,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " smokes",
+  "startMs": 35030,
+  "endMs": 35534,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 35560,
+  "endMs": 35706,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " burns.",
+  "startMs": 35710,
+  "endMs": 36050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 36350,
+  "endMs": 36529,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twenty",
+  "startMs": 36530,
+  "endMs": 36945,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sixteen,",
+  "startMs": 36990,
+  "endMs": 37481,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 37720,
+  "endMs": 37860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tiny",
+  "startMs": 37860,
+  "endMs": 38250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " metal",
+  "startMs": 38250,
+  "endMs": 38610,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " burr",
+  "startMs": 38610,
+  "endMs": 38850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pierced",
+  "startMs": 38850,
+  "endMs": 39207,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " that",
-  "startMs": 41310,
-  "endMs": 41490,
+  "startMs": 39210,
+  "endMs": 39445,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " oxide?",
-  "startMs": 41490,
-  "endMs": 41910,
+  "text": " wall",
+  "startMs": 39510,
+  "endMs": 39720,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " He",
-  "startMs": 42250,
-  "endMs": 42410,
+  "text": " inside",
+  "startMs": 39720,
+  "endMs": 40159,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " won",
-  "startMs": 42410,
-  "endMs": 42650,
+  "text": " some",
+  "startMs": 40160,
+  "endMs": 40397,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " the",
-  "startMs": 42650,
-  "endMs": 42765,
+  "text": " Samsung",
+  "startMs": 40400,
+  "endMs": 40810,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " Nobel",
-  "startMs": 42810,
-  "endMs": 43110,
+  "text": " batteries.",
+  "startMs": 40810,
+  "endMs": 41290,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " Prize",
-  "startMs": 43110,
-  "endMs": 43508,
+  "text": " Samsung",
+  "startMs": 41590,
+  "endMs": 42037,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " at",
-  "startMs": 43540,
-  "endMs": 43620,
+  "text": " recalled",
+  "startMs": 42040,
+  "endMs": 42548,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " ninety-seven,",
-  "startMs": 43620,
-  "endMs": 44365,
+  "text": " every",
+  "startMs": 42550,
+  "endMs": 42868,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " the",
-  "startMs": 44590,
-  "endMs": 44708,
+  "text": " Galaxy",
+  "startMs": 42870,
+  "endMs": 43379,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " oldest",
+  "text": " Note",
+  "startMs": 43390,
+  "endMs": 43698,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Seven,",
+  "startMs": 43760,
+  "endMs": 44081,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 44320,
+  "endMs": 44720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
   "startMs": 44720,
-  "endMs": 45130,
+  "endMs": 45040,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " winner",
-  "startMs": 45130,
-  "endMs": 45451,
+  "text": " million",
+  "startMs": 45040,
+  "endMs": 45487,
   "timestampMs": null,
   "confidence": null
  },
  {
-  "text": " ever.",
-  "startMs": 45460,
-  "endMs": 45680,
+  "text": " phones.",
+  "startMs": 45530,
+  "endMs": 45870,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " All",
+  "startMs": 46170,
+  "endMs": 46370,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " because",
+  "startMs": 46370,
+  "endMs": 46670,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 46670,
+  "endMs": 46807,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 46810,
+  "endMs": 46966,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wall",
+  "startMs": 47060,
+  "endMs": 47170,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thinner",
+  "startMs": 47170,
+  "endMs": 47450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " than",
+  "startMs": 47450,
+  "endMs": 47656,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " most",
+  "startMs": 47670,
+  "endMs": 47970,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hairs.",
+  "startMs": 47970,
+  "endMs": 48240,
   "timestampMs": null,
   "confidence": null
  }
