@@ -24,7 +24,9 @@
   "rules": [
     "History topics: say what is known vs debated; no invented quotes or dates.",
     "Science topics: one mechanism, explained with a picture for every sentence.",
-    "No Sonar mention in general episodes for now."
+    "No Sonar mention in general episodes for now.",
+    "Edu 2026-10-26: visuals must look realistic and detailed (3D: src/three/), not flat diagrams; reference = Keyframes reels.",
+    "Edu 2026-10-26: hooks need stakes + a picture in the first second (see script-guide 'Hooks'); never 'Have you ever wondered\u2026'."
   ],
   "caption_format": [
     "Line 1: the hook as a question or surprising fact.",

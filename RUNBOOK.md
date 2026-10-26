@@ -49,12 +49,16 @@ source .env.local              # REMOTION_BROWSER etc.
 - Script 110–150 words (45–60 s). Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
 - Assets: logos via `get_logos.mjs`. Screenshots only if the computer bridge / a browser tool is available
   in this session (otherwise build from illustrations, maps, numbers and logos; don't stall).
-- Storyboard: 14–18 scenes, light/dark rhythm, ≤ 1 plain text title per 5 scenes, 10–20 emphasis phrases.
+- Storyboard: 14–20 scenes, ≤ 1 plain text title per 5 scenes, 10–20 emphasis phrases. **Default to the realistic 3D
+  components** (`engine/references/storyboard-spec.md` → 3D; Edu's standing feedback): light/dark rhythm applies to 2D scenes only.
   Reuse components first. A new component is fine if a topic needs it (add it under `engine/template/src/scenes/`
   and register it); keep it generic so later episodes can reuse it.
-- Build + QA: `build_timeline.py` must pass with no ERROR; look at `qa/contact.png` and fix clipping,
+- Build + QA: `build_timeline.py` must pass with no ERROR; for 3D reels run `python3 tools/qa_frames.py episodes/<id>`
+  (one still per scene) instead of qa_stills' full draft; look at `qa/contact.png` and fix clipping,
   tiny text, empty scenes, marks off target, and visuals that don't match their words. Max 3 rounds.
 - Render: `npx remotion render Reel ../episodes/<id>/<id>.mp4 --codec h264 --crf 18 --x264-preset veryfast`.
+  3D renders in software (~60–80 min for 48 s on 2 cores): start it with nohup and keep the session busy (poll the log)
+  until it finishes; a background job is stopped soon after the turn ends.
 - `cover.jpg` (strongest frame) and `caption.txt`: 1–2 lines + 3–5 hashtags + the channel's sign-off;
   a final "Sources:" block for the first comment.
 

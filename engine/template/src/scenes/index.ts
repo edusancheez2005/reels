@@ -24,6 +24,9 @@ import {RouteMap} from './RouteMap';
 import {SeaScene, Scale, Quote, Souvenir} from './Story';
 import {ColdChain, Filleting, PinBones} from './FishCraft';
 import {BatteryCell} from './BatteryCell';
+import {Phone3D} from '../three/Phone3D';
+import {Cell3D} from '../three/Cell3D';
+import {Hair3D, Swarm3D} from '../three/More3D';
 
 // Register new components here. Storyboard "component" names map to these keys.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -50,6 +53,10 @@ export const SCENES: Record<string, React.FC<SceneProps<any>>> = {
   Quote,
   Souvenir,
   BatteryCell,
+  Phone3D,
+  Cell3D,
+  Hair3D,
+  Swarm3D,
   // v1 — cards (dark)
   Stat,
   Steps,

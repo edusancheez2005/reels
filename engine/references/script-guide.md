@@ -15,6 +15,16 @@ words give them.
 
 No intro, no "hey guys", no "in this video". The first word is already content.
 
+## Hooks (Edu, 2026-10-26: "a way better hook")
+
+The first line has to create a reason to keep watching: a hidden object, a danger, a surprising number, or a
+"you've used this today and never noticed" moment, *and* it must be showable in the first second. Then promise the
+explanation ("Here's why it's there."). Close the loop at the end by echoing the hook.
+- Good: "There's a plastic wall inside your phone, thinner than most human hairs. If it fails, your phone can catch fire."
+- Weak: "Your phone battery doesn't store electricity." (true, but no stakes, nothing to picture)
+- Avoid: "Have you ever wondered how X works?" (no stakes, no picture)
+Prefer a real-world payoff (a recall, a record, a famous failure) over trivia, verified against primary sources.
+
 ## Hooks that are showable
 
 Good (each has an instant picture):

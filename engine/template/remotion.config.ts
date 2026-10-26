@@ -8,3 +8,6 @@ Config.setConcurrency(null);
 if (process.env.REMOTION_BROWSER) {
   Config.setBrowserExecutable(process.env.REMOTION_BROWSER);
 }
+
+// 3D scenes (Three.js) need WebGL; SwiftShader-over-ANGLE works headless with no GPU.
+Config.setChromiumOpenGlRenderer('swangle');

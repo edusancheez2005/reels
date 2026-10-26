@@ -1,5 +1,15 @@
 # Visual style
 
+**Since 2026-10-26 the default is realistic 3D** (Edu's feedback on the first battery reel: flat 2D diagrams looked
+cheap next to the Keyframes reels: realistic phone, detailed objects, constant motion). Build mechanism scenes with
+the 3D components in `src/three/` (Phone3D, Cell3D, Hair3D, Swarm3D) or new ones in the same style: physically based
+materials, studio light rig, bloom on anything that glows (ions, electrons, screens, heat), slow camera push + drift,
+labels as small uppercase tags with leader lines, a "Magnified illustration" / "Illustration" caption on schematic
+shots. 3D reels may stay dark throughout (the light/dark rhythm below applies to the 2D components). Use 2D scenes
+(Quote, BigNumber, Title…) only as punctuation. Photoreal stills (AI-generated) would be the next layer: Canva's
+generator only returns thumbnails in these sessions, so that needs an image-model API key.
+
+
 Default look is "clean tech explainer": dark background, one accent colour, real-looking
 interfaces and diagrams, a big bold caption that lights up word by word. Change it in
 `brand.json`. The *timing rules* below are not style. They apply to every look.

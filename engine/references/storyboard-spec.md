@@ -128,6 +128,39 @@ Add your own there, and build scenes as staged sequences: each beat should trigg
 Props: `ions` (left|right) or `ionStart` 0–1, `dur`, `cam[{beat, x, y, zoom}]` (beat -1 = opening shot), `labels[{text,x,y,tone}]`, `leftLabel`, `rightLabel`, `highlight`.
 ParticleShape also has a built-in `battery` shape.
 
+### 3D (default look since 2026-10-26 — Edu wants realistic, detailed visuals like the Keyframes reels)
+Real-time Three.js scenes (`src/three/`, via `@remotion/three` + react-three-fiber + drei + postprocessing).
+Each one is a full-bleed canvas under the caption with a Lightformer studio rig (no HDRI download), bloom, subtle
+chromatic aberration, film grain and vignette, a beat-driven camera (`cam[{beat, pos, look, fov, dur}]`, beat -1 =
+opening shot, plus slow push-in + handheld drift), `tags[{text, x, y, to, tone, size}]` (2D labels in 1080×1920 px,
+shown by `label:<n>` actions; `to` draws a leader line) and an optional `caption` (e.g. "Magnified illustration").
+All four take `actions[i]` fired on beat i, like BatteryCell.
+
+**Phone3D**: a generic unbranded smartphone built in layers (hollow titanium frame, front glass + lock screen with a
+battery widget, mid-frame, foil battery pouch with label, logic board + shield can, camera modules, back glass with
+camera bump). `spin` (rotY → spinTo), `open` (back glass lifts away), `explode` (layers separate in depth), `wall`
+(battery seam glows), `path` (electrons run battery → board), `screen` (wakes; pct → pctTo), `cable` (USB-C plugs in),
+`heat` (pouch swells + glows, smoke + embers; `heat0` to start hot). Props: `rotY`, `rotX`, `opened`, `exploded`,
+`screenOn`, `wall`, `pct`, `pctTo`, `back` (back-glass colour). Front view rotY≈0.3; back view rotY≈2.7.
+
+**Cell3D**: magnified Li-ion cross-section: copper foil | graphite sheets (hex texture) | electrolyte | porous separator
+| metal-oxide lattice (instanced) | aluminium foil; 18 glowing Li⁺ ions; gold outer wire with electrons. `build`,
+`wire`, `charge`/`discharge` (`dur`), `restless`, `split` (atom drops its electron), `block` (electron bounces off the
+separator, red ring), `pass` (ion slips through a pore), `pierce` (metal burr through the separator), `short`
+(electrons pour through the hole), `heat`, `focusL`/`focusR`/`focusWall`/`focusNone` (latest wins). Props: `ions`
+(anode|cathode), `ionStart`, `wire`, `hole`, `heat0`. Default camera frames the whole cell; the highlighted ion sits
+at about (-1.63, -0.2, 0) for close-ups.
+
+**Hair3D**: a human hair (cuticle scales) above a separator film, to scale (`hair`, `film` in µm). `hair`, `film`.
+
+**Swarm3D**: rows×rows phones (default 36² = 1,296) dropping onto a plane under fog, with an optional logo card,
+`title`, a counter (`value`, `suffix`) that lands on the `count` beat, and `sub`. Fly the camera up with `cam`.
+
+Rendering: WebGL needs `Config.setChromiumOpenGlRenderer('swangle')` (set in remotion.config.ts). It is software
+rendering: about 2–3 s per 1080×1920 frame on 2 cores, so a 48 s reel takes about 60–80 min. QA with
+`python3 tools/qa_frames.py episodes/<id>` (one still per scene, ~4 min) instead of the full draft video.
+Text on canvases uses the system Inter; tags are SVG overlays, so there are no font downloads at render time.
+
 **Title**: big kinetic text, one line per beat. Use sparingly. `lines`, `accent`, `size`.
 
 ### v1 (dark-only cards, still available)
