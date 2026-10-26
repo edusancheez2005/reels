@@ -1,0 +1,576 @@
+{
+ "slug": "battery-lithium",
+ "theme": "dark",
+ "tail": 0.9,
+ "emphasis": [
+  "electricity.",
+  "lithium,",
+  "wrong side.",
+  "graphite,",
+  "pencil lead.",
+  "metal oxide.",
+  "liquid,",
+  "plastic wall.",
+  "Plug in,",
+  "full battery.",
+  "go home.",
+  "an electron,",
+  "won't",
+  "long way,",
+  "power.",
+  "hundreds of times.",
+  "ninety-seven,",
+  "oldest"
+ ],
+ "scenes": [
+  {
+   "anchor": "Your phone",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "shape": "battery",
+    "label": "Not electricity",
+    "tone": "accent"
+   },
+   "beats": [
+    "phone",
+    "electricity"
+   ]
+  },
+  {
+   "anchor": "It stores",
+   "component": "BatteryCell",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "ions": "left",
+    "leftLabel": "",
+    "labels": [
+     {
+      "text": "Lithium",
+      "x": 210,
+      "y": 205
+     },
+     {
+      "text": "on the \"wrong\" side",
+      "x": 500,
+      "y": 830,
+      "tone": "text"
+     }
+    ],
+    "actions": [
+     "label:0",
+     "label:1"
+    ]
+   },
+   "beats": [
+    "lithium",
+    "wrong"
+   ]
+  },
+  {
+   "anchor": "Inside are",
+   "component": "BatteryCell",
+   "theme": "light",
+   "transition": "pop",
+   "props": {
+    "hide": [
+     "left",
+     "right",
+     "liquid",
+     "wall",
+     "ions"
+    ],
+    "actions": [
+     "left",
+     "right"
+    ]
+   },
+   "beats": [
+    "two",
+    "materials"
+   ]
+  },
+  {
+   "anchor": "On one side",
+   "component": "BatteryCell",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "hide": [
+     "liquid",
+     "wall",
+     "ions"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "x": 500,
+      "y": 470,
+      "zoom": 1
+     },
+     {
+      "beat": 0,
+      "x": 230,
+      "y": 510,
+      "zoom": 1.5
+     },
+     {
+      "beat": 1,
+      "x": 215,
+      "y": 510,
+      "zoom": 1.6
+     }
+    ],
+    "labels": [
+     {
+      "text": "Graphite",
+      "x": 215,
+      "y": 300
+     },
+     {
+      "text": "= pencil lead",
+      "x": 215,
+      "y": 730,
+      "tone": "text"
+     }
+    ],
+    "actions": [
+     "label:0",
+     "cam",
+     "label:1"
+    ]
+   },
+   "beats": [
+    "graphite",
+    "same",
+    "pencil"
+   ]
+  },
+  {
+   "anchor": "On the other",
+   "component": "BatteryCell",
+   "theme": "dark",
+   "transition": "cut",
+   "props": {
+    "hide": [
+     "liquid",
+     "wall",
+     "ions"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "x": 215,
+      "y": 510,
+      "zoom": 1.6
+     },
+     {
+      "beat": 0,
+      "x": 785,
+      "y": 510,
+      "zoom": 1.6
+     }
+    ],
+    "labels": [
+     {
+      "text": "Metal oxide",
+      "x": 790,
+      "y": 300
+     }
+    ],
+    "actions": [
+     "cam",
+     "label:0"
+    ]
+   },
+   "beats": [
+    "other",
+    "metal"
+   ]
+  },
+  {
+   "anchor": "Between them",
+   "component": "BatteryCell",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "hide": [
+     "liquid",
+     "wall",
+     "ions"
+    ],
+    "labels": [
+     {
+      "text": "Liquid",
+      "x": 500,
+      "y": 205
+     },
+     {
+      "text": "Plastic wall",
+      "x": 500,
+      "y": 830,
+      "tone": "text"
+     }
+    ],
+    "actions": [
+     "liquid",
+     "label:0",
+     "wall",
+     "label:1"
+    ]
+   },
+   "beats": [
+    "liquid",
+    "and",
+    "plastic",
+    "wall"
+   ]
+  },
+  {
+   "anchor": "Plug in",
+   "component": "BatteryCell",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "ions": "right",
+    "dur": 70,
+    "actions": [
+     "plug",
+     "meter",
+     "charge"
+    ]
+   },
+   "beats": [
+    "Plug",
+    "charger",
+    "out"
+   ]
+  },
+  {
+   "anchor": "It drifts",
+   "component": "BatteryCell",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "ionStart": 0.2,
+    "dur": 60,
+    "cam": [
+     {
+      "beat": -1,
+      "x": 500,
+      "y": 500,
+      "zoom": 1.45
+     }
+    ],
+    "labels": [
+     {
+      "text": "Through the wall",
+      "x": 500,
+      "y": 215,
+      "tone": "accent"
+     }
+    ],
+    "actions": [
+     "charge",
+     "label:0"
+    ]
+   },
+   "beats": [
+    "drifts",
+    "slips"
+   ]
+  },
+  {
+   "anchor": "and slots",
+   "component": "BatteryCell",
+   "theme": "light",
+   "transition": "pop",
+   "moving": true,
+   "props": {
+    "ionStart": 0.7,
+    "dur": 26,
+    "cam": [
+     {
+      "beat": -1,
+      "x": 260,
+      "y": 500,
+      "zoom": 1.5
+     }
+    ],
+    "actions": [
+     "charge",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "Between the layers",
+      "x": 260,
+      "y": 210
+     }
+    ]
+   },
+   "beats": [
+    "slots",
+    "layers"
+   ]
+  },
+  {
+   "anchor": "That's a full",
+   "component": "BatteryCell",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "ions": "left",
+    "labels": [
+     {
+      "text": "Charged",
+      "x": 210,
+      "y": 205,
+      "tone": "good"
+     }
+    ],
+    "actions": [
+     "meter",
+     "label:0"
+    ]
+   },
+   "beats": [
+    "That's",
+    "full"
+   ]
+  },
+  {
+   "anchor": "Unplug",
+   "component": "BatteryCell",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "ions": "left",
+    "homeLabel": "Wants to go home",
+    "actions": [
+     "meter",
+     "home"
+    ]
+   },
+   "beats": [
+    "Unplug",
+    "home"
+   ]
+  },
+  {
+   "anchor": "But to cross",
+   "component": "BatteryCell",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "ions": "left",
+    "highlight": 0,
+    "cam": [
+     {
+      "beat": -1,
+      "x": 500,
+      "y": 450,
+      "zoom": 1
+     },
+     {
+      "beat": 0,
+      "x": 200,
+      "y": 330,
+      "zoom": 2.1
+     }
+    ],
+    "actions": [
+     "cam",
+     "split"
+    ]
+   },
+   "beats": [
+    "cross",
+    "drops"
+   ]
+  },
+  {
+   "anchor": "and the wall",
+   "component": "BatteryCell",
+   "theme": "light",
+   "transition": "pop",
+   "moving": true,
+   "props": {
+    "ions": "left",
+    "cam": [
+     {
+      "beat": -1,
+      "x": 450,
+      "y": 500,
+      "zoom": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "text": "No electrons",
+      "x": 500,
+      "y": 320,
+      "tone": "alert"
+     }
+    ],
+    "actions": [
+     "block",
+     "label:0"
+    ]
+   },
+   "beats": [
+    "wall",
+    "electrons"
+   ]
+  },
+  {
+   "anchor": "So they take",
+   "component": "BatteryCell",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "ions": "left",
+    "dur": 60,
+    "actions": [
+     "phone",
+     "discharge"
+    ]
+   },
+   "beats": [
+    "long",
+    "phone"
+   ]
+  },
+  {
+   "anchor": "That flow",
+   "component": "BatteryCell",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "ionStart": 0.5,
+    "dur": 50,
+    "cam": [
+     {
+      "beat": -1,
+      "x": 500,
+      "y": 450,
+      "zoom": 1
+     },
+     {
+      "beat": 0,
+      "x": 500,
+      "y": 330,
+      "zoom": 1.35
+     }
+    ],
+    "labels": [
+     {
+      "text": "Power",
+      "x": 500,
+      "y": 300,
+      "tone": "good"
+     }
+    ],
+    "actions": [
+     "phone",
+     "discharge",
+     "label:0"
+    ]
+   },
+   "beats": [
+    "That",
+    "flow",
+    "power"
+   ]
+  },
+  {
+   "anchor": "Then the charger",
+   "component": "BatteryCell",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "ions": "right",
+    "labels": [
+     {
+      "text": "Hundreds of times",
+      "x": 500,
+      "y": 840,
+      "tone": "text"
+     }
+    ],
+    "actions": [
+     "plug",
+     "cycle",
+     "label:0"
+    ]
+   },
+   "beats": [
+    "charger",
+    "back",
+    "hundreds"
+   ]
+  },
+  {
+   "anchor": "And the man",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "rise",
+   "props": {
+    "source": "Nobel Prize press release, 2019",
+    "text": "John Goodenough showed cobalt oxide holding lithium could give up to four volts.",
+    "mark": "cobalt oxide"
+   },
+   "beats": [
+    "man",
+    "oxide"
+   ]
+  },
+  {
+   "anchor": "He won",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 97,
+    "suffix": "yrs",
+    "chip": "Nobel Prize in Chemistry, 2019",
+    "tone": "accent"
+   },
+   "beats": [
+    "Nobel",
+    "ninety-seven"
+   ]
+  },
+  {
+   "anchor": "the oldest",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Oldest winner",
+     "ever."
+    ],
+    "accent": [
+     "ever."
+    ],
+    "size": 130
+   },
+   "beats": [
+    "oldest",
+    "ever"
+   ]
+  }
+ ]
+}

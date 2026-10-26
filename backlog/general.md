@@ -1,7 +1,7 @@
 # General backlog (tick when produced)
 
 - [x] Why UK cod goes to China and back before you eat it (2026-10-25-fish-round-trip)
-- [ ] How does a lithium-ion battery actually store energy?
+- [x] How does a lithium-ion battery actually store energy? (2026-10-26-battery-lithium)
 - [ ] How did people keep food cold before fridges? (ice houses, ice trade)
 - [ ] How does GPS know exactly where you are?
 - [ ] What did people in ancient Rome eat, and how did they cook it?

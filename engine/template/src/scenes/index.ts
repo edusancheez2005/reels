@@ -23,6 +23,7 @@ import {PriceLine} from './PriceLine';
 import {RouteMap} from './RouteMap';
 import {SeaScene, Scale, Quote, Souvenir} from './Story';
 import {ColdChain, Filleting, PinBones} from './FishCraft';
+import {BatteryCell} from './BatteryCell';
 
 // Register new components here. Storyboard "component" names map to these keys.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -48,6 +49,7 @@ export const SCENES: Record<string, React.FC<SceneProps<any>>> = {
   Scale,
   Quote,
   Souvenir,
+  BatteryCell,
   // v1 — cards (dark)
   Stat,
   Steps,

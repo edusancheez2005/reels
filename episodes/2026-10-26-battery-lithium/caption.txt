@@ -1,0 +1,14 @@
+Your phone battery doesn't store electricity. It stores lithium, parked on the "wrong" side. 🔋
+
+Charging pushes lithium into graphite (yes, pencil lead). Unplugged, it rushes home, and its electrons are forced the long way round, through your phone.
+
+Follow @sonartracker.io for one "how does that work?" every week.
+
+#howitworks #explained #didyouknow #science #batteries
+
+Sources:
+- Argonne National Laboratory, Science 101: Batteries — https://www.anl.gov/science-101/batteries
+- Chemistry World (9 Oct 2019) — https://www.chemistryworld.com/news/why-have-lithium-ion-batteries-just-won-the-chemistry-nobel-prize/4010479.article
+- Battery University BU-306, the separator — https://batteryuniversity.com/article/bu-306-what-is-the-function-of-the-separator
+- Nobel Prize in Chemistry 2019, press release — https://www.nobelprize.org/prizes/chemistry/2019/press-release/
+- CNN (9 Oct 2019), Goodenough oldest Nobel winner at 97 — https://edition.cnn.com/2019/10/09/us/john-goodenough-nobel-prize-trnd

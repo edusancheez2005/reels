@@ -121,6 +121,13 @@ the fillet peels off, flips to the flesh side and lands on a tray, leaving the s
 and `src/lib/fishArt.tsx` (detailed cod: skin side, flesh side, skeleton, head, frost growth, nitrile gloves, fillet knife).
 Add your own there, and build scenes as staged sequences: each beat should trigger a visible physical change.
 
+**BatteryCell**: a cutaway of a rechargeable cell — layered graphite (left), metal-oxide lattice (right), liquid, a dashed separator wall,
+10 Li⁺ ions and an optional outer wire with a `phone` or `plug`. `actions[i]` fire on beat i: `left|right|liquid|wall|ions` (reveal; hide them first via `hide`),
+`wire|phone|plug`, `charge`/`discharge` (ions cross; electrons run the wire), `split` (highlighted ion drops its electron), `block` (electron bounces off the wall),
+`home` (dashed arrow + `homeLabel`), `cycle` (rocks back and forth), `meter` (charge %), `label:<n>`, `cam` (no-op, a beat for `cam[]`).
+Props: `ions` (left|right) or `ionStart` 0–1, `dur`, `cam[{beat, x, y, zoom}]` (beat -1 = opening shot), `labels[{text,x,y,tone}]`, `leftLabel`, `rightLabel`, `highlight`.
+ParticleShape also has a built-in `battery` shape.
+
 **Title**: big kinetic text, one line per beat. Use sparingly. `lines`, `accent`, `size`.
 
 ### v1 (dark-only cards, still available)
