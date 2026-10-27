@@ -18,6 +18,7 @@ Default to PASS. Use FAIL only for the "must fix" items below; everything else i
    When the reel touches what something is worth, the critics' side gets a line.
 7. **Plain words.** "Refrigerated container", not "reefer". American female voice.
 8. **Readable on a phone.** Nothing important clipped at the frame edges, no tiny text, highlight boxes on the right words.
+   Nothing important in Instagram's overlay zone (bottom ~20%, right-edge buttons): see visual-style.md "Instagram safe zone".
 
 ## Must fix (FAIL), only these
 - A factual error, a number that doesn't match research.md, or a claim with no source.

@@ -94,3 +94,8 @@ background is itself a beat, so put it on a sentence start.
   generic shapes.
 - Screenshots or logos of a product being explained are fine as evidence on screen, but
   are not decoration. Images live in `episodes/<slug>/assets/`.
+
+## Instagram safe zone (reviewer note, 27 Oct 2026)
+Instagram covers the bottom of a reel with the caption/username and the right edge with the like/comment/share buttons.
+Keep every label, number and end tag inside **y < 1540** and **x < 940 for y > 1000** (canvas 1080×1920). Leave ≥ 40 px from
+the left/right frame edges for cards, and keep source lines ≥ 26 px and readable contrast.

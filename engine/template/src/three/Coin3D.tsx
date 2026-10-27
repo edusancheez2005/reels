@@ -303,10 +303,10 @@ export const Coin3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
       ) : null}
       {chartOn && capP > 0 ? <Label xy={project(cam, [0, capY + 0.2, -gridD / 2])} text={props.capText ?? `${total.toLocaleString('en-US')} max`} color={ACC} p={capP} size={44} /> : null}
       {chartOn && focusP > 0 && props.focusText ? (
-        <Label xy={project(cam, [Math.min(px, 0.7), BASE - 0.32, pz + 0.3])} text={props.focusText} color="#ffffff" p={focusP} size={36} />
+        <Label xy={((xy) => [Math.min(xy[0], 820), Math.min(xy[1], 1440)] as [number, number])(project(cam, [Math.min(px, 0.7), BASE - 0.32, pz + 0.3]))} text={props.focusText} color="#ffffff" p={focusP} size={36} />
       ) : null}
       {chartOn && props.legend && ghostP > 0 ? (
-        <div style={{position: 'absolute', left: 0, right: 0, top: 1760, textAlign: 'center', fontFamily: theme.font, fontSize: 30, fontWeight: 600, color: 'rgba(255,255,255,0.6)', opacity: ghostP}}>{props.legend}</div>
+        <div style={{position: 'absolute', left: 0, right: 0, top: 1500, textAlign: 'center', fontFamily: theme.font, fontSize: 30, fontWeight: 600, color: 'rgba(255,255,255,0.6)', opacity: ghostP}}>{props.legend}</div>
       ) : null}
       <Tags tags={props.tags ?? []} show={tagShow} />
       {props.caption ? <Caption text={props.caption} /> : null}
