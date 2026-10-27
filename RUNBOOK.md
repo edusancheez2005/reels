@@ -10,7 +10,7 @@ Repo: `edusancheez2005/reels` (public). Engine docs: `engine/SKILL.md` + `engine
 ## Hard rules
 
 1. **Auto-post only through the gate.** Post without waiting for Edu only when `channels/autopost.json` has
-   `"enabled": true`, `python3 tools/prepost_check.py episodes/<id>` prints PASS, **and** you have looked at the final
+   `"enabled": true`, `python3 tools/prepost_check.py episodes/<id>` prints PASS (it requires the reviewer's PASS in `review.md`), **and** you have looked at the final
    `qa/contact.png` yourself and checked every on-screen number and claim against `research.md`. If any of that
    fails, or you're unsure about a single claim, don't post: hand it to Edu for approval (§4b) and say what held it.
    At most one auto-post per run (the gate enforces one per London day). If Edu ever says "pause autopost" (any
@@ -53,6 +53,7 @@ source .env.local              # REMOTION_BROWSER etc.
 
 - No approval stops for script or storyboard: self-review against `engine/references/script-guide.md`
   and the storyboard rules instead. Nobody reviews before posting, so the fact check is yours.
+- Before writing the script, read "Notes for next time" in the last 3 episodes' `review.md` and apply them.
 - Script 110–150 words (45–60 s). Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
 - Assets: logos via `get_logos.mjs`. Screenshots only if the computer bridge / a browser tool is available
   in this session (otherwise build from illustrations, maps, numbers and logos; don't stall).
@@ -68,6 +69,29 @@ source .env.local              # REMOTION_BROWSER etc.
   until it finishes; a background job is stopped soon after the turn ends.
 - `cover.jpg` (strongest frame) and `caption.txt`: 1–2 lines + 3–5 hashtags + the channel's sign-off;
   a final "Sources:" block for the first comment.
+
+## 2b. Independent review (after the final render, before saving/posting)
+
+Edu (27 Oct 2026): an agent that didn't make the video checks it against his standard, and accepts it if it's good enough.
+```bash
+python3 tools/review_pack.py episodes/<id>   # frames from the final mp4, each labelled with what's being said + scene list
+```
+Spawn a fresh reviewer with the Agent tool (subagent_type "general-purpose", run_in_background false). Give it this brief,
+with <id> filled in, and nothing about how you made the video:
+> You are the independent reviewer for Edu's crypto explainer reels on Instagram (@sonartracker.io). You did not make this
+> video. Working directory ~/reels. Read engine/references/review-rubric.md first and apply it exactly: default to PASS,
+> FAIL only for its must-fix list, the bar is "Edu would be happy to have this on his account", not perfection.
+> Material for episode <id>: episodes/<id>/review/pack.md (scenes, timings, words spoken), every
+> episodes/<id>/review/sheet_*.png (frames from the final video, each labelled with what's being said),
+> episodes/<id>/script.txt, research.md and caption.txt. Check every on-screen number against research.md.
+> Write episodes/<id>/review.md in the rubric's output format and reply with its contents.
+
+- **PASS / PASS WITH NOTES** → go on to §3 and §4a. Don't re-render for notes; they feed the next episodes.
+- **FAIL** → fix only the must-fix items, re-render once, rebuild the pack, and have a fresh reviewer check again (same brief).
+  Still FAIL → don't post: §3, then hand over with §4b and include the must-fix list.
+- No Agent tool in this session → review it yourself against the rubric, write review.md, and add
+  "(self-review: no reviewer agent available)" under the verdict.
+`review.md` is committed with the episode; the `review/` folder is not.
 
 ## 3. Save the episode and host the video (this is NOT posting)
 

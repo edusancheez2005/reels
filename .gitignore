@@ -8,3 +8,4 @@ reel-studio/
 episodes/*/qa/
 episodes/*/timeline.json
 __pycache__/
+episodes/*/review/

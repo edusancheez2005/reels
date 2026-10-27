@@ -84,6 +84,14 @@ for txt, where in ((post, "caption"), ((ep / "script.txt").read_text() if (ep / 
     if hit:
         fails.append(f"price-prediction/hype phrase in {where}: '{hit.group(0)}'")
 
+# independent review (RUNBOOK §2b)
+rv = (ep / "review.md").read_text() if (ep / "review.md").exists() else ""
+vm = re.search(r"VERDICT:\s*(PASS WITH NOTES|PASS|FAIL)", rv)
+if not vm:
+    fails.append("no review.md verdict (run the independent review, RUNBOOK §2b)")
+elif vm.group(1) == "FAIL":
+    fails.append("reviewer verdict is FAIL (see review.md)")
+
 # sources
 res = (ep / "research.md").read_text() if (ep / "research.md").exists() else ""
 if len(re.findall(r"https?://", res)) < 3:
