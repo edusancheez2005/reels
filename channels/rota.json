@@ -1,8 +1,10 @@
 {
-  "_comment": "Weekday \u2192 channel (Europe/London). Edu 2026-10-27: all crypto. Mon/Wed/Fri crypto explainers (backlog/crypto.md), Tue/Thu Sonar on-chain. All post to @sonartracker.io.",
+  "_comment": "Weekday \u2192 channel (Europe/London). Edu 2026-10-27: one reel every day, all crypto. Crypto explainers (backlog/crypto.md) Mon/Wed/Fri/Sat/Sun, Sonar on-chain Tue/Thu. All post to @sonartracker.io after Edu approves.",
   "Monday": "crypto",
   "Tuesday": "sonar",
   "Wednesday": "crypto",
   "Thursday": "sonar",
-  "Friday": "crypto"
+  "Friday": "crypto",
+  "Saturday": "crypto",
+  "Sunday": "crypto"
 }

@@ -13,7 +13,7 @@ and posted to Instagram **only after a human approves each video**.
 - **tools/**: `setup.sh`, `use_channel.py`, `finish_episode.py`, `publish_media.sh`.
 
 ## Schedule
-Mon/Wed/Fri: general "how does that work?" topics. Tue/Thu: Sonar on-chain topics.
+Every day at 06:49 London time. Crypto explainers Mon/Wed/Fri/Sat/Sun, Sonar on-chain topics Tue/Thu.
 Each run finishes with a phone notification (video, caption, sources). Reply **"post it"** to publish, or say what to change.
 
 ## Run one by hand

@@ -40,6 +40,8 @@ source .env.local              # REMOTION_BROWSER etc.
     and `/api/address/<addr>/txs`; Etherscan for ETH tokens). Use it only if verified. Otherwise take the first
     unchecked item in `backlog/sonar.md`.
   - **crypto**: the first unchecked item in `backlog/crypto.md` (explainers/history; the line's hook idea is a lead, verify it).
+    If fewer than 5 unchecked items remain, append 5 new beginner-friendly crypto explainer topics (each with a hook idea) to the
+    backlog in the same commit; don't repeat a topic or a hook fact used in the last 14 episodes.
   - **general** (not on the rota for now): the first unchecked item in `backlog/general.md`.
 - Episode id: `YYYY-MM-DD-<slug>`, folder `episodes/<id>/`.
 
