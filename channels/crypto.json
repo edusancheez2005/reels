@@ -1,0 +1,49 @@
+{
+  "name": "crypto",
+  "instagram_account_id": "17841440268229419",
+  "handle": "@sonartracker.io",
+  "voice": "af_heart",
+  "brand": {
+    "handle": "",
+    "fontSource": "system",
+    "bg": "#070b12",
+    "panel": "#0d141f",
+    "line": "#1c2a3c",
+    "text": "#e9f0f7",
+    "muted": "#8595a8",
+    "accent": "#3bc9ee",
+    "alert": "#ff5b6b"
+  },
+  "audience": "people new to crypto: curious, just starting to understand it, not traders or insiders. Smart adults, so never childish or condescending.",
+  "tone": "calm, factual, no hype, no price predictions, no financial advice",
+  "signoff": "Follow @sonartracker.io for crypto, explained simply.",
+  "hashtags_base": [
+    "#Bitcoin",
+    "#Crypto",
+    "#CryptoExplained",
+    "#Blockchain",
+    "#CryptoForBeginners",
+    "#Sonar"
+  ],
+  "rules": [
+    "Never say or imply a price will go up or down. If the topic invites it, say plainly that nobody knows.",
+    "Every number on screen is in research.md with a source; on-chain facts verified on a block explorer.",
+    "Explain any crypto term the first time it's needed in one quick plain clause; max one new term per sentence; cut terms the story doesn't need.",
+    "Hook = the single most striking verifiable fact, stated flat with a number (script-guide 'Hooks', Edu 2026-10-27). No unanswerable question as the opener.",
+    "Balanced on value: give the strongest critic's view in one line when the reel touches what something is worth.",
+    "Mention Sonar at most once on screen (end tag), never as a hard sell.",
+    "Green only for up, red only for down; always pair colour with a text label.",
+    "Edu 2026-10-27: 'like the Bitcoin-origin reel' (episodes/2026-10-27-bitcoin-origin): real documents/screenshots + 3D for the key mechanism + clear numbers."
+  ],
+  "style_source": "edusancheez2005/sonar: IG_CONTENT_PLAYBOOK.md §2 (colours), §6 (Orca voice), §7 (data integrity), §8 (captions). Same account, same look.",
+  "caption_format": [
+    "Line 1: the hook fact, keyword-rich (Instagram search reads captions).",
+    "1–2 lines with the real numbers.",
+    "Follow @sonartracker.io for crypto, explained simply.",
+    "Not financial advice.",
+    "5–7 hashtags: #Bitcoin #Crypto #CryptoExplained #Blockchain #CryptoForBeginners #Sonar (swap in a topic tag, e.g. #Ethereum).",
+    "Then a 'Sources:' block (posted as the first comment, not in the caption)."
+  ],
+  "instagram_connector": "Windsor.ai for Social Media → connector \"instagram\" (account \"sonartracker.io\")",
+  "topic_source": "backlog/crypto.md (first unchecked item); explainers and history, not news"
+}

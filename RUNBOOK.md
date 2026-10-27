@@ -31,7 +31,7 @@ source .env.local              # REMOTION_BROWSER etc.
 
 ## 1. Pick the channel and topic
 
-- Channel = `channels/rota.json[weekday]` (Europe/London date); if the day isn't listed (a manual weekend run), use `general`. Load `channels/<channel>.json`.
+- Channel = `channels/rota.json[weekday]` (Europe/London date); if the day isn't listed (a manual weekend run), use `crypto`. Load `channels/<channel>.json`.
 - Apply its brand: `python3 tools/use_channel.py <channel>` (writes `reel-studio/brand.json`).
 - Topic:
   - **sonar**: first look for a notable verified on-chain event from the last 7 days (whale
@@ -39,7 +39,8 @@ source .env.local              # REMOTION_BROWSER etc.
     transaction on a block explorer (mempool.space for BTC: WebFetch `https://mempool.space/api/tx/<txid>`
     and `/api/address/<addr>/txs`; Etherscan for ETH tokens). Use it only if verified. Otherwise take the first
     unchecked item in `backlog/sonar.md`.
-  - **general**: the first unchecked item in `backlog/general.md`.
+  - **crypto**: the first unchecked item in `backlog/crypto.md` (explainers/history; the line's hook idea is a lead, verify it).
+  - **general** (not on the rota for now): the first unchecked item in `backlog/general.md`.
 - Episode id: `YYYY-MM-DD-<slug>`, folder `episodes/<id>/`.
 
 ## 2. Produce (follow `engine/SKILL.md`, with these overrides for unattended runs)

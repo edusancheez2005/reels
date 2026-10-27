@@ -15,6 +15,15 @@ words give them.
 
 No intro, no "hey guys", no "in this video". The first word is already content.
 
+## Hooks (Edu, 2026-10-27: "a cool fact")
+
+Open on the single most striking fact the reel can prove, stated flat, with a number, and show it in the first second.
+Then the twist that makes people stay. A hook beats a question when the question has no answer.
+- Good: "There will only ever be twenty-one million bitcoin. Over twenty million already exist." (picture: 21 stacks, 20 full)
+- Good: "In 2010, someone paid ten thousand bitcoin for two pizzas." (picture: the real forum post)
+- Weak: "Will Bitcoin go up or down?" (nobody can answer it; it was used once, don't repeat)
+- Don't overclaim in the hook: scarcity alone doesn't create value (scarcity + people wanting it does). Say what's true.
+
 ## Hooks (Edu, 2026-10-26: "a way better hook")
 
 The first line has to create a reason to keep watching: a hidden object, a danger, a surprising number, or a

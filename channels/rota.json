@@ -1,8 +1,8 @@
 {
-  "_comment": "Weekday → channel (Europe/London). Sonar 2 a week, general 3 a week. Both post to the Sonar Instagram account for now.",
-  "Monday": "general",
+  "_comment": "Weekday \u2192 channel (Europe/London). Edu 2026-10-27: all crypto. Mon/Wed/Fri crypto explainers (backlog/crypto.md), Tue/Thu Sonar on-chain. All post to @sonartracker.io.",
+  "Monday": "crypto",
   "Tuesday": "sonar",
-  "Wednesday": "general",
+  "Wednesday": "crypto",
   "Thursday": "sonar",
-  "Friday": "general"
+  "Friday": "crypto"
 }
