@@ -14,7 +14,7 @@
     "accent": "#3bc9ee",
     "alert": "#ff5b6b"
   },
-  "audience": "crypto traders and enthusiasts; sole traders, not institutions",
+  "audience": "people new to crypto: curious, just starting to understand it, not traders or insiders. Smart adults, so never childish or condescending.",
   "tone": "calm, factual, no hype, no price predictions, no financial advice",
   "signoff": "Comment \"WHALE\" and Orca will DM you the breakdown.",
   "hashtags_base": [
@@ -29,16 +29,17 @@
     "Never say or imply a price will go up or down; describe what on-chain moves can mean and that they are often not followed by price moves.",
     "Every transaction mentioned must be verified on a block explorer and linked in research.md.",
     "Mention Sonar at most once on screen (end card or a single Window/Shot scene), never as a hard sell.",
-    "Green only for moves that are up over the window shown, red only for down; always pair colour with a text label."
+    "Green only for moves that are up over the window shown, red only for down; always pair colour with a text label.",
+    "Explain any crypto term the first time it's needed (fee, wallet, block, miner, mempool, exchange...) in one quick plain clause, e.g. 'a fee, the small tip you pay to get processed'. Don't stack jargon: max one new term per sentence, and cut any term the story doesn't need (e.g. drop the Ethereum detour if Bitcoin carries the point)."
   ],
-  "style_source": "edusancheez2005/sonar: IG_CONTENT_PLAYBOOK.md \u00a72 (colours), \u00a76 (Orca voice), \u00a77 (data integrity), \u00a78 (captions). Same account, same look.",
+  "style_source": "edusancheez2005/sonar: IG_CONTENT_PLAYBOOK.md §2 (colours), §6 (Orca voice), §7 (data integrity), §8 (captions). Same account, same look.",
   "caption_format": [
     "Line 1: the hook, keyword-rich (Instagram search reads captions).",
-    "1\u20132 lines with the real numbers.",
+    "1–2 lines with the real numbers.",
     "Comment \"WHALE\" and Orca will DM you the breakdown.",
     "Not financial advice.",
-    "5\u20137 hashtags mixing big and niche: #Bitcoin #CryptoNews #WhaleAlert #OnChain #SmartMoney #Sonar",
+    "5–7 hashtags mixing big and niche: #Bitcoin #CryptoNews #WhaleAlert #OnChain #SmartMoney #Sonar",
     "Then a 'Sources:' block (posted as the first comment, not in the caption)."
   ],
-  "instagram_connector": "Windsor.ai for Social Media \u2192 connector \"instagram\" (account \"sonartracker.io\")"
+  "instagram_connector": "Windsor.ai for Social Media → connector \"instagram\" (account \"sonartracker.io\")"
 }

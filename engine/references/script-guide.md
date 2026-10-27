@@ -39,6 +39,17 @@ Bad (nothing to show):
 Patterns: *counter-intuitive claim*, *specific number*, *"this one X"* with X on screen,
 *a question the viewer has literally had in their hand*.
 
+## Audience: smart beginners (Edu, 2026-10-27)
+
+Assume the viewer is a smart adult who is new to the topic (on Sonar: just starting to understand crypto; half won't know
+what a "fee" or a "block" is). Make it easy without making them feel dumb.
+- **Define on first use, in passing.** One quick clause, then move on: "a fee, the small tip you pay to get processed".
+  No "basically", no "think of it like you're five", no talking down.
+- **One new term per sentence, max.** Jargon stacking ("fee rate", "mempool", "Ethereum", "sandwich" in 15 s) loses people.
+- **Cut terms the story doesn't need.** If a detour adds a second chain or a second concept, drop it.
+- **Anchor to everyday things** they already know (a queue, a waiting room, a receipt) before naming the crypto word.
+- Self-check: read the script as someone who has never bought crypto. Every word they'd have to google gets explained or cut.
+
 ## Writing for the ear (and for TTS)
 
 - Short sentences, mostly 6–14 words. One idea per sentence.
