@@ -1,0 +1,4 @@
+{
+  "enabled": true,
+  "note": "Edu 2026-10-27: 'post it yourself'. Runs post on their own when tools/prepost_check.py passes. Set false (or Edu says 'pause autopost') to go back to approval-first."
+}

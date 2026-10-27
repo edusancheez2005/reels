@@ -1,7 +1,7 @@
 # reels
 
 An automated pipeline for short explainer reels (9:16, 45–60 s), produced by Claude on a schedule
-and posted to Instagram **only after a human approves each video**.
+and posted to Instagram automatically when it passes the pre-post checks (`tools/prepost_check.py`); otherwise held for approval.
 
 - **engine/**: the explainer-reels skill (research → script → voice → word-anchored storyboard →
   Remotion render → QA). See `engine/SKILL.md`.
@@ -14,7 +14,8 @@ and posted to Instagram **only after a human approves each video**.
 
 ## Schedule
 Every day at 06:49 London time. Crypto explainers Mon/Wed/Fri/Sat/Sun, Sonar on-chain topics Tue/Thu.
-Each run finishes with a phone notification (video, caption, sources). Reply **"post it"** to publish, or say what to change.
+Each run posts itself when the checks pass, then sends a phone notification (video, caption, sources, media id).
+Pause with `channels/autopost.json` → `"enabled": false` (or tell Claude "pause autopost"); held videos wait for "post it".
 
 ## Run one by hand
 ```bash

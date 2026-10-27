@@ -1,16 +1,20 @@
 # Scheduled reel run — runbook
 
-Every scheduled run follows this file top to bottom. The run is **unattended until the final step**:
-it researches, writes, voices, builds, checks and renders on its own, then hands the finished
-video to Edu and **waits for his explicit approval before anything is posted.**
+Every scheduled run follows this file top to bottom. The run is **fully unattended**: it researches, writes,
+voices, builds, checks and renders on its own, **posts to Instagram itself when every pre-post check passes**
+(Edu, 27 Oct 2026: "post it yourself"), then tells Edu what went up. If a check fails, it holds the video and
+asks Edu instead.
 
 Repo: `edusancheez2005/reels` (public). Engine docs: `engine/SKILL.md` + `engine/references/`.
 
 ## Hard rules
 
-1. **Never post, publish or schedule anything without Edu replying with explicit approval in this
-   session** ("post it", "yes post", or equivalent). Silence, a thumbs-up on something else, or an
-   approval from an earlier run does not count. One approval = one post.
+1. **Auto-post only through the gate.** Post without waiting for Edu only when `channels/autopost.json` has
+   `"enabled": true`, `python3 tools/prepost_check.py episodes/<id>` prints PASS, **and** you have looked at the final
+   `qa/contact.png` yourself and checked every on-screen number and claim against `research.md`. If any of that
+   fails, or you're unsure about a single claim, don't post: hand it to Edu for approval (§4b) and say what held it.
+   At most one auto-post per run (the gate enforces one per London day). If Edu ever says "pause autopost" (any
+   session), set `enabled` to false in `channels/autopost.json` and push; from then on every run waits for "post it".
 2. Every on-screen claim must be in the episode's `research.md` with a source URL. Verify the hook
    against a primary record when one exists (block explorer, filing, official page). If a fact can't be
    verified, cut it. Don't soften it.
@@ -48,7 +52,7 @@ source .env.local              # REMOTION_BROWSER etc.
 ## 2. Produce (follow `engine/SKILL.md`, with these overrides for unattended runs)
 
 - No approval stops for script or storyboard: self-review against `engine/references/script-guide.md`
-  and the storyboard rules instead. Edu reviews the finished video.
+  and the storyboard rules instead. Nobody reviews before posting, so the fact check is yours.
 - Script 110–150 words (45–60 s). Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
 - Assets: logos via `get_logos.mjs`. Screenshots only if the computer bridge / a browser tool is available
   in this session (otherwise build from illustrations, maps, numbers and logos; don't stall).
@@ -75,16 +79,33 @@ bash tools/publish_media.sh episodes/<id>                   # pushes mp4 + cover
 `VIDEO_URL` is a public raw.githubusercontent.com link that Instagram downloads the video from. GitHub Releases
 are not available to these sessions, so don't use them.
 
-## 4. Hand over and wait
+## 4a. Post (when the gate passes)
+
+```bash
+python3 tools/prepost_check.py episodes/<id>   # PASS → writes caption_post.txt + sources_comment.txt
+```
+1. Publish with the **Windsor.ai for Social Media** connector:
+   `execute_action(connector="instagram", account="17841440268229419", action="create_video_post",
+   params={video_url: VIDEO_URL, cover_url: COVER_URL, caption: <caption_post.txt>, share_to_feed: true})`.
+2. With the returned media id: `create_comment(media_id, message=<sources_comment.txt>)`.
+3. Update `episodes/<id>/meta.json`: `posted: true`, `auto_posted: true`, `posted_at` (UTC ISO), `instagram_media_id`,
+   `sources_comment_id`; commit and push.
+4. Tell Edu (status "proactive"): the mp4 (SendUserFile) and a message: "Posted to @sonartracker.io: <topic>", the
+   caption, the sources, the media id, and "If anything's wrong, delete it in the Instagram app and tell me what to fix.
+   Reply 'pause autopost' to go back to approving each one."
+If Instagram rejects the video, retry once; if it still fails, don't keep trying: send Edu the mp4 + caption for a manual
+upload and say exactly what the error was.
+
+## 4b. Hand over and wait (when the gate fails or autopost is paused)
 
 Send Edu (status "proactive", so it reaches his phone):
 - the mp4 (SendUserFile),
-- a message with the topic, the caption, the sources, the VIDEO_URL, the target Instagram account (@sonartracker.io), and:
-  **"Reply 'post it' to publish, or tell me what to change."**
+- a message with what held it back (the FAIL lines or your doubt), the topic, the caption, the sources, the VIDEO_URL,
+  the target Instagram account (@sonartracker.io), and: **"Reply 'post it' to publish, or tell me what to change."**
 
 Then stop. Do not post.
 
-## 5. When Edu replies
+## 5. When Edu replies to a held video
 
 - **"post it"** (explicit): publish with the **Windsor.ai for Social Media** connector:
   `execute_action(connector="instagram", account="17841440268229419", action="create_video_post",
@@ -92,6 +113,6 @@ Then stop. Do not post.
   Then post the Sources block as the first comment (`create_comment` with the new media id) if one is returned.
   If Instagram rejects the video URL, retry once with the Pages URL if GitHub Pages is enabled; otherwise tell Edu
   and attach the mp4 + caption for a manual upload. Report exactly what happened, then update `episodes/<id>/meta.json`
-  (`posted: true`, the permalink if available) and push.
+  (`posted: true`, `posted_at`, media ids) and push.
 - **Changes requested**: edit, rebuild, re-render, re-run publish_media.sh (same id overwrites the video), and send again. Wait again.
 - **"skip"**: leave it unposted and untick nothing.
