@@ -1,0 +1,15 @@
+Every bitcoin payment waits in a public waiting room called the mempool before it's confirmed, and bots can read it. 👀
+
+This morning (27 Oct, 06:55 UTC) mempool.space showed 46,656 unconfirmed transactions. Miners take the highest fee rates first; on Ethereum, bots watch the mempool for big trades and sandwich them.
+
+Comment "WHALE" and Orca will DM you the breakdown.
+Not financial advice.
+
+#Bitcoin #Mempool #CryptoNews #OnChain #MEV #Ethereum #Sonar
+
+Sources:
+- mempool.space live mempool, 27 Oct 2026 06:55 UTC (46,656 unconfirmed txs): https://mempool.space/
+- mempool.space FAQ (mempool definition, fee-rate priority, RBF): https://mempool.space/docs/faq
+- Bitcoin developer guide, Transactions (nodes validate and relay; fee-per-byte priority): https://developer.bitcoin.org/devguide/transactions.html
+- Bitcoin developer guide, Block chain (2,016 blocks per two weeks ≈ 10 min/block): https://developer.bitcoin.org/devguide/block_chain.html
+- ethereum.org, Maximal extractable value (sandwiches, generalized frontrunners): https://ethereum.org/developers/docs/mev/

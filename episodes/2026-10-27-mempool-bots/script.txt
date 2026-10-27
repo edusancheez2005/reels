@@ -1,0 +1,11 @@
+This morning, forty-six thousand bitcoin payments were sitting in a public waiting room. And bots can read every one.
+
+It's called the mempool. When you hit send, your payment isn't on the blockchain yet. Each node checks it, passes it on, and holds it in its own pool of waiting transactions.
+
+Miners fill each new block from that pool, highest fee rate first. A new block lands about every ten minutes. Pay too little, and you wait. Some wallets let you replace it with a higher fee.
+
+But here's the catch. Everything in the pool is public before it's final.
+
+On Ethereum, bots watch the mempool for big trades. They buy just before yours, and sell just after. It's called a sandwich. Other bots copy a profitable transaction, pay a higher fee, and jump the queue.
+
+So before your payment is even confirmed, someone may have already seen it.

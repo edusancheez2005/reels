@@ -1,0 +1,1084 @@
+{
+ "slug": "mempool-bots",
+ "theme": "dark",
+ "tail": 1.0,
+ "emphasis": [
+  "forty-six thousand",
+  "public waiting room.",
+  "bots",
+  "mempool.",
+  "isn't on the blockchain",
+  "checks it,",
+  "own pool",
+  "highest fee rate first.",
+  "ten minutes.",
+  "you wait.",
+  "higher fee.",
+  "public",
+  "big trades.",
+  "just before",
+  "just after.",
+  "sandwich.",
+  "jump the queue.",
+  "already seen it."
+ ],
+ "scenes": [
+  {
+   "anchor": "This",
+   "component": "Pool3D",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "actions": [
+     "fill",
+     "count"
+    ],
+    "value": 46656,
+    "sub": "unconfirmed bitcoin transactions\nmempool.space · 27 Oct 2026, 06:55 UTC",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       9,
+       7.5
+      ],
+      "look": [
+       0,
+       0,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       6.2,
+       8.4
+      ],
+      "look": [
+       0,
+       0.2,
+       0
+      ],
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "This",
+    "thousand"
+   ]
+  },
+  {
+   "anchor": "public waiting",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "actions": [
+     "label:0"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Public waiting room",
+      "x": 540,
+      "y": 600,
+      "tone": "accent",
+      "size": 44
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -5.5,
+       1.4,
+       4.5
+      ],
+      "look": [
+       0,
+       0.2,
+       0
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 0,
+      "pos": [
+       5.5,
+       1.6,
+       4.8
+      ],
+      "look": [
+       0,
+       0.2,
+       0
+      ],
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "waiting"
+   ]
+  },
+  {
+   "anchor": "And bots",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "actions": [
+     "bots",
+     "label:0"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Bots",
+      "x": 540,
+      "y": 560,
+      "tone": "muted",
+      "size": 46
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       4.5,
+       6.8
+      ],
+      "look": [
+       0,
+       1.0,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       3.6,
+       5.6
+      ],
+      "look": [
+       0,
+       1.2,
+       0
+      ],
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "bots",
+    "every"
+   ]
+  },
+  {
+   "anchor": "It's called",
+   "component": "Title",
+   "theme": "light",
+   "transition": "pop",
+   "props": {
+    "lines": [
+     "The",
+     "mempool."
+    ],
+    "accent": [
+     "mempool."
+    ],
+    "size": 150
+   },
+   "beats": [
+    "called",
+    "mempool"
+   ]
+  },
+  {
+   "anchor": "When you hit",
+   "component": "Phone",
+   "theme": "light",
+   "transition": "rise",
+   "props": {
+    "time": "06:55",
+    "date": "Tuesday, 27 October",
+    "notifs": [
+     {
+      "app": "Wallet",
+      "icon": "₿",
+      "iconBg": "#F7931A",
+      "title": "Sent 0.01 BTC",
+      "body": "Pending"
+     }
+    ]
+   },
+   "beats": [
+    "send"
+   ]
+  },
+  {
+   "anchor": "isn't",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "chain": true,
+    "actions": [
+     "send",
+     "label:0",
+     "label:1"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Blockchain",
+      "x": 330,
+      "y": 560,
+      "tone": "accent"
+     },
+     {
+      "text": "Your payment: not in a block yet",
+      "x": 540,
+      "y": 1360,
+      "size": 32,
+      "to": [
+       540,
+       1230
+      ]
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       4.6,
+       8.6
+      ],
+      "look": [
+       -1.0,
+       1.5,
+       0.6
+      ],
+      "fov": 40
+     }
+    ]
+   },
+   "beats": [
+    "isn't",
+    "blockchain",
+    "yet"
+   ]
+  },
+  {
+   "anchor": "Each node",
+   "component": "Flow",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "nodes": [
+     {
+      "id": "tx",
+      "icon": "₿",
+      "label": "Your payment",
+      "x": 500,
+      "y": 120,
+      "size": 0.8
+     },
+     {
+      "id": "n1",
+      "icon": "🖥️",
+      "label": "Node",
+      "sub": "✓ checks it",
+      "x": 180,
+      "y": 470,
+      "size": 0.75
+     },
+     {
+      "id": "n2",
+      "icon": "🖥️",
+      "label": "Node",
+      "sub": "✓ checks it",
+      "x": 500,
+      "y": 470,
+      "size": 0.75
+     },
+     {
+      "id": "n3",
+      "icon": "🖥️",
+      "label": "Node",
+      "sub": "✓ checks it",
+      "x": 820,
+      "y": 470,
+      "size": 0.75
+     },
+     {
+      "id": "pool",
+      "label": "Each keeps its own pool",
+      "tone": "accent",
+      "x": 500,
+      "y": 790
+     }
+    ],
+    "edges": [
+     {
+      "from": "tx",
+      "to": "n2",
+      "flow": true
+     },
+     {
+      "from": "n2",
+      "to": "n1",
+      "flow": true
+     },
+     {
+      "from": "n2",
+      "to": "n3",
+      "flow": true
+     }
+    ],
+    "order": [
+     [
+      "tx",
+      "tx>n2",
+      "n2"
+     ],
+     [
+      "n2>n1",
+      "n1",
+      "n2>n3",
+      "n3"
+     ],
+     "pool"
+    ]
+   },
+   "beats": [
+    "node",
+    "passes",
+    "holds"
+   ]
+  },
+  {
+   "anchor": "own pool",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "you": true,
+    "actions": [
+     "label:0",
+     "cam"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Your transaction",
+      "x": 540,
+      "y": 640,
+      "size": 38,
+      "to": [
+       540,
+       980
+      ]
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       3.4,
+       6.6
+      ],
+      "look": [
+       0,
+       0.2,
+       1.6
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.2,
+       1.6,
+       4.6
+      ],
+      "look": [
+       0,
+       0.2,
+       1.6
+      ],
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "pool",
+    "transactions"
+   ]
+  },
+  {
+   "anchor": "Miners fill",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "you": true,
+    "actions": [
+     "sort",
+     "label:0",
+     "block"
+    ],
+    "caption": "Illustration · colour = fee rate",
+    "tags": [
+     {
+      "text": "Highest fee rate first",
+      "x": 540,
+      "y": 520,
+      "tone": "warm",
+      "size": 40
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       4.4,
+       8.6
+      ],
+      "look": [
+       0,
+       1.0,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0,
+       4.8,
+       9.8
+      ],
+      "look": [
+       0,
+       1.9,
+       -0.5
+      ],
+      "fov": 42,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "fill",
+    "highest",
+    "first"
+   ]
+  },
+  {
+   "anchor": "A new block",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "you": true,
+    "sorted": true,
+    "chain": true,
+    "actions": [
+     "chain",
+     "label:0"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "≈ every 10 minutes",
+      "x": 540,
+      "y": 520,
+      "tone": "accent",
+      "size": 44
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.6,
+       4.5,
+       7.4
+      ],
+      "look": [
+       -0.9,
+       2.7,
+       -0.8
+      ],
+      "fov": 42
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -1.6,
+       4.7,
+       7.8
+      ],
+      "look": [
+       -1.4,
+       2.7,
+       -0.8
+      ],
+      "dur": 30
+     }
+    ],
+    "packed": true
+   },
+   "beats": [
+    "block",
+    "ten"
+   ]
+  },
+  {
+   "anchor": "Pay too",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "you": true,
+    "actions": [
+     "wait",
+     "label:0"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Low fee: waits",
+      "x": 540,
+      "y": 620,
+      "tone": "warm",
+      "size": 40,
+      "to": [
+       540,
+       1010
+      ]
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       3.2,
+       6.6
+      ],
+      "look": [
+       0,
+       0.5,
+       1.4
+      ],
+      "fov": 34
+     }
+    ]
+   },
+   "beats": [
+    "little",
+    "wait"
+   ]
+  },
+  {
+   "anchor": "Some wallets",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "you": true,
+    "actions": [
+     "label:0",
+     "bump",
+     "label:1"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Replace-by-fee",
+      "x": 540,
+      "y": 500,
+      "tone": "accent",
+      "size": 40
+     },
+     {
+      "text": "Higher fee",
+      "x": 540,
+      "y": 560,
+      "tone": "warm",
+      "size": 34
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       3.2,
+       6.6
+      ],
+      "look": [
+       0,
+       0.5,
+       1.4
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       3.6,
+       7.0
+      ],
+      "look": [
+       0,
+       1.0,
+       1.4
+      ],
+      "dur": 26
+     }
+    ]
+   },
+   "beats": [
+    "wallets",
+    "replace",
+    "higher"
+   ]
+  },
+  {
+   "anchor": "But here's",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "actions": [
+     "bots",
+     "cam"
+    ],
+    "caption": "Illustration",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       7,
+       7
+      ],
+      "look": [
+       0,
+       0.6,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       4.8,
+       6.4
+      ],
+      "look": [
+       0,
+       1.0,
+       0
+      ],
+      "dur": 24
+     }
+    ]
+   },
+   "beats": [
+    "here's",
+    "catch"
+   ]
+  },
+  {
+   "anchor": "Everything",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "actions": [
+     "scan",
+     "label:0",
+     "label:1"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Public",
+      "x": 540,
+      "y": 540,
+      "size": 54
+     },
+     {
+      "text": "before it's final",
+      "x": 540,
+      "y": 610,
+      "tone": "accent",
+      "size": 40
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       5.6,
+       7.6
+      ],
+      "look": [
+       0,
+       0.4,
+       0
+      ],
+      "fov": 36
+     }
+    ]
+   },
+   "beats": [
+    "Everything",
+    "public",
+    "final"
+   ]
+  },
+  {
+   "anchor": "On Ethereum",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "botsOn": true,
+    "actions": [
+     "label:0",
+     "big",
+     "label:1"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Ethereum mempool",
+      "x": 540,
+      "y": 520,
+      "tone": "muted",
+      "size": 38
+     },
+     {
+      "text": "Big trade",
+      "x": 540,
+      "y": 1500,
+      "tone": "warm",
+      "size": 40
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       4.6,
+       9.2
+      ],
+      "look": [
+       0,
+       0.6,
+       1.0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       3.2,
+       8.6
+      ],
+      "look": [
+       0,
+       0.6,
+       2.2
+      ],
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "Ethereum",
+    "big",
+    "trades"
+   ]
+  },
+  {
+   "anchor": "They buy",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "bigOn": true,
+    "actions": [
+     "sandA",
+     "label:0",
+     "sandB",
+     "label:1"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Bot buys",
+      "x": 270,
+      "y": 1450,
+      "tone": "muted",
+      "size": 34
+     },
+     {
+      "text": "Bot sells",
+      "x": 810,
+      "y": 1450,
+      "tone": "muted",
+      "size": 34
+     },
+     {
+      "text": "Your trade",
+      "x": 540,
+      "y": 1520,
+      "tone": "warm",
+      "size": 30
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       3.0,
+       9.8
+      ],
+      "look": [
+       0,
+       0.5,
+       2.6
+      ],
+      "fov": 36
+     }
+    ]
+   },
+   "beats": [
+    "buy",
+    "before",
+    "sell",
+    "after"
+   ]
+  },
+  {
+   "anchor": "It's called a sandwich",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "The sandwich",
+    "rows": [
+     {
+      "left": "1   Bot buys first",
+      "badge": "BOT",
+      "tone": "muted"
+     },
+     {
+      "left": "2   Your big trade",
+      "badge": "YOU",
+      "tone": "accent"
+     },
+     {
+      "left": "3   Bot sells right after",
+      "badge": "BOT",
+      "tone": "muted"
+     }
+    ],
+    "note": "Source: ethereum.org, MEV"
+   },
+   "beats": [
+    "called",
+    "sandwich",
+    "Other"
+   ]
+  },
+  {
+   "anchor": "copy",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "bigOn": true,
+    "botsOn": true,
+    "actions": [
+     "copy",
+     "label:0"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Copied",
+      "x": 540,
+      "y": 560,
+      "tone": "muted",
+      "size": 40
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       3.0,
+       8.0
+      ],
+      "look": [
+       0,
+       0.8,
+       2.4
+      ],
+      "fov": 34
+     }
+    ]
+   },
+   "beats": [
+    "copy",
+    "transaction"
+   ]
+  },
+  {
+   "anchor": "pay a higher",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "bigOn": true,
+    "botsOn": true,
+    "cloneOn": true,
+    "actions": [
+     "label:0",
+     "jump",
+     "cam"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Higher fee",
+      "x": 540,
+      "y": 560,
+      "tone": "warm",
+      "size": 40
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       3.0,
+       8.2
+      ],
+      "look": [
+       -0.4,
+       0.7,
+       2.5
+      ],
+      "fov": 34
+     }
+    ]
+   },
+   "beats": [
+    "higher",
+    "jump",
+    "queue"
+   ]
+  },
+  {
+   "anchor": "So before",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "you": true,
+    "botsOn": true,
+    "actions": [
+     "cam",
+     "label:0"
+    ],
+    "caption": "Illustration",
+    "tags": [
+     {
+      "text": "Seen before it's confirmed",
+      "x": 540,
+      "y": 540,
+      "tone": "accent",
+      "size": 38
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       1.8,
+       4.6
+      ],
+      "look": [
+       0,
+       0.3,
+       1.6
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 0,
+      "pos": [
+       0,
+       8.5,
+       8.5
+      ],
+      "look": [
+       0,
+       0.4,
+       0
+      ],
+      "fov": 36,
+      "dur": 70
+     }
+    ]
+   },
+   "beats": [
+    "payment",
+    "already"
+   ],
+   "long": true
+  }
+ ]
+}

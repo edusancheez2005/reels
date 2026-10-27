@@ -161,6 +161,16 @@ rendering: about 2–3 s per 1080×1920 frame on 2 cores, so a 48 s reel takes a
 `python3 tools/qa_frames.py episodes/<id>` (one still per scene, ~4 min) instead of the full draft video.
 Text on canvases uses the system Inter; tags are SVG overlays, so there are no font downloads at render time.
 
+**Pool3D**: a mempool — a glass basin of ~160 glowing transaction cubes coloured by fee rate (deep blue = low, cyan, amber = high),
+for any "pending transactions / block building / bots watching" beat. Actions: `fill` (cubes rain in), `count` (counter `value`
+lands, with `sub`; `\n` breaks lines), `send` (your white outlined cube flies in), `sort` (cubes lift by fee: a fee terrain),
+`block` (top `blockSize` cubes fly up and pack into a new block), `chain` (new block links to the chain), `wait` (your cube pulses
+amber), `bump` (your fee jumps: turns amber and lifts), `bots` (violet watcher drones with reading beams; read cubes flash),
+`scan` (a violet scan plane sweeps the pool), `big` (gold "big trade" cube drops into the front lane), `sandA`/`sandB` (bot cubes
+slide in before/after it), `copy` (violet clone grows out of the big trade), `jump` (clone moves ahead), `label:<n>`, `cam`.
+State props for later scenes: `you`, `chain`, `packed`, `sorted`, `botsOn`, `bigOn`, `cloneOn`. Bots are violet on purpose:
+red/green are reserved for down/up moves on Sonar.
+
 **Title**: big kinetic text, one line per beat. Use sparingly. `lines`, `accent`, `size`.
 
 ### v1 (dark-only cards, still available)
