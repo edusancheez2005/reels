@@ -108,7 +108,7 @@ export const Scale: React.FC<SceneProps<{left: {title: string; sub?: string; coi
 };
 
 /** A sourced, paraphrased claim card (never a fake screenshot). Beat 0 card, beat 1 highlight on `mark`. */
-export const Quote: React.FC<SceneProps<{source: string; text: string; mark?: string; stamp?: string}>> = ({props, beats}) => {
+export const Quote: React.FC<SceneProps<{source: string; text: string; mark?: string; stamp?: string; note?: string}>> = ({props, beats}) => {
   const frame = useCurrentFrame();
   const pal = usePal();
   const {p} = useReveal(beats, 0, 12);
@@ -128,7 +128,7 @@ export const Quote: React.FC<SceneProps<{source: string; text: string; mark?: st
           ) : null}
           {parts[1] ?? ''}
         </div>
-        <div style={{marginTop: 30, fontSize: 26, fontWeight: 600, color: pal.muted}}>Paraphrased from the report</div>
+        <div style={{marginTop: 30, fontSize: 26, fontWeight: 600, color: pal.muted}}>{props.note ?? 'Paraphrased from the report'}</div>
       </div>
       {props.stamp ? (() => {
         const sp = interpolate(frame, [at(beats, 2), at(beats, 2) + 7], [0, 1], {...clamp, easing: Easing.out(Easing.back(2.2))});

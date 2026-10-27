@@ -10,3 +10,4 @@
 - [ ] How to read a whale alert without panicking (5 questions to ask)
 - [ ] Self-custody vs exchange custody: where the biggest holders keep coins
 - [ ] What happens on-chain when an exchange gets hacked
+- [x] How Bitcoin started (manual request) (2026-10-27-bitcoin-origin)

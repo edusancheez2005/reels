@@ -1,0 +1,737 @@
+{
+ "slug": "bitcoin-origin",
+ "theme": "dark",
+ "tail": 1.0,
+ "emphasis": [
+  "nobody knows.",
+  "came from,",
+  "gives it value.",
+  "Banks are failing.",
+  "Satoshi Nakamoto",
+  "no bank",
+  "first block.",
+  "second bailout for banks.",
+  "Hal Finney.",
+  "two pizzas.",
+  "eight hundred million dollars.",
+  "vanished.",
+  "never moved.",
+  "eighty thousand dollars,",
+  "one point three million",
+  "Scarcity:",
+  "twenty-one million,",
+  "freeze yours.",
+  "like gold.",
+  "all there is."
+ ],
+ "scenes": [
+  {
+   "anchor": "Will",
+   "component": "Coin3D",
+   "theme": "dark",
+   "moving": true,
+   "long": true,
+   "props": {
+    "actions": [
+     "spin",
+     "up",
+     "down",
+     "ask",
+     "cam"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.25,
+       11.0
+      ],
+      "look": [
+       0,
+       0.25,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 0,
+      "pos": [
+       0,
+       0.25,
+       9.6
+      ],
+      "dur": 30
+     },
+     {
+      "beat": 3,
+      "pos": [
+       0,
+       0.3,
+       9.1
+      ],
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "Bitcoin",
+    "up",
+    "down",
+    "nobody",
+    "knows"
+   ]
+  },
+  {
+   "anchor": "But",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Where it came from.",
+     "What gives it value."
+    ],
+    "accent": [
+     "value."
+    ],
+    "size": 92
+   },
+   "beats": [
+    "came",
+    "value"
+   ]
+  },
+  {
+   "anchor": "October",
+   "component": "Ruler",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "from": 2007.6,
+    "to": 2011.9,
+    "marks": [
+     {
+      "at": 2008.79,
+      "label": "October 2008",
+      "sub": "Banks are failing"
+     }
+    ]
+   },
+   "beats": [
+    "October"
+   ]
+  },
+  {
+   "anchor": "Someone",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "rise",
+   "long": true,
+   "props": {
+    "src": "whitepaper-p1.png",
+    "url": "bitcoin.org/bitcoin.pdf",
+    "chrome": "browser",
+    "source": "bitcoin.org · white paper, 31 Oct 2008",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.2,
+      "zoom": 1.9
+     },
+     {
+      "x": 0.5,
+      "y": 0.25,
+      "zoom": 1.3
+     },
+     {
+      "x": 0.5,
+      "y": 0.3,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 284,
+      "y": 97,
+      "w": 162,
+      "h": 30
+     },
+     {
+      "beat": 3,
+      "kind": "underline",
+      "x": 30,
+      "y": 22,
+      "w": 672,
+      "h": 36
+     }
+    ]
+   },
+   "beats": [
+    "Someone",
+    "Satoshi",
+    "nine-page",
+    "paper"
+   ]
+  },
+  {
+   "anchor": "digital",
+   "component": "Flow",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "a",
+      "label": "You",
+      "icon": "🧑",
+      "x": 170,
+      "y": 560
+     },
+     {
+      "id": "b",
+      "label": "Anyone",
+      "icon": "🧑",
+      "x": 830,
+      "y": 560
+     },
+     {
+      "id": "bank",
+      "label": "Bank",
+      "icon": "🏦",
+      "x": 500,
+      "y": 220,
+      "cross": true
+     }
+    ],
+    "edges": [
+     {
+      "from": "a",
+      "to": "b",
+      "label": "digital cash",
+      "flow": true,
+      "tone": "accent"
+     }
+    ],
+    "order": [
+     [
+      "a",
+      "b"
+     ],
+     "a>b",
+     "bank",
+     "x:bank"
+    ]
+   },
+   "beats": [
+    "digital",
+    "moves",
+    "no",
+    "middle"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "January",
+   "component": "Ruler",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "from": 2007.6,
+    "to": 2011.9,
+    "marks": [
+     {
+      "at": 2009.01,
+      "label": "3 January 2009",
+      "sub": "Block 0: the first block"
+     }
+    ]
+   },
+   "beats": [
+    "January"
+   ]
+  },
+  {
+   "anchor": "Hidden",
+   "component": "Terminal",
+   "theme": "dark",
+   "transition": "pop",
+   "long": true,
+   "props": {
+    "title": "block 0 · coinbase, decoded",
+    "lines": [
+     "block 0 · 2009-01-03 18:15:05 UTC",
+     "coinbase message:",
+     "The Times 03/Jan/2009",
+     "Chancellor on brink of",
+     "second bailout for banks"
+    ]
+   },
+   "beats": [
+    "Hidden",
+    "inside",
+    "newspaper",
+    "Chancellor",
+    "bailout"
+   ]
+  },
+  {
+   "anchor": "The first",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "value": 10,
+    "suffix": " BTC",
+    "logo": "bitcoin.svg",
+    "chip": "block 170 · 12 Jan 2009",
+    "tone": "accent"
+   },
+   "beats": [
+    "transfer",
+    "ten"
+   ]
+  },
+  {
+   "anchor": "programmer",
+   "component": "Flow",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "sat",
+      "label": "Satoshi",
+      "icon": "👤",
+      "x": 190,
+      "y": 470
+     },
+     {
+      "id": "hal",
+      "label": "Hal Finney",
+      "sub": "programmer",
+      "icon": "🧑‍💻",
+      "x": 810,
+      "y": 470
+     }
+    ],
+    "edges": [
+     {
+      "from": "sat",
+      "to": "hal",
+      "label": "10 BTC",
+      "flow": true,
+      "tone": "accent"
+     }
+    ],
+    "order": [
+     [
+      "sat",
+      "hal"
+     ],
+     "sat>hal"
+    ]
+   },
+   "beats": [
+    "programmer",
+    "Hal"
+   ]
+  },
+  {
+   "anchor": "A year",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "rise",
+   "props": {
+    "src": "pizza-post.png",
+    "url": "bitcointalk.org/index.php?topic=137",
+    "chrome": "browser",
+    "source": "bitcointalk.org · 22 May 2010",
+    "cam": [
+     {
+      "x": 0.57,
+      "y": 0.25,
+      "zoom": 1.15
+     },
+     {
+      "x": 0.7,
+      "y": 0.4,
+      "zoom": 1.4
+     },
+     {
+      "x": 0.56,
+      "y": 0.42,
+      "zoom": 1.15
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 157,
+      "y": 23,
+      "w": 286,
+      "h": 28
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 421,
+      "y": 62,
+      "w": 46,
+      "h": 21
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 130,
+      "y": 83,
+      "w": 108,
+      "h": 15
+     }
+    ]
+   },
+   "beats": [
+    "year",
+    "thousand",
+    "pizzas"
+   ]
+  },
+  {
+   "anchor": "Today",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "value": 798,
+    "prefix": "≈$",
+    "suffix": "M",
+    "chip": "10,000 BTC × $79,770 · 27 Oct 2026",
+    "label": "for two pizzas",
+    "tone": "good"
+   },
+   "beats": [
+    "Today",
+    "dollars"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "Then",
+   "component": "Ruler",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "from": 2007.6,
+    "to": 2011.9,
+    "marks": [
+     {
+      "at": 2011.3,
+      "label": "April 2011",
+      "sub": "Satoshi steps away"
+     }
+    ]
+   },
+   "beats": [
+    "twenty"
+   ]
+  },
+  {
+   "anchor": "Satoshi wrote",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "source": "Satoshi Nakamoto · email to developer Mike Hearn, April 2011",
+    "text": "“I've moved on to other things.”",
+    "mark": "other things",
+    "stamp": "2011",
+    "note": "Email later published by Mike Hearn"
+   },
+   "beats": [
+    "Satoshi",
+    "moved",
+    "vanished"
+   ]
+  },
+  {
+   "anchor": "An estimated",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "shape": "bitcoin",
+    "label": "≈ 1,000,000 BTC",
+    "sublabel": "believed to be Satoshi's · never moved (estimate)",
+    "tone": "accent"
+   },
+   "beats": [
+    "estimated",
+    "never"
+   ]
+  },
+  {
+   "anchor": "Today, one",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "rise",
+   "props": {
+    "value": 79770,
+    "prefix": "$",
+    "logo": "bitcoin.svg",
+    "chip": "1 BTC · mempool.space · 27 Oct 2026",
+    "tone": "text"
+   },
+   "beats": [
+    "one",
+    "dollars"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "American",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "value": 1.29,
+    "decimals": 2,
+    "suffix": "M BTC",
+    "chip": "US spot bitcoin ETFs · 8 Oct 2026",
+    "label": "held by American funds",
+    "tone": "accent"
+   },
+   "beats": [
+    "American",
+    "million",
+    "them"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "So what",
+   "component": "Title",
+   "theme": "light",
+   "transition": "pop",
+   "props": {
+    "lines": [
+     "What gives it",
+     "value?"
+    ],
+    "accent": [
+     "value?"
+    ],
+    "size": 130
+   },
+   "beats": [
+    "what",
+    "value"
+   ]
+  },
+  {
+   "anchor": "Scarcity",
+   "component": "Coin3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "coin": "none",
+    "value": 20103946,
+    "total": 21000000,
+    "unit": "BTC",
+    "sub": "exist today · 27 Oct 2026",
+    "legend": "each stack = 1,000,000 BTC",
+    "capText": "21,000,000 max, ever",
+    "focusText": "≈ 896,000 left to mine\nlast one around 2140",
+    "actions": [
+     "ghost",
+     "cap",
+     "stack",
+     "focus"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -1.4,
+       2.4,
+       8.3
+      ],
+      "look": [
+       0,
+       -0.35,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.9,
+       2.1,
+       7.9
+      ],
+      "look": [
+       0,
+       -0.35,
+       0
+      ],
+      "dur": 110
+     }
+    ]
+   },
+   "beats": [
+    "Scarcity",
+    "twenty-one",
+    "over",
+    "exist"
+   ]
+  },
+  {
+   "anchor": "No one",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "rise",
+   "props": {
+    "title": "Can anyone…",
+    "rows": [
+     {
+      "left": "print more?",
+      "badge": "NO",
+      "tone": "alert"
+     },
+     {
+      "left": "freeze yours?",
+      "badge": "NO*",
+      "tone": "alert"
+     }
+    ],
+    "note": "*if you hold your own keys"
+   },
+   "beats": [
+    "No",
+    "print",
+    "freeze",
+    "yours"
+   ]
+  },
+  {
+   "anchor": "And millions",
+   "component": "Compare",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "left": {
+     "title": "Bitcoin",
+     "tone": "accent",
+     "items": [
+      "Scarce",
+      "Valued by agreement"
+     ]
+    },
+    "right": {
+     "title": "Gold",
+     "tone": "muted",
+     "items": [
+      "Scarce",
+      "Mostly valued by agreement"
+     ]
+    }
+   },
+   "beats": [
+    "millions",
+    "agree",
+    "something",
+    "gold"
+   ]
+  },
+  {
+   "anchor": "Critics",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "pop",
+   "props": {
+    "source": "Critics · e.g. ECB economists Bindseil & Schaaf, Feb 2024",
+    "text": "Bitcoin's fair value is zero.",
+    "mark": "zero",
+    "note": "Paraphrased from their ECB blog post"
+   },
+   "beats": [
+    "Critics",
+    "agreement"
+   ]
+  },
+  {
+   "anchor": "So, up",
+   "component": "Coin3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "actions": [
+     "spin",
+     "up",
+     "down",
+     "ask",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "@sonartracker.io",
+      "x": 540,
+      "y": 1730,
+      "tone": "muted",
+      "size": 34
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.25,
+       10.2
+      ],
+      "look": [
+       0,
+       0.25,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 3,
+      "pos": [
+       0,
+       0.3,
+       9.3
+      ],
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "So",
+    "up",
+    "down",
+    "Nobody",
+    "bet"
+   ]
+  }
+ ]
+}
