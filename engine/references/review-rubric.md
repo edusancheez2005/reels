@@ -19,6 +19,7 @@ Default to PASS. Use FAIL only for the "must fix" items below; everything else i
 7. **Plain words.** "Refrigerated container", not "reefer". American female voice.
 8. **Readable on a phone.** Nothing important clipped at the frame edges, no tiny text, highlight boxes on the right words.
    Nothing important in Instagram's overlay zone (bottom ~20%, right-edge buttons): see visual-style.md "Instagram safe zone".
+9. **Short.** 30–35 s (Edu, 28 Oct 2026: viewers watch ~18–25 s). Over 40 s is a note, with the step that should have been cut.
 
 ## Must fix (FAIL), only these
 - A factual error, a number that doesn't match research.md, or a claim with no source.

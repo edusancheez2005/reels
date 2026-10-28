@@ -4,7 +4,7 @@
 Prints PASS (exit 0) only if every mechanical check passes, and writes
   episodes/<id>/caption_post.txt     caption for Instagram (no Sources block), cleaned of invisible chars/dashes
   episodes/<id>/sources_comment.txt  the Sources block for the first comment
-Also lints the caption (tools/ig/check_caption.py) and prints STORY_URL when the story is valid and hosted.
+Also lints the caption (tools/ig/check_caption.py) and prints STORY_URLS (in posting order) when every story part is valid and hosted.
 Otherwise prints FAIL with the reasons (exit 1), or PAUSED if auto-posting is switched off (exit 3).
 It does not replace reading the contact sheet and research.md yourself; it catches the mechanical failures.
 """
@@ -114,24 +114,44 @@ for url in (meta.get("video_url", ""), meta.get("video_url", "").replace(".mp4",
     if code != "200":
         fails.append(f"{url} -> HTTP {code}")
 
-# story (optional: a broken story never blocks the reel)
-story_url = ""
-story = ep / "story.mp4"
-if story.exists():
-    pr = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height:format=duration", "-of", "json", str(story)], capture_output=True, text=True)
-    si = json.loads(pr.stdout or "{}")
-    sv = [x for x in si.get("streams", []) if x.get("codec_type") == "video"]
-    sd = float(si.get("format", {}).get("duration", 0))
-    url = meta.get("story_url", "")
-    code = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "-I", "--max-time", "20", url], capture_output=True, text=True).stdout if url else "no url"
-    if not sv or (sv[0].get("width"), sv[0].get("height")) != (1080, 1920) or not 3 <= sd <= 60:
-        warns.append(f"story: not 1080x1920 / 3-60 s ({sd:.1f}s); skip the story")
-    elif code != "200":
-        warns.append(f"story: {url or 'no story_url in meta.json'} -> {code}; skip the story")
+# story parts (optional: a broken story never blocks the reel)
+story_urls = []
+sj = ep / "story.json"
+if sj.exists():
+    parts = json.loads(sj.read_text())
+    urls = meta.get("story_urls", [])
+    ok = len(urls) == len(parts)
+    if not ok:
+        warns.append("story: meta.json story_urls don't match story.json (re-run finish_episode.py); skip the story")
+    for prt, url in zip(parts, urls):
+        f = ep / prt["file"]
+        if not f.exists():
+            warns.append(f"story: {prt['file']} missing"); ok = False; continue
+        if prt["kind"] == "video":
+            pr = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height:format=duration", "-of", "json", str(f)], capture_output=True, text=True)
+            si = json.loads(pr.stdout or "{}")
+            sv = [x for x in si.get("streams", []) if x.get("codec_type") == "video"]
+            sd = float(si.get("format", {}).get("duration", 0))
+            if not sv or (sv[0].get("width"), sv[0].get("height")) != (1080, 1920) or not 3 <= sd <= 60:
+                warns.append(f"story: {prt['file']} not 1080x1920 / 3-60 s ({sd:.1f}s)"); ok = False
+        else:
+            from PIL import Image
+            im = Image.open(f)
+            if im.format != "JPEG" or im.size != (1080, 1920) or f.stat().st_size > 8_000_000:
+                warns.append(f"story: {prt['file']} must be a 1080x1920 JPEG under 8 MB"); ok = False
+        code = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "-I", "--max-time", "20", url], capture_output=True, text=True).stdout
+        if code != "200":
+            warns.append(f"story: {url} -> {code}"); ok = False
+    if ok:
+        story_urls = urls
     else:
-        story_url = url
+        warns.append("story: skipping the story today; the reel can still post")
 else:
-    warns.append("story: no story.mp4 (tools/make_story.py); the reel can still post")
+    warns.append("story: no story.json (tools/make_story.py); the reel can still post")
+
+# length (Edu, 28 Oct 2026: people watch ~18-25 s, so reels are 30-35 s)
+if mp4.exists() and dur > 42:
+    warns.append(f"reel is {dur:.0f}s; the target is 30-35 s (RUNBOOK §2)")
 
 for w in warns:
     print("WARN", w)
@@ -147,5 +167,5 @@ print(f"VIDEO_URL={meta['video_url']}")
 print(f"COVER_URL={meta['video_url'].replace('.mp4', '.jpg')}")
 print(f"CAPTION_FILE={ep / 'caption_post.txt'}")
 print(f"SOURCES_FILE={ep / 'sources_comment.txt'}")
-if story_url:
-    print(f"STORY_URL={story_url}")
+if story_urls:
+    print("STORY_URLS=" + ",".join(story_urls))

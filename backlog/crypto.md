@@ -1,19 +1,20 @@
-# Crypto explainers backlog (Mon/Wed/Fri; tick when produced)
-# Each line: topic — hook idea (a lead to verify, not a fact to copy). Style: episodes/2026-10-27-bitcoin-origin.
+# Crypto explainers backlog (Mon/Wed/Fri/Sat/Sun; tick when produced)
+# Each line: topic — hook idea (a lead to verify, not a fact to copy). Order follows insights/plan.md and insights/learnings.md:
+# live number + a hidden threat in the first sentence, about money people hold; ~45-50 s. (#n) = Jake Schincariol's hook formula id.
 
 - [x] Lost forever: how many bitcoin nobody can ever spend — "Millions of bitcoin may be locked away forever, because someone lost a password." (2026-10-28-lost-bitcoin)
-- [ ] The halving: why Bitcoin's new supply gets cut in half every four years — "Every four years, the reward for securing Bitcoin is cut in half. The last cut was April 2024."
-- [ ] Where new bitcoin come from (mining, explained without jargon) — "About 450 new bitcoin are created every day. Here's who gets them."
-- [ ] The man who threw away a hard drive with 8,000 bitcoin — "A hard drive in a Welsh landfill holds thousands of bitcoin."
-- [ ] Why there will only ever be 21 million bitcoin (and how the last one arrives around 2140) — "There will only ever be 21 million bitcoin. Over 20 million already exist."
-- [ ] How Ethereum started: a white paper by a 19-year-old — "In 2013, a 19-year-old wrote the paper behind the second-biggest crypto."
-- [ ] What a crypto wallet really holds (hint: not coins) — "Your crypto wallet doesn't hold any crypto."
-- [ ] Mt. Gox: the exchange that lost 850,000 bitcoin — "In 2014, the world's biggest bitcoin exchange said it had lost 850,000 coins."
-- [ ] FTX: how a $32B exchange collapsed in a week — "In November 2022, a $32 billion company collapsed in about a week."
-- [ ] Stablecoins: how a crypto coin stays at exactly $1 — "This crypto coin is designed to never move. Ever."
-- [ ] Why you can't undo a crypto transaction — "Send bitcoin to the wrong address and no one on Earth can reverse it."
-- [ ] Who controls Bitcoin? (nobody; how rules change) — "Bitcoin has no CEO, no headquarters, and no off switch."
-- [ ] Dogecoin: the joke that became a top-10 crypto — "Dogecoin was created as a joke in 2013."
-- [ ] What gives Ethereum value (fees, staking, apps) — "Every time someone uses Ethereum, a little ETH is destroyed."
-- [ ] Bitcoin ETFs: why Wall Street funds now hold over a million bitcoin — "Funds on Wall Street hold more bitcoin than Satoshi."
-- [ ] Why Bitcoin uses as much electricity as a country (and the debate around it) — "Bitcoin's network uses about as much electricity as a mid-sized country."
+- [ ] Why you can't undo a crypto transaction — "Send crypto to the wrong address and nobody on Earth can get it back. Scammers are counting on it." (#3 Nobody Tells You; add one verified loss figure, e.g. address-poisoning scams)
+- [ ] The man who threw away a hard drive with 8,000 bitcoin — "In 2013, a man in Wales threw away a hard drive. The bitcoin on it is worth about $600 million today." (#25 Someone Else's Result; verify the coin count, today's value and the latest court/landfill news)
+- [ ] What a crypto wallet really holds (hint: not coins) — "Your crypto wallet doesn't hold any crypto. It holds a list of words, and anyone who sees them can take everything." (#22 Contrarian Flip)
+- [ ] FTX: how a $32B exchange collapsed in a week — "In November 2022, about $8 billion of customers' money went missing from one exchange in a week." (#23 The Statistic; verify the shortfall figure; lesson: coins on an exchange aren't in your hands)
+- [ ] The halving: why Bitcoin's new supply gets cut in half every four years — "Every day, about 450 new bitcoin are created. In 2028, that drops to 225." (#19 The Deadline; verify the expected date)
+- [ ] Why there will only ever be 21 million bitcoin (and how the last one arrives around 2140) — "There will only ever be 21 million bitcoin. Over 20 million already exist." (#23)
+- [ ] Where new bitcoin come from (mining, explained without jargon) — "About 450 new bitcoin are created every day. Here's who gets them." (#23; space it from the halving reel)
+- [ ] Mt. Gox: the exchange that lost 850,000 bitcoin — "In 2014, the world's biggest bitcoin exchange said it had lost 850,000 coins." (#23)
+- [ ] How Ethereum started: a white paper by a 19-year-old — "In 2013, a 19-year-old wrote the paper behind the second-biggest crypto." (#25)
+- [ ] Stablecoins: how a crypto coin stays at exactly $1 — "This crypto coin is designed to never move. Ever." (#24 The Reveal)
+- [ ] Who controls Bitcoin? (nobody; how rules change) — "Bitcoin has no CEO, no headquarters, and no off switch." (#20 Permission)
+- [ ] Dogecoin: the joke that became a top-10 crypto — "Dogecoin was created as a joke in 2013." (#25)
+- [ ] What gives Ethereum value (fees, staking, apps) — "Every time someone uses Ethereum, a little ETH is destroyed." (#24)
+- [ ] Bitcoin ETFs: why Wall Street funds now hold over a million bitcoin — "Funds on Wall Street hold more bitcoin than Satoshi." (#23)
+- [ ] Why Bitcoin uses as much electricity as a country (and the debate around it) — "Bitcoin's network uses about as much electricity as a mid-sized country." (#26 The Superlative; give the critics' side)

@@ -157,7 +157,7 @@ at about (-1.63, -0.2, 0) for close-ups.
 `title`, a counter (`value`, `suffix`) that lands on the `count` beat, and `sub`. Fly the camera up with `cam`.
 
 Rendering: WebGL needs `Config.setChromiumOpenGlRenderer('swangle')` (set in remotion.config.ts). It is software
-rendering: about 2–3 s per 1080×1920 frame on 2 cores, so a 48 s reel takes about 60–80 min. QA with
+rendering: about 2–3 s per 1080×1920 frame on 2 cores, so a 33 s reel takes about 40–50 min. QA with
 `python3 tools/qa_frames.py episodes/<id>` (one still per scene, ~4 min) instead of the full draft video.
 Text on canvases uses the system Inter; tags are SVG overlays, so there are no font downloads at render time.
 

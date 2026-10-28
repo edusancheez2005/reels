@@ -55,10 +55,12 @@ source .env.local              # REMOTION_BROWSER etc.
   and the storyboard rules instead. Nobody reviews before posting, so the fact check is yours.
 - Before writing the script, read `insights/learnings.md` (what works on this account, from the weekly stats review) and the
   "Notes for next time" in the last 3 episodes' `review.md`, and apply them. Where they disagree, the account's numbers win.
-- Script 110–150 words (45–60 s). Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
+- If `insights/plan.md` has an entry for today, use its topic, type, angle and hook formula (still verify every fact).
+- Script 75–95 words (30–35 s, never over 40 s). Edu, 28 Oct 2026: people watch ~18–25 s on average, so make reels they
+  finish; cut a step before you speed anything up. Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
 - Assets: logos via `get_logos.mjs`. Screenshots only if the computer bridge / a browser tool is available
   in this session (otherwise build from illustrations, maps, numbers and logos; don't stall).
-- Storyboard: 14–20 scenes, ≤ 1 plain text title per 5 scenes, 10–20 emphasis phrases. **Default to the realistic 3D
+- Storyboard: 10–14 scenes, ≤ 1 plain text title per 5 scenes, 6–12 emphasis phrases. **Default to the realistic 3D
   components** (`engine/references/storyboard-spec.md` → 3D; Edu's standing feedback): light/dark rhythm applies to 2D scenes only.
   Reuse components first. A new component is fine if a topic needs it (add it under `engine/template/src/scenes/`
   and register it); keep it generic so later episodes can reuse it.
@@ -66,7 +68,7 @@ source .env.local              # REMOTION_BROWSER etc.
   (one still per scene) instead of qa_stills' full draft; look at `qa/contact.png` and fix clipping,
   tiny text, empty scenes, marks off target, and visuals that don't match their words. Max 3 rounds.
 - Render: `npx remotion render Reel ../episodes/<id>/<id>.mp4 --codec h264 --crf 18 --x264-preset veryfast`.
-  3D renders in software (~60–80 min for 48 s on 2 cores): start it with nohup and keep the session busy (poll the log)
+  3D renders in software (~40–50 min for 33 s on 2 cores): start it with nohup and keep the session busy (poll the log)
   until it finishes; a background job is stopped soon after the turn ends.
 - `cover.jpg` (strongest frame) and `caption.txt`: 1–2 lines + the channel's sign-off + max 5 hashtags (Instagram's cap);
   a final "Sources:" block for the first comment. Then check it:
@@ -97,16 +99,18 @@ with <id> filled in, and nothing about how you made the video:
   "(self-review: no reviewer agent available)" under the verdict.
 `review.md` is committed with the episode; the `review/` folder is not.
 
-## 2c. Story (a teaser for the reel)
+## 2c. Story (the reel cut into bits)
 
-Edu (28 Oct 2026): a story from each day's reel. After the review passes:
+Edu (28 Oct 2026): "cut the video in little bits and post it as a story". After the review passes:
 ```bash
 python3 tools/make_story.py episodes/<id> --line "<end-card teaser, max ~45 chars: the open question or the fact, plainly>"
-ffmpeg -v error -y -sseof -1 -i episodes/<id>/story.mp4 -frames:v 1 episodes/<id>/qa/story_card_check.png   # look at it
+# optional: --highlight 12.4-17.0  (pick the strongest 3-7 s moment yourself if the automatic pick is weak)
+ffmpeg -v error -y -ss 1 -i episodes/<id>/story_2.mp4 -frames:v 1 episodes/<id>/qa/story_2_check.png   # look at it, and at story_3.jpg
 ```
-It cuts the reel's hook (up to ~9 s, ending on a sentence, ideally the open question) and adds a 3 s end card ("NEW REEL",
-your teaser, the handle) inside the story-safe area. If it fails or looks wrong after one fix, skip the story: it never
-blocks the reel.
+Three story items, posted in order: (1) the hook, up to ~9 s, ending on a sentence (ideally the open question); (2) one
+3–7 s highlight from the middle (the most concrete line, or `--highlight`); (3) an end card image ("NEW REEL", your teaser,
+the handle), all inside the story-safe area. Stories can't carry links or stickers through the API, so the card says where
+the reel is. If it fails or looks wrong after one fix, skip the story: it never blocks the reel.
 
 ## 3. Save the episode and host the video (this is NOT posting)
 
@@ -127,10 +131,11 @@ python3 tools/prepost_check.py episodes/<id>   # PASS → writes caption_post.tx
    `execute_action(connector="instagram", account="17841440268229419", action="create_video_post",
    params={video_url: VIDEO_URL, cover_url: COVER_URL, caption: <caption_post.txt>, share_to_feed: true})`.
 2. With the returned media id: `create_comment(media_id, message=<sources_comment.txt>)`.
-3. If the gate printed STORY_URL: `execute_action(connector="instagram", account="17841440268229419", action="create_story",
-   params={video_url: STORY_URL})`. A story failure doesn't undo or block the reel; just report it.
+3. If the gate printed STORY_URLS, post each one in that order with `execute_action(connector="instagram",
+   account="17841440268229419", action="create_story", params={video_url: <url>})` for .mp4 parts and
+   `params={image_url: <url>}` for the .jpg card. A story failure doesn't undo or block the reel; just report it.
 4. Update `episodes/<id>/meta.json`: `posted: true`, `auto_posted: true`, `posted_at` (UTC ISO), `instagram_media_id`,
-   `sources_comment_id`, `story_media_id` (if posted); commit and push.
+   `sources_comment_id`, `story_media_ids` (if posted); commit and push.
 5. Tell Edu (status "proactive"): the mp4 (SendUserFile) and a message: "Posted to @sonartracker.io: <topic>" (and whether
    the story went up), the reviewer's verdict, the caption, the sources, the media id, and "If anything's wrong, delete it
    in the Instagram app and tell me what to fix. Reply 'pause autopost' to go back to approving each one."
@@ -142,8 +147,8 @@ upload and say exactly what the error was.
 Send Edu (status "proactive", so it reaches his phone):
 - the mp4 (SendUserFile),
 - a message with what held it back (the FAIL lines or your doubt), the topic, the caption, the sources, the VIDEO_URL,
-  the target Instagram account (@sonartracker.io), and: **"Reply 'post it' to publish the reel and its story, or tell me what
-  to change."**
+  the target Instagram account (@sonartracker.io), and: **"Reply 'post it' to publish the reel and its story clips, or tell me
+  what to change."**
 
 Then stop. Do not post.
 
@@ -153,7 +158,7 @@ Then stop. Do not post.
   `execute_action(connector="instagram", account="17841440268229419", action="create_video_post",
   params={video_url: VIDEO_URL, cover_url: COVER_URL, caption: <caption.txt without the Sources block>, share_to_feed: true})`.
   Then post the Sources block as the first comment (`create_comment` with the new media id) if one is returned, then the
-  story (`create_story` with STORY_URL) if there is one.
+  story clips (`create_story` for each STORY_URLS item, in order) if there are any.
   If Instagram rejects the video URL, retry once with the Pages URL if GitHub Pages is enabled; otherwise tell Edu
   and attach the mp4 + caption for a manual upload. Report exactly what happened, then update `episodes/<id>/meta.json`
   (`posted: true`, `posted_at`, media ids) and push.

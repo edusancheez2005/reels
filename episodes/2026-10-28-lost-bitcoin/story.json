@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 8.99
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 28.19,
+    "to": 31.58
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "Millions of bitcoin can never be spent again"
+  }
+]

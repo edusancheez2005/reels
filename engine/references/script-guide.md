@@ -3,15 +3,17 @@
 A faceless explainer reel lives or dies in the script. The visuals can only show what the
 words give them.
 
-## Shape (40–60 s, 100–160 words)
+## Shape (30–35 s, 75–95 words)
+
+Edu, 28 Oct 2026: our viewers watch ~18–25 s on average, so make reels they finish. Cut a step rather than talk faster.
 
 | Part | Time | Job |
 |---|---|---|
-| Hook | 0–2 s | One concrete, visual question or claim. The viewer must *see* it immediately. |
-| Tension | 2–8 s | Why it's not obvious / the wrong intuition. |
-| Mechanism | 8–40 s | 3 steps, max. Each step = one picture. |
-| Twist / payoff | last 8–12 s | The surprising consequence ("…and that's why a glove stops it"). |
-| Loop line | last 1–2 s | Optional. Ends in a way that leads back into the first line. |
+| Hook | 0–2 s | The most striking verifiable fact, with a number, shown on screen immediately. |
+| Tension | 2–6 s | Why it matters to the viewer / the wrong intuition. |
+| Mechanism | 6–25 s | 2 steps, 3 at most. Each step = one picture. |
+| Payoff | last 5–8 s | The surprising consequence ("…and that's why a glove stops it"). |
+| Loop line | last 1–2 s | Optional. Ends in a way that leads back into the first line (replays count as views). |
 
 No intro, no "hey guys", no "in this video". The first word is already content.
 

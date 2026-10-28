@@ -1,6 +1,6 @@
 # reels
 
-An automated pipeline for short explainer reels (9:16, 45–60 s), produced by Claude on a schedule
+An automated pipeline for short explainer reels (9:16, 30–35 s), produced by Claude on a schedule
 and posted to Instagram automatically when it passes the pre-post checks (`tools/prepost_check.py`); otherwise held for approval.
 
 - **engine/**: the explainer-reels skill (research → script → voice → word-anchored storyboard →
