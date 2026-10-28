@@ -21,7 +21,6 @@
     "#Bitcoin",
     "#Crypto",
     "#CryptoExplained",
-    "#Blockchain",
     "#CryptoForBeginners",
     "#Sonar"
   ],
@@ -41,7 +40,7 @@
     "1–2 lines with the real numbers.",
     "Follow @sonartracker.io for crypto, explained simply.",
     "Not financial advice.",
-    "5–7 hashtags: #Bitcoin #Crypto #CryptoExplained #Blockchain #CryptoForBeginners #Sonar (swap in a topic tag, e.g. #Ethereum).",
+    "Max 5 hashtags (Instagram's cap since Dec 2025): #Bitcoin #Crypto #CryptoExplained #CryptoForBeginners #Sonar (swap one for a topic tag if it fits better).",
     "Then a 'Sources:' block (posted as the first comment, not in the caption)."
   ],
   "instagram_connector": "Windsor.ai for Social Media → connector \"instagram\" (account \"sonartracker.io\")",

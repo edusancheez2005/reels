@@ -73,8 +73,8 @@ if not sources:
     fails.append("caption.txt has no 'Sources:' block")
 if len(post) > 2200:
     fails.append(f"caption {len(post)} chars > 2200")
-if len(re.findall(r"#\w+", post)) > 30:
-    fails.append("more than 30 hashtags")
+if len(re.findall(r"#\w+", post)) > 5:
+    fails.append("more than 5 hashtags (Instagram cap since Dec 2025)")
 channel = meta.get("channel", "")
 if channel in ("sonar", "crypto") and "not financial advice" not in post.lower():
     fails.append("caption lacks 'Not financial advice.'")

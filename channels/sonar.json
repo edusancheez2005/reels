@@ -22,7 +22,6 @@
     "#CryptoNews",
     "#WhaleAlert",
     "#OnChain",
-    "#SmartMoney",
     "#Sonar"
   ],
   "rules": [
@@ -38,7 +37,7 @@
     "1–2 lines with the real numbers.",
     "Comment \"WHALE\" and Orca will DM you the breakdown.",
     "Not financial advice.",
-    "5–7 hashtags mixing big and niche: #Bitcoin #CryptoNews #WhaleAlert #OnChain #SmartMoney #Sonar",
+    "Max 5 hashtags (Instagram's cap since Dec 2025): #Bitcoin #CryptoNews #WhaleAlert #OnChain #Sonar.",
     "Then a 'Sources:' block (posted as the first comment, not in the caption)."
   ],
   "instagram_connector": "Windsor.ai for Social Media → connector \"instagram\" (account \"sonartracker.io\")"
