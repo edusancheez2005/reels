@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Publish an episode's video + cover to the `media` branch, served by GitHub Pages at
+# Publish an episode's video + cover (+ story.mp4 if present) to the `media` branch, served by GitHub Pages at
 #   https://raw.githubusercontent.com/edusancheez2005/reels/media/v/<id>.mp4   (Instagram fetches the video from here)
 #   and, if GitHub Pages is enabled for the media branch, https://edusancheez2005.github.io/reels/v/<id>.mp4
 # The media branch is rewritten as a single commit holding only the newest $KEEP videos, so the repo
@@ -23,12 +23,13 @@ fi
 mkdir -p v
 cp "$EP/$ID.mp4" "v/$ID.mp4"
 [ -f "$EP/cover.jpg" ] && cp "$EP/cover.jpg" "v/$ID.jpg"
+[ -f "$EP/story.mp4" ] && cp "$EP/story.mp4" "v/$ID-story.mp4"
 # keep only the newest $KEEP episodes (names start with YYYY-MM-DD)
-ls v/*.mp4 2>/dev/null | sort | head -n -"$KEEP" | while read -r f; do rm -f "$f" "${f%.mp4}.jpg"; done
+ls v/*.mp4 2>/dev/null | grep -v -- '-story\.mp4$' | sort | head -n -"$KEEP" | while read -r f; do rm -f "$f" "${f%.mp4}.jpg" "${f%.mp4}-story.mp4"; done
 touch .nojekyll
 {
   echo '<!doctype html><meta charset="utf-8"><title>reels media</title><h1>reels media</h1><ul>'
-  for f in $(ls v/*.mp4 | sort -r); do n=$(basename "$f" .mp4); echo "<li><a href=\"v/$n.mp4\">$n</a></li>"; done
+  for f in $(ls v/*.mp4 | grep -v -- '-story\.mp4$' | sort -r); do n=$(basename "$f" .mp4); echo "<li><a href=\"v/$n.mp4\">$n</a></li>"; done
   echo '</ul>'
 } > index.html
 git add -A
@@ -46,4 +47,13 @@ done
 [ "$code" = "200" ] || { echo "video not reachable yet at $RAW (HTTP $code)" >&2; exit 2; }
 echo "VIDEO_URL=$RAW"
 echo "COVER_URL=${RAW%.mp4}.jpg"
+if [ -f "$EP/story.mp4" ]; then
+  SRAW="${RAW%.mp4}-story.mp4"
+  for i in $(seq 1 12); do
+    scode=$(curl -s -o /dev/null -w '%{http_code}' -I --max-time 20 "$SRAW" || echo 000)
+    [ "$scode" = "200" ] && break
+    sleep 5
+  done
+  [ "$scode" = "200" ] && echo "STORY_URL=$SRAW" || echo "story not reachable yet at $SRAW (HTTP $scode)" >&2
+fi
 echo "PAGES_URL=$PAGES   # only works if GitHub Pages is enabled for the media branch (Settings → Pages)"

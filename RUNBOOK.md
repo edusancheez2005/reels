@@ -53,7 +53,8 @@ source .env.local              # REMOTION_BROWSER etc.
 
 - No approval stops for script or storyboard: self-review against `engine/references/script-guide.md`
   and the storyboard rules instead. Nobody reviews before posting, so the fact check is yours.
-- Before writing the script, read "Notes for next time" in the last 3 episodes' `review.md` and apply them.
+- Before writing the script, read `insights/learnings.md` (what works on this account, from the weekly stats review) and the
+  "Notes for next time" in the last 3 episodes' `review.md`, and apply them. Where they disagree, the account's numbers win.
 - Script 110–150 words (45–60 s). Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
 - Assets: logos via `get_logos.mjs`. Screenshots only if the computer bridge / a browser tool is available
   in this session (otherwise build from illustrations, maps, numbers and logos; don't stall).
@@ -67,8 +68,11 @@ source .env.local              # REMOTION_BROWSER etc.
 - Render: `npx remotion render Reel ../episodes/<id>/<id>.mp4 --codec h264 --crf 18 --x264-preset veryfast`.
   3D renders in software (~60–80 min for 48 s on 2 cores): start it with nohup and keep the session busy (poll the log)
   until it finishes; a background job is stopped soon after the turn ends.
-- `cover.jpg` (strongest frame) and `caption.txt`: 1–2 lines + 3–5 hashtags + the channel's sign-off;
-  a final "Sources:" block for the first comment.
+- `cover.jpg` (strongest frame) and `caption.txt`: 1–2 lines + the channel's sign-off + max 5 hashtags (Instagram's cap);
+  a final "Sources:" block for the first comment. Then check it:
+  `python3 tools/ig/check_caption.py episodes/<id>/caption.txt --fix`. FAIL lines must be fixed. WARN lines are judgement
+  calls: rewrite stock phrases and structural tells it lists, keep crypto terms. Make the hook land inside the first ~125
+  characters, because that's all the feed shows before "... more".
 
 ## 2b. Independent review (after the final render, before saving/posting)
 
@@ -93,12 +97,23 @@ with <id> filled in, and nothing about how you made the video:
   "(self-review: no reviewer agent available)" under the verdict.
 `review.md` is committed with the episode; the `review/` folder is not.
 
+## 2c. Story (a teaser for the reel)
+
+Edu (28 Oct 2026): a story from each day's reel. After the review passes:
+```bash
+python3 tools/make_story.py episodes/<id> --line "<end-card teaser, max ~45 chars: the open question or the fact, plainly>"
+ffmpeg -v error -y -sseof -1 -i episodes/<id>/story.mp4 -frames:v 1 episodes/<id>/qa/story_card_check.png   # look at it
+```
+It cuts the reel's hook (up to ~9 s, ending on a sentence, ideally the open question) and adds a 3 s end card ("NEW REEL",
+your teaser, the handle) inside the story-safe area. If it fails or looks wrong after one fix, skip the story: it never
+blocks the reel.
+
 ## 3. Save the episode and host the video (this is NOT posting)
 
 ```bash
 python3 tools/finish_episode.py episodes/<id> --channel <channel> --topic "<backlog item text>"
 git add -A && git commit -m "episode: <id>" && git push      # scripts, sources, storyboard, caption (no media)
-bash tools/publish_media.sh episodes/<id>                   # pushes mp4 + cover to the media branch; prints VIDEO_URL / COVER_URL
+bash tools/publish_media.sh episodes/<id>                   # pushes mp4 + cover (+ story) to the media branch; prints VIDEO_URL / COVER_URL / STORY_URL
 ```
 `VIDEO_URL` is a public raw.githubusercontent.com link that Instagram downloads the video from. GitHub Releases
 are not available to these sessions, so don't use them.
@@ -106,17 +121,19 @@ are not available to these sessions, so don't use them.
 ## 4a. Post (when the gate passes)
 
 ```bash
-python3 tools/prepost_check.py episodes/<id>   # PASS → writes caption_post.txt + sources_comment.txt
+python3 tools/prepost_check.py episodes/<id>   # PASS → writes caption_post.txt + sources_comment.txt (+ prints STORY_URL)
 ```
 1. Publish with the **Windsor.ai for Social Media** connector:
    `execute_action(connector="instagram", account="17841440268229419", action="create_video_post",
    params={video_url: VIDEO_URL, cover_url: COVER_URL, caption: <caption_post.txt>, share_to_feed: true})`.
 2. With the returned media id: `create_comment(media_id, message=<sources_comment.txt>)`.
-3. Update `episodes/<id>/meta.json`: `posted: true`, `auto_posted: true`, `posted_at` (UTC ISO), `instagram_media_id`,
-   `sources_comment_id`; commit and push.
-4. Tell Edu (status "proactive"): the mp4 (SendUserFile) and a message: "Posted to @sonartracker.io: <topic>", the
-   caption, the sources, the media id, and "If anything's wrong, delete it in the Instagram app and tell me what to fix.
-   Reply 'pause autopost' to go back to approving each one."
+3. If the gate printed STORY_URL: `execute_action(connector="instagram", account="17841440268229419", action="create_story",
+   params={video_url: STORY_URL})`. A story failure doesn't undo or block the reel; just report it.
+4. Update `episodes/<id>/meta.json`: `posted: true`, `auto_posted: true`, `posted_at` (UTC ISO), `instagram_media_id`,
+   `sources_comment_id`, `story_media_id` (if posted); commit and push.
+5. Tell Edu (status "proactive"): the mp4 (SendUserFile) and a message: "Posted to @sonartracker.io: <topic>" (and whether
+   the story went up), the reviewer's verdict, the caption, the sources, the media id, and "If anything's wrong, delete it
+   in the Instagram app and tell me what to fix. Reply 'pause autopost' to go back to approving each one."
 If Instagram rejects the video, retry once; if it still fails, don't keep trying: send Edu the mp4 + caption for a manual
 upload and say exactly what the error was.
 
@@ -125,7 +142,8 @@ upload and say exactly what the error was.
 Send Edu (status "proactive", so it reaches his phone):
 - the mp4 (SendUserFile),
 - a message with what held it back (the FAIL lines or your doubt), the topic, the caption, the sources, the VIDEO_URL,
-  the target Instagram account (@sonartracker.io), and: **"Reply 'post it' to publish, or tell me what to change."**
+  the target Instagram account (@sonartracker.io), and: **"Reply 'post it' to publish the reel and its story, or tell me what
+  to change."**
 
 Then stop. Do not post.
 
@@ -134,7 +152,8 @@ Then stop. Do not post.
 - **"post it"** (explicit): publish with the **Windsor.ai for Social Media** connector:
   `execute_action(connector="instagram", account="17841440268229419", action="create_video_post",
   params={video_url: VIDEO_URL, cover_url: COVER_URL, caption: <caption.txt without the Sources block>, share_to_feed: true})`.
-  Then post the Sources block as the first comment (`create_comment` with the new media id) if one is returned.
+  Then post the Sources block as the first comment (`create_comment` with the new media id) if one is returned, then the
+  story (`create_story` with STORY_URL) if there is one.
   If Instagram rejects the video URL, retry once with the Pages URL if GitHub Pages is enabled; otherwise tell Edu
   and attach the mp4 + caption for a manual upload. Report exactly what happened, then update `episodes/<id>/meta.json`
   (`posted: true`, `posted_at`, media ids) and push.

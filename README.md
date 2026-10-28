@@ -23,3 +23,9 @@ bash tools/setup.sh && source .env.local
 python3 tools/use_channel.py general
 # then follow RUNBOOK.md §2–4
 ```
+
+## Also
+- **Daily story:** each reel gets a story cut from its hook plus an end card pointing to the reel (`tools/make_story.py`).
+- **Caption check:** `tools/ig/` (Jake Schincariol's caption linter + humanizer, MIT) runs on every caption before posting.
+- **Weekly stats review:** every Sunday evening `RUNBOOK-weekly.md` pulls the account's numbers, writes `insights/weekly/<date>.md`
+  and updates `insights/learnings.md`, which every daily run reads before writing its script.

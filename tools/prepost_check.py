@@ -2,14 +2,17 @@
 """Pre-post gate for auto-posting. Usage: python3 tools/prepost_check.py episodes/<id>
 
 Prints PASS (exit 0) only if every mechanical check passes, and writes
-  episodes/<id>/caption_post.txt     caption for Instagram (no Sources block)
+  episodes/<id>/caption_post.txt     caption for Instagram (no Sources block), cleaned of invisible chars/dashes
   episodes/<id>/sources_comment.txt  the Sources block for the first comment
+Also lints the caption (tools/ig/check_caption.py) and prints STORY_URL when the story is valid and hosted.
 Otherwise prints FAIL with the reasons (exit 1), or PAUSED if auto-posting is switched off (exit 3).
 It does not replace reading the contact sheet and research.md yourself; it catches the mechanical failures.
 """
 import datetime, json, re, subprocess, sys
 from pathlib import Path
 from zoneinfo import ZoneInfo
+sys.path.insert(0, str(Path(__file__).resolve().parent / "ig"))
+from check_caption import check as caption_check, safe_clean  # noqa: E402  (caption linter + humanizer)
 
 root = Path(__file__).resolve().parent.parent
 ep = Path(sys.argv[1])
@@ -17,6 +20,7 @@ ep = ep if ep.is_absolute() else (root / ep)
 ep = ep.resolve()
 eid = ep.name
 fails = []
+warns = []
 
 flag = json.loads((root / "channels" / "autopost.json").read_text())
 if not flag.get("enabled"):
@@ -67,14 +71,18 @@ if mp4.exists():
 cap = (ep / "caption.txt").read_text() if (ep / "caption.txt").exists() else ""
 parts = re.split(r"\n\s*Sources:", cap, maxsplit=1)
 post, sources = parts[0].strip(), ("Sources:" + parts[1]).strip() if len(parts) > 1 else ""
+post, _ = safe_clean(post)          # invisible characters, dashes, curly quotes: never ship them
+sources, _ = safe_clean(sources)
+if post:
+    cc = caption_check(post)
+    fails += [f"caption: {f}" for f in cc["fails"]]
+    warns += [f"caption: {w}" for w in cc["warns"]]
 if not post:
     fails.append("empty caption")
 if not sources:
     fails.append("caption.txt has no 'Sources:' block")
 if len(post) > 2200:
     fails.append(f"caption {len(post)} chars > 2200")
-if len(re.findall(r"#\w+", post)) > 5:
-    fails.append("more than 5 hashtags (Instagram cap since Dec 2025)")
 channel = meta.get("channel", "")
 if channel in ("sonar", "crypto") and "not financial advice" not in post.lower():
     fails.append("caption lacks 'Not financial advice.'")
@@ -106,6 +114,27 @@ for url in (meta.get("video_url", ""), meta.get("video_url", "").replace(".mp4",
     if code != "200":
         fails.append(f"{url} -> HTTP {code}")
 
+# story (optional: a broken story never blocks the reel)
+story_url = ""
+story = ep / "story.mp4"
+if story.exists():
+    pr = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height:format=duration", "-of", "json", str(story)], capture_output=True, text=True)
+    si = json.loads(pr.stdout or "{}")
+    sv = [x for x in si.get("streams", []) if x.get("codec_type") == "video"]
+    sd = float(si.get("format", {}).get("duration", 0))
+    url = meta.get("story_url", "")
+    code = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", "-I", "--max-time", "20", url], capture_output=True, text=True).stdout if url else "no url"
+    if not sv or (sv[0].get("width"), sv[0].get("height")) != (1080, 1920) or not 3 <= sd <= 60:
+        warns.append(f"story: not 1080x1920 / 3-60 s ({sd:.1f}s); skip the story")
+    elif code != "200":
+        warns.append(f"story: {url or 'no story_url in meta.json'} -> {code}; skip the story")
+    else:
+        story_url = url
+else:
+    warns.append("story: no story.mp4 (tools/make_story.py); the reel can still post")
+
+for w in warns:
+    print("WARN", w)
 if fails:
     print("FAIL")
     for f in fails:
@@ -118,3 +147,5 @@ print(f"VIDEO_URL={meta['video_url']}")
 print(f"COVER_URL={meta['video_url'].replace('.mp4', '.jpg')}")
 print(f"CAPTION_FILE={ep / 'caption_post.txt'}")
 print(f"SOURCES_FILE={ep / 'sources_comment.txt'}")
+if story_url:
+    print(f"STORY_URL={story_url}")
