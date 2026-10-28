@@ -1,0 +1,1 @@
+Sources: Chainalysis estimate via Decrypt (June 2020) · BTC price & block 0: blockchain.com explorer, 28 Oct 2026 · Stefan Thomas: The New York Times, 12 Jan 2021 (via Cointelegraph) · "can't be reset": BitPay, private key security · supply computed from the block subsidy schedule (height 973,285).
