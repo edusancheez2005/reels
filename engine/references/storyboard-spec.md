@@ -171,6 +171,16 @@ slide in before/after it), `copy` (violet clone grows out of the big trade), `ju
 State props for later scenes: `you`, `chain`, `packed`, `sorted`, `botsOn`, `bigOn`, `cloneOn`. Bots are violet on purpose:
 red/green are reserved for down/up moves on Sonar.
 
+**Vault3D**: a gunmetal safe with a thick glass door (coins stay visible), a pile of gold coins and a gold key, for private-key /
+self-custody / lost-coins beats. Actions: `build`, `key` (key floats in), `turn` (key into the lock, door swings open), `move`
+(a few coins fly out), `lose` (key pulls out, tumbles away, breaks into sparks; door shuts), `lock` (frost + ice-blue ring),
+`scan` (light sweep: anyone can see them), `try` (door rattles, keyhole flashes amber), `label:<n>`, `cam`. State props:
+`opened`, `keyGone`, `frozen`; `plate` (text on the top plate), `coins`, `scale` (0.62). Frame it with look y ≈ -0.5, camera z ≈ 8–9.
+**Drive3D**: a generic unbranded encrypted USB drive with 10 attempt lights. Actions: `drive`, `ten` (lights on), `lockout`
+(ghost padlock), `used` (first `used` lights turn amber), `left` (remaining pulse), `label:<n>`, `cam`. Camera z ≈ 15–17.
+**Coin3D** also has `lost` (frost sweeps over `lost` coins' worth of stacks, counter switches to the lost amount, `lostText`)
+and `filled: true` (stacks start full, no `stack` beat). Keep `sub` matched to the number it sits under.
+
 **Title**: big kinetic text, one line per beat. Use sparingly. `lines`, `accent`, `size`.
 
 ### v1 (dark-only cards, still available)

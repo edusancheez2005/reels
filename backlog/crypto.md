@@ -1,7 +1,7 @@
 # Crypto explainers backlog (Mon/Wed/Fri; tick when produced)
 # Each line: topic — hook idea (a lead to verify, not a fact to copy). Style: episodes/2026-10-27-bitcoin-origin.
 
-- [ ] Lost forever: how many bitcoin nobody can ever spend — "Millions of bitcoin may be locked away forever, because someone lost a password."
+- [x] Lost forever: how many bitcoin nobody can ever spend — "Millions of bitcoin may be locked away forever, because someone lost a password." (2026-10-28-lost-bitcoin)
 - [ ] The halving: why Bitcoin's new supply gets cut in half every four years — "Every four years, the reward for securing Bitcoin is cut in half. The last cut was April 2024."
 - [ ] Where new bitcoin come from (mining, explained without jargon) — "About 450 new bitcoin are created every day. Here's who gets them."
 - [ ] The man who threw away a hard drive with 8,000 bitcoin — "A hard drive in a Welsh landfill holds thousands of bitcoin."

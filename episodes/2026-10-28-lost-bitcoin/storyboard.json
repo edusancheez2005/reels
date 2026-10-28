@@ -1,0 +1,789 @@
+{
+ "slug": "lost-bitcoin",
+ "theme": "dark",
+ "tail": 1.0,
+ "emphasis": [
+  "three point seven million",
+  "lost forever.",
+  "one in five,",
+  "three hundred billion dollars",
+  "no password reset.",
+  "private key,",
+  "Lose the key,",
+  "visible to all,",
+  "nobody can move them.",
+  "seven thousand and two",
+  "ten guesses,",
+  "locks for good.",
+  "used eight.",
+  "first fifty bitcoin,",
+  "never be spent:",
+  "never replaced.",
+  "a guess:",
+  "recovery words,"
+ ],
+ "scenes": [
+  {
+   "anchor": "About",
+   "component": "Coin3D",
+   "theme": "dark",
+   "moving": true,
+   "long": true,
+   "props": {
+    "coin": "none",
+    "filled": true,
+    "value": 20100000,
+    "total": 21000000,
+    "unit": "BTC",
+    "lost": 3700000,
+    "lostText": "bitcoin probably lost forever",
+    "sub": "estimate · Chainalysis, 2020",
+    "actions": [
+     "cam",
+     "lost",
+     "cam"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       2.4,
+       9.4
+      ],
+      "look": [
+       0,
+       -0.35,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.6,
+       2.1,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.35,
+       0
+      ],
+      "dur": 90
+     }
+    ]
+   },
+   "beats": [
+    "About",
+    "three",
+    "forever"
+   ]
+  },
+  {
+   "anchor": "That's",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "value": 5,
+    "prefix": "1 in ",
+    "chip": "≈3.7M of ≈20.1M bitcoin",
+    "label": "of all bitcoin that exist",
+    "tone": "accent"
+   },
+   "beats": [
+    "That's",
+    "five",
+    "five"
+   ]
+  },
+  {
+   "anchor": "worth",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 300,
+    "prefix": "≈$",
+    "suffix": "B",
+    "logo": "bitcoin.svg",
+    "chip": "3.7M × $80,824 · blockchain.com, 28 Oct 2026",
+    "label": "worth today",
+    "tone": "accent"
+   },
+   "beats": [
+    "worth",
+    "billion",
+    "today"
+   ]
+  },
+  {
+   "anchor": "How?",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "How?",
+     "No password reset."
+    ],
+    "accent": [
+     "reset."
+    ],
+    "size": 104
+   },
+   "beats": [
+    "How?",
+    "password"
+   ]
+  },
+  {
+   "anchor": "Owning",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "actions": [
+     "build",
+     "key",
+     "label:0",
+     "label:1",
+     "turn",
+     "move"
+    ],
+    "tags": [
+     {
+      "text": "Private key",
+      "x": 540,
+      "y": 1360,
+      "tone": "warm",
+      "size": 44
+     },
+     {
+      "text": "a secret code",
+      "x": 540,
+      "y": 1424,
+      "tone": "muted",
+      "size": 32
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.2,
+       0.6,
+       9.0
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.6,
+       0.4,
+       7.6
+      ],
+      "look": [
+       0.25,
+       -0.4,
+       0.2
+      ],
+      "dur": 30
+     },
+     {
+      "beat": 4,
+      "pos": [
+       0.6,
+       0.5,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "dur": 30
+     }
+    ],
+    "caption": "Illustration"
+   },
+   "beats": [
+    "Owning",
+    "private",
+    "key,",
+    "secret",
+    "that",
+    "coins."
+   ]
+  },
+  {
+   "anchor": "Lose",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "opened": true,
+    "actions": [
+     "lose",
+     "label:0",
+     "lock"
+    ],
+    "tags": [
+     {
+      "text": "Key lost",
+      "x": 540,
+      "y": 1360,
+      "tone": "warm",
+      "size": 48
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       0.5,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.3,
+       0.3,
+       7.6
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "dur": 40
+     }
+    ],
+    "caption": "Illustration"
+   },
+   "beats": [
+    "Lose",
+    "key,",
+    "stay"
+   ]
+  },
+  {
+   "anchor": "public",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "keyGone": true,
+    "frozen": true,
+    "actions": [
+     "scan",
+     "label:0",
+     "try",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "On the public record",
+      "x": 540,
+      "y": 1360,
+      "tone": "accent",
+      "size": 40
+     },
+     {
+      "text": "Nobody can move them",
+      "x": 540,
+      "y": 1424,
+      "tone": "warm",
+      "size": 40
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.9,
+       0.6,
+       8.8
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.3,
+       0.3,
+       7.6
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "dur": 40
+     }
+    ],
+    "caption": "Illustration"
+   },
+   "beats": [
+    "public",
+    "visible",
+    "nobody",
+    "move"
+   ]
+  },
+  {
+   "anchor": "In twenty",
+   "component": "Ruler",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "from": 2018,
+    "to": 2024,
+    "marks": [
+     {
+      "at": 2021.03,
+      "label": "January 2021",
+      "sub": "New York Times profile"
+     }
+    ]
+   },
+   "beats": [
+    "twenty"
+   ]
+  },
+  {
+   "anchor": "programmer",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "rise",
+   "props": {
+    "source": "The New York Times, 12 Jan 2021 (as reported by Cointelegraph)",
+    "text": "Programmer Stefan Thomas: 7,002 bitcoin on an encrypted drive, and a password he forgot.",
+    "mark": "7,002 bitcoin",
+    "stamp": "2021",
+    "note": "Paraphrased"
+   },
+   "beats": [
+    "programmer",
+    "seven",
+    "bitcoin"
+   ]
+  },
+  {
+   "anchor": "behind",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "value": 7002,
+    "suffix": " BTC",
+    "logo": "bitcoin.svg",
+    "chip": "Stefan Thomas · 2021",
+    "label": "behind a forgotten password",
+    "tone": "text"
+   },
+   "beats": [
+    "behind",
+    "password",
+    "forgotten."
+   ]
+  },
+  {
+   "anchor": "His drive",
+   "component": "Drive3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "used": 8,
+    "actions": [
+     "drive",
+     "ten",
+     "label:0",
+     "lockout",
+     "label:1",
+     "used",
+     "label:2"
+    ],
+    "tags": [
+     {
+      "text": "10 guesses",
+      "x": 540,
+      "y": 1330,
+      "tone": "accent",
+      "size": 46
+     },
+     {
+      "text": "then locked for good",
+      "x": 540,
+      "y": 1392,
+      "tone": "muted",
+      "size": 34
+     },
+     {
+      "text": "8 used · 2 left",
+      "x": 540,
+      "y": 1454,
+      "tone": "warm",
+      "size": 50
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.2,
+       17.0
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 5,
+      "pos": [
+       0.2,
+       0.1,
+       15.6
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "dur": 30
+     }
+    ],
+    "caption": "Illustration: a generic encrypted drive"
+   },
+   "beats": [
+    "drive",
+    "ten",
+    "guesses,",
+    "locks",
+    "good.",
+    "used",
+    "eight."
+   ]
+  },
+  {
+   "anchor": "Even",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "value": 50,
+    "suffix": " BTC",
+    "logo": "bitcoin.svg",
+    "chip": "the very first bitcoin",
+    "label": "created in block 0",
+    "tone": "accent"
+   },
+   "beats": [
+    "first",
+    "fifty",
+    "bitcoin,"
+   ]
+  },
+  {
+   "anchor": "from",
+   "component": "Ruler",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "from": 2008,
+    "to": 2012,
+    "marks": [
+     {
+      "at": 2009.01,
+      "label": "3 January 2009",
+      "sub": "Block 0: the first block"
+     }
+    ]
+   },
+   "beats": [
+    "block"
+   ]
+  },
+  {
+   "anchor": "can never",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "keyGone": true,
+    "frozen": true,
+    "plate": "BLOCK 0 · 50 BTC",
+    "coins": 24,
+    "actions": [
+     "try",
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "Can never be spent",
+      "x": 540,
+      "y": 1360,
+      "tone": "accent",
+      "size": 44
+     },
+     {
+      "text": "a quirk in the code",
+      "x": 540,
+      "y": 1424,
+      "tone": "muted",
+      "size": 34
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       1.6,
+       8.8
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.1,
+       1.1,
+       7.8
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "dur": 50
+     }
+    ],
+    "caption": "Illustration · source: blockchain.com, block 0"
+   },
+   "beats": [
+    "never",
+    "spent:",
+    "quirk"
+   ]
+  },
+  {
+   "anchor": "Only",
+   "component": "Coin3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "coin": "none",
+    "filled": true,
+    "value": 20100000,
+    "total": 21000000,
+    "unit": "BTC",
+    "lost": 3700000,
+    "lostText": "lost coins: never replaced",
+    "capText": "21,000,000 max",
+    "actions": [
+     "ghost",
+     "cap",
+     "lost"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       2.4,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.35,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 2,
+      "pos": [
+       -0.5,
+       2.0,
+       7.9
+      ],
+      "look": [
+       0,
+       -0.35,
+       0
+      ],
+      "dur": 80
+     }
+    ]
+   },
+   "beats": [
+    "Only",
+    "million",
+    "lost"
+   ]
+  },
+  {
+   "anchor": "The real",
+   "component": "Compare",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "left": {
+     "title": "Lost?",
+     "tone": "muted",
+     "items": [
+      "key gone",
+      "coins never move"
+     ]
+    },
+    "right": {
+     "title": "Saving?",
+     "tone": "accent",
+     "items": [
+      "owner never sells",
+      "coins never move"
+     ]
+    }
+   },
+   "beats": [
+    "real",
+    "guess:",
+    "some",
+    "savers",
+    "never",
+    "sell."
+   ]
+  },
+  {
+   "anchor": "If you",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "rise",
+   "moving": true,
+   "props": {
+    "actions": [
+     "build",
+     "key",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Your own key",
+      "x": 540,
+      "y": 1360,
+      "tone": "warm",
+      "size": 44
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.2,
+       0.6,
+       9.0
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.4,
+       0.5,
+       8.0
+      ],
+      "look": [
+       0.15,
+       -0.45,
+       0.1
+      ],
+      "dur": 30
+     }
+    ],
+    "caption": "Illustration"
+   },
+   "beats": [
+    "If",
+    "hold",
+    "own,"
+   ]
+  },
+  {
+   "anchor": "write",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "Write down your recovery words",
+    "rows": [
+     {
+      "left": "Your recovery words",
+      "badge": "WRITTEN",
+      "tone": "accent"
+     },
+     {
+      "left": "= the backup for your key",
+      "badge": "BACKUP",
+      "tone": "accent"
+     }
+    ],
+    "note": "Keep them private: anyone with them can move your coins"
+   },
+   "beats": [
+    "write",
+    "recovery",
+    "backup",
+    "key."
+   ]
+  }
+ ]
+}

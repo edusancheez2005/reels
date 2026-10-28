@@ -1,0 +1,7 @@
+About 3.7 million bitcoin are probably lost forever: nearly 1 in 5 that exist, around $300B today (Chainalysis estimate).
+Bitcoin has no password reset. Lose the private key and the coins sit on the public record where nobody can move them. Even the first 50 BTC ever created can't be spent.
+Follow @sonartracker.io for crypto, explained simply.
+Not financial advice.
+#Bitcoin #Crypto #CryptoExplained #Blockchain #CryptoForBeginners #CryptoSecurity #Sonar
+
+Sources: Chainalysis estimate via Decrypt (June 2020) · BTC price & block 0: blockchain.com explorer, 28 Oct 2026 · Stefan Thomas: The New York Times, 12 Jan 2021 (via Cointelegraph) · "can't be reset": BitPay, private key security · supply computed from the block subsidy schedule (height 973,285).

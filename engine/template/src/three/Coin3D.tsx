@@ -17,6 +17,8 @@ import {CANVAS, Caption, Studio, Tags, useCamera, useClock, glowMat, rand, type 
  *   cap         a glowing ceiling at the max + its label (props.capText)
  *   stack       gold coins fill the stacks up to `value`, the counter runs with them
  *   focus       the unfilled part of the last stack pulses + its label (props.focusText)
+ *   lost        frost sweeps over `lost` coins' worth of stacks (front row first): coins that can't move;
+ *               the counter switches to the lost amount (props.lostText = line under it, props.lostUnit)
  *   label:<n>   show tag n          cam   (no-op beat for cam[])
  * props: value, total (21,000,000), unit, sub, legend, capText, focusText, upText, downText,
  *        coin ("hero" | "none"), arrows (bool: arrows already up), tags, caption, cam
@@ -37,12 +39,22 @@ type P = {
   downText?: string;
   coin?: 'hero' | 'none';
   arrows?: boolean;
+  /** start with the stacks already filled to `value` (no `stack` beat needed) */
+  filled?: boolean;
+  /** number of coins (same unit as value) shown as frozen/lost by the `lost` action */
+  lost?: number;
+  lostText?: string;
+  /** start with the lost coins already frozen */
+  lostOn?: boolean;
 };
 
 const GOLD = '#E8A93C';
 const UP = '#00e08a';
 const DOWN = '#ff5b6b';
 const ACC = '#3bc9ee';
+const ICE = '#bfe3ff';
+/** fill order for lost coins: front row first (most visible), left to right */
+const LOST_ORDER = [14, 15, 16, 17, 18, 19, 20, 7, 8, 9, 10, 11, 12, 13, 0, 1, 2, 3, 4, 5, 6];
 
 // chart geometry (world units)
 const COLS = 7;
@@ -223,14 +235,18 @@ export const Coin3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
   // ---- chart ----
   const ghostP = p('ghost', 24, Easing.out(Easing.cubic));
   const capP = p('cap', 16, Easing.out(Easing.cubic));
-  const stackP = p('stack', 48, Easing.inOut(Easing.cubic));
+  const stackP = props.filled ? 1 : p('stack', 48, Easing.inOut(Easing.cubic));
+  const lostP = props.lostOn ? 1 : p('lost', 30, Easing.inOut(Easing.cubic));
+  const lostStacks = ((props.lost ?? 0) / total) * COLS * ROWS;
   const focusAt = at('focus');
   const focusP = p('focus', 12);
   const focusPulse = focusAt !== null && frame >= focusAt ? 0.5 + 0.5 * Math.sin((frame - focusAt) / 5) : 0;
-  const chartOn = acts.includes('ghost') || acts.includes('stack');
+  const chartOn = acts.includes('ghost') || acts.includes('stack') || !!props.filled;
   const filled = (value / total) * COLS * ROWS;
   const coinGeo = useMemo(() => new THREE.CylinderGeometry(R, R, STEP * 0.86, 40), []);
   const coinMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: GOLD, metalness: 1, roughness: 0.28, clearcoat: 0.5}), []);
+  const iceMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#8fb6d6', metalness: 0.35, roughness: 0.55, clearcoat: 1, clearcoatRoughness: 0.6, emissive: new THREE.Color('#3c6f99'), emissiveIntensity: 0.35}), []);
+  const iceShell = useMemo(() => new THREE.MeshPhysicalMaterial({color: ICE, transparent: true, opacity: 0.22, roughness: 0.2, metalness: 0, clearcoat: 1, depthWrite: false, emissive: new THREE.Color(ICE), emissiveIntensity: 0.25}), []);
   const ghostMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#9fdcff', metalness: 0.1, roughness: 0.15, transparent: true, opacity: 0.16, depthWrite: false}), []);
   const ghostEdge = useMemo(() => new THREE.LineBasicMaterial({color: ACC, transparent: true, opacity: 0.55}), []);
   const ghostEdgeGeo = useMemo(() => new THREE.EdgesGeometry(new THREE.CylinderGeometry(R + 0.012, R + 0.012, H, 24, 1, true), 1), []);
@@ -262,9 +278,22 @@ export const Coin3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
       // gold fill, stack by stack
       const grow = interpolate(stackP, [(c / 21) * 0.7, (c / 21) * 0.7 + 0.3], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
       const shown = Math.round(n * grow);
+      const li = LOST_ORDER.indexOf(c);
+      const stackLost = Math.max(0, Math.min(1, lostStacks - li)); // share of this stack that is lost
+      const sweep = lostP * lostStacks - li; // >0 once the frost has reached this stack
+      const lostN = Math.round(n * stackLost);
+      const frozenK = sweep <= 0 ? 0 : Math.min(lostN, Math.round(lostN * Math.min(1, sweep * 1.5)));
+      if (frozenK > 0) {
+        const h = frozenK * STEP + 0.03;
+        nodes.push(
+          <mesh key={`ice${c}`} material={iceShell} position={[x, BASE + h / 2, z]}>
+            <cylinderGeometry args={[R + 0.035, R + 0.035, h, 32]} />
+          </mesh>,
+        );
+      }
       for (let k = 0; k < shown; k++) {
         nodes.push(
-          <mesh key={`${c}-${k}`} geometry={coinGeo} material={coinMat} position={[x + (rand(c * 31 + k) - 0.5) * 0.018, BASE + STEP * (k + 0.5), z + (rand(c * 17 + k) - 0.5) * 0.018]} rotation={[0, rand(c + k * 7) * 6, 0]} />,
+          <mesh key={`${c}-${k}`} geometry={coinGeo} material={k < frozenK ? iceMat : coinMat} position={[x + (rand(c * 31 + k) - 0.5) * 0.018, BASE + STEP * (k + 0.5), z + (rand(c * 17 + k) - 0.5) * 0.018]} rotation={[0, rand(c + k * 7) * 6, 0]} />,
         );
       }
       // the unmined remainder of a partial stack
@@ -292,7 +321,14 @@ export const Coin3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
           <Label xy={project(cam, [-0.8, heroY - 1.1, 0])} text={props.downText ?? 'DOWN?'} color={DOWN} p={downP} />
         </>
       ) : null}
-      {chartOn && acts.includes('stack') && stackP > 0 ? (
+      {chartOn && lostP > 0 ? (
+        <div style={{position: 'absolute', left: 0, right: 0, top: 560, textAlign: 'center', fontFamily: theme.font, color: '#fff', textShadow: '0 4px 24px rgba(0,0,0,0.9)'}}>
+          <div style={{fontSize: 108, fontWeight: 800, letterSpacing: -4, fontVariantNumeric: 'tabular-nums', color: ICE}}>≈{Math.round(((props.lost ?? 0) * Math.min(1, lostP * 1.15)) / 1000) * 1000 > 0 ? (Math.round(((props.lost ?? 0) * Math.min(1, lostP * 1.15)) / 1000) * 1000).toLocaleString('en-US') : '0'}</div>
+          <div style={{fontSize: 40, fontWeight: 700, color: 'rgba(255,255,255,0.8)', marginTop: 4}}>{props.lostText ?? 'lost'}</div>
+          {props.sub ? <div style={{fontSize: 30, fontWeight: 600, color: 'rgba(255,255,255,0.6)', marginTop: 10}}>{props.sub}</div> : null}
+        </div>
+      ) : null}
+      {chartOn && (acts.includes('stack') || props.filled) && stackP > 0 && lostP <= 0 ? (
         <div style={{position: 'absolute', left: 0, right: 0, top: 560, textAlign: 'center', fontFamily: theme.font, color: '#fff', textShadow: '0 4px 24px rgba(0,0,0,0.9)'}}>
           <div style={{fontSize: 108, fontWeight: 800, letterSpacing: -4, fontVariantNumeric: 'tabular-nums', color: GOLD}}>{Math.round(value * stackP).toLocaleString('en-US')}</div>
           <div style={{fontSize: 40, fontWeight: 700, color: 'rgba(255,255,255,0.75)', marginTop: 4}}>

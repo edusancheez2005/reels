@@ -144,6 +144,14 @@ const PageView: React.FC<{page: Page; dark: boolean}> = ({page, dark}) => {
   );
 };
 
+/** Caption ink follows the scene on screen in each frame, so a page that crosses a light/dark cut stays readable. */
+const ThemedPage: React.FC<{page: Page; fromFrame: number; themeAt: (ms: number) => string}> = ({page, fromFrame, themeAt}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const ms = ((fromFrame + frame) / fps) * 1000;
+  return <PageView page={page} dark={themeAt(ms) !== 'light'} />;
+};
+
 export const KineticCaptions: React.FC<{captions: KCaption[]; themeAt: (ms: number) => string}> = ({captions, themeAt}) => {
   const {fps} = useVideoConfig();
   const pages = useMemo(() => paginateK(captions), [captions]);
@@ -156,7 +164,7 @@ export const KineticCaptions: React.FC<{captions: KCaption[]; themeAt: (ms: numb
         const dur = Math.max(1, Math.round((endMs / 1000) * fps) - from);
         return (
           <Sequence key={i} from={Math.max(0, from)} durationInFrames={dur} layout="none">
-            <PageView page={page} dark={themeAt(page.startMs + 60) !== 'light'} />
+            <ThemedPage page={page} fromFrame={Math.max(0, from)} themeAt={themeAt} />
           </Sequence>
         );
       })}

@@ -48,7 +48,7 @@ export const Compare: React.FC<SceneProps<P>> = ({props, beats}) => {
   };
   return (
     <Stage>
-      <div style={{position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', gap: 28, fontFamily: theme.font}}>
+      <div style={{position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', gap: 28, padding: '0 24px', fontFamily: theme.font}}>
         {col('left', props.left, 0)}
         {col('right', props.right, leftN)}
       </div>
