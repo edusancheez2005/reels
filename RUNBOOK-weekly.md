@@ -38,7 +38,7 @@ Then rewrite `learnings.md` (keep its sections: Do / Avoid / Not working yet / W
 ## 3b. Write next week's `insights/plan.md`
 Seven rows (one per day, following `channels/rota.json`), in the same table format as the current plan: channel, type
 (Proof / Teach / Story / Opinion; never the same type two days running; at most one Sonar product mention a week), topic and
-angle, a hook with its formula number from Jake Schincariol's list (the current plan.md shows the format), and a story-card
+angle, a hook with its formula number from `tools/ig/hooks.json` (Jake Schincariol's 26 formulas; the current plan.md shows the format), and a story-card
 teaser. Pull topics from the top of `backlog/crypto.md` and `backlog/sonar.md`, apply `learnings.md`, and reorder the backlogs
 so the daily runs reach these topics on the right days. Hooks are leads; the daily run verifies them.
 

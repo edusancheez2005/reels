@@ -5,7 +5,7 @@ per slot) and our own numbers (`insights/learnings.md`). The daily run uses toda
 Hooks are leads: verify every number before using it. On Sonar days a fresh, verified on-chain event beats the planned topic.
 All reels 30–35 s. Each day also gets the 3-part story (hook clip, highlight clip, end card).
 
-| Day | Channel | Type | Topic and angle | Hook (formula from tools/ig hooks: #) | Story card teaser |
+| Day | Channel | Type | Topic and angle | Hook (formula # from tools/ig/hooks.json) | Story card teaser |
 |---|---|---|---|---|---|
 | Thu 29 Oct | sonar | Proof | A fresh verified on-chain move from the last 7 days (whale transfer, exchange inflow/outflow or stablecoin mint), found that morning. Fallback: the latest $1B+ stablecoin mint. | #23 The Statistic + who's behind it: "Yesterday, one wallet moved $X of bitcoin onto an exchange. Here's what that can, and can't, mean." | "Who moved $X?" |
 | Fri 30 Oct | crypto | Teach (with a threat) | Why a crypto transfer can't be undone, and the address-poisoning scam that relies on it. One verified loss figure. | #3 Nobody Tells You: "Send crypto to the wrong address and nobody on Earth can get it back. Scammers are counting on it." | "There's no undo button" |
