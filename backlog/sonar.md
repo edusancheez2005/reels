@@ -5,7 +5,6 @@
 - [x] What the mempool is, and why bots watch every transaction (2026-10-27-mempool-bots)
 - [x] How Bitcoin started (manual request) (2026-10-27-bitcoin-origin)
 - [ ] Stablecoin mints: when $1B of new USDT appears overnight, what actually happened — hook from the latest verified mint on-chain (date, amount, treasury address)
-- [ ] The biggest crypto theft ever: how $1.5B left Bybit in one transaction, and how investigators followed it on-chain — verify on the explorer and in investigators' reports
 - [ ] How to read a whale alert without panicking (questions to ask) — "Stop panicking at whale alerts. Most of them are an exchange moving its own coins." (#2 Negative Command; Sonar's one mention goes here)
 - [ ] Exchange inflows vs outflows: what a whale moving coins can (and can't) tell you
 - [ ] Why moving $300M of bitcoin can cost less than a coffee (fees explained)

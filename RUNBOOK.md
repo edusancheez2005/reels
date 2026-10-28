@@ -35,7 +35,9 @@ source .env.local              # REMOTION_BROWSER etc.
 
 ## 1. Pick the channel and topic
 
-- Channel = `channels/rota.json[weekday]` (Europe/London date); if the day isn't listed (a manual weekend run), use `crypto`. Load `channels/<channel>.json`.
+- If `insights/plan.md` has a row for today's date, that row decides the channel and the topic (it overrides the rota; on a
+  `sonar` row a fresh verified on-chain event still comes first). Otherwise channel = `channels/rota.json[weekday]`
+  (Europe/London date), or `crypto` if the day isn't listed. Load `channels/<channel>.json`.
 - Apply its brand: `python3 tools/use_channel.py <channel>` (writes `reel-studio/brand.json`).
 - Topic:
   - **sonar**: first look for a notable verified on-chain event from the last 7 days (whale

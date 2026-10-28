@@ -1,13 +1,21 @@
-# Crypto explainers backlog (Mon/Wed/Fri/Sat/Sun; tick when produced)
+# Crypto explainers backlog (tick when produced)
 # Each line: topic — hook idea (a lead to verify, not a fact to copy). Order follows insights/plan.md and insights/learnings.md:
-# live number + a hidden threat in the first sentence, about money people hold; ~45-50 s. (#n) = Jake Schincariol's hook formula id.
+# a big, concrete number with a stake for the viewer in the first sentence; 30-35 s. (#n) = hook formula id in tools/ig/hooks.json.
 
 - [x] Lost forever: how many bitcoin nobody can ever spend — "Millions of bitcoin may be locked away forever, because someone lost a password." (2026-10-28-lost-bitcoin)
-- [ ] Why you can't undo a crypto transaction — "Send crypto to the wrong address and nobody on Earth can get it back. Scammers are counting on it." (#3 Nobody Tells You; add one verified loss figure, e.g. address-poisoning scams)
-- [ ] The man who threw away a hard drive with 8,000 bitcoin — "In 2013, a man in Wales threw away a hard drive. The bitcoin on it is worth about $600 million today." (#25 Someone Else's Result; verify the coin count, today's value and the latest court/landfill news)
+- [ ] The man who threw away a hard drive with 8,000 bitcoin — "In 2013, a man in Wales threw away a hard drive. The bitcoin on it is worth about $600 million today." (#25; verify the coin count, today's value and the latest court/landfill news)
 - [ ] What a crypto wallet really holds (hint: not coins) — "Your crypto wallet doesn't hold any crypto. It holds a list of words, and anyone who sees them can take everything." (#22 Contrarian Flip)
-- [ ] FTX: how a $32B exchange collapsed in a week — "In November 2022, about $8 billion of customers' money went missing from one exchange in a week." (#23 The Statistic; verify the shortfall figure; lesson: coins on an exchange aren't in your hands)
+- [ ] The biggest crypto hack ever: about $1.5B from Bybit (Feb 2025) — "In February 2025, hackers took about $1.5 billion of crypto from one exchange, in a single transaction." (#23; how: a tampered signing screen; who investigators blamed; lesson: check what you sign)
+- [ ] Why you can't undo a crypto transaction, and the address-poisoning scam — "Send crypto to the wrong address and nobody on Earth can get it back. Scammers are counting on it." (#3 Nobody Tells You; one verified loss figure)
+- [ ] Poly Network: the hacker who gave back $610M (2021) — "In 2021, a hacker stole $610 million in crypto. Then gave almost all of it back." (#25 / #21; why stolen crypto is hard to cash out on a public record)
+- [ ] Quantum computing vs crypto, and what the big blockchains are doing — "About one in ten bitcoin sits in an address a big enough quantum computer could crack. No such computer exists yet." (#3; balanced: estimates vary hugely, nobody knows when; BIP-360, Ethereum's 2029 target, NIST's 2024 standards)
+- [ ] FTX: how a $32B exchange collapsed in a week — "In November 2022, about $8 billion of customers' money went missing from one exchange in a week." (#23; verify the shortfall figure; lesson: coins on an exchange aren't in your hands)
 - [ ] The halving: why Bitcoin's new supply gets cut in half every four years — "Every day, about 450 new bitcoin are created. In 2028, that drops to 225." (#19 The Deadline; verify the expected date)
+- [ ] North Korea's crypto thieves: how much one country's hackers have taken — "One country's hackers have stolen billions in crypto, and it funds their weapons programme." (#23; verify the yearly totals from Chainalysis/TRM and the UN panel)
+- [ ] Seed-phrase phishing and fake wallet apps — "Nobody legitimate will ever ask for your 12 words. These apps do." (#2 Negative Command; real examples, no copycat instructions)
+- [ ] SIM swaps: how people lose crypto through their phone number — "A thief can take over your phone number in minutes, then your accounts." (#3; how to protect yourself, no attack instructions)
+- [ ] Wrench attacks: the rise of physical crypto robberies — "The biggest threat to some crypto holders isn't a hacker. It's a knock at the door." (#3; verified cases only; keep it about protection)
+- [ ] Ronin bridge, 2022: $625M taken from a video game's network — "Hackers took $625 million from a video game's money network, and nobody noticed for six days." (#23; verify the six days)
 - [ ] Why there will only ever be 21 million bitcoin (and how the last one arrives around 2140) — "There will only ever be 21 million bitcoin. Over 20 million already exist." (#23)
 - [ ] Where new bitcoin come from (mining, explained without jargon) — "About 450 new bitcoin are created every day. Here's who gets them." (#23; space it from the halving reel)
 - [ ] Mt. Gox: the exchange that lost 850,000 bitcoin — "In 2014, the world's biggest bitcoin exchange said it had lost 850,000 coins." (#23)
