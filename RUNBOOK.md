@@ -19,7 +19,8 @@ Repo: `edusancheez2005/reels` (public). Engine docs: `engine/SKILL.md` + `engine
    against a primary record when one exists (block explorer, filing, official page). If a fact can't be
    verified, cut it. Don't soften it.
 3. No fake screenshots, fake quotes, fake posts by real people or organisations, or hand-drawn logos
-   (use `engine/scripts/get_logos.mjs`). Label an illustration only where a viewer could mistake it for a real photo, document or footage (Edu, 29 Oct: no "Illustration" captions under generic 3D scenes).
+   (use `engine/scripts/get_logos.mjs`). Only a realistic recreation of a real person or event needs a small label; obvious
+   graphics (3D props, diagrams, maps) get no "Illustration" caption (Edu, 29 Oct 2026).
 4. Never commit secrets. Never commit media (mp4, wav) to `main`; videos go to the `media` branch via `tools/publish_media.sh`.
 5. Keep the run lean: read only what you need, at most 3 QA rounds, one final render.
 
@@ -58,12 +59,16 @@ source .env.local              # REMOTION_BROWSER etc.
 - Before writing the script, read `insights/learnings.md` (what works on this account, from the weekly stats review) and the
   "Notes for next time" in the last 3 episodes' `review.md`, and apply them. Where they disagree, the account's numbers win.
 - If `insights/plan.md` has an entry for today, use its topic, type, angle and hook formula (still verify every fact).
-- Script 140–175 words (45–60 s). Edu, 29 Oct 2026, on the 30-s landfill reel: "too short, barely has much information".
-  Tell the whole story (script-guide "Story reels"): who the person is, what happened step by step, what they tried, how it
-  ended, and a closing lesson that comes from the story and says why. Every sentence adds a fact; no filler. Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
+- Script 120–160 words (45–60 s; up to ~65 s if the story needs it). Edu, 29 Oct 2026, on the 33 s landfill reel: "too short,
+  barely any information". Information first: follow "Story reels: Edu's standard" in `engine/references/script-guide.md`
+  (introduce every person, cause and effect, 6+ concrete facts, an ending that names this story's mistakes and why).
+  Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
 - Assets: logos via `get_logos.mjs`. Screenshots only if the computer bridge / a browser tool is available
   in this session (otherwise build from illustrations, maps, numbers and logos; don't stall).
-- Storyboard: 10–14 scenes, ≤ 1 plain text title per 5 scenes, 6–12 emphasis phrases. **Default to the realistic 3D
+- Storyboard: 14–20 scenes, ≤ 1 plain text title per 5 scenes, 10–20 emphasis phrases. Variety (Edu, 29 Oct): no component
+  in more than 3 scenes (and change the camera or setting each time); a timeline (Ruler) at most once and only when a
+  sequence of 3+ dates is the point, never in two reels in a row; no "Illustration" captions on obvious graphics. Show the
+  thing itself (a real document, a headline, the object, the person's name card) rather than a generic stand-in. **Default to the realistic 3D
   components** (`engine/references/storyboard-spec.md` → 3D; Edu's standing feedback): light/dark rhythm applies to 2D scenes only.
   Reuse components first. A new component is fine if a topic needs it (add it under `engine/template/src/scenes/`
   and register it); keep it generic so later episodes can reuse it.
@@ -71,13 +76,26 @@ source .env.local              # REMOTION_BROWSER etc.
   (one still per scene) instead of qa_stills' full draft; look at `qa/contact.png` and fix clipping,
   tiny text, empty scenes, marks off target, and visuals that don't match their words. Max 3 rounds.
 - Render: `npx remotion render Reel ../episodes/<id>/<id>.mp4 --codec h264 --crf 18 --x264-preset veryfast`.
-  3D renders in software (~40–50 min for 33 s on 2 cores): start it with nohup and keep the session busy (poll the log)
+  3D renders in software (~60–80 min for 50 s on 2 cores): start it with nohup and keep the session busy (poll the log)
   until it finishes; a background job is stopped soon after the turn ends.
 - `cover.jpg` (strongest frame) and `caption.txt`: 1–2 lines + the channel's sign-off + max 5 hashtags (Instagram's cap);
   a final "Sources:" block for the first comment. Then check it:
   `python3 tools/ig/check_caption.py episodes/<id>/caption.txt --fix`. FAIL lines must be fixed. WARN lines are judgement
   calls: rewrite stock phrases and structural tells it lists, keep crypto terms. Make the hook land inside the first ~125
   characters, because that's all the feed shows before "... more".
+
+## 2a. Script review (before the voice)
+
+Edu (29 Oct 2026): the landfill reel didn't say who the man was, how it happened, or why the lesson matters. Catch that before
+spending an hour on voice and render. When the script and research.md are done, spawn a fresh reviewer with the Agent tool
+(subagent_type "general-purpose", run_in_background false) with this brief, <id> filled in:
+> You are the script editor for Edu's crypto explainer reels (@sonartracker.io). You did not write this script. Read
+> ~/reels/engine/references/review-rubric.md, section "Script check", and ~/reels/engine/references/script-guide.md,
+> section "Story reels: Edu's standard". Then read episodes/<id>/script.txt and episodes/<id>/research.md. Answer: does every
+> person get introduced (who, why they matter) before they act? Is the chain of events explained (how it happened, what was
+> tried, why it failed)? Are there 6+ concrete sourced facts? Does the ending name this story's specific mistakes and the fix,
+> and say why? Is it 120–160 words? Reply with VERDICT: PASS or REWRITE, and for REWRITE the exact lines to change.
+Rewrite and ask again until PASS (max 2 rounds). Only then voice it.
 
 ## 2b. Independent review (after the final render, before saving/posting)
 

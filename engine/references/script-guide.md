@@ -3,28 +3,31 @@
 A faceless explainer reel lives or dies in the script. The visuals can only show what the
 words give them.
 
-## Shape (45–60 s, 140–175 words)
+## Shape (45–60 s, 120–160 words)
 
-Edu, 29 Oct 2026 (after trying 30-s reels): "too short, it barely has much information". Back to 45–60 s. Fill the time with
-facts and story, never filler; cut a weak step rather than talk faster.
-
-## Story reels (Edu, 29 Oct 2026)
-When the reel is about a person or an event, the viewer must come away knowing:
-1. **Who** they are, in a few words (job, where, what they were doing), not just a name.
-2. **What happened, step by step**, in order, with the concrete details that make it real (the laptop, the spilled drink,
-   the drawer, the bin bag), so the loss makes sense.
-3. **What they tried** and how it ended (offers, court, outcome).
-4. **The lesson from this story**, and **why**: name the specific mistakes the person made (e.g. one copy of the key, no
-   backup, didn't check the drive before binning it) and turn each into one plain instruction. Say why it matters (no
-   reset, nobody can recover it). Never a generic "keep your keys safe" tacked on the end.
+Edu, 29 Oct 2026: the 33 s version was "too short, barely any information". Information first; never pad.
 
 | Part | Time | Job |
 |---|---|---|
-| Hook | 0–2 s | The most striking verifiable fact, with a number, shown on screen immediately. |
-| Tension | 2–6 s | Why it matters to the viewer / the wrong intuition. |
-| Story / mechanism | 6–45 s | The steps in order, each one picture. For people: who, what happened, what they tried, how it ended. |
-| Payoff | last 5–8 s | The surprising consequence ("…and that's why a glove stops it"). |
-| Loop line | last 1–2 s | Optional. Ends in a way that leads back into the first line (replays count as views). |
+| Hook | 0–3 s | The most striking verifiable fact, with a number, shown on screen immediately. |
+| Who / setup | 3–12 s | Who this is about and why they matter, or the wrong intuition. |
+| What happened / mechanism | 12–42 s | The chain of events or the 3 steps, cause → effect. Each step = one picture. |
+| Payoff + lesson | last 10–15 s | The consequence, then the specific lesson from *this* story and why it works. |
+| Loop line | last 1–2 s | Optional. Leads back into the first line. |
+
+## Story reels: Edu's standard (29 Oct 2026)
+
+What went wrong in the landfill reel, and the rule that fixes it:
+1. **Introduce every person before they act.** Name, who they are, why we care: "James Howells, an IT engineer who mined
+   bitcoin in 2009, when it was worth almost nothing." Never "a man" and then a name with no context.
+2. **Explain how it happened, not just that it happened.** The mechanism of the mistake (e.g. two identical drives, the wrong
+   one binned), what they tried next, and why it failed (the judge's actual reason).
+3. **Answer the viewer's obvious questions** before they ask them: who is he? how? can't he just dig it up? what now?
+4. **6+ concrete, sourced facts** (names, dates, places, amounts). A reel with three facts feels empty however good it looks.
+5. **The ending names this story's specific mistakes and the specific fix, and says why.** Not "keep your keys safe".
+   Landfill example: "He made two mistakes. His key existed in one place only, and that place was a drive he treated like
+   junk. Write your recovery words down, keep two copies in two safe places, and label the device that holds your key."
+6. **Self-check before voicing:** read the script as a stranger. If you'd ask "wait, who?" or "why?", the script isn't done.
 
 No intro, no "hey guys", no "in this video". The first word is already content.
 

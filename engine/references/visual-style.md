@@ -4,8 +4,10 @@
 cheap next to the Keyframes reels: realistic phone, detailed objects, constant motion). Build mechanism scenes with
 the 3D components in `src/three/` (Phone3D, Cell3D, Hair3D, Swarm3D) or new ones in the same style: physically based
 materials, studio light rig, bloom on anything that glows (ions, electrons, screens, heat), slow camera push + drift,
-labels as small uppercase tags with leader lines. No "Illustration" caption under generic 3D scenes (Edu, 29 Oct 2026: he
-dislikes it); add one only where a viewer could mistake the shot for a real photo, document or footage. 3D reels may stay dark throughout (the light/dark rhythm below applies to the 2D components). Use 2D scenes
+labels as small uppercase tags with leader lines. No "Illustration" caption on obvious graphics (Edu, 29 Oct 2026); only a
+realistic recreation of a real person or event gets a small label. Variety: no component in more than 3 scenes per reel,
+a timeline (Ruler) at most once and only when the dates are the point, and show the real thing (document, headline, name
+card) rather than a generic stand-in whenever you can. 3D reels may stay dark throughout (the light/dark rhythm below applies to the 2D components). Use 2D scenes
 (Quote, BigNumber, Title…) only as punctuation. Photoreal stills (AI-generated) would be the next layer: Canva's
 generator only returns thumbnails in these sessions, so that needs an image-model API key.
 
