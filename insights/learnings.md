@@ -33,5 +33,6 @@ calls on quality override the numbers. The weekly review rewrites this file; kee
   watching. Don't tailor topics to it unless follower reach grows.
 
 ## Watching (not enough data yet)
-- Posting time: reels went up between 07:35 and 16:30 London; nothing comparable yet.
+- Posting time: hits went up at 07:35, 11:24, 12:53 and 15:19; flops at 13:35–16:30, so time of day hasn't separated them
+  (the hook did). From 30 Oct the daily run starts 03:47 and posts ~07:30–08:00 (Edu, 29 Oct: "post it before"): compare.
 - Stories: hook+card on 28 Oct, three parts from 29 Oct. Compare reel reach on story days with the days before.
