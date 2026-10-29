@@ -19,7 +19,11 @@ Default to PASS. Use FAIL only for the "must fix" items below; everything else i
 7. **Plain words.** "Refrigerated container", not "reefer". American female voice.
 8. **Readable on a phone.** Nothing important clipped at the frame edges, no tiny text, highlight boxes on the right words.
    Nothing important in Instagram's overlay zone (bottom ~20%, right-edge buttons): see visual-style.md "Instagram safe zone".
-9. **Short.** 30–35 s (Edu, 28 Oct 2026: viewers watch ~18–25 s). Over 40 s is a note, with the step that should have been cut.
+9. **Enough substance** (Edu, 29 Oct 2026: the 33 s landfill reel was "too short, barely any information"). 45–60 s, 6+
+   concrete sourced facts, every person introduced before they act, how it happened explained, and an ending that names this
+   story's specific mistakes and the fix, and says why.
+10. **Original visuals.** No "Illustration" captions on obvious graphics. A timeline at most once, and only when a sequence
+   of dates is the point. No component in more than 3 scenes. Show the real thing (document, headline, name card) where possible.
 
 ## Must fix (FAIL), only these
 - A factual error, a number that doesn't match research.md, or a claim with no source.
@@ -30,6 +34,8 @@ Default to PASS. Use FAIL only for the "must fix" items below; everything else i
 - The hook (first ~3 s) is confusing to a beginner, or unexplained jargon makes a whole section impossible to follow.
   (A single unexplained term elsewhere is a note, not a fail.)
 - Anything that fakes a real person's words, a real organisation's post, or a screenshot.
+- Too thin (Edu, 29 Oct): under 40 s, fewer than 6 concrete facts, a person who matters is never introduced, or an ending that
+  is a generic tip instead of this story's specific lesson with the why.
 
 ## Notes (PASS WITH NOTES), don't block posting
 Pacing could be tighter, a scene could be more detailed, a better visual metaphor exists, a minor term could have a gloss,
@@ -42,3 +48,11 @@ Must fix:            (only for FAIL; each: scene id, timestamp, what's wrong, th
 Notes for next time: (max 5)
 Scores 1–5: sync, detail/realism, hook, beginner clarity, accuracy, phone readability
 ```
+
+## Script check (RUNBOOK §2a, before the voice)
+PASS only if all of these hold, otherwise REWRITE with the exact lines to change:
+- Every person is introduced (name, who they are, why they matter) before they act.
+- The chain of events is explained: how it happened, what was tried, why it failed or worked.
+- 6+ concrete facts, each one in research.md with a source.
+- The ending names this story's specific mistakes and the fix, and says why (never a generic "keep your keys safe").
+- 120–160 words; the hook is a striking verifiable fact with a number; no price predictions.

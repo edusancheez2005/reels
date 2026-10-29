@@ -149,9 +149,20 @@ if sj.exists():
 else:
     warns.append("story: no story.json (tools/make_story.py); the reel can still post")
 
-# length (Edu, 28 Oct 2026: people watch ~18-25 s, so reels are 30-35 s)
-if mp4.exists() and dur > 42:
-    warns.append(f"reel is {dur:.0f}s; the target is 30-35 s (RUNBOOK §2)")
+# length + variety (Edu, 29 Oct 2026: 45-60 s with real substance; no timeline filler; no "Illustration" labels)
+if mp4.exists() and not 40 <= dur <= 70:
+    warns.append(f"reel is {dur:.0f}s; the target is 45-60 s (RUNBOOK §2)")
+if (ep / "storyboard.json").exists():
+    sb = json.loads((ep / "storyboard.json").read_text())
+    comps = [x["component"] for x in sb.get("scenes", [])]
+    if comps.count("Ruler") > 1:
+        warns.append(f"{comps.count('Ruler')} timelines; max 1 (RUNBOOK §2)")
+    labels = sum(1 for x in sb.get("scenes", []) if "llustration" in json.dumps(x.get("props", {})))
+    if labels:
+        warns.append(f"{labels} 'Illustration' captions; obvious graphics shouldn't have one")
+    over = sorted({c for c in comps if comps.count(c) > 3})
+    if over:
+        warns.append(f"components in more than 3 scenes: {', '.join(over)}")
 
 for w in warns:
     print("WARN", w)
