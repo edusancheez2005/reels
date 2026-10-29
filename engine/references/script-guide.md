@@ -20,7 +20,7 @@ Edu, 29 Oct 2026: the 33 s version was "too short, barely any information". Info
 What went wrong in the landfill reel, and the rule that fixes it:
 1. **Introduce every person before they act.** Name, who they are, why we care: "James Howells, an IT engineer who mined
    bitcoin in 2009, when it was worth almost nothing." Never "a man" and then a name with no context.
-2. **Explain how it happened, not just that it happened.** The mechanism of the mistake (e.g. two identical drives, the wrong
+2. **Explain how it happened, not just that it happened.** The mechanism of the mistake (e.g. two drives in one drawer, the wrong
    one binned), what they tried next, and why it failed (the judge's actual reason).
 3. **Answer the viewer's obvious questions** before they ask them: who is he? how? can't he just dig it up? what now?
 4. **6+ concrete, sourced facts** (names, dates, places, amounts). A reel with three facts feels empty however good it looks.
@@ -30,6 +30,18 @@ What went wrong in the landfill reel, and the rule that fixes it:
 6. **Self-check before voicing:** read the script as a stranger. If you'd ask "wait, who?" or "why?", the script isn't done.
 
 No intro, no "hey guys", no "in this video". The first word is already content.
+
+## What-if reels (Edu, 29 Oct 2026: "hypothetical situations like that are very cool")
+
+"What would happen if Bitcoin fell to $1?", "What if Bitcoin was the only money?". Thought experiments, never predictions.
+1. **Hook on the most striking concrete consequence, with a number:** "If Bitcoin fell to one dollar, the computers that keep
+   it running would earn about three dollars every ten minutes." Not "What if Bitcoin crashed?".
+2. **Line 2 says it's a thought experiment:** "Nobody's predicting this. But it shows how Bitcoin really works." The channel
+   rule still holds: never imply where the price will go.
+3. **3–4 consequences, each tied to a real mechanism or a real past event,** with the source in research.md (the block
+   reward, the difficulty adjustment, China's 2021 mining ban, Mt. Gox, FTX). Plain "would probably", never certainty.
+4. **One line on the other side** (what supporters or critics would say), then **a practical takeaway** the viewer can use.
+5. Show-ability: each consequence needs a picture (3D scene, real chart, real document), not talking points on cards.
 
 ## Hooks (Edu, 2026-10-27: "a cool fact")
 
