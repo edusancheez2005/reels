@@ -18,8 +18,8 @@ else
 fi
 ffmpeg -v error -y -i "$MP4" -i "$TMP/part.mp4" -filter_complex "$FC" \
   -map "[v]" -map 0:a -c:v libx264 -crf 18 -preset veryfast -pix_fmt yuv420p -c:a copy -movflags +faststart "$TMP/out.mp4"
-F0=$(ffprobe -v error -select_streams v:0 -count_packets -show_entries stream=nb_read_packets -of csv=p=0 "$MP4")
-F1=$(ffprobe -v error -select_streams v:0 -count_packets -show_entries stream=nb_read_packets -of csv=p=0 "$TMP/out.mp4")
+F0=$(ffprobe -v error -select_streams v:0 -count_packets -show_entries stream=nb_read_packets -of csv=p=0 "$MP4" | tr -cd '0-9')
+F1=$(ffprobe -v error -select_streams v:0 -count_packets -show_entries stream=nb_read_packets -of csv=p=0 "$TMP/out.mp4" | tr -cd '0-9')
 if [ "$F0" != "$F1" ]; then echo "frame count changed ($F0 -> $F1); keeping the original" >&2; exit 1; fi
 mv "$TMP/out.mp4" "$MP4"
 rm -rf "$TMP"

@@ -97,10 +97,12 @@ def main():
     sd = ImageDraw.Draw(shade)
     for y in range(H):
         t = y / H
-        if t < 0.58:
-            v = 215 - int(70 * (t / 0.58))
+        if t < 0.55:
+            v = 215 - int(105 * (t / 0.55))
+        elif t < 0.86:
+            v = 110 - int(40 * ((t - 0.55) / 0.31))
         else:
-            v = 145 + int(90 * ((t - 0.58) / 0.42))
+            v = 70 + int(150 * ((t - 0.86) / 0.14))
         sd.line([(0, y), (W, y)], fill=max(0, min(255, v)))
     canvas = Image.composite(Image.new("RGB", (W, H), bg), canvas, shade)
 
