@@ -231,11 +231,11 @@ export const Character3D: React.FC<SceneProps<P>> = ({props, beats, durationInFr
   const mats = useMemo(
     () => ({
       skin: new THREE.MeshPhysicalMaterial({color: col.skin, roughness: 0.5, clearcoat: 0.35, clearcoatRoughness: 0.45}),
-      hair: new THREE.MeshPhysicalMaterial({color: col.hair, roughness: 0.78, clearcoat: 0.05}),
-      top: new THREE.MeshPhysicalMaterial({color: col.top, roughness: 0.78, sheen: 0.6, sheenColor: new THREE.Color('#9cc3ff')}),
-      topDark: new THREE.MeshPhysicalMaterial({color: new THREE.Color(col.top).multiplyScalar(0.72), roughness: 0.82}),
-      legs: new THREE.MeshPhysicalMaterial({color: col.legs, roughness: 0.85}),
-      shoe: new THREE.MeshPhysicalMaterial({color: '#f1f3f5', roughness: 0.5, clearcoat: 0.3}),
+      hair: new THREE.MeshStandardMaterial({color: col.hair, roughness: 0.75}),
+      top: new THREE.MeshStandardMaterial({color: col.top, roughness: 0.78}),
+      topDark: new THREE.MeshStandardMaterial({color: new THREE.Color(col.top).multiplyScalar(0.72), roughness: 0.82}),
+      legs: new THREE.MeshStandardMaterial({color: col.legs, roughness: 0.85}),
+      shoe: new THREE.MeshStandardMaterial({color: '#e9ecef', roughness: 0.55}),
       sole: new THREE.MeshStandardMaterial({color: '#b9c0c9', roughness: 0.7}),
       eye: new THREE.MeshPhysicalMaterial({color: '#121418', roughness: 0.15, clearcoat: 1}),
       white: new THREE.MeshBasicMaterial({color: '#ffffff'}),

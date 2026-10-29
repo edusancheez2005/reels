@@ -19,6 +19,7 @@ const opts = {browserExecutable: process.env.REMOTION_BROWSER || null, chromiumO
 const composition = await selectComposition({serveUrl, id: 'Reel', ...opts});
 for (const f of frames.map(Number)) {
   const output = path.join(out, `f${String(f).padStart(4, '0')}.png`);
+  const t0 = Date.now();
   await renderStill({composition, serveUrl, output, frame: f, scale, imageFormat: 'png', ...opts});
-  console.log('frame', f, '->', output);
+  console.log('frame', f, '->', output, `${((Date.now() - t0) / 1000).toFixed(1)}s`);
 }

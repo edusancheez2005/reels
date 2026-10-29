@@ -106,7 +106,7 @@ export const LaptopDrive: React.FC<{glow?: number; sticker?: string; stick?: num
   const st = useStickerTexture(sticker ?? 'KEYS · DO NOT BIN');
   const mats = useMemo(
     () => ({
-      body: new THREE.MeshPhysicalMaterial({color: '#1a1c21', metalness: 0.5, roughness: 0.4, clearcoat: 0.25}),
+      body: new THREE.MeshStandardMaterial({color: '#1a1c21', metalness: 0.5, roughness: 0.4}),
       cover: new THREE.MeshPhysicalMaterial({color: '#c8cdd3', map: tx.brushed ?? undefined, metalness: 1, roughness: 0.3}),
       screw: new THREE.MeshPhysicalMaterial({color: '#dfe4ea', metalness: 1, roughness: 0.18}),
       label: new THREE.MeshStandardMaterial({map: tx.label ?? undefined, roughness: 0.92, color: '#c9c9c4'}),
@@ -223,7 +223,7 @@ export const Drives3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrame
   const cam = useCamera(props.cam, beats, durationInFrames, solo ? {beat: -1, pos: [0, 1.9, 4.8], look: [0, 0.25, 0], fov: 32} : {beat: -1, pos: [0, 6.0, 2.6], look: [0, 0, 0.15], fov: 34});
   const keyP = p('key', 22, Easing.out(Easing.back(1.4)));
   const keyMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#F2C45A', metalness: 1, roughness: 0.2, clearcoat: 0.8, emissive: new THREE.Color('#7a4a00'), emissiveIntensity: 0.6}), []);
-  const pedMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#0e1626', metalness: 0.3, roughness: 0.3, clearcoat: 0.3}), []);
+  const pedMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#0e1626', metalness: 0.3, roughness: 0.3}), []);
   const wood = useWood();
   const woodMat = useMemo(() => new THREE.MeshStandardMaterial({map: wood.dark ?? undefined, roughness: 0.62}), [wood]);
   const innerMat = useMemo(() => new THREE.MeshStandardMaterial({map: wood.light ?? undefined, roughness: 0.75}), [wood]);
@@ -298,7 +298,7 @@ export const Drives3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrame
     }),
     [],
   );
-  const penMats = useMemo(() => clutter.pens.map((q) => new THREE.MeshPhysicalMaterial({color: q.c, roughness: 0.3, clearcoat: 0.6})), [clutter]);
+  const penMats = useMemo(() => clutter.pens.map((q) => new THREE.MeshStandardMaterial({color: q.c, roughness: 0.3})), [clutter]);
   const noteMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#FFD84A', roughness: 0.85, side: THREE.DoubleSide}), []);
   const cableMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#141519', roughness: 0.5}), []);
   const clipMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#d8dde3', metalness: 1, roughness: 0.25}), []);

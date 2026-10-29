@@ -181,7 +181,7 @@ const Inst: React.FC<{geo: THREE.BufferGeometry; mat: THREE.Material; items: THR
 
 /** A lumpy bin bag: a displaced sphere, flat bottom, pinched tie on top. */
 const makeBagGeo = () => {
-  const g = new THREE.SphereGeometry(1, 20, 14);
+  const g = new THREE.SphereGeometry(1, 14, 10);
   const pos = g.attributes.position as THREE.BufferAttribute;
   const v = new THREE.Vector3();
   for (let i = 0; i < pos.count; i++) {
@@ -212,7 +212,7 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
 
   // ---- terrain ----
   const terrain = useMemo(() => {
-    const g = new THREE.PlaneGeometry(26, 26, 150, 150);
+    const g = new THREE.PlaneGeometry(26, 26, 96, 96);
     g.rotateX(-Math.PI / 2);
     const pos = g.attributes.position as THREE.BufferAttribute;
     const cols: number[] = [];
@@ -299,10 +299,10 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
   const bagGeo = useMemo(() => makeBagGeo(), []);
   const bagMats = useMemo(
     () => [
-      new THREE.MeshPhysicalMaterial({color: '#15171b', roughness: 0.3, clearcoat: 0.7, clearcoatRoughness: 0.3}),
-      new THREE.MeshPhysicalMaterial({color: '#223021', roughness: 0.36, clearcoat: 0.5}),
-      new THREE.MeshPhysicalMaterial({color: '#1c2c48', roughness: 0.36, clearcoat: 0.5}),
-      new THREE.MeshPhysicalMaterial({color: '#9aa1a9', roughness: 0.5, clearcoat: 0.3}),
+      new THREE.MeshStandardMaterial({color: '#15171b', roughness: 0.24}),
+      new THREE.MeshStandardMaterial({color: '#223021', roughness: 0.3}),
+      new THREE.MeshStandardMaterial({color: '#1c2c48', roughness: 0.3}),
+      new THREE.MeshStandardMaterial({color: '#9aa1a9', roughness: 0.42}),
     ],
     [],
   );
@@ -311,7 +311,7 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
   const tyreGeo = useMemo(() => new THREE.TorusGeometry(0.2, 0.085, 12, 28), []);
   const tyreMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#121315', roughness: 0.85}), []);
   const canGeo1 = useMemo(() => new THREE.CylinderGeometry(1, 1, 1, 16), []);
-  const canMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#a3acb6', metalness: 0.8, roughness: 0.35}), []);
+  const canMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#a3acb6', metalness: 0.8, roughness: 0.35}), []);
   const plankMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#6b4a2e', roughness: 0.88}), []);
   // falling rubbish reuses these
   const geos = [bagGeo, boxGeo1, canGeo1, boxGeo1];
@@ -329,7 +329,7 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
   const keyP = p('key', 22, Easing.out(Easing.back(1.4)));
 
   const spotY = mound(SPOT[0], SPOT[1]);
-  const hover = new THREE.Vector3(solo ? 0 : -0.6, solo ? 0.2 : 2.9, solo ? 0 : 1.6);
+  const hover = new THREE.Vector3(solo ? 0 : -0.45, solo ? 0.2 : 2.1, solo ? 0 : 1.8);
   const land = new THREE.Vector3(SPOT[0], spotY + 0.12, SPOT[1]);
   const dp = hover.clone().lerp(land, dropP);
   dp.y += Math.sin(dropP * Math.PI) * 0.6;
