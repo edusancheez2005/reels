@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 7.97
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 35.76,
+    "to": 41.12
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "$600M in a landfill: his 2 mistakes"
+  }
+]
