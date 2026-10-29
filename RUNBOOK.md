@@ -75,10 +75,17 @@ source .env.local              # REMOTION_BROWSER etc.
 - Build + QA: `build_timeline.py` must pass with no ERROR; for 3D reels run `python3 tools/qa_frames.py episodes/<id>`
   (one still per scene) instead of qa_stills' full draft; look at `qa/contact.png` and fix clipping,
   tiny text, empty scenes, marks off target, and visuals that don't match their words. Max 3 rounds.
+- **House standard (Edu, 29 Oct 2026):** make it like `episodes/2026-10-29-landfill-story` — a `Character3D` stand-in for
+  each real person ("3D stand-in" once on the name card), real documents/articles as `Shot` receipts, 3D scenes built for
+  this story, the hook's number on screen in the first second (a big tag on beat 1). See engine/SKILL.md "House standard".
 - Render: `npx remotion render Reel ../episodes/<id>/<id>.mp4 --codec h264 --crf 18 --x264-preset veryfast`.
-  3D renders in software (~60–80 min for 50 s on 2 cores): start it with nohup and keep the session busy (poll the log)
-  until it finishes; a background job is stopped soon after the turn ends.
-- `cover.jpg` (strongest frame) and `caption.txt`: 1–2 lines + the channel's sign-off + max 5 hashtags (Instagram's cap);
+  3D renders in software (~60–120 min for 55 s on 2 cores): start it with nohup and keep the session busy (poll the log;
+  wait on a file or log line, never `pgrep -f` for a pattern your own wait loop contains) until it finishes; a background
+  job is stopped soon after the turn ends. Fix a single scene afterwards with `bash tools/splice_scene.sh episodes/<id> A B`.
+- `cover.jpg`: designed, not a raw frame: `python3 tools/make_cover.py episodes/<id> --number '<the hook number>'
+  --kicker '<2-3 words>' --tagline '<2-3 words>' --pill '<3-5 words>' --image <a clean still of the strongest visual>`
+  (render the still with captions off: a copy of timeline.json with "captionStyle": "none" and that scene's tags removed,
+  `node stills.mjs` in reel-studio, then restore with build_timeline). Then `caption.txt`: 1–2 lines + the channel's sign-off + max 5 hashtags (Instagram's cap);
   a final "Sources:" block for the first comment. Then check it:
   `python3 tools/ig/check_caption.py episodes/<id>/caption.txt --fix`. FAIL lines must be fixed. WARN lines are judgement
   calls: rewrite stock phrases and structural tells it lists, keep crypto terms. Make the hook land inside the first ~125

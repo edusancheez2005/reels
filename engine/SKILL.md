@@ -19,6 +19,21 @@ subject → research.md (sourced, verified) → script.txt → voice + words.jso
         → timeline.json → QA contact sheet → reel.mp4 + caption.txt + cover.jpg
 ```
 
+## House standard (Edu, 29 Oct 2026: "so much better... even if it might take longer, do this type of content")
+
+The bar is `../episodes/2026-10-29-landfill-story/` (55 s). Every reel:
+- **45–60 s, a real story told properly**: who each person is, how it happened, what they tried, how it ended, and the
+  story's own lesson with the why (script-guide "Story reels: Edu's standard"; "What-if reels" for hypotheticals).
+- **A 3D character for each real person** (`Character3D`, a stylised stand-in, never a likeness; "3D stand-in" once on the
+  name card), **real documents and articles as on-screen receipts** (court records, news pages, explorers: `Shot`), and
+  **3D scenes built for this story** (props, rooms, objects), not a stock set reused in five scenes.
+- **The number on screen in the first second**, a **designed cover** (`python3 ../tools/make_cover.py`, one giant number
+  + a few words), no "Illustration" captions on obvious graphics, no timeline by default.
+- Budget the time: a full 3D render is 1–2 h on this machine. QA stills first (`../tools/qa_frames.py`, one bundle), and
+  fix one scene later with `../tools/splice_scene.sh` instead of re-rendering everything.
+In the daily autopilot (`../RUNBOOK.md`), fresh reviewer agents replace "wait for the user's OK" at the script and video
+steps, and posting follows the gate in `../channels/autopost.json` + `../tools/prepost_check.py`.
+
 Read before the first episode, and whenever a step is unclear:
 - `references/script-guide.md` — hooks, structure, writing for the ear
 - `references/visual-style.md` — the look: kinetic captions, light/dark rhythm, motion, transitions
@@ -49,8 +64,9 @@ Read before the first episode, and whenever a step is unclear:
 
 ## 2. Script → `episodes/<slug>/script.txt`
 
-Follow `references/script-guide.md`: 100–150 spoken words, a showable first sentence, numbers
-spelled out as spoken, every noun showable. **Show the user the script and wait for an OK.**
+Follow `references/script-guide.md`: 120–160 spoken words (45–60 s), a showable first sentence with the big number,
+numbers spelled out as spoken, every noun showable. **Show the user the script and wait for an OK** (daily autopilot: the
+fresh script reviewer in RUNBOOK §2a instead).
 
 ## 3. Voice + word timestamps
 
@@ -81,13 +97,15 @@ Follow `references/storyboard-spec.md`. The rules that make or break it:
   maps, particles, 3D) and numbers (big counters, bars, rulers). Plain text titles are max 1 in 5 scenes.
 - List 10–20 `emphasis` phrases: those caption words get the selection box.
 
-Show the user a short table (time · words · scene) and **wait for an OK before rendering**.
+Show the user a short table (time · words · scene) and **wait for an OK before rendering** (daily autopilot: your own
+QA stills against the house standard instead).
 
 ## 6. Build, QA, render
 
 ```
 python3 <skill>/scripts/build_timeline.py episodes/<slug> --studio reel-studio      # resolves anchors, validates pacing
 cd reel-studio && python3 <skill>/scripts/qa_stills.py ../episodes/<slug>/timeline.json --studio . --cols 6
+# 3D reels: python3 ../tools/qa_frames.py episodes/<slug>  (from the repo root; all stills from one bundle)
 ```
 Fix every ERROR. **Look at `qa/contact.png` yourself** (Read the image) and fix: anything clipped at
 the frame edge, text too small for a phone, empty scenes, marks off target, a scene that doesn't
@@ -96,8 +114,9 @@ match its words. Spot-check transitions with `npx remotion still Reel out.png --
 ```
 npx remotion render Reel ../episodes/<slug>/<slug>.mp4 --codec h264 --crf 18 --x264-preset veryfast
 ```
-Then `cover.jpg` (a still of the strongest frame) and `caption.txt` (1–2 lines, 3–5 hashtags,
-"Sources in comments" and the source list for the first comment). Verify with `ffprobe`:
+Then `cover.jpg` (designed: `python3 ../tools/make_cover.py episodes/<slug> --number ... --kicker ... --tagline ...`
+on a clean frame of the strongest visual) and `caption.txt` (1–3 lines, max 5 hashtags, the source list for the first
+comment). Verify with `ffprobe`:
 1080×1920, 30 fps, audio present.
 
 ## 7. Deliver & learn
@@ -107,15 +126,17 @@ with a one-line reason and applies to every future episode.
 
 ## Posting
 
-Rendering is local; posting is a separate, explicit step. Never post without the user approving
-that specific video and caption. If an Instagram publishing connector is available (e.g. Windsor.ai
-`create_video_post`, which needs a publicly reachable video URL), offer it, and confirm each post.
+Rendering is local; posting is a separate, explicit step. Outside the daily autopilot, never post without the user
+approving that specific video and caption. In the autopilot, Edu's standing instruction applies: post only when
+`channels/autopost.json` is on and `tools/prepost_check.py` passes (RUNBOOK §4a), after checking what's already live
+(never the same story twice: 29 Oct 2026, a third landfill reel in one day got 1/8 of the views).
 
 ## Never
 
 - Never render before the script and storyboard are approved.
 - Never hardcode a time in the storyboard. Anchor to words.
-- Never put a claim on screen that isn't in `research.md` with a source. Label illustrations as illustrations.
+- Never put a claim on screen that isn't in `research.md` with a source. Only a realistic recreation of a real person or
+  event needs a label; AI-generated images are labelled as AI; obvious 3D graphics get none (Edu, 29 Oct 2026).
 - Never fake a screenshot, a quote, or a post by a real person or organisation. Paraphrase with attribution instead (`Quote` scene).
 - Never draw a brand's logo or a known character by hand. Use the real logo file or nothing.
 - No music unless asked. Voice-only exports let the user add a trending sound in-app.
