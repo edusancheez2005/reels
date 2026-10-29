@@ -19,4 +19,4 @@ before using it. All reels 45–60 s (Edu, 29 Oct: the 33 s landfill reel was to
 Why this mix: the two reels that worked (mempool-bots, lost-bitcoin) opened on a big, concrete number with a stake for the
 viewer and lost only ~1 in 3 viewers in the first 3 seconds; the three that didn't lost ~1 in 2. Every slot above opens the
 same way. The security reels carry practical warnings, because shares are still near zero and people forward warnings.
-Moved to next week: FTX, the halving. The Sunday review checks each slot against its numbers and writes the next plan.
+Next up after this table (Edu, 29 Oct): what a meme coin is, then meme-coin snipers (two reels, back to back; backlog/crypto.md has the leads). Moved to next week: FTX, the halving. The Sunday review checks each slot against its numbers and writes the next plan.
