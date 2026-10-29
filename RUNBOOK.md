@@ -148,6 +148,11 @@ are not available to these sessions, so don't use them.
 ```bash
 python3 tools/prepost_check.py episodes/<id>   # PASS → writes caption_post.txt + sources_comment.txt (+ prints STORY_URL)
 ```
+0. **Check what's already live** (29 Oct 2026: three reels on the same landfill story went up in one day because two sessions
+   each made a remake; the third got ~1/8 of the views). Pull the last two days of media first:
+   `get_data(connector="instagram", accounts=["17841440268229419"], date_preset="last_2dT", fields=["media_id","timestamp","media_caption"])`.
+   If a reel on the same story or topic went up in the last 7 days, don't post: hand over with §4b and say which one is live.
+   Do the same before telling Edu anything is "not posted", and `git pull` first: another session may have posted it.
 1. Publish with the **Windsor.ai for Social Media** connector:
    `execute_action(connector="instagram", account="17841440268229419", action="create_video_post",
    params={video_url: VIDEO_URL, cover_url: COVER_URL, caption: <caption_post.txt>, share_to_feed: true})`.
