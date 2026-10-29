@@ -214,7 +214,7 @@ const NameCard: React.FC<{p: number; name: string; role?: string; note?: string;
       <div>
         <div style={{fontSize: 62, fontWeight: 800, color: '#ffffff', letterSpacing: 1.5, lineHeight: 1.05}}>{name}</div>
         {role ? <div style={{fontSize: 33, fontWeight: 600, color: 'rgba(255,255,255,0.78)', marginTop: 10}}>{role}</div> : null}
-        {note ? <div style={{fontSize: 21, fontWeight: 700, color: 'rgba(255,255,255,0.45)', marginTop: 12, letterSpacing: 2.5, textTransform: 'uppercase'}}>{note}</div> : null}
+        {note ? <div style={{fontSize: 27, fontWeight: 700, color: 'rgba(255,255,255,0.72)', marginTop: 12, letterSpacing: 2.5, textTransform: 'uppercase'}}>{note}</div> : null}
       </div>
     </div>
   </div>

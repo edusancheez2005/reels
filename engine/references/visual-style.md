@@ -101,3 +101,11 @@ background is itself a beat, so put it on a sentence start.
 Instagram covers the bottom of a reel with the caption/username and the right edge with the like/comment/share buttons.
 Keep every label, number and end tag inside **y < 1540** and **x < 940 for y > 1000** (canvas 1080×1920). Leave ≥ 40 px from
 the left/right frame edges for cards, and keep source lines ≥ 26 px and readable contrast.
+Wide centred tags overflow this: a 76 px tag of ~18 characters ran from x 111 to 966 (landfill remake, 29 Oct). Keep centred
+tags inside x 120–920 (size ≤ 66 for ~18 characters, ≤ 30 for a ~35-character line), or split them onto two lines.
+Disclosure text ("3D stand-in", "his figure") is never the smallest or faintest text on screen: ≥ 26 px, ≥ 70% white.
+
+## The payoff scene gets the best visuals (reviewer note, 29 Oct 2026)
+The scenes that carry the lesson must not be the most template-like. Show the fix in the same 3D world as the story (the
+drive gets a "BITCOIN KEY" label, the recovery words go onto two cards in two places), then let the checklist tags land.
+Give every key term a plain clause when it's spoken ("recovery words, the 12 or 24 backup words your wallet gives you").
