@@ -2,12 +2,24 @@
   "id": "2026-10-29-landfill-story",
   "channel": "crypto",
   "topic": "Remake: the man who threw away a hard drive with 8,000 bitcoin (3D character + court documents)",
-  "produced_at": "2026-10-29T16:45:38+00:00",
+  "produced_at": "2026-10-29T17:13:01+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-29-landfill-story.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-29-landfill-story-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-29-landfill-story-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-29-landfill-story-story_3.jpg"
-  ]
+  ],
+  "auto_posted": false,
+  "approved_by": "Edu in session ('post it', 29 Oct 2026 16:59 London)",
+  "posted_at": "2026-10-29T17:18:08Z",
+  "instagram_account": "@sonartracker.io",
+  "instagram_media_id": "18115378001162157",
+  "sources_comment_id": "18128564077928352",
+  "story_media_ids": [
+    "18112407827463926",
+    "17972233383178903",
+    "18120995056980066"
+  ],
+  "replaces": "2026-10-29-landfill-drive"
 }
