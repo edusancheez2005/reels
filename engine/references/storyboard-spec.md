@@ -74,7 +74,8 @@ Coordinates below are stage coordinates unless noted. All v2 components are them
 
 **Growth**: bars that grow per beat, plus a multiplier badge on the next beat. `items[{label, value, display}]`, `badge`.
 
-**Ruler**: a timeline ruler. The playhead glides to `marks[i]` on beat i, and the `span` bracket appears on the next beat.
+**Ruler**: a timeline ruler. Edu, 29 Oct 2026: "there's always some sort of timeline": don't use it by default. Show dates on the
+object itself (a stamp on the document, a tag on the 3D scene) and keep Ruler for reels where the span of years *is* the point. The playhead glides to `marks[i]` on beat i, and the `span` bracket appears on the next beat.
 `from`, `to` (decimal years), `marks[{at, label, sub}]`, `span{a, b, label}`.
 
 **Checklist**: a title/counter, then rows on beats, then all badges stamp on the following beat.

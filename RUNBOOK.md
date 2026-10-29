@@ -19,7 +19,7 @@ Repo: `edusancheez2005/reels` (public). Engine docs: `engine/SKILL.md` + `engine
    against a primary record when one exists (block explorer, filing, official page). If a fact can't be
    verified, cut it. Don't soften it.
 3. No fake screenshots, fake quotes, fake posts by real people or organisations, or hand-drawn logos
-   (use `engine/scripts/get_logos.mjs`). Illustrations are labelled as illustrations where it matters.
+   (use `engine/scripts/get_logos.mjs`). Label an illustration only where a viewer could mistake it for a real photo, document or footage (Edu, 29 Oct: no "Illustration" captions under generic 3D scenes).
 4. Never commit secrets. Never commit media (mp4, wav) to `main`; videos go to the `media` branch via `tools/publish_media.sh`.
 5. Keep the run lean: read only what you need, at most 3 QA rounds, one final render.
 
@@ -58,8 +58,9 @@ source .env.local              # REMOTION_BROWSER etc.
 - Before writing the script, read `insights/learnings.md` (what works on this account, from the weekly stats review) and the
   "Notes for next time" in the last 3 episodes' `review.md`, and apply them. Where they disagree, the account's numbers win.
 - If `insights/plan.md` has an entry for today, use its topic, type, angle and hook formula (still verify every fact).
-- Script 75–95 words (30–35 s, never over 40 s). Edu, 28 Oct 2026: people watch ~18–25 s on average, so make reels they
-  finish; cut a step before you speed anything up. Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
+- Script 140–175 words (45–60 s). Edu, 29 Oct 2026, on the 30-s landfill reel: "too short, barely has much information".
+  Tell the whole story (script-guide "Story reels"): who the person is, what happened step by step, what they tried, how it
+  ended, and a closing lesson that comes from the story and says why. Every sentence adds a fact; no filler. Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
 - Assets: logos via `get_logos.mjs`. Screenshots only if the computer bridge / a browser tool is available
   in this session (otherwise build from illustrations, maps, numbers and logos; don't stall).
 - Storyboard: 10–14 scenes, ≤ 1 plain text title per 5 scenes, 6–12 emphasis phrases. **Default to the realistic 3D

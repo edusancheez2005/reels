@@ -4,7 +4,7 @@ Built 28 Oct with Jake Schincariol's /ig-plan method (a mix of post types, never
 per slot) and our own numbers (`insights/learnings.md`). Edu, 28 Oct: landfill and wallet moved to Thu/Fri; add hacks and
 crypto security; add one on quantum computing and what the big blockchains are doing about it.
 The daily run uses today's row: it decides the channel and topic (overriding the rota). Hooks are leads: verify every number
-before using it. All reels 30–35 s. Each day also gets the 3-part story (hook clip, highlight clip, end card).
+before using it. All reels 45–60 s (Edu, 29 Oct: the 30-s format was too thin), telling the whole story (who, what happened, what they tried, the lesson and why). Each day also gets the 3-part story (hook clip, highlight clip, end card).
 
 | Day | Channel | Type | Topic and angle | Hook (formula # from tools/ig/hooks.json) | Story card teaser |
 |---|---|---|---|---|---|

@@ -9,7 +9,7 @@ The weekly review rewrites this file; keep it under 12 bullets.
   off: mempool-bots ("This morning, forty-six thousand bitcoin payments were sitting in a public waiting room. And bots can read
   every one.") 1,758 views, 32% skipped in the first 3 s; lost-bitcoin ("About three point seven million bitcoin are probably
   lost forever.") 1,563 views in 3 hours, 33% skipped. The three reels without it: 140–174 views, 48–62% skipped.
-- Make reels 30–35 s (Edu's call, 28 Oct). [Likely] People watch 18–25 s on average: mempool-bots 18 s of 49 s, lost-bitcoin
+- Make reels 45–60 s and tell the whole story (Edu, 29 Oct, after the 30-s landfill reel: "too short, barely has much information"; he didn't like it even though it got views). Earlier note, kept for the numbers: (28 Oct call was 30–35 s.) [Likely] People watch 18–25 s on average: mempool-bots 18 s of 49 s, lost-bitcoin
   25 s of 54 s, Bitcoin-origin 13 s of 74 s. Shorter means more people reach the payoff and replay it.
 - Stay on crypto. [Guessing] The off-topic battery reel was the weakest: 62% skipped in 3 s, 8 s average watch.
 
@@ -31,4 +31,4 @@ The weekly review rewrites this file; keep it under 12 bullets.
 - Posting time: reels went up between 11:24 and 16:30 London; nothing to compare yet.
 - Stories: first story posted 28 Oct 14:46 (hook + card). From 29 Oct: three parts (hook, highlight, card). Compare reel reach
   on story days with the days before.
-- 30–35 s reels: compare 3-second skip, average watch and % watched against the longer reels above.
+- The one 30-s reel (landfill, 29 Oct): Edu disliked it (too thin, timeline again, generic ending). Compare 3-second skip, average watch and % watched against the longer reels above.

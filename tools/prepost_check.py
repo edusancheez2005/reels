@@ -149,9 +149,9 @@ if sj.exists():
 else:
     warns.append("story: no story.json (tools/make_story.py); the reel can still post")
 
-# length (Edu, 28 Oct 2026: people watch ~18-25 s, so reels are 30-35 s)
-if mp4.exists() and dur > 42:
-    warns.append(f"reel is {dur:.0f}s; the target is 30-35 s (RUNBOOK §2)")
+# length (Edu, 29 Oct 2026: 30-s reels were too thin; back to 45-60 s)
+if mp4.exists() and (dur < 42 or dur > 62):
+    warns.append(f"reel is {dur:.0f}s; the target is 45-60 s (RUNBOOK §2)")
 
 for w in warns:
     print("WARN", w)

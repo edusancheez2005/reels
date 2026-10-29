@@ -3,15 +3,26 @@
 A faceless explainer reel lives or dies in the script. The visuals can only show what the
 words give them.
 
-## Shape (30–35 s, 75–95 words)
+## Shape (45–60 s, 140–175 words)
 
-Edu, 28 Oct 2026: our viewers watch ~18–25 s on average, so make reels they finish. Cut a step rather than talk faster.
+Edu, 29 Oct 2026 (after trying 30-s reels): "too short, it barely has much information". Back to 45–60 s. Fill the time with
+facts and story, never filler; cut a weak step rather than talk faster.
+
+## Story reels (Edu, 29 Oct 2026)
+When the reel is about a person or an event, the viewer must come away knowing:
+1. **Who** they are, in a few words (job, where, what they were doing), not just a name.
+2. **What happened, step by step**, in order, with the concrete details that make it real (the laptop, the spilled drink,
+   the drawer, the bin bag), so the loss makes sense.
+3. **What they tried** and how it ended (offers, court, outcome).
+4. **The lesson from this story**, and **why**: name the specific mistakes the person made (e.g. one copy of the key, no
+   backup, didn't check the drive before binning it) and turn each into one plain instruction. Say why it matters (no
+   reset, nobody can recover it). Never a generic "keep your keys safe" tacked on the end.
 
 | Part | Time | Job |
 |---|---|---|
 | Hook | 0–2 s | The most striking verifiable fact, with a number, shown on screen immediately. |
 | Tension | 2–6 s | Why it matters to the viewer / the wrong intuition. |
-| Mechanism | 6–25 s | 2 steps, 3 at most. Each step = one picture. |
+| Story / mechanism | 6–45 s | The steps in order, each one picture. For people: who, what happened, what they tried, how it ended. |
 | Payoff | last 5–8 s | The surprising consequence ("…and that's why a glove stops it"). |
 | Loop line | last 1–2 s | Optional. Ends in a way that leads back into the first line (replays count as views). |
 
