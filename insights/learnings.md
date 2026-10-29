@@ -5,6 +5,9 @@ Each line: what to do, how sure we are, and the evidence. Samples are tiny: [Gue
 calls on quality override the numbers. The weekly review rewrites this file; keep it under 12 bullets.
 
 ## Do
+- Make every reel to the landfill-story standard (episodes/2026-10-29-landfill-story): a 3D character for the real person,
+  real documents as receipts, story-specific 3D scenes, the specific lesson. [Certain: Edu, 29 Oct: "so much better... even
+  if it might take longer, do this type of content"]
 - Open on a big, concrete number with a stake for the viewer, in the first sentence. [Likely] Three reels did it and all three
   reached ~1,700 views with about a third skipping in the first 3 s: mempool-bots 1,767 / 32%, lost-bitcoin 1,733 / 34%,
   landfill-drive 1,739 / 32%. The reels without it: 140–174 views, 48–62% skipped.

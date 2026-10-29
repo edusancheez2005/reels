@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Pre-post gate for auto-posting. Usage: python3 tools/prepost_check.py episodes/<id>
+"""Pre-post gate for auto-posting. Usage: python3 tools/prepost_check.py episodes/<id> [--approved]
+
+--approved: Edu said "post it" for this episode in the session. Skips only the auto-post switch and the
+one-auto-post-per-day limit; every other check still runs and must pass.
 
 Prints PASS (exit 0) only if every mechanical check passes, and writes
   episodes/<id>/caption_post.txt     caption for Instagram (no Sources block), cleaned of invisible chars/dashes
@@ -15,6 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "ig"))
 from check_caption import check as caption_check, safe_clean  # noqa: E402  (caption linter + humanizer)
 
 root = Path(__file__).resolve().parent.parent
+approved = "--approved" in sys.argv[2:]
 ep = Path(sys.argv[1])
 ep = ep if ep.is_absolute() else (root / ep)
 ep = ep.resolve()
@@ -23,7 +27,7 @@ fails = []
 warns = []
 
 flag = json.loads((root / "channels" / "autopost.json").read_text())
-if not flag.get("enabled"):
+if not flag.get("enabled") and not approved:
     print(f"PAUSED: auto-posting is off ({flag.get('note', '')}). Hand over for approval instead.")
     sys.exit(3)
 
@@ -36,6 +40,8 @@ if not (ep / "qa" / "contact.png").exists():
 meta = json.loads((ep / "meta.json").read_text()) if (ep / "meta.json").exists() else {}
 if meta.get("posted"):
     fails.append("already posted")
+if meta.get("superseded_by"):
+    fails.append(f"superseded by {meta['superseded_by']}; don't post")
 
 # one auto-post per London day
 today = datetime.datetime.now(ZoneInfo("Europe/London")).date().isoformat()
@@ -43,7 +49,7 @@ for m in root.glob("episodes/*/meta.json"):
     if m.parent == ep:
         continue
     o = json.loads(m.read_text())
-    if o.get("auto_posted") and str(o.get("posted_at", "")).startswith(today):
+    if o.get("auto_posted") and str(o.get("posted_at", "")).startswith(today) and not approved:
         fails.append(f"already auto-posted today ({m.parent.name})")
 
 # video: 1080x1920 h264 + aac, sane length, matches the voice
