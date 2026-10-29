@@ -32,6 +32,8 @@ import {Coin3D} from '../three/Coin3D';
 import {Vault3D, Drive3D} from '../three/Vault3D';
 import {Landfill3D} from '../three/Landfill3D';
 import {Laptop3D, HardDrive3D} from '../three/Desk3D';
+import {Character3D} from '../three/Character3D';
+import {Drives3D} from '../three/Drives3D';
 
 // Register new components here. Storyboard "component" names map to these keys.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -69,6 +71,8 @@ export const SCENES: Record<string, React.FC<SceneProps<any>>> = {
   Swarm3D,
   Pool3D,
   Coin3D,
+  Character3D,
+  Drives3D,
   // v1 — cards (dark)
   Stat,
   Steps,

@@ -19,16 +19,29 @@ tl = json.loads((ep / "timeline.json").read_text())
 qa = ep / "qa"
 qa.mkdir(exist_ok=True)
 only = {int(x) for x in a.only.split(",")} if a.only else None
+picks = []
 for i, s in enumerate(tl["scenes"], 1):
     if only and i not in only:
         continue
     b = s.get("beats") or [0]
-    f = s["from"] + min(max(b) + 9, s["durationInFrames"] - 2)
-    out = qa / f"{i:02d}.png"
-    r = subprocess.run(["npx", "remotion", "still", "Reel", str(out), "--frame", str(f), "--scale", a.scale, "--log", "error"], cwd=studio)
+    picks.append((i, s["from"] + min(max(b) + 9, s["durationInFrames"] - 2)))
+if (studio / "stills.mjs").exists():
+    # one bundle for every still (much faster than one `remotion still` per scene)
+    tmp = qa / "_frames"
+    r = subprocess.run(["node", "stills.mjs", str(tmp), *[str(f) for _, f in picks], "--scale", a.scale], cwd=studio)
     if r.returncode:
-        sys.exit(f"scene {i} failed")
-    print(f"scene {i:02d} frame {f} -> {out.name}", flush=True)
+        sys.exit("stills failed")
+    for i, f in picks:
+        (tmp / f"f{f:04d}.png").replace(qa / f"{i:02d}.png")
+        print(f"scene {i:02d} frame {f} -> {i:02d}.png", flush=True)
+    tmp.rmdir() if not any(tmp.iterdir()) else None
+else:
+    for i, f in picks:
+        out = qa / f"{i:02d}.png"
+        r = subprocess.run(["npx", "remotion", "still", "Reel", str(out), "--frame", str(f), "--scale", a.scale, "--log", "error"], cwd=studio)
+        if r.returncode:
+            sys.exit(f"scene {i} failed")
+        print(f"scene {i:02d} frame {f} -> {out.name}", flush=True)
 pngs = sorted(qa.glob("[0-9][0-9].png"))
 ims = [Image.open(p).convert("RGB").resize((270, 480)) for p in pngs]
 cols = a.cols

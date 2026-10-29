@@ -10,3 +10,4 @@ episodes/*/timeline.json
 __pycache__/
 episodes/*/review/
 episodes/*/story_card.png
+episodes/*/qa*/

@@ -4,10 +4,11 @@ import {RoundedBoxGeometry} from 'three-stdlib';
 import {Easing, interpolate} from 'remotion';
 import type {SceneProps} from '../lib/anim';
 import {Caption, Studio, Tags, useCamera, useClock, glowMat, rand, type Cam, type Tag} from './kit';
+import {LaptopDrive} from './Drives3D';
 
 /**
- * Landfill3D — a landfill mound (layered soil + rubbish: bags, crates, cans, paper) and a generic, unbranded
- * 3.5-inch hard drive. For "lost in the rubbish / buried / can't get it back" beats.
+ * Landfill3D — a landfill mound (soil + a carpet of lumpy bin bags, boxes, tyres, cans, planks) and a generic, unbranded
+ * 2.5-inch laptop hard drive (LaptopDrive). For "lost in the rubbish / buried / can't get it back" beats.
  *
  * actions (one per beat):
  *   drive      the hard drive floats in, turning, with a soft glow
@@ -164,6 +165,42 @@ export const Key: React.FC<{mat: THREE.Material}> = ({mat}) => (
   </group>
 );
 
+/** One draw call for many copies of a mesh. */
+const Inst: React.FC<{geo: THREE.BufferGeometry; mat: THREE.Material; items: THREE.Matrix4[]}> = ({geo, mat, items}) => {
+  const ref = React.useCallback(
+    (m: THREE.InstancedMesh | null) => {
+      if (!m) return;
+      items.forEach((mx, i) => m.setMatrixAt(i, mx));
+      m.instanceMatrix.needsUpdate = true;
+      m.computeBoundingSphere();
+    },
+    [items],
+  );
+  return items.length ? <instancedMesh ref={ref} args={[geo, mat, items.length]} frustumCulled={false} /> : null;
+};
+
+/** A lumpy bin bag: a displaced sphere, flat bottom, pinched tie on top. */
+const makeBagGeo = () => {
+  const g = new THREE.SphereGeometry(1, 20, 14);
+  const pos = g.attributes.position as THREE.BufferAttribute;
+  const v = new THREE.Vector3();
+  for (let i = 0; i < pos.count; i++) {
+    v.fromBufferAttribute(pos, i);
+    const n = 0.13 * Math.sin(v.x * 4.7 + v.y * 2.9) + 0.09 * Math.sin(v.z * 6.3 - v.x * 2.3) + 0.05 * Math.sin((v.x + v.y + v.z) * 10.1);
+    v.multiplyScalar(1 + n);
+    if (v.y < 0) v.y *= 0.55;
+    if (v.y > 0.72) {
+      const k = 0.35 + (1 - (v.y - 0.72) / 0.5) * 0.4;
+      v.x *= k;
+      v.z *= k;
+      v.y += 0.12;
+    }
+    pos.setXYZ(i, v.x, v.y, v.z);
+  }
+  g.computeVertexNormals();
+  return g;
+};
+
 // rubbish palette: black/green/blue bags, cardboard, paper, cans, plastic
 const JUNK = ['#1c1f24', '#2c3a2a', '#24324a', '#8a6a44', '#a07c50', '#d9d4c7', '#9aa3ad', '#6b2c2c', '#3e5f7a', '#c9b37a'];
 
@@ -198,30 +235,86 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
   }, []);
   const groundMat = useMemo(() => new THREE.MeshStandardMaterial({vertexColors: true, roughness: 1, metalness: 0, flatShading: true}), []);
 
-  // static rubbish on the mound
-  const junk = useMemo(() => {
-    const out: {x: number; y: number; z: number; s: [number, number, number]; r: [number, number, number]; kind: number; col: string}[] = [];
-    for (let i = 0; i < 420; i++) {
-      const a = rand(i) * Math.PI * 2;
-      const rr = Math.sqrt(rand(i + 300)) * 4.6;
+  // the rubbish carpet (instanced): bags in four colours, boxes, tyres, cans, planks
+  const carpet = useMemo(() => {
+    const bags: THREE.Matrix4[][] = [[], [], [], []];
+    const boxes: THREE.Matrix4[] = [];
+    const tyres: THREE.Matrix4[] = [];
+    const cans: THREE.Matrix4[] = [];
+    const planks: THREE.Matrix4[] = [];
+    const q = new THREE.Quaternion();
+    const e = new THREE.Euler();
+    const put = (arr: THREE.Matrix4[], x: number, z: number, sc: [number, number, number], r: [number, number, number], lift: number) => {
+      e.set(r[0], r[1], r[2]);
+      q.setFromEuler(e);
+      arr.push(new THREE.Matrix4().compose(new THREE.Vector3(x, mound(x, z) + lift, z), q.clone(), new THREE.Vector3(...sc)));
+    };
+    const spotFree = (x: number, z: number) => Math.hypot(x - SPOT[0], z - SPOT[1]) > 0.42;
+    for (let i = 0; i < 340; i++) {
+      const a = rand(i * 1.7 + 0.3) * Math.PI * 2;
+      const rr = Math.pow(rand(i + 500), 0.75) * 5.2;
       const x = Math.cos(a) * rr;
       const z = Math.sin(a) * rr * 0.85;
-      const kind = Math.floor(rand(i + 7) * 5); // 0 bag, 1 box, 2 can, 3 paper, 4 tyre
-      const sc = 0.05 + rand(i + 11) * 0.1;
-      const s: [number, number, number] = kind === 0 ? [sc * 1.3, sc * 0.8, sc] : kind === 1 ? [sc * 1.4, sc * 0.7, sc] : kind === 2 ? [sc * 0.35, sc * 0.9, sc * 0.35] : kind === 4 ? [sc * 0.9, sc * 0.9, sc * 0.9] : [sc * 1.5, 0.01, sc * 1.1];
-      out.push({x, y: mound(x, z) + s[1] * 0.3, z, s, r: [rand(i + 1) * 3, rand(i + 2) * 6, rand(i + 3) * 3], kind, col: kind === 4 ? JUNK[0] : kind === 0 ? JUNK[Math.floor(rand(i + 5) * 3)] : JUNK[3 + Math.floor(rand(i + 5) * (JUNK.length - 3))]});
+      if (!spotFree(x, z)) continue;
+      const sz = 0.16 + rand(i + 33) * 0.17;
+      const k = rand(i + 77);
+      const col = k < 0.5 ? 0 : k < 0.72 ? 1 : k < 0.88 ? 2 : 3;
+      put(bags[col], x, z, [sz, sz * (0.62 + rand(i + 9) * 0.22), sz * (0.85 + rand(i + 4) * 0.3)], [(rand(i + 1) - 0.5) * 0.7, rand(i + 2) * 6.28, (rand(i + 3) - 0.5) * 0.7], sz * 0.3);
     }
-    return out;
+    for (let i = 0; i < 46; i++) {
+      const a = rand(i * 3.1 + 7) * Math.PI * 2;
+      const rr = Math.pow(rand(i + 900), 0.8) * 4.8;
+      const x = Math.cos(a) * rr;
+      const z = Math.sin(a) * rr * 0.85;
+      if (!spotFree(x, z)) continue;
+      const sz = 0.16 + rand(i + 21) * 0.16;
+      put(boxes, x, z, [sz * 1.3, sz * 0.75, sz], [(rand(i + 5) - 0.5) * 0.8, rand(i + 6) * 6.28, (rand(i + 8) - 0.5) * 0.8], sz * 0.3);
+    }
+    for (let i = 0; i < 12; i++) {
+      const a = rand(i * 5.3 + 2) * Math.PI * 2;
+      const rr = 1.2 + rand(i + 300) * 3.4;
+      const x = Math.cos(a) * rr;
+      const z = Math.sin(a) * rr * 0.85;
+      if (!spotFree(x, z)) continue;
+      put(tyres, x, z, [1, 1, 1], [Math.PI / 2 + (rand(i + 1) - 0.5) * 0.8, rand(i + 2) * 6.28, (rand(i + 3) - 0.5) * 0.6], 0.05);
+    }
+    for (let i = 0; i < 30; i++) {
+      const a = rand(i * 2.3 + 11) * Math.PI * 2;
+      const rr = Math.pow(rand(i + 700), 0.8) * 4.6;
+      const x = Math.cos(a) * rr;
+      const z = Math.sin(a) * rr * 0.85;
+      if (!spotFree(x, z)) continue;
+      put(cans, x, z, [0.05, 0.13, 0.05], [Math.PI / 2, rand(i + 2) * 6.28, 0], 0.05);
+    }
+    for (let i = 0; i < 18; i++) {
+      const a = rand(i * 4.1 + 19) * Math.PI * 2;
+      const rr = Math.pow(rand(i + 800), 0.8) * 4.4;
+      const x = Math.cos(a) * rr;
+      const z = Math.sin(a) * rr * 0.85;
+      if (!spotFree(x, z)) continue;
+      put(planks, x, z, [0.9 + rand(i) * 0.6, 0.04, 0.12], [(rand(i + 1) - 0.5) * 0.3, rand(i + 2) * 6.28, (rand(i + 3) - 0.5) * 0.3], 0.08);
+    }
+    return {bags, boxes, tyres, cans, planks};
   }, []);
-  const junkMats = useMemo(() => JUNK.map((c, i) => new THREE.MeshStandardMaterial({color: c, roughness: i < 3 ? 0.35 : 0.85, metalness: i === 6 ? 0.8 : 0})), []);
-  const bagGeo = useMemo(() => new THREE.SphereGeometry(1, 12, 9), []);
-  const boxGeo = useMemo(() => new THREE.BoxGeometry(1, 1, 1), []);
-  const canGeo = useMemo(() => new THREE.CylinderGeometry(1, 1, 1, 14), []);
-  const paperGeo = useMemo(() => new THREE.BoxGeometry(1, 1, 1), []);
-  const tyreGeo = useMemo(() => new THREE.TorusGeometry(0.8, 0.32, 10, 24), []);
-  const geos = [bagGeo, boxGeo, canGeo, paperGeo, tyreGeo];
-  const knotGeo = useMemo(() => new THREE.ConeGeometry(0.35, 0.7, 8), []);
-  const tapeMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#c8b48a', roughness: 0.5}), []);
+  const bagGeo = useMemo(() => makeBagGeo(), []);
+  const bagMats = useMemo(
+    () => [
+      new THREE.MeshPhysicalMaterial({color: '#15171b', roughness: 0.3, clearcoat: 0.7, clearcoatRoughness: 0.3}),
+      new THREE.MeshPhysicalMaterial({color: '#223021', roughness: 0.36, clearcoat: 0.5}),
+      new THREE.MeshPhysicalMaterial({color: '#1c2c48', roughness: 0.36, clearcoat: 0.5}),
+      new THREE.MeshPhysicalMaterial({color: '#9aa1a9', roughness: 0.5, clearcoat: 0.3}),
+    ],
+    [],
+  );
+  const boxGeo1 = useMemo(() => new RoundedBoxGeometry(1, 1, 1, 2, 0.06), []);
+  const boxMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#8a6a44', roughness: 0.92}), []);
+  const tyreGeo = useMemo(() => new THREE.TorusGeometry(0.2, 0.085, 12, 28), []);
+  const tyreMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#121315', roughness: 0.85}), []);
+  const canGeo1 = useMemo(() => new THREE.CylinderGeometry(1, 1, 1, 16), []);
+  const canMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#a3acb6', metalness: 0.8, roughness: 0.35}), []);
+  const plankMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#6b4a2e', roughness: 0.88}), []);
+  // falling rubbish reuses these
+  const geos = [bagGeo, boxGeo1, canGeo1, boxGeo1];
 
   // ---- timeline ----
   const driveIn = has('drive') ? p('drive', 20, Easing.out(Easing.back(1.3))) : props.buried || has('drop') || has('bury') ? 1 : solo ? 1 : 0;
@@ -257,7 +350,7 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
     const z = SPOT[1] + Math.sin(a) * r;
     const yRest = mound(x, z) + 0.05 + (i / fallers) * 0.35;
     const y = t < 0 ? 99 : Math.max(yRest, yRest + 4 - 0.012 * t * t * 1.6);
-    return {x, y, z, kind: i % 4, col: i % JUNK.length, s: 0.06 + rand(i + 990) * 0.08, r: rand(i + 970) * 6 + (y > yRest ? t * 0.1 : 0)};
+    return {x, y, z, kind: i % 3 === 0 ? 1 : 0, col: i % 4, s: 0.1 + rand(i + 990) * 0.09, r: rand(i + 970) * 6 + (y > yRest ? t * 0.1 : 0)};
   });
 
   // pulse ring
@@ -336,16 +429,16 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
       {!solo ? (
         <>
           <mesh geometry={terrain} material={groundMat} />
-          {junk.map((j, i) => (
-            <group key={i} position={[j.x, j.y, j.z]} rotation={j.r} scale={j.s}>
-              <mesh geometry={geos[j.kind]} material={junkMats[JUNK.indexOf(j.col)]} />
-              {j.kind === 0 ? <mesh geometry={knotGeo} material={junkMats[JUNK.indexOf(j.col)]} position={[0, 1.05, 0]} /> : null}
-              {j.kind === 1 ? <mesh material={tapeMat} position={[0, 0.505, 0]} scale={[1.01, 0.02, 0.18]} geometry={boxGeo} /> : null}
-            </group>
+          {carpet.bags.map((items, i) => (
+            <Inst key={`b${i}`} geo={bagGeo} mat={bagMats[i]} items={items} />
           ))}
+          <Inst geo={boxGeo1} mat={boxMat} items={carpet.boxes} />
+          <Inst geo={tyreGeo} mat={tyreMat} items={carpet.tyres} />
+          <Inst geo={canGeo1} mat={canMat} items={carpet.cans} />
+          <Inst geo={boxGeo1} mat={plankMat} items={carpet.planks} />
           {fall.map((f, i) =>
             f.y < 50 ? (
-              <mesh key={`f${i}`} geometry={geos[f.kind]} material={junkMats[f.col]} position={[f.x, f.y, f.z]} rotation={[f.r, f.r * 0.7, f.r * 0.3]} scale={f.kind === 2 ? [f.s * 0.35, f.s * 0.9, f.s * 0.35] : f.kind === 3 ? [f.s * 1.5, 0.01, f.s] : [f.s * 1.3, f.s * 0.8, f.s]} />
+              <mesh key={`f${i}`} geometry={geos[f.kind]} material={f.kind === 0 ? bagMats[f.col] : boxMat} position={[f.x, f.y, f.z]} rotation={[f.r, f.r * 0.7, f.r * 0.3]} scale={f.kind === 1 ? [f.s * 1.3, f.s * 0.75, f.s] : [f.s * 1.2, f.s * 0.8, f.s]} />
             ) : null,
           )}
           {/* locator */}
@@ -419,8 +512,8 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
         </mesh>
       )}
       {driveVisible ? (
-        <group position={[dp.x, dp.y - sink, dp.z]} rotation={driveRot} scale={(solo ? 1.6 : 0.62) * Math.min(1, driveIn)}>
-          <HardDrive glow={glow} />
+        <group position={[dp.x, dp.y - sink, dp.z]} rotation={driveRot} scale={(solo ? 2.3 : 0.9) * Math.min(1, driveIn)}>
+          <LaptopDrive glow={glow} />
         </group>
       ) : null}
       {solo && keyP > 0 ? (

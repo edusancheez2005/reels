@@ -217,3 +217,50 @@ export const rand = (s: number) => {
 
 export const ease = Easing.inOut(Easing.cubic);
 export const clamp01 = (x: number) => Math.max(0, Math.min(1, x));
+
+/** Canvas pixel position (1080 × CANVAS.h) of a world point, for the camera returned by useCamera. */
+export const projectTo = (cam: {pos: THREE.Vector3; look: THREE.Vector3; fov: number}, v: [number, number, number]): [number, number] => {
+  const c = new THREE.PerspectiveCamera(cam.fov, CANVAS.w / CANVAS.h, 0.01, 200);
+  c.position.copy(cam.pos);
+  c.lookAt(cam.look);
+  c.setViewOffset(CANVAS.w, CANVAS.h, 0, -CANVAS.shift, CANVAS.w, CANVAS.h);
+  c.updateProjectionMatrix();
+  c.updateMatrixWorld();
+  const p = new THREE.Vector3(...v).project(c);
+  return [((p.x + 1) / 2) * CANVAS.w, ((1 - p.y) / 2) * CANVAS.h];
+};
+
+/** A texture drawn on a 2D canvas (null during SSR). */
+export const canvasTex = (w: number, h: number, draw: (g: CanvasRenderingContext2D) => void, srgb = true) => {
+  if (typeof document === 'undefined') return null;
+  const c = document.createElement('canvas');
+  c.width = w;
+  c.height = h;
+  draw(c.getContext('2d')!);
+  const t = new THREE.CanvasTexture(c);
+  if (srgb) t.colorSpace = THREE.SRGBColorSpace;
+  t.anisotropy = 8;
+  return t;
+};
+
+/** Soft blob shadow under a prop or character (a radial gradient on the floor). */
+export const BlobShadow: React.FC<{w: number; d: number; y?: number; opacity?: number; position?: [number, number, number]}> = ({w, d, opacity = 0.55, position = [0, 0, 0]}) => {
+  const t = useMemo(
+    () =>
+      canvasTex(128, 128, (g) => {
+        const grd = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+        grd.addColorStop(0, 'rgba(0,0,0,1)');
+        grd.addColorStop(0.55, 'rgba(0,0,0,0.45)');
+        grd.addColorStop(1, 'rgba(0,0,0,0)');
+        g.fillStyle = grd;
+        g.fillRect(0, 0, 128, 128);
+      }, false),
+    [],
+  );
+  return (
+    <mesh position={position} rotation={[-Math.PI / 2, 0, 0]}>
+      <planeGeometry args={[w, d]} />
+      <meshBasicMaterial map={t ?? undefined} transparent opacity={opacity} depthWrite={false} color="#000000" />
+    </mesh>
+  );
+};

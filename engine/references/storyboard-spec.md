@@ -182,6 +182,23 @@ self-custody / lost-coins beats. Actions: `build`, `key` (key floats in), `turn`
 **Coin3D** also has `lost` (frost sweeps over `lost` coins' worth of stacks, counter switches to the lost amount, `lostText`)
 and `filled: true` (stacks start full, no `stack` beat). Keep `sub` matched to the number it sits under.
 
+**Character3D**: a stylised "designer toy" person (big round head, hoodie, mitten hands) as the stand-in for a real person in
+a story (Edu, 29 Oct 2026: "the guy's a character"). Never a likeness; put "3D stand-in" in the name card's `note` once.
+Arms are two-bone IK, so poses are hand targets. Actions: `enter` (walks in from the left, turns to camera), `wave`, `card`
+(name card from `card: {name, role, note, y}`, keep y ≤ 1350), `type` (at the laptop; with `desk: true`), `coins` (coins pop
+from the laptop onto a pile; `count` = the beat the pile and `counter: {to, suffix, x, y, size}` finish), `hold` (a drive in
+both hands), `two` (a drive in each hand), `facepalm`, `shrug`, `look` (+ `look: "left"|"right"|"down"`), `idle`, `label:<n>`,
+`cam`. Props: `pose` (start pose), `x`, `turn`, `colours: {top, legs, skin, hair}`. Portrait framing: standing full figure
+cam ≈ `{pos: [0, 0.85, 8.8], look: [0, 0.15, 0], fov: 30}`; at the desk ≈ `{pos: [2.7, 1.15, 10], look: [0.45, -0.1, 0.6]}`.
+**Drives3D**: two generic 2.5-inch laptop hard drives in an open wooden desk drawer with clutter. Actions: `drawer` (slides
+out), `glow` (drive A amber), `pick` (drive A flies out), `swap` (shell game ×3), `stick` (hand-written sticker on A: `sticker`),
+`key` (gold key rises from A), `label:<n>`, `cam`. A tag with `at: "a"|"b"` points at that drive (`dy` = height above it,
+~290). `solo: true` = one drive on a dark pedestal (cam ≈ `{pos: [0, 1.75, 4.9], look: [0, -0.15, 0], fov: 32}`).
+Drawer cam ≈ `{pos: [0, 6.6, 3.0], look: [0, 0, 0.1], fov: 34}` (top-down: the drawer is wider than portrait allows).
+**Landfill3D** (rebuilt 29 Oct): a mound covered in instanced lumpy bin bags, boxes, tyres, cans and planks, with the 2.5-inch
+LaptopDrive. Actions as before (`drive`, `drop`, `bury`, `ping`, `scan`, `fence`, `deny`, `own`, `key`).
+Faster QA: `node stills.mjs <outDir> <frame> <frame> ...` in reel-studio renders many stills from one bundle (qa_frames uses it).
+
 **Title**: big kinetic text, one line per beat. Use sparingly. `lines`, `accent`, `size`.
 
 ### v1 (dark-only cards, still available)
