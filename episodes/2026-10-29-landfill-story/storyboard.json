@@ -31,16 +31,24 @@
     "actions": [
      "drive",
      "label:0",
+     "label:1",
      "drop",
      "bury"
     ],
     "tags": [
      {
-      "text": "2013 · Newport, Wales",
-      "x": 520,
-      "y": 1330,
+      "text": "≈ $600M of bitcoin",
+      "x": 540,
+      "y": 1290,
       "tone": "warm",
-      "size": 50
+      "size": 76
+     },
+     {
+      "text": "2013 · Newport, Wales",
+      "x": 540,
+      "y": 1372,
+      "tone": "muted",
+      "size": 40
      }
     ],
     "cam": [
@@ -76,7 +84,8 @@
    },
    "beats": [
     "In",
-    "thirteen,",
+    "twenty",
+    "Wales",
     "threw",
     "drive."
    ]
