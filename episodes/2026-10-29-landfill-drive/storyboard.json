@@ -1,0 +1,599 @@
+{
+ "slug": "landfill-drive",
+ "theme": "dark",
+ "tail": 1.1,
+ "emphasis": [
+  "twenty thirteen,",
+  "threw away",
+  "six hundred million dollars",
+  "eight thousand bitcoin,",
+  "secret code",
+  "landfill",
+  "a quarter",
+  "said no.",
+  "the council's",
+  "nobody can move",
+  "recovery words:"
+ ],
+ "scenes": [
+  {
+   "anchor": "In",
+   "component": "Landfill3D",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "actions": [
+     "drive",
+     "label:0",
+     "drop",
+     "bury"
+    ],
+    "tags": [
+     {
+      "text": "2013 · Wales",
+      "x": 520,
+      "y": 1330,
+      "tone": "warm",
+      "size": 50
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -1.2,
+       3.6,
+       9.2
+      ],
+      "look": [
+       0,
+       0.6,
+       0.6
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 2,
+      "pos": [
+       1.6,
+       2.6,
+       6.4
+      ],
+      "look": [
+       0.8,
+       0.4,
+       0.9
+      ],
+      "dur": 40
+     }
+    ],
+    "caption": "Illustration"
+   },
+   "beats": [
+    "In",
+    "thirteen,",
+    "threw",
+    "drive."
+   ]
+  },
+  {
+   "anchor": "The bitcoin",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "value": 600000000,
+    "prefix": "over $",
+    "logo": "bitcoin.svg",
+    "chip": "8,000 BTC × ≈$80,000 · CoinGecko, 29 Oct 2026",
+    "label": "worth today",
+    "tone": "accent"
+   },
+   "beats": [
+    "bitcoin",
+    "million",
+    "today."
+   ]
+  },
+  {
+   "anchor": "James",
+   "component": "Landfill3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "solo": true,
+    "actions": [
+     "label:0",
+     "key",
+     "label:1",
+     "label:2"
+    ],
+    "tags": [
+     {
+      "text": "James Howells",
+      "x": 520,
+      "y": 1300,
+      "tone": "muted",
+      "size": 38
+     },
+     {
+      "text": "Key to 8,000 BTC",
+      "x": 520,
+      "y": 1372,
+      "tone": "warm",
+      "size": 56
+     },
+     {
+      "text": "his figure",
+      "x": 520,
+      "y": 1436,
+      "tone": "muted",
+      "size": 32
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       1.6,
+       9.6
+      ],
+      "look": [
+       0,
+       -0.9,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.2,
+       1.5,
+       8.9
+      ],
+      "look": [
+       -0.1,
+       -0.75,
+       0
+      ],
+      "dur": 40
+     }
+    ],
+    "caption": "Illustration: a generic hard drive"
+   },
+   "beats": [
+    "James",
+    "key",
+    "eight",
+    "bitcoin,"
+   ]
+  },
+  {
+   "anchor": "the secret",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "actions": [
+     "key",
+     "label:0",
+     "turn",
+     "move"
+    ],
+    "tags": [
+     {
+      "text": "Private key",
+      "x": 520,
+      "y": 1340,
+      "tone": "warm",
+      "size": 46
+     },
+     {
+      "text": "the code that moves the coins",
+      "x": 520,
+      "y": 1404,
+      "tone": "muted",
+      "size": 30
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.2,
+       0.6,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 32
+     }
+    ],
+    "caption": "Illustration"
+   },
+   "beats": [
+    "the secret",
+    "code",
+    "moves",
+    "them."
+   ]
+  },
+  {
+   "anchor": "It went",
+   "component": "RouteMap",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "bbox": [
+     -11,
+     49,
+     3,
+     59
+    ],
+    "pins": [
+     {
+      "name": "Newport, Wales",
+      "lon": -2.998,
+      "lat": 51.588,
+      "beat": 1,
+      "side": "right"
+     }
+    ],
+    "cam": [
+     {
+      "beat": 0,
+      "lon": -3.5,
+      "lat": 53.5,
+      "zoom": 1.0
+     },
+     {
+      "beat": 1,
+      "lon": -3.0,
+      "lat": 51.8,
+      "zoom": 2.2
+     }
+    ]
+   },
+   "beats": [
+    "went",
+    "Newport."
+   ]
+  },
+  {
+   "anchor": "He offered",
+   "component": "Landfill3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "buried": true,
+    "actions": [
+     "scan",
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "Offer: 25%",
+      "x": 520,
+      "y": 1320,
+      "tone": "warm",
+      "size": 56
+     },
+     {
+      "text": "to the council, to dig · 2021",
+      "x": 520,
+      "y": 1390,
+      "tone": "muted",
+      "size": 30
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       4.2,
+       10.2
+      ],
+      "look": [
+       0,
+       0.3,
+       0
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.9,
+       3.4,
+       8.6
+      ],
+      "look": [
+       0.4,
+       0.4,
+       0.4
+      ],
+      "dur": 40
+     }
+    ],
+    "caption": "Illustration"
+   },
+   "beats": [
+    "offered",
+    "quarter",
+    "dig."
+   ]
+  },
+  {
+   "anchor": "They said",
+   "component": "Landfill3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "buried": true,
+    "actions": [
+     "fence",
+     "deny",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Council: no",
+      "x": 520,
+      "y": 1250,
+      "tone": "alert",
+      "size": 60
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       3.4,
+       12.0
+      ],
+      "look": [
+       0.6,
+       0.6,
+       2.0
+      ],
+      "fov": 34
+     }
+    ],
+    "caption": "Illustration"
+   },
+   "beats": [
+    "They",
+    "no.",
+    "no."
+   ]
+  },
+  {
+   "anchor": "In twenty",
+   "component": "Ruler",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "from": 2011,
+    "to": 2027,
+    "marks": [
+     {
+      "at": 2013.5,
+      "label": "2013",
+      "sub": "drive thrown out"
+     },
+     {
+      "at": 2025.03,
+      "label": "Jan 2025",
+      "sub": "High Court"
+     }
+    ],
+    "span": {
+     "a": 0,
+     "b": 1,
+     "label": "12 years"
+    }
+   },
+   "beats": [
+    "In",
+    "twenty-five,",
+    "judge"
+   ]
+  },
+  {
+   "anchor": "ruled",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "rise",
+   "props": {
+    "source": "High Court · Howells v Newport City Council [2025] EWHC 22 (Ch)",
+    "text": "Once it was dumped, the hard drive became the council's property.",
+    "stamp": "9 Jan 2025",
+    "note": "Paraphrased"
+   },
+   "beats": [
+    "ruled",
+    "council's",
+    "dumped."
+   ]
+  },
+  {
+   "anchor": "Without",
+   "component": "Landfill3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "buried": true,
+    "fenced": true,
+    "actions": [
+     "ping",
+     "label:0",
+     "own",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "Key: buried",
+      "x": 520,
+      "y": 1320,
+      "tone": "warm",
+      "size": 52
+     },
+     {
+      "text": "Coins: stuck",
+      "x": 520,
+      "y": 1392,
+      "tone": "accent",
+      "size": 52
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.4,
+       3.0,
+       7.6
+      ],
+      "look": [
+       0.9,
+       0.6,
+       0.9
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.6,
+       5.2,
+       11.0
+      ],
+      "look": [
+       0.3,
+       0.4,
+       0.3
+      ],
+      "dur": 50
+     }
+    ],
+    "caption": "Illustration"
+   },
+   "beats": [
+    "Without",
+    "key,",
+    "nobody",
+    "coins."
+   ]
+  },
+  {
+   "anchor": "Write",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "Don't lose your key",
+    "rows": [
+     {
+      "left": "Write down your recovery words",
+      "badge": "ON PAPER",
+      "tone": "accent"
+     },
+     {
+      "left": "Keep them private: anyone with them can take your coins",
+      "badge": "PRIVATE",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "Write",
+    "recovery",
+    "words:"
+   ]
+  },
+  {
+   "anchor": "the spare",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "actions": [
+     "build",
+     "key",
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "Recovery words",
+      "x": 520,
+      "y": 1330,
+      "tone": "warm",
+      "size": 50
+     },
+     {
+      "text": "= a spare copy of your key",
+      "x": 520,
+      "y": 1396,
+      "tone": "muted",
+      "size": 32
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.2,
+       0.6,
+       9.0
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.4,
+       0.5,
+       8.0
+      ],
+      "look": [
+       0.15,
+       -0.45,
+       0.1
+      ],
+      "dur": 40
+     }
+    ],
+    "caption": "Illustration"
+   },
+   "beats": [
+    "spare",
+    "copy",
+    "your",
+    "key."
+   ]
+  }
+ ]
+}

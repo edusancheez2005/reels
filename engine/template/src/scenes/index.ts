@@ -30,6 +30,7 @@ import {Hair3D, Swarm3D} from '../three/More3D';
 import {Pool3D} from '../three/Pool3D';
 import {Coin3D} from '../three/Coin3D';
 import {Vault3D, Drive3D} from '../three/Vault3D';
+import {Landfill3D} from '../three/Landfill3D';
 
 // Register new components here. Storyboard "component" names map to these keys.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -61,6 +62,7 @@ export const SCENES: Record<string, React.FC<SceneProps<any>>> = {
   Hair3D,
   Vault3D,
   Drive3D,
+  Landfill3D,
   Swarm3D,
   Pool3D,
   Coin3D,

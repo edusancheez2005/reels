@@ -3,7 +3,7 @@
 # a big, concrete number with a stake for the viewer in the first sentence; 30-35 s. (#n) = hook formula id in tools/ig/hooks.json.
 
 - [x] Lost forever: how many bitcoin nobody can ever spend — "Millions of bitcoin may be locked away forever, because someone lost a password." (2026-10-28-lost-bitcoin)
-- [ ] The man who threw away a hard drive with 8,000 bitcoin — "In 2013, a man in Wales threw away a hard drive. The bitcoin on it is worth over $600 million today." (#25; verify the coin count, today's value and the latest court/landfill news)
+- [x] The man who threw away a hard drive with 8,000 bitcoin — "In 2013, a man in Wales threw away a hard drive. The bitcoin on it is worth over $600 million today." (#25; verify the coin count, today's value and the latest court/landfill news) (2026-10-29-landfill-drive)
 - [ ] What a crypto wallet really holds (hint: not coins) — "Your crypto wallet doesn't hold any crypto. It holds a list of words, and anyone who sees them can take everything." (#22 Contrarian Flip)
 - [ ] The biggest crypto hack ever: about $1.5B from Bybit (Feb 2025) — "In February 2025, hackers took nearly $1.5 billion of crypto from one exchange, in a single transaction." (#23; how: a tampered signing screen; who investigators blamed; lesson: check what you sign)
 - [ ] Why you can't undo a crypto transaction, and the address-poisoning scam — "In December 2025, one copy-paste cost a crypto trader $50 million. Nobody can reverse it." (#1/#23; Cointelegraph 20 Dec 2025)

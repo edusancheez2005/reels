@@ -19,9 +19,12 @@ export const Ruler: React.FC<SceneProps<P>> = ({props, beats}) => {
   const Y = 470;
   const x = (t: number) => X0 + ((t - props.from) / (props.to - props.from)) * (X1 - X0);
   const years: number[] = [];
-  for (let y = Math.ceil(props.from); y <= props.to; y++) years.push(y);
+  // long spans: label every Nth year (max ~7 labels) and keep labels off the frame edges
+  const yStep = Math.max(1, Math.ceil((props.to - props.from) / 7));
+  for (let y = Math.ceil(props.from); y <= props.to; y++) if (y % yStep === 0 && x(y) > 90 && x(y) < 910) years.push(y);
   const months: number[] = [];
-  for (let m = Math.ceil(props.from * 12); m / 12 <= props.to; m++) months.push(m / 12);
+  const mStep = props.to - props.from > 8 ? 3 : 1;
+  for (let m = Math.ceil(props.from * 12); m / 12 <= props.to; m++) if (m % mStep === 0) months.push(m / 12);
 
   // playhead position
   let ph = props.marks[0]?.at ?? props.from;
