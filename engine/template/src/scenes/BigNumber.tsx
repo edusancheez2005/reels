@@ -6,6 +6,8 @@ import {theme} from '../lib/theme';
 
 type P = {
   value: number;
+  /** count up from this value instead of 0 (e.g. start a $600M count at $500M) */
+  from?: number;
   prefix?: string;
   suffix?: string;
   decimals?: number;
@@ -27,7 +29,7 @@ export const BigNumber: React.FC<SceneProps<P>> = ({props, beats}) => {
   const start = two ? revealFrame(beats, 0) - LEAD_FRAMES : land - 18 - LEAD_FRAMES;
   const t = interpolate(frame, [start, land], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
   const d = props.decimals ?? (Number.isInteger(props.value) ? 0 : 1);
-  const txt = (props.value * t).toLocaleString('en-US', {minimumFractionDigits: d, maximumFractionDigits: d});
+  const txt = ((props.from ?? 0) + (props.value - (props.from ?? 0)) * t).toLocaleString('en-US', {minimumFractionDigits: d, maximumFractionDigits: d});
   const color = props.tone === 'text' ? pal.text : toneOf(pal, props.tone ?? 'accent');
   const settle = interpolate(frame, [land - 2, land + 5], [1.07, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const flash = interpolate(frame, [land - 1, land + 10], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});

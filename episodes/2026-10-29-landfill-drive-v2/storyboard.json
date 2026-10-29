@@ -1,0 +1,971 @@
+{
+ "slug": "landfill-drive-v2",
+ "theme": "dark",
+ "tail": 1.2,
+ "emphasis": [
+  "twenty thirteen,",
+  "six hundred million dollars",
+  "James Howells,",
+  "computer engineer",
+  "eight thousand bitcoin,",
+  "spilled a drink",
+  "in a drawer.",
+  "the wrong drive.",
+  "Nothing.",
+  "the code that moves the coins,",
+  "a quarter",
+  "He sued.",
+  "threw it out:",
+  "the council's.",
+  "Two mistakes:",
+  "one copy",
+  "like junk.",
+  "can't be reset.",
+  "recovery words,",
+  "two copies in two places.",
+  "Label"
+ ],
+ "scenes": [
+  {
+   "anchor": "In",
+   "component": "Landfill3D",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "actions": [
+     "drive",
+     "label:0",
+     "drop",
+     "bury"
+    ],
+    "tags": [
+     {
+      "text": "2013 · Newport, Wales",
+      "x": 520,
+      "y": 1330,
+      "tone": "warm",
+      "size": 46
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -1.2,
+       3.6,
+       9.2
+      ],
+      "look": [
+       0,
+       0.6,
+       0.6
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 2,
+      "pos": [
+       1.6,
+       2.6,
+       6.4
+      ],
+      "look": [
+       0.8,
+       0.4,
+       0.9
+      ],
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "In",
+    "thirteen,",
+    "threw",
+    "drive."
+   ]
+  },
+  {
+   "anchor": "The bitcoin",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "value": 600000000,
+    "from": 500000000,
+    "prefix": "over $",
+    "logo": "bitcoin.svg",
+    "chip": "≈8,000 BTC × ≈$80,000",
+    "label": "what it unlocks, today",
+    "tone": "accent"
+   },
+   "beats": [
+    "bitcoin",
+    "unlocks",
+    "million"
+   ]
+  },
+  {
+   "anchor": "dollars",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 643,
+    "from": 600,
+    "prefix": "≈$",
+    "suffix": "M",
+    "logo": "bitcoin.svg",
+    "chip": "8,000 BTC × $80,361 · CoinGecko, 29 Oct 2026",
+    "label": "at today's price",
+    "tone": "accent"
+   },
+   "beats": [
+    "dollars",
+    "today."
+   ]
+  },
+  {
+   "anchor": "He's",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "James Howells",
+     "computer engineer",
+     "Newport, Wales"
+    ],
+    "accent": [
+     "Howells"
+    ],
+    "size": 96
+   },
+   "beats": [
+    "James",
+    "computer",
+    "Newport."
+   ]
+  },
+  {
+   "anchor": "In two",
+   "component": "Laptop3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "actions": [
+     "open",
+     "label:0",
+     "mine",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "2009",
+      "x": 520,
+      "y": 1300,
+      "tone": "muted",
+      "size": 44
+     },
+     {
+      "text": "≈8,000 BTC · his figure",
+      "x": 520,
+      "y": 1370,
+      "tone": "warm",
+      "size": 52
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       3.4,
+       8.2
+      ],
+      "look": [
+       0.5,
+       0.3,
+       0
+      ],
+      "fov": 44
+     },
+     {
+      "beat": 2,
+      "pos": [
+       1.0,
+       3.0,
+       7.4
+      ],
+      "look": [
+       0.7,
+       0.3,
+       -0.1
+      ],
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "In",
+    "laptop",
+    "mined",
+    "eight"
+   ]
+  },
+  {
+   "anchor": "bitcoin,",
+   "component": "Flow",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "nodes": [
+     {
+      "id": "me",
+      "icon": "💻",
+      "label": "His laptop",
+      "x": 500,
+      "y": 420,
+      "size": 0.85
+     },
+     {
+      "id": "a",
+      "icon": "🖥️",
+      "label": "",
+      "x": 160,
+      "y": 160,
+      "size": 0.55
+     },
+     {
+      "id": "b",
+      "icon": "🖥️",
+      "label": "",
+      "x": 840,
+      "y": 160,
+      "size": 0.55
+     },
+     {
+      "id": "c",
+      "icon": "🖥️",
+      "label": "",
+      "x": 160,
+      "y": 680,
+      "size": 0.55
+     },
+     {
+      "id": "d",
+      "icon": "🖥️",
+      "label": "",
+      "x": 840,
+      "y": 680,
+      "size": 0.55
+     },
+     {
+      "id": "coin",
+      "logo": "bitcoin.svg",
+      "label": "new coins",
+      "x": 500,
+      "y": 800,
+      "size": 0.6,
+      "tone": "accent"
+     }
+    ],
+    "edges": [
+     {
+      "from": "me",
+      "to": "a",
+      "flow": true
+     },
+     {
+      "from": "me",
+      "to": "b",
+      "flow": true
+     },
+     {
+      "from": "me",
+      "to": "c",
+      "flow": true
+     },
+     {
+      "from": "me",
+      "to": "d",
+      "flow": true
+     },
+     {
+      "from": "me",
+      "to": "coin",
+      "flow": true,
+      "tone": "accent"
+     }
+    ],
+    "order": [
+     "me",
+     [
+      "a",
+      "b",
+      "c",
+      "d",
+      "me>a",
+      "me>b",
+      "me>c",
+      "me>d"
+     ],
+     [
+      "coin",
+      "me>coin"
+     ]
+    ]
+   },
+   "beats": [
+    "bitcoin,",
+    "helping",
+    "network."
+   ]
+  },
+  {
+   "anchor": "He spilled",
+   "component": "Laptop3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "opened": true,
+    "coins": true,
+    "actions": [
+     "spill",
+     "parts",
+     "drawer",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "he kept the hard drive",
+      "x": 520,
+      "y": 1340,
+      "tone": "warm",
+      "size": 46
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.8,
+       3.2,
+       7.6
+      ],
+      "look": [
+       0.6,
+       0.2,
+       0.3
+      ],
+      "fov": 44
+     },
+     {
+      "beat": 2,
+      "pos": [
+       2.2,
+       2.6,
+       8.2
+      ],
+      "look": [
+       2.0,
+       -0.3,
+       1.6
+      ],
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "spilled",
+    "sold",
+    "kept",
+    "drawer."
+   ]
+  },
+  {
+   "anchor": "Clearing",
+   "component": "Laptop3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "broken": true,
+    "inDrawer": true,
+    "actions": [
+     "cam",
+     "bag",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "the wrong drive",
+      "x": 520,
+      "y": 1330,
+      "tone": "alert",
+      "size": 58
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.8,
+       2.6,
+       7.8
+      ],
+      "look": [
+       3.0,
+       -0.3,
+       2.2
+      ],
+      "fov": 44
+     },
+     {
+      "beat": 1,
+      "pos": [
+       3.2,
+       2.4,
+       7.6
+      ],
+      "look": [
+       3.3,
+       -0.3,
+       2.3
+      ],
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "Clearing",
+    "binned",
+    "wrong"
+   ]
+  },
+  {
+   "anchor": "Months",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "Months later",
+    "rows": [
+     {
+      "left": "His backup files",
+      "badge": "NO KEY",
+      "tone": "alert"
+     },
+     {
+      "left": "The old laptop",
+      "badge": "SOLD",
+      "tone": "muted"
+     },
+     {
+      "left": "The hard drive",
+      "badge": "BINNED",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "Months",
+    "checked",
+    "backups.",
+    "backups.",
+    "Nothing."
+   ]
+  },
+  {
+   "anchor": "His key",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "opened": true,
+    "actions": [
+     "label:0",
+     "label:1",
+     "lose"
+    ],
+    "tags": [
+     {
+      "text": "His key",
+      "x": 520,
+      "y": 1330,
+      "tone": "warm",
+      "size": 52
+     },
+     {
+      "text": "the code that moves the coins",
+      "x": 520,
+      "y": 1396,
+      "tone": "muted",
+      "size": 32
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       0.5,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 32
+     }
+    ]
+   },
+   "beats": [
+    "key,",
+    "code",
+    "coins,"
+   ]
+  },
+  {
+   "anchor": "was in",
+   "component": "Landfill3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "buried": true,
+    "actions": [
+     "ping",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Docksway landfill, Newport",
+      "x": 520,
+      "y": 1330,
+      "tone": "warm",
+      "size": 44
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.2,
+       7.5,
+       6.0
+      ],
+      "look": [
+       0.6,
+       0.2,
+       0.4
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.4,
+       4.2,
+       5.2
+      ],
+      "look": [
+       0.9,
+       0.4,
+       0.9
+      ],
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "was",
+    "landfill."
+   ]
+  },
+  {
+   "anchor": "He offered",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "value": 25,
+    "from": 25,
+    "suffix": "%",
+    "label": "of the fortune, offered to the council to dig",
+    "chip": "January 2021 · ITV Wales",
+    "tone": "accent"
+   },
+   "beats": [
+    "offered",
+    "quarter",
+    "dig."
+   ]
+  },
+  {
+   "anchor": "They refused",
+   "component": "Landfill3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "buried": true,
+    "actions": [
+     "fence",
+     "deny",
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "Council: no",
+      "x": 520,
+      "y": 1150,
+      "tone": "alert",
+      "size": 60
+     },
+     {
+      "text": "He sued for £495M · 2024",
+      "x": 520,
+      "y": 1225,
+      "tone": "warm",
+      "size": 44
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       3.4,
+       12.0
+      ],
+      "look": [
+       0.6,
+       0.6,
+       2.0
+      ],
+      "fov": 34
+     }
+    ]
+   },
+   "beats": [
+    "They",
+    "refused.",
+    "He",
+    "sued."
+   ]
+  },
+  {
+   "anchor": "In twenty",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "rise",
+   "props": {
+    "source": "High Court · Howells v Newport City Council [2025] EWHC 22 (Ch)",
+    "text": "Claim thrown out: \"no realistic prospect of succeeding\".",
+    "stamp": "9 Jan 2025",
+    "note": "Judgment, quoted"
+   },
+   "beats": [
+    "twenty-five",
+    "judge",
+    "out:"
+   ]
+  },
+  {
+   "anchor": "once dumped",
+   "component": "HardDrive3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "actions": [
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "Once dumped",
+      "x": 520,
+      "y": 1420,
+      "tone": "muted",
+      "size": 44
+     },
+     {
+      "text": "the council's property",
+      "x": 520,
+      "y": 1490,
+      "tone": "accent",
+      "size": 52
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       3.4,
+       6.8
+      ],
+      "look": [
+       0,
+       -0.9,
+       0
+      ],
+      "fov": 32
+     }
+    ]
+   },
+   "beats": [
+    "once",
+    "council's."
+   ]
+  },
+  {
+   "anchor": "Two",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Two mistakes."
+    ],
+    "accent": [
+     "mistakes."
+    ],
+    "size": 120
+   },
+   "beats": [
+    "Two"
+   ]
+  },
+  {
+   "anchor": "one copy",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "title": "What went wrong",
+    "rows": [
+     {
+      "left": "One copy of his key",
+      "badge": "NO BACKUP",
+      "tone": "alert"
+     },
+     {
+      "left": "On a drive he treated like junk",
+      "badge": "UNLABELLED",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "one",
+    "copy",
+    "drive",
+    "junk."
+   ]
+  },
+  {
+   "anchor": "A lost",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "keyGone": true,
+    "frozen": true,
+    "actions": [
+     "try",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "No reset",
+      "x": 520,
+      "y": 1340,
+      "tone": "alert",
+      "size": 60
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.9,
+       0.6,
+       8.8
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.3,
+       0.3,
+       7.6
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "lost",
+    "reset."
+   ]
+  },
+  {
+   "anchor": "Write",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "Fix 1: back up your key",
+    "rows": [
+     {
+      "left": "Write down your recovery words",
+      "badge": "ON PAPER",
+      "tone": "accent"
+     },
+     {
+      "left": "= the backup for your key",
+      "badge": "BACKUP",
+      "tone": "accent"
+     }
+    ]
+   },
+   "beats": [
+    "Write",
+    "recovery",
+    "backup",
+    "key,"
+   ]
+  },
+  {
+   "anchor": "and keep",
+   "component": "Flow",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "nodes": [
+     {
+      "id": "w",
+      "icon": "📝",
+      "label": "Recovery words",
+      "x": 500,
+      "y": 150,
+      "size": 0.8
+     },
+     {
+      "id": "c1",
+      "icon": "🏠",
+      "label": "Copy 1",
+      "sub": "one safe place",
+      "x": 220,
+      "y": 620,
+      "size": 0.75
+     },
+     {
+      "id": "c2",
+      "icon": "🔒",
+      "label": "Copy 2",
+      "sub": "a second safe place",
+      "x": 780,
+      "y": 620,
+      "size": 0.75
+     }
+    ],
+    "edges": [
+     {
+      "from": "w",
+      "to": "c1",
+      "flow": true
+     },
+     {
+      "from": "w",
+      "to": "c2",
+      "flow": true
+     }
+    ],
+    "order": [
+     "w",
+     [
+      "c1",
+      "w>c1"
+     ],
+     [
+      "c2",
+      "w>c2"
+     ]
+    ]
+   },
+   "beats": [
+    "keep",
+    "copies",
+    "places."
+   ]
+  },
+  {
+   "anchor": "Label",
+   "component": "HardDrive3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "actions": [
+     "drive",
+     "sticker",
+     "label:0"
+    ],
+    "sticker": "BITCOIN KEY|DO NOT BIN",
+    "tags": [
+     {
+      "text": "Fix 2: label it",
+      "x": 520,
+      "y": 1450,
+      "tone": "warm",
+      "size": 52
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       3.4,
+       6.8
+      ],
+      "look": [
+       0,
+       -0.9,
+       0
+      ],
+      "fov": 32
+     }
+    ]
+   },
+   "beats": [
+    "Label",
+    "drive",
+    "key."
+   ]
+  }
+ ]
+}

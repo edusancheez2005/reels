@@ -59,7 +59,7 @@ const tex = (w: number, h: number, draw: (g: CanvasRenderingContext2D) => void) 
 };
 
 /** A generic 3.5" hard drive: aluminium base, top cover with platter bulge + screws, blank label, green board, connector. */
-const HardDrive: React.FC<{glow: number}> = ({glow}) => {
+export const HardDrive: React.FC<{glow: number}> = ({glow}) => {
   const baseMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#7c858f', metalness: 0.9, roughness: 0.38}), []);
   const coverMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#c3cad2', metalness: 1, roughness: 0.24, clearcoat: 0.3}), []);
   const screwMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#e8edf2', metalness: 1, roughness: 0.15}), []);
@@ -148,7 +148,7 @@ const HardDrive: React.FC<{glow: number}> = ({glow}) => {
   );
 };
 
-const Key: React.FC<{mat: THREE.Material}> = ({mat}) => (
+export const Key: React.FC<{mat: THREE.Material}> = ({mat}) => (
   <group>
     <mesh material={mat}>
       <torusGeometry args={[0.2, 0.06, 20, 48]} />
@@ -206,10 +206,10 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
       const rr = Math.sqrt(rand(i + 300)) * 4.6;
       const x = Math.cos(a) * rr;
       const z = Math.sin(a) * rr * 0.85;
-      const kind = Math.floor(rand(i + 7) * 4); // 0 bag, 1 box, 2 can, 3 paper
+      const kind = Math.floor(rand(i + 7) * 5); // 0 bag, 1 box, 2 can, 3 paper, 4 tyre
       const sc = 0.05 + rand(i + 11) * 0.1;
-      const s: [number, number, number] = kind === 0 ? [sc * 1.3, sc * 0.8, sc] : kind === 1 ? [sc * 1.4, sc * 0.7, sc] : kind === 2 ? [sc * 0.35, sc * 0.9, sc * 0.35] : [sc * 1.5, 0.01, sc * 1.1];
-      out.push({x, y: mound(x, z) + s[1] * 0.3, z, s, r: [rand(i + 1) * 3, rand(i + 2) * 6, rand(i + 3) * 3], kind, col: JUNK[Math.floor(rand(i + 5) * JUNK.length)]});
+      const s: [number, number, number] = kind === 0 ? [sc * 1.3, sc * 0.8, sc] : kind === 1 ? [sc * 1.4, sc * 0.7, sc] : kind === 2 ? [sc * 0.35, sc * 0.9, sc * 0.35] : kind === 4 ? [sc * 0.9, sc * 0.9, sc * 0.9] : [sc * 1.5, 0.01, sc * 1.1];
+      out.push({x, y: mound(x, z) + s[1] * 0.3, z, s, r: [rand(i + 1) * 3, rand(i + 2) * 6, rand(i + 3) * 3], kind, col: kind === 4 ? JUNK[0] : kind === 0 ? JUNK[Math.floor(rand(i + 5) * 3)] : JUNK[3 + Math.floor(rand(i + 5) * (JUNK.length - 3))]});
     }
     return out;
   }, []);
@@ -218,7 +218,10 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
   const boxGeo = useMemo(() => new THREE.BoxGeometry(1, 1, 1), []);
   const canGeo = useMemo(() => new THREE.CylinderGeometry(1, 1, 1, 14), []);
   const paperGeo = useMemo(() => new THREE.BoxGeometry(1, 1, 1), []);
-  const geos = [bagGeo, boxGeo, canGeo, paperGeo];
+  const tyreGeo = useMemo(() => new THREE.TorusGeometry(0.8, 0.32, 10, 24), []);
+  const geos = [bagGeo, boxGeo, canGeo, paperGeo, tyreGeo];
+  const knotGeo = useMemo(() => new THREE.ConeGeometry(0.35, 0.7, 8), []);
+  const tapeMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#c8b48a', roughness: 0.5}), []);
 
   // ---- timeline ----
   const driveIn = has('drive') ? p('drive', 20, Easing.out(Easing.back(1.3))) : props.buried || has('drop') || has('bury') ? 1 : solo ? 1 : 0;
@@ -334,7 +337,11 @@ export const Landfill3D: React.FC<SceneProps<P>> = ({props, beats, durationInFra
         <>
           <mesh geometry={terrain} material={groundMat} />
           {junk.map((j, i) => (
-            <mesh key={i} geometry={geos[j.kind]} material={junkMats[JUNK.indexOf(j.col)]} position={[j.x, j.y, j.z]} rotation={j.r} scale={j.s} />
+            <group key={i} position={[j.x, j.y, j.z]} rotation={j.r} scale={j.s}>
+              <mesh geometry={geos[j.kind]} material={junkMats[JUNK.indexOf(j.col)]} />
+              {j.kind === 0 ? <mesh geometry={knotGeo} material={junkMats[JUNK.indexOf(j.col)]} position={[0, 1.05, 0]} /> : null}
+              {j.kind === 1 ? <mesh material={tapeMat} position={[0, 0.505, 0]} scale={[1.01, 0.02, 0.18]} geometry={boxGeo} /> : null}
+            </group>
           ))}
           {fall.map((f, i) =>
             f.y < 50 ? (
