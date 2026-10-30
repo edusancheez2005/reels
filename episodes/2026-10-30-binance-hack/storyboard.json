@@ -100,7 +100,7 @@
    "props": {
     "src": "aj_head.png",
     "chrome": "browser",
-    "url": "aljazeera.com/economy/2026/10/30/binance-says-6-3bn-stolen",
+    "url": "aljazeera.com",
     "source": "Al Jazeera · 30 Oct 2026",
     "cam": [
      {
@@ -219,9 +219,9 @@
      {
       "beat": 2,
       "kind": "box",
-      "x": 555,
+      "x": 538,
       "y": 732,
-      "w": 545,
+      "w": 567,
       "h": 66
      },
      {
@@ -787,8 +787,8 @@
      },
      {
       "x": 0.5,
-      "y": 0.55,
-      "zoom": 1.06
+      "y": 0.5,
+      "zoom": 1.0
      }
     ],
     "marks": [
@@ -855,7 +855,7 @@
       "beat": 2,
       "kind": "underline",
       "x": 1000,
-      "y": 1568,
+      "y": 1546,
       "w": 300,
       "h": 14
      }
@@ -937,7 +937,7 @@
     "prefix": "$",
     "suffix": "B",
     "logo": "tether.svg",
-    "chip": "frozen by Tether, Circle and others",
+    "chip": "frozen by the companies behind digital dollars",
     "label": "of the stolen money",
     "tone": "accent"
    },
@@ -955,7 +955,7 @@
    "props": {
     "src": "aj_cover.png",
     "chrome": "browser",
-    "url": "aljazeera.com/economy/2026/10/30/binance-says-6-3bn-stolen",
+    "url": "aljazeera.com",
     "source": "Al Jazeera · 30 Oct 2026",
     "cam": [
      {
@@ -1010,10 +1010,10 @@
      {
       "beat": 1,
       "kind": "circle",
-      "x": 1190,
-      "y": 1060,
+      "x": 1195,
+      "y": 1066,
       "w": 320,
-      "h": 110
+      "h": 96
      }
     ]
    },
@@ -1052,7 +1052,7 @@
      },
      {
       "text": "their security",
-      "x": 790,
+      "x": 750,
       "y": 720,
       "tone": "accent",
       "size": 56,
@@ -1063,10 +1063,10 @@
      },
      {
       "text": "+ their promise to pay you back",
-      "x": 540,
+      "x": 520,
       "y": 1470,
       "tone": "good",
-      "size": 44
+      "size": 36
      }
     ],
     "cam": [

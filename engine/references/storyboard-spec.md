@@ -63,6 +63,8 @@ Coordinates below are stage coordinates unless noted. All v2 components are them
 (`x`,`y` = focus as 0–1 of the image, `zoom` ≥ 1). `marks` draw on their beat, in the **image's own pixels**:
 `box` (Figma-style selection), `underline` (marker stroke), `circle` (hand-drawn ring), `spot` (dim everything else).
 `src`, `url`, `chrome` ("browser"|"card"|"none"), `width` (default 920), `maxHeight`, `cam[]`, `marks[]`, `source`, `tilt`.
+`url` is the page's real address, a true prefix of it, or the bare domain. Never tidy the slug to match a new headline
+(30 Oct 2026: a typed Al Jazeera slug that didn't exist failed the review; sites often keep the old slug after a headline update).
 `size` is filled in automatically.
 
 **Quote**: a paraphrased claim card with attribution (use instead of faking an article).

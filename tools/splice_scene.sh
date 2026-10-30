@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Re-render one frame range of a finished reel and splice it in, instead of re-rendering the whole video.
 # Usage (repo root, after build_timeline.py has installed the updated timeline): bash tools/splice_scene.sh episodes/<id> <first> <last>
+# CONC=2 renders with two browser tabs (faster on 2 cores).
 # Renders frames <first>..<last> with Remotion, swaps them into episodes/<id>/<id>.mp4 (video re-encoded once, audio copied).
 set -euo pipefail
 EP="$1"; A="$2"; B="$3"
@@ -9,7 +10,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 MP4="$ROOT/$EP/$ID.mp4"
 TMP="$(mktemp -d)"
 source "$ROOT/.env.local"; export REMOTION_BROWSER
-(cd "$ROOT/reel-studio" && npx remotion render Reel "$TMP/part.mp4" --frames="$A-$B" --codec h264 --crf 18 --x264-preset veryfast --log error)
+(cd "$ROOT/reel-studio" && npx remotion render Reel "$TMP/part.mp4" --frames="$A-$B" --codec h264 --crf 18 --x264-preset veryfast --log error ${CONC:+--concurrency $CONC})
 N=$((B - A + 1))
 if [ "$A" -eq 0 ]; then
   FC="[1:v]trim=end_frame=$N,setpts=PTS-STARTPTS[mid];[0:v]trim=start_frame=$((B + 1)),setpts=PTS-STARTPTS[post];[mid][post]concat=n=2:v=1:a=0[v]"
