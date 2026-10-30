@@ -1,0 +1,1297 @@
+[
+ {
+  "text": "In",
+  "startMs": 80,
+  "endMs": 200,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " just",
+  "startMs": 200,
+  "endMs": 536,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eleven",
+  "startMs": 630,
+  "endMs": 890,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " days,",
+  "startMs": 890,
+  "endMs": 1145,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 1350,
+  "endMs": 1550,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hacking",
+  "startMs": 1620,
+  "endMs": 1840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " group",
+  "startMs": 1840,
+  "endMs": 2159,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " went",
+  "startMs": 2210,
+  "endMs": 2412,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " after",
+  "startMs": 2460,
+  "endMs": 2660,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " more",
+  "startMs": 2660,
+  "endMs": 2919,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " than",
+  "startMs": 2970,
+  "endMs": 3071,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 3120,
+  "endMs": 3240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 3240,
+  "endMs": 3679,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " organisations",
+  "startMs": 3760,
+  "endMs": 4490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 4490,
+  "endMs": 4640,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 4640,
+  "endMs": 4744,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " least",
+  "startMs": 4810,
+  "endMs": 5048,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fourteen",
+  "startMs": 5050,
+  "endMs": 5504,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " countries.",
+  "startMs": 5550,
+  "endMs": 5910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " And",
+  "startMs": 6090,
+  "endMs": 6240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " AI",
+  "startMs": 6240,
+  "endMs": 6579,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " did",
+  "startMs": 6580,
+  "endMs": 6750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " most",
+  "startMs": 6750,
+  "endMs": 7121,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 7140,
+  "endMs": 7230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 7260,
+  "endMs": 7339,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " work.",
+  "startMs": 7340,
+  "endMs": 7610,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " That's",
+  "startMs": 7790,
+  "endMs": 8025,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " according",
+  "startMs": 8030,
+  "endMs": 8440,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 8440,
+  "endMs": 8588,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " CrowdStrike,",
+  "startMs": 8590,
+  "endMs": 9198,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 9380,
+  "endMs": 9527,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cybersecurity",
+  "startMs": 9530,
+  "endMs": 10290,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " company.",
+  "startMs": 10290,
+  "endMs": 10700,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It",
+  "startMs": 10880,
+  "endMs": 10950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " says",
+  "startMs": 10950,
+  "endMs": 11206,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 11220,
+  "endMs": 11369,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " China-linked",
+  "startMs": 11370,
+  "endMs": 12076,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " group",
+  "startMs": 12110,
+  "endMs": 12400,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 12400,
+  "endMs": 12511,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " calls",
+  "startMs": 12570,
+  "endMs": 12830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Vapor",
+  "startMs": 12830,
+  "endMs": 13163,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Panda",
+  "startMs": 13180,
+  "endMs": 13430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " used",
+  "startMs": 13430,
+  "endMs": 13816,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 13830,
+  "endMs": 13979,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " team",
+  "startMs": 14070,
+  "endMs": 14140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 14140,
+  "endMs": 14359,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " AI",
+  "startMs": 14360,
+  "endMs": 14680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " agents:",
+  "startMs": 14680,
+  "endMs": 15175,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " AI",
+  "startMs": 15370,
+  "endMs": 15718,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 15840,
+  "endMs": 15936,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " works",
+  "startMs": 15940,
+  "endMs": 16250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " by",
+  "startMs": 16250,
+  "endMs": 16479,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " itself.",
+  "startMs": 16480,
+  "endMs": 16860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " They",
+  "startMs": 17040,
+  "endMs": 17160,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ran",
+  "startMs": 17160,
+  "endMs": 17380,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mostly",
+  "startMs": 17380,
+  "endMs": 17806,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 17870,
+  "endMs": 17959,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " DeepSeek,",
+  "startMs": 18020,
+  "endMs": 18469,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 18670,
+  "endMs": 18827,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Chinese",
+  "startMs": 18830,
+  "endMs": 19250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " AI",
+  "startMs": 19250,
+  "endMs": 19590,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " model.",
+  "startMs": 19590,
+  "endMs": 19950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 20130,
+  "endMs": 20328,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " how",
+  "startMs": 20330,
+  "endMs": 20520,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " did",
+  "startMs": 20520,
+  "endMs": 20720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 20720,
+  "endMs": 20823,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " work?",
+  "startMs": 20830,
+  "endMs": 21070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " One",
+  "startMs": 21274,
+  "endMs": 21482,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " human",
+  "startMs": 21494,
+  "endMs": 21844,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gave",
+  "startMs": 21844,
+  "endMs": 22154,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 22154,
+  "endMs": 22261,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " orders,",
+  "startMs": 22314,
+  "endMs": 22624,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 22824,
+  "endMs": 22984,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Chinese,",
+  "startMs": 22984,
+  "endMs": 23455,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 23654,
+  "endMs": 23784,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " only",
+  "startMs": 23784,
+  "endMs": 24130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stepped",
+  "startMs": 24134,
+  "endMs": 24442,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 24444,
+  "endMs": 24584,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 24584,
+  "endMs": 24774,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 24774,
+  "endMs": 24909,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " big",
+  "startMs": 24914,
+  "endMs": 25117,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " decisions.",
+  "startMs": 25134,
+  "endMs": 25584,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 25764,
+  "endMs": 25872,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " agents",
+  "startMs": 25874,
+  "endMs": 26344,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " did",
+  "startMs": 26344,
+  "endMs": 26564,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 26564,
+  "endMs": 26684,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rest.",
+  "startMs": 26694,
+  "endMs": 26954,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " They",
+  "startMs": 27134,
+  "endMs": 27291,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tried",
+  "startMs": 27304,
+  "endMs": 27604,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " several",
+  "startMs": 27604,
+  "endMs": 27944,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ways",
+  "startMs": 27944,
+  "endMs": 28204,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 28204,
+  "endMs": 28384,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 28384,
+  "endMs": 28493,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " once.",
+  "startMs": 28504,
+  "endMs": 28754,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " If",
+  "startMs": 28934,
+  "endMs": 29020,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 29024,
+  "endMs": 29193,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " failed,",
+  "startMs": 29194,
+  "endMs": 29452,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " they",
+  "startMs": 29624,
+  "endMs": 29754,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " just",
+  "startMs": 29774,
+  "endMs": 30013,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " switched",
+  "startMs": 30014,
+  "endMs": 30314,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 30314,
+  "endMs": 30445,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " another.",
+  "startMs": 30494,
+  "endMs": 30704,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 30884,
+  "endMs": 30974,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " targets?",
+  "startMs": 30974,
+  "endMs": 31544,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Foreign",
+  "startMs": 31748,
+  "endMs": 32068,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ministries,",
+  "startMs": 32068,
+  "endMs": 32526,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " defence",
+  "startMs": 32708,
+  "endMs": 33029,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 33068,
+  "endMs": 33138,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " chip",
+  "startMs": 33138,
+  "endMs": 33395,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " companies,",
+  "startMs": 33398,
+  "endMs": 33807,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 34048,
+  "endMs": 34118,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " phone",
+  "startMs": 34118,
+  "endMs": 34356,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " networks.",
+  "startMs": 34398,
+  "endMs": 34768,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " CrowdStrike",
+  "startMs": 34948,
+  "endMs": 35638,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " confirmed",
+  "startMs": 35638,
+  "endMs": 36192,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " break-ins",
+  "startMs": 36258,
+  "endMs": 36757,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 36758,
+  "endMs": 36828,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nine",
+  "startMs": 36828,
+  "endMs": 37153,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " organisations.",
+  "startMs": 37158,
+  "endMs": 38058,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Here's",
+  "startMs": 38238,
+  "endMs": 38498,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 38498,
+  "endMs": 38598,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " crazy",
+  "startMs": 38598,
+  "endMs": 38975,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " part:",
+  "startMs": 38978,
+  "endMs": 39291,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " speed.",
+  "startMs": 39488,
+  "endMs": 39818,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Human",
+  "startMs": 39998,
+  "endMs": 40391,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hackers",
+  "startMs": 40408,
+  "endMs": 40668,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " type",
+  "startMs": 40668,
+  "endMs": 40908,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " up",
+  "startMs": 40908,
+  "endMs": 41038,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 41038,
+  "endMs": 41218,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forty",
+  "startMs": 41218,
+  "endMs": 41538,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " commands",
+  "startMs": 41538,
+  "endMs": 41963,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 41968,
+  "endMs": 42061,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hour.",
+  "startMs": 42068,
+  "endMs": 42258,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " CrowdStrike",
+  "startMs": 42438,
+  "endMs": 43072,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " says",
+  "startMs": 43078,
+  "endMs": 43248,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " these",
+  "startMs": 43248,
+  "endMs": 43448,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " agents",
+  "startMs": 43448,
+  "endMs": 43949,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " could",
+  "startMs": 43958,
+  "endMs": 44144,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " top",
+  "startMs": 44148,
+  "endMs": 44388,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fifteen",
+  "startMs": 44388,
+  "endMs": 44778,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred.",
+  "startMs": 44778,
+  "endMs": 45168,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " AI",
+  "startMs": 45348,
+  "endMs": 45698,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hacking",
+  "startMs": 45698,
+  "endMs": 46028,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 46028,
+  "endMs": 46168,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " growing",
+  "startMs": 46168,
+  "endMs": 46584,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fast.",
+  "startMs": 46588,
+  "endMs": 46878,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Last",
+  "startMs": 47058,
+  "endMs": 47308,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " November,",
+  "startMs": 47308,
+  "endMs": 47860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 48108,
+  "endMs": 48188,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " first",
+  "startMs": 48188,
+  "endMs": 48428,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " known",
+  "startMs": 48428,
+  "endMs": 48718,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " AI-run",
+  "startMs": 48718,
+  "endMs": 49407,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " spy",
+  "startMs": 49408,
+  "endMs": 49688,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " campaign",
+  "startMs": 49688,
+  "endMs": 50148,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " went",
+  "startMs": 50148,
+  "endMs": 50438,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " after",
+  "startMs": 50448,
+  "endMs": 50668,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 50668,
+  "endMs": 51068,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thirty",
+  "startMs": 51068,
+  "endMs": 51388,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " targets.",
+  "startMs": 51388,
+  "endMs": 51928,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Now?",
+  "startMs": 52108,
+  "endMs": 52518,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Over",
+  "startMs": 52722,
+  "endMs": 52972,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 52972,
+  "endMs": 53192,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred.",
+  "startMs": 53192,
+  "endMs": 53612,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 53792,
+  "endMs": 53882,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " takeaway?",
+  "startMs": 53882,
+  "endMs": 54472,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " AI",
+  "startMs": 54676,
+  "endMs": 54995,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " can",
+  "startMs": 55106,
+  "endMs": 55186,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " try",
+  "startMs": 55186,
+  "endMs": 55473,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ways",
+  "startMs": 55546,
+  "endMs": 55736,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 55736,
+  "endMs": 55899,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 55926,
+  "endMs": 56005,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " machine",
+  "startMs": 56016,
+  "endMs": 56377,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " speed.",
+  "startMs": 56386,
+  "endMs": 56696,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 56876,
+  "endMs": 56976,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " boring",
+  "startMs": 56976,
+  "endMs": 57316,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " basics,",
+  "startMs": 57316,
+  "endMs": 57761,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " updates",
+  "startMs": 57926,
+  "endMs": 58346,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 58346,
+  "endMs": 58543,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two-step",
+  "startMs": 58546,
+  "endMs": 59011,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " logins,",
+  "startMs": 59056,
+  "endMs": 59428,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shut",
+  "startMs": 59646,
+  "endMs": 59796,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 59796,
+  "endMs": 59916,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " easy",
+  "startMs": 59916,
+  "endMs": 60186,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ways",
+  "startMs": 60186,
+  "endMs": 60470,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in.",
+  "startMs": 60476,
+  "endMs": 60626,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

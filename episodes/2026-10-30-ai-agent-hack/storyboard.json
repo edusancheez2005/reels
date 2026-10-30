@@ -1,0 +1,958 @@
+{
+ "slug": "ai-agent-hack",
+ "theme": "dark",
+ "tail": 1.0,
+ "captionStyle": "pill",
+ "captionY": 1470,
+ "header": {
+  "title": "AI RAN A HACKING CAMPAIGN",
+  "date": "OCT 2026"
+ },
+ "chapters": [
+  {
+   "anchor": "In just",
+   "label": "Scale"
+  },
+  {
+   "anchor": "according",
+   "label": "Who"
+  },
+  {
+   "anchor": "how did",
+   "label": "How"
+  },
+  {
+   "anchor": "The targets",
+   "label": "Hit"
+  },
+  {
+   "anchor": "crazy part",
+   "label": "Speed"
+  },
+  {
+   "anchor": "growing",
+   "label": "Now"
+  }
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 14,
+    "d": 8
+   },
+   "objects": [
+    {
+     "id": "op",
+     "kind": "pawn",
+     "at": [
+      -6.0,
+      0
+     ],
+     "size": 1.0,
+     "tone": "muted"
+    },
+    {
+     "id": "main",
+     "kind": "server",
+     "at": [
+      -3.2,
+      0
+     ],
+     "tone": "accent"
+    },
+    {
+     "id": "w1",
+     "kind": "block",
+     "at": [
+      -0.6,
+      -2.0
+     ],
+     "size": 0.8,
+     "tone": "accent",
+     "icon": "eye"
+    },
+    {
+     "id": "w2",
+     "kind": "block",
+     "at": [
+      -0.6,
+      0
+     ],
+     "size": 0.8,
+     "tone": "accent",
+     "icon": "eye"
+    },
+    {
+     "id": "w3",
+     "kind": "block",
+     "at": [
+      -0.6,
+      2.0
+     ],
+     "size": 0.8,
+     "tone": "accent",
+     "icon": "eye"
+    },
+    {
+     "id": "t1",
+     "kind": "server",
+     "at": [
+      3.0,
+      -2.3
+     ],
+     "size": 0.7,
+     "tone": "muted"
+    },
+    {
+     "id": "t2",
+     "kind": "server",
+     "at": [
+      3.0,
+      0
+     ],
+     "size": 0.7,
+     "tone": "muted"
+    },
+    {
+     "id": "t3",
+     "kind": "server",
+     "at": [
+      3.0,
+      2.3
+     ],
+     "size": 0.7,
+     "tone": "muted"
+    },
+    {
+     "id": "t4",
+     "kind": "server",
+     "at": [
+      5.3,
+      -2.3
+     ],
+     "size": 0.7,
+     "tone": "muted"
+    },
+    {
+     "id": "t5",
+     "kind": "server",
+     "at": [
+      5.3,
+      0
+     ],
+     "size": 0.7,
+     "tone": "muted"
+    },
+    {
+     "id": "t6",
+     "kind": "server",
+     "at": [
+      5.3,
+      2.3
+     ],
+     "size": 0.7,
+     "tone": "muted"
+    }
+   ],
+   "links": [
+    {
+     "id": "om",
+     "from": "op",
+     "to": "main",
+     "style": "dashed"
+    },
+    {
+     "id": "m1",
+     "from": "main",
+     "to": "w1",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "m2",
+     "from": "main",
+     "to": "w2",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "m3",
+     "from": "main",
+     "to": "w3",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "a1",
+     "from": "w1",
+     "to": "t1",
+     "style": "beam",
+     "tone": "warm"
+    },
+    {
+     "id": "a2",
+     "from": "w2",
+     "to": "t2",
+     "style": "beam",
+     "tone": "warm"
+    },
+    {
+     "id": "a3",
+     "from": "w3",
+     "to": "t3",
+     "style": "beam",
+     "tone": "warm"
+    },
+    {
+     "id": "a4",
+     "from": "w2",
+     "to": "t5",
+     "style": "beam",
+     "tone": "warm"
+    },
+    {
+     "id": "a5",
+     "from": "w3",
+     "to": "t6",
+     "style": "beam",
+     "tone": "warm"
+    }
+   ],
+   "movers": [
+    {
+     "id": "p1",
+     "kind": "doc",
+     "path": [
+      "op",
+      "main"
+     ],
+     "dur": 16
+    },
+    {
+     "id": "p2",
+     "kind": "doc",
+     "path": [
+      "main",
+      "w2",
+      "t2"
+     ],
+     "dur": 13
+    }
+   ]
+  }
+ },
+ "emphasis": [
+  "two hundred organisations",
+  "AI did most",
+  "CrowdStrike,",
+  "Vapor Panda",
+  "AI agents:",
+  "DeepSeek,",
+  "One human",
+  "several ways in",
+  "nine organisations.",
+  "forty commands",
+  "fifteen hundred.",
+  "thirty targets.",
+  "two hundred.",
+  "machine speed.",
+  "two-step logins,"
+ ],
+ "scenes": [
+  {
+   "anchor": "In just",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "value": 200,
+    "suffix": "+",
+    "chip": "14 countries · 11 days",
+    "label": "organisations targeted — AI did most of the work",
+    "tone": "alert"
+   },
+   "beats": [
+    "In",
+    "more",
+    "hundred"
+   ]
+  },
+  {
+   "anchor": "at least",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.0,
+       0.3,
+       0
+      ],
+      "zoom": 60
+     },
+     {
+      "beat": 1,
+      "target": [
+       -0.5,
+       0.3,
+       0
+      ],
+      "zoom": 62
+     }
+    ]
+   },
+   "beats": [
+    "at",
+    "did",
+    "work."
+   ]
+  },
+  {
+   "anchor": "according",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "cs_head.png",
+    "chrome": "browser",
+    "url": "crowdstrike.com/blog/vapor-panda-uses-artex-to-scale-global-campaign",
+    "source": "CrowdStrike · 29 Oct 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.3,
+      "zoom": 1.12
+     }
+    ]
+   },
+   "beats": [
+    "according",
+    "CrowdStrike,",
+    "company.",
+    "says"
+   ]
+  },
+  {
+   "anchor": "China-linked",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "actions": [
+     "label:0",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "the AI agents — software that works by itself",
+      "at": "main",
+      "side": "up",
+      "dy": -150,
+      "tone": "accent"
+     },
+     {
+      "text": "Vapor Panda (China-linked)",
+      "at": "op",
+      "side": "left",
+      "dx": -20,
+      "dy": -180,
+      "tone": "muted"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -0.5,
+       0.3,
+       0
+      ],
+      "zoom": 62
+     },
+     {
+      "beat": 1,
+      "target": [
+       -2.4,
+       0.3,
+       0
+      ],
+      "zoom": 80
+     }
+    ]
+   },
+   "beats": [
+    "China-linked",
+    "Vapor",
+    "agents:"
+   ]
+  },
+  {
+   "anchor": "They ran",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "actions": [
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "powered by DeepSeek, a Chinese AI",
+      "at": "main",
+      "side": "right",
+      "dx": 40,
+      "dy": -150,
+      "tone": "accent"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -2.4,
+       0.3,
+       0
+      ],
+      "zoom": 82
+     },
+     {
+      "beat": 1,
+      "target": [
+       -3.0,
+       0.3,
+       0
+      ],
+      "zoom": 96
+     }
+    ]
+   },
+   "beats": [
+    "ran",
+    "DeepSeek,"
+   ]
+  },
+  {
+   "anchor": "how did",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "actions": [
+     "label:0",
+     "link:om",
+     "move:p1"
+    ],
+    "labels": [
+     {
+      "text": "one human · gives the orders",
+      "at": "op",
+      "side": "up",
+      "dy": -150,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -4.4,
+       0.3,
+       0
+      ],
+      "zoom": 92
+     },
+     {
+      "beat": 1,
+      "target": [
+       -4.6,
+       0.3,
+       0
+      ],
+      "zoom": 90
+     }
+    ]
+   },
+   "beats": [
+    "how",
+    "human",
+    "decisions."
+   ]
+  },
+  {
+   "anchor": "agents did",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "om"
+     ]
+    },
+    "actions": [
+     "link:m1",
+     "link:m2",
+     "link:m3",
+     "link:a1",
+     "link:a2",
+     "link:a3"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.0,
+       0.3,
+       0
+      ],
+      "zoom": 62
+     },
+     {
+      "beat": 0,
+      "target": [
+       0.5,
+       0.3,
+       0
+      ],
+      "zoom": 64
+     }
+    ]
+   },
+   "beats": [
+    "agents",
+    "rest."
+   ]
+  },
+  {
+   "anchor": "several ways",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "om",
+      "m1",
+      "m2",
+      "m3",
+      "a1",
+      "a2",
+      "a3"
+     ]
+    },
+    "actions": [
+     "link:a4",
+     "link:a5",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "several ways in at once",
+      "at": "t5",
+      "side": "right",
+      "dx": 30,
+      "dy": -160,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.5,
+       0.3,
+       0
+      ],
+      "zoom": 66
+     },
+     {
+      "beat": 1,
+      "target": [
+       2.5,
+       0.3,
+       0
+      ],
+      "zoom": 72
+     }
+    ]
+   },
+   "beats": [
+    "several",
+    "once."
+   ]
+  },
+  {
+   "anchor": "If one",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "om",
+      "m1",
+      "m2",
+      "m3",
+      "a1",
+      "a2",
+      "a3",
+      "a4",
+      "a5"
+     ]
+    },
+    "actions": [
+     "alert:t4",
+     "pulse:t2",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "if one fails, it switches",
+      "at": "t4",
+      "side": "left",
+      "dx": -20,
+      "dy": -170,
+      "tone": "muted"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       2.5,
+       0.3,
+       0
+      ],
+      "zoom": 72
+     },
+     {
+      "beat": 1,
+      "target": [
+       3.5,
+       0.3,
+       0
+      ],
+      "zoom": 74
+     }
+    ]
+   },
+   "beats": [
+    "failed,",
+    "switched"
+   ]
+  },
+  {
+   "anchor": "The targets",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "om",
+      "m1",
+      "m2",
+      "m3",
+      "a1",
+      "a2",
+      "a3",
+      "a4",
+      "a5"
+     ]
+    },
+    "actions": [
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "ministries · defence · chips · phone networks",
+      "at": "t5",
+      "side": "right",
+      "dx": 30,
+      "dy": -200,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       4.0,
+       0.3,
+       0
+      ],
+      "zoom": 70
+     },
+     {
+      "beat": 1,
+      "target": [
+       4.2,
+       0.3,
+       0
+      ],
+      "zoom": 74
+     }
+    ]
+   },
+   "beats": [
+    "targets?",
+    "ministries,",
+    "phone"
+   ]
+  },
+  {
+   "anchor": "confirmed",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "om",
+      "m1",
+      "m2",
+      "m3",
+      "a1",
+      "a2",
+      "a3",
+      "a4",
+      "a5"
+     ]
+    },
+    "actions": [
+     "alert:t1",
+     "alert:t3",
+     "alert:t5",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "9 confirmed break-ins",
+      "at": "t3",
+      "side": "left",
+      "dx": -20,
+      "dy": -190,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       4.2,
+       0.3,
+       0
+      ],
+      "zoom": 74
+     },
+     {
+      "beat": 0,
+      "target": [
+       4.2,
+       0.3,
+       0
+      ],
+      "zoom": 80
+     }
+    ]
+   },
+   "beats": [
+    "confirmed",
+    "nine"
+   ]
+  },
+  {
+   "anchor": "crazy part",
+   "component": "Growth",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "items": [
+     {
+      "label": "Human hacker",
+      "value": 40,
+      "display": "~40 / hr"
+     },
+     {
+      "label": "AI agents",
+      "value": 1500,
+      "display": "1,500+ / hr"
+     }
+    ],
+    "badge": "~37× faster"
+   },
+   "beats": [
+    "speed.",
+    "forty",
+    "fifteen"
+   ]
+  },
+  {
+   "anchor": "growing",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "reg_head.png",
+    "chrome": "browser",
+    "url": "theregister.com/2025/11/13/chinese_spies_claude_attacks",
+    "source": "The Register · 13 Nov 2025",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.42,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.42,
+      "zoom": 1.0
+     }
+    ]
+   },
+   "beats": [
+    "growing",
+    "November,",
+    "known",
+    "campaign",
+    "thirty"
+   ]
+  },
+  {
+   "anchor": "Now?",
+   "component": "Growth",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "items": [
+     {
+      "label": "Nov 2025",
+      "value": 30,
+      "display": "~30"
+     },
+     {
+      "label": "Now",
+      "value": 200,
+      "display": "200+"
+     }
+    ],
+    "badge": "×6 in a year"
+   },
+   "beats": [
+    "Now?",
+    "hundred."
+   ]
+  },
+  {
+   "anchor": "takeaway",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "om",
+      "m1",
+      "m2",
+      "m3",
+      "a1",
+      "a2",
+      "a3",
+      "a4",
+      "a5"
+     ],
+     "alert": [
+      "t1",
+      "t3",
+      "t5"
+     ]
+    },
+    "actions": [
+     "label:0",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "hacking at machine speed",
+      "at": "main",
+      "side": "up",
+      "dy": -150,
+      "tone": "accent"
+     },
+     {
+      "text": "updates + two-step logins shut the easy ways in",
+      "at": "t2",
+      "side": "right",
+      "dx": 20,
+      "dy": -210,
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       0.3,
+       0
+      ],
+      "zoom": 58
+     },
+     {
+      "beat": 1,
+      "target": [
+       0,
+       0.3,
+       0
+      ],
+      "zoom": 56
+     }
+    ]
+   },
+   "beats": [
+    "takeaway?",
+    "machine",
+    "shut"
+   ]
+  }
+ ]
+}

@@ -51,8 +51,11 @@ export const Growth: React.FC<SceneProps<P>> = ({props, beats}) => {
               strokeDasharray="10 10"
             />
             <g transform={`translate(${(xs[0] + xs[n - 1] + BW) / 2} ${BASE - HMAX - 150}) scale(${badge})`}>
-              <rect x={-110} y={-48} width={220} height={96} rx={48} fill={pal.text} />
-              <text x={0} y={18} textAnchor="middle" fontFamily={theme.font} fontSize={54} fontWeight={800} fill={pal.bg}>
+              {(() => {
+                const bw = Math.max(220, props.badge.length * 26 + 56);
+                return <rect x={-bw / 2} y={-46} width={bw} height={92} rx={46} fill={pal.text} />;
+              })()}
+              <text x={0} y={16} textAnchor="middle" fontFamily={theme.font} fontSize={48} fontWeight={800} fill={pal.bg}>
                 {props.badge}
               </text>
             </g>
