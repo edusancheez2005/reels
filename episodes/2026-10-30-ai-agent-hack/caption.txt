@@ -1,0 +1,6 @@
+In 11 days, one hacking group hit 200+ organisations in 14 countries, and AI did most of the work.
+Security firm CrowdStrike says a China-linked group it calls Vapor Panda ran a team of AI agents, mostly on the Chinese model DeepSeek. One human gave the orders; the agents tried several ways in at once and switched when one failed. Targets included foreign ministries, defence and chip firms, and phone networks, with confirmed break-ins at nine. The eye-opener is speed: a human runs maybe 40 commands an hour, these agents could top 1,500. A year ago, the first known AI-run spy campaign hit about 30 targets. Now it's 200+. The boring basics still matter most: updates and two-step logins.
+Follow for tech and crypto, explained simply.
+#AI #CyberSecurity #Hacking #TechNews #Sonar
+
+Sources: CrowdStrike, "VAPOR PANDA Uses AI-Driven ARTEX...", 29 Oct 2026 - CyberScoop, 30 Oct 2026 - The Hacker News, 30 Oct 2026 - The Register (first known AI-run spy campaign, Nov 2025), 13 Nov 2025.
