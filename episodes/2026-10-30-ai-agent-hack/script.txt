@@ -1,0 +1,13 @@
+In just eleven days, one hacking group went after more than two hundred organisations in fourteen countries. And most of the work was done by AI.
+
+That's according to CrowdStrike, one of the world's biggest cybersecurity companies. It says a China-linked group it calls Vapor Panda ran a team of AI agents, powered mostly by DeepSeek, a Chinese AI model.
+
+So how did it work? One human gave the orders, in Chinese, and only stepped in for the big decisions. The agents did the rest. They tried several ways into each target at the same time, and when one way failed, they simply switched to another.
+
+The targets? Foreign ministries, defence and chip companies, and phone networks. CrowdStrike confirmed break-ins at nine of them.
+
+And here's the scary part: speed. A human hacker runs maybe forty commands an hour. CrowdStrike says these agents could top fifteen hundred.
+
+Last November, the first known AI-run spy campaign went after about thirty targets. Now it's two hundred.
+
+So here's the takeaway: hacking now runs at machine speed, which makes the boring basics, updates and two-factor logins, more important than ever.
