@@ -4,10 +4,20 @@
   "topic": "What a wallet really holds: keys and a recovery phrase, not coins (told through the 2025\u201326 fake Ledger/Trezor letters)",
   "produced_at": "2026-10-30T05:26:59+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-30-wallet-words.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-30-wallet-words-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-30-wallet-words-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-30-wallet-words-story_3.jpg"
+  ],
+  "auto_posted": true,
+  "posted_at": "2026-10-30T07:30:38Z",
+  "instagram_account": "@sonartracker.io",
+  "instagram_media_id": "18115961810010088",
+  "sources_comment_id": "17914882293509776",
+  "story_media_ids": [
+    "18117177836021746",
+    "18314852041303932",
+    "18464980303187952"
   ]
 }
