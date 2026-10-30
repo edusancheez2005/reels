@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 7.76
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 39.3,
+    "to": 45.0
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "AI hacked 200+ targets in 11 days"
+  }
+]
