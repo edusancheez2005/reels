@@ -1,4 +1,13 @@
-VERDICT: FAIL
+VERDICT: PASS WITH NOTES (after the must-fix below was fixed; the reviewer's original verdict was FAIL, kept in full below)
+
+Fix applied 30 Oct 2026, 21:04-21:06 UTC: both Al Jazeera address bars (s2, s18) now read the real domain "aljazeera.com"
+(spliced frames 92-151 and 1397-1478; checked frames at 4.0 s and 48.0 s of the final mp4). The reviewer wrote: "With this
+fixed, the reel is a PASS WITH NOTES." Also spliced: s5 box nudge. Not re-rendered: the other layout notes (s13 "platform"
+cut, s14 underline, s19 ring, s20 tag size/margin, s8 tag margin) - Edu at 21:03: "no need to re-render. post it, its perfect".
+No second fresh review: Edu asked to post now; the only must-fix was the URL text, verified on the frames above.
+
+---- Original review ----
+Original verdict: FAIL
 
 Must fix:
 1. s2 (3.1–5.1 s) and s18 (46.6–49.3 s), the Al Jazeera screenshot: the browser bar shows an address that doesn't exist.

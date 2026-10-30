@@ -39,3 +39,4 @@
 - [x] What a wallet really holds: keys and a recovery phrase, not coins (told through the 2025–26 fake Ledger/Trezor letters) (2026-10-30-wallet-words)
 
 - [ ] (Later, not within a week of the Binance reel) How the $1.5B Bybit hack worked (Feb 2025) — "In February 2025, hackers took nearly $1.5 billion of crypto from one exchange, in a single transaction." (#23; how: a tampered signing screen; who investigators blamed; lesson: check what you sign)
+- [x] Breaking news: the $6.3B Binance hack, 29 Oct 2026 (who, how, why, the market) (2026-10-30-binance-hack)
