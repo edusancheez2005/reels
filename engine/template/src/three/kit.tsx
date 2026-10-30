@@ -145,7 +145,7 @@ const Backdrop: React.FC<{color: string}> = ({color}) => {
 };
 
 // ---------- 2D overlay labels (canvas pixel coords, 1080 × CANVAS.h) ----------
-export type Tag = {text: string; x: number; y: number; to?: [number, number]; tone?: 'accent' | 'alert' | 'good' | 'warm' | 'muted'; size?: number; mono?: boolean};
+export type Tag = {text: string; x: number; y: number; to?: [number, number]; tone?: 'accent' | 'alert' | 'good' | 'warm' | 'muted'; size?: number; mono?: boolean; pill?: boolean};
 
 export const Tags: React.FC<{tags: Tag[]; show: number[]}> = ({tags, show}) => {
   const pal = usePal();
@@ -164,6 +164,16 @@ export const Tags: React.FC<{tags: Tag[]; show: number[]}> = ({tags, show}) => {
                 <line x1={t.x} y1={t.y + 14} x2={t.x + (t.to[0] - t.x) * lineLen} y2={t.y + 14 + (t.to[1] - t.y - 14) * lineLen} stroke={col} strokeWidth={2.5} opacity={0.85} />
                 <circle cx={t.to[0]} cy={t.to[1]} r={7 * o} fill={col} />
               </>
+            ) : null}
+            {t.pill ? (
+              <rect
+                x={t.x - (t.text.length * (fs * 0.66 + 4)) / 2 - fs * 0.5}
+                y={t.y - fs * 0.92 + (1 - o) * 14}
+                width={t.text.length * (fs * 0.66 + 4) + fs}
+                height={fs * 1.32}
+                rx={fs * 0.3}
+                fill="rgba(8,12,20,0.82)"
+              />
             ) : null}
             <text
               x={t.x}

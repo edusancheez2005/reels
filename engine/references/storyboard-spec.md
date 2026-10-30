@@ -208,3 +208,14 @@ Stat, Steps, Compare, Terminal, Window, Diagram, Chart, Image.
 Create it in `src/scenes/`, register it in `src/scenes/index.ts`, take `({props, beats, durationInFrames})`,
 read colours from `usePal()`, and drive reveals from `useReveal(beats, i)` / `revealFrame(beats, i)`.
 Keep it in the template so later episodes can reuse it.
+
+**Seed3D** (Wallet3D.tsx, 30 Oct 2026): a cream recovery-phrase card (12 numbered example BIP-39 words, "example words · not a
+real wallet") on a walnut desk, a generic unbranded hardware wallet, an optional wall of 2,048 word tiles. Actions: `card`,
+`write`, `glow`, `key` (gold key rises from the card), `wall`, `pick` (12 tiles fly onto the card), `device`, `restore`
+(screen → "Wallet restored"), `copy` (the words lift off and fly away red), `two` (a second copy slides out), `label:<n>`, `cam`.
+Props: `words`, `title`, `device`, `blank`, `wordsLit`. Whole card + device: cam ≈ `{pos: [0.47, 7.6, 7.2], look: [0.47, 0, 0.3], fov: 34}`.
+**Letter3D**: a generic scam letter (IMPORTANT NOTICE, grey text, QR code, red box, hologram seal; no brand) in an envelope, and
+a phone with a fake "Verify your wallet" page. Actions: `arrive`, `open`, `qr`, `deadline` (red stamp), `site`, `type`, `steal`,
+`label:<n>`, `cam`. Props: `deadline` + `deadlineLabel` (only what the real letter said: a reviewer failed an invented
+"IN 7 DAYS"), `opened`, `phone`. Always `caption: "Recreation"`. Tags over light objects: add `"pill": true` (dark backing; any 3D tag).
+Character3D also takes `item: "letter"` (with `hold`) to hold a sheet of paper instead of a drive.

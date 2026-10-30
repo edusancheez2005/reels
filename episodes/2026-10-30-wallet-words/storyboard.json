@@ -1,0 +1,948 @@
+{
+ "slug": "wallet-words",
+ "theme": "dark",
+ "tail": 1.0,
+ "emphasis": [
+  "doesn't hold",
+  "twelve or twenty-four words,",
+  "take everything.",
+  "blockchain,",
+  "secret key",
+  "two thousand and forty-eight.",
+  "the coins come back.",
+  "Jacob Canfield,",
+  "paper letter",
+  "a threat:",
+  "a scam.",
+  "a deadline.",
+  "stole the words.",
+  "Two mistakes",
+  "trusting a deadline,",
+  "into a website.",
+  "no undo.",
+  "your own wallet.",
+  "never ask."
+ ],
+ "scenes": [
+  {
+   "anchor": "Your",
+   "component": "Seed3D",
+   "theme": "dark",
+   "moving": true,
+   "long": true,
+   "props": {
+    "device": true,
+    "actions": [
+     "label:0",
+     "label:1",
+     "cam",
+     "copy",
+     "label:2"
+    ],
+    "tags": [
+     {
+      "text": "12 or 24 words",
+      "x": 540,
+      "y": 1470,
+      "tone": "warm",
+      "size": 70
+     },
+     {
+      "text": "0 coins inside",
+      "x": 540,
+      "y": 1530,
+      "tone": "muted",
+      "size": 34
+     },
+     {
+      "text": "Whoever sees them can take it all",
+      "x": 540,
+      "y": 560,
+      "tone": "alert",
+      "size": 38
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.47,
+       7.6,
+       7.2
+      ],
+      "look": [
+       0.47,
+       0,
+       0.3
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.1,
+       5.8,
+       5.6
+      ],
+      "look": [
+       0.1,
+       0,
+       0.25
+      ],
+      "fov": 34,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "Your",
+    "hold",
+    "twelve",
+    "whoever",
+    "everything."
+   ]
+  },
+  {
+   "anchor": "Coins",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "packed": true,
+    "actions": [
+     "block",
+     "chain",
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "The blockchain",
+      "x": 540,
+      "y": 1330,
+      "tone": "accent",
+      "size": 56
+     },
+     {
+      "text": "a shared public record",
+      "x": 540,
+      "y": 1400,
+      "tone": "muted",
+      "size": 36
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       5.0,
+       11.0
+      ],
+      "look": [
+       0,
+       1.8,
+       0
+      ],
+      "fov": 34
+     }
+    ]
+   },
+   "beats": [
+    "Coins",
+    "blockchain,",
+    "shared",
+    "record."
+   ]
+  },
+  {
+   "anchor": "Those",
+   "component": "Seed3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "blank": false,
+    "actions": [
+     "glow",
+     "key",
+     "label:0",
+     "wall",
+     "label:1",
+     "label:2"
+    ],
+    "tags": [
+     {
+      "text": "The words = your secret key",
+      "x": 540,
+      "y": 1400,
+      "tone": "warm",
+      "size": 44,
+      "pill": true
+     },
+     {
+      "text": "2,048 possible words",
+      "x": 540,
+      "y": 560,
+      "tone": "accent",
+      "size": 54
+     },
+     {
+      "text": "BIP-39 standard · 2013",
+      "x": 540,
+      "y": 625,
+      "tone": "muted",
+      "size": 32
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       6.0,
+       5.6
+      ],
+      "look": [
+       0,
+       0,
+       0.2
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 3,
+      "pos": [
+       0,
+       2.4,
+       9.8
+      ],
+      "look": [
+       0,
+       1.6,
+       -1.2
+      ],
+      "fov": 36,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "Those",
+    "secret",
+    "spends",
+    "list",
+    "two",
+    "forty-eight."
+   ]
+  },
+  {
+   "anchor": "Lose",
+   "component": "Phone3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "rotY": 0.35,
+    "spinTo": 2.72,
+    "screenOn": true,
+    "actions": [
+     "spin",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Phone lost?",
+      "x": 540,
+      "y": 1460,
+      "tone": "warm",
+      "size": 54
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0,
+       10.2
+      ],
+      "look": [
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "Lose",
+    "phone?"
+   ]
+  },
+  {
+   "anchor": "Type",
+   "component": "Seed3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "device": true,
+    "actions": [
+     "glow",
+     "restore",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Same words, new wallet: coins back",
+      "x": 540,
+      "y": 560,
+      "tone": "good",
+      "size": 36
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       6.4,
+       6.0
+      ],
+      "look": [
+       0.6,
+       0,
+       0.3
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.5,
+       4.2,
+       3.8
+      ],
+      "look": [
+       1.6,
+       0,
+       0.25
+      ],
+      "fov": 32,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "Type",
+    "wallet:",
+    "back."
+   ]
+  },
+  {
+   "anchor": "In April",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "actions": [
+     "label:0",
+     "enter",
+     "card"
+    ],
+    "card": {
+     "name": "JACOB CANFIELD",
+     "role": "crypto trader",
+     "note": "3D stand-in",
+     "y": 1340
+    },
+    "tags": [
+     {
+      "text": "April 2025",
+      "x": 540,
+      "y": 560,
+      "tone": "warm",
+      "size": 54
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.85,
+       8.8
+      ],
+      "look": [
+       0,
+       0.15,
+       0
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "April",
+    "trader",
+    "Jacob"
+   ]
+  },
+  {
+   "anchor": "got",
+   "component": "Letter3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "actions": [
+     "arrive",
+     "open",
+     "label:0",
+     "label:1"
+    ],
+    "deadline": "MANDATORY",
+    "tags": [
+     {
+      "text": "A letter posing as Ledger",
+      "x": 540,
+      "y": 520,
+      "tone": "warm",
+      "size": 46
+     },
+     {
+      "text": "Ledger makes hardware wallets",
+      "x": 540,
+      "y": 585,
+      "tone": "muted",
+      "size": 32
+     }
+    ],
+    "caption": "Recreation",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       6.8,
+       5.6
+      ],
+      "look": [
+       0,
+       0,
+       -0.1
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       6.0,
+       4.6
+      ],
+      "look": [
+       0,
+       0,
+       0.3
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ],
+    "deadlineLabel": "VALIDATION IS"
+   },
+   "beats": [
+    "got",
+    "paper",
+    "posing",
+    "maker."
+   ]
+  },
+  {
+   "anchor": "A QR",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "ct2025.png",
+    "chrome": "browser",
+    "url": "cointelegraph.com",
+    "source": "Cointelegraph · 30 Apr 2025 · photos: Jacob Canfield",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.683,
+      "zoom": 1.6
+     },
+     {
+      "x": 0.37,
+      "y": 0.72,
+      "zoom": 2.6
+     },
+     {
+      "x": 0.5,
+      "y": 0.462,
+      "zoom": 1.15
+     },
+     {
+      "x": 0.5,
+      "y": 0.47,
+      "zoom": 1.3
+     },
+     {
+      "x": 0.5,
+      "y": 0.498,
+      "zoom": 1.3
+     },
+     {
+      "x": 0.5,
+      "y": 0.575,
+      "zoom": 1.5
+     },
+     {
+      "x": 0.5,
+      "y": 0.896,
+      "zoom": 1.15
+     },
+     {
+      "x": 0.5,
+      "y": 0.896,
+      "zoom": 1.3
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "circle",
+      "x": 640,
+      "y": 3650,
+      "w": 190,
+      "h": 190
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 200,
+      "y": 2325,
+      "w": 1540,
+      "h": 80
+     },
+     {
+      "beat": 3,
+      "kind": "underline",
+      "x": 1130,
+      "y": 2385,
+      "w": 520,
+      "h": 50
+     },
+     {
+      "beat": 4,
+      "kind": "box",
+      "x": 200,
+      "y": 2535,
+      "w": 1560,
+      "h": 115
+     },
+     {
+      "beat": 5,
+      "kind": "box",
+      "x": 395,
+      "y": 2880,
+      "w": 1215,
+      "h": 220
+     },
+     {
+      "beat": 7,
+      "kind": "underline",
+      "x": 210,
+      "y": 4640,
+      "w": 1460,
+      "h": 100
+     }
+    ]
+   },
+   "beats": [
+    "A QR",
+    "code",
+    "threat:",
+    "recovery",
+    "lose",
+    "posted",
+    "Ledger",
+    "scam."
+   ]
+  },
+  {
+   "anchor": "In February",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "source": "Fake Trezor letter · photo: Dmitry Smilyanets via Cointelegraph",
+    "text": "“Authentication Check will soon become a mandatory part of Trezor”",
+    "mark": "mandatory",
+    "stamp": "Feb 2026",
+    "note": "Exact words from the letter"
+   },
+   "beats": [
+    "In",
+    "February",
+    "twenty-six,"
+   ]
+  },
+  {
+   "anchor": "owners",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "src": "ct2026.png",
+    "chrome": "browser",
+    "url": "cointelegraph.com",
+    "source": "Cointelegraph · 17 Feb 2026 · photo: Dmitry Smilyanets",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.663,
+      "zoom": 1.5
+     },
+     {
+      "x": 0.3,
+      "y": 0.6,
+      "zoom": 2.4
+     },
+     {
+      "x": 0.5,
+      "y": 0.7,
+      "zoom": 2.4
+     },
+     {
+      "x": 0.33,
+      "y": 0.688,
+      "zoom": 2.4
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 420,
+      "y": 2950,
+      "w": 420,
+      "h": 110
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 920,
+      "y": 3585,
+      "w": 165,
+      "h": 150
+     },
+     {
+      "beat": 3,
+      "kind": "box",
+      "x": 415,
+      "y": 3538,
+      "w": 470,
+      "h": 52
+     }
+    ]
+   },
+   "beats": [
+    "owners",
+    "Trezor,",
+    "got",
+    "deadline."
+   ]
+  },
+  {
+   "anchor": "Its",
+   "component": "Letter3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "opened": true,
+    "deadline": "15 FEB",
+    "actions": [
+     "qr",
+     "site",
+     "type",
+     "steal",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Fake page · words sent to the thief",
+      "x": 540,
+      "y": 450,
+      "tone": "alert",
+      "size": 36,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       5.2,
+       4.6
+      ],
+      "look": [
+       0.6,
+       0.2,
+       0.5
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.4,
+       3.2,
+       4.6
+      ],
+      "look": [
+       1.1,
+       0.7,
+       0.9
+      ],
+      "fov": 36,
+      "dur": 30
+     }
+    ],
+    "caption": "Recreation"
+   },
+   "beats": [
+    "Its",
+    "fake",
+    "page",
+    "stole",
+    "words."
+   ]
+  },
+  {
+   "anchor": "Two",
+   "component": "Letter3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "opened": true,
+    "deadline": "15 FEB",
+    "actions": [
+     "label:0",
+     "deadline",
+     "label:1",
+     "site",
+     "type",
+     "label:2"
+    ],
+    "tags": [
+     {
+      "text": "2 mistakes",
+      "x": 540,
+      "y": 490,
+      "tone": "warm",
+      "size": 54,
+      "pill": true
+     },
+     {
+      "text": "1 · Trusting a deadline",
+      "x": 540,
+      "y": 565,
+      "tone": "alert",
+      "size": 40,
+      "pill": true
+     },
+     {
+      "text": "2 · Typing the words into a site",
+      "x": 540,
+      "y": 632,
+      "tone": "alert",
+      "size": 36,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.2,
+       6.4,
+       4.2
+      ],
+      "look": [
+       -0.2,
+       0,
+       -0.45
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 3,
+      "pos": [
+       0.6,
+       6.0,
+       5.0
+      ],
+      "look": [
+       0.6,
+       0.3,
+       -0.2
+      ],
+      "fov": 36,
+      "dur": 30
+     }
+    ],
+    "caption": "Recreation"
+   },
+   "beats": [
+    "Two",
+    "trusting",
+    "deadline,",
+    "typing",
+    "words",
+    "website."
+   ]
+  },
+  {
+   "anchor": "Once",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "opened": true,
+    "actions": [
+     "move",
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "No undo",
+      "x": 540,
+      "y": 1340,
+      "tone": "alert",
+      "size": 64
+     },
+     {
+      "text": "Nobody can reverse it",
+      "x": 540,
+      "y": 1416,
+      "tone": "muted",
+      "size": 34
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.2,
+       0.6,
+       9.0
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 32
+     }
+    ]
+   },
+   "beats": [
+    "Once",
+    "no",
+    "undo."
+   ]
+  },
+  {
+   "anchor": "Enter",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "Where your words go",
+    "rows": [
+     {
+      "left": "A website or QR code",
+      "badge": "NEVER",
+      "tone": "alert"
+     },
+     {
+      "left": "A letter, email or DM",
+      "badge": "NEVER",
+      "tone": "alert"
+     },
+     {
+      "left": "Your own wallet device",
+      "badge": "ONLY HERE",
+      "tone": "good"
+     }
+    ],
+    "note": "Write them on paper, offline"
+   },
+   "beats": [
+    "Enter",
+    "only",
+    "own",
+    "wallet."
+   ]
+  },
+  {
+   "anchor": "Ledger and",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "src": "ledger-banner.png",
+    "chrome": "browser",
+    "url": "support.ledger.com",
+    "source": "support.ledger.com · 30 Oct 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "zoom": 1.08
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 20,
+      "y": 25,
+      "w": 950,
+      "h": 190
+     }
+    ]
+   },
+   "beats": [
+    "Ledger",
+    "never",
+    "ask."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+Your crypto wallet doesn't hold any crypto. It holds twelve or twenty-four words, and whoever sees them can take everything.
+
+Coins sit on the blockchain, a shared public record. Those words make the secret key that spends them, picked from a list of two thousand and forty-eight. Lose your phone? Type them into a new wallet: the coins come back.
+
+In April twenty twenty-five, trader Jacob Canfield got a paper letter posing as Ledger, a wallet-device maker. A QR code and a threat: enter your recovery words, or lose access. He posted a warning; Ledger called it a scam. In February twenty twenty-six, owners of Trezor, another maker, got one with a deadline. Its QR code led to a fake page that stole the words.
+
+Two mistakes make it work: trusting a deadline, and typing your words into a website. Once typed, there's no undo. Enter them only on your own wallet. Ledger and Trezor never ask.

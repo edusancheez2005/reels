@@ -17,7 +17,7 @@ import {LaptopDrive, useWood} from './Drives3D';
  *   card       name card appears (props.card)
  *   type       typing at the laptop (use with desk)
  *   coins      coins start popping out of the laptop onto a pile; `count` (optional) is the beat the pile and counter finish
- *   hold       holds a hard drive in front of the chest     two   holds up a drive in each hand
+ *   hold       holds a hard drive (or a letter, with item: "letter") in front of the chest     two   holds up a drive in each hand
  *   facepalm   hand to forehead, head down                  shrug palms up
  *   look       head turns to props.look ("left" | "right" | "down")       idle  back to standing
  *   label:<n>  show tag n        cam   (no-op beat for cam[])
@@ -49,6 +49,7 @@ type P = {
   turn?: number;
   look?: 'left' | 'right' | 'down';
   colours?: {top?: string; legs?: string; skin?: string; hair?: string};
+  item?: 'drive' | 'letter';
 };
 
 const L1 = 0.5;
@@ -532,7 +533,7 @@ export const Character3D: React.FC<SceneProps<P>> = ({props, beats, durationInFr
         {/* held drives */}
         {holdW > 0.05 ? (
           <group position={R.H.clone().add(Lf.H).multiplyScalar(0.5).add(new THREE.Vector3(0, 0.12, 0.12))} rotation={[1.25, 0, 0]} scale={0.55 * holdW}>
-            <LaptopDrive glow={0.6} />
+            {props.item === 'letter' ? <HeldLetter /> : <LaptopDrive glow={0.6} />}
           </group>
         ) : null}
         {twoW > 0.05
@@ -591,5 +592,35 @@ export const Character3D: React.FC<SceneProps<P>> = ({props, beats, durationInFr
         ) : null}
       </group>
     </Studio>
+  );
+};
+
+/** A sheet of paper with grey text lines and a QR code, for item: "letter" (held facing the camera). */
+const HeldLetter: React.FC = () => {
+  const tex = useMemo(
+    () =>
+      canvasTex(300, 400, (g) => {
+        g.fillStyle = '#fbfbf8';
+        g.fillRect(0, 0, 300, 400);
+        g.fillStyle = '#20242c';
+        g.fillRect(0, 0, 300, 8);
+        g.fillRect(24, 34, 150, 16);
+        for (let i = 0; i < 7; i++) {
+          g.fillStyle = '#c3c7ce';
+          g.fillRect(24, 74 + i * 18, 150 + rand(i + 1) * 100, 7);
+        }
+        g.strokeStyle = '#c0392b';
+        g.lineWidth = 3;
+        g.strokeRect(24, 230, 130, 50);
+        g.fillStyle = '#111';
+        for (let r = 0; r < 11; r++) for (let k = 0; k < 11; k++) if (rand(r * 17 + k * 5) > 0.5 || (r < 3 && k < 3)) g.fillRect(180 + k * 8, 226 + r * 8, 8, 8);
+      }),
+    [],
+  );
+  return (
+    <mesh rotation={[-Math.PI / 2, 0, 0]}>
+      <planeGeometry args={[1.5, 2.0]} />
+      <meshStandardMaterial map={tex ?? undefined} roughness={0.85} side={THREE.DoubleSide} />
+    </mesh>
   );
 };

@@ -37,3 +37,4 @@
 - [ ] Bitcoin ETFs: why Wall Street funds now hold over a million bitcoin — "Funds on Wall Street hold more bitcoin than Satoshi." (#23)
 - [ ] Why Bitcoin uses as much electricity as a country (and the debate around it) — "Bitcoin's network uses about as much electricity as a mid-sized country." (#26 The Superlative; give the critics' side)
 - [x] Remake: the man who threw away a hard drive with 8,000 bitcoin (3D character + court documents) (2026-10-29-landfill-story)
+- [x] What a wallet really holds: keys and a recovery phrase, not coins (told through the 2025–26 fake Ledger/Trezor letters) (2026-10-30-wallet-words)

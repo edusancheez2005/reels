@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 7.31
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 43.0,
+    "to": 47.85
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "Your wallet holds no crypto"
+  }
+]
