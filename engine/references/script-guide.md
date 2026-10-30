@@ -31,6 +31,24 @@ What went wrong in the landfill reel, and the rule that fixes it:
 
 No intro, no "hey guys", no "in this video". The first word is already content.
 
+## Clarity pass (Edu, 30 Oct 2026: parts of the wallet script "do not make much sense")
+
+Every sentence must make sense on one listen, in order, to someone who has never bought crypto. What went wrong in
+`episodes/2026-10-30-wallet-words` and the rule each breaks:
+- "Those words make the secret key that spends them, picked from a list of two thousand and forty-eight." Two ideas in one
+  sentence, "them" points at the coins, and "picked from" attaches to the key. → One idea per sentence; every pronoun has one
+  possible meaning. "The words rebuild the secret key that moves your coins. Each word comes from a list of 2,048."
+- "Lose your phone? Type them into a new wallet: the coins come back." The line before said the coins never leave the
+  blockchain. → Never contradict an earlier line: "...and you're back in."
+- The jump from "how it works" straight into "In April 2025, trader Jacob Canfield got a paper letter..." with no link. →
+  Every new part opens with the bridge: "That's why scammers want those words."
+- "recovery words" first appears inside the scam, never introduced as the name of the 12–24 words. → Name a term the first
+  time the thing appears: "...12 or 24 words, called your recovery phrase."
+- "owners of Trezor, another maker, got one with a deadline." → Don't drop the noun to save words: "got a similar letter".
+- "Two mistakes make it work" when nobody in the story made a mistake (Canfield spotted the scam). → The landfill-style
+  "his two mistakes" ending is for a person who made them. Otherwise: "The trick needs you to do two things: ..."
+Self-check: read the script aloud once, no rewinding. Any line you'd have to replay gets rewritten.
+
 ## What-if reels (Edu, 29 Oct 2026: "hypothetical situations like that are very cool")
 
 "What would happen if Bitcoin fell to $1?", "What if Bitcoin was the only money?". Thought experiments, never predictions.

@@ -101,8 +101,14 @@ spending an hour on voice and render. When the script and research.md are done, 
 > section "Story reels: Edu's standard". Then read episodes/<id>/script.txt and episodes/<id>/research.md. Answer: does every
 > person get introduced (who, why they matter) before they act? Is the chain of events explained (how it happened, what was
 > tried, why it failed)? Are there 6+ concrete sourced facts? Does the ending name this story's specific mistakes and the fix,
-> and say why? Is it 120–160 words? Reply with VERDICT: PASS or REWRITE, and for REWRITE the exact lines to change.
-Rewrite and ask again until PASS (max 2 rounds). Only then voice it.
+> and say why? Is it 120–160 words? Then do the stranger read (script-guide "Clarity pass"): read it once, out loud, as
+> someone who has never bought crypto, and list every sentence you would have to replay: an "it/them/one" that could point at
+> two things, a term used before it is explained, a jump to a new part with no line linking it to the last one, a line that
+> contradicts an earlier line, a word dropped for brevity ("got one"), or an ending that doesn't fit this story (whose
+> mistakes, if nobody in the story made them?). Any such sentence means REWRITE. Reply with VERDICT: PASS or REWRITE, and for
+> REWRITE the exact lines to change.
+Rewrite and ask again until PASS (max 2 rounds). Only then voice it. Edu (30 Oct 2026): the wallet reel was "good" but parts
+of the script "do not make much sense"; the old brief checked the checklist and missed them.
 
 ## 2b. Independent review (after the final render, before saving/posting)
 
