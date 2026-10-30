@@ -1,0 +1,1249 @@
+{
+ "slug": "binance-breakdown",
+ "theme": "dark",
+ "tail": 1.0,
+ "emphasis": [
+  "six billion dollars",
+  "twenty minutes.",
+  "biggest crypto theft ever.",
+  "North Korea's",
+  "TraderTraitor.",
+  "not official,",
+  "hacked laptop.",
+  "approves withdrawals,",
+  "ten crypto networks.",
+  "same wallet",
+  "another exchange,",
+  "about half",
+  "weapons.",
+  "three billion dollars",
+  "frozen,",
+  "all customer losses.",
+  "five percent",
+  "security,",
+  "pay you back.",
+  "tested both."
+ ],
+ "scenes": [
+  {
+   "anchor": "Hackers",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "opened": true,
+    "keyGone": true,
+    "plate": "BINANCE HOT WALLET",
+    "actions": [
+     "label:0",
+     "drain",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "$6.3 BILLION",
+      "x": 540,
+      "y": 610,
+      "tone": "alert",
+      "size": 120
+     },
+     {
+      "text": "stolen from Binance",
+      "x": 540,
+      "y": 700,
+      "size": 44
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.9,
+       1.2,
+       9.8
+      ],
+      "look": [
+       0.3,
+       -0.25,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 2,
+      "pos": [
+       1.2,
+       1.05,
+       8.9
+      ],
+      "look": [
+       0.35,
+       -0.25,
+       0
+      ],
+      "fov": 38
+     }
+    ]
+   },
+   "beats": [
+    "Hackers",
+    "just",
+    "Binance,"
+   ]
+  },
+  {
+   "anchor": "the world's",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "src": "aj_head.png",
+    "chrome": "browser",
+    "url": "aljazeera.com",
+    "source": "Al Jazeera · 30 Oct 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.3,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.1,
+      "zoom": 1.05
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 10,
+      "y": 8,
+      "w": 1300,
+      "h": 205
+     }
+    ]
+   },
+   "beats": [
+    "world's",
+    "biggest"
+   ]
+  },
+  {
+   "anchor": "Most of it",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 20,
+    "suffix": " MIN",
+    "chip": "Thu 29 Oct · from 20:05 UTC",
+    "label": "to empty most of it",
+    "tone": "alert"
+   },
+   "beats": [
+    "Most",
+    "twenty",
+    "minutes."
+   ]
+  },
+  {
+   "anchor": "It's the biggest",
+   "component": "Growth",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "items": [
+     {
+      "label": "Bybit, 2025",
+      "value": 1.5,
+      "display": "$1.5B"
+     },
+     {
+      "label": "Binance, 2026",
+      "value": 6.3,
+      "display": "$6.3B"
+     }
+    ],
+    "badge": "×4"
+   },
+   "beats": [
+    "It's",
+    "biggest",
+    "ever."
+   ]
+  },
+  {
+   "anchor": "Who did it",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "zoom",
+   "long": true,
+   "props": {
+    "src": "firms.png",
+    "chrome": "none",
+    "source": "TRM Labs · Chainalysis · Elliptic, 29–30 Oct 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.2,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.17,
+      "zoom": 1.12
+     },
+     {
+      "x": 0.5,
+      "y": 0.42,
+      "zoom": 1.12
+     },
+     {
+      "x": 0.5,
+      "y": 0.72,
+      "zoom": 1.05
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 205,
+      "y": 188,
+      "w": 425,
+      "h": 84
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 538,
+      "y": 732,
+      "w": 567,
+      "h": 66
+     },
+     {
+      "beat": 3,
+      "kind": "box",
+      "x": 120,
+      "y": 1390,
+      "w": 440,
+      "h": 88
+     }
+    ]
+   },
+   "beats": [
+    "Who",
+    "Three",
+    "detective",
+    "point"
+   ]
+  },
+  {
+   "anchor": "North Korea's",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "src": "trm_key.png",
+    "chrome": "browser",
+    "url": "trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance",
+    "source": "TRM Labs · 29 Oct 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.55,
+      "zoom": 1.05
+     },
+     {
+      "x": 0.6,
+      "y": 0.72,
+      "zoom": 1.45
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 565,
+      "y": 438,
+      "w": 790,
+      "h": 52
+     }
+    ]
+   },
+   "beats": [
+    "North",
+    "TraderTraitor."
+   ]
+  },
+  {
+   "anchor": "It's not official",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "fbi_psa.png",
+    "chrome": "browser",
+    "url": "ic3.gov/PSA/2025/PSA250226",
+    "source": "FBI public service announcement · 26 Feb 2025",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.3,
+      "zoom": 1.05
+     },
+     {
+      "x": 0.5,
+      "y": 0.42,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.52,
+      "y": 0.57,
+      "zoom": 1.35
+     },
+     {
+      "x": 0.55,
+      "y": 0.43,
+      "zoom": 1.25
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 298,
+      "y": 478,
+      "w": 980,
+      "h": 66
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 748,
+      "y": 696,
+      "w": 204,
+      "h": 48
+     },
+     {
+      "beat": 3,
+      "kind": "underline",
+      "x": 840,
+      "y": 538,
+      "w": 428,
+      "h": 12
+     }
+    ]
+   },
+   "beats": [
+    "not",
+    "FBI",
+    "TraderTraitor",
+    "record"
+   ]
+  },
+  {
+   "anchor": "How did",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "engineer"
+    ],
+    "actions": [
+     "show:engineer",
+     "alert:laptop",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "one engineer's laptop, hacked",
+      "at": "laptop",
+      "side": "right",
+      "dx": 120,
+      "dy": -170,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1,
+       0.3,
+       0
+      ],
+      "zoom": 66
+     },
+     {
+      "beat": 1,
+      "target": [
+       -4.2,
+       0.4,
+       1.4
+      ],
+      "zoom": 118
+     }
+    ]
+   },
+   "beats": [
+    "How",
+    "Binance",
+    "hacked"
+   ]
+  },
+  {
+   "anchor": "From there",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "alert": [
+      "laptop"
+     ]
+    },
+    "actions": [
+     "link:attack",
+     "alert:inside",
+     "label:0",
+     "move:tx",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "attacker inside Binance's systems",
+      "at": "inside",
+      "side": "left",
+      "dx": -40,
+      "dy": -190,
+      "tone": "alert"
+     },
+     {
+      "text": "approval checks pass",
+      "at": "check",
+      "side": "right",
+      "dx": 60,
+      "dy": -170,
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -4.2,
+       0.4,
+       1.4
+      ],
+      "zoom": 118
+     },
+     {
+      "beat": 0,
+      "target": [
+       -1.2,
+       0.4,
+       0.8
+      ],
+      "zoom": 72
+     }
+    ]
+   },
+   "beats": [
+    "From",
+    "there,",
+    "got",
+    "system",
+    "approves"
+   ]
+  },
+  {
+   "anchor": "and sent money",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "alert": [
+      "laptop",
+      "inside"
+     ],
+     "links": [
+      "attack",
+      "l1",
+      "l2"
+     ],
+     "moved": [
+      "tx"
+     ]
+    },
+    "actions": [
+     "link:l3",
+     "link:out",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "money out on 10+ networks",
+      "at": "coins",
+      "side": "left",
+      "dx": -60,
+      "dy": -200,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.2,
+       0.4,
+       0.8
+      ],
+      "zoom": 72
+     },
+     {
+      "beat": 0,
+      "target": [
+       2.2,
+       0.4,
+       -0.4
+      ],
+      "zoom": 76
+     }
+    ]
+   },
+   "beats": [
+    "sent",
+    "ten"
+   ]
+  },
+  {
+   "anchor": "The detectives'",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "chainalysis.png",
+    "chrome": "browser",
+    "url": "chainalysis.com/blog/binance-exploit-latest-findings-and-response",
+    "source": "Chainalysis · 30 Oct 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.16,
+      "y": 0.58,
+      "zoom": 1.9
+     },
+     {
+      "x": 0.27,
+      "y": 0.86,
+      "zoom": 1.9
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 160,
+      "y": 845,
+      "w": 270,
+      "h": 190
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 345,
+      "y": 1365,
+      "w": 410,
+      "h": 235
+     }
+    ]
+   },
+   "beats": [
+    "clue",
+    "some",
+    "same"
+   ]
+  },
+  {
+   "anchor": "as money from",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "bitget",
+     "shared"
+    ],
+    "state": {
+     "alert": [
+      "laptop",
+      "inside"
+     ],
+     "links": [
+      "attack",
+      "l1",
+      "l2",
+      "l3",
+      "out"
+     ],
+     "moved": [
+      "tx"
+     ]
+    },
+    "actions": [
+     "show:shared",
+     "link:c1",
+     "label:0",
+     "show:bitget",
+     "link:c2"
+    ],
+    "labels": [
+     {
+      "text": "the same wallet",
+      "at": "shared",
+      "side": "left",
+      "dx": -30,
+      "dy": -200,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.6,
+       0.3,
+       -1.2
+      ],
+      "zoom": 78
+     },
+     {
+      "beat": 1,
+      "target": [
+       0.9,
+       0.3,
+       -2.2
+      ],
+      "zoom": 104
+     }
+    ]
+   },
+   "beats": [
+    "money",
+    "last",
+    "hack",
+    "Bitget,",
+    "another"
+   ]
+  },
+  {
+   "anchor": "also blamed",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "src": "bitget.png",
+    "chrome": "browser",
+    "url": "therecord.media/crypto-ceo-accuses-north-korea-of-387-million-theft",
+    "source": "The Record · 25 Sep 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 25,
+      "y": 985,
+      "w": 1335,
+      "h": 285
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 800,
+      "y": 1062,
+      "w": 360,
+      "h": 18
+     }
+    ]
+   },
+   "beats": [
+    "also",
+    "North"
+   ]
+  },
+  {
+   "anchor": "Why steal",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "src": "un.png",
+    "chrome": "browser",
+    "url": "koreatimes.co.kr/foreignaffairs/northkorea/20240321",
+    "source": "Korea Times · 21 Mar 2024 · UN panel of experts",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.47,
+      "y": 0.08,
+      "zoom": 1.25
+     },
+     {
+      "x": 0.62,
+      "y": 0.93,
+      "zoom": 1.5
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 15,
+      "y": 78,
+      "w": 1310,
+      "h": 145
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 1000,
+      "y": 1546,
+      "w": 300,
+      "h": 14
+     }
+    ]
+   },
+   "beats": [
+    "Why",
+    "UN",
+    "hacking"
+   ]
+  },
+  {
+   "anchor": "about half",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 50,
+    "prefix": "≈",
+    "suffix": "%",
+    "chip": "UN panel of experts · 2024",
+    "label": "of North Korea's foreign money",
+    "tone": "accent"
+   },
+   "beats": [
+    "about",
+    "half",
+    "foreign"
+   ]
+  },
+  {
+   "anchor": "and helps fund",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "src": "un.png",
+    "chrome": "browser",
+    "url": "koreatimes.co.kr/foreignaffairs/northkorea/20240321",
+    "source": "Korea Times · 21 Mar 2024",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.93,
+      "zoom": 1.5
+     },
+     {
+      "x": 0.62,
+      "y": 0.95,
+      "zoom": 1.9
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 740,
+      "y": 1622,
+      "w": 530,
+      "h": 16
+     }
+    ]
+   },
+   "beats": [
+    "helps",
+    "weapons."
+   ]
+  },
+  {
+   "anchor": "almost three",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "alert": [
+      "laptop",
+      "inside"
+     ],
+     "links": [
+      "attack",
+      "l1",
+      "l2",
+      "l3",
+      "out",
+      "c1",
+      "c2"
+     ],
+     "moved": [
+      "tx"
+     ]
+    },
+    "actions": [
+     "cam",
+     "freeze:coins",
+     "freeze:shared",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "~$2.8B frozen by Tether, Circle & others",
+      "at": "coins",
+      "side": "left",
+      "dx": -40,
+      "dy": -220,
+      "tone": "ice"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0.6,
+       0.3,
+       -0.6
+      ],
+      "zoom": 70
+     },
+     {
+      "beat": 0,
+      "target": [
+       3.2,
+       0.3,
+       -2.0
+      ],
+      "zoom": 96
+     }
+    ]
+   },
+   "beats": [
+    "almost",
+    "billion",
+    "stolen",
+    "frozen,"
+   ]
+  },
+  {
+   "anchor": "and Binance says",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "src": "aj_cover.png",
+    "chrome": "browser",
+    "url": "aljazeera.com",
+    "source": "Al Jazeera · 30 Oct 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.45,
+      "y": 0.45,
+      "zoom": 1.15
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 355,
+      "y": 90,
+      "w": 318,
+      "h": 12
+     }
+    ]
+   },
+   "beats": [
+    "Binance",
+    "cover"
+   ]
+  },
+  {
+   "anchor": "And the market",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "src": "btc_chart.png",
+    "chrome": "card",
+    "source": "CoinGecko · prices to 30 Oct 19:22 UTC",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.72,
+      "y": 0.72,
+      "zoom": 1.35
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "circle",
+      "x": 1195,
+      "y": 1066,
+      "w": 320,
+      "h": 96
+     }
+    ]
+   },
+   "beats": [
+    "market?",
+    "five"
+   ]
+  },
+  {
+   "anchor": "Here's the takeaway",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "plate": "EXCHANGE",
+    "actions": [
+     "cam",
+     "label:0",
+     "label:1",
+     "label:2",
+     "try"
+    ],
+    "tags": [
+     {
+      "text": "your crypto",
+      "x": 290,
+      "y": 650,
+      "tone": "warm",
+      "size": 56,
+      "to": [
+       430,
+       1180
+      ]
+     },
+     {
+      "text": "their security",
+      "x": 750,
+      "y": 720,
+      "tone": "accent",
+      "size": 56,
+      "to": [
+       670,
+       1040
+      ]
+     },
+     {
+      "text": "+ their promise to pay you back",
+      "x": 520,
+      "y": 1470,
+      "tone": "good",
+      "size": 36
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.6,
+       1.0,
+       9.6
+      ],
+      "look": [
+       0,
+       -0.4,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 0,
+      "pos": [
+       1.0,
+       0.75,
+       7.8
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 32
+     }
+    ]
+   },
+   "beats": [
+    "takeaway:",
+    "crypto",
+    "security,",
+    "pay",
+    "tested"
+   ]
+  }
+ ],
+ "captionStyle": "pill",
+ "header": {
+  "title": "THE $6.3B BINANCE HACK",
+  "date": "29 OCT 2026"
+ },
+ "chapters": [
+  {
+   "anchor": "Hackers",
+   "label": "Heist"
+  },
+  {
+   "anchor": "Who did it",
+   "label": "Who"
+  },
+  {
+   "anchor": "How did",
+   "label": "How"
+  },
+  {
+   "anchor": "The detectives'",
+   "label": "Clue"
+  },
+  {
+   "anchor": "Why steal",
+   "label": "Why"
+  },
+  {
+   "anchor": "But almost",
+   "label": "After"
+  }
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "vault",
+     "kind": "vault",
+     "at": [
+      3.6,
+      -1.4
+     ],
+     "size": 1.0
+    },
+    {
+     "id": "laptop",
+     "kind": "laptop",
+     "at": [
+      -4.4,
+      1.8
+     ],
+     "size": 1.0
+    },
+    {
+     "id": "engineer",
+     "kind": "pawn",
+     "at": [
+      -5.2,
+      0.9
+     ],
+     "size": 0.9
+    },
+    {
+     "id": "inside",
+     "kind": "server",
+     "at": [
+      -1.6,
+      0.2
+     ]
+    },
+    {
+     "id": "check",
+     "kind": "block",
+     "at": [
+      1.0,
+      1.6
+     ],
+     "icon": "check",
+     "tone": "good"
+    },
+    {
+     "id": "key",
+     "kind": "key",
+     "at": [
+      3.9,
+      1.6
+     ],
+     "size": 0.9,
+     "tone": "good"
+    },
+    {
+     "id": "coins",
+     "kind": "coins",
+     "at": [
+      4.8,
+      -2.3
+     ]
+    },
+    {
+     "id": "bitget",
+     "kind": "block",
+     "at": [
+      -0.6,
+      -2.4
+     ],
+     "icon": "coin",
+     "tone": "muted"
+    },
+    {
+     "id": "shared",
+     "kind": "block",
+     "at": [
+      1.9,
+      -2.5
+     ],
+     "icon": "eye",
+     "tone": "warm"
+    }
+   ],
+   "links": [
+    {
+     "id": "attack",
+     "from": "laptop",
+     "to": "inside",
+     "style": "beam",
+     "tone": "alert"
+    },
+    {
+     "id": "l1",
+     "from": "inside",
+     "to": "check"
+    },
+    {
+     "id": "l2",
+     "from": "check",
+     "to": "key"
+    },
+    {
+     "id": "l3",
+     "from": "key",
+     "to": "vault"
+    },
+    {
+     "id": "out",
+     "from": "vault",
+     "to": "coins",
+     "style": "beam",
+     "tone": "warm"
+    },
+    {
+     "id": "c1",
+     "from": "coins",
+     "to": "shared",
+     "style": "beam",
+     "tone": "warm"
+    },
+    {
+     "id": "c2",
+     "from": "bitget",
+     "to": "shared",
+     "style": "beam",
+     "tone": "alert"
+    }
+   ],
+   "movers": [
+    {
+     "id": "tx",
+     "kind": "doc",
+     "path": [
+      "inside",
+      "check",
+      "key",
+      "vault"
+     ],
+     "dur": 16
+    },
+    {
+     "id": "cb",
+     "kind": "coin",
+     "path": [
+      "coins",
+      "shared"
+     ],
+     "dur": 22
+    },
+    {
+     "id": "cg",
+     "kind": "coin",
+     "path": [
+      "bitget",
+      "shared"
+     ],
+     "dur": 22
+    }
+   ]
+  }
+ },
+ "captionY": 1470
+}

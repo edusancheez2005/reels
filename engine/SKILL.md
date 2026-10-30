@@ -46,7 +46,8 @@ Default for story, news and what-if reels from 31 Oct 2026:
   the receipts: headlines, filings, explorer pages.
 - The number on screen in the first second and the designed cover still apply.
 - Worked example: `references/examples/breakdown-binance.storyboard.json` (header, chapters, one world in `defs`, three Iso3D scenes
-  that carry state forward).
+  that carry state forward); `references/examples/breakdown-binance-full.storyboard.json` is the whole 20-scene reel in this format
+  (Iso3D also for the clue and the freeze; receipts on dark). Built 30 Oct as a test, not posted.
 
 Read before the first episode, and whenever a step is unclear:
 - `references/script-guide.md` — hooks, structure, writing for the ear
