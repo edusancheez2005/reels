@@ -119,6 +119,7 @@ def main():
     ap.add_argument("--voice", default="af_heart", help="af_heart (best), af_bella, am_michael, bf_emma, bm_george…")
     ap.add_argument("--speed", type=float, default=1.05)
     ap.add_argument("--cache", default=str(Path.home() / ".cache" / "kokoro"))
+    ap.add_argument("--gap-scale", type=float, default=1.0, help="scale the pauses between sentences (0.6 = tighter, more energetic)")
     a = ap.parse_args()
 
     try:
@@ -146,7 +147,7 @@ def main():
             captions.append({"text": (" " if captions else "") + w, "startMs": round((t0 + s) * 1000),
                              "endMs": round((t0 + e) * 1000), "timestampMs": None, "confidence": None})
         chunks.append(audio)
-        gap = GAP.get(sent.rstrip("\"')]")[-1], 0.25) if si < len(sentences) - 1 else 0.15
+        gap = GAP.get(sent.rstrip("\"')]")[-1], 0.25) * a.gap_scale if si < len(sentences) - 1 else 0.15
         chunks.append(np.zeros(int(gap * SR), dtype=np.float32))
         t0 += len(audio) / SR + gap
         print(f"  {si + 1}/{len(sentences)}  {len(audio) / SR:5.2f}s  {sent[:60]}")

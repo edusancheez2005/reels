@@ -11,3 +11,5 @@ __pycache__/
 episodes/*/review/
 episodes/*/story_card.png
 episodes/*/qa*/
+episodes/*/assets/raw/
+episodes/*/render.log

@@ -16,6 +16,7 @@ import {LaptopDrive, useWood} from './Drives3D';
  *   wave       waves (right hand), then drops back to the previous pose
  *   card       name card appears (props.card)
  *   type       typing at the laptop (use with desk)
+ *   hacked     the laptop glows red and pulses (a compromised machine; use with desk)
  *   coins      coins start popping out of the laptop onto a pile; `count` (optional) is the beat the pile and counter finish
  *   hold       holds a hard drive (or a letter, with item: "letter") in front of the chest     two   holds up a drive in each hand
  *   facepalm   hand to forehead, head down                  shrug palms up
@@ -337,6 +338,11 @@ export const Character3D: React.FC<SceneProps<P>> = ({props, beats, durationInFr
   const flash = coinsS >= 0 && coinProg < 1 ? 0.5 + 0.5 * Math.sin(coinsS * 0.9) : 0;
   screenMat.emissiveIntensity = 0.55 + 0.6 * flash;
   const lidMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#59606b', metalness: 0.9, roughness: 0.35}), []);
+  // hacked: the laptop's glow turns red and pulses (a compromised machine)
+  const hackS = has('hacked') ? since('hacked') : -1;
+  const hackPulse = hackS >= 0 ? 0.55 + 0.45 * Math.sin(hackS / 3.4) : 0;
+  lidMat.emissive = new THREE.Color('#ff3045');
+  lidMat.emissiveIntensity = hackS >= 0 ? Math.min(1, hackS / 8) * (0.25 + 0.55 * hackPulse) : 0;
   const keysTex = useMemo(
     () =>
       canvasTex(512, 340, (g) => {
@@ -395,7 +401,7 @@ export const Character3D: React.FC<SceneProps<P>> = ({props, beats, durationInFr
         <circleGeometry args={[9, 64]} />
         <meshStandardMaterial map={floorTex ?? undefined} roughness={0.95} transparent />
       </mesh>
-      {props.desk ? <pointLight position={[0, FLOOR + 1.55, 0.7]} intensity={0.9 + 0.7 * flash} distance={2.4} color="#9fd4ff" /> : null}
+      {props.desk ? <pointLight position={[0, FLOOR + 1.55, 0.7]} intensity={hackS >= 0 ? 1.4 + 1.4 * hackPulse : 0.9 + 0.7 * flash} distance={hackS >= 0 ? 3.2 : 2.4} color={hackS >= 0 ? '#ff4050' : '#9fd4ff'} /> : null}
       <group position={[rootX, FLOOR, 0]} rotation={[0, rootRot, 0]}>
         <BlobShadow w={1.5} d={1.0} opacity={0.6} position={[0, 0.004, 0.05]} />
         {/* legs + shoes */}

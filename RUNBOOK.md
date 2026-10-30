@@ -62,9 +62,11 @@ source .env.local              # REMOTION_BROWSER etc.
 - Script 120–160 words (45–60 s; up to ~65 s if the story needs it). Edu, 29 Oct 2026, on the 33 s landfill reel: "too short,
   barely any information". Information first: follow "Story reels: Edu's standard" in `engine/references/script-guide.md`
   (introduce every person, cause and effect, 6+ concrete facts, an ending that names this story's mistakes and why).
+  Only use ElevenLabs when the plan allows commercial use (the free tier does not: check `/v1/user/subscription` tier != free).
   Voice (Edu, 30 Oct: "make the talking a little bit more enthusiastic"): if `ELEVENLABS_API_KEY` is set in the environment
   and the channel has `voice_eleven`, use `python3 engine/scripts/tts_elevenlabs.py … --voice-id <voice_eleven> --stability 0.35
-  --style 0.45 --speed 1.08`; otherwise `python3 engine/scripts/tts_local.py … --voice <channel "voice"> --speed 1.1`.
+  --style 0.45 --speed 1.08`; otherwise `python3 engine/scripts/tts_local.py … --voice <channel "voice"> --speed 1.12
+  --gap-scale 0.6` (tighter pauses between sentences: livelier, and ~2 s shorter).
   Write the script to be spoken with energy: "Talk like a friend" in the script guide.
 - Assets: logos via `get_logos.mjs`. Real pages: `node engine/scripts/screenshot.mjs <url> episodes/<id>/assets/<name>.png
   --selector "<css>" --zoom 1.6` (the workspace can reach all websites since 29 Oct; Etherscan blocks bots, use another

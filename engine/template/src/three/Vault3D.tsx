@@ -19,6 +19,8 @@ import {Caption, Studio, Tags, useCamera, useClock, glowMat, rand, type Cam, typ
  *   lock       frost spreads over the glass, an ice-blue ring locks around the keyhole
  *   scan       a light sweep crosses the glass and the coins glint (public: anyone can see them)
  *   try        the door rattles; keyhole flashes amber (can't be opened)
+ *   drain      a stream of coins pours out of the open door for the rest of the scene while the pile empties,
+ *              and a red alarm beacon on top pulses (a hack draining a hot wallet; use with opened: true)
  *   label:<n>  show tag n        cam   (no-op beat for cam[])
  * props: coins (default 48), opened, keyGone, frozen (state from an earlier scene), plate (text on the safe's top plate), tags, caption, cam
  */
@@ -133,6 +135,7 @@ export const Vault3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames
   const iceRing = useMemo(() => glowMat(ICE, 2.4), []);
   const amberRing = useMemo(() => glowMat(AMBER, 2.6), []);
   const sparkMat = useMemo(() => glowMat('#FFD27A', 3), []);
+  const alarmMat = useMemo(() => glowMat('#ff4d5e', 3), []);
   const scanMat = useMemo(() => new THREE.MeshBasicMaterial({color: '#bfefff', transparent: true, opacity: 0, depthWrite: false, toneMapped: false}), []);
   const plateTex = useMemo(() => (props.plate ? plateTexture(props.plate) : null), [props.plate]);
   const coinGeo = useMemo(() => new THREE.CylinderGeometry(0.17, 0.17, 0.05, 40), []);
@@ -147,6 +150,9 @@ export const Vault3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames
   const doorOpen = Math.max(0, openP - shutP * (props.opened || turnP > 0 ? 1 : 0));
   const lockP = props.frozen ? 1 : p('lock', 30, Easing.out(Easing.cubic));
   const moveP = p('move', 34, Easing.inOut(Easing.cubic));
+  const drainS = acts.includes('drain') ? since('drain') : -1;
+  const drainP = drainS >= 0 ? Math.min(1, drainS / 110) : 0;
+  alarmMat.emissiveIntensity = drainS >= 0 ? 1.2 + 2.6 * Math.max(0, Math.sin(drainS / 3.2)) : 0;
   const scanS = since('scan');
   const tryS = since('try');
   const rattle = tryS >= 0 && tryS < 26 ? Math.sin(tryS * 1.9) * 0.035 * (1 - tryS / 26) : 0;
@@ -236,6 +242,7 @@ export const Vault3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames
         ))}
         {/* coins */}
         {coins.map((c, i) => {
+          if (drainP > 0 && i >= Math.ceil(coins.length * (1 - 0.82 * drainP))) return null;
           const mv = i >= coins.length - movers ? moveP : 0;
           const j = i - (coins.length - movers);
           const fly = mv > 0 ? new THREE.Vector3(c.x + mv * (2.6 + j * 0.3), c.y - Y0 + mv * (1.3 + j * 0.25) + Math.sin(mv * Math.PI) * 0.6, c.z + mv * (1.9 - j * 0.2)) : null;
@@ -250,6 +257,35 @@ export const Vault3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames
             />
           );
         })}
+        {/* drain: a stream of coins pouring out of the open door */}
+        {drainS >= 0
+          ? Array.from({length: 30}).map((_, k) => {
+              const age = drainS - k;
+              if (age < 0) return null;
+              const t = (age % 30) / 30;
+              const e = Easing.out(Easing.quad)(t);
+              const sx = (rand(k + 101) - 0.5) * 1.3;
+              const sy = -H / 2 + T + 0.25 + rand(k + 107) * 0.3;
+              const ex = 2.6 + rand(k + 113) * 2.2;
+              const ey = -0.4 + rand(k + 127) * 2.4;
+              const ez = D / 2 + 1.4 + rand(k + 131) * 1.6;
+              const x = sx + (ex - sx) * e;
+              const y = sy + (ey - sy) * e + Math.sin(t * Math.PI) * 0.9;
+              const z = 0.2 + (ez - 0.2) * e;
+              const sc = t > 0.82 ? Math.max(0, 1 - (t - 0.82) / 0.18) : Math.min(1, t * 8);
+              return <mesh key={`d${k}`} geometry={coinGeo} material={coinMat} position={[x, y, z]} rotation={[t * 9 + k, t * 6 + rand(k) * 6, t * 4]} scale={sc * 1.15} />;
+            })
+          : null}
+        {drainS >= 0 ? (
+          <group position={[W / 2 - 0.35, H / 2 + 0.12, D / 2 - 0.3]}>
+            <mesh material={trimMat}>
+              <cylinderGeometry args={[0.13, 0.15, 0.06, 32]} />
+            </mesh>
+            <mesh material={alarmMat} position={[0, 0.11, 0]} scale={[1, 1 + 0.15 * Math.max(0, Math.sin(drainS / 3)), 1]}>
+              <cylinderGeometry args={[0.09, 0.1, 0.16, 32]} />
+            </mesh>
+          </group>
+        ) : null}
         {/* top plate */}
         {plateTex ? (
           <mesh position={[0, H / 2 + 0.002, D / 2 - 0.45]} rotation={[-Math.PI / 2, 0, 0]}>

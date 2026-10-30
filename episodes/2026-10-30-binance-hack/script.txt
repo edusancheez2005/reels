@@ -1,0 +1,17 @@
+Hackers just stole over six billion dollars from Binance, the world's biggest crypto exchange. Most of it in about twenty minutes.
+
+It's the biggest crypto theft ever.
+
+Who did it? Three crypto detective firms point to North Korea's hacking team, TraderTraitor. It's not official, but the FBI blamed TraderTraitor for the last record hack.
+
+How did they get in? Binance says it may have started with one engineer's hacked laptop. From there, they got into the system that approves withdrawals, and sent money out on at least ten crypto networks.
+
+The detectives' big clue: some of it landed in the same wallet as money from last month's hack of Bitget, another exchange, also blamed on North Korea.
+
+Why steal? UN experts say hacking earns North Korea about half its foreign money, and helps fund its weapons.
+
+But almost three billion dollars of the stolen money is now frozen, and Binance says it'll cover all customer losses.
+
+And the market? Bitcoin's down about five percent since the hack.
+
+Here's the takeaway: crypto on an exchange is only as safe as that exchange's security, and its promise to pay you back. This hack tested both.

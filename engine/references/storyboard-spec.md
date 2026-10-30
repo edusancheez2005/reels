@@ -175,7 +175,8 @@ red/green are reserved for down/up moves on Sonar.
 **Vault3D**: a gunmetal safe with a thick glass door (coins stay visible), a pile of gold coins and a gold key, for private-key /
 self-custody / lost-coins beats. Actions: `build`, `key` (key floats in), `turn` (key into the lock, door swings open), `move`
 (a few coins fly out), `lose` (key pulls out, tumbles away, breaks into sparks; door shuts), `lock` (frost + ice-blue ring),
-`scan` (light sweep: anyone can see them), `try` (door rattles, keyhole flashes amber), `label:<n>`, `cam`. State props:
+`scan` (light sweep: anyone can see them), `try` (door rattles, keyhole flashes amber), `drain` (with `opened: true`: a stream of coins pours
+out of the door for the rest of the scene, the pile empties and a red alarm beacon pulses: a hack draining an exchange's hot wallet), `label:<n>`, `cam`. State props:
 `opened`, `keyGone`, `frozen`; `plate` (text on the top plate), `coins`, `scale` (0.62). Frame it with look y ≈ -0.5, camera z ≈ 8–9.
 **Drive3D**: a generic unbranded encrypted USB drive with 10 attempt lights. Actions: `drive`, `ten` (lights on), `lockout`
 (ghost padlock), `used` (first `used` lights turn amber), `left` (remaining pulse), `label:<n>`, `cam`. Camera z ≈ 15–17.
@@ -186,7 +187,7 @@ and `filled: true` (stacks start full, no `stack` beat). Keep `sub` matched to t
 a story (Edu, 29 Oct 2026: "the guy's a character"). Never a likeness; put "3D stand-in" in the name card's `note` once.
 Arms are two-bone IK, so poses are hand targets. Actions: `enter` (walks in from the left, turns to camera), `wave`, `card`
 (name card from `card: {name, role, note, y}`, keep y ≤ 1350), `type` (at the laptop; with `desk: true`), `coins` (coins pop
-from the laptop onto a pile; `count` = the beat the pile and `counter: {to, suffix, x, y, size}` finish), `hold` (a drive in
+from the laptop onto a pile; `count` = the beat the pile and `counter: {to, suffix, x, y, size}` finish), `hacked` (with `desk: true`: the laptop glows red and pulses, a compromised machine), `hold` (a drive in
 both hands), `two` (a drive in each hand), `facepalm`, `shrug`, `look` (+ `look: "left"|"right"|"down"`), `idle`, `label:<n>`,
 `cam`. Props: `pose` (start pose), `x`, `turn`, `colours: {top, legs, skin, hair}`. Portrait framing: standing full figure
 cam ≈ `{pos: [0, 0.85, 8.8], look: [0, 0.15, 0], fov: 30}`; at the desk ≈ `{pos: [2.7, 1.15, 10], look: [0.45, -0.1, 0.6]}`.
