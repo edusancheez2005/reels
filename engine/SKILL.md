@@ -45,6 +45,8 @@ Default for story, news and what-if reels from 31 Oct 2026:
   colour that means something (red = attacker / what went wrong, green = legitimate / safe). Real screenshots (`Shot`) stay for
   the receipts: headlines, filings, explorer pages.
 - The number on screen in the first second and the designed cover still apply.
+- Worked example: `references/examples/breakdown-binance.storyboard.json` (header, chapters, one world in `defs`, three Iso3D scenes
+  that carry state forward).
 
 Read before the first episode, and whenever a step is unclear:
 - `references/script-guide.md` — hooks, structure, writing for the ear

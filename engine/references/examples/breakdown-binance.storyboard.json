@@ -1,0 +1,338 @@
+{
+ "_note": "Worked example of the breakdown format (30 Oct 2026): header + chapters + pill captions + one Iso3D world (defs.iso) used by three consecutive scenes, carrying state forward. Built on the Binance hack script; scenes other than the Iso3D ones are trimmed.",
+ "theme": "dark",
+ "captionStyle": "pill",
+ "header": {
+  "title": "THE $6.3B BINANCE HACK",
+  "date": "29 OCT 2026"
+ },
+ "chapters": [
+  {
+   "anchor": "Hackers",
+   "label": "Heist"
+  },
+  {
+   "anchor": "Who did it",
+   "label": "Who"
+  },
+  {
+   "anchor": "How did",
+   "label": "How"
+  },
+  {
+   "anchor": "The detectives'",
+   "label": "Clue"
+  },
+  {
+   "anchor": "Why steal",
+   "label": "Why"
+  },
+  {
+   "anchor": "But almost",
+   "label": "After"
+  }
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "vault",
+     "kind": "vault",
+     "at": [
+      3.6,
+      -1.4
+     ],
+     "size": 1.0
+    },
+    {
+     "id": "laptop",
+     "kind": "laptop",
+     "at": [
+      -4.4,
+      1.8
+     ],
+     "size": 1.0
+    },
+    {
+     "id": "engineer",
+     "kind": "pawn",
+     "at": [
+      -5.2,
+      0.9
+     ],
+     "size": 0.9
+    },
+    {
+     "id": "inside",
+     "kind": "server",
+     "at": [
+      -1.6,
+      0.2
+     ]
+    },
+    {
+     "id": "check",
+     "kind": "block",
+     "at": [
+      1.0,
+      1.6
+     ],
+     "icon": "check",
+     "tone": "good"
+    },
+    {
+     "id": "key",
+     "kind": "key",
+     "at": [
+      3.9,
+      1.6
+     ],
+     "size": 0.9,
+     "tone": "good"
+    },
+    {
+     "id": "coins",
+     "kind": "coins",
+     "at": [
+      4.8,
+      -2.3
+     ]
+    }
+   ],
+   "links": [
+    {
+     "id": "attack",
+     "from": "laptop",
+     "to": "inside",
+     "style": "beam",
+     "tone": "alert"
+    },
+    {
+     "id": "l1",
+     "from": "inside",
+     "to": "check"
+    },
+    {
+     "id": "l2",
+     "from": "check",
+     "to": "key"
+    },
+    {
+     "id": "l3",
+     "from": "key",
+     "to": "vault"
+    },
+    {
+     "id": "out",
+     "from": "vault",
+     "to": "coins",
+     "style": "beam",
+     "tone": "warm"
+    }
+   ],
+   "movers": [
+    {
+     "id": "tx",
+     "kind": "doc",
+     "path": [
+      "inside",
+      "check",
+      "key",
+      "vault"
+     ],
+     "dur": 16
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "How did",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "engineer"
+    ],
+    "actions": [
+     "show:engineer",
+     "alert:laptop",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "one engineer's laptop, hacked",
+      "at": "laptop",
+      "side": "right",
+      "dx": 120,
+      "dy": -170,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1,
+       0.3,
+       0
+      ],
+      "zoom": 66
+     },
+     {
+      "beat": 1,
+      "target": [
+       -4.2,
+       0.4,
+       1.4
+      ],
+      "zoom": 118
+     }
+    ]
+   },
+   "beats": [
+    "How",
+    "Binance",
+    "hacked"
+   ]
+  },
+  {
+   "anchor": "From there",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "alert": [
+      "laptop"
+     ]
+    },
+    "actions": [
+     "link:attack",
+     "alert:inside",
+     "label:0",
+     "move:tx",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "attacker inside Binance's systems",
+      "at": "inside",
+      "side": "left",
+      "dx": -40,
+      "dy": -190,
+      "tone": "alert"
+     },
+     {
+      "text": "approval checks pass",
+      "at": "check",
+      "side": "right",
+      "dx": 60,
+      "dy": -170,
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -4.2,
+       0.4,
+       1.4
+      ],
+      "zoom": 118
+     },
+     {
+      "beat": 0,
+      "target": [
+       -1.2,
+       0.4,
+       0.8
+      ],
+      "zoom": 72
+     }
+    ]
+   },
+   "beats": [
+    "From",
+    "there,",
+    "got",
+    "system",
+    "approves"
+   ]
+  },
+  {
+   "anchor": "and sent money",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "alert": [
+      "laptop",
+      "inside"
+     ],
+     "links": [
+      "attack",
+      "l1",
+      "l2"
+     ],
+     "moved": [
+      "tx"
+     ]
+    },
+    "actions": [
+     "link:l3",
+     "link:out",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "money out on 10+ networks",
+      "at": "coins",
+      "side": "left",
+      "dx": -60,
+      "dy": -200,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.2,
+       0.4,
+       0.8
+      ],
+      "zoom": 72
+     },
+     {
+      "beat": 0,
+      "target": [
+       2.2,
+       0.4,
+       -0.4
+      ],
+      "zoom": 76
+     }
+    ]
+   },
+   "beats": [
+    "sent",
+    "ten"
+   ]
+  }
+ ]
+}
