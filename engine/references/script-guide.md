@@ -31,6 +31,17 @@ What went wrong in the landfill reel, and the rule that fixes it:
 
 No intro, no "hey guys", no "in this video". The first word is already content.
 
+## Talk like a friend (Edu, 30 Oct 2026: "talk in a simplistic manner"; "a little bit more enthusiastic")
+
+Say it the way you'd explain it to a mate, in the order people think, with a bit of energy:
+- Edu's own example: "If you lose your words, you lose everything. If you know the words, you can type them into another
+  wallet and get your coins back." Not "Those words make the secret key that spends them."
+- Plain words over precise jargon ("get your coins back", "the code that moves your coins"); if-then sentences for cause
+  and effect; one idea per line.
+- Energy comes from the writing first: short punchy lines, a turn ("Here's the crazy part:", "And that's the problem."),
+  questions the viewer is already asking ("So why can't he just dig it up?"). Max one "!" per reel; no hype words.
+- Read it aloud with a smile. If it sounds like a textbook, rewrite it.
+
 ## Clarity pass (Edu, 30 Oct 2026: parts of the wallet script "do not make much sense")
 
 Every sentence must make sense on one listen, in order, to someone who has never bought crypto. What went wrong in

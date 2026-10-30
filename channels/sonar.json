@@ -15,7 +15,7 @@
     "alert": "#ff5b6b"
   },
   "audience": "people new to crypto: curious, just starting to understand it, not traders or insiders. Smart adults, so never childish or condescending.",
-  "tone": "calm, factual, no hype, no price predictions, no financial advice",
+  "tone": "friendly and enthusiastic, like explaining something cool to a mate: simple words, real energy, still factual; no hype about prices, no price predictions, no financial advice (Edu, 30 Oct 2026: the old calm delivery \"doesn't really add up with the vibe\")",
   "signoff": "Comment \"WHALE\" and Orca will DM you the breakdown.",
   "hashtags_base": [
     "#Bitcoin",
@@ -40,5 +40,7 @@
     "Max 5 hashtags (Instagram's cap since Dec 2025): #Bitcoin #CryptoNews #WhaleAlert #OnChain #Sonar.",
     "Then a 'Sources:' block (posted as the first comment, not in the caption)."
   ],
-  "instagram_connector": "Windsor.ai for Social Media → connector \"instagram\" (account \"sonartracker.io\")"
+  "instagram_connector": "Windsor.ai for Social Media → connector \"instagram\" (account \"sonartracker.io\")",
+  "voice_eleven": null,
+  "voice_note": "Kokoro voice used when no ElevenLabs key is set; voice_eleven = ElevenLabs voice id once Edu picks one from samples."
 }

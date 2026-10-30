@@ -62,9 +62,13 @@ source .env.local              # REMOTION_BROWSER etc.
 - Script 120–160 words (45–60 s; up to ~65 s if the story needs it). Edu, 29 Oct 2026, on the 33 s landfill reel: "too short,
   barely any information". Information first: follow "Story reels: Edu's standard" in `engine/references/script-guide.md`
   (introduce every person, cause and effect, 6+ concrete facts, an ending that names this story's mistakes and why).
-  Voice: `python3 engine/scripts/tts_local.py … --voice af_heart --speed 1.05`.
-- Assets: logos via `get_logos.mjs`. Screenshots only if the computer bridge / a browser tool is available
-  in this session (otherwise build from illustrations, maps, numbers and logos; don't stall).
+  Voice (Edu, 30 Oct: "make the talking a little bit more enthusiastic"): if `ELEVENLABS_API_KEY` is set in the environment
+  and the channel has `voice_eleven`, use `python3 engine/scripts/tts_elevenlabs.py … --voice-id <voice_eleven> --stability 0.35
+  --style 0.45 --speed 1.08`; otherwise `python3 engine/scripts/tts_local.py … --voice <channel "voice"> --speed 1.1`.
+  Write the script to be spoken with energy: "Talk like a friend" in the script guide.
+- Assets: logos via `get_logos.mjs`. Real pages: `node engine/scripts/screenshot.mjs <url> episodes/<id>/assets/<name>.png
+  --selector "<css>" --zoom 1.6` (the workspace can reach all websites since 29 Oct; Etherscan blocks bots, use another
+  explorer). If a page still can't be captured, use a Quote card with the exact words and source, never a recreated page.
 - Storyboard: 14–20 scenes, ≤ 1 plain text title per 5 scenes, 10–20 emphasis phrases. Variety (Edu, 29 Oct): no component
   in more than 3 scenes (and change the camera or setting each time); a timeline (Ruler) at most once and only when a
   sequence of 3+ dates is the point, never in two reels in a row; no "Illustration" captions on obvious graphics. Show the
