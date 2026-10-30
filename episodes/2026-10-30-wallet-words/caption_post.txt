@@ -1,0 +1,6 @@
+Your crypto wallet doesn't hold any crypto. It holds 12 or 24 recovery words, and whoever sees them can take everything.
+In April 2025, scammers mailed letters posing as Ledger: a QR code and a threat to enter your recovery words or lose access. In February 2026, Trezor owners got one with a deadline.
+The trick needs two mistakes: trusting a deadline, and typing your words into a website. There's no undo. Enter them only on your own wallet. Ledger and Trezor never ask.
+Follow for crypto, explained simply.
+Not financial advice.
+#Bitcoin #Crypto #CryptoExplained #CryptoForBeginners #Sonar
