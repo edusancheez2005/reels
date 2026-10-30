@@ -25,7 +25,10 @@
 | `theme` | Default scene theme, `"dark"` or `"light"`. |
 | `tail` | Seconds held after the last word (default 0.5). ~0.9 gives the ending room. |
 | `emphasis` | Phrases whose caption words get the selection box (all occurrences). Consecutive words share one box. |
-| `captionStyle` | `"kinetic"` (default, in-frame phrase at the top), `"band"` (v1 bottom captions) or `"none"`. |
+| `captionStyle` | `"kinetic"` (in-frame phrase at the top), `"pill"` (small dark pill near the bottom, words light up as spoken, emphasis in the accent colour: the breakdown look), `"band"` (v1 bottom captions) or `"none"`. `captionY` moves the pill (default 1330). |
+| `header` | `{"title", "date"}`: fixed line at the top of every frame, e.g. `{"title": "THE $6.3B BINANCE HACK", "date": "29 OCT 2026"}`. |
+| `chapters` | `[{"anchor", "label"}]`, 4–6 one-word labels: the chapter bar under the header, with a dot that travels as the story goes (Edu, 30 Oct 2026, after watcher.guru's Binance reel). Not a "timeline" in the Ruler sense. |
+| `defs` | Shared props, used by a scene with `"props": {"$use": "<key>", ...overrides}`. One Iso3D world defined once, used by several scenes. |
 
 ## Scene fields
 
@@ -201,6 +204,20 @@ Drawer cam ≈ `{pos: [0, 6.6, 3.0], look: [0, 0, 0.1], fov: 34}` (top-down: the
 **Landfill3D** (rebuilt 29 Oct): a mound covered in instanced lumpy bin bags, boxes, tyres, cans and planks, with the 2.5-inch
 LaptopDrive. Actions as before (`drive`, `drop`, `bury`, `ping`, `scan`, `fence`, `deny`, `own`, `key`).
 Faster QA: `node stills.mjs <outDir> <frame> <frame> ...` in reel-studio renders many stills from one bundle (qa_frames uses it).
+
+**Iso3D** (30 Oct 2026, the breakdown look): one clean isometric world on a dark slab, an orthographic camera that glides between its
+parts, and sentence-case label pills with leader lines. Build the story's mechanism as places in one world (the vault, the laptop, the
+system, the check, the key, the coins) and let consecutive Iso3D scenes move the camera through it: they read as one continuous shot.
+Define the world once in `defs` and `$use` it; carry state forward with `state` (`alert`, `good`, `frozen`, `links`, `moved`).
+Props: `world {w, d}` (default 12 × 7), `objects [{id, kind, at: [x, z], size, tone, icon, text, rot}]` with kind `server | block |
+doc | key | vault | laptop | coins | pawn | pad | wall`, tone `alert | good | accent | ice | warm | muted`, block screen `icon`
+`check | key | warn | lock | cross | coin | eye | sign`; `hidden [ids]`; `links [{id, from, to, style: dashed | beam, tone}]`;
+`movers [{id, kind: doc | coin, path: [ids or [x, z]], dur}]`; `labels [{text, at, side: left | right | up, dx, dy, tone}]` (pills
+are kept on screen automatically); `cam [{beat, target: [x, y, z], zoom, dur}]` (zoom ≈ 65 for the whole slab, 110–130 close).
+Actions: `show:<id>`, `hide:<id>`, `alert:<id>` (turns red), `good:<id>` (green), `freeze:<id>` (ice), `pulse:<id>`, `link:<id>`
+(draws a dashed line or a glowing beam), `move:<id>` (a document or coin travels its path), `label:<n>`, `cam`.
+Colour means something: red = the attacker or what went wrong, green = what looked legitimate or what's safe, warm = money moving.
+Pawns are abstract people (no faces): label them ("engineer", "3D stand-in" is not needed for a pawn).
 
 **Title**: big kinetic text, one line per beat. Use sparingly. `lines`, `accent`, `size`.
 

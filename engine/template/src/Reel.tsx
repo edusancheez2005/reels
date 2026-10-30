@@ -2,6 +2,8 @@ import React from 'react';
 import {AbsoluteFill, Audio, Sequence, staticFile} from 'remotion';
 import {KineticCaptions, type KCaption} from './KineticCaptions';
 import {Captions} from './Captions';
+import {ChapterBar, type Chapter, type Header} from './ChapterBar';
+import {PillCaptions} from './PillCaptions';
 import {PALETTES, PaletteProvider} from './lib/palette';
 import {theme} from './lib/theme';
 import {SceneShell, type TransitionKind} from './Shell';
@@ -26,7 +28,10 @@ export type Timeline = {
   height: number;
   durationInFrames: number;
   audio: string | null;
-  captionStyle?: 'kinetic' | 'band' | 'none';
+  captionStyle?: 'kinetic' | 'band' | 'pill' | 'none';
+  captionY?: number;
+  header?: Header;
+  chapters?: Chapter[];
   captions: KCaption[];
   scenes: TimelineScene[];
 };
@@ -62,6 +67,8 @@ export const Reel: React.FC<{timeline: Timeline}> = ({timeline}) => {
       })}
       {style === 'kinetic' ? <KineticCaptions captions={timeline.captions} themeAt={themeAt} /> : null}
       {style === 'band' ? <Captions captions={timeline.captions} /> : null}
+      {style === 'pill' ? <PillCaptions captions={timeline.captions} y={timeline.captionY} /> : null}
+      {timeline.chapters && timeline.chapters.length ? <ChapterBar header={timeline.header} chapters={timeline.chapters} durationInFrames={timeline.durationInFrames} /> : null}
       {timeline.audio ? <Audio src={staticFile(timeline.audio)} /> : null}
     </AbsoluteFill>
   );

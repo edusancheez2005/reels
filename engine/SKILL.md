@@ -34,6 +34,18 @@ The bar is `../episodes/2026-10-29-landfill-story/` (55 s). Every reel:
 In the daily autopilot (`../RUNBOOK.md`), fresh reviewer agents replace "wait for the user's OK" at the script and video
 steps, and posting follows the gate in `../channels/autopost.json` + `../tools/prepost_check.py`.
 
+## Breakdown format (Edu, 30 Oct 2026, after watcher.guru's "How Binance got hacked for $6.3 billion")
+
+Default for story, news and what-if reels from 31 Oct 2026:
+- `"header": {"title", "date"}` + `"chapters"` (4–6 one-word steps, e.g. HEIST · WHO · HOW · CLUE · WHY · AFTER): the chapter bar
+  shows viewers where they are and how much is left. Anchor each chapter to the line that starts that part of the script.
+- `"captionStyle": "pill"`: small caption pill near the bottom; the top belongs to the chapter bar, the middle to the visual.
+- `"theme": "dark"` throughout (no light/dark alternation in this format).
+- The mechanism (how it happened) as one `Iso3D` world the camera moves through, with few labels, each with a leader line, and
+  colour that means something (red = attacker / what went wrong, green = legitimate / safe). Real screenshots (`Shot`) stay for
+  the receipts: headlines, filings, explorer pages.
+- The number on screen in the first second and the designed cover still apply.
+
 Read before the first episode, and whenever a step is unclear:
 - `references/script-guide.md` — hooks, structure, writing for the ear
 - `references/visual-style.md` — the look: kinetic captions, light/dark rhythm, motion, transitions

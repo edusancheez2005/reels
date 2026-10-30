@@ -181,7 +181,15 @@ def main():
         if beats != sorted(beats):
             errors.append(f"{r['label']}: beats are out of order {beats}")
 
-        props = rewrite_assets(dict(r["src"].get("props", {})), slug, ep, warns)
+        raw = dict(r["src"].get("props", {}))
+        use = raw.pop("$use", None)  # shared props from storyboard "defs" (e.g. one Iso3D world used by several scenes)
+        if use:
+            base = (sb.get("defs") or {}).get(use)
+            if base is None:
+                errors.append(f"{r['label']}: $use '{use}' not found in storyboard defs")
+            else:
+                raw = {**json.loads(json.dumps(base)), **raw}
+        props = rewrite_assets(raw, slug, ep, warns)
         out_scenes.append({
             "id": r["src"].get("id", f"s{k + 1}"),
             "component": r["src"]["component"],
@@ -221,6 +229,19 @@ def main():
         if not hit:
             warns.append(f"emphasis '{phrase}' not found in the words")
 
+    # chapter bar (Edu, 30 Oct 2026): "chapters": [{"anchor", "label"}] -> frames, in spoken order
+    chapters, ccur = [], 0
+    for c in sb.get("chapters", []):
+        try:
+            cidx, cms, _ = R.find(c["anchor"], ccur, f"chapter {c.get('label', '?')!r}")
+        except (ValueError, KeyError) as e:
+            errors.append(str(e) if isinstance(e, ValueError) else "chapter without 'anchor'")
+            continue
+        chapters.append({"label": str(c.get("label", "")).upper(), "from": 0 if not chapters and cidx == 0 else f(cms)})
+        ccur = cidx + 1
+    if sb.get("chapters") and len(chapters) > 6:
+        warns.append(f"{len(chapters)} chapters: more than 6 labels get cramped on a phone")
+
     timeline = {
         "slug": slug,
         "captionStyle": sb.get("captionStyle", "kinetic"),
@@ -232,6 +253,12 @@ def main():
         "captions": caps,
         "scenes": out_scenes,
     }
+    if chapters:
+        timeline["chapters"] = chapters
+    if sb.get("header"):
+        timeline["header"] = sb["header"]
+    if sb.get("captionY"):
+        timeline["captionY"] = sb["captionY"]
 
     audio = next((p for p in [ep / "voice.mp3", ep / "voice.wav"] if p.is_file()), None)
     if not audio:

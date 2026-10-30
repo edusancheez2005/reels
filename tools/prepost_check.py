@@ -166,7 +166,8 @@ if (ep / "storyboard.json").exists():
     labels = sum(1 for x in sb.get("scenes", []) if "llustration" in json.dumps(x.get("props", {})))
     if labels:
         warns.append(f"{labels} 'Illustration' captions; obvious graphics shouldn't have one")
-    over = sorted({c for c in comps if comps.count(c) > 3})
+    runs = [c for i, c in enumerate(comps) if not (c == "Iso3D" and i > 0 and comps[i - 1] == "Iso3D")]  # one world = one shot
+    over = sorted({c for c in runs if runs.count(c) > 3})
     if over:
         warns.append(f"components in more than 3 scenes: {', '.join(over)}")
 

@@ -22,8 +22,10 @@ Default to PASS. Use FAIL only for the "must fix" items below; everything else i
 9. **Enough substance** (Edu, 29 Oct 2026: the 33 s landfill reel was "too short, barely any information"). 45–60 s, 6+
    concrete sourced facts, every person introduced before they act, how it happened explained, and an ending that names this
    story's specific mistakes and the fix, and says why.
-10. **Original visuals.** No "Illustration" captions on obvious graphics. A timeline at most once, and only when a sequence
-   of dates is the point. No component in more than 3 scenes. Show the real thing (document, headline, name card) where possible.
+10. **Original visuals.** No "Illustration" captions on obvious graphics. A timeline (date Ruler) at most once, and only when a
+   sequence of dates is the point; the chapter bar at the top is not a timeline (Edu asked for it, 30 Oct 2026). No component in
+   more than 3 scenes, except consecutive Iso3D scenes on one world, which count as one continuous shot. Show the real thing
+   (document, headline, name card) where possible.
 
 ## Must fix (FAIL), only these
 - A factual error, a number that doesn't match research.md, or a claim with no source.
