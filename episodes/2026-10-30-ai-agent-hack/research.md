@@ -30,6 +30,10 @@ Researched Fri 30 Oct 2026, 22:10-22:20 UTC. News-level facts only: who, scale, 
     and passwords after any exposure; the group also tried password-spraying at 12+ more organisations (two-factor logins stop
     most of that). (CrowdStrike blog)
 
+## Derived numbers shown on screen (for traceability)
+- "~37× faster" = 1,500 / 40 = 37.5 (fact 7).
+- "~7× in a year" = 200 / ~30 = 6.7, shown as ~7 (facts 9 and 1); earlier draft rounded to ×6, which understates.
+
 ## Deliberately not used
 - Any description of the intrusion techniques or indicators: not needed to tell the story, and not something to broadcast.
 - CyberScoop's "140 compromised": CrowdStrike's own post confirms nine; the 140 figure mixes confirmed and moderate-confidence cases.
