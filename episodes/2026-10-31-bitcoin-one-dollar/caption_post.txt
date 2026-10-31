@@ -1,0 +1,5 @@
+If Bitcoin fell to $1, the miners keeping it running would earn about $3 a block. A thought experiment, not a prediction.
+Today each block pays about 3.13 bitcoin, roughly $240,000. At $1 that's $3, far below the power bill (mining uses about 0.5% of the world's electricity), so most machines would switch off. Fewer machines means slower blocks: when China banned mining in 2021, a third of mining power went dark and one block took 129 minutes. Then Bitcoin's built-in reset made the puzzle 28% easier, the biggest cut ever. The network survives. Holders don't: Strategy paid about $64 billion for 848,517 bitcoin that would be worth under $1 million. The rules protect the network, not the price. Critics say that's the risk.
+Follow for crypto, explained simply.
+Not financial advice.
+#Bitcoin #Crypto #CryptoExplained #BitcoinMining #Sonar
