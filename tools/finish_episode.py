@@ -18,9 +18,10 @@ if (ep / "story.json").exists():
     meta["story_urls"] = [f"https://raw.githubusercontent.com/edusancheez2005/reels/media/v/{eid}-{p['file']}"
                           for p in json.loads((ep / "story.json").read_text())]
 try:
-    _f = json.loads((ep / "storyboard.json").read_text()).get("format")
-    if _f:
-        meta["format"] = _f
+    _sb = json.loads((ep / "storyboard.json").read_text())
+    for _k in ("format", "topic_source"):
+        if _sb.get(_k):
+            meta[_k] = _sb[_k]
 except Exception:
     pass
 meta_p.write_text(json.dumps(meta, indent=2))

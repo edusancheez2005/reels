@@ -34,8 +34,44 @@ bash tools/setup.sh            # studio deps, voice model, headless Chrome; prin
 source .env.local              # REMOTION_BROWSER etc.
 ```
 
+## 0b. Trend scout (before the topic)
+
+Edu (31 Oct 2026): "it would find trends out there... or big news, because we want to be there. We want to be the first one."
+The plan is written a week ahead, so a big story that breaks overnight would otherwise be missed. Before §1, spawn a fresh
+scout with the Agent tool (subagent_type "general-purpose", run_in_background false). Fill in the date/time and the topics of
+every episode from the last 7 days (`episodes/*/meta.json` → topic, plus any cooldowns noted in the trigger, e.g. "no exchange
+hack before 6 Nov"), then give it this brief:
+> You are the trend scout for @sonartracker.io, an Instagram account that explains crypto, AI and tech-security news to
+> beginners in 45–60 s reels. It is <date> <time> London. Find what is breaking RIGHT NOW that this audience would want
+> explained today, so we can be first. Search the web (news sites, X and Reddit through search results, company and exchange
+> blogs, official statements, block explorers) for the last 36 hours. In scope: crypto (hacks, exchange news, big on-chain
+> moves, regulation, ETF flows, major launches or collapses), AI and big tech, cybersecurity incidents, market moves with a
+> clear money angle; a huge general story only if it has a money or tech angle. Skip: price predictions or "X could hit $Y",
+> paid promotions, rumours with one unnamed source, anything older than 72 h unless it is still escalating.
+> Already covered (don't propose these or the same story from another angle): <list>.
+> Return up to 5 candidates, best first. For each: the story in one plain sentence; when it broke (UTC); why a beginner would
+> care (one line); the hook number; how big it is (who is covering it); what is confirmed vs only reported; 2+ source URLs,
+> at least one a primary record (filing, official post, explorer) or a major outlet. End with one line: "BREAKING: use #n"
+> or "NOTHING BIG: follow the plan". Under 400 words. Don't write any files. Don't invent sources; if you can't find
+> anything solid, say so.
+
+Save its reply to `insights/trends/<YYYY-MM-DD>.md`. **Use the scout's pick instead of today's plan row only if all of these
+hold** (check them yourself; the scout is a lead, not a source):
+- it broke in the last ~36 h, or is still escalating;
+- at least two independent major outlets, or one primary record, confirm the core fact and the hook number;
+- it isn't a story (or a cooldown category) covered in the last 7 days;
+- it fits the channel (crypto / AI / tech / security / money) and can be told without predicting prices.
+Otherwise follow the plan. If you take the breaking story: research it from the primary sources in §2 as usual (re-verify
+everything; never copy the scout's numbers into research.md unchecked), set `"topic_source": "breaking"` in storyboard.json
+(`"plan"` otherwise), and add a line under today's row in `insights/plan.md`: "displaced by breaking news: <story>; planned
+topic moved to the top of its backlog". The format rule still applies (pick for the concept, not the last reel's format);
+breaking stories usually suit documentary or breakdown. In the final message to Edu, list the scout's other candidates in
+one line each, so he sees what else was out there.
+
 ## 1. Pick the channel and topic
 
+- If §0b picked a breaking story, it is today's topic: channel = `crypto` unless the plan row says `sonar` and the story is
+  on-chain; skip the backlog lines below.
 - If `insights/plan.md` has a row for today's date, that row decides the channel and the topic (it overrides the rota; on a
   `sonar` row a fresh verified on-chain event still comes first). Otherwise channel = `channels/rota.json[weekday]`
   (Europe/London date), or `crypto` if the day isn't listed. Load `channels/<channel>.json`.
@@ -187,7 +223,8 @@ python3 tools/prepost_check.py episodes/<id>   # PASS → writes caption_post.tx
 4. Update `episodes/<id>/meta.json`: `posted: true`, `auto_posted: true`, `posted_at` (UTC ISO), `instagram_media_id`,
    `sources_comment_id`, `story_media_ids` (if posted); commit and push.
 5. Tell Edu (status "proactive"): the mp4 (SendUserFile) and a message: "Posted to @sonartracker.io: <topic>" (and whether
-   the story went up), the reviewer's verdict, the caption, the sources, the media id, and "If anything's wrong, delete it
+   the story went up), whether the topic came from the plan or the trend scout (plus the scout's other candidates, one line
+   each), the reviewer's verdict, the caption, the sources, the media id, and "If anything's wrong, delete it
    in the Instagram app and tell me what to fix. Reply 'pause autopost' to go back to approving each one."
 If Instagram rejects the video, retry once; if it still fails, don't keep trying: send Edu the mp4 + caption for a manual
 upload and say exactly what the error was.

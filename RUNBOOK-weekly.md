@@ -33,6 +33,9 @@ Then rewrite `learnings.md` (keep its sections: Do / Avoid / Not working yet / W
 - Remove or downgrade anything this week's numbers contradict. Don't keep a rule just because it was there.
 - Judge by outlier multiple, 3-second skip and shares/saves per reach, not raw views. Check posting time last, and only claim
   something about it when the reels compared were posted at genuinely different times.
+- Compare reels by `topic_source` in meta.json ("breaking" from the trend scout vs "plan") and by `format`; say whether
+  breaking news is earning its place (same evidence bar as above). Glance at `insights/trends/` for big stories the scout
+  flagged that we skipped.
 - If a topic type clearly flops twice, move similar items down in `backlog/crypto.md` (don't delete them) and say so in learnings.
 
 ## 3b. Write next week's `insights/plan.md`
