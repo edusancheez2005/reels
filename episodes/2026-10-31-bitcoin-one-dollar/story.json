@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 8.39
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 28.4,
+    "to": 32.1
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "Bitcoin at $1? Here's what would happen"
+  }
+]

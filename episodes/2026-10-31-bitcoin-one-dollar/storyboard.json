@@ -1,0 +1,1107 @@
+{
+ "slug": "2026-10-31-bitcoin-one-dollar",
+ "theme": "dark",
+ "tail": 1.0,
+ "captionStyle": "pill",
+ "captionY": 1470,
+ "header": {
+  "title": "WHAT IF BITCOIN HIT $1?",
+  "date": "THOUGHT EXPERIMENT"
+ },
+ "chapters": [
+  {
+   "anchor": "If Bitcoin",
+   "label": "Pay"
+  },
+  {
+   "anchor": "These computers",
+   "label": "Miners"
+  },
+  {
+   "anchor": "The catch",
+   "label": "Puzzle"
+  },
+  {
+   "anchor": "That happened",
+   "label": "2021"
+  },
+  {
+   "anchor": "Bitcoin would survive",
+   "label": "Owners"
+  },
+  {
+   "anchor": "The lesson",
+   "label": "Lesson"
+  }
+ ],
+ "emphasis": [
+  "one dollar,",
+  "three dollars",
+  "thought experiment.",
+  "miners,",
+  "three bitcoin:",
+  "power bill.",
+  "would quit.",
+  "puzzle.",
+  "slower blocks.",
+  "China banned mining.",
+  "went dark.",
+  "over two hours.",
+  "twenty-eight percent easier.",
+  "owners would lose.",
+  "sixty-four billion dollars",
+  "under a million.",
+  "not the price,",
+  "no rule sets a floor.",
+  "risk."
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "r1",
+     "kind": "server",
+     "at": [
+      -4.6,
+      -1.5
+     ]
+    },
+    {
+     "id": "r2",
+     "kind": "server",
+     "at": [
+      -3.2,
+      -1.5
+     ]
+    },
+    {
+     "id": "r3",
+     "kind": "server",
+     "at": [
+      -1.8,
+      -1.5
+     ]
+    },
+    {
+     "id": "r4",
+     "kind": "server",
+     "at": [
+      -4.6,
+      0.3
+     ]
+    },
+    {
+     "id": "r5",
+     "kind": "server",
+     "at": [
+      -3.2,
+      0.3
+     ]
+    },
+    {
+     "id": "r6",
+     "kind": "server",
+     "at": [
+      -1.8,
+      0.3
+     ]
+    },
+    {
+     "id": "puz",
+     "kind": "block",
+     "at": [
+      1.0,
+      -0.6
+     ],
+     "icon": "puzzle",
+     "tone": "accent",
+     "size": 1.25
+    },
+    {
+     "id": "pwr",
+     "kind": "block",
+     "at": [
+      -3.2,
+      2.4
+     ],
+     "icon": "bolt",
+     "tone": "warm",
+     "size": 1.0
+    },
+    {
+     "id": "c1",
+     "kind": "block",
+     "at": [
+      2.9,
+      1.5
+     ],
+     "icon": "check",
+     "tone": "good",
+     "size": 0.8
+    },
+    {
+     "id": "c2",
+     "kind": "block",
+     "at": [
+      4.1,
+      1.5
+     ],
+     "icon": "check",
+     "tone": "good",
+     "size": 0.8
+    },
+    {
+     "id": "c3",
+     "kind": "block",
+     "at": [
+      5.3,
+      1.5
+     ],
+     "icon": "check",
+     "tone": "good",
+     "size": 0.8
+    },
+    {
+     "id": "coins",
+     "kind": "coins",
+     "at": [
+      3.9,
+      -2.1
+     ],
+     "size": 1.3
+    },
+    {
+     "id": "owner",
+     "kind": "pawn",
+     "at": [
+      5.2,
+      -1.9
+     ],
+     "size": 0.9
+    }
+   ],
+   "links": [
+    {
+     "id": "b1",
+     "from": "r1",
+     "to": "puz",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "b2",
+     "from": "r2",
+     "to": "puz",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "b3",
+     "from": "r3",
+     "to": "puz",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "b4",
+     "from": "r4",
+     "to": "puz",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "b5",
+     "from": "r5",
+     "to": "puz",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "b6",
+     "from": "r6",
+     "to": "puz",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "ch1",
+     "from": "puz",
+     "to": "c1"
+    },
+    {
+     "id": "ch2",
+     "from": "c1",
+     "to": "c2"
+    },
+    {
+     "id": "ch3",
+     "from": "c2",
+     "to": "c3"
+    },
+    {
+     "id": "p1",
+     "from": "pwr",
+     "to": "r4",
+     "style": "beam",
+     "tone": "warm"
+    }
+   ],
+   "movers": [
+    {
+     "id": "rew",
+     "kind": "coin",
+     "path": [
+      "puz",
+      "r3"
+     ],
+     "dur": 20
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "If Bitcoin",
+   "component": "Iso3D",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "coins",
+     "owner"
+    ],
+    "state": {
+     "links": [
+      "b1",
+      "b2",
+      "b3",
+      "b4",
+      "b5",
+      "b6",
+      "ch1",
+      "ch2"
+     ]
+    },
+    "actions": [
+     "tag:0",
+     "tag:1",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "$3",
+      "x": 540,
+      "y": 380,
+      "size": 190,
+      "tone": "warm"
+     },
+     {
+      "text": "PER BLOCK, IF 1 BITCOIN = $1",
+      "x": 540,
+      "y": 460,
+      "size": 40
+     }
+    ],
+    "labels": [
+     {
+      "text": "the computers that run Bitcoin",
+      "at": "r4",
+      "side": "left",
+      "dx": -10,
+      "dy": -140
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       0.3,
+       0
+      ],
+      "zoom": 60
+     },
+     {
+      "beat": 2,
+      "target": [
+       -1.8,
+       0.3,
+       -0.4
+      ],
+      "zoom": 78
+     }
+    ]
+   },
+   "beats": [
+    "If",
+    "dollar,",
+    "computers"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Nobody's",
+   "component": "Title",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Not a prediction.",
+     "A thought experiment."
+    ],
+    "accent": [
+     "thought experiment."
+    ],
+    "size": 96
+   },
+   "beats": [
+    "Nobody's",
+    "thought"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "These computers",
+   "component": "Iso3D",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "coins",
+     "owner"
+    ],
+    "state": {
+     "links": [
+      "b1",
+      "b2",
+      "b3",
+      "b4",
+      "b5",
+      "b6"
+     ]
+    },
+    "actions": [
+     "label:0",
+     "pulse:puz",
+     "label:1",
+     "link:ch1"
+    ],
+    "labels": [
+     {
+      "text": "miners",
+      "at": "r2",
+      "side": "up",
+      "dy": -170
+     },
+     {
+      "text": "the next block of payments",
+      "at": "puz",
+      "side": "right",
+      "dx": 40,
+      "dy": -200
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -2.6,
+       0.3,
+       -0.6
+      ],
+      "zoom": 100
+     },
+     {
+      "beat": 1,
+      "target": [
+       -0.6,
+       0.3,
+       -0.4
+      ],
+      "zoom": 86
+     }
+    ]
+   },
+   "beats": [
+    "miners,",
+    "race",
+    "block",
+    "every"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "The winner",
+   "component": "Shot",
+   "transition": "whip",
+   "props": {
+    "src": "mempool_rewards.png",
+    "chrome": "browser",
+    "url": "mempool.space/mining",
+    "source": "mempool.space · 31 Oct 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.78,
+      "y": 0.6,
+      "zoom": 1.5
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 840,
+      "y": 215,
+      "w": 165,
+      "h": 460
+     }
+    ]
+   },
+   "beats": [
+    "winner",
+    "three"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "two hundred",
+   "component": "BigNumber",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 240000,
+    "prefix": "≈ $",
+    "chip": "3.13 BTC × $77,125 · 31 Oct 2026",
+    "label": "one block's reward today",
+    "tone": "good"
+   },
+   "beats": [
+    "two",
+    "dollars",
+    "today."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "At one dollar",
+   "component": "Iso3D",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "coins",
+     "owner"
+    ],
+    "state": {
+     "links": [
+      "ch1",
+      "ch2"
+     ]
+    },
+    "actions": [
+     "link:p1",
+     "label:0",
+     "label:1",
+     "pulse:pwr",
+     "off:r1",
+     "off:r4",
+     "off:r2",
+     "off:r5"
+    ],
+    "labels": [
+     {
+      "text": "at $1: about $3 a block",
+      "at": "puz",
+      "side": "right",
+      "dx": 20,
+      "dy": -300,
+      "tone": "alert"
+     },
+     {
+      "text": "mining: ~0.5% of the world's power",
+      "at": "pwr",
+      "side": "right",
+      "dx": 90,
+      "dy": -40,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.2,
+       0.3,
+       0.2
+      ],
+      "zoom": 74
+     },
+     {
+      "beat": 4,
+      "target": [
+       -2.6,
+       0.3,
+       -0.2
+      ],
+      "zoom": 88
+     }
+    ]
+   },
+   "beats": [
+    "At",
+    "three",
+    "power",
+    "bill.",
+    "Most",
+    "miners",
+    "would",
+    "quit."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "The catch",
+   "component": "Iso3D",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "coins",
+     "owner"
+    ],
+    "state": {
+     "off": [
+      "r1",
+      "r4",
+      "r2",
+      "r5"
+     ],
+     "links": [
+      "ch1",
+      "ch2"
+     ]
+    },
+    "actions": [
+     "cam",
+     "link:b3",
+     "label:0",
+     "link:b6",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "every block is a puzzle",
+      "at": "puz",
+      "side": "right",
+      "dx": 40,
+      "dy": -200
+     },
+     {
+      "text": "fewer miners → slower blocks",
+      "at": "c2",
+      "side": "up",
+      "dy": -190,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -2.6,
+       0.3,
+       -0.2
+      ],
+      "zoom": 88
+     },
+     {
+      "beat": 0,
+      "target": [
+       0.8,
+       0.3,
+       0.2
+      ],
+      "zoom": 70
+     }
+    ]
+   },
+   "beats": [
+    "catch:",
+    "each",
+    "puzzle.",
+    "Fewer",
+    "slower"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "That happened",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "zoom",
+   "long": true,
+   "props": {
+    "src": "decrypt_2021.png",
+    "chrome": "browser",
+    "url": "decrypt.co/74958",
+    "source": "Decrypt · 1 Jul 2021",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.25,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.25,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 390,
+      "y": 232,
+      "w": 630,
+      "h": 84
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 470,
+      "y": 300,
+      "w": 640,
+      "h": 52
+     }
+    ]
+   },
+   "beats": [
+    "2021:",
+    "China",
+    "banned"
+   ]
+  },
+  {
+   "anchor": "A third",
+   "component": "BigNumber",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "value": 35,
+    "prefix": "−",
+    "suffix": "%",
+    "chip": "Bitcoin's mining power · June–July 2021",
+    "label": "switched off",
+    "tone": "alert"
+   },
+   "beats": [
+    "third",
+    "power",
+    "dark."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "One block",
+   "component": "Growth",
+   "transition": "zoom",
+   "props": {
+    "items": [
+     {
+      "label": "Normal block",
+      "value": 10,
+      "display": "~10 min"
+     },
+     {
+      "label": "1 July 2021",
+      "value": 129,
+      "display": "129 min"
+     }
+    ],
+    "badge": "×13"
+   },
+   "beats": [
+    "block",
+    "two",
+    "hours."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "The fix",
+   "component": "Iso3D",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "coins",
+     "owner"
+    ],
+    "state": {
+     "off": [
+      "r1",
+      "r4",
+      "r2",
+      "r5"
+     ],
+     "links": [
+      "b3",
+      "b6",
+      "ch1",
+      "ch2"
+     ]
+    },
+    "actions": [
+     "label:0",
+     "good:puz",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "every 2,016 blocks (≈ 2 weeks)",
+      "at": "puz",
+      "side": "left",
+      "dx": -30,
+      "dy": -230
+     },
+     {
+      "text": "puzzle re-tunes to the miners left",
+      "at": "puz",
+      "side": "right",
+      "dx": 30,
+      "dy": -130,
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0.4,
+       0.3,
+       -0.4
+      ],
+      "zoom": 96
+     },
+     {
+      "beat": 1,
+      "target": [
+       0.8,
+       0.3,
+       -0.4
+      ],
+      "zoom": 110
+     }
+    ]
+   },
+   "beats": [
+    "fix:",
+    "weeks,",
+    "re-tunes."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "That time",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "source": "CoinDesk · 3 Jul 2021",
+    "text": "At 6:25 UTC Saturday, mining difficulty plunged by nearly 28% at block 689,471.",
+    "mark": "plunged by nearly 28%",
+    "stamp": "Biggest drop ever",
+    "note": ""
+   },
+   "beats": [
+    "That",
+    "twenty-eight",
+    "easier."
+   ]
+  },
+  {
+   "anchor": "Bitcoin would survive",
+   "component": "Iso3D",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "coins",
+     "owner"
+    ],
+    "state": {
+     "off": [
+      "r1",
+      "r4",
+      "r2",
+      "r5"
+     ],
+     "links": [
+      "b3",
+      "b6",
+      "ch1"
+     ],
+     "good": [
+      "puz"
+     ]
+    },
+    "actions": [
+     "link:ch2",
+     "link:ch3",
+     "label:0",
+     "show:coins",
+     "show:owner",
+     "alert:coins",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "blocks keep coming",
+      "at": "c3",
+      "side": "up",
+      "dy": -180,
+      "tone": "good"
+     },
+     {
+      "text": "owners' coins: worth almost nothing",
+      "at": "coins",
+      "side": "left",
+      "dx": -30,
+      "dy": -200,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.6,
+       0.3,
+       0.0
+      ],
+      "zoom": 72
+     },
+     {
+      "beat": 3,
+      "target": [
+       3.4,
+       0.3,
+       -0.6
+      ],
+      "zoom": 86
+     }
+    ]
+   },
+   "beats": [
+    "Bitcoin",
+    "would",
+    "survive,",
+    "but",
+    "owners",
+    "would",
+    "lose."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "A firm called",
+   "component": "Shot",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "btt_top.png",
+    "chrome": "browser",
+    "url": "bitcointreasuries.net/public-companies/strategy",
+    "source": "BitcoinTreasuries.NET · 31 Oct 2026",
+    "cam": [
+     {
+      "x": 0.2,
+      "y": 0.2,
+      "zoom": 1.8
+     },
+     {
+      "x": 0.22,
+      "y": 0.36,
+      "zoom": 1.8
+     },
+     {
+      "x": 0.84,
+      "y": 0.86,
+      "zoom": 2.4
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 16,
+      "y": 424,
+      "w": 552,
+      "h": 76
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 1550,
+      "y": 1080,
+      "w": 610,
+      "h": 76
+     }
+    ]
+   },
+   "beats": [
+    "Strategy,",
+    "biggest",
+    "sixty-four"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "for coins",
+   "component": "BigNumber",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 848517,
+    "prefix": "$",
+    "chip": "848,517 BTC × $1",
+    "label": "Strategy's coins, if 1 bitcoin = $1",
+    "tone": "alert"
+   },
+   "beats": [
+    "coins",
+    "under",
+    "million."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "The lesson",
+   "component": "Iso3D",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "off": [
+      "r1",
+      "r4",
+      "r2",
+      "r5"
+     ],
+     "links": [
+      "b3",
+      "b6",
+      "ch1",
+      "ch2",
+      "ch3"
+     ],
+     "good": [
+      "puz"
+     ],
+     "alert": [
+      "coins"
+     ]
+    },
+    "actions": [
+     "cam",
+     "label:0",
+     "pulse:coins",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "the rules protect the network",
+      "at": "puz",
+      "side": "left",
+      "dx": -20,
+      "dy": -210,
+      "tone": "good"
+     },
+     {
+      "text": "no rule sets a price floor",
+      "at": "coins",
+      "side": "right",
+      "dx": -160,
+      "dy": -230,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.8,
+       0.3,
+       0.6
+      ],
+      "zoom": 90
+     },
+     {
+      "beat": 0,
+      "target": [
+       0.6,
+       0.3,
+       -0.4
+      ],
+      "zoom": 66
+     }
+    ]
+   },
+   "beats": [
+    "lesson:",
+    "network,",
+    "price,",
+    "floor."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Critics",
+   "component": "Title",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Critics:",
+     "no floor",
+     "is the risk."
+    ],
+    "accent": [
+     "is the risk."
+    ],
+    "size": 110
+   },
+   "beats": [
+    "Critics",
+    "that",
+    "risk."
+   ],
+   "theme": "dark"
+  }
+ ]
+}

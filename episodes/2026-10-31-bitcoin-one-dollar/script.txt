@@ -1,0 +1,9 @@
+If Bitcoin fell to one dollar, the computers running it would earn about three dollars every ten minutes.
+Nobody's predicting this. It's a thought experiment.
+These computers, called miners, race to add a block of payments every ten minutes. The winner earns about three bitcoin: two hundred forty thousand dollars today.
+At one dollar, that's three dollars, below the power bill. Most miners would quit.
+The catch: each block is a puzzle. Fewer miners means slower blocks.
+That happened in 2021: China banned mining. A third of mining power went dark. One block took over two hours.
+The fix: every two weeks, the puzzle re-tunes. That time, it got twenty-eight percent easier.
+Bitcoin would survive, but owners would lose. A firm called Strategy, the biggest corporate holder, paid sixty-four billion dollars for coins that would be worth under a million.
+The lesson: Bitcoin's rules rescue the network, not the price, because no rule sets a floor. Critics call that the risk.

@@ -218,6 +218,9 @@ Actions: `show:<id>`, `hide:<id>`, `alert:<id>` (turns red), `good:<id>` (green)
 (draws a dashed line or a glowing beam), `move:<id>` (a document or coin travels its path), `label:<n>`, `cam`.
 Colour means something: red = the attacker or what went wrong, green = what looked legitimate or what's safe, warm = money moving.
 Pawns are abstract people (no faces): label them ("engineer", "3D stand-in" is not needed for a pawn).
+Added 31 Oct 2026 (bitcoin-one-dollar): `off:<id>` / `state.off` (a machine switched off: lights out, body dark; e.g. miners
+quitting one per word), block icons `bolt | clock | puzzle`, and `tags` (big kit tags in 1080×1920 px, shown by `tag:<n>`) so the
+hook number can sit over the world on beat 0.
 
 **Title**: big kinetic text, one line per beat. Use sparingly. `lines`, `accent`, `size`.
 

@@ -10,7 +10,7 @@ import {Easing, interpolate, useCurrentFrame} from 'remotion';
 import type {SceneProps} from '../lib/anim';
 import {LEAD_FRAMES, revealFrame} from '../lib/anim';
 import {theme} from '../lib/theme';
-import {useClock, canvasTex, rand} from './kit';
+import {useClock, canvasTex, rand, Tags, type Tag} from './kit';
 import {Key} from './Landfill3D';
 
 /**
@@ -24,14 +24,15 @@ import {Key} from './Landfill3D';
  *   objects [{id, kind, at: [x, z], size?, tone?, icon?, text?, rot?}]
  *           kind: server | block | doc | key | vault | laptop | coins | pawn | pad | wall
  *           tone: alert (red) | good (green) | accent | ice | muted (default neutral grey)
- *           icon (block screens): check | key | warn | lock | cross | coin | eye | sign
+ *           icon (block screens): check | key | warn | lock | cross | coin | eye | sign | bolt | clock | puzzle (or up to 3 letters)
  *   hidden  [ids] start invisible (appear on show:<id>)
  *   links   [{id, from, to, style: dashed | beam, tone}]   from/to = object id or [x, z]
  *   movers  [{id, kind: doc | coin | packet, path: [id | [x, z], …], tone?, text?, dur? (frames per leg)}]
  *   labels  [{text, at: id | [x, y, z], side?: left | right | up, dx?, dy?, tone?}]  shown by label:<n>
- *   state   {alert: [ids], good: [ids], frozen: [ids], links: [ids], moved: [ids]}  (carry-over from an earlier scene)
+ *   state   {alert: [ids], good: [ids], frozen: [ids], links: [ids], moved: [ids], off: [ids]}  (carry-over from an earlier scene)
+ *   tags    big 2D overlay tags (kit Tag, 1080×1920 px), shown by tag:<n> (e.g. the hook number on beat 0)
  *   cam     [{beat, target: [x, y, z], zoom, dur}]  (beat -1 = opening shot; zoom = pixels per world unit, ~70)
- *   actions per beat: show:<id> hide:<id> alert:<id> good:<id> freeze:<id> pulse:<id> link:<id> move:<id> label:<n> cam
+ *   actions per beat: show:<id> hide:<id> alert:<id> good:<id> freeze:<id> off:<id> (switched off: lights out, body dark) pulse:<id> link:<id> move:<id> label:<n> tag:<n> cam
  */
 type Pt2 = [number, number];
 type Obj = {id: string; kind: string; at: Pt2; size?: number; tone?: string; icon?: string; text?: string; rot?: number};
@@ -47,7 +48,8 @@ type P = {
   links?: Link[];
   movers?: Mover[];
   labels?: Label[];
-  state?: {alert?: string[]; good?: string[]; frozen?: string[]; links?: string[]; moved?: string[]};
+  state?: {alert?: string[]; good?: string[]; frozen?: string[]; links?: string[]; moved?: string[]; off?: string[]};
+  tags?: Tag[];
   cam?: IsoCam[];
   caption?: string;
 };
@@ -169,6 +171,31 @@ const iconTex = (icon: string, color: string) =>
       g.beginPath();
       g.arc(cx, cy, 13, 0, Math.PI * 2);
       g.fill();
+    } else if (icon === 'bolt') {
+      g.moveTo(cx + 14, cy - 60);
+      g.lineTo(cx - 30, cy + 8);
+      g.lineTo(cx + 4, cy + 8);
+      g.lineTo(cx - 14, cy + 60);
+      g.lineTo(cx + 34, cy - 10);
+      g.lineTo(cx + 2, cy - 10);
+      g.closePath();
+      g.fill();
+    } else if (icon === 'clock') {
+      g.arc(cx, cy, 50, 0, Math.PI * 2);
+      g.moveTo(cx, cy);
+      g.lineTo(cx, cy - 34);
+      g.moveTo(cx, cy);
+      g.lineTo(cx + 26, cy + 10);
+      g.stroke();
+    } else if (icon === 'puzzle') {
+      g.lineWidth = 6;
+      for (let r = 0; r < 4; r++)
+        for (let c = 0; c < 4; c++) {
+          const x = cx - 60 + c * 30;
+          const y = cy - 60 + r * 30;
+          if ((r * 5 + c * 3) % 4 === 0) g.fillRect(x + 3, y + 3, 24, 24);
+          else g.strokeRect(x + 3, y + 3, 24, 24);
+        }
     } else if (icon === 'sign') {
       g.moveTo(cx - 60, cy + 20);
       g.bezierCurveTo(cx - 30, cy - 40, cx - 10, cy + 40, cx + 10, cy - 10);
@@ -224,12 +251,13 @@ const slotsTex = (led: string) =>
   });
 
 // ---------- objects ----------
-const IsoThing: React.FC<{o: Obj; vis: number; alert: number; good: number; frozen: number; pulse: number; frame: number}> = ({o, vis, alert, good, frozen, pulse, frame}) => {
+const IsoThing: React.FC<{o: Obj; vis: number; alert: number; good: number; frozen: number; pulse: number; frame: number; off?: number}> = ({o, vis, alert, good, frozen, pulse, frame, off = 0}) => {
   const s = o.size ?? 1;
   const tone = o.tone ?? '';
   const baseCol = BODY[tone] ?? NEUTRAL;
   const body = useMemo(() => new THREE.MeshStandardMaterial({color: baseCol, roughness: 0.62, metalness: 0.15}), [baseCol]);
   const col = new THREE.Color(baseCol).lerp(new THREE.Color(BODY.alert), alert).lerp(new THREE.Color(BODY.good), good).lerp(new THREE.Color('#5b7d93'), frozen);
+  col.lerp(new THREE.Color('#121316'), off * 0.8);
   body.color.copy(col);
   body.emissive = new THREE.Color(alert > 0 ? TONE.alert : good > 0 ? TONE.good : frozen > 0 ? TONE.ice : '#000000');
   body.emissiveIntensity = 0.12 * Math.max(alert, good, frozen) * (0.7 + 0.3 * Math.sin(frame / 5));
@@ -249,6 +277,9 @@ const IsoThing: React.FC<{o: Obj; vis: number; alert: number; good: number; froz
   const glow = useMemo(() => new THREE.MeshStandardMaterial({color: TONE.good, emissive: new THREE.Color(TONE.good), emissiveIntensity: 2.2, toneMapped: false}), []);
   glow.color.set(lightCol);
   glow.emissive.set(lightCol);
+  glow.emissiveIntensity = 2.2 * (1 - off);
+  slots.opacity = 1 - 0.85 * off;
+  screen.emissiveIntensity = 0.9 * (1 - 0.85 * off);
   const gold = useMemo(() => new THREE.MeshStandardMaterial({color: '#e2a93b', metalness: 0.85, roughness: 0.3}), []);
   const iceMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#bfe7ff', transparent: true, opacity: 0, roughness: 0.1, metalness: 0, depthWrite: false}), []);
   iceMat.opacity = 0.32 * frozen;
@@ -552,6 +583,7 @@ export const Iso3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames})
             good={flag('good', o.id, st.good)}
             frozen={flag('freeze', o.id, st.frozen)}
             pulse={has(`pulse:${o.id}`) ? Math.max(0, 1 - Math.abs(since(`pulse:${o.id}`) - 6) / 6) : 0}
+            off={flag('off', o.id, st.off)}
             frame={frame}
           />
         ))}
@@ -612,6 +644,7 @@ export const Iso3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames})
           </div>
         ) : null,
       )}
+      <Tags tags={props.tags ?? []} show={(props.tags ?? []).map((_, i) => p(`tag:${i}`, 12, Easing.out(Easing.cubic)))} />
       {props.caption ? (
         <div style={{position: 'absolute', left: 60, top: 1470, fontFamily: theme.font, fontWeight: 600, fontSize: 26, color: 'rgba(255,255,255,0.6)'}}>{props.caption}</div>
       ) : null}

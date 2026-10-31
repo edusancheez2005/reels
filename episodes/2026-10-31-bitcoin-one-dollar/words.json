@@ -1,0 +1,1129 @@
+[
+ {
+  "text": "If",
+  "startMs": 80,
+  "endMs": 190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bitcoin",
+  "startMs": 190,
+  "endMs": 644,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fell",
+  "startMs": 670,
+  "endMs": 869,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 880,
+  "endMs": 1039,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 1040,
+  "endMs": 1250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar,",
+  "startMs": 1250,
+  "endMs": 1602,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 1830,
+  "endMs": 1940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " computers",
+  "startMs": 1940,
+  "endMs": 2561,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " running",
+  "startMs": 2570,
+  "endMs": 2899,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 2940,
+  "endMs": 3010,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 3010,
+  "endMs": 3180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " earn",
+  "startMs": 3180,
+  "endMs": 3430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 3430,
+  "endMs": 3780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 3780,
+  "endMs": 4080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 4080,
+  "endMs": 4450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 4450,
+  "endMs": 4730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ten",
+  "startMs": 4730,
+  "endMs": 4985,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " minutes.",
+  "startMs": 5000,
+  "endMs": 5380,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Nobody's",
+  "startMs": 5560,
+  "endMs": 6097,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " predicting",
+  "startMs": 6100,
+  "endMs": 6635,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " this.",
+  "startMs": 6640,
+  "endMs": 6850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It's",
+  "startMs": 7030,
+  "endMs": 7130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 7130,
+  "endMs": 7346,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thought",
+  "startMs": 7350,
+  "endMs": 7609,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " experiment.",
+  "startMs": 7610,
+  "endMs": 8240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " These",
+  "startMs": 8420,
+  "endMs": 8670,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " computers,",
+  "startMs": 8670,
+  "endMs": 9258,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " called",
+  "startMs": 9450,
+  "endMs": 9780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " miners,",
+  "startMs": 9780,
+  "endMs": 10149,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " race",
+  "startMs": 10360,
+  "endMs": 10620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 10620,
+  "endMs": 10777,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " add",
+  "startMs": 10790,
+  "endMs": 10934,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 10950,
+  "endMs": 11070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " block",
+  "startMs": 11070,
+  "endMs": 11406,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 11410,
+  "endMs": 11500,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " payments",
+  "startMs": 11500,
+  "endMs": 11982,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 12020,
+  "endMs": 12240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ten",
+  "startMs": 12240,
+  "endMs": 12453,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " minutes.",
+  "startMs": 12460,
+  "endMs": 12820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 13000,
+  "endMs": 13100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " winner",
+  "startMs": 13100,
+  "endMs": 13350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " earns",
+  "startMs": 13350,
+  "endMs": 13635,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 13660,
+  "endMs": 13950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 13950,
+  "endMs": 14217,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bitcoin:",
+  "startMs": 14220,
+  "endMs": 14641,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 14850,
+  "endMs": 15010,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 15010,
+  "endMs": 15488,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forty",
+  "startMs": 15490,
+  "endMs": 15858,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 15860,
+  "endMs": 16220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 16220,
+  "endMs": 16652,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " today.",
+  "startMs": 16670,
+  "endMs": 16970,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " At",
+  "startMs": 17150,
+  "endMs": 17247,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 17260,
+  "endMs": 17420,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar,",
+  "startMs": 17420,
+  "endMs": 17732,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that's",
+  "startMs": 17930,
+  "endMs": 18169,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 18200,
+  "endMs": 18390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars,",
+  "startMs": 18390,
+  "endMs": 18751,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " below",
+  "startMs": 18900,
+  "endMs": 19200,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 19200,
+  "endMs": 19280,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " power",
+  "startMs": 19280,
+  "endMs": 19530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bill.",
+  "startMs": 19530,
+  "endMs": 19770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Most",
+  "startMs": 19950,
+  "endMs": 20240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " miners",
+  "startMs": 20240,
+  "endMs": 20660,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 20660,
+  "endMs": 20870,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " quit.",
+  "startMs": 20870,
+  "endMs": 21200,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 21380,
+  "endMs": 21480,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " catch:",
+  "startMs": 21480,
+  "endMs": 21743,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " each",
+  "startMs": 21950,
+  "endMs": 22209,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " block",
+  "startMs": 22220,
+  "endMs": 22450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 22450,
+  "endMs": 22624,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 22640,
+  "endMs": 22779,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " puzzle.",
+  "startMs": 22810,
+  "endMs": 23090,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Fewer",
+  "startMs": 23270,
+  "endMs": 23598,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " miners",
+  "startMs": 23620,
+  "endMs": 23981,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " means",
+  "startMs": 23990,
+  "endMs": 24309,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " slower",
+  "startMs": 24310,
+  "endMs": 24637,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " blocks.",
+  "startMs": 24640,
+  "endMs": 25020,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " That",
+  "startMs": 25200,
+  "endMs": 25409,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " happened",
+  "startMs": 25410,
+  "endMs": 25776,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 25780,
+  "endMs": 25890,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2021:",
+  "startMs": 25890,
+  "endMs": 27136,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " China",
+  "startMs": 27330,
+  "endMs": 27660,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " banned",
+  "startMs": 27660,
+  "endMs": 27974,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mining.",
+  "startMs": 27980,
+  "endMs": 28340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 28520,
+  "endMs": 28650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " third",
+  "startMs": 28650,
+  "endMs": 28925,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 28930,
+  "endMs": 29026,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mining",
+  "startMs": 29030,
+  "endMs": 29330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " power",
+  "startMs": 29330,
+  "endMs": 29580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " went",
+  "startMs": 29580,
+  "endMs": 29886,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dark.",
+  "startMs": 29890,
+  "endMs": 30190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " One",
+  "startMs": 30370,
+  "endMs": 30601,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " block",
+  "startMs": 30650,
+  "endMs": 30949,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " took",
+  "startMs": 30950,
+  "endMs": 31180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " over",
+  "startMs": 31180,
+  "endMs": 31390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 31390,
+  "endMs": 31700,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hours.",
+  "startMs": 31700,
+  "endMs": 31990,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 32170,
+  "endMs": 32268,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fix:",
+  "startMs": 32270,
+  "endMs": 32511,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 32710,
+  "endMs": 32930,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 32930,
+  "endMs": 33130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " weeks,",
+  "startMs": 33130,
+  "endMs": 33438,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 33600,
+  "endMs": 33730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " puzzle",
+  "startMs": 33730,
+  "endMs": 34022,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " re-tunes.",
+  "startMs": 34110,
+  "endMs": 34510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " That",
+  "startMs": 34690,
+  "endMs": 34850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " time,",
+  "startMs": 34850,
+  "endMs": 35126,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 35340,
+  "endMs": 35416,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " got",
+  "startMs": 35520,
+  "endMs": 35658,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twenty-eight",
+  "startMs": 35660,
+  "endMs": 36190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " percent",
+  "startMs": 36190,
+  "endMs": 36520,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " easier.",
+  "startMs": 36520,
+  "endMs": 36820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bitcoin",
+  "startMs": 37000,
+  "endMs": 37444,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 37460,
+  "endMs": 37650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " survive,",
+  "startMs": 37650,
+  "endMs": 38054,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " but",
+  "startMs": 38280,
+  "endMs": 38498,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " owners",
+  "startMs": 38500,
+  "endMs": 38830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 38830,
+  "endMs": 39050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lose.",
+  "startMs": 39050,
+  "endMs": 39330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 39510,
+  "endMs": 39660,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " firm",
+  "startMs": 39660,
+  "endMs": 39925,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " called",
+  "startMs": 39930,
+  "endMs": 40237,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Strategy,",
+  "startMs": 40290,
+  "endMs": 40756,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 40960,
+  "endMs": 41060,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " biggest",
+  "startMs": 41060,
+  "endMs": 41430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " corporate",
+  "startMs": 41430,
+  "endMs": 41950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " holder,",
+  "startMs": 41950,
+  "endMs": 42313,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " paid",
+  "startMs": 42520,
+  "endMs": 42780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sixty-four",
+  "startMs": 42810,
+  "endMs": 43330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 43330,
+  "endMs": 43766,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 43770,
+  "endMs": 44130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 44130,
+  "endMs": 44337,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins",
+  "startMs": 44370,
+  "endMs": 44590,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 44590,
+  "endMs": 44857,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 44880,
+  "endMs": 45060,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " be",
+  "startMs": 45060,
+  "endMs": 45272,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " worth",
+  "startMs": 45290,
+  "endMs": 45530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " under",
+  "startMs": 45530,
+  "endMs": 45790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 45790,
+  "endMs": 45947,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " million.",
+  "startMs": 45950,
+  "endMs": 46310,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 46490,
+  "endMs": 46590,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lesson:",
+  "startMs": 46590,
+  "endMs": 46923,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bitcoin's",
+  "startMs": 47140,
+  "endMs": 47600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rules",
+  "startMs": 47600,
+  "endMs": 47940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rescue",
+  "startMs": 47940,
+  "endMs": 48350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 48350,
+  "endMs": 48490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " network,",
+  "startMs": 48490,
+  "endMs": 48925,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 49140,
+  "endMs": 49410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 49410,
+  "endMs": 49520,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " price,",
+  "startMs": 49520,
+  "endMs": 49845,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " because",
+  "startMs": 50060,
+  "endMs": 50330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " no",
+  "startMs": 50330,
+  "endMs": 50602,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rule",
+  "startMs": 50610,
+  "endMs": 50873,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sets",
+  "startMs": 50900,
+  "endMs": 51110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 51110,
+  "endMs": 51300,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " floor.",
+  "startMs": 51300,
+  "endMs": 51630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Critics",
+  "startMs": 51810,
+  "endMs": 52227,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " call",
+  "startMs": 52230,
+  "endMs": 52487,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 52530,
+  "endMs": 52670,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 52670,
+  "endMs": 52800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " risk.",
+  "startMs": 52800,
+  "endMs": 53060,
+  "timestampMs": null,
+  "confidence": null
+ }
+]
