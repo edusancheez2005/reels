@@ -4,10 +4,21 @@
   "topic": "What if Bitcoin fell to $1? (thought experiment: miners' pay, the 2021 China ban and difficulty reset, Strategy's holdings)",
   "produced_at": "2026-10-31T04:50:28+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-31-bitcoin-one-dollar.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-31-bitcoin-one-dollar-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-31-bitcoin-one-dollar-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-10-31-bitcoin-one-dollar-story_3.jpg"
-  ]
+  ],
+  "auto_posted": true,
+  "posted_at": "2026-10-31T07:39:08Z",
+  "instagram_account": "@sonartracker.io",
+  "instagram_media_id": "18141991825714771",
+  "sources_comment_id": "17929992606184479",
+  "story_media_ids": [
+    "18135307285671433",
+    "18129552937862943",
+    "17911013076667387"
+  ],
+  "notes": "What-if reel (breakdown format). Script review: 2 REWRITE rounds applied. Video review PASS WITH NOTES; notes 1 and 4 fixed by splice before posting. Auto-posted 07:3x London via the gate."
 }
