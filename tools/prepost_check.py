@@ -2,7 +2,7 @@
 """Pre-post gate for auto-posting. Usage: python3 tools/prepost_check.py episodes/<id> [--approved]
 
 --approved: Edu said "post it" for this episode in the session. Skips only the auto-post switch and the
-one-auto-post-per-day limit; every other check still runs and must pass.
+one-auto-post-per-day limit (a second is allowed for a midday breaking story) and the 3-breaking-reels-per-week cap; every other check still runs and must pass.
 
 Prints PASS (exit 0) only if every mechanical check passes, and writes
   episodes/<id>/caption_post.txt     caption for Instagram (no Sources block), cleaned of invisible chars/dashes
@@ -43,14 +43,36 @@ if meta.get("posted"):
 if meta.get("superseded_by"):
     fails.append(f"superseded by {meta['superseded_by']}; don't post")
 
-# one auto-post per London day
-today = datetime.datetime.now(ZoneInfo("Europe/London")).date().isoformat()
+# one auto-post per London day; a second only for a midday breaking story when the first one wasn't breaking
+# (Edu, 31 Oct 2026). And not just news: at most 3 breaking reels in any 7 days, the rest come from the plan/backlog.
+now_l = datetime.datetime.now(ZoneInfo("Europe/London"))
+today = now_l.date().isoformat()
+try:
+    this_src = json.loads((ep / "storyboard.json").read_text()).get("topic_source", "plan")
+except Exception:
+    this_src = "plan"
+posted_today, breaking_7d = [], []
 for m in root.glob("episodes/*/meta.json"):
     if m.parent == ep:
         continue
     o = json.loads(m.read_text())
-    if o.get("auto_posted") and str(o.get("posted_at", "")).startswith(today) and not approved:
-        fails.append(f"already auto-posted today ({m.parent.name})")
+    pa = str(o.get("posted_at", ""))
+    if not o.get("posted") or not pa:
+        continue
+    try:
+        pdt = datetime.datetime.fromisoformat(pa.replace("Z", "+00:00")).astimezone(ZoneInfo("Europe/London"))
+    except ValueError:
+        continue
+    if o.get("auto_posted") and pdt.date().isoformat() == today:
+        posted_today.append((m.parent.name, o.get("topic_source", "plan")))
+    if o.get("topic_source") == "breaking" and (now_l - pdt).days < 7:
+        breaking_7d.append(m.parent.name)
+if not approved:
+    second_ok = this_src == "breaking" and len(posted_today) == 1 and posted_today[0][1] != "breaking"
+    if posted_today and not second_ok:
+        fails.append(f"already auto-posted today ({', '.join(n for n, _ in posted_today)})")
+    if this_src == "breaking" and len(breaking_7d) >= 3:
+        fails.append(f"already 3 breaking-news reels in the last 7 days ({', '.join(breaking_7d)}); use the plan/backlog")
 
 # video: 1080x1920 h264 + aac, sane length, matches the voice
 mp4 = ep / f"{eid}.mp4"

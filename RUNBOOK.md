@@ -55,8 +55,13 @@ hack before 6 Nov"), then give it this brief:
 > or "NOTHING BIG: follow the plan". Under 400 words. Don't write any files. Don't invent sources; if you can't find
 > anything solid, say so.
 
-Save its reply to `insights/trends/<YYYY-MM-DD>.md`. **Use the scout's pick instead of today's plan row only if all of these
-hold** (check them yourself; the scout is a lead, not a source):
+Save its reply to `insights/trends/<YYYY-MM-DD>.md`. **The default is the plan.** Edu (31 Oct 2026): "if there's no impactful,
+really super famous... news, then go back to the verified picks... I don't want it just to be news." So the bar is high:
+ordinary crypto news (a token pump, a mid-size hack, a listing, an analyst's opinion) does NOT replace the plan. **Use the
+scout's pick only if all of these hold** (check them yourself; the scout is a lead, not a source):
+- it's a top story: leading or prominent coverage on several major outlets (e.g. Reuters, Bloomberg, BBC, CNBC, FT, WSJ,
+  CoinDesk/The Block for crypto), the kind of thing people will be talking about today, not just crypto Twitter;
+- fewer than 3 breaking-news reels went up in the last 7 days (`topic_source` in meta.json; the gate enforces it);
 - it broke in the last ~36 h, or is still escalating;
 - at least two independent major outlets, or one primary record, confirm the core fact and the hook number;
 - it isn't a story (or a cooldown category) covered in the last 7 days;
@@ -67,6 +72,18 @@ everything; never copy the scout's numbers into research.md unchecked), set `"to
 topic moved to the top of its backlog". The format rule still applies (pick for the concept, not the last reel's format);
 breaking stories usually suit documentary or breakdown. In the final message to Edu, list the scout's other candidates in
 one line each, so he sees what else was out there.
+
+## 0c. Midday check (the "Midday breaking news check" task only)
+
+A second scheduled task runs at 11:36 London to catch stories that break after the morning run. It runs the §0b scout with
+the same brief and the same bar, plus two extra conditions: today's morning reel was not itself breaking news (one breaking
+reel a day at most), and the story is not the one the morning scout already saw and passed on (read today's
+`insights/trends/<date>.md`; a story that has since grown into a top story is fine). Append the scout's reply to that file under
+"## Midday".
+- **Nothing clears the bar (the usual case):** stop. No message to Edu, no commit other than the trends note. Done in ~10 min.
+- **Something does:** make the reel with this runbook from §1 onward (topic_source "breaking", format different from the
+  morning reel), aiming to post by ~16:00 London. The gate allows this one second auto-post of the day. The next morning's
+  run goes back to the plan as normal.
 
 ## 1. Pick the channel and topic
 
