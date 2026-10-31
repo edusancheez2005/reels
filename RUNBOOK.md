@@ -71,14 +71,16 @@ source .env.local              # REMOTION_BROWSER etc.
 - Assets: logos via `get_logos.mjs`. Real pages: `node engine/scripts/screenshot.mjs <url> episodes/<id>/assets/<name>.png
   --selector "<css>" --zoom 1.6` (the workspace can reach all websites since 29 Oct; Etherscan blocks bots, use another
   explorer). If a page still can't be captured, use a Quote card with the exact words and source, never a recreated page.
-- **Breakdown format by default** (Edu, 30 Oct, after watcher.guru's Binance reel: "so much better"): `header` + `chapters`
-  (4–6 one-word steps) + `"captionStyle": "pill"` + dark theme, and the "how it happened" part as one `Iso3D` world the camera
-  moves through (engine/SKILL.md "Breakdown format", storyboard-spec "Iso3D"). Receipts stay real screenshots.
+- **Format: pick it for the concept, never the same as the last reel** (Edu, 31 Oct: "I don't want you to use the same exact
+  format every single time... be creative"). Read the formats of the last 3 posted reels (`"format"` in their meta.json or
+  storyboard.json; older ones: breakdown = has chapters, character = has Character3D, otherwise motion/documentary). Write 2–3
+  candidate formats in research.md with why, pick one that differs from the last reel, set `"format"` in storyboard.json. Menu and
+  when to use each: engine/SKILL.md "Pick the format for the concept".
 - Storyboard: 14–20 scenes, ≤ 1 plain text title per 5 scenes, 10–20 emphasis phrases. Variety (Edu, 29 Oct): no component
   in more than 3 scenes (and change the camera or setting each time); a timeline (Ruler) at most once and only when a
   sequence of 3+ dates is the point, never in two reels in a row; no "Illustration" captions on obvious graphics. Show the
   thing itself (a real document, a headline, the object, the person's name card) rather than a generic stand-in. **Default to the realistic 3D
-  components** (`engine/references/storyboard-spec.md` → 3D; Edu's standing feedback). The breakdown format is dark throughout.
+  components** (`engine/references/storyboard-spec.md` → 3D; Edu's standing feedback). Light/dark rhythm applies to 2D scenes; the breakdown format is dark throughout.
   Reuse components first. A new component is fine if a topic needs it (add it under `engine/template/src/scenes/`
   and register it); keep it generic so later episodes can reuse it.
 - Build + QA: `build_timeline.py` must pass with no ERROR; for 3D reels run `python3 tools/qa_frames.py episodes/<id>`

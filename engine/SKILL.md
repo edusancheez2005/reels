@@ -34,20 +34,35 @@ The bar is `../episodes/2026-10-29-landfill-story/` (55 s). Every reel:
 In the daily autopilot (`../RUNBOOK.md`), fresh reviewer agents replace "wait for the user's OK" at the script and video
 steps, and posting follows the gate in `../channels/autopost.json` + `../tools/prepost_check.py`.
 
-## Breakdown format (Edu, 30 Oct 2026, after watcher.guru's "How Binance got hacked for $6.3 billion")
+## Pick the format for the concept (Edu, 31 Oct 2026: "I don't want you to use the same exact format every single time... be creative")
 
-Default for story, news and what-if reels from 31 Oct 2026:
-- `"header": {"title", "date"}` + `"chapters"` (4–6 one-word steps, e.g. HEIST · WHO · HOW · CLUE · WHY · AFTER): the chapter bar
-  shows viewers where they are and how much is left. Anchor each chapter to the line that starts that part of the script.
-- `"captionStyle": "pill"`: small caption pill near the bottom; the top belongs to the chapter bar, the middle to the visual.
-- `"theme": "dark"` throughout (no light/dark alternation in this format).
-- The mechanism (how it happened) as one `Iso3D` world the camera moves through, with few labels, each with a leader line, and
-  colour that means something (red = attacker / what went wrong, green = legitimate / safe). Real screenshots (`Shot`) stay for
-  the receipts: headlines, filings, explorer pages.
-- The number on screen in the first second and the designed cover still apply.
-- Worked example: `references/examples/breakdown-binance.storyboard.json` (header, chapters, one world in `defs`, three Iso3D scenes
-  that carry state forward); `references/examples/breakdown-binance-full.storyboard.json` is the whole 20-scene reel in this format
-  (Iso3D also for the clue and the freeze; receipts on dark). Built 30 Oct as a test, not posted.
+There is no default format. Before the storyboard, decide how THIS story is best shown, write 2–3 candidate formats in research.md
+with one line each on why, pick one, and set `"format": "<name>"` at the top of storyboard.json (the gate records it in meta.json).
+**Never use the same format as the previous posted reel**, and avoid repeating any format within the last 3 reels unless the
+concept clearly demands it (then say why in research.md). Mix within a reel too: one format leads, but a reel can borrow a scene
+or two from another. The formats:
+
+| Format | Best for | How it looks | Main components |
+|---|---|---|---|
+| `character` | stories with a person (who did what, what went wrong) | a 3D person acts it out: walks in, works at a desk, holds the drive, reacts; built rooms and props; name card | Character3D, Drives3D, Desk3D, Landfill3D, Vault3D, Shot receipts; kinetic captions |
+| `scenario` | what-ifs and "a day in that world" | follow one ordinary person through the hypothetical: buying coffee, checking a wallet, a shop closing; each consequence is something happening to them | Character3D, Phone/Phone3D, Coin3D, BigNumber; kinetic captions |
+| `motion` | numbers, concepts, comparisons, fast explainers | pure 2D motion graphics, no 3D world: kinetic type, particles forming shapes, counters, bars, maps, quick cuts | ParticleShape, BigNumber, Growth, Ruler, RouteMap, Flow, Title, Checklist; kinetic captions |
+| `breakdown` | mechanisms with steps (a hack, how a system works) | chapter bar + one isometric world the camera moves through, labels with leader lines, caption pill | header + chapters, Iso3D, Shot receipts; `"captionStyle": "pill"`, dark throughout |
+| `documentary` | breaking news with strong sources | a news-desk feel: real headlines, filings, explorers and charts with marks, quotes, the numbers between them; a timeline only if dates are the point | Shot, Quote, BigNumber, price charts, PriceLine; kinetic or band captions |
+| `object` | how a thing works (a device, a wallet, a coin, a chip) | one realistic 3D object, opened up, exploded, scanned, close-ups | Phone3D, Cell3D, Vault3D, Drive3D, Coin3D, Seed3D, Pool3D |
+
+Choosing: start from the concept, not the toolbox. Ask "what would make a stranger stop scrolling and understand this fastest?"
+A person story wants a person on screen; a what-if wants someone living through it; a number wants motion; a mechanism wants a
+map of the steps. If nothing fits, make a new scene component for the story (keep it reusable) rather than forcing a format.
+
+The `breakdown` format (built 30 Oct, after watcher.guru's "How Binance got hacked for $6.3 billion"): `"header": {"title",
+"date"}` + `"chapters"` (4–6 one-word steps) + `"captionStyle": "pill"` + dark theme + one `Iso3D` world for the mechanism (few
+labels with leader lines; red = attacker / what went wrong, green = legitimate / safe). Examples:
+`references/examples/breakdown-binance.storyboard.json` and `breakdown-binance-full.storyboard.json`; the posted
+`../episodes/2026-10-30-ai-agent-hack/`. The chapter bar can also top other formats when the story has clear steps, but don't
+put it on every reel.
+
+The number on screen in the first second and the designed cover apply to every format.
 
 Read before the first episode, and whenever a step is unclear:
 - `references/script-guide.md` — hooks, structure, writing for the ear

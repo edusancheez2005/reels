@@ -17,6 +17,12 @@ if (ep / "story.json").exists():
     meta.pop("story_url", None)
     meta["story_urls"] = [f"https://raw.githubusercontent.com/edusancheez2005/reels/media/v/{eid}-{p['file']}"
                           for p in json.loads((ep / "story.json").read_text())]
+try:
+    _f = json.loads((ep / "storyboard.json").read_text()).get("format")
+    if _f:
+        meta["format"] = _f
+except Exception:
+    pass
 meta_p.write_text(json.dumps(meta, indent=2))
 if meta.get("channel") and meta.get("topic"):
     bl = root / "backlog" / f"{meta['channel']}.md"

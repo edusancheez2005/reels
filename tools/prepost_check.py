@@ -98,6 +98,51 @@ for txt, where in ((post, "caption"), ((ep / "script.txt").read_text() if (ep / 
     if hit:
         fails.append(f"price-prediction/hype phrase in {where}: '{hit.group(0)}'")
 
+# format variety (Edu, 31 Oct 2026: "I don't want you to use the same exact format every single time")
+def _fmt(epdir):
+    try:
+        m = json.loads((epdir / "meta.json").read_text())
+    except Exception:
+        m = {}
+    try:
+        sbj = json.loads((epdir / "storyboard.json").read_text())
+    except Exception:
+        sbj = {}
+    if m.get("format") or sbj.get("format"):
+        return m.get("format") or sbj.get("format")
+    comps = [x.get("component") for x in sbj.get("scenes", [])]
+    if sbj.get("chapters"):
+        return "breakdown"
+    if "Character3D" in comps:
+        return "character"
+    if comps.count("Shot") >= 4:
+        return "documentary"
+    return "motion"
+
+_sb_here = json.loads((ep / "storyboard.json").read_text()) if (ep / "storyboard.json").exists() else {}
+if not _sb_here.get("format"):
+    fails.append('storyboard.json has no "format" (pick one for the concept: engine/SKILL.md "Pick the format for the concept")')
+else:
+    _prev = []
+    for d in (root / "episodes").iterdir():
+        if d == ep or not d.is_dir() or d.name.startswith("_"):
+            continue
+        try:
+            pm = json.loads((d / "meta.json").read_text())
+        except Exception:
+            continue
+        if pm.get("posted") and pm.get("posted_at"):
+            _prev.append((pm["posted_at"], d))
+    _prev.sort(reverse=True)
+    if _prev:
+        last_fmt = _fmt(_prev[0][1])
+        recent = [_fmt(d) for _, d in _prev[:3]]
+        if last_fmt == _sb_here["format"]:
+            msg = f'format "{last_fmt}" is the same as the last posted reel ({_prev[0][1].name}); pick a different one'
+            (warns if approved else fails).append(msg)
+        elif recent.count(_sb_here["format"]) >= 2:
+            print(f'WARN format "{_sb_here["format"]}" used {recent.count(_sb_here["format"])}x in the last 3 reels')
+
 # independent review (RUNBOOK §2b)
 rv = (ep / "review.md").read_text() if (ep / "review.md").exists() else ""
 vm = re.search(r"VERDICT:\s*(PASS WITH NOTES|PASS|FAIL)", rv)
