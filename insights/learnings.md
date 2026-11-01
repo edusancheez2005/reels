@@ -18,6 +18,8 @@ calls on quality override the numbers. The weekly review rewrites this file; kee
   on this story's specific mistakes and the fix, with the why (script guide, "Story reels: Edu's standard"). [Certain: Edu]
 - Stay on crypto. [Guessing] The off-topic battery reel was the weakest: 62% skipped in 3 s, 8 s average watch.
 
+- [Certain: Edu, 1 Nov 2026: "i love it, well done"] episodes/2026-11-01-184-billion-bug is a second reference reel: a history story told through its two people (3D stand-ins), the real forum threads and explorer page as receipts, and one new visual for the mechanism (the Odometer roll-over).
+
 ## Avoid
 - Opening on a question nobody can answer ("Will Bitcoin go up, or down?"). [Likely] 53% skipped in 3 s, 149 views.
 - Filler visuals: a timeline in every reel, "Illustration" captions on obvious graphics, the same 3D set in 5 scenes, a generic
