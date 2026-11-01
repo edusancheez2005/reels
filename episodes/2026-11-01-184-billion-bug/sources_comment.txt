@@ -1,0 +1,1 @@
+Sources: Bitcoin Forum, "Strange block 74638" (jgarzik, 15 Aug 2010) - Bitcoin Forum, "Version 0.3.10 - block 74638 overflow PATCH!" (satoshi, 15 Aug 2010) - Bitcoin Wiki, Value overflow incident (CVE-2010-5139) - Decrypt, 26 Aug 2020 - mempool.space (blocks 74,638 and 74,691) - Bloq (Jeff Garzik bio).

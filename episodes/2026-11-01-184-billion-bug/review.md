@@ -49,3 +49,4 @@ Rubric checks:
 
 Review history: round 1 (fresh reviewer) FAIL — s4 caption over the 3D block; fixed by reframing the s4 camera and splicing
 frames 350–436. Round 2 (fresh reviewer) PASS WITH NOTES. Note 5b applied (research fact 4 now states the overflow-total check).
+After PASS: notes 1–2 applied by splicing s3 and s10 (name cards raised to y 1300, Garzik's card on his surname); checked frames from the final mp4.

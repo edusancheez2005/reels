@@ -1,0 +1,6 @@
+In August 2010, one bitcoin payment created 184 billion bitcoin out of nothing. Only 21 million should ever exist.
+Early developer Jeff Garzik spotted block 74,638 paying two wallets 92 billion BTC each and posted "Strange block". The code added the two amounts without checking their size, so the total rolled over like a mileage counter and looked tiny. That night Satoshi Nakamoto posted a fix; by morning the fixed chain had taken over and the coins were gone.
+The 21 million limit holds because every computer running Bitcoin checks the same code. Wrong code, wrong limit.
+Follow for crypto, explained simply.
+Not financial advice.
+#Bitcoin #Crypto #CryptoExplained #CryptoHistory #Sonar

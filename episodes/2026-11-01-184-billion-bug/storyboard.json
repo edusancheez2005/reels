@@ -215,7 +215,7 @@
      "name": "JEFF GARZIK",
      "role": "Early Bitcoin developer · Linux coder",
      "note": "3D stand-in",
-     "y": 1350
+     "y": 1300
     },
     "cam": [
      {
@@ -236,7 +236,7 @@
    },
    "beats": [
     "Jeff",
-    "early",
+    "Garzik,",
     "spotted"
    ]
   },
@@ -606,7 +606,7 @@
      "name": "SATOSHI NAKAMOTO",
      "role": "Bitcoin's anonymous creator",
      "note": "3D stand-in · real identity unknown",
-     "y": 1350
+     "y": 1300
     },
     "tags": [
      {
