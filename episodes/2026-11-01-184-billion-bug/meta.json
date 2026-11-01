@@ -4,12 +4,21 @@
   "topic": "The 2010 bug that made 184 billion bitcoin (value overflow incident, block 74638)",
   "produced_at": "2026-11-01T04:52:04+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-01-184-billion-bug.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-01-184-billion-bug-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-01-184-billion-bug-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-01-184-billion-bug-story_3.jpg"
   ],
   "format": "character",
-  "topic_source": "plan"
+  "topic_source": "plan",
+  "auto_posted": true,
+  "posted_at": "2026-11-01T07:22:23Z",
+  "instagram_media_id": "18102122606533473",
+  "sources_comment_id": "18149926897528842",
+  "story_media_ids": [
+    "17952578769323269",
+    "18147344053575486",
+    "18201403528378807"
+  ]
 }
