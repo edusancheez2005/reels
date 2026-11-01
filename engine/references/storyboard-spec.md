@@ -222,6 +222,11 @@ Added 31 Oct 2026 (bitcoin-one-dollar): `off:<id>` / `state.off` (a machine swit
 quitting one per word), block icons `bolt | clock | puzzle`, and `tags` (big kit tags in 1080×1920 px, shown by `tag:<n>`) so the
 hook number can sit over the world on beat 0.
 
+**Odometer** (1 Nov 2026, 184-billion-bug): a mechanical mileage counter whose wheels creep up to the maximum, then roll over to
+near zero: integer overflow, "the total wrapped around". Beats: [appears and creeps up, roll-over (wheels spin, flash, `after`
+text), label on the last beat]. Props: `digits` (8), `from`, `to` (default 10^digits + 1 → shows 00000001), `title` (on the housing),
+`max` (chip above), `after` + `afterTone`, `label` + `labelTone`. Theme-aware; reads well on light.
+
 **Title**: big kinetic text, one line per beat. Use sparingly. `lines`, `accent`, `size`.
 
 ### v1 (dark-only cards, still available)

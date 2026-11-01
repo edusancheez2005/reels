@@ -1,0 +1,8 @@
+In August 2010, one bitcoin payment created 184 billion bitcoin out of nothing. Only 21 million should ever exist.
+Early developer Jeff Garzik spotted block 74,638 paying two wallets 92 billion BTC each and posted "Strange block". The code added the two amounts without checking their size, so the total rolled over like a mileage counter and looked tiny. That night Satoshi Nakamoto posted a fix; by morning the fixed chain had taken over and the coins were gone.
+The 21 million limit holds because every computer running Bitcoin checks the same code. Wrong code, wrong limit.
+Follow for crypto, explained simply.
+Not financial advice.
+#Bitcoin #Crypto #CryptoExplained #CryptoHistory #Sonar
+
+Sources: Bitcoin Forum, "Strange block 74638" (jgarzik, 15 Aug 2010) - Bitcoin Forum, "Version 0.3.10 - block 74638 overflow PATCH!" (satoshi, 15 Aug 2010) - Bitcoin Wiki, Value overflow incident (CVE-2010-5139) - Decrypt, 26 Aug 2020 - mempool.space (blocks 74,638 and 74,691) - Bloq (Jeff Garzik bio).

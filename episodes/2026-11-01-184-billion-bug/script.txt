@@ -1,0 +1,9 @@
+In August twenty ten, one bitcoin payment created a hundred and eighty-four billion bitcoin out of nothing. Only twenty-one million should ever exist.
+
+Jeff Garzik, an early Bitcoin developer, spotted the problem. The newest block, a batch of payments, showed one payment giving two wallets ninety-two billion bitcoin each. He posted on Bitcoin's forum: "Strange block."
+
+How did it get through? Every computer running Bitcoin checks that a payment never sends more than it takes in. This one took in half a bitcoin. The two amounts were so huge their total rolled over, like a car's mileage counter, and looked tiny. The check passed.
+
+That night, Satoshi Nakamoto, Bitcoin's anonymous creator, posted a fix. Updated computers threw the bad block away. By morning, the billions were gone.
+
+The mistake: the code added amounts without checking their size. The fix: reject any amount over twenty-one million bitcoin. Why? The limit holds because every computer runs that code. Wrong code, wrong limit.

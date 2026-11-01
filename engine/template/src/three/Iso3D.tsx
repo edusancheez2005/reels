@@ -632,7 +632,7 @@ export const Iso3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames})
               borderRadius: 22,
               padding: '10px 20px 11px 16px',
               fontFamily: theme.font,
-              fontSize: 29,
+              fontSize: 36,
               fontWeight: 600,
               color: '#f2f4f7',
               whiteSpace: 'nowrap',

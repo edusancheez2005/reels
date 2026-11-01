@@ -1,0 +1,886 @@
+{
+ "slug": "184-billion-bug",
+ "format": "character",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 1.1,
+ "emphasis": [
+  "a hundred and eighty-four billion",
+  "out of nothing.",
+  "twenty-one million",
+  "Jeff Garzik,",
+  "batch of payments,",
+  "ninety-two billion",
+  "Strange block.",
+  "more than it takes in.",
+  "half a bitcoin.",
+  "rolled over,",
+  "looked tiny.",
+  "Satoshi Nakamoto,",
+  "threw the bad block away.",
+  "gone.",
+  "without checking their size.",
+  "reject",
+  "Wrong code, wrong limit."
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "n1",
+     "kind": "server",
+     "at": [
+      -4.8,
+      -1.9
+     ]
+    },
+    {
+     "id": "n2",
+     "kind": "server",
+     "at": [
+      -4.8,
+      0.0
+     ]
+    },
+    {
+     "id": "n3",
+     "kind": "server",
+     "at": [
+      -4.8,
+      1.9
+     ]
+    },
+    {
+     "id": "inc",
+     "kind": "coins",
+     "at": [
+      -1.6,
+      1.9
+     ],
+     "size": 0.8,
+     "tone": "good"
+    },
+    {
+     "id": "tx",
+     "kind": "doc",
+     "at": [
+      -1.6,
+      -0.4
+     ],
+     "size": 1.1
+    },
+    {
+     "id": "chk",
+     "kind": "block",
+     "at": [
+      1.2,
+      -0.2
+     ],
+     "icon": "check",
+     "tone": "accent",
+     "size": 1.3
+    },
+    {
+     "id": "out",
+     "kind": "coins",
+     "at": [
+      4.3,
+      -0.2
+     ],
+     "size": 2.2,
+     "tone": "alert"
+    }
+   ],
+   "links": [
+    {
+     "id": "l1",
+     "from": "n1",
+     "to": "chk",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "l2",
+     "from": "n2",
+     "to": "chk",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "l3",
+     "from": "n3",
+     "to": "chk",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "a1",
+     "from": "inc",
+     "to": "tx",
+     "style": "dashed",
+     "tone": "good"
+    },
+    {
+     "id": "a2",
+     "from": "tx",
+     "to": "chk",
+     "style": "dashed"
+    },
+    {
+     "id": "a3",
+     "from": "chk",
+     "to": "out",
+     "style": "dashed",
+     "tone": "alert"
+    }
+   ],
+   "movers": [
+    {
+     "id": "m1",
+     "kind": "doc",
+     "path": [
+      "tx",
+      "chk"
+     ],
+     "dur": 20
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "In",
+   "component": "BigNumber",
+   "theme": "dark",
+   "moving": true,
+   "long": true,
+   "props": {
+    "value": 184467440737,
+    "suffix": " BTC",
+    "logo": "bitcoin.svg",
+    "chip": "Block 74,638 · 15 Aug 2010",
+    "label": "created out of nothing",
+    "tone": "accent"
+   },
+   "beats": [
+    "In",
+    "billion",
+    "nothing."
+   ]
+  },
+  {
+   "anchor": "Only",
+   "component": "Growth",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "items": [
+     {
+      "label": "max ever",
+      "value": 21,
+      "display": "21 million"
+     },
+     {
+      "label": "one payment",
+      "value": 184467,
+      "display": "184,467 million"
+     }
+    ],
+    "badge": "≈ 8,800×"
+   },
+   "beats": [
+    "Only",
+    "million",
+    "exist."
+   ]
+  },
+  {
+   "anchor": "Jeff",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "actions": [
+     "enter",
+     "card",
+     "look"
+    ],
+    "look": "right",
+    "card": {
+     "name": "JEFF GARZIK",
+     "role": "Early Bitcoin developer · Linux coder",
+     "note": "3D stand-in",
+     "y": 1350
+    },
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.85,
+       8.8
+      ],
+      "look": [
+       0,
+       0.15,
+       0
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "Jeff",
+    "early",
+    "spotted"
+   ]
+  },
+  {
+   "anchor": "The newest",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "actions": [
+     "block",
+     "chain",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "a block = a batch of payments",
+      "x": 540,
+      "y": 1420,
+      "tone": "accent",
+      "size": 48,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       5.6,
+       11.5
+      ],
+      "look": [
+       0,
+       2.6,
+       -0.4
+      ],
+      "fov": 40
+     }
+    ]
+   },
+   "beats": [
+    "newest",
+    "block,",
+    "batch"
+   ]
+  },
+  {
+   "anchor": "showed",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "forum-822-crop.png",
+    "chrome": "browser",
+    "url": "bitcointalk.org/index.php?topic=822.0",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.93,
+      "zoom": 1.5
+     },
+     {
+      "x": 0.5,
+      "y": 0.93,
+      "zoom": 1.7
+     },
+     {
+      "x": 0.5,
+      "y": 0.93,
+      "zoom": 1.7
+     },
+     {
+      "x": 0.42,
+      "y": 0.43,
+      "zoom": 1.6
+     },
+     {
+      "x": 0.3,
+      "y": 0.02,
+      "zoom": 1.9
+     },
+     {
+      "x": 0.3,
+      "y": 0.02,
+      "zoom": 2.1
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 296,
+      "y": 1970,
+      "w": 935,
+      "h": 100
+     },
+     {
+      "beat": 3,
+      "kind": "underline",
+      "x": 225,
+      "y": 935,
+      "w": 750,
+      "h": 16
+     },
+     {
+      "beat": 5,
+      "kind": "box",
+      "x": 282,
+      "y": 2,
+      "w": 290,
+      "h": 72
+     }
+    ],
+    "source": "Bitcoin Forum, 15 Aug 2010 · the block's two outputs, posted in the thread"
+   },
+   "beats": [
+    "showed",
+    "two",
+    "ninety-two",
+    "bitcoin",
+    "posted",
+    "Strange"
+   ]
+  },
+  {
+   "anchor": "How did",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "inc",
+     "out"
+    ],
+    "state": {
+     "links": [
+      "l1",
+      "l2",
+      "l3",
+      "a2"
+     ]
+    },
+    "actions": [
+     "cam",
+     "label:0",
+     "pulse:chk",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "computers running Bitcoin",
+      "at": "n3",
+      "side": "right",
+      "dx": 20,
+      "dy": 120
+     },
+     {
+      "text": "rule: out ≤ in",
+      "at": "chk",
+      "side": "up",
+      "tone": "accent"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       3.2,
+       0
+      ],
+      "zoom": 70
+     },
+     {
+      "beat": 1,
+      "target": [
+       -2.8,
+       3.1,
+       0
+      ],
+      "zoom": 84
+     },
+     {
+      "beat": 3,
+      "target": [
+       1.0,
+       3.0,
+       -0.2
+      ],
+      "zoom": 96
+     }
+    ]
+   },
+   "beats": [
+    "How",
+    "Every",
+    "checks",
+    "more"
+   ]
+  },
+  {
+   "anchor": "This one took",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "inc",
+     "out"
+    ],
+    "state": {
+     "links": [
+      "l1",
+      "l2",
+      "l3",
+      "a2"
+     ]
+    },
+    "actions": [
+     "show:inc",
+     "label:0",
+     "show:out",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "in: 0.5 BTC",
+      "at": "inc",
+      "side": "left",
+      "dx": 40,
+      "dy": 90,
+      "tone": "good"
+     },
+     {
+      "text": "out: 92,233,720,368 BTC × 2",
+      "at": "out",
+      "side": "left",
+      "dx": 60,
+      "dy": -200,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -0.6,
+       3.1,
+       0.6
+      ],
+      "zoom": 78
+     },
+     {
+      "beat": 2,
+      "target": [
+       2.0,
+       3.1,
+       0.0
+      ],
+      "zoom": 70
+     }
+    ]
+   },
+   "beats": [
+    "This",
+    "half",
+    "amounts",
+    "huge"
+   ]
+  },
+  {
+   "anchor": "their total",
+   "component": "Odometer",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "title": "TOTAL OUT",
+    "max": "a mileage counter tops out at 99,999,999",
+    "after": "rolls over → looks tiny",
+    "afterTone": "good",
+    "label": "smaller than the ½ BTC paid in",
+    "labelTone": "alert"
+   },
+   "beats": [
+    "total",
+    "over,",
+    "mileage",
+    "tiny."
+   ]
+  },
+  {
+   "anchor": "The check",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "l1",
+      "l2",
+      "l3",
+      "a1",
+      "a2",
+      "a3"
+     ]
+    },
+    "actions": [
+     "good:chk",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "check passed ✓",
+      "at": "chk",
+      "side": "up",
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.2,
+       2.8,
+       -0.2
+      ],
+      "zoom": 105
+     }
+    ]
+   },
+   "beats": [
+    "check",
+    "passed."
+   ]
+  },
+  {
+   "anchor": "That night,",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "desk": true,
+    "actions": [
+     "type",
+     "card",
+     "label:0"
+    ],
+    "colours": {
+     "top": "#22262e",
+     "legs": "#30343c",
+     "hair": "#141414"
+    },
+    "card": {
+     "name": "SATOSHI NAKAMOTO",
+     "role": "Bitcoin's anonymous creator",
+     "note": "3D stand-in · real identity unknown",
+     "y": 1350
+    },
+    "tags": [
+     {
+      "text": "15 Aug 2010 · that night",
+      "x": 540,
+      "y": 560,
+      "tone": "warm",
+      "size": 46,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.7,
+       1.15,
+       10.0
+      ],
+      "look": [
+       0.45,
+       -0.1,
+       0.6
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "That",
+    "Satoshi",
+    "anonymous"
+   ]
+  },
+  {
+   "anchor": "posted a fix",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "forum-827-crop.png",
+    "chrome": "browser",
+    "url": "bitcointalk.org/index.php?topic=827.0",
+    "cam": [
+     {
+      "x": 0.4,
+      "y": 0.06,
+      "zoom": 1.6
+     },
+     {
+      "x": 0.58,
+      "y": 0.85,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.58,
+      "y": 0.88,
+      "zoom": 1.2
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 280,
+      "y": 22,
+      "w": 595,
+      "h": 64
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 215,
+      "y": 612,
+      "w": 1050,
+      "h": 112
+     }
+    ],
+    "source": "Satoshi's post, Bitcoin Forum, 15 Aug 2010 (edited 16 Aug)"
+   },
+   "beats": [
+    "posted",
+    "Updated",
+    "threw"
+   ]
+  },
+  {
+   "anchor": "By morning,",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "cut",
+   "props": {
+    "src": "mempool-74638-crop.png",
+    "chrome": "browser",
+    "url": "mempool.space/block/000000000069e1affe7161ab4bcbeacebb4ddf155b50e807f42de971b688a09b",
+    "cam": [
+     {
+      "x": 0.25,
+      "y": 0.38,
+      "zoom": 1.7
+     },
+     {
+      "x": 0.3,
+      "y": 0.8,
+      "zoom": 1.7
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 20,
+      "y": 725,
+      "w": 610,
+      "h": 110
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 68,
+      "y": 1565,
+      "w": 955,
+      "h": 95
+     }
+    ],
+    "source": "mempool.space · block 74,638 on today's chain: a normal block"
+   },
+   "beats": [
+    "morning,",
+    "gone."
+   ]
+  },
+  {
+   "anchor": "The mistake:",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "l1",
+      "l2",
+      "l3",
+      "a1",
+      "a2",
+      "a3"
+     ],
+     "good": [
+      "chk"
+     ]
+    },
+    "actions": [
+     "alert:chk",
+     "label:0",
+     "cam"
+    ],
+    "labels": [
+     {
+      "text": "never checked the size",
+      "at": "chk",
+      "side": "up",
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0.8,
+       3.1,
+       -0.2
+      ],
+      "zoom": 70
+     },
+     {
+      "beat": 2,
+      "target": [
+       1.2,
+       2.8,
+       -0.2
+      ],
+      "zoom": 100
+     }
+    ]
+   },
+   "beats": [
+    "mistake:",
+    "code",
+    "size."
+   ]
+  },
+  {
+   "anchor": "The fix:",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "The fix · version 0.3.10",
+    "rows": [
+     {
+      "left": "Any amount over 21 million BTC",
+      "badge": "REJECTED",
+      "tone": "alert"
+     },
+     {
+      "left": "Totals that roll over",
+      "badge": "REJECTED",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "fix:",
+    "reject",
+    "million",
+    "bitcoin."
+   ]
+  },
+  {
+   "anchor": "Why?",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "shape": "circle",
+    "label": "21,000,000 BTC",
+    "sublabel": "the limit lives in the code",
+    "split": [
+     {
+      "x": 160,
+      "y": 700,
+      "label": "computer"
+     },
+     {
+      "x": 500,
+      "y": 780,
+      "label": "computer"
+     },
+     {
+      "x": 840,
+      "y": 700,
+      "label": "computer"
+     }
+    ]
+   },
+   "beats": [
+    "Why?",
+    "limit",
+    "every"
+   ]
+  },
+  {
+   "anchor": "Wrong code,",
+   "component": "Odometer",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "TOTAL OUT",
+    "from": 99999960,
+    "after": "rolled over",
+    "afterTone": "alert",
+    "label": "Wrong code → wrong limit",
+    "labelTone": "alert"
+   },
+   "beats": [
+    "Wrong",
+    "code,",
+    "wrong"
+   ],
+   "moving": true
+  }
+ ]
+}
