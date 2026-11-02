@@ -190,6 +190,15 @@ def main():
             else:
                 raw = {**json.loads(json.dumps(base)), **raw}
         props = rewrite_assets(raw, slug, ep, warns)
+        # 3D overlay tags are centred SVG text: keep each pill inside x 120-920 (reviews of 3-4 Nov 2026 failed two reels for this)
+        for t in props.get("tags", []) if isinstance(props.get("tags"), list) else []:
+            if isinstance(t, dict) and t.get("text"):
+                fs = t.get("size", 34)
+                wpx = len(t["text"]) * (fs * 0.66 + 4) + fs
+                if wpx > 1040:
+                    errors.append(f"{r['label']}: tag '{t['text']}' is ~{wpx:.0f}px wide at size {fs}: it will run off the frame. Shorten it, lower the size, or split it into two tags.")
+                elif wpx > 800:
+                    warns.append(f"{r['label']}: tag '{t['text']}' is ~{wpx:.0f}px wide at size {fs}; keep tags inside x 120-920 (<= 800px).")
         out_scenes.append({
             "id": r["src"].get("id", f"s{k + 1}"),
             "component": r["src"]["component"],
