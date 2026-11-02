@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 7.56
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 7.55,
+    "to": 14.3
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "Could quantum computers crack Bitcoin?"
+  }
+]

@@ -1,8 +1,18 @@
 {
   "id": "2026-11-04-quantum-bitcoin",
   "channel": "crypto",
-  "topic": "Quantum computers vs Bitcoin: what could break, how much is exposed, and the fixes",
+  "topic": "Quantum computing vs Bitcoin: what a big enough quantum computer could break, how much is exposed, and the fixes",
   "prebuilt": true,
   "posted": false,
-  "building": "live session with Edu, 2 Nov 2026"
+  "produced_at": "2026-11-02T16:41:41+00:00",
+  "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-04-quantum-bitcoin.mp4",
+  "story_urls": [
+    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-04-quantum-bitcoin-story_1.mp4",
+    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-04-quantum-bitcoin-story_2.mp4",
+    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-04-quantum-bitcoin-story_3.jpg"
+  ],
+  "format": "object",
+  "topic_source": "plan",
+  "prebuilt_note": "built 2 Nov 2026 in a live session with Edu; posted by the Wed 4 Nov run per RUNBOOK \u00a70a",
+  "scheduled_post": "2026-11-02 ~21:55 London (Edu, 2 Nov: 'one now and one in 5 hours'); if it isn't posted by then, the Wed 4 Nov run posts it per RUNBOOK \u00a70a"
 }

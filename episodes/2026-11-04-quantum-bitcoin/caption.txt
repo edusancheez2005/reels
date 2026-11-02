@@ -1,6 +1,6 @@
-Google says a big enough quantum computer could crack a Bitcoin key in minutes, and about 6 million bitcoin are exposed.
-That machine doesn't exist yet: Google's paper says under 500,000 qubits, while its Willow chip has 105. Nobody knows when one will be built. It could only attack coins whose lock, the public key, is already visible: Bitcoin's earliest coins, some newer address types, and addresses reused after spending. Glassnode counts 6.04M BTC like that, about 30% of all bitcoin. A draft upgrade, BIP-360, would keep locks covered; CoinShares says only about 10,200 BTC face real risk.
-What you can do today: don't reuse an address. Let your wallet give you a fresh one each time, so your lock stays covered.
+Google says a big enough quantum computer could crack a Bitcoin key in minutes. Glassnode counts about 6 million bitcoin exposed.
+That machine doesn't exist yet: Google's paper says under 500,000 qubits, while its Willow chip has 105. Nobody knows when one will be built. It could only attack coins whose lock, the public key, is visible: Bitcoin's earliest coins, some newer address types, addresses reused after spending, or any coin while its spend waits to confirm. Glassnode counts 6.04M BTC like that, about 30% of all bitcoin. A draft upgrade, BIP-360, would keep locks covered; CoinShares says only about 10,200 BTC face real risk.
+What you can do today: don't reuse an address. Let your wallet give you a fresh one each time, so your lock stays covered. (That covers the usual address types; Taproot addresses, starting bc1p, show the lock anyway, which is what BIP-360 would fix.)
 Follow for crypto, explained simply.
 Not financial advice.
 #Bitcoin #Crypto #CryptoExplained #QuantumComputing #Sonar

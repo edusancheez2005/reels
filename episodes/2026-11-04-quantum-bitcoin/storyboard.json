@@ -269,37 +269,29 @@
    "theme": "light",
    "transition": "zoom",
    "props": {
-    "src": "google-blog-head.png",
+    "src": "google-500k-line.png",
     "chrome": "browser",
     "url": "research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/",
     "cam": [
      {
       "x": 0.5,
-      "y": 0.45,
+      "y": 0.5,
       "zoom": 1.0
      },
      {
-      "x": 0.45,
-      "y": 0.42,
-      "zoom": 1.06
+      "x": 0.64,
+      "y": 0.4,
+      "zoom": 1.35
      }
     ],
     "marks": [
      {
-      "beat": 0,
-      "kind": "box",
-      "x": 1356,
-      "y": 280,
-      "w": 590,
-      "h": 330
-     },
-     {
       "beat": 1,
       "kind": "box",
-      "x": 12,
-      "y": 22,
-      "w": 1290,
-      "h": 745
+      "x": 520,
+      "y": 52,
+      "w": 930,
+      "h": 56
      }
     ],
     "source": "Google Research blog, 31 Mar 2026"
@@ -399,15 +391,24 @@
      "cam",
      "chip",
      "label:0",
-     "label:1"
+     "label:1",
+     "label:2"
     ],
     "tags": [
      {
-      "text": "105 qubits \u00b7 like Google's Willow",
+      "text": "105 qubits",
       "x": 540,
       "y": 520,
       "tone": "accent",
-      "size": 42,
+      "size": 54,
+      "pill": true
+     },
+     {
+      "text": "like Google's Willow chip",
+      "x": 540,
+      "y": 598,
+      "tone": "accent",
+      "size": 34,
       "pill": true
      },
      {
@@ -423,8 +424,8 @@
      {
       "beat": -1,
       "pos": [
-       0.05,
-       0.17,
+       0.42,
+       0.15,
        0.92
       ],
       "look": [
@@ -437,9 +438,9 @@
      {
       "beat": 1,
       "pos": [
-       0.03,
-       0.15,
-       0.7
+       0.3,
+       0.14,
+       0.72
       ],
       "look": [
        0,
@@ -455,6 +456,7 @@
     "Willow",
     "hundred",
     "qubits,",
+    "its",
     "building"
    ]
   },
@@ -551,30 +553,30 @@
      {
       "beat": -1,
       "pos": [
-       2.5,
+       2.6,
        1.15,
-       2.7
+       2.75
       ],
       "look": [
-       1.0,
-       0.62,
-       0.45
+       1.3,
+       0.68,
+       0.55
       ],
-      "fov": 36
+      "fov": 38
      },
      {
       "beat": 1,
       "pos": [
-       2.2,
-       1.0,
-       2.2
+       2.3,
+       1.02,
+       2.3
       ],
       "look": [
-       1.15,
-       0.65,
-       0.5
+       1.38,
+       0.7,
+       0.56
       ],
-      "fov": 34,
+      "fov": 36,
       "dur": 40
      }
     ]
@@ -775,30 +777,30 @@
      {
       "beat": -1,
       "pos": [
-       2.5,
+       2.6,
        1.15,
-       2.7
+       2.75
       ],
       "look": [
-       1.0,
-       0.62,
-       0.45
+       1.3,
+       0.68,
+       0.55
       ],
-      "fov": 36
+      "fov": 38
      },
      {
       "beat": 1,
       "pos": [
-       2.2,
-       1.0,
-       2.2
+       2.3,
+       1.02,
+       2.3
       ],
       "look": [
-       1.15,
-       0.65,
-       0.5
+       1.38,
+       0.7,
+       0.56
       ],
-      "fov": 34,
+      "fov": 36,
       "dur": 40
      }
     ]
@@ -877,30 +879,30 @@
      {
       "beat": -1,
       "pos": [
-       2.5,
+       2.6,
        1.15,
-       2.7
+       2.75
       ],
       "look": [
-       1.0,
-       0.62,
-       0.45
+       1.3,
+       0.68,
+       0.55
       ],
-      "fov": 36
+      "fov": 38
      },
      {
       "beat": 1,
       "pos": [
-       2.2,
-       1.0,
-       2.2
+       2.3,
+       1.02,
+       2.3
       ],
       "look": [
-       1.15,
-       0.65,
-       0.5
+       1.38,
+       0.7,
+       0.56
       ],
-      "fov": 34,
+      "fov": 36,
       "dur": 40
      }
     ]
@@ -1060,11 +1062,6 @@
       "x": 0.14,
       "y": 0.6,
       "zoom": 2.5
-     },
-     {
-      "x": 0.2,
-      "y": 0.3,
-      "zoom": 2.0
      }
     ],
     "marks": [
@@ -1120,28 +1117,28 @@
      {
       "beat": -1,
       "pos": [
-       2.5,
-       1.15,
-       2.7
+       1.9,
+       1.9,
+       1.9
       ],
       "look": [
-       1.0,
+       1.42,
        0.62,
-       0.45
+       0.58
       ],
       "fov": 36
      },
      {
       "beat": 1,
       "pos": [
-       2.2,
-       1.0,
-       2.2
+       1.75,
+       1.7,
+       1.6
       ],
       "look": [
-       1.15,
+       1.45,
        0.65,
-       0.5
+       0.6
       ],
       "fov": 34,
       "dur": 40
@@ -1182,7 +1179,7 @@
       "x": 10,
       "y": 25,
       "w": 985,
-      "h": 335
+      "h": 300
      }
     ],
     "source": "The Block, 8 Feb 2026 \u00b7 CoinShares report"
@@ -1202,7 +1199,7 @@
     "suffix": " BTC",
     "logo": "bitcoin.svg",
     "chip": "CoinShares \u00b7 Feb 2026",
-    "label": "of the earliest coins: real risk, they say",
+    "label": "real risk, says CoinShares",
     "tone": "warm"
    },
    "beats": [
@@ -1288,12 +1285,14 @@
       "badge": "DO",
       "tone": "good"
      }
-    ]
+    ],
+    "note": "Some newer address types show the lock anyway."
    },
    "beats": [
     "What",
-    "reuse",
-    "address."
+    "today:",
+    "don't",
+    "reuse"
    ]
   },
   {
@@ -1308,13 +1307,21 @@
     "actions": [
      "beam",
      "label:0",
-     "cam"
+     "label:1"
     ],
     "tags": [
      {
-      "text": "fresh address = lock stays covered",
+      "text": "fresh address",
       "x": 540,
-      "y": 560,
+      "y": 540,
+      "tone": "accent",
+      "size": 46,
+      "pill": true
+     },
+     {
+      "text": "= lock stays covered",
+      "x": 540,
+      "y": 600,
       "tone": "accent",
       "size": 46,
       "pill": true
@@ -1324,27 +1331,27 @@
      {
       "beat": -1,
       "pos": [
-       2.5,
-       1.15,
-       2.7
+       3.0,
+       1.4,
+       3.2
       ],
       "look": [
-       1.0,
-       0.62,
-       0.45
+       0.9,
+       0.75,
+       0.35
       ],
-      "fov": 36
+      "fov": 38
      },
      {
       "beat": 2,
       "pos": [
-       3.6,
-       1.8,
-       4.4
+       4.2,
+       2.3,
+       5.2
       ],
       "look": [
-       0.5,
-       0.9,
+       0.6,
+       1.0,
        0.2
       ],
       "fov": 38,
