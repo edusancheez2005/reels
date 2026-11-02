@@ -34,6 +34,18 @@ bash tools/setup.sh            # studio deps, voice model, headless Chrome; prin
 source .env.local              # REMOTION_BROWSER etc.
 ```
 
+## 0a. Prebuilt reels (built ahead with Edu)
+
+Edu sometimes has a live session build upcoming reels early (2 Nov 2026: "build Tuesday and Wednesday now"). Such an episode's
+meta.json has `"prebuilt": true`. Before anything else, `git pull` and look for episodes with `prebuilt: true` and `posted: false`
+whose date (the id's `YYYY-MM-DD`) is today or earlier:
+- **Finished** (meta.json has `video_url`, review.md has a PASS verdict, the video is hosted): don't make a new reel today. Still run
+  §0b; if a breaking story clears its bar, make that instead and leave the prebuilt reel for the next run. Otherwise go straight
+  to §4a with the oldest such episode (live check, gate, post, tell Edu: "Posted the reel you approved on <date>: <topic>").
+  `"hold": true` in meta.json (Edu said hold it) → don't post it; follow the plan as normal.
+- **Not finished** (no `video_url` yet): another session is still building it. Don't build a duplicate: send Edu
+  "Today's prebuilt reel (<id>) isn't finished, so nothing went up this morning" and stop.
+
 ## 0b. Trend scout (before the topic)
 
 Edu (31 Oct 2026): "it would find trends out there... or big news, because we want to be there. We want to be the first one."
