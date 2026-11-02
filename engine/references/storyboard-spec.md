@@ -229,6 +229,17 @@ text), label on the last beat]. Props: `digits` (8), `from`, `to` (default 10^di
 
 **Title**: big kinetic text, one line per beat. Use sparingly. `lines`, `accent`, `size`.
 
+**Walk3D** (2 Nov 2026, Edu: "make the person walking around like a third person observation"): the `scenario` format's world. One
+grounded, adult-proportioned person (walk cycle driven by distance, so feet don't slide) on a built street at dawn (shops, lamps,
+parked cars; stops from `stops[{x, kind: cafe|bank|home|kiosk|shop, sign}]`, defaults: café x 9, bank 13, home 21, Lightning kiosk 29.5).
+The camera `cam[]` is RELATIVE to her (follows as she walks) unless `camAbs`. Note the 9:16 frame is narrow: keep `look` within ~±0.6
+of her x or she leaves the frame, and never key a camera move that passes through her (go round, not across). Actions: `walk`
+(from → to over walkDur), `jump` (to jumpTo), poses `phone|pay|cup|slump|search|idle`, `face`, phone screens
+`pending|paid|locked|zero|bolt|refund` (pending/paid also as a ring over her head), `drop` (12-word card blows into the drain), `arc`
+(Lightning arc to the kiosk), `funnel` (payments from every window squeeze through one gate), `sour`, `shutter`, `card`, `pin:<n>` /
+`hide:<n>` (labels pinned to 3D points, `rel` to her by default), `label:<n>`, `cam`. Props: from, to, walkDur, jumpTo, face, z,
+queue + queueX (people in line), screen, card, pins, tags. First used in `../episodes/2026-11-02-bitcoin-only-money/`.
+
 ### v1 (dark-only cards, still available)
 Stat, Steps, Compare, Terminal, Window, Diagram, Chart, Image.
 
