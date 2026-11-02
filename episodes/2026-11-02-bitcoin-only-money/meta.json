@@ -4,12 +4,21 @@
   "topic": "What if Bitcoin was the only money? A day in that world (scenario, third-person walk)",
   "produced_at": "2026-11-02T05:41:22+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-02-bitcoin-only-money.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-02-bitcoin-only-money-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-02-bitcoin-only-money-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-02-bitcoin-only-money-story_3.jpg"
   ],
   "format": "scenario",
-  "topic_source": "plan"
+  "topic_source": "plan",
+  "auto_posted": true,
+  "posted_at": "2026-11-02T07:15:36+00:00",
+  "instagram_media_id": "17912827479482830",
+  "sources_comment_id": "18120973405759267",
+  "story_media_ids": [
+    "18123692842897382",
+    "18104712398576112",
+    "17986440246108841"
+  ]
 }

@@ -1,0 +1,1 @@
+Sources: Wikipedia, "Bitcoin scalability" (3.3-7 transactions/s; Lightning) - Visa fact sheet, July 2019 (65,000+ transaction messages/s capacity) - Cointelegraph, 22 Apr 2024, citing YCharts ($128 average fee on 20 Apr 2024) - CoinDesk, "Understanding Bitcoin's 64% Decline in 2022" - Wikipedia, "Bitcoin" (chargebacks, lost keys, 21 million cap).
