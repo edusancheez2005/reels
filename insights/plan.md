@@ -38,3 +38,36 @@ warnings people forward, because shares are still near zero.
 Extra on Fri 30 Oct: a breaking-news reel on the $6.3B Binance hack (Edu asked for it that evening).
 Next week (backlog order): QuadrigaCX (the CEO who died with the keys), FTX, the halving, Twitter 2020 bitcoin scam, what if the internet went down.
 The Sunday review checks each slot against its numbers and writes the next plan.
+
+## Upcoming themes, 9–29 Nov (Edu asked for the next few weeks, 2 Nov 2026)
+Topics and order agreed in Edu's live session. The Sunday reviews turn each week into the table above (hooks verified, formats
+checked against the previous reel, numbers applied) and may swap a slot only if the numbers clearly say so; the trend scout can
+still replace a day for a top story. Rules behind the picks: strictly crypto; a big number in the first line; a practical warning
+someone would forward; no politicians in hooks or captions (2 Nov: the TRUMP reel started slowly, possibly Instagram's
+political-content limit); scams and hacks spaced out; never the same format two days running.
+
+| Day | Ch | Theme | Hook lead (verify) | Format |
+|---|---|---|---|---|
+| Mon 9 | crypto | The IronKey: a programmer with two password guesses left before 7,002 BTC lock forever (Stefan Thomas) | "Two wrong guesses and 7,002 bitcoin are gone forever." (check the 2023 Unciphered offer and today's status) | object (Drive3D: the 10 attempt lights) |
+| Tue 10 | sonar | How to read a whale alert without panicking (this week's Sonar mention) | a real recent alert that was just an exchange moving its own coins | breakdown |
+| Wed 11 | crypto | Pig-butchering: the scam that starts with a wrong-number text | the FBI IC3 yearly crypto-fraud total (verify) | scenario (follow one person through the texts) |
+| Thu 12 | sonar | Mt. Gox: 850,000 BTC lost in 2014, and the repayment wallets moving a decade later | "In 2014, the biggest bitcoin exchange said it had lost 850,000 coins." | documentary (filings + explorer receipts) |
+| Fri 13 | crypto | Terra/Luna: about $40B gone in a week (May 2022), and what a stablecoin is | "A coin designed to always be worth $1 fell to almost zero in days." | motion (the peg loop) |
+| Sat 14 | crypto | The Squid Game token: up thousands of percent, then zero in minutes; buyers couldn't sell (Nov 2021) | "People bought it, but the code wouldn't let them sell." | character |
+| Sun 15 | crypto | What if the internet went down? Bitcoin by satellite and radio | "Bitcoin blocks are already beamed from space." | scenario |
+| Mon 16 | crypto | Ronin bridge: $625M stolen through a fake job offer, unnoticed for six days (2022) | "Hackers took $625 million, and nobody noticed for six days." | character (the engineer and the PDF) |
+| Tue 17 | sonar | Who holds the most bitcoin: ETFs, exchanges, companies, Satoshi | "Wall Street funds now hold more bitcoin than Satoshi." | motion |
+| Wed 18 | crypto | The halving: new bitcoin per day halves in 2028 | "Every day about 450 new bitcoin are created. In 2028, that drops to 225." | object |
+| Thu 19 | sonar | Exchange inflows vs outflows: what a whale moving coins can and can't tell you (fresh verified event first) | from a live on-chain move | documentary |
+| Fri 20 | crypto | Silk Road's popcorn tin: 50,676 BTC found under a bathroom floor (James Zhong, 2021 seizure) | "50,000 bitcoin were hidden in a popcorn tin." | object |
+| Sat 21 | crypto | The DAO hack (2016): $60M, and why Ethereum split in two | "One bug made Ethereum split into two blockchains." | breakdown |
+| Sun 22 | crypto | What if one group controlled most of Bitcoin's mining? (51% attacks; Ethereum Classic, 2020) | a real 51% attack amount (verify) | scenario |
+| Mon 23 | crypto | Bybit, Feb 2025: $1.5B through a tampered signing screen | "Hackers took nearly $1.5 billion in a single transaction." | breakdown |
+| Tue 24 | sonar | Stablecoin mints: $1B of new USDT overnight, what actually happened | the latest verified mint | documentary |
+| Wed 25 | crypto | SIM swaps: losing crypto through your phone number (protection only) | "A thief can take over your phone number in minutes." | scenario |
+| Thu 26 | sonar | Dormant wallets: why very old coins waking up makes headlines (fresh verified event first) | a live wake-up | breakdown |
+| Fri 27 | crypto | Dogecoin: the joke that became a top-10 coin | "Dogecoin was made as a joke in 2013." | character |
+| Sat 28 | crypto | The first bitcoin payment: Satoshi to Hal Finney (Jan 2009) | "The first bitcoin payment ever was 10 coins, between two strangers." | character |
+| Sun 29 | crypto | Fresh address, lost phone: how wallet recovery actually works (what-if: you lose your phone tonight) | practical | scenario |
+Held back for now: the 2020 Twitter scam (politicians' accounts, a teenager's case), China's mining ban and North Korea's hackers
+(governments: likely to be treated as political by Instagram).
