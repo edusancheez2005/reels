@@ -44,3 +44,4 @@
 - [x] What if Bitcoin fell to $1? (thought experiment: miners' pay, the 2021 China ban and difficulty reset, Strategy's holdings) (2026-10-31-bitcoin-one-dollar)
 - [x] The 2010 bug that made 184 billion bitcoin (value overflow incident, block 74638) (2026-11-01-184-billion-bug)
 - [x] What if Bitcoin was the only money? A day in that world (scenario, third-person walk) (2026-11-02-bitcoin-only-money)
+- [x] Quantum computing vs Bitcoin: what a big enough quantum computer could break, how much is exposed, and the fixes (2026-11-04-quantum-bitcoin)
