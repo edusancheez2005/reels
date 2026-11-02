@@ -1,0 +1,894 @@
+{
+ "slug": "bitcoin-only-money",
+ "format": "scenario",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 0.9,
+ "emphasis": [
+  "seven payments a second.",
+  "thought experiment,",
+  "Maya,",
+  "sixty-five thousand",
+  "about seven.",
+  "queue,",
+  "bigger fee",
+  "a hundred and twenty-eight dollars.",
+  "sour.",
+  "No bank",
+  "only the café",
+  "sixty-four percent.",
+  "recovery phrase,",
+  "Nobody can reset them.",
+  "gone.",
+  "print more bitcoin.",
+  "near-instant.",
+  "real today.",
+  "double-check",
+  "two offline copies."
+ ],
+ "scenes": [
+  {
+   "anchor": "If",
+   "component": "Walk3D",
+   "theme": "dark",
+   "moving": true,
+   "long": true,
+   "props": {
+    "from": -3.2,
+    "to": 0.4,
+    "walkDur": 160,
+    "screen": "none",
+    "actions": [
+     "label:0",
+     "funnel",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "≈ 7 / second",
+      "x": 540,
+      "y": 560,
+      "tone": "accent",
+      "size": 120,
+      "pill": true
+     },
+     {
+      "text": "the whole world's payments",
+      "x": 540,
+      "y": 680,
+      "tone": "warm",
+      "size": 44,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -2.4,
+       2.8,
+       8.4
+      ],
+      "look": [
+       1.2,
+       2.5,
+       -1.0
+      ],
+      "fov": 44
+     },
+     {
+      "beat": 2,
+      "pos": [
+       -3.0,
+       2.5,
+       7.4
+      ],
+      "look": [
+       1.0,
+       2.4,
+       -1.0
+      ],
+      "fov": 44,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "If",
+    "world",
+    "seven"
+   ]
+  },
+  {
+   "anchor": "A thought",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "A thought experiment.",
+     "Not a prediction."
+    ],
+    "accent": [
+     "thought experiment."
+    ],
+    "size": 92
+   },
+   "beats": [
+    "thought",
+    "not"
+   ]
+  },
+  {
+   "anchor": "Meet",
+   "component": "Walk3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "from": 1.4,
+    "to": 5.4,
+    "walkDur": 78,
+    "screen": "none",
+    "actions": [
+     "cam",
+     "card",
+     "cam"
+    ],
+    "card": {
+     "name": "MAYA",
+     "role": "lives where bitcoin is the only money",
+     "note": "made-up character",
+     "y": 1130
+    },
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -3.2,
+       2.2,
+       4.8
+      ],
+      "look": [
+       0.8,
+       1.1,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 2,
+      "pos": [
+       -0.4,
+       2.3,
+       5.4
+      ],
+      "look": [
+       1.6,
+       1.3,
+       -0.8
+      ],
+      "fov": 38,
+      "dur": 26
+     }
+    ]
+   },
+   "beats": [
+    "Meet",
+    "Maya,",
+    "coffee."
+   ]
+  },
+  {
+   "anchor": "Visa",
+   "component": "Growth",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "items": [
+     {
+      "label": "Visa · capacity",
+      "value": 65000,
+      "display": "65,000 / sec"
+     },
+     {
+      "label": "Bitcoin",
+      "value": 7,
+      "display": "≈ 7 / sec"
+     }
+    ],
+    "badge": "≈ 9,000× more"
+   },
+   "beats": [
+    "Visa",
+    "thousand",
+    "payments"
+   ]
+  },
+  {
+   "anchor": "Bitcoin, about",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "src": "wiki-scal-crop.png",
+    "chrome": "browser",
+    "url": "en.wikipedia.org/wiki/Bitcoin_scalability_problem",
+    "cam": [
+     {
+      "x": 0.7,
+      "y": 0.86,
+      "zoom": 2.0
+     },
+     {
+      "x": 0.7,
+      "y": 0.88,
+      "zoom": 2.1
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 985,
+      "y": 582,
+      "w": 375,
+      "h": 58
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 30,
+      "y": 680,
+      "w": 380,
+      "h": 14
+     }
+    ],
+    "source": "Wikipedia · Bitcoin scalability"
+   },
+   "beats": [
+    "Bitcoin,",
+    "seven."
+   ]
+  },
+  {
+   "anchor": "So her",
+   "component": "Walk3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "from": 5.4,
+    "to": 6.15,
+    "walkDur": 16,
+    "z": -0.75,
+    "face": 3.14,
+    "queue": 3,
+    "queueX": 8.4,
+    "jumpTo": 9.25,
+    "screen": "none",
+    "actions": [
+     "face",
+     "pending",
+     "pin:0",
+     "jump",
+     "pin:1",
+     "paid"
+    ],
+    "pins": [
+     {
+      "text": "pending · waiting in line",
+      "at": [
+       7.65,
+       2.2,
+       -0.75
+      ],
+      "rel": false,
+      "dy": -170,
+      "tone": "warm",
+      "size": 40
+     },
+     {
+      "text": "bigger fee → goes first",
+      "at": [
+       0,
+       2.05,
+       0
+      ],
+      "dy": -140,
+      "dx": -60,
+      "tone": "good",
+      "size": 42
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -1.6,
+       2.6,
+       6.0
+      ],
+      "look": [
+       1.6,
+       1.2,
+       -0.9
+      ],
+      "fov": 40
+     },
+     {
+      "beat": 3,
+      "pos": [
+       -1.8,
+       2.5,
+       5.4
+      ],
+      "look": [
+       0.6,
+       1.2,
+       -0.7
+      ],
+      "fov": 40,
+      "dur": 26
+     }
+    ]
+   },
+   "beats": [
+    "So",
+    "payment",
+    "queue,",
+    "bigger",
+    "fee",
+    "ahead."
+   ]
+  },
+  {
+   "anchor": "In April",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "ct-fee-crop.png",
+    "chrome": "browser",
+    "url": "cointelegraph.com/news/bitcoin-fees-crash-after-daily-average-record-halving-day",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.06,
+      "zoom": 1.45
+     },
+     {
+      "x": 0.55,
+      "y": 0.08,
+      "zoom": 1.6
+     },
+     {
+      "x": 0.3,
+      "y": 0.97,
+      "zoom": 1.6
+     },
+     {
+      "x": 0.3,
+      "y": 0.97,
+      "zoom": 1.75
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 425,
+      "y": 130,
+      "w": 330,
+      "h": 90
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 30,
+      "y": 1622,
+      "w": 520,
+      "h": 72
+     }
+    ],
+    "source": "Cointelegraph · 22 Apr 2024 · data: YCharts"
+   },
+   "beats": [
+    "April",
+    "average",
+    "hundred",
+    "dollars."
+   ]
+  },
+  {
+   "anchor": "The milk's",
+   "component": "Walk3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "from": 11.0,
+    "to": 11.0,
+    "z": -0.2,
+    "screen": "none",
+    "actions": [
+     "cup",
+     "sour",
+     "pin:0",
+     "refund",
+     "cam",
+     "pin:1"
+    ],
+    "pins": [
+     {
+      "text": "no bank to call",
+      "at": [
+       13.0,
+       2.2,
+       -1.9
+      ],
+      "rel": false,
+      "dy": -200,
+      "tone": "alert",
+      "size": 44
+     },
+     {
+      "text": "only the café can refund",
+      "at": [
+       9.0,
+       1.4,
+       -1.3
+      ],
+      "rel": false,
+      "dy": -230,
+      "tone": "warm",
+      "size": 42
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.1,
+       1.65,
+       1.6
+      ],
+      "look": [
+       0.05,
+       1.2,
+       0.1
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 2,
+      "pos": [
+       -0.8,
+       2.3,
+       5.8
+      ],
+      "look": [
+       1.9,
+       1.5,
+       -1.6
+      ],
+      "fov": 40,
+      "dur": 22
+     },
+     {
+      "beat": 4,
+      "pos": [
+       1.0,
+       2.3,
+       6.2
+      ],
+      "look": [
+       -1.8,
+       1.3,
+       -1.4
+      ],
+      "fov": 40,
+      "dur": 22
+     }
+    ]
+   },
+   "beats": [
+    "milk's",
+    "sour.",
+    "bank",
+    "cancel",
+    "café",
+    "refund"
+   ]
+  },
+  {
+   "anchor": "Her savings swing",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "value": 64,
+    "prefix": "−",
+    "suffix": "%",
+    "logo": "bitcoin.svg",
+    "chip": "Bitcoin's price · 2022",
+    "label": "her savings would swing with it",
+    "tone": "alert"
+   },
+   "beats": [
+    "swing",
+    "sixty-four",
+    "percent."
+   ]
+  },
+  {
+   "anchor": "Then she loses",
+   "component": "Walk3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "from": 13.8,
+    "to": 16.5,
+    "walkDur": 70,
+    "screen": "none",
+    "actions": [
+     "drop",
+     "pin:0",
+     "hide:0",
+     "locked",
+     "pin:1",
+     "zero",
+     "slump"
+    ],
+    "pins": [
+     {
+      "text": "her recovery phrase · 12 words",
+      "at": [
+       17.6,
+       0.05,
+       1.45
+      ],
+      "rel": false,
+      "dy": -260,
+      "dx": -80,
+      "tone": "warm",
+      "size": 40
+     },
+     {
+      "text": "wallet locked · no reset button",
+      "at": [
+       0.3,
+       1.2,
+       0.05
+      ],
+      "dy": -330,
+      "tone": "alert",
+      "size": 40
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -3.0,
+       2.1,
+       4.4
+      ],
+      "look": [
+       0.3,
+       0.9,
+       0.5
+      ],
+      "fov": 40
+     },
+     {
+      "beat": 2,
+      "pos": [
+       1.7,
+       1.85,
+       2.3
+      ],
+      "look": [
+       0.1,
+       1.25,
+       0
+      ],
+      "fov": 36,
+      "dur": 22
+     },
+     {
+      "beat": 6,
+      "pos": [
+       2.6,
+       2.2,
+       3.6
+      ],
+      "look": [
+       0.1,
+       1.1,
+       0
+      ],
+      "fov": 38,
+      "dur": 24
+     }
+    ]
+   },
+   "beats": [
+    "loses",
+    "twelve",
+    "Nobody",
+    "can",
+    "reset",
+    {
+     "anchor": "savings",
+     "occurrence": 1
+    },
+    "gone."
+   ]
+  },
+  {
+   "anchor": "Supporters",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "value": 21000000,
+    "logo": "bitcoin.svg",
+    "chip": "Supporters: nobody can print more",
+    "label": "the most bitcoin there will ever be",
+    "tone": "accent"
+   },
+   "beats": [
+    "Supporters",
+    "print",
+    "bitcoin."
+   ]
+  },
+  {
+   "anchor": "Lightning,",
+   "component": "Walk3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "from": 29.15,
+    "to": 29.15,
+    "z": -0.55,
+    "face": 3.14,
+    "screen": "none",
+    "actions": [
+     "face",
+     "pin:0",
+     "arc",
+     "bolt",
+     "pin:1"
+    ],
+    "pins": [
+     {
+      "text": "an add-on built on Bitcoin",
+      "at": [
+       29.2,
+       1.12,
+       -1.05
+      ],
+      "rel": false,
+      "dy": 300,
+      "tone": "accent",
+      "size": 40
+     },
+     {
+      "text": "paid · near-instant",
+      "at": [
+       0,
+       1.9,
+       0
+      ],
+      "dy": 120,
+      "dx": 0,
+      "tone": "good",
+      "size": 46
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -3.0,
+       1.6,
+       5.4
+      ],
+      "look": [
+       0.6,
+       1.2,
+       -0.8
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 2,
+      "pos": [
+       2.8,
+       1.3,
+       4.6
+      ],
+      "look": [
+       -0.3,
+       1.25,
+       -0.8
+      ],
+      "fov": 40,
+      "dur": 20
+     }
+    ]
+   },
+   "beats": [
+    "Lightning,",
+    "add-on",
+    "small",
+    "payments",
+    "near-instant."
+   ]
+  },
+  {
+   "anchor": "Two of",
+   "component": "Walk3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "from": 30.4,
+    "to": 33.4,
+    "walkDur": 80,
+    "actions": [
+     "pin:0",
+     "cam"
+    ],
+    "pins": [
+     {
+      "text": "2 of her problems are real today",
+      "at": [
+       0,
+       2.0,
+       0
+      ],
+      "dy": -170,
+      "tone": "warm",
+      "size": 42
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -3.4,
+       2.2,
+       4.8
+      ],
+      "look": [
+       0.9,
+       1.0,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -5.0,
+       3.4,
+       7.4
+      ],
+      "look": [
+       1.0,
+       1.0,
+       0.5
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "problems",
+    "today."
+   ]
+  },
+  {
+   "anchor": "Payments are",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "title": "Real today",
+    "rows": [
+     {
+      "left": "Payments are final",
+      "badge": "NO UNDO",
+      "tone": "alert"
+     },
+     {
+      "left": "Double-check before you send",
+      "badge": "CHECK",
+      "tone": "good"
+     }
+    ]
+   },
+   "beats": [
+    "Payments",
+    "double-check",
+    "send."
+   ]
+  },
+  {
+   "anchor": "Nobody can reset your",
+   "component": "Seed3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "actions": [
+     "card",
+     "two",
+     "label:0"
+    ],
+    "title": "Recovery phrase",
+    "tags": [
+     {
+      "text": "two copies · offline",
+      "x": 540,
+      "y": 560,
+      "tone": "good",
+      "size": 52,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.47,
+       7.6,
+       7.2
+      ],
+      "look": [
+       0.47,
+       0,
+       0.3
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.9,
+       6.8,
+       7.8
+      ],
+      "look": [
+       0.6,
+       0,
+       0.3
+      ],
+      "fov": 36
+     }
+    ]
+   },
+   "beats": [
+    "Nobody",
+    "two",
+    "copies."
+   ],
+   "long": true
+  }
+ ]
+}

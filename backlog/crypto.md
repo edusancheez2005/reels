@@ -43,3 +43,4 @@
 - [x] Breaking news: AI agents ran a hacking campaign (CrowdStrike Vapor Panda, 29 Oct 2026) (2026-10-30-ai-agent-hack)
 - [x] What if Bitcoin fell to $1? (thought experiment: miners' pay, the 2021 China ban and difficulty reset, Strategy's holdings) (2026-10-31-bitcoin-one-dollar)
 - [x] The 2010 bug that made 184 billion bitcoin (value overflow incident, block 74638) (2026-11-01-184-billion-bug)
+- [x] What if Bitcoin was the only money? A day in that world (scenario, third-person walk) (2026-11-02-bitcoin-only-money)

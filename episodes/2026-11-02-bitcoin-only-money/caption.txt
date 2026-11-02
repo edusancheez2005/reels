@@ -1,0 +1,8 @@
+If Bitcoin were the only money, the world would share one network handling about 7 payments a second.
+Visa can handle 65,000. A thought experiment, not a prediction. We follow Maya through one day: her coffee payment waits in a queue (the average fee hit $128 on 20 April 2024), no bank can cancel a payment, bitcoin's price fell 64% in 2022, and a lost recovery phrase can't be reset. Supporters point to the fixed supply, and Lightning makes small payments near-instant.
+Two of her problems are real today: payments are final, so double-check before you send, and keep two offline copies of your recovery phrase.
+Follow for crypto, explained simply.
+Not financial advice.
+#Bitcoin #Crypto #CryptoExplained #CryptoForBeginners #Sonar
+
+Sources: Wikipedia, "Bitcoin scalability" (3.3-7 transactions/s; Lightning) - Visa fact sheet, July 2019 (65,000+ transaction messages/s capacity) - Cointelegraph, 22 Apr 2024, citing YCharts ($128 average fee on 20 Apr 2024) - CoinDesk, "Understanding Bitcoin's 64% Decline in 2022" - Wikipedia, "Bitcoin" (chargebacks, lost keys, 21 million cap).

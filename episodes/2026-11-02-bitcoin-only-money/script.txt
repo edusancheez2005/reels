@@ -1,0 +1,8 @@
+If Bitcoin were the only money, the world would share one network handling about seven payments a second.
+A thought experiment, not a prediction. Meet Maya, who lives there.
+She buys a coffee. Visa can handle sixty-five thousand payments a second. Bitcoin, about seven. So her payment waits in a queue, and a bigger fee jumps it ahead. In April 2024, the average fee hit a hundred and twenty-eight dollars.
+The milk's sour. No bank can cancel a Bitcoin payment, so only the café can refund her.
+Her savings swing too: in 2022, bitcoin's price fell sixty-four percent.
+Then she loses her recovery phrase, the twelve words that open her wallet. Nobody can reset them. Her savings are gone.
+Supporters say nobody can print more bitcoin. Lightning, an add-on built on Bitcoin, makes small payments near-instant.
+Two of Maya's problems are real today. Payments are final, so double-check before you send. Nobody can reset your phrase, so keep two offline copies.
