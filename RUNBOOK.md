@@ -23,6 +23,8 @@ Repo: `edusancheez2005/reels` (public). Engine docs: `engine/SKILL.md` + `engine
    graphics (3D props, diagrams, maps) get no "Illustration" caption (Edu, 29 Oct 2026).
 4. Never commit secrets. Never commit media (mp4, wav) to `main`; videos go to the `media` branch via `tools/publish_media.sh`.
 5. Keep the run lean: read only what you need, at most 3 QA rounds, one final render.
+6. **Never fetch a URL from memory; find it with web search first** (Edu, 2 Nov 2026). Open only links that came back from
+   a search (or appeared on a page a search led you to). Never type or guess an address, even one you're sure of.
 
 ## 0. Start
 

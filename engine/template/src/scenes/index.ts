@@ -34,6 +34,8 @@ import {Landfill3D} from '../three/Landfill3D';
 import {Laptop3D, HardDrive3D} from '../three/Desk3D';
 import {Character3D} from '../three/Character3D';
 import {Walk3D} from '../three/Walk3D';
+import {Trader3D} from '../three/Trader3D';
+import {Quantum3D} from '../three/Quantum3D';
 import {Drives3D} from '../three/Drives3D';
 import {Seed3D, Letter3D} from '../three/Wallet3D';
 import {Iso3D} from '../three/Iso3D';
@@ -77,6 +79,8 @@ export const SCENES: Record<string, React.FC<SceneProps<any>>> = {
   Coin3D,
   Character3D,
   Walk3D,
+  Trader3D,
+  Quantum3D,
   Drives3D,
   Seed3D,
   Letter3D,

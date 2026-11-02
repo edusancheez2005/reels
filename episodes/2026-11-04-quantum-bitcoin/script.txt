@@ -1,0 +1,13 @@
+Google says a big enough quantum computer could crack a Bitcoin key in minutes. Six million bitcoin are exposed.
+
+That machine doesn't exist yet. Google's Willow chip has a hundred and five qubits, its building blocks. Cracking a key would need under half a million qubits. Nobody knows when.
+
+Here's what it would break. Your bitcoin sits behind a lock, called a public key. Only your private key, a secret number, opens it. Today's computers can't work out the secret from the lock. A quantum one could.
+
+But it has to see the lock first. An address, where you receive bitcoin, usually covers the lock until you spend. The exceptions: Bitcoin's earliest coins, some newer address types, and addresses reused after spending. That's the six million, says data firm Glassnode: nearly a third of all bitcoin.
+
+A first step, still a draft: B-I-P three-sixty, a version of those newer addresses that keeps the lock covered.
+
+Not everyone's worried. Crypto firm CoinShares says only about ten thousand of the earliest bitcoin face real risk.
+
+What you can do today: don't reuse an address. Let your wallet give you a fresh one, so your lock stays covered.

@@ -1,0 +1,1933 @@
+{
+ "slug": "trump-sniper",
+ "format": "character",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 1.1,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "a hundred and nine million,",
+  "first second.",
+  "TRUMP.",
+  "Truth Social and X,",
+  "pool,",
+  "public record,",
+  "seventeen hours",
+  "snipers",
+  "eighty-four thousand dollar fee",
+  "six million coins",
+  "eighteen cents",
+  "cashed out.",
+  "Bubblemaps,",
+  "can't prove it's him.",
+  "denies",
+  "who paid",
+  "seven hundred and sixty-four thousand",
+  "lost money.",
+  "not early.",
+  "sell to."
+ ],
+ "defs": {
+  "pool": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "pool",
+     "kind": "pad",
+     "at": [
+      0,
+      0
+     ],
+     "size": 2.3,
+     "tone": "warm"
+    },
+    {
+     "id": "coins",
+     "kind": "coins",
+     "at": [
+      0,
+      0
+     ],
+     "size": 1.5,
+     "tone": "warm"
+    },
+    {
+     "id": "eye",
+     "kind": "block",
+     "at": [
+      -2.6,
+      -2.3
+     ],
+     "icon": "eye",
+     "tone": "accent",
+     "size": 0.95
+    },
+    {
+     "id": "clock",
+     "kind": "block",
+     "at": [
+      -0.4,
+      -2.6
+     ],
+     "icon": "clock",
+     "tone": "warm",
+     "size": 0.85
+    },
+    {
+     "id": "b1",
+     "kind": "server",
+     "at": [
+      3.0,
+      -2.2
+     ],
+     "size": 0.75,
+     "tone": "accent"
+    },
+    {
+     "id": "b2",
+     "kind": "server",
+     "at": [
+      3.7,
+      -0.7
+     ],
+     "size": 0.75,
+     "tone": "accent"
+    },
+    {
+     "id": "b3",
+     "kind": "server",
+     "at": [
+      3.3,
+      1.0
+     ],
+     "size": 0.75,
+     "tone": "accent"
+    },
+    {
+     "id": "lap",
+     "kind": "laptop",
+     "at": [
+      4.9,
+      0.4
+     ],
+     "size": 1.0,
+     "tone": "warm"
+    },
+    {
+     "id": "p1",
+     "kind": "pawn",
+     "at": [
+      -4.0,
+      -0.6
+     ],
+     "size": 0.75,
+     "tone": "muted"
+    },
+    {
+     "id": "p2",
+     "kind": "pawn",
+     "at": [
+      -4.9,
+      0.5
+     ],
+     "size": 0.75,
+     "tone": "muted"
+    },
+    {
+     "id": "p3",
+     "kind": "pawn",
+     "at": [
+      -4.1,
+      1.6
+     ],
+     "size": 0.75,
+     "tone": "muted"
+    },
+    {
+     "id": "p4",
+     "kind": "pawn",
+     "at": [
+      -3.0,
+      2.5
+     ],
+     "size": 0.75,
+     "tone": "muted"
+    },
+    {
+     "id": "p5",
+     "kind": "pawn",
+     "at": [
+      -5.3,
+      -1.5
+     ],
+     "size": 0.75,
+     "tone": "muted"
+    }
+   ],
+   "links": [
+    {
+     "id": "leye",
+     "from": "eye",
+     "to": "pool",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "lb1",
+     "from": "b1",
+     "to": "pool",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "lb2",
+     "from": "b2",
+     "to": "pool",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "lb3",
+     "from": "b3",
+     "to": "pool",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "lp1",
+     "from": "p1",
+     "to": "pool",
+     "style": "dashed",
+     "tone": "muted"
+    },
+    {
+     "id": "lp2",
+     "from": "p2",
+     "to": "pool",
+     "style": "dashed",
+     "tone": "muted"
+    },
+    {
+     "id": "lp3",
+     "from": "p3",
+     "to": "pool",
+     "style": "dashed",
+     "tone": "muted"
+    },
+    {
+     "id": "lp4",
+     "from": "p4",
+     "to": "pool",
+     "style": "dashed",
+     "tone": "muted"
+    },
+    {
+     "id": "lp5",
+     "from": "p5",
+     "to": "pool",
+     "style": "dashed",
+     "tone": "muted"
+    }
+   ],
+   "movers": [
+    {
+     "id": "mbuy",
+     "kind": "coin",
+     "path": [
+      "pool",
+      "b2",
+      "lap"
+     ],
+     "tone": "warm",
+     "dur": 12
+    },
+    {
+     "id": "m1",
+     "kind": "coin",
+     "path": [
+      "p2",
+      "pool",
+      "lap"
+     ],
+     "tone": "warm",
+     "dur": 16
+    },
+    {
+     "id": "m2",
+     "kind": "coin",
+     "path": [
+      "p4",
+      "pool",
+      "lap"
+     ],
+     "tone": "warm",
+     "dur": 16
+    },
+    {
+     "id": "m3",
+     "kind": "coin",
+     "path": [
+      "p5",
+      "pool",
+      "lap"
+     ],
+     "tone": "warm",
+     "dur": 16
+    }
+   ],
+   "labels": [
+    {
+     "text": "pool: a pot of coins",
+     "at": "pool",
+     "side": "up",
+     "tone": "warm"
+    },
+    {
+     "text": "people buy from it",
+     "at": "p2",
+     "side": "left"
+    },
+    {
+     "text": "public record: anyone can look",
+     "at": "eye",
+     "side": "up",
+     "tone": "accent"
+    },
+    {
+     "text": "snipers' bots",
+     "at": "b1",
+     "side": "up",
+     "tone": "accent"
+    },
+    {
+     "text": "buys the instant trading opens",
+     "at": "lap",
+     "side": "up",
+     "tone": "warm"
+    },
+    {
+     "text": "his profit",
+     "at": "lap",
+     "side": "up",
+     "tone": "warm"
+    },
+    {
+     "text": "everyone who bought later",
+     "at": "p3",
+     "side": "left"
+    },
+    {
+     "text": "public 17 h before the posts",
+     "at": "clock",
+     "side": "up",
+     "tone": "warm"
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "One",
+   "component": "Trader3D",
+   "transition": "cut",
+   "props": {
+    "screens": {
+     "watch": {
+      "head": "watching new pools",
+      "big": "scanning\u2026",
+      "sub": [
+       "Solana \u00b7 new pool alerts"
+      ],
+      "tone": "muted",
+      "chart": "flat"
+     },
+     "pool": {
+      "head": "new pool found",
+      "big": "TRUMP / USDC",
+      "sub": [
+       "trading: not open yet",
+       "pool set up 17 h before launch"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "NEW POOL \u00b7 TRUMP / USDC",
+       "10% of supply deposited",
+       "trading opens at launch"
+      ]
+     },
+     "armed": {
+      "head": "bot armed \u00b7 buy on open",
+      "big": "fee: $84,000",
+      "sub": [
+       "priority fee \u00b7 to go first"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "TRUMP / USDC \u00b7 waiting",
+       "priority fee set",
+       "trigger: trading opens"
+      ]
+     },
+     "buy": {
+      "head": "bought \u00b7 first second",
+      "big": "5,970,000 TRUMP",
+      "sub": [
+       "paid 1.09M USDC",
+       "\u2248 $0.18 each"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "BUY FILLED \u00b7 5.97M TRUMP",
+       "split across 9 wallets",
+       "trading: open"
+      ]
+     },
+     "sold": {
+      "head": "cashed out",
+      "big": "+$108M",
+      "sub": [
+       "profit booked"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "profit \u2248 $108M",
+       "from $1.09M"
+      ]
+     }
+    },
+    "screen": "watch",
+    "actions": [
+     "label:0",
+     "card",
+     "type"
+    ],
+    "caption": "3D recreation \u00b7 trade details: Bubblemaps, Lookonchain",
+    "tags": [
+     {
+      "text": "$1,090,000",
+      "x": 540,
+      "y": 520,
+      "tone": "warm",
+      "size": 86,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.2,
+       1.42,
+       1.05
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.75,
+       1.36,
+       0.85
+      ],
+      "look": [
+       0,
+       1.12,
+       0.14
+      ],
+      "fov": 30,
+      "dur": 40
+     }
+    ],
+    "card": {
+     "name": "THE TRADER",
+     "role": "Solana meme-coin sniper",
+     "note": "3D stand-in \u00b7 identity unproven",
+     "y": 1250
+    }
+   },
+   "beats": [
+    "One",
+    "trader",
+    "million"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "into",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "value": 109000000,
+    "prefix": "$",
+    "chip": "from $1.09M",
+    "label": "in its first second of trading",
+    "tone": "good"
+   },
+   "beats": [
+    "into",
+    "million,",
+    "million,"
+   ]
+  },
+  {
+   "anchor": "by buying",
+   "component": "Trader3D",
+   "transition": "whip",
+   "props": {
+    "screens": {
+     "watch": {
+      "head": "watching new pools",
+      "big": "scanning\u2026",
+      "sub": [
+       "Solana \u00b7 new pool alerts"
+      ],
+      "tone": "muted",
+      "chart": "flat"
+     },
+     "pool": {
+      "head": "new pool found",
+      "big": "TRUMP / USDC",
+      "sub": [
+       "trading: not open yet",
+       "pool set up 17 h before launch"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "NEW POOL \u00b7 TRUMP / USDC",
+       "10% of supply deposited",
+       "trading opens at launch"
+      ]
+     },
+     "armed": {
+      "head": "bot armed \u00b7 buy on open",
+      "big": "fee: $84,000",
+      "sub": [
+       "priority fee \u00b7 to go first"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "TRUMP / USDC \u00b7 waiting",
+       "priority fee set",
+       "trigger: trading opens"
+      ]
+     },
+     "buy": {
+      "head": "bought \u00b7 first second",
+      "big": "5,970,000 TRUMP",
+      "sub": [
+       "paid 1.09M USDC",
+       "\u2248 $0.18 each"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "BUY FILLED \u00b7 5.97M TRUMP",
+       "split across 9 wallets",
+       "trading: open"
+      ]
+     },
+     "sold": {
+      "head": "cashed out",
+      "big": "+$108M",
+      "sub": [
+       "profit booked"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "profit \u2248 $108M",
+       "from $1.09M"
+      ]
+     }
+    },
+    "screen": "armed",
+    "actions": [
+     "click",
+     "screen:buy"
+    ],
+    "caption": "3D recreation \u00b7 trade details: Bubblemaps, Lookonchain",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.55,
+       1.42,
+       -0.85
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 31
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.5,
+       1.4,
+       -0.72
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 30,
+      "dur": 36
+     }
+    ]
+   },
+   "beats": [
+    "buying",
+    "first"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "The coin",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "src": "cbs-launch.png",
+    "chrome": "browser",
+    "url": "cbsnews.com/news/trump-launches-own-meme-coin-cryptocurrency",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.13,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.12,
+      "zoom": 1.12
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 40,
+      "y": 48,
+      "w": 1300,
+      "h": 158
+     }
+    ],
+    "source": "CBS News, 20 Jan 2025"
+   },
+   "beats": [
+    "coin",
+    "TRUMP."
+   ]
+  },
+  {
+   "anchor": "Donald",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "src": "cbs-launch.png",
+    "chrome": "browser",
+    "url": "cbsnews.com/news/trump-launches-own-meme-coin-cryptocurrency",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.72,
+      "zoom": 1.05
+     },
+     {
+      "x": 0.5,
+      "y": 0.74,
+      "zoom": 1.12
+     },
+     {
+      "x": 0.5,
+      "y": 0.86,
+      "zoom": 1.12
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 48,
+      "y": 830,
+      "w": 1200,
+      "h": 14
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 40,
+      "y": 1068,
+      "w": 1300,
+      "h": 112
+     }
+    ],
+    "source": "CBS News \u00b7 his post on Truth Social and X"
+   },
+   "beats": [
+    "Donald",
+    "Truth",
+    "X,"
+   ]
+  },
+  {
+   "anchor": "three days",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "17 Jan 2025",
+     "3 days before the inauguration"
+    ],
+    "accent": [
+     "3",
+     "days"
+    ]
+   },
+   "beats": [
+    "three",
+    "inauguration."
+   ]
+  },
+  {
+   "anchor": "How do you",
+   "component": "Trader3D",
+   "transition": "whip",
+   "props": {
+    "screens": {
+     "watch": {
+      "head": "watching new pools",
+      "big": "scanning\u2026",
+      "sub": [
+       "Solana \u00b7 new pool alerts"
+      ],
+      "tone": "muted",
+      "chart": "flat"
+     },
+     "pool": {
+      "head": "new pool found",
+      "big": "TRUMP / USDC",
+      "sub": [
+       "trading: not open yet",
+       "pool set up 17 h before launch"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "NEW POOL \u00b7 TRUMP / USDC",
+       "10% of supply deposited",
+       "trading opens at launch"
+      ]
+     },
+     "armed": {
+      "head": "bot armed \u00b7 buy on open",
+      "big": "fee: $84,000",
+      "sub": [
+       "priority fee \u00b7 to go first"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "TRUMP / USDC \u00b7 waiting",
+       "priority fee set",
+       "trigger: trading opens"
+      ]
+     },
+     "buy": {
+      "head": "bought \u00b7 first second",
+      "big": "5,970,000 TRUMP",
+      "sub": [
+       "paid 1.09M USDC",
+       "\u2248 $0.18 each"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "BUY FILLED \u00b7 5.97M TRUMP",
+       "split across 9 wallets",
+       "trading: open"
+      ]
+     },
+     "sold": {
+      "head": "cashed out",
+      "big": "+$108M",
+      "sub": [
+       "profit booked"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "profit \u2248 $108M",
+       "from $1.09M"
+      ]
+     }
+    },
+    "screen": "watch",
+    "actions": [
+     "type",
+     "cam"
+    ],
+    "caption": "3D recreation \u00b7 trade details: Bubblemaps, Lookonchain",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.6,
+       2.0,
+       -2.2
+      ],
+      "look": [
+       0,
+       0.9,
+       0.4
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.9,
+       1.75,
+       -1.5
+      ],
+      "look": [
+       0,
+       1.0,
+       0.5
+      ],
+      "fov": 32,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "How",
+    "fast?"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "Coins like",
+   "component": "Iso3D",
+   "transition": "zoom",
+   "props": {
+    "$use": "pool",
+    "hidden": [
+     "eye",
+     "clock",
+     "b1",
+     "b2",
+     "b3",
+     "lap"
+    ],
+    "state": {
+     "links": [
+      "lp1",
+      "lp2",
+      "lp3",
+      "lp4",
+      "lp5"
+     ]
+    },
+    "actions": [
+     "cam",
+     "label:0",
+     "label:1"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       0.6,
+       0
+      ],
+      "zoom": 121
+     },
+     {
+      "beat": 0,
+      "target": [
+       -1.6,
+       0.6,
+       0.4
+      ],
+      "zoom": 98,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "Coins",
+    "pot",
+    "people"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "TRUMP's pool",
+   "component": "Iso3D",
+   "transition": "cut",
+   "props": {
+    "$use": "pool",
+    "hidden": [
+     "clock",
+     "b1",
+     "b2",
+     "b3",
+     "lap"
+    ],
+    "state": {
+     "links": [
+      "lp1",
+      "lp2",
+      "lp3",
+      "lp4",
+      "lp5"
+     ]
+    },
+    "actions": [
+     "show:eye",
+     "link:leye",
+     "label:2"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.6,
+       0.6,
+       0.4
+      ],
+      "zoom": 98
+     },
+     {
+      "beat": 0,
+      "target": [
+       -1.4,
+       0.6,
+       -1.1
+      ],
+      "zoom": 114,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "pool",
+    "blockchain,",
+    "public"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "seventeen hours",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "src": "helius-17h.png",
+    "chrome": "browser",
+    "url": "helius.dev/blog/trump-solana-memecoin-records-trends-insights",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 50,
+      "y": 56,
+      "w": 1370,
+      "h": 128
+     }
+    ],
+    "source": "Helius, 28 Jan 2025"
+   },
+   "beats": [
+    "seventeen"
+   ]
+  },
+  {
+   "anchor": "Traders called",
+   "component": "Iso3D",
+   "transition": "whip",
+   "props": {
+    "$use": "pool",
+    "hidden": [
+     "clock",
+     "b1",
+     "b2",
+     "b3",
+     "p1",
+     "p2",
+     "p3",
+     "p4",
+     "p5"
+    ],
+    "state": {
+     "links": [
+      "leye"
+     ]
+    },
+    "actions": [
+     "show:b1",
+     "show:b2",
+     "show:b3",
+     "label:3",
+     "move:mbuy"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.8,
+       0.6,
+       -0.4
+      ],
+      "zoom": 100
+     }
+    ]
+   },
+   "beats": [
+    "snipers",
+    "run",
+    "bots",
+    "buy",
+    "instant"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "This trader",
+   "component": "Trader3D",
+   "transition": "whip",
+   "props": {
+    "screens": {
+     "watch": {
+      "head": "watching new pools",
+      "big": "scanning\u2026",
+      "sub": [
+       "Solana \u00b7 new pool alerts"
+      ],
+      "tone": "muted",
+      "chart": "flat"
+     },
+     "pool": {
+      "head": "new pool found",
+      "big": "TRUMP / USDC",
+      "sub": [
+       "trading: not open yet",
+       "pool set up 17 h before launch"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "NEW POOL \u00b7 TRUMP / USDC",
+       "10% of supply deposited",
+       "trading opens at launch"
+      ]
+     },
+     "armed": {
+      "head": "bot armed \u00b7 buy on open",
+      "big": "fee: $84,000",
+      "sub": [
+       "priority fee \u00b7 to go first"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "TRUMP / USDC \u00b7 waiting",
+       "priority fee set",
+       "trigger: trading opens"
+      ]
+     },
+     "buy": {
+      "head": "bought \u00b7 first second",
+      "big": "5,970,000 TRUMP",
+      "sub": [
+       "paid 1.09M USDC",
+       "\u2248 $0.18 each"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "BUY FILLED \u00b7 5.97M TRUMP",
+       "split across 9 wallets",
+       "trading: open"
+      ]
+     },
+     "sold": {
+      "head": "cashed out",
+      "big": "+$108M",
+      "sub": [
+       "profit booked"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "profit \u2248 $108M",
+       "from $1.09M"
+      ]
+     }
+    },
+    "screen": "pool",
+    "actions": [
+     "screen:armed",
+     "click",
+     "label:0"
+    ],
+    "caption": "3D recreation \u00b7 trade details: Bubblemaps, Lookonchain",
+    "tags": [
+     {
+      "text": "$84,000 fee to go first",
+      "x": 540,
+      "y": 560,
+      "tone": "warm",
+      "size": 52,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.55,
+       1.42,
+       -0.85
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 31
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.5,
+       1.4,
+       -0.72
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 30,
+      "dur": 36
+     }
+    ]
+   },
+   "beats": [
+    "trader",
+    "fee",
+    "first."
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "He got",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "value": 5970000,
+    "suffix": " TRUMP",
+    "chip": "for 1.09M USDC \u00b7 \u2248 $0.18 each",
+    "label": "his first-second buy",
+    "tone": "accent"
+   },
+   "beats": [
+    "got",
+    "eighteen",
+    "each,"
+   ]
+  },
+  {
+   "anchor": "and later",
+   "component": "Trader3D",
+   "transition": "cut",
+   "props": {
+    "screens": {
+     "watch": {
+      "head": "watching new pools",
+      "big": "scanning\u2026",
+      "sub": [
+       "Solana \u00b7 new pool alerts"
+      ],
+      "tone": "muted",
+      "chart": "flat"
+     },
+     "pool": {
+      "head": "new pool found",
+      "big": "TRUMP / USDC",
+      "sub": [
+       "trading: not open yet",
+       "pool set up 17 h before launch"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "NEW POOL \u00b7 TRUMP / USDC",
+       "10% of supply deposited",
+       "trading opens at launch"
+      ]
+     },
+     "armed": {
+      "head": "bot armed \u00b7 buy on open",
+      "big": "fee: $84,000",
+      "sub": [
+       "priority fee \u00b7 to go first"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "TRUMP / USDC \u00b7 waiting",
+       "priority fee set",
+       "trigger: trading opens"
+      ]
+     },
+     "buy": {
+      "head": "bought \u00b7 first second",
+      "big": "5,970,000 TRUMP",
+      "sub": [
+       "paid 1.09M USDC",
+       "\u2248 $0.18 each"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "BUY FILLED \u00b7 5.97M TRUMP",
+       "split across 9 wallets",
+       "trading: open"
+      ]
+     },
+     "sold": {
+      "head": "cashed out",
+      "big": "+$108M",
+      "sub": [
+       "profit booked"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "profit \u2248 $108M",
+       "from $1.09M"
+      ]
+     }
+    },
+    "screen": "buy",
+    "actions": [
+     "screen:sold",
+     "lean"
+    ],
+    "caption": "3D recreation \u00b7 trade details: Bubblemaps, Lookonchain",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.6,
+       2.0,
+       -2.2
+      ],
+      "look": [
+       0,
+       0.9,
+       0.4
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       2.2,
+       1.7,
+       -1.6
+      ],
+      "look": [
+       0,
+       1.0,
+       0.45
+      ],
+      "fov": 32,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "later",
+    "cashed"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "Bubblemaps,",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "src": "theblock-headline.png",
+    "chrome": "browser",
+    "url": "theblock.co/post/341664",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.08
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 42,
+      "y": 118,
+      "w": 1010,
+      "h": 205
+     }
+    ],
+    "source": "The Block, 18 Feb 2025 \u00b7 Bubblemaps with Coffeezilla"
+   },
+   "beats": [
+    "Bubblemaps,",
+    "analytics"
+   ]
+  },
+  {
+   "anchor": "linked",
+   "component": "Trader3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "screens": {
+     "watch": {
+      "head": "watching new pools",
+      "big": "scanning\u2026",
+      "sub": [
+       "Solana \u00b7 new pool alerts"
+      ],
+      "tone": "muted",
+      "chart": "flat"
+     },
+     "pool": {
+      "head": "new pool found",
+      "big": "TRUMP / USDC",
+      "sub": [
+       "trading: not open yet",
+       "pool set up 17 h before launch"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "NEW POOL \u00b7 TRUMP / USDC",
+       "10% of supply deposited",
+       "trading opens at launch"
+      ]
+     },
+     "armed": {
+      "head": "bot armed \u00b7 buy on open",
+      "big": "fee: $84,000",
+      "sub": [
+       "priority fee \u00b7 to go first"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "TRUMP / USDC \u00b7 waiting",
+       "priority fee set",
+       "trigger: trading opens"
+      ]
+     },
+     "buy": {
+      "head": "bought \u00b7 first second",
+      "big": "5,970,000 TRUMP",
+      "sub": [
+       "paid 1.09M USDC",
+       "\u2248 $0.18 each"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "BUY FILLED \u00b7 5.97M TRUMP",
+       "split across 9 wallets",
+       "trading: open"
+      ]
+     },
+     "sold": {
+      "head": "cashed out",
+      "big": "+$108M",
+      "sub": [
+       "profit booked"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "profit \u2248 $108M",
+       "from $1.09M"
+      ]
+     }
+    },
+    "screen": "sold",
+    "actions": [
+     "idle",
+     "label:0",
+     "label:1"
+    ],
+    "caption": "3D recreation \u00b7 trade details: Bubblemaps, Lookonchain",
+    "tags": [
+     {
+      "text": "linked by Bubblemaps",
+      "x": 540,
+      "y": 520,
+      "tone": "accent",
+      "size": 50,
+      "pill": true
+     },
+     {
+      "text": "not proven it's him",
+      "x": 540,
+      "y": 600,
+      "tone": "muted",
+      "size": 46,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.2,
+       1.42,
+       1.05
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.75,
+       1.36,
+       0.85
+      ],
+      "look": [
+       0,
+       1.12,
+       0.14
+      ],
+      "fov": 30,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "linked",
+    "specific",
+    "prove"
+   ]
+  },
+  {
+   "anchor": "He denies",
+   "component": "Trader3D",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "screens": {
+     "watch": {
+      "head": "watching new pools",
+      "big": "scanning\u2026",
+      "sub": [
+       "Solana \u00b7 new pool alerts"
+      ],
+      "tone": "muted",
+      "chart": "flat"
+     },
+     "pool": {
+      "head": "new pool found",
+      "big": "TRUMP / USDC",
+      "sub": [
+       "trading: not open yet",
+       "pool set up 17 h before launch"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "NEW POOL \u00b7 TRUMP / USDC",
+       "10% of supply deposited",
+       "trading opens at launch"
+      ]
+     },
+     "armed": {
+      "head": "bot armed \u00b7 buy on open",
+      "big": "fee: $84,000",
+      "sub": [
+       "priority fee \u00b7 to go first"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "TRUMP / USDC \u00b7 waiting",
+       "priority fee set",
+       "trigger: trading opens"
+      ]
+     },
+     "buy": {
+      "head": "bought \u00b7 first second",
+      "big": "5,970,000 TRUMP",
+      "sub": [
+       "paid 1.09M USDC",
+       "\u2248 $0.18 each"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "BUY FILLED \u00b7 5.97M TRUMP",
+       "split across 9 wallets",
+       "trading: open"
+      ]
+     },
+     "sold": {
+      "head": "cashed out",
+      "big": "+$108M",
+      "sub": [
+       "profit booked"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "profit \u2248 $108M",
+       "from $1.09M"
+      ]
+     }
+    },
+    "screen": "pool",
+    "actions": [
+     "type",
+     "label:0",
+     "label:1"
+    ],
+    "caption": "3D recreation \u00b7 trade details: Bubblemaps, Lookonchain",
+    "tags": [
+     {
+      "text": "denies any inside tip",
+      "x": 540,
+      "y": 520,
+      "tone": "warm",
+      "size": 50,
+      "pill": true
+     },
+     {
+      "text": "\"we spotted the pool early\"",
+      "x": 540,
+      "y": 600,
+      "tone": "muted",
+      "size": 44,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.55,
+       1.42,
+       -0.85
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 31
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.5,
+       1.4,
+       -0.72
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 30,
+      "dur": 36
+     }
+    ]
+   },
+   "beats": [
+    "denies",
+    "inside",
+    "spotted"
+   ]
+  },
+  {
+   "anchor": "So who",
+   "component": "Iso3D",
+   "transition": "whip",
+   "props": {
+    "$use": "pool",
+    "hidden": [
+     "clock",
+     "eye"
+    ],
+    "state": {
+     "links": [
+      "lb1",
+      "lb2",
+      "lb3",
+      "lp1",
+      "lp2",
+      "lp3",
+      "lp4",
+      "lp5"
+     ]
+    },
+    "actions": [
+     "pulse:lap",
+     "label:5",
+     "move:m1",
+     "move:m2",
+     "move:m3",
+     "label:6"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       2.4,
+       0.6,
+       0.2
+      ],
+      "zoom": 116
+     },
+     {
+      "beat": 2,
+      "target": [
+       0,
+       0.6,
+       0.2
+      ],
+      "zoom": 84,
+      "dur": 34
+     }
+    ]
+   },
+   "beats": [
+    "paid",
+    "profit?",
+    "Everyone",
+    "bought",
+    "later.",
+    "later."
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "About seven",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "src": "nbc-headline.png",
+    "chrome": "browser",
+    "url": "nbcnewyork.com/news/business/money-report/58-crypto-wallets-have-made-millions-on-trumps-meme-coin-764000-have-lost-money-data-shows/6253512/",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.45,
+      "y": 0.6,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.42,
+      "y": 0.6,
+      "zoom": 1.35
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 225,
+      "y": 200,
+      "w": 1060,
+      "h": 92
+     }
+    ],
+    "source": "CNBC via NBC New York, 6 May 2025 \u00b7 Chainalysis data"
+   },
+   "beats": [
+    "About",
+    "seven",
+    "thousand"
+   ]
+  },
+  {
+   "anchor": "or accounts,",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "cut",
+   "props": {
+    "value": 764000,
+    "chip": "Chainalysis \u00b7 May 2025",
+    "label": "wallets lost money on TRUMP",
+    "tone": "alert"
+   },
+   "beats": [
+    "or",
+    "lost",
+    "money."
+   ]
+  },
+  {
+   "anchor": "The pool was",
+   "component": "Iso3D",
+   "transition": "whip",
+   "props": {
+    "$use": "pool",
+    "hidden": [
+     "clock",
+     "b1",
+     "b2",
+     "b3"
+    ],
+    "state": {
+     "links": [
+      "leye",
+      "lp1",
+      "lp2",
+      "lp3",
+      "lp4",
+      "lp5"
+     ]
+    },
+    "actions": [
+     "show:clock",
+     "label:7"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.0,
+       0.6,
+       -0.8
+      ],
+      "zoom": 106
+     }
+    ]
+   },
+   "beats": [
+    "public",
+    "posts."
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "If a post",
+   "component": "Phone",
+   "theme": "light",
+   "transition": "rise",
+   "props": {
+    "time": "21:04",
+    "date": "Friday",
+    "notifs": [
+     {
+      "app": "Social",
+      "title": "New coin just launched",
+      "body": "Get in early \ud83d\ude80",
+      "icon": "\ud83d\udce3",
+      "iconBg": "#3b82f6"
+     },
+     {
+      "app": "Social",
+      "title": "Everyone's buying this coin",
+      "body": "Don't miss out",
+      "icon": "\ud83d\udce3",
+      "iconBg": "#3b82f6"
+     }
+    ]
+   },
+   "beats": [
+    "post",
+    "coin,"
+   ]
+  },
+  {
+   "anchor": "You're who",
+   "component": "Trader3D",
+   "transition": "whip",
+   "props": {
+    "screens": {
+     "watch": {
+      "head": "watching new pools",
+      "big": "scanning\u2026",
+      "sub": [
+       "Solana \u00b7 new pool alerts"
+      ],
+      "tone": "muted",
+      "chart": "flat"
+     },
+     "pool": {
+      "head": "new pool found",
+      "big": "TRUMP / USDC",
+      "sub": [
+       "trading: not open yet",
+       "pool set up 17 h before launch"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "NEW POOL \u00b7 TRUMP / USDC",
+       "10% of supply deposited",
+       "trading opens at launch"
+      ]
+     },
+     "armed": {
+      "head": "bot armed \u00b7 buy on open",
+      "big": "fee: $84,000",
+      "sub": [
+       "priority fee \u00b7 to go first"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "TRUMP / USDC \u00b7 waiting",
+       "priority fee set",
+       "trigger: trading opens"
+      ]
+     },
+     "buy": {
+      "head": "bought \u00b7 first second",
+      "big": "5,970,000 TRUMP",
+      "sub": [
+       "paid 1.09M USDC",
+       "\u2248 $0.18 each"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "BUY FILLED \u00b7 5.97M TRUMP",
+       "split across 9 wallets",
+       "trading: open"
+      ]
+     },
+     "sold": {
+      "head": "cashed out",
+      "big": "+$108M",
+      "sub": [
+       "profit booked"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "profit \u2248 $108M",
+       "from $1.09M"
+      ]
+     }
+    },
+    "screen": "sold",
+    "actions": [
+     "lean",
+     "label:0"
+    ],
+    "caption": "3D recreation \u00b7 trade details: Bubblemaps, Lookonchain",
+    "tags": [
+     {
+      "text": "sonartracker.io \u00b7 we track wallets like his",
+      "x": 540,
+      "y": 1400,
+      "tone": "muted",
+      "size": 30,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.6,
+       2.0,
+       -2.2
+      ],
+      "look": [
+       0,
+       0.9,
+       0.4
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 0,
+      "pos": [
+       2.9,
+       2.3,
+       -2.6
+      ],
+      "look": [
+       0,
+       0.9,
+       0.4
+      ],
+      "fov": 34,
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "who",
+    "sell"
+   ],
+   "moving": true
+  }
+ ]
+}

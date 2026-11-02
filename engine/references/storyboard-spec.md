@@ -240,6 +240,27 @@ of her x or she leaves the frame, and never key a camera move that passes throug
 `hide:<n>` (labels pinned to 3D points, `rel` to her by default), `label:<n>`, `cam`. Props: from, to, walkDur, jumpTo, face, z,
 queue + queueX (people in line), screen, card, pins, tags. First used in `../episodes/2026-11-02-bitcoin-only-money/`.
 
+**Trader3D** (2 Nov 2026, the TRUMP-sniper reel): a grounded, adult-proportioned person (Walk3D's build, seated) at a desk at night:
+three monitors, keyboard, mouse, mug, desk lamp, office chair, a window onto a city. The screens show `props.screens[state]` =
+`{head, big, sub[], tone: accent|good|alert|warm|muted, chart: flat|up|spike|down, feed[]}` (centre: the state; left: a candle chart;
+right: a feed list). Generic: any trader / analyst / developer-at-a-desk story. Actions: `type`, `mouse`, `click`, `lean` (leans
+back, hands behind head), `idle`, `look` (head turns to +x), `screen:<state>` (all monitors switch, with a flash), `count` (counter
+overlay `counter: {from, to, prefix, suffix, y, size, label}`), `card`, `label:<n>`, `hide:<n>`, `cam`. Props: `screen` (start
+state), `card`, `tags`, `caption` (e.g. "3D recreation · details: <source>"), `colours`, `lamp`. Cameras (absolute): side, face lit
+`{pos: [2.2, 1.42, 1.05], look: [0, 1.06, 0.18], fov: 32}`; over the shoulder, screens readable `{pos: [-0.55, 1.42, -0.85], look:
+[0.07, 1.12, 0.99], fov: 31}` (portrait can't fit a whole monitor up close, so read screens over the shoulder); wide `{pos: [2.6,
+2.0, -2.2], look: [0, 0.9, 0.4], fov: 34}`. Screen text auto-shrinks to fit; keep `big` under ~16 characters.
+
+**Quantum3D** (2 Nov 2026, quantum-vs-Bitcoin): the `object` format's quantum computer: a generic dilution-refrigerator
+"chandelier" (gold stages, rods, looping coax cables, copper heat-exchanger coil, qubit package with a chip facing +z) in a
+removable silver can, plus an optional padlock on a pedestal and a frosted cover. No brand. Actions: `open` (can lifts away),
+`cool` (lower stages frost, blue glow), `ghost` / `solid` (turns into a cyan wireframe blueprint: "doesn't exist yet"), `chip`
+(the chip's `qubits` light up one by one, default 105), `beam` (chip → padlock; stops at the cover if covered), `crack` (shackle
+pops, lock turns red, sparks), `cover` (frosted cover drops over the lock), `spin`, `label:<n>`, `hide:<n>`, `cam`. Props:
+`opened`, `ghost0`, `lock`, `lockAt` ([1.45, 0.75, 0.6]), `covered`, `cracked`, `qubits`, `tags`, `caption`. Cameras: hero `{pos:
+[4.0, 2.0, 5.3], look: [0, 1.2, 0], fov: 38}`; chip `{pos: [0.05, 0.17, 0.92], look: [0, 0.12, 0.16], fov: 30}`; lock `{pos: [2.5,
+1.15, 2.7], look: [1.0, 0.62, 0.45], fov: 36}`. First used in `../episodes/2026-11-04-quantum-bitcoin/`.
+
 ### v1 (dark-only cards, still available)
 Stat, Steps, Compare, Terminal, Window, Diagram, Chart, Image.
 
