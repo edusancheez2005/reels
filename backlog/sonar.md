@@ -11,3 +11,4 @@
 - [ ] How trackers label wallets: exchanges, funds, miners, governments
 - [ ] Dormant wallets: why very old coins waking up makes headlines
 - [ ] Self-custody vs exchange custody: where the biggest holders keep coins
+- [x] Meme-coin snipers: the trader who bought the TRUMP coin in its first second (Jan 2025) (2026-11-03-trump-sniper)

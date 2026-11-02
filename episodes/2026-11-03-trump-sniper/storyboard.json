@@ -317,10 +317,10 @@
     {
      "text": "everyone who bought later",
      "at": "p3",
-     "side": "left"
+     "side": "right"
     },
     {
-     "text": "public 17 h before the posts",
+     "text": "public 17 h before launch",
      "at": "clock",
      "side": "up",
      "tone": "warm"
@@ -346,7 +346,7 @@
      },
      "pool": {
       "head": "new pool found",
-      "big": "TRUMP / USDC",
+      "big": "TRUMP coin pool",
       "sub": [
        "trading: not open yet",
        "pool set up 17 h before launch"
@@ -354,7 +354,7 @@
       "tone": "warm",
       "chart": "flat",
       "feed": [
-       "NEW POOL \u00b7 TRUMP / USDC",
+       "NEW POOL \u00b7 TRUMP",
        "10% of supply deposited",
        "trading opens at launch"
       ]
@@ -368,7 +368,7 @@
       "tone": "accent",
       "chart": "flat",
       "feed": [
-       "TRUMP / USDC \u00b7 waiting",
+       "TRUMP pool \u00b7 waiting",
        "priority fee set",
        "trigger: trading opens"
       ]
@@ -377,14 +377,14 @@
       "head": "bought \u00b7 first second",
       "big": "5,970,000 TRUMP",
       "sub": [
-       "paid 1.09M USDC",
+       "paid $1.09M",
        "\u2248 $0.18 each"
       ],
       "tone": "good",
       "chart": "up",
       "feed": [
        "BUY FILLED \u00b7 5.97M TRUMP",
-       "split across 9 wallets",
+       "split across 9+ wallets",
        "trading: open"
       ]
      },
@@ -397,7 +397,7 @@
       "tone": "good",
       "chart": "up",
       "feed": [
-       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "SOLD \u00b7 TRUMP",
        "profit \u2248 $108M",
        "from $1.09M"
       ]
@@ -453,7 +453,7 @@
     ],
     "card": {
      "name": "THE TRADER",
-     "role": "Solana meme-coin sniper",
+     "role": "meme-coin sniper",
      "note": "3D stand-in \u00b7 identity unproven",
      "y": 1250
     }
@@ -474,7 +474,7 @@
     "value": 109000000,
     "prefix": "$",
     "chip": "from $1.09M",
-    "label": "in its first second of trading",
+    "label": "after buying in the first second of trading",
     "tone": "good"
    },
    "beats": [
@@ -500,7 +500,7 @@
      },
      "pool": {
       "head": "new pool found",
-      "big": "TRUMP / USDC",
+      "big": "TRUMP coin pool",
       "sub": [
        "trading: not open yet",
        "pool set up 17 h before launch"
@@ -508,7 +508,7 @@
       "tone": "warm",
       "chart": "flat",
       "feed": [
-       "NEW POOL \u00b7 TRUMP / USDC",
+       "NEW POOL \u00b7 TRUMP",
        "10% of supply deposited",
        "trading opens at launch"
       ]
@@ -522,7 +522,7 @@
       "tone": "accent",
       "chart": "flat",
       "feed": [
-       "TRUMP / USDC \u00b7 waiting",
+       "TRUMP pool \u00b7 waiting",
        "priority fee set",
        "trigger: trading opens"
       ]
@@ -531,14 +531,14 @@
       "head": "bought \u00b7 first second",
       "big": "5,970,000 TRUMP",
       "sub": [
-       "paid 1.09M USDC",
+       "paid $1.09M",
        "\u2248 $0.18 each"
       ],
       "tone": "good",
       "chart": "up",
       "feed": [
        "BUY FILLED \u00b7 5.97M TRUMP",
-       "split across 9 wallets",
+       "split across 9+ wallets",
        "trading: open"
       ]
      },
@@ -551,7 +551,7 @@
       "tone": "good",
       "chart": "up",
       "feed": [
-       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "SOLD \u00b7 TRUMP",
        "profit \u2248 $108M",
        "from $1.09M"
       ]
@@ -619,7 +619,7 @@
      {
       "x": 0.5,
       "y": 0.12,
-      "zoom": 1.12
+      "zoom": 1.04
      }
     ],
     "marks": [
@@ -652,17 +652,17 @@
      {
       "x": 0.5,
       "y": 0.72,
-      "zoom": 1.05
+      "zoom": 1.0
      },
      {
       "x": 0.5,
-      "y": 0.74,
-      "zoom": 1.12
+      "y": 0.73,
+      "zoom": 1.04
      },
      {
       "x": 0.5,
       "y": 0.86,
-      "zoom": 1.12
+      "zoom": 1.04
      }
     ],
     "marks": [
@@ -670,17 +670,17 @@
       "beat": 1,
       "kind": "underline",
       "x": 48,
-      "y": 830,
-      "w": 1200,
-      "h": 14
+      "y": 786,
+      "w": 1142,
+      "h": 36
      },
      {
       "beat": 2,
       "kind": "box",
       "x": 40,
-      "y": 1068,
+      "y": 1050,
       "w": 1300,
-      "h": 112
+      "h": 126
      }
     ],
     "source": "CBS News \u00b7 his post on Truth Social and X"
@@ -728,7 +728,7 @@
      },
      "pool": {
       "head": "new pool found",
-      "big": "TRUMP / USDC",
+      "big": "TRUMP coin pool",
       "sub": [
        "trading: not open yet",
        "pool set up 17 h before launch"
@@ -736,7 +736,7 @@
       "tone": "warm",
       "chart": "flat",
       "feed": [
-       "NEW POOL \u00b7 TRUMP / USDC",
+       "NEW POOL \u00b7 TRUMP",
        "10% of supply deposited",
        "trading opens at launch"
       ]
@@ -750,7 +750,7 @@
       "tone": "accent",
       "chart": "flat",
       "feed": [
-       "TRUMP / USDC \u00b7 waiting",
+       "TRUMP pool \u00b7 waiting",
        "priority fee set",
        "trigger: trading opens"
       ]
@@ -759,14 +759,14 @@
       "head": "bought \u00b7 first second",
       "big": "5,970,000 TRUMP",
       "sub": [
-       "paid 1.09M USDC",
+       "paid $1.09M",
        "\u2248 $0.18 each"
       ],
       "tone": "good",
       "chart": "up",
       "feed": [
        "BUY FILLED \u00b7 5.97M TRUMP",
-       "split across 9 wallets",
+       "split across 9+ wallets",
        "trading: open"
       ]
      },
@@ -779,7 +779,7 @@
       "tone": "good",
       "chart": "up",
       "feed": [
-       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "SOLD \u00b7 TRUMP",
        "profit \u2248 $108M",
        "from $1.09M"
       ]
@@ -954,7 +954,7 @@
     "cam": [
      {
       "x": 0.5,
-      "y": 0.45,
+      "y": 0.5,
       "zoom": 1.0
      }
     ],
@@ -962,10 +962,10 @@
      {
       "beat": 0,
       "kind": "box",
-      "x": 50,
-      "y": 56,
-      "w": 1370,
-      "h": 128
+      "x": 46,
+      "y": 20,
+      "w": 1324,
+      "h": 126
      }
     ],
     "source": "Helius, 28 Jan 2025"
@@ -1041,7 +1041,7 @@
      },
      "pool": {
       "head": "new pool found",
-      "big": "TRUMP / USDC",
+      "big": "TRUMP coin pool",
       "sub": [
        "trading: not open yet",
        "pool set up 17 h before launch"
@@ -1049,7 +1049,7 @@
       "tone": "warm",
       "chart": "flat",
       "feed": [
-       "NEW POOL \u00b7 TRUMP / USDC",
+       "NEW POOL \u00b7 TRUMP",
        "10% of supply deposited",
        "trading opens at launch"
       ]
@@ -1063,7 +1063,7 @@
       "tone": "accent",
       "chart": "flat",
       "feed": [
-       "TRUMP / USDC \u00b7 waiting",
+       "TRUMP pool \u00b7 waiting",
        "priority fee set",
        "trigger: trading opens"
       ]
@@ -1072,14 +1072,14 @@
       "head": "bought \u00b7 first second",
       "big": "5,970,000 TRUMP",
       "sub": [
-       "paid 1.09M USDC",
+       "paid $1.09M",
        "\u2248 $0.18 each"
       ],
       "tone": "good",
       "chart": "up",
       "feed": [
        "BUY FILLED \u00b7 5.97M TRUMP",
-       "split across 9 wallets",
+       "split across 9+ wallets",
        "trading: open"
       ]
      },
@@ -1092,7 +1092,7 @@
       "tone": "good",
       "chart": "up",
       "feed": [
-       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "SOLD \u00b7 TRUMP",
        "profit \u2248 $108M",
        "from $1.09M"
       ]
@@ -1162,7 +1162,7 @@
    "props": {
     "value": 5970000,
     "suffix": " TRUMP",
-    "chip": "for 1.09M USDC \u00b7 \u2248 $0.18 each",
+    "chip": "for $1.09M \u00b7 \u2248 $0.18 each",
     "label": "his first-second buy",
     "tone": "accent"
    },
@@ -1189,7 +1189,7 @@
      },
      "pool": {
       "head": "new pool found",
-      "big": "TRUMP / USDC",
+      "big": "TRUMP coin pool",
       "sub": [
        "trading: not open yet",
        "pool set up 17 h before launch"
@@ -1197,7 +1197,7 @@
       "tone": "warm",
       "chart": "flat",
       "feed": [
-       "NEW POOL \u00b7 TRUMP / USDC",
+       "NEW POOL \u00b7 TRUMP",
        "10% of supply deposited",
        "trading opens at launch"
       ]
@@ -1211,7 +1211,7 @@
       "tone": "accent",
       "chart": "flat",
       "feed": [
-       "TRUMP / USDC \u00b7 waiting",
+       "TRUMP pool \u00b7 waiting",
        "priority fee set",
        "trigger: trading opens"
       ]
@@ -1220,14 +1220,14 @@
       "head": "bought \u00b7 first second",
       "big": "5,970,000 TRUMP",
       "sub": [
-       "paid 1.09M USDC",
+       "paid $1.09M",
        "\u2248 $0.18 each"
       ],
       "tone": "good",
       "chart": "up",
       "feed": [
        "BUY FILLED \u00b7 5.97M TRUMP",
-       "split across 9 wallets",
+       "split across 9+ wallets",
        "trading: open"
       ]
      },
@@ -1240,7 +1240,7 @@
       "tone": "good",
       "chart": "up",
       "feed": [
-       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "SOLD \u00b7 TRUMP",
        "profit \u2248 $108M",
        "from $1.09M"
       ]
@@ -1307,8 +1307,8 @@
      },
      {
       "x": 0.5,
-      "y": 0.45,
-      "zoom": 1.08
+      "y": 0.48,
+      "zoom": 1.02
      }
     ],
     "marks": [
@@ -1346,7 +1346,7 @@
      },
      "pool": {
       "head": "new pool found",
-      "big": "TRUMP / USDC",
+      "big": "TRUMP coin pool",
       "sub": [
        "trading: not open yet",
        "pool set up 17 h before launch"
@@ -1354,7 +1354,7 @@
       "tone": "warm",
       "chart": "flat",
       "feed": [
-       "NEW POOL \u00b7 TRUMP / USDC",
+       "NEW POOL \u00b7 TRUMP",
        "10% of supply deposited",
        "trading opens at launch"
       ]
@@ -1368,7 +1368,7 @@
       "tone": "accent",
       "chart": "flat",
       "feed": [
-       "TRUMP / USDC \u00b7 waiting",
+       "TRUMP pool \u00b7 waiting",
        "priority fee set",
        "trigger: trading opens"
       ]
@@ -1377,14 +1377,14 @@
       "head": "bought \u00b7 first second",
       "big": "5,970,000 TRUMP",
       "sub": [
-       "paid 1.09M USDC",
+       "paid $1.09M",
        "\u2248 $0.18 each"
       ],
       "tone": "good",
       "chart": "up",
       "feed": [
        "BUY FILLED \u00b7 5.97M TRUMP",
-       "split across 9 wallets",
+       "split across 9+ wallets",
        "trading: open"
       ]
      },
@@ -1397,7 +1397,7 @@
       "tone": "good",
       "chart": "up",
       "feed": [
-       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "SOLD \u00b7 TRUMP",
        "profit \u2248 $108M",
        "from $1.09M"
       ]
@@ -1484,7 +1484,7 @@
      },
      "pool": {
       "head": "new pool found",
-      "big": "TRUMP / USDC",
+      "big": "TRUMP coin pool",
       "sub": [
        "trading: not open yet",
        "pool set up 17 h before launch"
@@ -1492,7 +1492,7 @@
       "tone": "warm",
       "chart": "flat",
       "feed": [
-       "NEW POOL \u00b7 TRUMP / USDC",
+       "NEW POOL \u00b7 TRUMP",
        "10% of supply deposited",
        "trading opens at launch"
       ]
@@ -1506,7 +1506,7 @@
       "tone": "accent",
       "chart": "flat",
       "feed": [
-       "TRUMP / USDC \u00b7 waiting",
+       "TRUMP pool \u00b7 waiting",
        "priority fee set",
        "trigger: trading opens"
       ]
@@ -1515,14 +1515,14 @@
       "head": "bought \u00b7 first second",
       "big": "5,970,000 TRUMP",
       "sub": [
-       "paid 1.09M USDC",
+       "paid $1.09M",
        "\u2248 $0.18 each"
       ],
       "tone": "good",
       "chart": "up",
       "feed": [
        "BUY FILLED \u00b7 5.97M TRUMP",
-       "split across 9 wallets",
+       "split across 9+ wallets",
        "trading: open"
       ]
      },
@@ -1535,7 +1535,7 @@
       "tone": "good",
       "chart": "up",
       "feed": [
-       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "SOLD \u00b7 TRUMP",
        "profit \u2248 $108M",
        "from $1.09M"
       ]
@@ -1545,7 +1545,8 @@
     "actions": [
      "type",
      "label:0",
-     "label:1"
+     "label:1",
+     "label:2"
     ],
     "caption": "3D recreation \u00b7 trade details: Bubblemaps, Lookonchain",
     "tags": [
@@ -1558,11 +1559,19 @@
       "pill": true
      },
      {
-      "text": "\"we spotted the pool early\"",
+      "text": "says his team spotted",
       "x": 540,
       "y": 600,
       "tone": "muted",
-      "size": 44,
+      "size": 42,
+      "pill": true
+     },
+     {
+      "text": "the pool early",
+      "x": 540,
+      "y": 658,
+      "tone": "muted",
+      "size": 42,
       "pill": true
      }
     ],
@@ -1601,7 +1610,8 @@
    "beats": [
     "denies",
     "inside",
-    "spotted"
+    "spotted",
+    "early."
    ]
   },
   {
@@ -1682,24 +1692,24 @@
       "zoom": 1.0
      },
      {
-      "x": 0.45,
-      "y": 0.6,
-      "zoom": 1.2
+      "x": 0.48,
+      "y": 0.56,
+      "zoom": 1.08
      },
      {
-      "x": 0.42,
-      "y": 0.6,
-      "zoom": 1.35
+      "x": 0.46,
+      "y": 0.58,
+      "zoom": 1.1
      }
     ],
     "marks": [
      {
       "beat": 1,
       "kind": "box",
-      "x": 225,
-      "y": 200,
-      "w": 1060,
-      "h": 92
+      "x": 222,
+      "y": 194,
+      "w": 962,
+      "h": 84
      }
     ],
     "source": "CNBC via NBC New York, 6 May 2025 \u00b7 Chainalysis data"
@@ -1818,7 +1828,7 @@
      },
      "pool": {
       "head": "new pool found",
-      "big": "TRUMP / USDC",
+      "big": "TRUMP coin pool",
       "sub": [
        "trading: not open yet",
        "pool set up 17 h before launch"
@@ -1826,7 +1836,7 @@
       "tone": "warm",
       "chart": "flat",
       "feed": [
-       "NEW POOL \u00b7 TRUMP / USDC",
+       "NEW POOL \u00b7 TRUMP",
        "10% of supply deposited",
        "trading opens at launch"
       ]
@@ -1840,7 +1850,7 @@
       "tone": "accent",
       "chart": "flat",
       "feed": [
-       "TRUMP / USDC \u00b7 waiting",
+       "TRUMP pool \u00b7 waiting",
        "priority fee set",
        "trigger: trading opens"
       ]
@@ -1849,14 +1859,14 @@
       "head": "bought \u00b7 first second",
       "big": "5,970,000 TRUMP",
       "sub": [
-       "paid 1.09M USDC",
+       "paid $1.09M",
        "\u2248 $0.18 each"
       ],
       "tone": "good",
       "chart": "up",
       "feed": [
        "BUY FILLED \u00b7 5.97M TRUMP",
-       "split across 9 wallets",
+       "split across 9+ wallets",
        "trading: open"
       ]
      },
@@ -1869,7 +1879,7 @@
       "tone": "good",
       "chart": "up",
       "feed": [
-       "SOLD \u00b7 TRUMP \u2192 USDC",
+       "SOLD \u00b7 TRUMP",
        "profit \u2248 $108M",
        "from $1.09M"
       ]
@@ -1883,9 +1893,9 @@
     "caption": "3D recreation \u00b7 trade details: Bubblemaps, Lookonchain",
     "tags": [
      {
-      "text": "sonartracker.io \u00b7 we track wallets like his",
+      "text": "Sonar tracks wallets like his",
       "x": 540,
-      "y": 1400,
+      "y": 1390,
       "tone": "muted",
       "size": 30,
       "pill": true
@@ -1895,31 +1905,31 @@
      {
       "beat": -1,
       "pos": [
-       2.6,
-       2.0,
-       -2.2
+       -1.6,
+       2.4,
+       -1.8
       ],
       "look": [
-       0,
-       0.9,
-       0.4
+       0.2,
+       1.0,
+       0.6
       ],
       "fov": 34
      },
      {
       "beat": 0,
       "pos": [
-       2.9,
-       2.3,
-       -2.6
+       -2.0,
+       2.7,
+       -2.3
       ],
       "look": [
-       0,
-       0.9,
-       0.4
+       0.2,
+       1.0,
+       0.6
       ],
-      "fov": 34,
-      "dur": 60
+      "fov": 35,
+      "dur": 50
      }
     ]
    },

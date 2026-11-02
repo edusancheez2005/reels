@@ -528,9 +528,9 @@ export const Trader3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrame
                 <sphereGeometry args={[0.1, 28, 20]} />
               </mesh>
               {/* short hair: a cap tilted back (covers crown and back, leaves the forehead) */}
-              <group position={[0, 0.078, -0.008]} rotation={[-0.2, 0, 0]}>
+              <group position={[0, 0.078, -0.01]} rotation={[-0.32, 0, 0]}>
                 <mesh material={mats.hair} scale={[0.96, 1.0, 1.02]}>
-                  <sphereGeometry args={[0.114, 30, 18, 0, Math.PI * 2, 0, Math.PI * 0.6]} />
+                  <sphereGeometry args={[0.116, 30, 18, 0, Math.PI * 2, 0, Math.PI * 0.5]} />
                 </mesh>
               </group>
               {/* headphones: thin band + small padded cups */}

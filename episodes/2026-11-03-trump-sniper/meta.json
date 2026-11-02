@@ -1,8 +1,17 @@
 {
   "id": "2026-11-03-trump-sniper",
   "channel": "sonar",
-  "topic": "The meme-coin sniper: the trader who bought TRUMP in its first seconds",
+  "topic": "Meme-coin snipers: the trader who bought the TRUMP coin in its first second (Jan 2025)",
   "prebuilt": true,
   "posted": false,
-  "building": "live session with Edu, 2 Nov 2026"
+  "produced_at": "2026-11-02T16:21:26+00:00",
+  "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-03-trump-sniper.mp4",
+  "story_urls": [
+    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-03-trump-sniper-story_1.mp4",
+    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-03-trump-sniper-story_2.mp4",
+    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-03-trump-sniper-story_3.jpg"
+  ],
+  "format": "character",
+  "topic_source": "plan",
+  "prebuilt_note": "built 2 Nov 2026 in a live session with Edu; posted by the Tue 3 Nov run per RUNBOOK \u00a70a"
 }

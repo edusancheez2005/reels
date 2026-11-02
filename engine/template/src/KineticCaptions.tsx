@@ -109,6 +109,7 @@ const PageView: React.FC<{page: Page; dark: boolean}> = ({page, dark}) => {
               key={i}
               style={{
                 display: 'inline-block',
+                whiteSpace: 'nowrap', // never break a hyphenated number word ("sixty-four") across lines
                 color: bright ? pal.text : past,
                 fontWeight: bright ? 650 : 450,
                 opacity: frame < startF ? 0 : appear,

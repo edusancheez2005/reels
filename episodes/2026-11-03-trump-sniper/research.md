@@ -14,6 +14,10 @@ Checked 2 Nov 2026, 12:40–13:00 London.
 3. **The pool was public 17 hours early.** "Seventeen hours before the launch, 10% of the total $TRUMP supply was deposited as a
    single-sided liquidity position ... on Meteora's DLMM." (Helius, as 1.) A pool = the pot of coins that buyers trade against;
    once it's on Solana's public chain, anyone watching the chain can see it.
+3b. **Visible before the announcement.** CryptoPotato (as fact 4) reports Bubblemaps' allegation that the trader "tried to buy TRUMP
+   two hours before the public announcement", i.e. the pool could be seen on-chain before Trump's posts. Together with fact 3
+   (pool funded 17 hours before launch) this supports the line "the pool was public hours before Trump's posts". On screen we
+   use Helius' exact wording ("17 h before launch").
 4. **The sniper's buy.** Bubblemaps (an on-chain analytics firm), working with YouTuber Coffeezilla: a trader bought $1.09 million
    of TRUMP "within the first second of trading", from an address beginning 6QSc2, split across at least nine wallets, and made
    "more than $100 million" (headline: $109 million). They say he paid an **$84,000 priority fee** to get the fast purchase.

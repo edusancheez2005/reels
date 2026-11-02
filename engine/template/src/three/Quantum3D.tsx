@@ -118,7 +118,7 @@ export const Quantum3D: React.FC<SceneProps<P>> = ({props, beats, durationInFram
       frost: new THREE.MeshStandardMaterial({color: '#9fd4ff', emissive: new THREE.Color('#3f9bff'), emissiveIntensity: 0.8, roughness: 0.6, transparent: true, opacity: 0, depthWrite: false}),
       chipBody: new THREE.MeshStandardMaterial({color: '#2a2d34', metalness: 0.4, roughness: 0.4}),
       qOff: new THREE.MeshStandardMaterial({color: '#3a4250', roughness: 0.5}),
-      qOn: new THREE.MeshStandardMaterial({color: '#bff3ff', emissive: new THREE.Color('#3bc9ee'), emissiveIntensity: 3, toneMapped: false}),
+      qOn: new THREE.MeshStandardMaterial({color: '#bff3ff', emissive: new THREE.Color('#3bc9ee'), emissiveIntensity: 1.8, toneMapped: false}),
       holo: new THREE.MeshBasicMaterial({color: '#4fd3ff', wireframe: true, transparent: true, opacity: 0.55, toneMapped: false}),
       beam: new THREE.MeshStandardMaterial({color: '#d9f6ff', emissive: new THREE.Color('#3bc9ee'), emissiveIntensity: 4, toneMapped: false, transparent: true, opacity: 0.9}),
       lockBody: new THREE.MeshStandardMaterial({color: '#c9a24a', metalness: 0.95, roughness: 0.25}),
@@ -263,7 +263,7 @@ export const Quantum3D: React.FC<SceneProps<P>> = ({props, beats, durationInFram
           </mesh>
         ))}
       </group>
-      {chipS >= 0 ? <pointLight position={[0, 0.14, 0.3]} intensity={0.6 * clamp01(lit / nQ)} distance={0.8} color="#3bc9ee" /> : null}
+      {chipS >= 0 ? <pointLight position={[0, 0.14, 0.3]} intensity={0.25 * clamp01(lit / nQ)} distance={0.6} color="#3bc9ee" /> : null}
       {/* outer can */}
       {openP < 1 ? (
         <group position={[0, 1.18 + openP * 2.6, 0]} rotation={[0, spin, 0]}>
