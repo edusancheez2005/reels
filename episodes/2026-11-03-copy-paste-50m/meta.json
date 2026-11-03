@@ -4,12 +4,21 @@
   "topic": "One copy-paste, $50M: the address-poisoning scam of 19 Dec 2025 (look-alike address, test transfer, Tornado Cash)",
   "produced_at": "2026-11-03T04:50:50+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-03-copy-paste-50m.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-03-copy-paste-50m-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-03-copy-paste-50m-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-03-copy-paste-50m-story_3.jpg"
   ],
   "format": "breakdown",
-  "topic_source": "plan"
+  "topic_source": "plan",
+  "auto_posted": true,
+  "posted_at": "2026-11-03T07:19:30Z",
+  "instagram_media_id": "18353057641281109",
+  "sources_comment_id": "17873506023643691",
+  "story_media_ids": [
+    "17876461308593473",
+    "18414579322091109",
+    "18081092900402866"
+  ]
 }

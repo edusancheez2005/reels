@@ -1,0 +1,6 @@
+One copy-paste cost a crypto trader $49,999,950 in USDT, and nobody can reverse it.
+On 19 Dec 2025 the trader moved 50M USDT out of Binance and sent a $50 test to the right address. Minutes later a scammer made a look-alike address (same first 3 and last 4 characters) and sent the wallet 0.005 USDT so the fake sat in its history. 26 minutes after the test, the trader copied the address from that history and sent the rest to the fake. Within half an hour it was swapped to DAI, which Tether can't freeze, and pushed through Tornado Cash. A $1M reward offer got nothing back.
+Never copy an address from your history. Save checked ones as contacts, and read the middle characters, not just the ends.
+Comment "WHALE" and Orca will DM you the breakdown.
+Not financial advice.
+#CryptoScam #CryptoNews #WhaleAlert #OnChain #Sonar
