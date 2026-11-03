@@ -40,6 +40,7 @@ import {Drives3D} from '../three/Drives3D';
 import {Seed3D, Letter3D} from '../three/Wallet3D';
 import {Iso3D} from '../three/Iso3D';
 import {Odometer} from './Odometer';
+import {AddressMatch} from './AddressMatch';
 
 // Register new components here. Storyboard "component" names map to these keys.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -86,6 +87,7 @@ export const SCENES: Record<string, React.FC<SceneProps<any>>> = {
   Letter3D,
   Iso3D,
   Odometer,
+  AddressMatch,
   // v1 — cards (dark)
   Stat,
   Steps,

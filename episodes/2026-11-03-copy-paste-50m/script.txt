@@ -1,0 +1,8 @@
+One copy and paste cost a crypto trader almost fifty million dollars. Nobody can undo it.
+Last December, that trader moved fifty million digital dollars, called USDT, from Binance, the crypto exchange, to their own wallet.
+First, a fifty-dollar test to the right address, the code you send money to.
+Here's the trick. Within minutes, a scammer made a fake address that starts and ends like the real one, and sent the trader half a cent from it. Now the fake sat in the wallet's history.
+Twenty-six minutes after the test, the trader copied the address from that history to send the rest. The fake one. Almost fifty million dollars, gone.
+Tether, which issues USDT, can freeze stolen coins. So within half an hour, the scammer swapped it all into a coin nobody can freeze, then hid the trail in a mixer.
+The trader offered a million-dollar reward for the money. Nothing came back.
+The trader's two mistakes: copying from the history, and not reading the whole address. Save checked addresses as contacts, so you never copy from history. And read the middle: fakes only copy the ends.

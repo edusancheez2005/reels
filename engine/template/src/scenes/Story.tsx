@@ -108,7 +108,7 @@ export const Scale: React.FC<SceneProps<{left: {title: string; sub?: string; coi
 };
 
 /** A sourced, paraphrased claim card (never a fake screenshot). Beat 0 card, beat 1 highlight on `mark`. */
-export const Quote: React.FC<SceneProps<{source: string; text: string; mark?: string; stamp?: string; note?: string}>> = ({props, beats}) => {
+export const Quote: React.FC<SceneProps<{source: string; text: string; mark?: string; stamp?: string; note?: string; stampTop?: number}>> = ({props, beats}) => {
   const frame = useCurrentFrame();
   const pal = usePal();
   const {p} = useReveal(beats, 0, 12);
@@ -133,7 +133,7 @@ export const Quote: React.FC<SceneProps<{source: string; text: string; mark?: st
       {props.stamp ? (() => {
         const sp = interpolate(frame, [at(beats, 2), at(beats, 2) + 7], [0, 1], {...clamp, easing: Easing.out(Easing.back(2.2))});
         return sp > 0 ? (
-          <div style={{position: 'absolute', right: 70, top: 600, padding: '14px 34px', borderRadius: 16, border: `6px solid ${pal.alert}`, color: pal.alert, fontFamily: theme.font, fontWeight: 900, fontSize: 64, letterSpacing: 4, transform: `rotate(${-10 + (1 - sp) * 20}deg) scale(${interpolate(sp, [0, 1], [2, 1])})`, opacity: Math.min(1, sp * 1.5), background: rgba(pal.alert, 0.06)}}>
+          <div style={{position: 'absolute', right: 70, top: props.stampTop ?? 600, padding: '14px 34px', borderRadius: 16, border: `6px solid ${pal.alert}`, color: pal.alert, fontFamily: theme.font, fontWeight: 900, fontSize: 64, letterSpacing: 4, transform: `rotate(${-10 + (1 - sp) * 20}deg) scale(${interpolate(sp, [0, 1], [2, 1])})`, opacity: Math.min(1, sp * 1.5), background: rgba(pal.alert, 0.06)}}>
             {props.stamp}
           </div>
         ) : null;

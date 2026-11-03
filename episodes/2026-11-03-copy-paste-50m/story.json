@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 5.5
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 18.85,
+    "to": 24.4
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "One copy-paste. $50M gone."
+  }
+]

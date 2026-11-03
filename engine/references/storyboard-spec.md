@@ -279,3 +279,10 @@ a phone with a fake "Verify your wallet" page. Actions: `arrive`, `open`, `qr`, 
 `label:<n>`, `cam`. Props: `deadline` + `deadlineLabel` (only what the real letter said: a reviewer failed an invented
 "IN 7 DAYS"), `opened`, `phone`. Always `caption: "Recreation"`. Tags over light objects: add `"pill": true` (dark backing; any 3D tag).
 Character3D also takes `item: "letter"` (with `hold`) to hold a sheet of paper instead of a drive.
+
+**AddressMatch** (3 Nov 2026, address-poisoning reel): two crypto addresses, one under the other, typed out character by
+character (split over two lines, big mono), then the matching ends light up green and the different middle goes red.
+Beats: [first address types in, second types in, ends glow (+ `endLabel` pill), middle marked (+ `midLabel` pill)].
+Props: `a` / `b` `{label, text, tone: good|alert|accent|muted}`, `start` (matching chars after the prefix, 3), `end` (4),
+`prefix` ("0x"), `split` (chars per line, 21), `size` (52). Use only real addresses from the explorer, never invented ones.
+Quote also takes `stampTop` (stage y, default 600) so the stamp can sit below a long card instead of over its text.

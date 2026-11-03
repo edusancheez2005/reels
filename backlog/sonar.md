@@ -12,3 +12,4 @@
 - [ ] Dormant wallets: why very old coins waking up makes headlines
 - [ ] Self-custody vs exchange custody: where the biggest holders keep coins
 - [x] Meme-coin snipers: the trader who bought the TRUMP coin in its first second (Jan 2025) (2026-11-03-trump-sniper)
+- [x] One copy-paste, $50M: the address-poisoning scam of 19 Dec 2025 (look-alike address, test transfer, Tornado Cash) (2026-11-03-copy-paste-50m)
