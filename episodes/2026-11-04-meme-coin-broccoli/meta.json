@@ -4,12 +4,21 @@
   "topic": "What is a meme coin? CZ's dog Broccoli (Feb 2025): a $140M coin in a day, then down 90%+; 7M Pump.fun coins, 1 in 70 kept $1,000",
   "produced_at": "2026-11-04T04:44:44+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-04-meme-coin-broccoli.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-04-meme-coin-broccoli-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-04-meme-coin-broccoli-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-04-meme-coin-broccoli-story_3.jpg"
   ],
   "format": "motion",
-  "topic_source": "plan"
+  "topic_source": "plan",
+  "auto_posted": true,
+  "posted_at": "2026-11-04T07:19:42+00:00",
+  "instagram_media_id": "18135501428506025",
+  "sources_comment_id": "18114985697333122",
+  "story_media_ids": [
+    "17965532100248538",
+    "17910444882577985",
+    "18083525447413914"
+  ]
 }
