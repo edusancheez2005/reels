@@ -1,0 +1,575 @@
+{
+ "slug": "2026-11-04-meme-coin-broccoli",
+ "format": "motion",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 1.0,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "one hundred and forty million dollars.",
+  "Broccoli.",
+  "wasn't making one.",
+  "a joke",
+  "famous name.",
+  "a form.",
+  "dozens",
+  "eleven buyers",
+  "million dollars.",
+  "ninety percent",
+  "seven million coins.",
+  "one in seventy",
+  "Late buyers lose.",
+  "the price falls.",
+  "Their mistake:",
+  "who buys this from me?",
+  "left holding it."
+ ],
+ "scenes": [
+  {
+   "anchor": "In",
+   "component": "BigNumber",
+   "transition": "cut",
+   "moving": true,
+   "theme": "dark",
+   "props": {
+    "value": 140,
+    "prefix": "$",
+    "suffix": "M",
+    "chip": "A COIN NAMED AFTER A DOG · FEB 2025",
+    "label": "what it was worth a day after launch",
+    "tone": "good"
+   },
+   "beats": [
+    "In"
+   ]
+  },
+  {
+   "anchor": "CZ,",
+   "component": "Shot",
+   "transition": "zoom",
+   "theme": "light",
+   "props": {
+    "src": "fortune_head.png",
+    "chrome": "browser",
+    "url": "fortune.com/crypto/2025/02/14/former-binance-ceo…",
+    "source": "Fortune · 14 Feb 2025",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 8,
+      "y": 185,
+      "w": 610,
+      "h": 85
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 10,
+      "y": 100,
+      "w": 650,
+      "h": 78
+     }
+    ]
+   },
+   "beats": [
+    "CZ,",
+    "founded",
+    "Binance,"
+   ]
+  },
+  {
+   "anchor": "posted",
+   "component": "Title",
+   "transition": "whip",
+   "theme": "dark",
+   "props": {
+    "lines": [
+     "He posted his",
+     "dog's name:",
+     "Broccoli."
+    ],
+    "accent": [
+     "Broccoli."
+    ],
+    "size": 96
+   },
+   "beats": [
+    "posted",
+    "dog's",
+    "Broccoli."
+   ]
+  },
+  {
+   "anchor": "A day later",
+   "component": "Flow",
+   "transition": "zoom",
+   "theme": "dark",
+   "props": {
+    "nodes": [
+     {
+      "id": "post",
+      "label": "CZ's post",
+      "sub": "a dog's name",
+      "x": 500,
+      "y": 150,
+      "tone": "muted",
+      "size": 1.5
+     },
+     {
+      "id": "str",
+      "label": "strangers",
+      "sub": "make a coin",
+      "x": 500,
+      "y": 450,
+      "tone": "accent",
+      "size": 1.5
+     },
+     {
+      "id": "coin",
+      "label": "BROCCOLI",
+      "sub": "a new coin",
+      "x": 500,
+      "y": 750,
+      "tone": "good",
+      "size": 1.5
+     }
+    ],
+    "edges": [
+     {
+      "from": "post",
+      "to": "str",
+      "flow": true
+     },
+     {
+      "from": "str",
+      "to": "coin",
+      "flow": true
+     }
+    ],
+    "order": [
+     "post",
+     [
+      "post>str",
+      "str"
+     ],
+     [
+      "str>coin",
+      "coin"
+     ]
+    ]
+   },
+   "beats": [
+    "day",
+    "Broccoli",
+    "strangers"
+   ]
+  },
+  {
+   "anchor": "was worth",
+   "component": "Shot",
+   "transition": "whip",
+   "theme": "light",
+   "props": {
+    "src": "fortune_140.png",
+    "chrome": "card",
+    "source": "Fortune · 14 Feb 2025 · data: CoinGecko",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 532,
+      "y": 116,
+      "w": 340,
+      "h": 54
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 0,
+      "y": 228,
+      "w": 185,
+      "h": 42
+     }
+    ]
+   },
+   "beats": [
+    "one hundred",
+    "dollars."
+   ]
+  },
+  {
+   "anchor": "CZ said",
+   "component": "Quote",
+   "transition": "zoom",
+   "theme": "light",
+   "props": {
+    "source": "CZ on X, 13 Feb 2025 · quoted by Fortune",
+    "text": "“I am just posting my dog’s picture and name.” “I am NOT issuing a meme coin myself.”",
+    "mark": "NOT issuing a meme coin",
+    "stamp": "13 FEB 2025",
+    "note": "His exact words, as quoted by Fortune",
+    "stampTop": 780
+   },
+   "beats": [
+    "CZ",
+    "wasn't",
+    "matter."
+   ]
+  },
+  {
+   "anchor": "A meme",
+   "component": "Quote",
+   "transition": "whip",
+   "theme": "dark",
+   "props": {
+    "source": "Britannica Money · what a meme coin is",
+    "text": "“A digital currency built on nothing more than a joke or social media hype”",
+    "mark": "a joke",
+    "note": "Exact words (the page blocked our screenshot)",
+    "stamp": "NO PRODUCT NEEDED",
+    "stampTop": 800
+   },
+   "beats": [
+    "A meme",
+    "joke",
+    "famous"
+   ]
+  },
+  {
+   "anchor": "On a site",
+   "component": "Quote",
+   "transition": "zoom",
+   "theme": "light",
+   "props": {
+    "source": "BNB Chain's guide · launching on Four.meme",
+    "text": "Enter the Token Name and Ticker Symbol. Upload an image (logo).",
+    "mark": "Token Name",
+    "stamp": "NO CODE",
+    "note": "From BNB Chain's step-by-step guide, 23 Jan 2025",
+    "stampTop": 640
+   },
+   "beats": [
+    "On",
+    "Four",
+    "anyone"
+   ]
+  },
+  {
+   "anchor": "Within hours",
+   "component": "CoinSwarm",
+   "transition": "whip",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "cols": 4,
+    "rows": 6,
+    "title": "Broccoli coins on Four.meme, within hours",
+    "names": [
+     "BROCCOLI",
+     "Broccoli",
+     "BRC",
+     "Cauliflower",
+     "BABY BROCCOLI",
+     "CZDOG",
+     "CZ's Dog",
+     "Broccoli",
+     "BROCCOLI",
+     "Broccoli",
+     "CZDOG",
+     "BRC"
+    ],
+    "actions": [
+     "spawn",
+     "count"
+    ],
+    "counter": null
+   },
+   "beats": [
+    "Within",
+    "dozens"
+   ]
+  },
+  {
+   "anchor": "On the biggest",
+   "component": "BigNumber",
+   "transition": "zoom",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "value": 11,
+    "chip": "DEXSCREENER DATA · VIA DECRYPT",
+    "label": "wallets made over $1 million each",
+    "tone": "good"
+   },
+   "beats": [
+    "biggest",
+    "eleven",
+    "million"
+   ]
+  },
+  {
+   "anchor": "That coin",
+   "component": "Shot",
+   "transition": "whip",
+   "theme": "light",
+   "props": {
+    "src": "cmc_ath.png",
+    "chrome": "browser",
+    "url": "coinmarketcap.com/currencies/broccoli-714",
+    "source": "CoinMarketCap · 4 Nov 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 520,
+      "y": 268,
+      "w": 115,
+      "h": 44
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 25,
+      "y": 192,
+      "w": 260,
+      "h": 60
+     }
+    ]
+   },
+   "beats": [
+    "coin",
+    "ninety",
+    "peak."
+   ]
+  },
+  {
+   "anchor": "Another site",
+   "component": "CoinSwarm",
+   "transition": "zoom",
+   "theme": "dark",
+   "moving": true,
+   "long": true,
+   "props": {
+    "cols": 25,
+    "rows": 28,
+    "keep": 10,
+    "title": "Coins launched on Pump.fun · 1 dot = 10,000",
+    "counter": {
+     "to": 7000000,
+     "suffix": "+",
+     "label": "Jan 2024 – May 2025"
+    },
+    "keepLabel": "97,000 kept $1,000+ of trading money",
+    "actions": [
+     "spawn",
+     "count",
+     "die",
+     "keep"
+    ]
+   },
+   "beats": [
+    "Another",
+    "coins.",
+    "seventy",
+    "thousand"
+   ]
+  },
+  {
+   "anchor": "Late buyers",
+   "component": "Flow",
+   "transition": "whip",
+   "theme": "light",
+   "props": {
+    "nodes": [
+     {
+      "id": "early",
+      "label": "Early buyers",
+      "sub": "got in first",
+      "x": 500,
+      "y": 170,
+      "tone": "good",
+      "size": 1.6
+     },
+     {
+      "id": "late",
+      "label": "Late buyers",
+      "sub": "buy because it's rising",
+      "x": 500,
+      "y": 650,
+      "tone": "alert",
+      "size": 1.6
+     }
+    ],
+    "edges": [
+     {
+      "from": "early",
+      "to": "late",
+      "label": "sell to",
+      "flow": true,
+      "tone": "alert"
+     }
+    ],
+    "order": [
+     "late",
+     "early",
+     "early>late"
+    ]
+   },
+   "beats": [
+    "Late",
+    "Early",
+    "sell"
+   ]
+  },
+  {
+   "anchor": "and when",
+   "component": "HypeCurve",
+   "transition": "cut",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "priceLabel": "price",
+    "note": "the pattern · not real data",
+    "buyersLabel": "new buyers",
+    "stopLabel": "new buyers: 0",
+    "actions": [
+     "rise",
+     "stop",
+     "fall"
+    ],
+    "labels": []
+   },
+   "beats": [
+    "and",
+    "stop,",
+    "falls."
+   ]
+  },
+  {
+   "anchor": "Their mistake",
+   "component": "Checklist",
+   "transition": "zoom",
+   "theme": "dark",
+   "props": {
+    "title": "The late buyers' mistake",
+    "rows": [
+     {
+      "left": "Bought a coin with nothing behind it",
+      "badge": "JOKE",
+      "tone": "alert"
+     },
+     {
+      "left": "Bought because it was rising",
+      "badge": "LATE",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "mistake:",
+    "joke",
+    "rising."
+   ]
+  },
+  {
+   "anchor": "Ask:",
+   "component": "Title",
+   "transition": "whip",
+   "theme": "light",
+   "props": {
+    "lines": [
+     "Ask:",
+     "who buys this",
+     "from me?"
+    ],
+    "accent": [
+     "from me?"
+    ],
+    "size": 100
+   },
+   "beats": [
+    "Ask:",
+    "who",
+    "from"
+   ]
+  },
+  {
+   "anchor": "If the answer",
+   "component": "CoinSwarm",
+   "transition": "zoom",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "cols": 9,
+    "rows": 10,
+    "formed": true,
+    "keep": 0,
+    "youIndex": 49,
+    "youLabel": "you",
+    "labels": [
+     {
+      "text": "answer: \"it's going up\"",
+      "tone": "accent"
+     }
+    ],
+    "actions": [
+     "label:0",
+     "die",
+     "you"
+    ]
+   },
+   "beats": [
+    "answer",
+    "you'll",
+    "holding"
+   ]
+  }
+ ]
+}

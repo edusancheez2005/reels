@@ -286,3 +286,12 @@ Beats: [first address types in, second types in, ends glow (+ `endLabel` pill), 
 Props: `a` / `b` `{label, text, tone: good|alert|accent|muted}`, `start` (matching chars after the prefix, 3), `end` (4),
 `prefix` ("0x"), `split` (chars per line, 21), `size` (52). Use only real addresses from the explorer, never invented ones.
 Quote also takes `stampTop` (stage y, default 600) so the stamp can sit below a long card instead of over its text.
+
+**CoinSwarm** (4 Nov 2026, meme-coin reel): a crowd of coins that pops into existence, then mostly dies. With `names` it's a board
+of labelled tiles (real coin names only, from a source); without, cols × rows glowing dots (e.g. 25×28 = 700 dots, 1 dot = 10,000
+coins). `actions[i]` on beat i: `spawn` (random fast pop-in, counter starts), `count` (counter lands), `die` (all but `keep` go grey
+and sink), `keep` (green `keepLabel` pill), `you` (tile `youIndex` turns red with `youLabel`), `label:<n>`. Props: cols, rows, names,
+keep (count or index list), counter {to, prefix, suffix, label}, title, labels [{text, tone}], tone, formed (start spawned).
+**HypeCurve** (4 Nov 2026): a hype cycle as a diagram, not data (say so in `note`): a queue of buyer dots walks in and the price line
+climbs; `stop` empties the queue (`stopLabel`, e.g. "new buyers: 0"); `fall` plunges the line red. Actions `rise`, `stop`, `fall`,
+`label:<n>`; props priceLabel, buyersLabel, stopLabel, note, labels [{text, x, y, tone}], risen.

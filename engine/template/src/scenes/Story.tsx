@@ -122,7 +122,7 @@ export const Quote: React.FC<SceneProps<{source: string; text: string; mark?: st
           {parts[0]}
           {parts.length > 1 ? (
             <span style={{position: 'relative', whiteSpace: 'nowrap'}}>
-              <span style={{position: 'absolute', left: -6, right: -6, bottom: 4, height: 30, background: '#FDE047', transformOrigin: 'left', transform: `scaleX(${hl})`, borderRadius: 6, zIndex: 0}} />
+              <span style={{position: 'absolute', left: -6, right: -6, bottom: -6, height: 22, background: '#FDE047', transformOrigin: 'left', transform: `scaleX(${hl})`, borderRadius: 6, zIndex: 0}} />
               <span style={{position: 'relative'}}>{props.mark}</span>
             </span>
           ) : null}

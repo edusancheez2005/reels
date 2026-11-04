@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 7.58
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 24.97,
+    "to": 28.55
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "A dog's name, a $140M coin, then down 90%+"
+  }
+]
