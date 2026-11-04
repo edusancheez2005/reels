@@ -1,0 +1,798 @@
+{
+ "slug": "midterm-dip-bounce",
+ "format": "documentary",
+ "topic_source": "breaking",
+ "theme": "dark",
+ "tail": 1.0,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "nearly six percent",
+  "fell,",
+  "seventy-five thousand six hundred dollars.",
+  "looser rules,",
+  "tougher fight.",
+  "fifty-five million dollars",
+  "won anyway.",
+  "tighter crypto rules,",
+  "bounce?",
+  "mostly expected",
+  "scare.",
+  "the guessing was over.",
+  "Stocks and gold",
+  "one headline",
+  "politics alone.",
+  "what else moved"
+ ],
+ "scenes": [
+  {
+   "anchor": "Ether,",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "value": 6,
+    "prefix": "+",
+    "suffix": "%",
+    "logo": "ethereum.svg",
+    "chip": "Ether · Wed 4 Nov 2026",
+    "label": "in one day",
+    "tone": "good"
+   },
+   "beats": [
+    "Ether,",
+    "Ethereum's",
+    "jumped"
+   ]
+  },
+  {
+   "anchor": "But hours earlier",
+   "component": "PriceTrack",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "values": [
+     2294.2,
+     2290.4,
+     2284.8,
+     2288.6,
+     2292.4,
+     2291.2,
+     2273.6,
+     2271.9,
+     2261.4,
+     2245.3,
+     2247.0,
+     2277.8,
+     2291.0,
+     2294.7,
+     2300.7,
+     2320.1,
+     2319.5,
+     2325.3,
+     2325.7,
+     2312.0,
+     2317.3,
+     2375.4,
+     2424.5,
+     2433.6,
+     2423.8,
+     2421.6,
+     2405.6,
+     2419.2
+    ],
+    "title": "Ether price · USD",
+    "logo": "ethereum.svg",
+    "source": "CoinGecko · hourly ETH/USD",
+    "draw": [
+     5,
+     9
+    ],
+    "split": 9,
+    "xLabels": [
+     {
+      "i": 0,
+      "text": "3 Nov 18:00"
+     },
+     {
+      "i": 9,
+      "text": "03:00"
+     },
+     {
+      "i": 27,
+      "text": "4 Nov 21:00 UTC"
+     }
+    ],
+    "marks": [
+     {
+      "i": 9,
+      "label": "LOW $2,245",
+      "sub": "4 Nov · 03:00 UTC",
+      "tone": "alert",
+      "beat": 1,
+      "side": "below-right"
+     }
+    ]
+   },
+   "beats": [
+    "hours",
+    "fell,"
+   ]
+  },
+  {
+   "anchor": "as results showed",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "reuters_body.png",
+    "chrome": "browser",
+    "url": "finance.yahoo.com/markets/crypto/articles/crypto-dips-democrat-midterm-wins-073507740.html",
+    "source": "Reuters · 4 Nov 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.03
+     },
+     {
+      "x": 0.5,
+      "y": 0.55,
+      "zoom": 1.03
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 30,
+      "y": 225,
+      "w": 1220,
+      "h": 170
+     }
+    ]
+   },
+   "beats": [
+    "results",
+    "Democrats",
+    "Congress."
+   ]
+  },
+  {
+   "anchor": "On election night",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Election night",
+     "3–4 Nov"
+    ],
+    "accent": [
+     "Nov"
+    ]
+   },
+   "beats": [
+    "election",
+    "night,"
+   ]
+  },
+  {
+   "anchor": "bitcoin slid",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 75600,
+    "prefix": "≈$",
+    "logo": "bitcoin.svg",
+    "chip": "≈ 03:00 UTC · CoinDesk",
+    "label": "bitcoin's election-night low",
+    "tone": "alert"
+   },
+   "beats": [
+    "bitcoin",
+    "seventy-five",
+    "dollars."
+   ]
+  },
+  {
+   "anchor": "Why the drop?",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "nodes": [
+     {
+      "id": "ind",
+      "icon": "🪙",
+      "label": "Crypto companies",
+      "sub": "want looser rules",
+      "x": 500,
+      "y": 140,
+      "size": 1.0
+     },
+     {
+      "id": "con",
+      "icon": "🏛️",
+      "label": "New Congress",
+      "sub": "Democrats in charge",
+      "x": 500,
+      "y": 560,
+      "size": 1.0,
+      "tone": "alert"
+     }
+    ],
+    "edges": [
+     {
+      "from": "ind",
+      "to": "con",
+      "label": "tougher fight",
+      "tone": "alert",
+      "dashed": true
+     }
+    ],
+    "order": [
+     "ind",
+     "con"
+    ]
+   },
+   "beats": [
+    "Why",
+    "Crypto",
+    "looser"
+   ]
+  },
+  {
+   "anchor": "and this result",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "src": "decrypt_head.png",
+    "chrome": "browser",
+    "url": "decrypt.co/382515/bitcoin-rebounds-democratic-midterm-sweep-crypto-washington",
+    "source": "Decrypt · 4 Nov 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.55,
+      "y": 0.6,
+      "zoom": 1.03
+     },
+     {
+      "x": 0.6,
+      "y": 0.62,
+      "zoom": 1.03
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 500,
+      "y": 360,
+      "w": 1250,
+      "h": 128
+     }
+    ]
+   },
+   "beats": [
+    "this",
+    "tougher",
+    "fight."
+   ]
+  },
+  {
+   "anchor": "In Ohio,",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "src": "unchained_ohio.png",
+    "chrome": "browser",
+    "url": "unchainedcrypto.com/democrats-sweep-congress-as-sherrod-brown-survives-cryptos-ohio-spending-push/",
+    "source": "Unchained · 4 Nov 2026 · citing Politico",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.55,
+      "zoom": 1.02
+     },
+     {
+      "x": 0.45,
+      "y": 0.6,
+      "zoom": 1.03
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 58,
+      "y": 66,
+      "w": 1000,
+      "h": 115
+     },
+     {
+      "beat": 1,
+      "kind": "circle",
+      "x": 395,
+      "y": 238,
+      "w": 245,
+      "h": 62
+     }
+    ]
+   },
+   "beats": [
+    "Ohio,",
+    "fifty-five",
+    "million"
+   ]
+  },
+  {
+   "anchor": "Democrat Sherrod",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "unchained_head.png",
+    "chrome": "browser",
+    "source": "Unchained · 4 Nov 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.02
+     },
+     {
+      "x": 0.55,
+      "y": 0.4,
+      "zoom": 1.03
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 60,
+      "y": 146,
+      "w": 400,
+      "h": 60
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 472,
+      "y": 150,
+      "w": 232,
+      "h": 56
+     }
+    ],
+    "url": "unchainedcrypto.com/democrats-sweep-congress-as-sherrod-brown-survives-cryptos-ohio-spending-push/"
+   },
+   "beats": [
+    "Sherrod",
+    "Brown",
+    "won"
+   ]
+  },
+  {
+   "anchor": "And Elizabeth Warren,",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "source": "Unchained · 4 Nov 2026 · citing Politico",
+    "text": "Elizabeth Warren, who has long pushed for tighter crypto oversight, “appears poised” to chair Senate Banking.",
+    "mark": "tighter crypto oversight",
+    "note": "Words in quotes: Politico's"
+   },
+   "beats": [
+    "Elizabeth",
+    "senator",
+    "tighter"
+   ]
+  },
+  {
+   "anchor": "may now lead",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "pop",
+   "props": {
+    "title": "Why crypto fell overnight",
+    "rows": [
+     {
+      "left": "Looser rules",
+      "right": "harder now",
+      "badge": "✗",
+      "tone": "alert"
+     },
+     {
+      "left": "$55M+ in Ohio",
+      "right": "he won anyway",
+      "badge": "✗",
+      "tone": "alert"
+     },
+     {
+      "left": "Senate banking committee",
+      "right": "Warren likely",
+      "badge": "✗",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "may",
+    "lead",
+    "banking",
+    "committee."
+   ]
+  },
+  {
+   "anchor": "So why the bounce?",
+   "component": "PriceTrack",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "values": [
+     2294.2,
+     2290.4,
+     2284.8,
+     2288.6,
+     2292.4,
+     2291.2,
+     2273.6,
+     2271.9,
+     2261.4,
+     2245.3,
+     2247.0,
+     2277.8,
+     2291.0,
+     2294.7,
+     2300.7,
+     2320.1,
+     2319.5,
+     2325.3,
+     2325.7,
+     2312.0,
+     2317.3,
+     2375.4,
+     2424.5,
+     2433.6,
+     2423.8,
+     2421.6,
+     2405.6,
+     2419.2
+    ],
+    "title": "Ether price · USD",
+    "logo": "ethereum.svg",
+    "source": "CoinGecko · hourly ETH/USD",
+    "draw": [
+     9,
+     16,
+     23
+    ],
+    "split": 9,
+    "xLabels": [
+     {
+      "i": 0,
+      "text": "3 Nov 18:00"
+     },
+     {
+      "i": 9,
+      "text": "03:00"
+     },
+     {
+      "i": 27,
+      "text": "4 Nov 21:00 UTC"
+     }
+    ],
+    "marks": [
+     {
+      "i": 9,
+      "label": "LOW $2,245",
+      "sub": "03:00 UTC",
+      "tone": "alert",
+      "beat": 0,
+      "side": "below-right"
+     },
+     {
+      "i": 23,
+      "label": "$2,434",
+      "sub": "4 Nov · 17:00 UTC",
+      "tone": "good",
+      "beat": 2,
+      "side": "left"
+     }
+    ]
+   },
+   "beats": [
+    "bounce?",
+    "Analysts",
+    "Decrypt"
+   ]
+  },
+  {
+   "anchor": "that traders mostly",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "source": "Decrypt · 4 Nov 2026 · analysts",
+    "text": "The Democratic sweep had “largely been priced into crypto markets before election night.”",
+    "mark": "priced into",
+    "note": "Words in quotes: Decrypt's"
+   },
+   "beats": [
+    "traders",
+    "expected"
+   ]
+  },
+  {
+   "anchor": "The early counts",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 2.5,
+    "decimals": 1,
+    "prefix": "−",
+    "suffix": "%",
+    "chip": "Nexo analysts, via The Block",
+    "label": "futures on early counts, then “recovered fully”",
+    "tone": "alert"
+   },
+   "beats": [
+    "early",
+    "counts",
+    "scare."
+   ]
+  },
+  {
+   "anchor": "Once the result",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Result: official",
+     "Guessing: over"
+    ],
+    "accent": [
+     "official",
+     "over"
+    ]
+   },
+   "beats": [
+    "official,",
+    "over."
+   ]
+  },
+  {
+   "anchor": "Stocks and gold",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "src": "reuters_head.png",
+    "chrome": "browser",
+    "url": "finance.yahoo.com/markets/crypto/articles/crypto-dips-democrat-midterm-wins-073507740.html",
+    "source": "Reuters · 4 Nov 2026 · gold +2.8% (Schwab)",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "zoom": 1.03
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 395,
+      "y": 70,
+      "w": 665,
+      "h": 75
+     }
+    ]
+   },
+   "beats": [
+    "Stocks",
+    "gold"
+   ]
+  },
+  {
+   "anchor": "The trap is",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "nodes": [
+     {
+      "id": "eth",
+      "logo": "ethereum.svg",
+      "label": "Ether +6%",
+      "x": 500,
+      "y": 470,
+      "size": 1.0,
+      "tone": "good"
+     },
+     {
+      "id": "hl",
+      "icon": "📰",
+      "label": "One headline",
+      "sub": "Democrats win",
+      "x": 500,
+      "y": 90,
+      "size": 0.85,
+      "cross": true
+     },
+     {
+      "id": "st",
+      "icon": "📈",
+      "label": "Stocks up",
+      "x": 150,
+      "y": 250,
+      "size": 0.75
+     },
+     {
+      "id": "gd",
+      "icon": "🥇",
+      "label": "Gold up",
+      "x": 850,
+      "y": 250,
+      "size": 0.75
+     },
+     {
+      "id": "sc",
+      "icon": "😮‍💨",
+      "label": "Scare over",
+      "x": 500,
+      "y": 800,
+      "size": 0.75
+     }
+    ],
+    "edges": [
+     {
+      "from": "hl",
+      "to": "eth",
+      "dashed": true,
+      "tone": "alert"
+     },
+     {
+      "from": "st",
+      "to": "eth",
+      "flow": true
+     },
+     {
+      "from": "gd",
+      "to": "eth",
+      "flow": true
+     },
+     {
+      "from": "sc",
+      "to": "eth",
+      "flow": true
+     }
+    ],
+    "order": [
+     [
+      "eth",
+      "hl"
+     ],
+     [
+      "st",
+      "gd",
+      "sc"
+     ]
+    ]
+   },
+   "beats": [
+    "trap",
+    "whole"
+   ]
+  },
+  {
+   "anchor": "Decrypt said",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "source": "Decrypt · 4 Nov 2026",
+    "text": "The selloff reversed as stock futures bounced back, “making it hard to pin the recovery on politics alone.”",
+    "mark": "politics alone",
+    "note": "Words in quotes: Decrypt's"
+   },
+   "beats": [
+    "Decrypt",
+    "hard",
+    "politics"
+   ]
+  },
+  {
+   "anchor": "So before you believe",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "“This news",
+     "moved crypto”?"
+    ],
+    "accent": [
+     "moved",
+     "crypto"
+    ]
+   },
+   "beats": [
+    "believe",
+    "moved"
+   ]
+  },
+  {
+   "anchor": "check what else",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "Before you believe it, check",
+    "rows": [
+     {
+      "left": "Was it expected?",
+      "right": "priced in?",
+      "badge": "?",
+      "tone": "accent"
+     },
+     {
+      "left": "Did stocks move too?",
+      "right": "same day?",
+      "badge": "?",
+      "tone": "accent"
+     },
+     {
+      "left": "What else moved?",
+      "right": "gold?",
+      "badge": "?",
+      "tone": "accent"
+     }
+    ],
+    "note": "Not financial advice"
+   },
+   "beats": [
+    "check",
+    "else",
+    "moved",
+    "day."
+   ]
+  }
+ ]
+}

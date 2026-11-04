@@ -55,3 +55,4 @@
 - [x] What if Bitcoin was the only money? A day in that world (scenario, third-person walk) (2026-11-02-bitcoin-only-money)
 - [x] Quantum computing vs Bitcoin: what a big enough quantum computer could break, how much is exposed, and the fixes (2026-11-04-quantum-bitcoin)
 - [x] What is a meme coin? CZ's dog Broccoli (Feb 2025): a $140M coin in a day, then down 90%+; 7M Pump.fun coins, 1 in 70 kept $1,000 (2026-11-04-meme-coin-broccoli)
+- [x] Breaking (Edu's request): why crypto dipped when the Democrats won Congress, then ether jumped ~6% (priced in, scare over, stocks and gold up) (2026-11-04-midterm-dip-bounce)

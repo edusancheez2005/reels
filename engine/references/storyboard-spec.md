@@ -86,6 +86,11 @@ object itself (a stamp on the document, a tag on the 3D scene) and keep Ruler fo
 **Checklist**: a title/counter, then rows on beats, then all badges stamp on the following beat.
 `title`, `counter{to, suffix}`, `rows[{left, right, badge, tone}]`, `note`.
 
+**PriceTrack** (4 Nov 2026, midterm dip-and-bounce reel): a REAL price series (e.g. CoinGecko hourly, saved in the episode's
+`data/`) drawn as a line. On beat i the line extends to point `draw[i]`; `split` colours the line before/after an index (alert →
+good by default); `marks[{i, label, sub, tone, beat, side}]` pin a labelled box to a point (`side`: above | below | left | right |
+below-right). `values`, `title`, `logo`, `source`, `prefix`, `xLabels[{i, text}]`. Data, not illustration: say where it came from in `source`.
+
 **PriceLine**: an illustrative jittery line. Label on beat 0, struck through on the last beat. `label`, `strike`.
 
 ### Mechanism and illustration

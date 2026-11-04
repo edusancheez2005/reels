@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 8.18
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 17.51,
+    "to": 23.84
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "Why crypto fell, then bounced"
+  }
+]
