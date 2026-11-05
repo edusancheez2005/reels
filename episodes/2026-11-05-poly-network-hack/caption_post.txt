@@ -1,0 +1,6 @@
+In August 2021, an anonymous hacker stole $610 million from Poly Network. Thirteen days later, the last coins were back.
+Poly Network is a bridge that moves coins between blockchains, and a few computers called keepers approve every move. Any outside message could replace those keepers, so the hacker swapped in their own key and took coins on Ethereum, Binance's chain and Polygon. Every move was public: Tether froze about $33 million, SlowMist said it had found the hacker's email, and the hacker wrote on-chain "I am not very interested in money." Poly nicknamed them "Mr. White Hat" and offered a $500,000 reward.
+The fix: only the current keepers should be able to change the keepers, because whoever picks them controls every coin.
+Follow for crypto, explained simply.
+Not financial advice.
+#DeFi #Crypto #CryptoExplained #CryptoHistory #Sonar
