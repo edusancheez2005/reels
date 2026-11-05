@@ -1,0 +1,11 @@
+In twenty twenty-one, an anonymous hacker stole six hundred and ten million dollars in crypto. Then they gave it back.
+
+The victim: Poly Network, a bridge that moves coins between blockchains. A few computers called keepers approve every move, each with a secret key.
+
+Here's the hole: any outside message could replace the keepers. The hacker swapped in their own key and took the coins.
+
+But blockchain moves are public, so everyone could watch the loot. Tether froze thirty-three million of its dollar coins. Security firm SlowMist said it found the hacker's email.
+
+The next day, the hacker started sending coins back, writing on the blockchain: "I am not very interested in money." Poly nicknamed the hacker "Mr. White Hat" and offered a five-hundred-thousand-dollar reward. Thirteen days after the hack, the last coins came back.
+
+Poly's mistake: anyone could change who held the keys. The fix: only the keepers should change the keepers, because whoever picks them controls every coin.

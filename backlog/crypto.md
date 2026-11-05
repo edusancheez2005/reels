@@ -56,3 +56,4 @@
 - [x] Quantum computing vs Bitcoin: what a big enough quantum computer could break, how much is exposed, and the fixes (2026-11-04-quantum-bitcoin)
 - [x] What is a meme coin? CZ's dog Broccoli (Feb 2025): a $140M coin in a day, then down 90%+; 7M Pump.fun coins, 1 in 70 kept $1,000 (2026-11-04-meme-coin-broccoli)
 - [x] Breaking (Edu's request): why crypto dipped when the Democrats won Congress, then ether jumped ~6% (priced in, scare over, stocks and gold up) (2026-11-04-midterm-dip-bounce)
+- [x] Poly Network, 2021: the hacker who stole $610 million and gave it back (bridge keeper bug, Tether freeze, Mr. White Hat) (2026-11-05-poly-network-hack)

@@ -1,0 +1,1181 @@
+{
+ "slug": "poly-network-hack",
+ "format": "character",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 1.1,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "six hundred and ten million dollars",
+  "gave it back.",
+  "Poly Network,",
+  "called keepers",
+  "secret key.",
+  "any outside message",
+  "their own key",
+  "public,",
+  "thirty-three million",
+  "SlowMist",
+  "email.",
+  "sending coins back,",
+  "not very interested in money.",
+  "Mr. White Hat",
+  "five-hundred-thousand-dollar reward.",
+  "Thirteen days",
+  "who held the keys.",
+  "only the keepers",
+  "every coin."
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "eth",
+     "kind": "vault",
+     "at": [
+      -4.2,
+      -1.8
+     ],
+     "tone": "warm"
+    },
+    {
+     "id": "bsc",
+     "kind": "vault",
+     "at": [
+      -4.2,
+      1.9
+     ],
+     "tone": "warm"
+    },
+    {
+     "id": "pol",
+     "kind": "vault",
+     "at": [
+      4.2,
+      -1.8
+     ],
+     "tone": "warm"
+    },
+    {
+     "id": "hub",
+     "kind": "block",
+     "at": [
+      0,
+      -0.4
+     ],
+     "icon": "lock",
+     "tone": "accent",
+     "size": 1.3
+    },
+    {
+     "id": "k1",
+     "kind": "server",
+     "at": [
+      -1.4,
+      2.4
+     ],
+     "tone": "good"
+    },
+    {
+     "id": "k2",
+     "kind": "server",
+     "at": [
+      0,
+      2.4
+     ],
+     "tone": "good"
+    },
+    {
+     "id": "k3",
+     "kind": "server",
+     "at": [
+      1.4,
+      2.4
+     ],
+     "tone": "good"
+    },
+    {
+     "id": "hack",
+     "kind": "pawn",
+     "at": [
+      4.4,
+      2.3
+     ],
+     "tone": "alert"
+    }
+   ],
+   "links": [
+    {
+     "id": "e1",
+     "from": "eth",
+     "to": "hub",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "e2",
+     "from": "bsc",
+     "to": "hub",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "e3",
+     "from": "pol",
+     "to": "hub",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "q1",
+     "from": "k1",
+     "to": "hub",
+     "style": "dashed",
+     "tone": "good"
+    },
+    {
+     "id": "q2",
+     "from": "k2",
+     "to": "hub",
+     "style": "dashed",
+     "tone": "good"
+    },
+    {
+     "id": "q3",
+     "from": "k3",
+     "to": "hub",
+     "style": "dashed",
+     "tone": "good"
+    }
+   ],
+   "movers": [
+    {
+     "id": "m1",
+     "kind": "doc",
+     "path": [
+      "hack",
+      "k3"
+     ],
+     "dur": 20
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "In",
+   "component": "BigNumber",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "value": 610000000,
+    "prefix": "$",
+    "chip": "Poly Network hack · Aug 2021",
+    "label": "stolen in crypto",
+    "tone": "alert"
+   },
+   "beats": [
+    "In",
+    "million",
+    "crypto."
+   ],
+   "long": true
+  },
+  {
+   "anchor": "Then",
+   "component": "Trader3D",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "screens": {
+     "steal": {
+      "head": "withdrawals approved",
+      "big": "-$610M",
+      "sub": [
+       "Ethereum · Binance chain · Polygon"
+      ],
+      "tone": "alert",
+      "chart": "down",
+      "feed": [
+       "OUT · Ethereum",
+       "OUT · Binance chain",
+       "OUT · Polygon"
+      ]
+     },
+     "back": {
+      "head": "sending coins back",
+      "big": "returning",
+      "sub": [
+       "to Poly Network"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "RETURN → Poly",
+       "RETURN → Poly",
+       "RETURN → Poly"
+      ]
+     },
+     "note": {
+      "head": "note in a transaction",
+      "big": "NOT INTERESTED",
+      "sub": [
+       "\"...IN MONEY!\""
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "Q: WHY RETURNING?",
+       "A: THAT'S ALWAYS",
+       "THE PLAN!"
+      ]
+     },
+     "last": {
+      "head": "final key handed over",
+      "big": "funds back",
+      "sub": [
+       "13 days after the hack"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "KEY → Poly",
+       "funds recovered",
+       "23 Aug 2021"
+      ]
+     }
+    },
+    "screen": "steal",
+    "actions": [
+     "card",
+     "screen:back"
+    ],
+    "caption": "3D recreation · details: Decrypt, Cointelegraph",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.2,
+       1.42,
+       1.05
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.75,
+       1.36,
+       0.85
+      ],
+      "look": [
+       0,
+       1.12,
+       0.14
+      ],
+      "fov": 30,
+      "dur": 30
+     }
+    ],
+    "card": {
+     "name": "THE HACKER",
+     "role": "anonymous · never publicly named",
+     "note": "3D stand-in",
+     "y": 1250
+    }
+   },
+   "beats": [
+    "Then",
+    "back."
+   ]
+  },
+  {
+   "anchor": "The victim:",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "k1",
+     "k2",
+     "k3",
+     "hack"
+    ],
+    "state": {
+     "links": [
+      "e1",
+      "e2",
+      "e3"
+     ]
+    },
+    "actions": [
+     "label:0",
+     "label:1",
+     "label:2",
+     "label:3"
+    ],
+    "labels": [
+     {
+      "text": "Poly Network: the bridge",
+      "at": "hub",
+      "side": "up",
+      "dy": -150,
+      "tone": "accent"
+     },
+     {
+      "text": "Ethereum",
+      "at": "eth",
+      "side": "up",
+      "dy": -90,
+      "tone": "warm"
+     },
+     {
+      "text": "Binance chain",
+      "at": "bsc",
+      "side": "left",
+      "dx": -20,
+      "dy": 60,
+      "tone": "warm"
+     },
+     {
+      "text": "Polygon",
+      "at": "pol",
+      "side": "up",
+      "dy": -90,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       2.6,
+       0
+      ],
+      "zoom": 70
+     },
+     {
+      "beat": 2,
+      "target": [
+       0,
+       2.6,
+       0
+      ],
+      "zoom": 74
+     }
+    ]
+   },
+   "beats": [
+    "victim:",
+    "bridge",
+    "between",
+    "blockchains."
+   ],
+   "long": true
+  },
+  {
+   "anchor": "A few computers",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "hack"
+    ],
+    "state": {
+     "links": [
+      "e1",
+      "e2",
+      "e3",
+      "q1",
+      "q2",
+      "q3"
+     ]
+    },
+    "actions": [
+     "cam",
+     "label:0",
+     "pulse:hub",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "keepers = computers",
+      "at": "k2",
+      "side": "up",
+      "dy": -230,
+      "tone": "good"
+     },
+     {
+      "text": "each holds a secret key",
+      "at": "k3",
+      "side": "right",
+      "dy": 70,
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       2.4,
+       1.2
+      ],
+      "zoom": 80
+     },
+     {
+      "beat": 0,
+      "target": [
+       0,
+       2.4,
+       1.4
+      ],
+      "zoom": 92
+     }
+    ]
+   },
+   "beats": [
+    "computers",
+    "keepers",
+    "approve",
+    "key."
+   ],
+   "long": true
+  },
+  {
+   "anchor": "Here's the hole:",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "hack"
+    ],
+    "state": {
+     "links": [
+      "e1",
+      "e2",
+      "e3",
+      "q1",
+      "q2",
+      "q3"
+     ]
+    },
+    "actions": [
+     "show:hack",
+     "label:0",
+     "move:m1",
+     "alert:k1",
+     "alert:k2",
+     "alert:k3"
+    ],
+    "labels": [
+     {
+      "text": "any outside message",
+      "at": "hack",
+      "side": "up",
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.6,
+       2.4,
+       1.4
+      ],
+      "zoom": 84
+     },
+     {
+      "beat": 3,
+      "target": [
+       0.6,
+       2.4,
+       1.6
+      ],
+      "zoom": 86
+     }
+    ]
+   },
+   "beats": [
+    "hole:",
+    "outside",
+    "message",
+    "replace",
+    "the",
+    "keepers."
+   ]
+  },
+  {
+   "anchor": "The hacker swapped",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "plate": "POLY NETWORK",
+    "actions": [
+     "key",
+     "label:0",
+     "turn",
+     "drain"
+    ],
+    "tags": [
+     {
+      "text": "hacker's key accepted",
+      "x": 540,
+      "y": 560,
+      "tone": "alert",
+      "size": 46,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -1.1,
+       0.6,
+       8.8
+      ],
+      "look": [
+       -0.7,
+       -0.4,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 2,
+      "pos": [
+       -0.8,
+       0.45,
+       8.0
+      ],
+      "look": [
+       -0.7,
+       -0.45,
+       0
+      ],
+      "fov": 36
+     }
+    ]
+   },
+   "beats": [
+    "swapped",
+    "own",
+    "key",
+    "took"
+   ]
+  },
+  {
+   "anchor": "But blockchain",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "ct-three-crop.png",
+    "chrome": "browser",
+    "url": "cointelegraph.com/news/hackers-stole-at-least-600m-in-poly-exploit-across-three-chains",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.07,
+      "zoom": 1.25
+     },
+     {
+      "x": 0.5,
+      "y": 0.75,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.5,
+      "y": 0.75,
+      "zoom": 1.25
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 14,
+      "y": 195,
+      "w": 1340,
+      "h": 200
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 14,
+      "y": 2080,
+      "w": 1420,
+      "h": 160
+     }
+    ],
+    "source": "Cointelegraph · 10 Aug 2021"
+   },
+   "beats": [
+    "But",
+    "public,",
+    "watch"
+   ]
+  },
+  {
+   "anchor": "Tether",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "value": 33000000,
+    "prefix": "~$",
+    "chip": "USDT · Tether's dollar coin",
+    "label": "of the loot, frozen by Tether",
+    "tone": "accent"
+   },
+   "beats": [
+    "Tether",
+    "million",
+    "coins."
+   ]
+  },
+  {
+   "anchor": "Security firm",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "source": "Cointelegraph · 10 Aug 2021",
+    "text": "SlowMist posted an update ... saying its analysts had identified the attacker's email address, IP address, and device fingerprint",
+    "mark": "email address",
+    "note": "Quoted from Cointelegraph's report"
+   },
+   "beats": [
+    "Security",
+    "SlowMist",
+    "found",
+    "email."
+   ]
+  },
+  {
+   "anchor": "The next day,",
+   "component": "Trader3D",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "screens": {
+     "steal": {
+      "head": "withdrawals approved",
+      "big": "-$610M",
+      "sub": [
+       "Ethereum · Binance chain · Polygon"
+      ],
+      "tone": "alert",
+      "chart": "down",
+      "feed": [
+       "OUT · Ethereum",
+       "OUT · Binance chain",
+       "OUT · Polygon"
+      ]
+     },
+     "back": {
+      "head": "sending coins back",
+      "big": "returning",
+      "sub": [
+       "to Poly Network"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "RETURN → Poly",
+       "RETURN → Poly",
+       "RETURN → Poly"
+      ]
+     },
+     "note": {
+      "head": "note in a transaction",
+      "big": "NOT INTERESTED",
+      "sub": [
+       "\"...IN MONEY!\""
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "Q: WHY RETURNING?",
+       "A: THAT'S ALWAYS",
+       "THE PLAN!"
+      ]
+     },
+     "last": {
+      "head": "final key handed over",
+      "big": "funds back",
+      "sub": [
+       "13 days after the hack"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "KEY → Poly",
+       "funds recovered",
+       "23 Aug 2021"
+      ]
+     }
+    },
+    "screen": "back",
+    "actions": [
+     "type",
+     "mouse",
+     "screen:note"
+    ],
+    "caption": "3D recreation · details: Decrypt, Cointelegraph",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.55,
+       1.42,
+       -0.85
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 31
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.5,
+       1.4,
+       -0.72
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 30,
+      "dur": 36
+     }
+    ]
+   },
+   "beats": [
+    "next",
+    "sending",
+    "writing"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "I am not",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "src": "decrypt-qa-crop.png",
+    "chrome": "browser",
+    "url": "decrypt.co/78364/poly-network-hacker-says-exploit-was-just-for-fun",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.25,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.34,
+      "y": 0.52,
+      "zoom": 1.75
+     },
+     {
+      "x": 0.34,
+      "y": 0.52,
+      "zoom": 1.85
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 44,
+      "y": 503,
+      "w": 656,
+      "h": 28
+     }
+    ],
+    "source": "Decrypt · the hacker's note, decoded from an Ethereum transaction"
+   },
+   "beats": [
+    "I",
+    "interested",
+    "money."
+   ]
+  },
+  {
+   "anchor": "Poly nicknamed",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "ct-bounty-crop.png",
+    "chrome": "browser",
+    "url": "cointelegraph.com/news/poly-network-hacker-returns-nearly-all-funds-refuses-500k-white-hat-bounty",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.05,
+      "zoom": 1.25
+     },
+     {
+      "x": 0.5,
+      "y": 0.92,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.5,
+      "y": 0.93,
+      "zoom": 1.25
+     },
+     {
+      "x": 0.5,
+      "y": 0.93,
+      "zoom": 1.3
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 14,
+      "y": 40,
+      "w": 1340,
+      "h": 290
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 14,
+      "y": 2722,
+      "w": 1420,
+      "h": 112
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 100,
+      "y": 2832,
+      "w": 320,
+      "h": 12
+     }
+    ],
+    "source": "Cointelegraph · 12 Aug 2021"
+   },
+   "beats": [
+    "nicknamed",
+    "White",
+    "five-hundred-thousand-dollar",
+    "reward."
+   ]
+  },
+  {
+   "anchor": "Thirteen days",
+   "component": "Trader3D",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "screens": {
+     "steal": {
+      "head": "withdrawals approved",
+      "big": "-$610M",
+      "sub": [
+       "Ethereum · Binance chain · Polygon"
+      ],
+      "tone": "alert",
+      "chart": "down",
+      "feed": [
+       "OUT · Ethereum",
+       "OUT · Binance chain",
+       "OUT · Polygon"
+      ]
+     },
+     "back": {
+      "head": "sending coins back",
+      "big": "returning",
+      "sub": [
+       "to Poly Network"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "RETURN → Poly",
+       "RETURN → Poly",
+       "RETURN → Poly"
+      ]
+     },
+     "note": {
+      "head": "note in a transaction",
+      "big": "NOT INTERESTED",
+      "sub": [
+       "\"...IN MONEY!\""
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "Q: WHY RETURNING?",
+       "A: THAT'S ALWAYS",
+       "THE PLAN!"
+      ]
+     },
+     "last": {
+      "head": "final key handed over",
+      "big": "funds back",
+      "sub": [
+       "13 days after the hack"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "KEY → Poly",
+       "funds recovered",
+       "23 Aug 2021"
+      ]
+     }
+    },
+    "screen": "note",
+    "actions": [
+     "screen:last",
+     "label:0",
+     "lean"
+    ],
+    "caption": "3D recreation · details: Decrypt, Cointelegraph",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.2,
+       1.42,
+       1.05
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.75,
+       1.36,
+       0.85
+      ],
+      "look": [
+       0,
+       1.12,
+       0.14
+      ],
+      "fov": 30,
+      "dur": 40
+     }
+    ],
+    "tags": [
+     {
+      "text": "13 days after the hack",
+      "x": 540,
+      "y": 560,
+      "tone": "good",
+      "size": 42,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "Thirteen",
+    "hack,",
+    "last"
+   ]
+  },
+  {
+   "anchor": "Poly's mistake:",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "e1",
+      "e2",
+      "e3",
+      "q1",
+      "q2",
+      "q3"
+     ],
+     "alert": [
+      "k1",
+      "k2",
+      "k3"
+     ]
+    },
+    "actions": [
+     "cam",
+     "label:0",
+     "pulse:k2"
+    ],
+    "labels": [
+     {
+      "text": "anyone could change the keepers",
+      "at": "k2",
+      "side": "up",
+      "dy": -40,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0.8,
+       2.4,
+       1.2
+      ],
+      "zoom": 70
+     },
+     {
+      "beat": 0,
+      "target": [
+       0.4,
+       2.4,
+       1.6
+      ],
+      "zoom": 88
+     }
+    ]
+   },
+   "beats": [
+    "mistake:",
+    "anyone",
+    "keys."
+   ]
+  },
+  {
+   "anchor": "The fix:",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "The fix",
+    "rows": [
+     {
+      "left": "Outside message changes keepers",
+      "badge": "BLOCKED",
+      "tone": "alert"
+     },
+     {
+      "left": "Current keepers approve new ones",
+      "badge": "REQUIRED",
+      "tone": "good"
+     }
+    ]
+   },
+   "beats": [
+    "fix:",
+    "only",
+    "change",
+    "keepers,"
+   ]
+  },
+  {
+   "anchor": "because",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "hack"
+    ],
+    "state": {
+     "links": [
+      "e1",
+      "e2",
+      "e3",
+      "q1",
+      "q2",
+      "q3"
+     ]
+    },
+    "actions": [
+     "cam",
+     "label:0",
+     "label:1",
+     "pulse:hub"
+    ],
+    "labels": [
+     {
+      "text": "whoever picks the keepers",
+      "at": "k2",
+      "side": "up",
+      "dy": -30,
+      "tone": "accent"
+     },
+     {
+      "text": "controls every coin",
+      "at": "hub",
+      "side": "up",
+      "dy": -40,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       2.4,
+       0.8
+      ],
+      "zoom": 92
+     },
+     {
+      "beat": 0,
+      "target": [
+       0,
+       2.6,
+       0.4
+      ],
+      "zoom": 80
+     }
+    ]
+   },
+   "beats": [
+    "because",
+    "picks",
+    "controls",
+    "coin."
+   ]
+  }
+ ]
+}
