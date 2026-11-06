@@ -4,12 +4,21 @@
   "topic": "What if Satoshi's coins started moving? Thought experiment: ~1.1M BTC (Lerner's Patoshi estimate), the May 2020 50-BTC scare, signed messages, Craig Wright",
   "produced_at": "2026-11-06T04:52:02+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-06-satoshi-coins-move.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-06-satoshi-coins-move-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-06-satoshi-coins-move-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-06-satoshi-coins-move-story_3.jpg"
   ],
   "format": "object",
-  "topic_source": "plan"
+  "topic_source": "plan",
+  "auto_posted": true,
+  "posted_at": "2026-11-06T04:56:57Z",
+  "instagram_media_id": "18115982336589414",
+  "sources_comment_id": "18077779946578724",
+  "story_media_ids": [
+    "18196041223393867",
+    "18118619501275073",
+    "18181293289427159"
+  ]
 }
