@@ -1,0 +1,1248 @@
+[
+ {
+  "text": "About",
+  "startMs": 80,
+  "endMs": 380,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 380,
+  "endMs": 639,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " point",
+  "startMs": 640,
+  "endMs": 974,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 980,
+  "endMs": 1197,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " million",
+  "startMs": 1200,
+  "endMs": 1588,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bitcoin,",
+  "startMs": 1590,
+  "endMs": 2035,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " believed",
+  "startMs": 2190,
+  "endMs": 2680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 2680,
+  "endMs": 2860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " be",
+  "startMs": 2860,
+  "endMs": 3040,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Satoshi's,",
+  "startMs": 3040,
+  "endMs": 3599,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " have",
+  "startMs": 3800,
+  "endMs": 4046,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " never",
+  "startMs": 4100,
+  "endMs": 4325,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " moved.",
+  "startMs": 4330,
+  "endMs": 4660,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " What",
+  "startMs": 4840,
+  "endMs": 5072,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " if",
+  "startMs": 5080,
+  "endMs": 5188,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " they",
+  "startMs": 5190,
+  "endMs": 5362,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " moved?",
+  "startMs": 5420,
+  "endMs": 5710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 5914,
+  "endMs": 6070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thought",
+  "startMs": 6074,
+  "endMs": 6330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " experiment.",
+  "startMs": 6334,
+  "endMs": 6954,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Satoshi",
+  "startMs": 7134,
+  "endMs": 7582,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Nakamoto,",
+  "startMs": 7614,
+  "endMs": 8254,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bitcoin's",
+  "startMs": 8474,
+  "endMs": 8981,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " unknown",
+  "startMs": 9054,
+  "endMs": 9373,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " creator,",
+  "startMs": 9504,
+  "endMs": 9877,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " went",
+  "startMs": 10104,
+  "endMs": 10381,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " quiet",
+  "startMs": 10394,
+  "endMs": 10773,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 10814,
+  "endMs": 10940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2011.",
+  "startMs": 10994,
+  "endMs": 12004,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " That",
+  "startMs": 12184,
+  "endMs": 12334,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " number",
+  "startMs": 12334,
+  "endMs": 12740,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 12754,
+  "endMs": 12844,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " researcher",
+  "startMs": 12844,
+  "endMs": 13352,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sergio",
+  "startMs": 13354,
+  "endMs": 13904,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Lerner's",
+  "startMs": 13904,
+  "endMs": 14294,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2013",
+  "startMs": 14294,
+  "endMs": 15409,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " estimate.",
+  "startMs": 15414,
+  "endMs": 15854,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " If",
+  "startMs": 16034,
+  "endMs": 16151,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " those",
+  "startMs": 16154,
+  "endMs": 16444,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins",
+  "startMs": 16444,
+  "endMs": 16795,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " moved,",
+  "startMs": 16824,
+  "endMs": 17147,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bots",
+  "startMs": 17384,
+  "endMs": 17733,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " watching",
+  "startMs": 17734,
+  "endMs": 18201,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bitcoin's",
+  "startMs": 18234,
+  "endMs": 18728,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " public",
+  "startMs": 18734,
+  "endMs": 19134,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " record",
+  "startMs": 19134,
+  "endMs": 19484,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 19484,
+  "endMs": 19724,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sound",
+  "startMs": 19724,
+  "endMs": 20074,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " alarms.",
+  "startMs": 20074,
+  "endMs": 20544,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 20724,
+  "endMs": 20886,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " May",
+  "startMs": 20894,
+  "endMs": 21064,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2020,",
+  "startMs": 21064,
+  "endMs": 22125,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fifty",
+  "startMs": 22344,
+  "endMs": 22663,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins",
+  "startMs": 22664,
+  "endMs": 22987,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 22994,
+  "endMs": 23202,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " February",
+  "startMs": 23244,
+  "endMs": 23784,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2009",
+  "startMs": 23784,
+  "endMs": 24711,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " moved.",
+  "startMs": 24744,
+  "endMs": 25034,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 25214,
+  "endMs": 25344,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bot",
+  "startMs": 25344,
+  "endMs": 25642,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " guessed",
+  "startMs": 25644,
+  "endMs": 25910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " they",
+  "startMs": 25914,
+  "endMs": 26071,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " might",
+  "startMs": 26144,
+  "endMs": 26324,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " be",
+  "startMs": 26324,
+  "endMs": 26524,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Satoshi's,",
+  "startMs": 26524,
+  "endMs": 27035,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 27244,
+  "endMs": 27344,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bitcoin",
+  "startMs": 27344,
+  "endMs": 27838,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fell",
+  "startMs": 27904,
+  "endMs": 28052,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " over",
+  "startMs": 28054,
+  "endMs": 28304,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " seven",
+  "startMs": 28304,
+  "endMs": 28641,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " percent",
+  "startMs": 28684,
+  "endMs": 29014,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 29014,
+  "endMs": 29194,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " day.",
+  "startMs": 29194,
+  "endMs": 29444,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " But",
+  "startMs": 29624,
+  "endMs": 29842,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 29844,
+  "endMs": 30005,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " move",
+  "startMs": 30094,
+  "endMs": 30174,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " only",
+  "startMs": 30174,
+  "endMs": 30534,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " proves",
+  "startMs": 30534,
+  "endMs": 30984,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " someone",
+  "startMs": 30984,
+  "endMs": 31334,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " has",
+  "startMs": 31334,
+  "endMs": 31582,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 31604,
+  "endMs": 31674,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " secret",
+  "startMs": 31674,
+  "endMs": 32124,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " code",
+  "startMs": 32124,
+  "endMs": 32394,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 32394,
+  "endMs": 32615,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " spends",
+  "startMs": 32624,
+  "endMs": 32996,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " those",
+  "startMs": 33004,
+  "endMs": 33268,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins.",
+  "startMs": 33274,
+  "endMs": 33594,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " That",
+  "startMs": 33774,
+  "endMs": 33964,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " code",
+  "startMs": 33964,
+  "endMs": 34209,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " can",
+  "startMs": 34274,
+  "endMs": 34354,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " also",
+  "startMs": 34354,
+  "endMs": 34741,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sign",
+  "startMs": 34744,
+  "endMs": 34983,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 34984,
+  "endMs": 35128,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " message,",
+  "startMs": 35134,
+  "endMs": 35467,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " without",
+  "startMs": 35664,
+  "endMs": 35994,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " moving",
+  "startMs": 35994,
+  "endMs": 36334,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " anything.",
+  "startMs": 36334,
+  "endMs": 36724,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Take",
+  "startMs": 36904,
+  "endMs": 37164,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Craig",
+  "startMs": 37164,
+  "endMs": 37454,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Wright,",
+  "startMs": 37454,
+  "endMs": 37792,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 38014,
+  "endMs": 38084,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Australian",
+  "startMs": 38084,
+  "endMs": 38792,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " computer",
+  "startMs": 38794,
+  "endMs": 39347,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " scientist",
+  "startMs": 39354,
+  "endMs": 39902,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " who",
+  "startMs": 39904,
+  "endMs": 40125,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " said",
+  "startMs": 40134,
+  "endMs": 40347,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " he",
+  "startMs": 40354,
+  "endMs": 40504,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 40504,
+  "endMs": 40664,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Satoshi.",
+  "startMs": 40664,
+  "endMs": 41124,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 41304,
+  "endMs": 41462,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " court,",
+  "startMs": 41464,
+  "endMs": 41779,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " he",
+  "startMs": 41894,
+  "endMs": 42144,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " listed",
+  "startMs": 42144,
+  "endMs": 42514,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " early",
+  "startMs": 42514,
+  "endMs": 42754,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " addresses,",
+  "startMs": 42754,
+  "endMs": 43203,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " like",
+  "startMs": 43414,
+  "endMs": 43674,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " account",
+  "startMs": 43674,
+  "endMs": 44014,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " numbers,",
+  "startMs": 44014,
+  "endMs": 44416,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " as",
+  "startMs": 44614,
+  "endMs": 44733,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " his.",
+  "startMs": 44744,
+  "endMs": 44944,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Then",
+  "startMs": 45124,
+  "endMs": 45350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " someone",
+  "startMs": 45354,
+  "endMs": 45744,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 45744,
+  "endMs": 45834,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 45834,
+  "endMs": 46024,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " codes",
+  "startMs": 46024,
+  "endMs": 46366,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 46414,
+  "endMs": 46591,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 46664,
+  "endMs": 46761,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 46834,
+  "endMs": 47212,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 47214,
+  "endMs": 47374,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forty-five",
+  "startMs": 47374,
+  "endMs": 48059,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 48084,
+  "endMs": 48172,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " those",
+  "startMs": 48174,
+  "endMs": 48454,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " addresses",
+  "startMs": 48454,
+  "endMs": 48904,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " signed:",
+  "startMs": 48904,
+  "endMs": 49244,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Craig",
+  "startMs": 49524,
+  "endMs": 49809,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Steven",
+  "startMs": 49814,
+  "endMs": 50260,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Wright",
+  "startMs": 50264,
+  "endMs": 50542,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 50544,
+  "endMs": 50654,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 50654,
+  "endMs": 50824,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " liar",
+  "startMs": 50824,
+  "endMs": 51104,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 51104,
+  "endMs": 51276,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 51314,
+  "endMs": 51434,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fraud.",
+  "startMs": 51434,
+  "endMs": 51784,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 51964,
+  "endMs": 52104,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2024,",
+  "startMs": 52104,
+  "endMs": 53401,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 53604,
+  "endMs": 53774,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " UK",
+  "startMs": 53814,
+  "endMs": 54144,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " judge",
+  "startMs": 54144,
+  "endMs": 54504,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ruled",
+  "startMs": 54504,
+  "endMs": 54774,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " he",
+  "startMs": 54774,
+  "endMs": 54994,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " isn't",
+  "startMs": 54994,
+  "endMs": 55294,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Satoshi.",
+  "startMs": 55294,
+  "endMs": 55744,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 55924,
+  "endMs": 56034,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2020",
+  "startMs": 56034,
+  "endMs": 57154,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sellers",
+  "startMs": 57154,
+  "endMs": 57504,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " took",
+  "startMs": 57504,
+  "endMs": 57742,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 57774,
+  "endMs": 57918,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bot's",
+  "startMs": 58004,
+  "endMs": 58270,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " guess",
+  "startMs": 58324,
+  "endMs": 58505,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " as",
+  "startMs": 58514,
+  "endMs": 58622,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " proof.",
+  "startMs": 58624,
+  "endMs": 58974,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 59154,
+  "endMs": 59304,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " move",
+  "startMs": 59304,
+  "endMs": 59554,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " doesn't",
+  "startMs": 59554,
+  "endMs": 59904,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " prove",
+  "startMs": 59904,
+  "endMs": 60212,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " who.",
+  "startMs": 60214,
+  "endMs": 60414,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 60594,
+  "endMs": 60804,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " if",
+  "startMs": 60804,
+  "endMs": 60904,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 60904,
+  "endMs": 61064,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " headline",
+  "startMs": 61064,
+  "endMs": 61486,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " says",
+  "startMs": 61524,
+  "endMs": 61694,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Satoshi",
+  "startMs": 61694,
+  "endMs": 62114,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 62114,
+  "endMs": 62220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " selling,",
+  "startMs": 62224,
+  "endMs": 62535,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " look",
+  "startMs": 62744,
+  "endMs": 62954,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 62954,
+  "endMs": 63164,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 63214,
+  "endMs": 63294,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " signature.",
+  "startMs": 63294,
+  "endMs": 63794,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

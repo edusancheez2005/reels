@@ -1,0 +1,1111 @@
+{
+ "slug": "satoshi-coins-move",
+ "format": "object",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 1.0,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "one point one million bitcoin,",
+  "never moved.",
+  "thought experiment.",
+  "went quiet",
+  "Sergio Lerner's",
+  "public record",
+  "sound alarms.",
+  "fifty coins",
+  "February 2009",
+  "guessed",
+  "seven percent",
+  "secret code",
+  "sign a message,",
+  "Craig Wright,",
+  "a hundred and forty-five",
+  "liar and a fraud.",
+  "isn't Satoshi.",
+  "bot's guess as proof.",
+  "look for a signature."
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "key",
+     "kind": "key",
+     "at": [
+      -4.0,
+      -1.2
+     ],
+     "tone": "warm",
+     "size": 1.2
+    },
+    {
+     "id": "msg",
+     "kind": "doc",
+     "at": [
+      -0.6,
+      -1.4
+     ],
+     "tone": "good",
+     "text": "signed"
+    },
+    {
+     "id": "coins",
+     "kind": "coins",
+     "at": [
+      3.6,
+      -1.4
+     ],
+     "tone": "ice"
+    },
+    {
+     "id": "craig",
+     "kind": "pawn",
+     "at": [
+      -3.2,
+      2.2
+     ],
+     "tone": "muted"
+    },
+    {
+     "id": "court",
+     "kind": "block",
+     "at": [
+      0.4,
+      2.2
+     ],
+     "icon": "sign",
+     "tone": "accent",
+     "size": 1.1
+    },
+    {
+     "id": "list",
+     "kind": "doc",
+     "at": [
+      3.4,
+      2.2
+     ],
+     "tone": "warm",
+     "text": "addresses"
+    }
+   ],
+   "links": [
+    {
+     "id": "ks",
+     "from": "key",
+     "to": "msg",
+     "style": "beam",
+     "tone": "good"
+    },
+    {
+     "id": "cc",
+     "from": "craig",
+     "to": "court",
+     "style": "dashed",
+     "tone": "muted"
+    },
+    {
+     "id": "cl",
+     "from": "court",
+     "to": "list",
+     "style": "dashed",
+     "tone": "warm"
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "About",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "plate": "SATOSHI'S COINS?",
+    "frozen": true,
+    "actions": [
+     "label:0",
+     "label:1",
+     "scan",
+     "label:2"
+    ],
+    "tags": [
+     {
+      "text": "≈1.1 MILLION BTC",
+      "x": 540,
+      "y": 600,
+      "tone": "accent",
+      "size": 60,
+      "pill": true
+     },
+     {
+      "text": "believed to be Satoshi's · estimate",
+      "x": 540,
+      "y": 690,
+      "tone": "muted",
+      "size": 26,
+      "pill": true
+     },
+     {
+      "text": "never moved",
+      "x": 540,
+      "y": 1330,
+      "tone": "accent",
+      "size": 52,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       0.9,
+       9.2
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 2,
+      "pos": [
+       -0.3,
+       0.6,
+       8.2
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36,
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "About",
+    "believed",
+    "Satoshi's,",
+    "never"
+   ]
+  },
+  {
+   "anchor": "What if",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "plate": "SATOSHI'S COINS?",
+    "actions": [
+     "key",
+     "turn",
+     "label:0",
+     "move"
+    ],
+    "tags": [
+     {
+      "text": "a thought experiment",
+      "x": 540,
+      "y": 600,
+      "tone": "warm",
+      "size": 50,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.2,
+       0.5,
+       8.6
+      ],
+      "look": [
+       -0.2,
+       -0.45,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.8,
+       0.4,
+       7.8
+      ],
+      "look": [
+       -0.2,
+       -0.45,
+       0
+      ],
+      "fov": 36
+     }
+    ]
+   },
+   "beats": [
+    "What",
+    "moved?",
+    "thought",
+    "experiment."
+   ]
+  },
+  {
+   "anchor": "Satoshi Nakamoto,",
+   "component": "Trader3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "screens": {
+     "build": {
+      "head": "Bitcoin's creator",
+      "big": "SATOSHI",
+      "sub": [
+       "real identity unknown"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "2009 · Bitcoin starts",
+       "posts as \"Satoshi\"",
+       "identity: unknown"
+      ]
+     },
+     "quiet": {
+      "head": "last known message",
+      "big": "April 2011",
+      "sub": [
+       "\"I've moved on to other things.\""
+      ],
+      "tone": "muted",
+      "chart": "flat",
+      "feed": [
+       "23 Apr 2011",
+       "email to developers",
+       "then: silence"
+      ]
+     }
+    },
+    "screen": "build",
+    "lamp": 0.6,
+    "actions": [
+     "card",
+     "screen:quiet"
+    ],
+    "card": {
+     "name": "SATOSHI NAKAMOTO",
+     "role": "Bitcoin's creator · identity unknown",
+     "note": "3D stand-in",
+     "y": 1250
+    },
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.6,
+       2.0,
+       -2.2
+      ],
+      "look": [
+       0,
+       0.9,
+       0.4
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.55,
+       1.42,
+       -0.85
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 31,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "Satoshi",
+    "quiet"
+   ]
+  },
+  {
+   "anchor": "That number",
+   "component": "Trader3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "screens": {
+     "scan": {
+      "head": "Bitcoin's first blocks",
+      "big": "one miner",
+      "sub": [
+       "a repeating pattern"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "block 1 · pattern",
+       "block 2 · pattern",
+       "block 3 · pattern"
+      ]
+     },
+     "est": {
+      "head": "estimate · 2013",
+      "big": "≈1.1M BTC",
+      "sub": [
+       "mined by that one miner"
+      ],
+      "tone": "accent",
+      "chart": "up",
+      "feed": [
+       "pattern found",
+       "coins counted",
+       "believed: Satoshi"
+      ]
+     }
+    },
+    "screen": "scan",
+    "actions": [
+     "card",
+     "screen:est"
+    ],
+    "card": {
+     "name": "SERGIO DEMIAN LERNER",
+     "role": "researcher · the 2013 estimate",
+     "note": "3D stand-in",
+     "y": 1250
+    },
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.2,
+       1.42,
+       1.05
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       2.6,
+       2.0,
+       -2.2
+      ],
+      "look": [
+       0,
+       0.9,
+       0.4
+      ],
+      "fov": 34,
+      "dur": 25
+     }
+    ]
+   },
+   "beats": [
+    "researcher",
+    "Lerner's"
+   ]
+  },
+  {
+   "anchor": "2013",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "src": "ct-head.png",
+    "chrome": "browser",
+    "url": "cointelegraph.com/news/big-questions-does-satoshi-actually-own-1-million-bitcoin",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 40,
+      "y": 216,
+      "w": 780,
+      "h": 40
+     }
+    ],
+    "source": "Cointelegraph · 22 Sep 2026"
+   },
+   "beats": [
+    "2013",
+    "estimate."
+   ]
+  },
+  {
+   "anchor": "If those",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "filled": true,
+    "actions": [
+     "fill",
+     "bots",
+     "scan",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "bots watch old coins",
+      "x": 540,
+      "y": 1330,
+      "tone": "accent",
+      "size": 46,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       6.2,
+       12.0
+      ],
+      "look": [
+       0,
+       2.4,
+       -0.4
+      ],
+      "fov": 40
+     },
+     {
+      "beat": 2,
+      "pos": [
+       1.5,
+       5.0,
+       10.2
+      ],
+      "look": [
+       0,
+       2.2,
+       -0.4
+      ],
+      "fov": 40,
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "If",
+    "bots",
+    "public",
+    "alarms."
+   ]
+  },
+  {
+   "anchor": "In May",
+   "component": "Phone",
+   "theme": "light",
+   "transition": "rise",
+   "props": {
+    "time": "2020",
+    "date": "Wednesday 20 May",
+    "notifs": [
+     {
+      "app": "Alerts",
+      "title": "Old coins just moved",
+      "body": "mined in 2009 · first move since",
+      "icon": "🔔",
+      "iconBg": "#f59e0b"
+     }
+    ]
+   },
+   "beats": [
+    "May"
+   ]
+  },
+  {
+   "anchor": "fifty",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "value": 50,
+    "suffix": " BTC",
+    "chip": "mined Feb 2009 · block 3654",
+    "label": "moved on 20 May 2020",
+    "tone": "accent"
+   },
+   "beats": [
+    "fifty",
+    "coins",
+    "moved."
+   ]
+  },
+  {
+   "anchor": "A bot",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "source": "CoinDesk · 20 May 2020",
+    "text": "a Twitter bot alleged a recent bitcoin transaction came from a wallet possibly belonging to Satoshi Nakamoto",
+    "mark": "Satoshi Nakamoto",
+    "note": "Exact words · coindesk.com"
+   },
+   "beats": [
+    "guessed",
+    "Satoshi's,"
+   ]
+  },
+  {
+   "anchor": "and bitcoin fell",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "cut",
+   "props": {
+    "value": 7,
+    "prefix": "−",
+    "suffix": "%",
+    "chip": "more than · that day",
+    "label": "bitcoin's drop · 20 May 2020 (Bitstamp, via CoinDesk)",
+    "tone": "alert"
+   },
+   "beats": [
+    "and bitcoin",
+    "fell",
+    "day."
+   ]
+  },
+  {
+   "anchor": "a move only",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "plate": "SATOSHI'S COINS?",
+    "opened": false,
+    "actions": [
+     "key",
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "a move proves only this:",
+      "x": 540,
+      "y": 590,
+      "tone": "muted",
+      "size": 38,
+      "pill": true
+     },
+     {
+      "text": "someone has the key",
+      "x": 540,
+      "y": 670,
+      "tone": "warm",
+      "size": 50,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -1.0,
+       0.7,
+       8.4
+      ],
+      "look": [
+       -0.4,
+       -0.45,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.6,
+       0.5,
+       7.4
+      ],
+      "look": [
+       -0.4,
+       -0.45,
+       0
+      ],
+      "fov": 36
+     }
+    ]
+   },
+   "beats": [
+    "move",
+    "someone",
+    "secret"
+   ]
+  },
+  {
+   "anchor": "That code",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "nodes": [
+     {
+      "id": "k",
+      "label": "the key",
+      "sub": "secret code",
+      "icon": "🔑",
+      "x": 200,
+      "y": 330
+     },
+     {
+      "id": "m",
+      "label": "signed message",
+      "sub": "proves control",
+      "icon": "✍️",
+      "x": 780,
+      "y": 330,
+      "tone": "good"
+     },
+     {
+      "id": "c",
+      "label": "the coins",
+      "sub": "don't move",
+      "icon": "🪙",
+      "x": 500,
+      "y": 690
+     }
+    ],
+    "edges": [
+     {
+      "from": "k",
+      "to": "m",
+      "label": "signs"
+     }
+    ],
+    "order": [
+     "k",
+     [
+      "m"
+     ],
+     "c"
+    ]
+   },
+   "beats": [
+    "code",
+    "sign",
+    "without"
+   ]
+  },
+  {
+   "anchor": "Take Craig",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "list",
+     "cl"
+    ],
+    "state": {
+     "links": [
+      "ks"
+     ]
+    },
+    "actions": [
+     "show:craig",
+     "tag:0",
+     "tag:1"
+    ],
+    "labels": [],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -3.0,
+       0.5,
+       2.2
+      ],
+      "zoom": 120
+     }
+    ],
+    "tags": [
+     {
+      "text": "CRAIG WRIGHT",
+      "x": 540,
+      "y": 600,
+      "tone": "accent",
+      "size": 60,
+      "pill": true
+     },
+     {
+      "text": "Australian computer scientist",
+      "x": 540,
+      "y": 680,
+      "tone": "muted",
+      "size": 32,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "Craig",
+    "Australian",
+    "scientist"
+   ]
+  },
+  {
+   "anchor": "who said",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "list",
+     "cl"
+    ],
+    "actions": [
+     "tag:0",
+     "link:cc",
+     "tag:1"
+    ],
+    "labels": [],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -2.6,
+       0.5,
+       2.2
+      ],
+      "zoom": 110
+     },
+     {
+      "beat": 1,
+      "target": [
+       -1.2,
+       0.5,
+       2.2
+      ],
+      "zoom": 100
+     }
+    ],
+    "tags": [
+     {
+      "text": "claimed to be Satoshi",
+      "x": 540,
+      "y": 600,
+      "tone": "warm",
+      "size": 46,
+      "pill": true
+     },
+     {
+      "text": "in court",
+      "x": 540,
+      "y": 1320,
+      "tone": "accent",
+      "size": 44,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "said",
+    "court,",
+    "he"
+   ]
+  },
+  {
+   "anchor": "listed",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "cc"
+     ]
+    },
+    "actions": [
+     "link:cl",
+     "tag:0",
+     "tag:1"
+    ],
+    "labels": [],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0.6,
+       0.5,
+       2.2
+      ],
+      "zoom": 100
+     },
+     {
+      "beat": 1,
+      "target": [
+       2.0,
+       0.5,
+       2.2
+      ],
+      "zoom": 100
+     }
+    ],
+    "tags": [
+     {
+      "text": "listed early addresses",
+      "x": 540,
+      "y": 600,
+      "tone": "warm",
+      "size": 42,
+      "pill": true
+     },
+     {
+      "text": "as his",
+      "x": 540,
+      "y": 670,
+      "tone": "warm",
+      "size": 42,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "listed",
+    "addresses,",
+    "his."
+   ]
+  },
+  {
+   "anchor": "Then someone",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "dc-brief.png",
+    "chrome": "browser",
+    "url": "decrypt.co/30098/craig-wright-fraud-bitcoin-addresses",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.06,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.8,
+      "zoom": 1.05
+     },
+     {
+      "x": 0.5,
+      "y": 0.85,
+      "zoom": 1.05
+     }
+    ],
+    "marks": [
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 70,
+      "y": 1420,
+      "w": 870,
+      "h": 90
+     }
+    ],
+    "source": "Decrypt · 25 May 2020",
+    "maxHeight": 860
+   },
+   "beats": [
+    "someone",
+    "hundred",
+    "forty-five"
+   ]
+  },
+  {
+   "anchor": "signed:",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "cut",
+   "props": {
+    "source": "the signed message, 25 May 2020 · via Decrypt",
+    "text": "Craig Steven Wright is a liar and a fraud. He doesn't have the keys used to sign this message.",
+    "mark": "liar and a fraud",
+    "note": "Exact words · signed with 145 addresses"
+   },
+   "beats": [
+    "signed:",
+    "liar",
+    "fraud."
+   ]
+  },
+  {
+   "anchor": "In 2024,",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "fortune-crop.png",
+    "chrome": "browser",
+    "url": "fortune.com/crypto/2024/03/14/copa-craig-wright-bitcoin-uk-judge-ruling",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.58,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.62,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 20,
+      "y": 470,
+      "w": 900,
+      "h": 60
+     }
+    ],
+    "source": "Fortune · 14 Mar 2024 · UK High Court"
+   },
+   "beats": [
+    "2024,",
+    "UK",
+    "ruled",
+    "isn't"
+   ]
+  },
+  {
+   "anchor": "The 2020",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "title": "May 2020's mistake",
+    "rows": [
+     {
+      "left": "A bot's guess: \"possible Satoshi\"",
+      "badge": "GUESS",
+      "tone": "alert"
+     },
+     {
+      "left": "Sold as if it were proof",
+      "badge": "MISTAKE",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "2020",
+    "sellers",
+    "guess",
+    "proof."
+   ]
+  },
+  {
+   "anchor": "A move doesn't",
+   "component": "Title",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "A move",
+     "doesn't prove who"
+    ],
+    "accent": [
+     "who"
+    ]
+   },
+   "beats": [
+    "move",
+    "prove"
+   ]
+  },
+  {
+   "anchor": "headline",
+   "component": "Checklist",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "title": "\"Satoshi is selling\"?",
+    "rows": [
+     {
+      "left": "Old coins moved",
+      "badge": "NOT PROOF",
+      "tone": "alert"
+     },
+     {
+      "left": "A signed message",
+      "badge": "CHECK THIS",
+      "tone": "good"
+     }
+    ],
+    "note": "a thought experiment · not financial advice"
+   },
+   "beats": [
+    "headline",
+    "Satoshi",
+    "selling,",
+    "signature."
+   ]
+  }
+ ]
+}

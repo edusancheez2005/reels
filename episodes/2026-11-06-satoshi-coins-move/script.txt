@@ -1,0 +1,6 @@
+About one point one million bitcoin, believed to be Satoshi's, have never moved. What if they moved? A thought experiment.
+Satoshi Nakamoto, Bitcoin's unknown creator, went quiet in 2011. That number is researcher Sergio Lerner's 2013 estimate.
+If those coins moved, bots watching Bitcoin's public record would sound alarms. In May 2020, fifty coins from February 2009 moved. A bot guessed they might be Satoshi's, and bitcoin fell over seven percent that day.
+But a move only proves someone has the secret code that spends those coins. That code can also sign a message, without moving anything.
+Take Craig Wright, an Australian computer scientist who said he was Satoshi. In court, he listed early addresses, like account numbers, as his. Then someone with the codes for a hundred and forty-five of those addresses signed: Craig Steven Wright is a liar and a fraud. In 2024, a UK judge ruled he isn't Satoshi.
+The 2020 sellers took a bot's guess as proof. A move doesn't prove who. So if a headline says Satoshi is selling, look for a signature.

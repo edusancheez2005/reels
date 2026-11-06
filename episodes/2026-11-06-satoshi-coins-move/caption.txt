@@ -1,0 +1,8 @@
+About 1.1 million bitcoin, believed to be Satoshi's, have never moved. What would it mean if they did? A thought experiment.
+The 1.1 million is an estimate: in 2013 researcher Sergio Lerner traced one early miner's pattern in Bitcoin's first blocks. In May 2020, 50 coins mined in February 2009 moved, a bot said they might be Satoshi's, and bitcoin fell more than 7% that day. They didn't look like Satoshi's. A move only proves someone has the key. A signed message proves control without moving a coin: someone holding 145 addresses Craig Wright had claimed in court signed "Craig Steven Wright is a liar and a fraud", and in 2024 a UK judge ruled he isn't Satoshi.
+If a headline says Satoshi is selling, look for a signature first.
+Follow for crypto, explained simply.
+Not financial advice.
+#Bitcoin #Crypto #CryptoExplained #CryptoHistory #Sonar
+
+Sources: Cointelegraph, "Big Questions: Does Satoshi actually own 1.1 million Bitcoin?" (22 Sep 2026) - CoinDesk, "50 BTC Just Moved for First Time Since 2009, But It Doesn't Look Like Satoshi" (20 May 2020) - The Block, "Someone just moved a block of bitcoins first mined in February 2009" (20 May 2020) - Decrypt, "Craig Wright labeled "fraud" by Bitcoin addresses he purportedly owns" (25 May 2020) - Fortune, UK judge rules Craig Wright is not Satoshi (14 Mar 2024) - Bitcoin Magazine, "New Research Claims Satoshi Mined Far Fewer Bitcoins Than Previously Thought" (2018) - Trezor, "Sign & Verify messages".
