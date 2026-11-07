@@ -1,0 +1,6 @@
+When QuadrigaCX's CEO died in December 2018, 76,000 customers were owed C$215 million. Everyone blamed a lost password. The offline wallets had been empty since April.
+Gerald Cotten, 30, had sole control of the Canadian exchange. His widow said the coins were offline on his laptop and she didn't know the password. Then Ernst & Young, sent by a court, found all six cold wallets had been empty since April 2018, eight months before he died. Ontario's securities regulator later found he'd opened fake accounts with fake balances, traded them with real customers and paid withdrawals with other customers' deposits. Customers lost at least C$169 million.
+The lesson: one man had sole control and nobody checked him, and customers couldn't see their coins. A balance on an exchange is a promise, not proof. Keep savings in your own wallet and write its backup words on paper.
+Follow for crypto, explained simply.
+Not financial advice.
+#Crypto #CryptoExplained #CryptoForBeginners #CryptoHistory #Sonar
