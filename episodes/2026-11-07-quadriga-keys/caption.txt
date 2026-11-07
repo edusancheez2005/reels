@@ -1,0 +1,8 @@
+When QuadrigaCX's CEO died in December 2018, 76,000 customers were owed C$215 million. Everyone blamed a lost password. The offline wallets had been empty since April.
+Gerald Cotten, 30, had sole control of the Canadian exchange. His widow said the coins were offline on his laptop and she didn't know the password. Then Ernst & Young, sent by a court, found all six cold wallets empty, eight months before he died. Ontario's securities regulator later found he'd opened fake accounts with fake balances, traded them with real customers and paid withdrawals with other customers' deposits. Customers lost at least C$169 million.
+The lesson: one man had sole control and nobody checked him, and customers couldn't see their coins. A balance on an exchange is a promise, not proof. Keep savings in your own wallet and write its backup words on paper.
+Follow for crypto, explained simply.
+Not financial advice.
+#Crypto #CryptoExplained #CryptoForBeginners #CryptoHistory #Sonar
+
+Sources: Ontario Securities Commission, "QuadrigaCX: A Review by Staff of the Ontario Securities Commission" (June 2020), osc.ca/quadrigacxreport - NPR, "Crypto Mystery: Quadriga's Wallets Are Empty, Putting Fate Of $137 Million In Doubt" (6 Mar 2019) - Global News, "QuadrigaCX timeline, and the many questions still to be answered" (20 Jun 2019) - CBC News, "Crypto exchange Quadriga was a fraud and founder was running Ponzi scheme, OSC report finds" (June 2020) - CBC News, "$180M in cryptocurrency still missing as Quadriga's cold wallets come up empty" (March 2019).

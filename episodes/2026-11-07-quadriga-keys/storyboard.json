@@ -1,0 +1,1263 @@
+{
+ "slug": "quadriga-keys",
+ "format": "character",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 1.1,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "two hundred and fifteen million Canadian dollars.",
+  "Gerald Cotten,",
+  "offline",
+  "didn't know the password.",
+  "died with him.",
+  "collapsed.",
+  "Ernst and Young's",
+  "six offline wallets",
+  "empty",
+  "eight months",
+  "fake accounts",
+  "fake balances.",
+  "real customers,",
+  "other customers' deposits.",
+  "nobody checked his books,",
+  "couldn't see their coins.",
+  "promise, not proof.",
+  "backup words on paper,"
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "ex",
+     "kind": "block",
+     "at": [
+      0,
+      -0.6
+     ],
+     "icon": "coin",
+     "tone": "accent",
+     "size": 1.4
+    },
+    {
+     "id": "court",
+     "kind": "block",
+     "at": [
+      -4.3,
+      -1.8
+     ],
+     "icon": "sign",
+     "tone": "muted"
+    },
+    {
+     "id": "ey1",
+     "kind": "pawn",
+     "at": [
+      -3.6,
+      1.6
+     ],
+     "tone": "good"
+    },
+    {
+     "id": "ey2",
+     "kind": "pawn",
+     "at": [
+      -2.8,
+      2.2
+     ],
+     "tone": "good"
+    },
+    {
+     "id": "boss",
+     "kind": "pawn",
+     "at": [
+      0,
+      1.9
+     ],
+     "tone": "alert"
+    },
+    {
+     "id": "wall",
+     "kind": "wall",
+     "at": [
+      2.6,
+      0.4
+     ],
+     "tone": "muted"
+    },
+    {
+     "id": "c1",
+     "kind": "pawn",
+     "at": [
+      4.2,
+      -1.4
+     ],
+     "tone": "muted"
+    },
+    {
+     "id": "c2",
+     "kind": "pawn",
+     "at": [
+      4.8,
+      -0.2
+     ],
+     "tone": "muted"
+    },
+    {
+     "id": "c3",
+     "kind": "pawn",
+     "at": [
+      4.2,
+      1.0
+     ],
+     "tone": "muted"
+    },
+    {
+     "id": "c4",
+     "kind": "pawn",
+     "at": [
+      4.8,
+      2.2
+     ],
+     "tone": "muted"
+    }
+   ],
+   "links": [
+    {
+     "id": "l_court",
+     "from": "court",
+     "to": "ey1",
+     "style": "dashed",
+     "tone": "good"
+    },
+    {
+     "id": "l_ey",
+     "from": "ey2",
+     "to": "ex",
+     "style": "dashed",
+     "tone": "good"
+    },
+    {
+     "id": "l_boss",
+     "from": "boss",
+     "to": "ex",
+     "style": "beam",
+     "tone": "alert"
+    }
+   ],
+   "movers": [
+    {
+     "id": "d1",
+     "kind": "coin",
+     "path": [
+      "c2",
+      "ex"
+     ],
+     "dur": 22
+    },
+    {
+     "id": "d2",
+     "kind": "coin",
+     "path": [
+      "c3",
+      "ex"
+     ],
+     "dur": 22
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "In",
+   "component": "BigNumber",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "value": 215000000,
+    "prefix": "C$",
+    "chip": "QuadrigaCX · Dec 2018",
+    "label": "owed to customers",
+    "tone": "alert",
+    "formed": true
+   },
+   "beats": [
+    "In"
+   ]
+  },
+  {
+   "anchor": "and seventy-six",
+   "component": "CoinSwarm",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "cols": 25,
+    "rows": 30,
+    "tone": "accent",
+    "actions": [
+     "spawn",
+     "count"
+    ],
+    "counter": {
+     "to": 76000,
+     "suffix": " customers"
+    },
+    "title": "1 dot ≈ 100 customers"
+   },
+   "beats": [
+    "seventy-six",
+    "customers"
+   ]
+  },
+  {
+   "anchor": "were owed",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "plate": "QUADRIGACX",
+    "actions": [
+     "build",
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "C$215 MILLION",
+      "x": 540,
+      "y": 580,
+      "tone": "accent",
+      "size": 72,
+      "pill": true
+     },
+     {
+      "text": "owed · cash + crypto",
+      "x": 540,
+      "y": 680,
+      "tone": "muted",
+      "size": 34,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       0.9,
+       9.4
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.2,
+       0.6,
+       8.4
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36,
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "owed",
+    "two",
+    "Canadian"
+   ]
+  },
+  {
+   "anchor": "Gerald",
+   "component": "Trader3D",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "screens": {
+     "ex": {
+      "head": "QuadrigaCX · admin",
+      "big": "customer coins",
+      "sub": [
+       "held by the exchange"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "deposit · BTC",
+       "deposit · CAD",
+       "withdrawal · ETH"
+      ]
+     },
+     "fake": {
+      "head": "account under an alias",
+      "big": "fake balance",
+      "sub": [
+       "traded with real customers"
+      ],
+      "tone": "alert",
+      "chart": "spike",
+      "feed": [
+       "alias · BUY",
+       "alias · SELL",
+       "real customer ⇄ alias"
+      ]
+     },
+     "loss": {
+      "head": "trading losses",
+      "big": "shortfall",
+      "sub": [
+       "real coins gone"
+      ],
+      "tone": "alert",
+      "chart": "down",
+      "feed": [
+       "loss",
+       "loss",
+       "loss"
+      ]
+     },
+     "pay": {
+      "head": "withdrawal requests",
+      "big": "paid by others",
+      "sub": [
+       "other customers' deposits"
+      ],
+      "tone": "warm",
+      "chart": "down",
+      "feed": [
+       "new deposit → paid out",
+       "new deposit → paid out",
+       "new deposit → paid out"
+      ]
+     }
+    },
+    "screen": "ex",
+    "actions": [
+     "card",
+     "type"
+    ],
+    "caption": "3D recreation · details: OSC staff report",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.2,
+       1.42,
+       1.05
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.75,
+       1.36,
+       0.85
+      ],
+      "look": [
+       0,
+       1.12,
+       0.14
+      ],
+      "fov": 30,
+      "dur": 40
+     }
+    ],
+    "card": {
+     "name": "GERALD COTTEN",
+     "role": "CEO, QuadrigaCX · age 30",
+     "note": "3D stand-in",
+     "y": 1250
+    }
+   },
+   "beats": [
+    "Gerald",
+    "thirty,"
+   ]
+  },
+  {
+   "anchor": "ran QuadrigaCX",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "court",
+     "ey1",
+     "ey2",
+     "boss",
+     "wall"
+    ],
+    "actions": [
+     "label:0",
+     "move:d1",
+     "move:d2",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "QuadrigaCX: the exchange",
+      "at": "ex",
+      "side": "up",
+      "dy": -170,
+      "tone": "accent"
+     },
+     {
+      "text": "customers' coins",
+      "at": "c3",
+      "side": "up",
+      "dy": -150,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       2.4,
+       0,
+       0.2
+      ],
+      "zoom": 72
+     },
+     {
+      "beat": 1,
+      "target": [
+       2.0,
+       0,
+       0.2
+      ],
+      "zoom": 78,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "QuadrigaCX,",
+    "exchange",
+    "holding",
+    "coins."
+   ]
+  },
+  {
+   "anchor": "His widow",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "src": "global-laptop.png",
+    "url": "globalnews.ca/news/5411203/quadrigacx-timeline-and-the-many-questions-still-to-be-answered",
+    "source": "Global News · from the widow's affidavit, Jan 2019",
+    "cam": [
+     {
+      "x": 0.4,
+      "y": 0.18,
+      "zoom": 1.7
+     },
+     {
+      "x": 0.66,
+      "y": 0.3,
+      "zoom": 2.2
+     },
+     {
+      "x": 0.6,
+      "y": 0.33,
+      "zoom": 2.1
+     },
+     {
+      "x": 0.5,
+      "y": 0.42,
+      "zoom": 2.2
+     },
+     {
+      "x": 0.48,
+      "y": 0.4,
+      "zoom": 2.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 574,
+      "y": 112,
+      "w": 646,
+      "h": 34
+     },
+     {
+      "beat": 3,
+      "kind": "box",
+      "x": 462,
+      "y": 158,
+      "w": 400,
+      "h": 46
+     }
+    ]
+   },
+   "beats": [
+    "widow",
+    "offline",
+    "laptop,",
+    "didn't",
+    "password."
+   ]
+  },
+  {
+   "anchor": "Everyone thought",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "plate": "QUADRIGACX",
+    "actions": [
+     "lock",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "locked forever?",
+      "x": 540,
+      "y": 600,
+      "tone": "accent",
+      "size": 62,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.2,
+       1.1,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.4,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.6,
+       0.8,
+       7.8
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 36,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "Everyone",
+    "died"
+   ]
+  },
+  {
+   "anchor": "The exchange collapsed",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "boss",
+     "wall",
+     "c1",
+     "c2",
+     "c3",
+     "c4",
+     "ey1",
+     "ey2"
+    ],
+    "actions": [
+     "alert:ex",
+     "label:0",
+     "show:ey1",
+     "show:ey2",
+     "link:l_court",
+     "label:1",
+     "link:l_ey"
+    ],
+    "labels": [
+     {
+      "text": "QuadrigaCX: shut down",
+      "at": "ex",
+      "side": "up",
+      "dy": -170,
+      "tone": "alert"
+     },
+     {
+      "text": "Ernst & Young",
+      "at": "ey2",
+      "side": "up",
+      "dy": -150,
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       0,
+       0
+      ],
+      "zoom": 90
+     },
+     {
+      "beat": 2,
+      "target": [
+       -1.6,
+       0,
+       0.4
+      ],
+      "zoom": 92,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "exchange",
+    "collapsed.",
+    "court",
+    "Ernst",
+    "Young's",
+    "accountants",
+    "find"
+   ]
+  },
+  {
+   "anchor": "But Quadriga's",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "plate": "COLD WALLETS",
+    "opened": true,
+    "coins": 0,
+    "actions": [
+     "label:0",
+     "scan",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "6 offline wallets",
+      "x": 540,
+      "y": 580,
+      "tone": "accent",
+      "size": 56,
+      "pill": true
+     },
+     {
+      "text": "EMPTY",
+      "x": 540,
+      "y": 1320,
+      "tone": "alert",
+      "size": 80,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.8,
+       0.8,
+       9.0
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.3,
+       0.5,
+       7.8
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "six",
+    "wallets",
+    "empty"
+   ]
+  },
+  {
+   "anchor": "since April",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "npr-six.png",
+    "url": "npr.org/2019/03/06/700651500/crypto-mystery-quadrigas-wallets-are-empty-putting-fate-of-137-million-in-doubt",
+    "source": "NPR · 6 Mar 2019",
+    "cam": [
+     {
+      "x": 0.64,
+      "y": 0.48,
+      "zoom": 2.0
+     },
+     {
+      "x": 0.58,
+      "y": 0.64,
+      "zoom": 2.0
+     },
+     {
+      "x": 0.55,
+      "y": 0.6,
+      "zoom": 1.8
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 708,
+      "y": 118,
+      "w": 341,
+      "h": 34
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 506,
+      "y": 162,
+      "w": 590,
+      "h": 46
+     }
+    ]
+   },
+   "beats": [
+    "April,",
+    "eight",
+    "died."
+   ]
+  },
+  {
+   "anchor": "Where did",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "long": true,
+   "props": {
+    "src": "osc-fraud.png",
+    "url": "osc.ca/quadrigacxreport/index.html",
+    "source": "Ontario Securities Commission staff report · June 2020",
+    "cam": [
+     {
+      "x": 0.35,
+      "y": 0.1,
+      "zoom": 1.8
+     },
+     {
+      "x": 0.45,
+      "y": 0.12,
+      "zoom": 2.1
+     },
+     {
+      "x": 0.5,
+      "y": 0.2,
+      "zoom": 2.3
+     },
+     {
+      "x": 0.49,
+      "y": 0.27,
+      "zoom": 2.4
+     },
+     {
+      "x": 0.24,
+      "y": 0.44,
+      "zoom": 2.4
+     }
+    ],
+    "marks": [
+     {
+      "beat": 3,
+      "kind": "underline",
+      "x": 532,
+      "y": 70,
+      "w": 640,
+      "h": 36
+     },
+     {
+      "beat": 4,
+      "kind": "underline",
+      "x": 44,
+      "y": 126,
+      "w": 706,
+      "h": 36
+     }
+    ]
+   },
+   "beats": [
+    "Where",
+    "Ontario's",
+    "found",
+    "fake",
+    "balances."
+   ]
+  },
+  {
+   "anchor": "He traded",
+   "component": "Trader3D",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "screens": {
+     "ex": {
+      "head": "QuadrigaCX · admin",
+      "big": "customer coins",
+      "sub": [
+       "held by the exchange"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "deposit · BTC",
+       "deposit · CAD",
+       "withdrawal · ETH"
+      ]
+     },
+     "fake": {
+      "head": "account under an alias",
+      "big": "fake balance",
+      "sub": [
+       "traded with real customers"
+      ],
+      "tone": "alert",
+      "chart": "spike",
+      "feed": [
+       "alias · BUY",
+       "alias · SELL",
+       "real customer ⇄ alias"
+      ]
+     },
+     "loss": {
+      "head": "trading losses",
+      "big": "shortfall",
+      "sub": [
+       "real coins gone"
+      ],
+      "tone": "alert",
+      "chart": "down",
+      "feed": [
+       "loss",
+       "loss",
+       "loss"
+      ]
+     },
+     "pay": {
+      "head": "withdrawal requests",
+      "big": "paid by others",
+      "sub": [
+       "other customers' deposits"
+      ],
+      "tone": "warm",
+      "chart": "down",
+      "feed": [
+       "new deposit → paid out",
+       "new deposit → paid out",
+       "new deposit → paid out"
+      ]
+     }
+    },
+    "screen": "fake",
+    "actions": [
+     "type",
+     "label:0",
+     "label:1"
+    ],
+    "caption": "3D recreation · details: OSC staff report",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.55,
+       1.42,
+       -0.85
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 31
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.5,
+       1.4,
+       -0.72
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 30,
+      "dur": 36
+     }
+    ],
+    "tags": [
+     {
+      "text": "fake money",
+      "x": 540,
+      "y": 540,
+      "tone": "alert",
+      "size": 56,
+      "pill": true
+     },
+     {
+      "text": "real customers",
+      "x": 540,
+      "y": 620,
+      "tone": "text",
+      "size": 48,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "traded",
+    "fake",
+    "real"
+   ]
+  },
+  {
+   "anchor": "then covered",
+   "component": "Trader3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "screens": {
+     "ex": {
+      "head": "QuadrigaCX · admin",
+      "big": "customer coins",
+      "sub": [
+       "held by the exchange"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "deposit · BTC",
+       "deposit · CAD",
+       "withdrawal · ETH"
+      ]
+     },
+     "fake": {
+      "head": "account under an alias",
+      "big": "fake balance",
+      "sub": [
+       "traded with real customers"
+      ],
+      "tone": "alert",
+      "chart": "spike",
+      "feed": [
+       "alias · BUY",
+       "alias · SELL",
+       "real customer ⇄ alias"
+      ]
+     },
+     "loss": {
+      "head": "trading losses",
+      "big": "shortfall",
+      "sub": [
+       "real coins gone"
+      ],
+      "tone": "alert",
+      "chart": "down",
+      "feed": [
+       "loss",
+       "loss",
+       "loss"
+      ]
+     },
+     "pay": {
+      "head": "withdrawal requests",
+      "big": "paid by others",
+      "sub": [
+       "other customers' deposits"
+      ],
+      "tone": "warm",
+      "chart": "down",
+      "feed": [
+       "new deposit → paid out",
+       "new deposit → paid out",
+       "new deposit → paid out"
+      ]
+     }
+    },
+    "screen": "loss",
+    "actions": [
+     "screen:pay",
+     "label:0",
+     "label:1"
+    ],
+    "caption": "3D recreation · details: OSC staff report",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.6,
+       2.0,
+       -2.2
+      ],
+      "look": [
+       0,
+       0.9,
+       0.4
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.9,
+       1.75,
+       -1.5
+      ],
+      "look": [
+       0,
+       1.0,
+       0.5
+      ],
+      "fov": 32,
+      "dur": 40
+     }
+    ],
+    "tags": [
+     {
+      "text": "paid with",
+      "x": 540,
+      "y": 540,
+      "tone": "warm",
+      "size": 48,
+      "pill": true
+     },
+     {
+      "text": "others' deposits",
+      "x": 540,
+      "y": 615,
+      "tone": "warm",
+      "size": 48,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "covered",
+    "other",
+    "deposits."
+   ]
+  },
+  {
+   "anchor": "Two things",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "court",
+     "ey1",
+     "ey2",
+     "wall"
+    ],
+    "state": {
+     "alert": [
+      "ex"
+     ]
+    },
+    "actions": [
+     "link:l_boss",
+     "label:0",
+     "show:wall",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "nobody checked him",
+      "at": "boss",
+      "side": "up",
+      "dy": -150,
+      "tone": "alert"
+     },
+     {
+      "text": "customers can't see",
+      "at": "c3",
+      "side": "up",
+      "dy": -170,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.0,
+       0,
+       1.0
+      ],
+      "zoom": 80
+     },
+     {
+      "beat": 2,
+      "target": [
+       2.2,
+       0,
+       0.4
+      ],
+      "zoom": 80,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "Two",
+    "nobody",
+    "customers",
+    "see"
+   ]
+  },
+  {
+   "anchor": "A balance",
+   "component": "Title",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "A balance",
+     "is a promise,",
+     "not proof."
+    ],
+    "accent": [
+     "proof."
+    ]
+   },
+   "beats": [
+    "balance",
+    "promise,",
+    "proof."
+   ]
+  },
+  {
+   "anchor": "Keep savings",
+   "component": "Seed3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "actions": [
+     "device",
+     "card",
+     "write",
+     "cam",
+     "label:0"
+    ],
+    "title": "Backup words",
+    "tags": [
+     {
+      "text": "only you can move them",
+      "x": 540,
+      "y": 560,
+      "tone": "good",
+      "size": 44,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.1,
+       9.4,
+       8.4
+      ],
+      "look": [
+       0.1,
+       0,
+       0.3
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 3,
+      "pos": [
+       0.4,
+       9.0,
+       8.2
+      ],
+      "look": [
+       0.4,
+       0,
+       0.3
+      ],
+      "fov": 37,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "savings",
+    "wallet,",
+    "write",
+    "paper,",
+    "only"
+   ]
+  }
+ ]
+}

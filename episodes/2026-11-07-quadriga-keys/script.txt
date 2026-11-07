@@ -1,0 +1,10 @@
+In December 2018, a crypto boss died, and seventy-six thousand customers were owed two hundred and fifteen million Canadian dollars.
+Gerald Cotten, thirty, ran QuadrigaCX, an exchange holding people's coins.
+His widow said the coins were offline on his laptop, and she didn't know the password.
+Everyone thought the money died with him.
+The exchange collapsed. A court sent Ernst and Young's accountants to find the coins.
+But Quadriga's six offline wallets had been empty since April, eight months before he died.
+Where did the money go? Ontario's regulator found he'd made fake accounts with fake balances.
+He traded that fake money with real customers, then covered his losses with other customers' deposits.
+Two things let him do it: nobody checked his books, and customers couldn't see their coins.
+A balance on an exchange is a promise, not proof. Keep savings in your own wallet, and write its backup words on paper, so only you can move your coins.
