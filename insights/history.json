@@ -1,19 +1,49 @@
 {
  "followers": {
   "2026-10-28": 2526,
-  "2026-11-01": 2502
+  "2026-11-01": 2502,
+  "2026-11-08": 2458
  },
  "media": {
+  "17890761291686409": {
+   "latest": {
+    "media_comments_count": 1,
+    "media_like_count": 31,
+    "media_reach": 1673,
+    "media_reel_avg_watch_time": 26668,
+    "media_reel_skip_rate": 0.262,
+    "media_saved": 3,
+    "media_shares": 1,
+    "media_views": 2110
+   },
+   "media_caption": "Google says a big enough quantum computer could crack a Bitcoin key in minutes. Glassnode counts 6 million bitcoin exposed.\nThat machine doesn't exist yet: Google's paper says under 500,000 qubits, while its Willow chip has 105. Nobody knows when one will be built. It could only attack coins whose lock, the public key, is visible: Bitcoin's earliest coins, some newer address types, addresses reused after spending, or any coin while its spend waits to confirm. Glassnode counts 6.04M BTC like that, about 30% of all bitcoin. A draft upgrade, BIP-360, would keep locks covered; CoinShares says only about 10,200 BTC face real risk.\nWhat you can do today: don't reuse an address. Let your wallet give you a fresh one each time, so your lock stays covered. (That covers the usual address types; Taproot addresses, starting bc1p, show the lock anyway, which is what BIP-360 would fix.)\nFollow for crypto, explained simply.\nNot financial advice.\n#Bitcoin #Crypto #CryptoExplained #QuantumComputing #Sonar",
+   "media_id": "17890761291686409",
+   "media_permalink": "https://www.instagram.com/reel/DfQUrfzjd0J/",
+   "media_type": "REELS",
+   "snapshots": {
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 31,
+     "media_reach": 1673,
+     "media_reel_avg_watch_time": 26668,
+     "media_reel_skip_rate": 0.262,
+     "media_saved": 3,
+     "media_shares": 1,
+     "media_views": 2110
+    }
+   },
+   "timestamp": "2026-11-02T21:57:18+0000"
+  },
   "17894976327434919": {
    "latest": {
     "media_comments_count": 1,
     "media_like_count": 3,
-    "media_reach": 124,
-    "media_reel_avg_watch_time": 8230,
-    "media_reel_skip_rate": 0.611,
+    "media_reach": 125,
+    "media_reel_avg_watch_time": 8192,
+    "media_reel_skip_rate": 0.606,
     "media_saved": 0,
     "media_shares": 0,
-    "media_views": 151
+    "media_views": 152
    },
    "media_caption": "There's a plastic wall inside your phone thinner than most human hairs. If it fails, your phone can catch fire. \ud83d\udd25\n\nIt keeps your battery's two sides apart, so electrons have to take the long way round, through your phone. Pierce it, and they take the shortcut. That's what happened inside some Galaxy Note 7 batteries in 2016.\n\nFollow @sonartracker.io for one \"how does that work?\" every week.\n\n#howitworks #explained #didyouknow #science #batteries #tech",
    "media_id": "17894976327434919",
@@ -39,20 +69,59 @@
      "media_saved": 0,
      "media_shares": 0,
      "media_views": 151
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 3,
+     "media_reach": 125,
+     "media_reel_avg_watch_time": 8192,
+     "media_reel_skip_rate": 0.606,
+     "media_saved": 0,
+     "media_shares": 0,
+     "media_views": 152
     }
    },
    "timestamp": "2026-10-26T14:22:49+0000"
+  },
+  "17898634698412221": {
+   "latest": {
+    "media_comments_count": 1,
+    "media_like_count": 21,
+    "media_reach": 1168,
+    "media_reel_avg_watch_time": 20095,
+    "media_reel_skip_rate": 0.371,
+    "media_saved": 8,
+    "media_shares": 6,
+    "media_views": 1520
+   },
+   "media_caption": "In August 2021, an anonymous hacker stole $610 million from Poly Network. Thirteen days later, the last coins were back.\nPoly Network is a bridge that moves coins between blockchains, and a few computers called keepers approve every move. Any outside message could replace those keepers, so the hacker swapped in their own key and took coins on Ethereum, Binance's chain and Polygon. Every move was public: Tether froze about $33 million, SlowMist said it had found the hacker's email, and the hacker wrote on-chain \"I am not very interested in money.\" Poly nicknamed them \"Mr. White Hat\" and offered a $500,000 reward.\nThe fix: only the current keepers should be able to change the keepers, because whoever picks them controls every coin.\nFollow for crypto, explained simply.\nNot financial advice.\n#DeFi #Crypto #CryptoExplained #CryptoHistory #Sonar",
+   "media_id": "17898634698412221",
+   "media_permalink": "https://www.instagram.com/reel/DfWPQsVlWSK/",
+   "media_type": "REELS",
+   "snapshots": {
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 21,
+     "media_reach": 1168,
+     "media_reel_avg_watch_time": 20095,
+     "media_reel_skip_rate": 0.371,
+     "media_saved": 8,
+     "media_shares": 6,
+     "media_views": 1520
+    }
+   },
+   "timestamp": "2026-11-05T05:05:20+0000"
   },
   "17912018868558941": {
    "latest": {
     "media_comments_count": 1,
     "media_like_count": 21,
-    "media_reach": 1026,
-    "media_reel_avg_watch_time": 13147,
-    "media_reel_skip_rate": 0.472,
+    "media_reach": 1036,
+    "media_reel_avg_watch_time": 13081,
+    "media_reel_skip_rate": 0.473,
     "media_saved": 4,
     "media_shares": 1,
-    "media_views": 1207
+    "media_views": 1215
    },
    "media_caption": "In 11 days, one hacking group hit 200+ organisations in 14 countries, and AI did most of the work.\nSecurity firm CrowdStrike says a China-linked group it calls Vapor Panda ran a team of AI agents, mostly on the Chinese model DeepSeek. One human gave the orders; the agents tried several ways in at once and switched when one failed. Targets included foreign ministries, defence and chip firms, and phone networks, with confirmed break-ins at nine. The eye-opener is speed: a human runs maybe 40 commands an hour, these agents could top 1,500. A year ago, the first known AI-run spy campaign hit about 30 targets. Now it's 200+. The boring basics still matter most: updates and two-step logins.\nFollow for tech and crypto, explained simply.\n#AI #CyberSecurity #Hacking #TechNews #Sonar",
    "media_id": "17912018868558941",
@@ -68,20 +137,59 @@
      "media_saved": 4,
      "media_shares": 1,
      "media_views": 1207
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 21,
+     "media_reach": 1036,
+     "media_reel_avg_watch_time": 13081,
+     "media_reel_skip_rate": 0.473,
+     "media_saved": 4,
+     "media_shares": 1,
+     "media_views": 1215
     }
    },
    "timestamp": "2026-10-30T23:43:10+0000"
   },
+  "17912827479482830": {
+   "latest": {
+    "media_comments_count": 1,
+    "media_like_count": 11,
+    "media_reach": 1199,
+    "media_reel_avg_watch_time": 22268,
+    "media_reel_skip_rate": 0.269,
+    "media_saved": 2,
+    "media_shares": 0,
+    "media_views": 1564
+   },
+   "media_caption": "If Bitcoin were the only money, the world would share one network handling about 7 payments a second.\nVisa can handle 65,000. A thought experiment, not a prediction. We follow Maya through one day: her coffee payment waits in a queue (the average fee hit $128 on 20 April 2024), no bank can cancel a payment, bitcoin's price fell 64% in 2022, and a lost recovery phrase can't be reset. Supporters point to the fixed supply, and Lightning makes small payments near-instant.\nTwo of her problems are real today: payments are final, so double-check before you send, and keep two offline copies of your recovery phrase.\nFollow for crypto, explained simply.\nNot financial advice.\n#Bitcoin #Crypto #CryptoExplained #CryptoForBeginners #Sonar",
+   "media_id": "17912827479482830",
+   "media_permalink": "https://www.instagram.com/reel/DfOveLiCd9a/",
+   "media_type": "REELS",
+   "snapshots": {
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 11,
+     "media_reach": 1199,
+     "media_reel_avg_watch_time": 22268,
+     "media_reel_skip_rate": 0.269,
+     "media_saved": 2,
+     "media_shares": 0,
+     "media_views": 1564
+    }
+   },
+   "timestamp": "2026-11-02T07:13:02+0000"
+  },
   "17917758003458531": {
    "latest": {
     "media_comments_count": 1,
-    "media_like_count": 2,
-    "media_reach": 122,
-    "media_reel_avg_watch_time": 17376,
-    "media_reel_skip_rate": 0.476,
+    "media_like_count": 3,
+    "media_reach": 126,
+    "media_reel_avg_watch_time": 16906,
+    "media_reel_skip_rate": 0.484,
     "media_saved": 1,
     "media_shares": 0,
-    "media_views": 184
+    "media_views": 188
    },
    "media_caption": "A Bitcoin wallet that's held its coins since 2020 just moved $377M \u2014 for a 60-cent fee. \ud83d\udc0b\n4,582 BTC split into five new addresses on 12 Oct. 13 days later, not one coin has moved.\nComment \"WHALE\" and Orca will DM you the breakdown.\nNot financial advice.\n#Bitcoin #CryptoNews #WhaleAlert #OnChain #SmartMoney #Sonar",
    "media_id": "17917758003458531",
@@ -107,6 +215,16 @@
      "media_saved": 1,
      "media_shares": 0,
      "media_views": 184
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 3,
+     "media_reach": 126,
+     "media_reel_avg_watch_time": 16906,
+     "media_reel_skip_rate": 0.484,
+     "media_saved": 1,
+     "media_shares": 0,
+     "media_views": 188
     }
    },
    "timestamp": "2026-10-25T16:30:05+0000"
@@ -115,12 +233,12 @@
    "latest": {
     "media_comments_count": 0,
     "media_like_count": 4,
-    "media_reach": 126,
-    "media_reel_avg_watch_time": 15151,
-    "media_reel_skip_rate": 0.523,
+    "media_reach": 128,
+    "media_reel_avg_watch_time": 15342,
+    "media_reel_skip_rate": 0.515,
     "media_saved": 0,
     "media_shares": 0,
-    "media_views": 172
+    "media_views": 174
    },
    "media_caption": "Whale awakens",
    "media_id": "17967013989207430",
@@ -146,20 +264,59 @@
      "media_saved": 0,
      "media_shares": 0,
      "media_views": 172
+    },
+    "2026-11-08": {
+     "media_comments_count": 0,
+     "media_like_count": 4,
+     "media_reach": 128,
+     "media_reel_avg_watch_time": 15342,
+     "media_reel_skip_rate": 0.515,
+     "media_saved": 0,
+     "media_shares": 0,
+     "media_views": 174
     }
    },
    "timestamp": "2026-10-25T14:41:48+0000"
   },
+  "17994074397063240": {
+   "latest": {
+    "media_comments_count": 2,
+    "media_like_count": 11,
+    "media_reach": 156,
+    "media_reel_avg_watch_time": 19806,
+    "media_reel_skip_rate": 0.366,
+    "media_saved": 1,
+    "media_shares": 0,
+    "media_views": 209
+   },
+   "media_caption": "One trader turned about $1.09 million into $109 million by buying the TRUMP meme coin in its first second of trading.\nThe coin's pool sat on Solana's public blockchain 17 hours before the launch. Sniper bots watch for new pools and buy the instant trading opens: Bubblemaps says this trader paid an $84,000 fee to go first, and tracker Lookonchain says he got 5.97 million coins (about $0.18 each) and later cashed out. Bubblemaps can't prove who he is, and the trader it points to denies any inside tip.\nAbout 764,000 wallets lost money on the coin, per Chainalysis. If a post is how you hear about a new coin, you're not early: you're who the snipers sell to.\nComment \"WHALE\" and Orca will DM you the breakdown.\nNot financial advice.\n#Memecoins #CryptoNews #WhaleAlert #OnChain #Sonar",
+   "media_id": "17994074397063240",
+   "media_permalink": "https://www.instagram.com/reel/DfPxA4CjZ6Z/",
+   "media_type": "REELS",
+   "snapshots": {
+    "2026-11-08": {
+     "media_comments_count": 2,
+     "media_like_count": 11,
+     "media_reach": 156,
+     "media_reel_avg_watch_time": 19806,
+     "media_reel_skip_rate": 0.366,
+     "media_saved": 1,
+     "media_shares": 0,
+     "media_views": 209
+    }
+   },
+   "timestamp": "2026-11-02T16:45:54+0000"
+  },
   "18014218853760481": {
    "latest": {
     "media_comments_count": 1,
-    "media_like_count": 30,
-    "media_reach": 1166,
-    "media_reel_avg_watch_time": 23049,
-    "media_reel_skip_rate": 0.269,
-    "media_saved": 1,
+    "media_like_count": 31,
+    "media_reach": 1168,
+    "media_reel_avg_watch_time": 22954,
+    "media_reel_skip_rate": 0.272,
+    "media_saved": 2,
     "media_shares": 0,
-    "media_views": 1591
+    "media_views": 1596
    },
    "media_caption": "In 2013, James Howells binned a hard drive with the key to 8,000 bitcoin (his figure). Today: over $600 million.\nHe mined them on a laptop in 2009, kept the drive in a drawer, then threw out the wrong one. His backups didn't have the key. The council refused him a dig, and a judge threw out his \u00a3495M claim.\nTwo lessons: back up your recovery words in two places, and label any drive that holds a key.\nFollow for crypto, explained simply.\nNot financial advice.\n#Bitcoin #Crypto #CryptoExplained #CryptoForBeginners #CryptoSecurity",
    "media_id": "18014218853760481",
@@ -175,6 +332,16 @@
      "media_saved": 1,
      "media_shares": 0,
      "media_views": 1591
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 31,
+     "media_reach": 1168,
+     "media_reel_avg_watch_time": 22954,
+     "media_reel_skip_rate": 0.272,
+     "media_saved": 2,
+     "media_shares": 0,
+     "media_views": 1596
     }
    },
    "timestamp": "2026-10-29T15:19:41+0000"
@@ -182,13 +349,13 @@
   "18102122606533473": {
    "latest": {
     "media_comments_count": 1,
-    "media_like_count": 24,
-    "media_reach": 1321,
-    "media_reel_avg_watch_time": 26327,
-    "media_reel_skip_rate": 0.406,
-    "media_saved": 3,
+    "media_like_count": 27,
+    "media_reach": 1522,
+    "media_reel_avg_watch_time": 27303,
+    "media_reel_skip_rate": 0.387,
+    "media_saved": 4,
     "media_shares": 1,
-    "media_views": 1856
+    "media_views": 2159
    },
    "media_caption": "In August 2010, one bitcoin payment created 184 billion bitcoin out of nothing. Only 21 million should ever exist.\nEarly developer Jeff Garzik spotted block 74,638 paying two wallets 92 billion BTC each and posted \"Strange block\". The code added the two amounts without checking their size, so the total rolled over like a mileage counter and looked tiny. That night Satoshi Nakamoto posted a fix; by morning the fixed chain had taken over and the coins were gone.\nThe 21 million limit holds because every computer running Bitcoin checks the same code. Wrong code, wrong limit.\nFollow for crypto, explained simply.\nNot financial advice.\n#Bitcoin #Crypto #CryptoExplained #CryptoHistory #Sonar",
    "media_id": "18102122606533473",
@@ -204,6 +371,16 @@
      "media_saved": 3,
      "media_shares": 1,
      "media_views": 1856
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 27,
+     "media_reach": 1522,
+     "media_reel_avg_watch_time": 27303,
+     "media_reel_skip_rate": 0.387,
+     "media_saved": 4,
+     "media_shares": 1,
+     "media_views": 2159
     }
    },
    "timestamp": "2026-11-01T07:20:29+0000"
@@ -212,12 +389,12 @@
    "latest": {
     "media_comments_count": 2,
     "media_like_count": 18,
-    "media_reach": 1270,
-    "media_reel_avg_watch_time": 15003,
-    "media_reel_skip_rate": 0.328,
+    "media_reach": 1272,
+    "media_reel_avg_watch_time": 14982,
+    "media_reel_skip_rate": 0.329,
     "media_saved": 1,
     "media_shares": 0,
-    "media_views": 1798
+    "media_views": 1800
    },
    "media_caption": "In 2013, a man in Wales threw away a hard drive with the key to 8,000 bitcoin (his figure). Today: over $600 million.\nThe coins sit on a public record, but only the key moves them. A UK court ruled the drive became the council's property once it was dumped.\nWrite down your recovery words: they're the spare copy of your key.\nFollow for crypto, explained simply.\nNot financial advice.\n#Bitcoin #Crypto #CryptoExplained #CryptoForBeginners #Sonar",
    "media_id": "18106503704004135",
@@ -233,6 +410,16 @@
      "media_saved": 1,
      "media_shares": 0,
      "media_views": 1798
+    },
+    "2026-11-08": {
+     "media_comments_count": 2,
+     "media_like_count": 18,
+     "media_reach": 1272,
+     "media_reel_avg_watch_time": 14982,
+     "media_reel_skip_rate": 0.329,
+     "media_saved": 1,
+     "media_shares": 0,
+     "media_views": 1800
     }
    },
    "timestamp": "2026-10-29T07:35:10+0000"
@@ -241,12 +428,12 @@
    "latest": {
     "media_comments_count": 1,
     "media_like_count": 28,
-    "media_reach": 1408,
-    "media_reel_avg_watch_time": 24703,
-    "media_reel_skip_rate": 0.342,
+    "media_reach": 1412,
+    "media_reel_avg_watch_time": 24653,
+    "media_reel_skip_rate": 0.343,
     "media_saved": 3,
     "media_shares": 0,
-    "media_views": 1749
+    "media_views": 1754
    },
    "media_caption": "About 3.7 million bitcoin are probably lost forever: nearly 1 in 5 that exist, around $300B today (Chainalysis estimate).\nBitcoin has no password reset. Lose the private key and the coins sit on the public record where nobody can move them. Even the first 50 BTC ever created can't be spent.\nFollow @sonartracker.io for crypto, explained simply.\nNot financial advice.\n#Bitcoin #Crypto #CryptoExplained #Blockchain #CryptoForBeginners #CryptoSecurity #Sonar",
    "media_id": "18108719084260524",
@@ -272,20 +459,59 @@
      "media_saved": 3,
      "media_shares": 0,
      "media_views": 1749
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 28,
+     "media_reach": 1412,
+     "media_reel_avg_watch_time": 24653,
+     "media_reel_skip_rate": 0.343,
+     "media_saved": 3,
+     "media_shares": 0,
+     "media_views": 1754
     }
    },
    "timestamp": "2026-10-28T11:24:12+0000"
+  },
+  "18113584460235627": {
+   "latest": {
+    "media_comments_count": 1,
+    "media_like_count": 2,
+    "media_reach": 128,
+    "media_reel_avg_watch_time": 5259,
+    "media_reel_skip_rate": 0.772,
+    "media_saved": 0,
+    "media_shares": 0,
+    "media_views": 145
+   },
+   "media_caption": "Ether jumped nearly 6% on Wednesday. Hours earlier, it fell as the Democrats won the US Congress.\nWhy did crypto drop first, then bounce?\n\nThe crypto industry spent $55M+ against one Ohio Senate candidate, and he won anyway. Analysts say the result was largely priced in, and stocks and gold rose too. One headline is rarely the whole reason.\n\nFollow for crypto, explained simply.\nNot financial advice.\n\n#Ethereum #Crypto #CryptoExplained #CryptoForBeginners #CryptoNews",
+   "media_id": "18113584460235627",
+   "media_permalink": "https://www.instagram.com/reel/DfVghEcj647/",
+   "media_type": "REELS",
+   "snapshots": {
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 2,
+     "media_reach": 128,
+     "media_reel_avg_watch_time": 5259,
+     "media_reel_skip_rate": 0.772,
+     "media_saved": 0,
+     "media_shares": 0,
+     "media_views": 145
+    }
+   },
+   "timestamp": "2026-11-04T22:16:57+0000"
   },
   "18115378001162157": {
    "latest": {
     "media_comments_count": 1,
     "media_like_count": 57,
-    "media_reach": 1295,
-    "media_reel_avg_watch_time": 22825,
+    "media_reach": 1299,
+    "media_reel_avg_watch_time": 22777,
     "media_reel_skip_rate": 0.302,
     "media_saved": 3,
     "media_shares": 0,
-    "media_views": 1697
+    "media_views": 1700
    },
    "media_caption": "In 2013, James Howells threw away a hard drive with the only key to 8,000 bitcoin (his figure). Today: about $600 million.\nHe found two drives in a drawer and binned the wrong one. The council refused to dig, he sued, and in 2025 a judge ruled that anything dumped at the landfill belongs to the council.\nHis two mistakes: one copy of the key, and keeping that drive next to a blank one. Keep your wallet's recovery words in two safe places, and label the device that holds your key.\nFollow for crypto, explained simply.\nNot financial advice.\n#Bitcoin #Crypto #CryptoExplained #CryptoForBeginners #Sonar",
    "media_id": "18115378001162157",
@@ -301,6 +527,16 @@
      "media_saved": 3,
      "media_shares": 0,
      "media_views": 1697
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 57,
+     "media_reach": 1299,
+     "media_reel_avg_watch_time": 22777,
+     "media_reel_skip_rate": 0.302,
+     "media_saved": 3,
+     "media_shares": 0,
+     "media_views": 1700
     }
    },
    "timestamp": "2026-10-29T17:15:02+0000"
@@ -308,13 +544,13 @@
   "18115961810010088": {
    "latest": {
     "media_comments_count": 1,
-    "media_like_count": 28,
-    "media_reach": 1410,
-    "media_reel_avg_watch_time": 19436,
-    "media_reel_skip_rate": 0.381,
+    "media_like_count": 30,
+    "media_reach": 1425,
+    "media_reel_avg_watch_time": 19385,
+    "media_reel_skip_rate": 0.383,
     "media_saved": 2,
-    "media_shares": 0,
-    "media_views": 1813
+    "media_shares": 2,
+    "media_views": 1833
    },
    "media_caption": "Your crypto wallet doesn't hold any crypto. It holds 12 or 24 recovery words, and whoever sees them can take everything.\nIn April 2025, scammers mailed letters posing as Ledger: a QR code and a threat to enter your recovery words or lose access. In February 2026, Trezor owners got one with a deadline.\nThe trick needs two mistakes: trusting a deadline, and typing your words into a website. There's no undo. Enter them only on your own wallet. Ledger and Trezor never ask.\nFollow for crypto, explained simply.\nNot financial advice.\n#Bitcoin #Crypto #CryptoExplained #CryptoForBeginners #Sonar",
    "media_id": "18115961810010088",
@@ -330,20 +566,117 @@
      "media_saved": 2,
      "media_shares": 0,
      "media_views": 1813
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 30,
+     "media_reach": 1425,
+     "media_reel_avg_watch_time": 19385,
+     "media_reel_skip_rate": 0.383,
+     "media_saved": 2,
+     "media_shares": 2,
+     "media_views": 1833
     }
    },
    "timestamp": "2026-10-30T07:27:40+0000"
   },
+  "18115982336589414": {
+   "latest": {
+    "media_comments_count": 1,
+    "media_like_count": 31,
+    "media_reach": 2088,
+    "media_reel_avg_watch_time": 40266,
+    "media_reel_skip_rate": 0.271,
+    "media_saved": 2,
+    "media_shares": 0,
+    "media_views": 2872
+   },
+   "media_caption": "About 1.1 million bitcoin, believed to be Satoshi's, have never moved. What would it mean if they did? A thought experiment.\nThe 1.1 million is an estimate: in 2013 researcher Sergio Lerner traced one early miner's pattern in Bitcoin's first blocks. In May 2020, 50 coins mined in February 2009 moved, a bot said they might be Satoshi's, and bitcoin fell more than 7% that day. They didn't look like Satoshi's. A move only proves someone has the key. A signed message proves control without moving a coin: someone holding 145 addresses Craig Wright had claimed in court signed \"Craig Steven Wright is a liar and a fraud\", and in 2024 a UK judge ruled he isn't Satoshi.\nIf a headline says Satoshi is selling, look for a signature first.\nFollow for crypto, explained simply.\nNot financial advice.\n#Bitcoin #Crypto #CryptoExplained #CryptoHistory #Sonar",
+   "media_id": "18115982336589414",
+   "media_permalink": "https://www.instagram.com/reel/DfYyv9wiVDt/",
+   "media_type": "REELS",
+   "snapshots": {
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 31,
+     "media_reach": 2088,
+     "media_reel_avg_watch_time": 40266,
+     "media_reel_skip_rate": 0.271,
+     "media_saved": 2,
+     "media_shares": 0,
+     "media_views": 2872
+    }
+   },
+   "timestamp": "2026-11-06T04:53:57+0000"
+  },
+  "18117781898589820": {
+   "latest": {
+    "media_comments_count": 1,
+    "media_like_count": 22,
+    "media_reach": 1180,
+    "media_reel_avg_watch_time": 21824,
+    "media_reel_skip_rate": 0.401,
+    "media_saved": 1,
+    "media_shares": 0,
+    "media_views": 1588
+   },
+   "media_caption": "When QuadrigaCX's CEO died in December 2018, 76,000 customers were owed C$215 million. Everyone blamed a lost password. The offline wallets had been empty since April.\nGerald Cotten, 30, had sole control of the Canadian exchange. His widow said the coins were offline on his laptop and she didn't know the password. Then Ernst & Young, sent by a court, found all six cold wallets had been empty since April 2018, eight months before he died. Ontario's securities regulator later found he'd opened fake accounts with fake balances, traded them with real customers and paid withdrawals with other customers' deposits. Customers lost at least C$169 million.\nThe lesson: one man had sole control and nobody checked him, and customers couldn't see their coins. A balance on an exchange is a promise, not proof. Keep savings in your own wallet and write its backup words on paper.\nFollow for crypto, explained simply.\nNot financial advice.\n#Crypto #CryptoExplained #CryptoForBeginners #CryptoHistory #Sonar",
+   "media_id": "18117781898589820",
+   "media_permalink": "https://www.instagram.com/reel/DfbXIiwArdp/",
+   "media_type": "REELS",
+   "snapshots": {
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 22,
+     "media_reach": 1180,
+     "media_reel_avg_watch_time": 21824,
+     "media_reel_skip_rate": 0.401,
+     "media_saved": 1,
+     "media_shares": 0,
+     "media_views": 1588
+    }
+   },
+   "timestamp": "2026-11-07T04:50:20+0000"
+  },
+  "18135501428506025": {
+   "latest": {
+    "media_comments_count": 1,
+    "media_like_count": 8,
+    "media_reach": 377,
+    "media_reel_avg_watch_time": 14129,
+    "media_reel_skip_rate": 0.526,
+    "media_saved": 2,
+    "media_shares": 1,
+    "media_views": 473
+   },
+   "media_caption": "CZ posted his dog's name in Feb 2025. A day later a meme coin named Broccoli was worth $140M.\nWithin hours dozens of copies appeared on Four.meme; on the biggest, 11 wallets made over $1M. Today it's more than 90% below its peak. On Pump.fun, 7M+ coins launched and only about 1 in 70 kept even $1,000 of trading money.\nA meme coin has nothing behind it, so the price holds only while new buyers keep coming. Before you buy one, ask who buys it from you.\nFollow for crypto, explained simply.\nNot financial advice.\n#MemeCoin #Crypto #CryptoExplained #CryptoForBeginners #Sonar",
+   "media_id": "18135501428506025",
+   "media_permalink": "https://www.instagram.com/reel/DfT5e_OFUVB/",
+   "media_type": "REELS",
+   "snapshots": {
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 8,
+     "media_reach": 377,
+     "media_reel_avg_watch_time": 14129,
+     "media_reel_skip_rate": 0.526,
+     "media_saved": 2,
+     "media_shares": 1,
+     "media_views": 473
+    }
+   },
+   "timestamp": "2026-11-04T07:16:22+0000"
+  },
   "18137700850726987": {
    "latest": {
-    "media_comments_count": 2,
+    "media_comments_count": 1,
     "media_like_count": 25,
-    "media_reach": 1351,
-    "media_reel_avg_watch_time": 18021,
-    "media_reel_skip_rate": 0.324,
+    "media_reach": 1360,
+    "media_reel_avg_watch_time": 17967,
+    "media_reel_skip_rate": 0.326,
     "media_saved": 5,
     "media_shares": 4,
-    "media_views": 1775
+    "media_views": 1780
    },
    "media_caption": "Every bitcoin payment waits in a public waiting room called the mempool before it's confirmed, and bots can read it. \ud83d\udc40\n\nThis morning (27 Oct, 06:55 UTC) mempool.space showed 46,656 unconfirmed transactions. Miners take the highest fee rates first; on Ethereum, bots watch the mempool for big trades and sandwich them.\n\nComment \"WHALE\" and Orca will DM you the breakdown.\nNot financial advice.\n\n#Bitcoin #Mempool #CryptoNews #OnChain #MEV #Ethereum #Sonar",
    "media_id": "18137700850726987",
@@ -369,6 +702,16 @@
      "media_saved": 5,
      "media_shares": 4,
      "media_views": 1775
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 25,
+     "media_reach": 1360,
+     "media_reel_avg_watch_time": 17967,
+     "media_reel_skip_rate": 0.326,
+     "media_saved": 5,
+     "media_shares": 4,
+     "media_views": 1780
     }
    },
    "timestamp": "2026-10-27T12:53:27+0000"
@@ -376,13 +719,13 @@
   "18141991825714771": {
    "latest": {
     "media_comments_count": 1,
-    "media_like_count": 19,
-    "media_reach": 1063,
-    "media_reel_avg_watch_time": 22205,
+    "media_like_count": 21,
+    "media_reach": 1069,
+    "media_reel_avg_watch_time": 22295,
     "media_reel_skip_rate": 0.34,
     "media_saved": 2,
     "media_shares": 1,
-    "media_views": 1348
+    "media_views": 1364
    },
    "media_caption": "If Bitcoin fell to $1, the miners keeping it running would earn about $3 a block. A thought experiment, not a prediction.\nToday each block pays about 3.13 bitcoin, roughly $240,000. At $1 that's $3, far below the power bill (mining uses about 0.5% of the world's electricity), so most machines would switch off. Fewer machines means slower blocks: when China banned mining in 2021, a third of mining power went dark and one block took 129 minutes. Then Bitcoin's built-in reset made the puzzle 28% easier, the biggest cut ever. The network survives. Holders don't: Strategy paid about $64 billion for 848,517 bitcoin that would be worth under $1 million. The rules protect the network, not the price. Critics say that's the risk.\nFollow for crypto, explained simply.\nNot financial advice.\n#Bitcoin #Crypto #CryptoExplained #BitcoinMining #Sonar",
    "media_id": "18141991825714771",
@@ -398,20 +741,59 @@
      "media_saved": 2,
      "media_shares": 1,
      "media_views": 1348
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 21,
+     "media_reach": 1069,
+     "media_reel_avg_watch_time": 22295,
+     "media_reel_skip_rate": 0.34,
+     "media_saved": 2,
+     "media_shares": 1,
+     "media_views": 1364
     }
    },
    "timestamp": "2026-10-31T07:36:58+0000"
   },
+  "18353057641281109": {
+   "latest": {
+    "media_comments_count": 2,
+    "media_like_count": 71,
+    "media_reach": 3499,
+    "media_reel_avg_watch_time": 24937,
+    "media_reel_skip_rate": 0.389,
+    "media_saved": 42,
+    "media_shares": 10,
+    "media_views": 4742
+   },
+   "media_caption": "One copy-paste cost a crypto trader $49,999,950 in USDT, and nobody can reverse it.\nOn 19 Dec 2025 the trader moved 50M USDT out of Binance and sent a $50 test to the right address. Minutes later a scammer made a look-alike address (same first 3 and last 4 characters) and sent the wallet 0.005 USDT so the fake sat in its history. 26 minutes after the test, the trader copied the address from that history and sent the rest to the fake. Within half an hour it was swapped to DAI, which Tether can't freeze, and pushed through Tornado Cash. A $1M reward offer got nothing back.\nNever copy an address from your history. Save checked ones as contacts, and read the middle characters, not just the ends.\nComment \"WHALE\" and Orca will DM you the breakdown.\nNot financial advice.\n#CryptoScam #CryptoNews #WhaleAlert #OnChain #Sonar",
+   "media_id": "18353057641281109",
+   "media_permalink": "https://www.instagram.com/reel/DfRUpc9kzbJ/",
+   "media_type": "REELS",
+   "snapshots": {
+    "2026-11-08": {
+     "media_comments_count": 2,
+     "media_like_count": 71,
+     "media_reach": 3499,
+     "media_reel_avg_watch_time": 24937,
+     "media_reel_skip_rate": 0.389,
+     "media_saved": 42,
+     "media_shares": 10,
+     "media_views": 4742
+    }
+   },
+   "timestamp": "2026-11-03T07:16:08+0000"
+  },
   "18357759082220097": {
    "latest": {
     "media_comments_count": 1,
-    "media_like_count": 29,
-    "media_reach": 1430,
-    "media_reel_avg_watch_time": 18627,
-    "media_reel_skip_rate": 0.428,
+    "media_like_count": 30,
+    "media_reach": 1450,
+    "media_reel_avg_watch_time": 20660,
+    "media_reel_skip_rate": 0.429,
     "media_saved": 3,
     "media_shares": 6,
-    "media_views": 1839
+    "media_views": 1857
    },
    "media_caption": "Hackers took about $6.3 billion from Binance on Thursday, most of it in about 20 minutes: the biggest crypto theft ever.\nThat's about 4x the old record.\nThree blockchain firms (TRM Labs, Chainalysis, Elliptic) point to North Korea's TraderTraitor team. No government has confirmed it. Binance says it may have started with one engineer's compromised laptop. About $2.8B is frozen, and Binance says it will cover all customer losses.\nBitcoin is down about 5% since the hack, and Binance's own coin, BNB, about 6%. Crypto on an exchange is only as safe as that exchange's security, and its promise to pay you back.\nFollow for crypto, explained simply.\nNot financial advice.\n#Binance #Bitcoin #Crypto #CryptoNews #Sonar",
    "media_id": "18357759082220097",
@@ -427,6 +809,16 @@
      "media_saved": 3,
      "media_shares": 6,
      "media_views": 1839
+    },
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 30,
+     "media_reach": 1450,
+     "media_reel_avg_watch_time": 20660,
+     "media_reel_skip_rate": 0.429,
+     "media_saved": 3,
+     "media_shares": 6,
+     "media_views": 1857
     }
    },
    "timestamp": "2026-10-30T21:10:38+0000"
@@ -466,9 +858,48 @@
      "media_saved": 0,
      "media_shares": 0,
      "media_views": 158
+    },
+    "2026-11-08": {
+     "media_comments_count": 2,
+     "media_like_count": 6,
+     "media_reach": 131,
+     "media_reel_avg_watch_time": 12929,
+     "media_reel_skip_rate": 0.526,
+     "media_saved": 0,
+     "media_shares": 0,
+     "media_views": 158
     }
    },
    "timestamp": "2026-10-27T13:35:17+0000"
+  },
+  "18647205181010198": {
+   "latest": {
+    "media_comments_count": 1,
+    "media_like_count": 0,
+    "media_reach": 210,
+    "media_reel_avg_watch_time": 13553,
+    "media_reel_skip_rate": 0.484,
+    "media_saved": 1,
+    "media_shares": 0,
+    "media_views": 255
+   },
+   "media_caption": "FTX was a $32 billion crypto exchange. Nine days after one news story, it was bankrupt. Here's how it happened.\nOn 2 Nov 2022, CoinDesk reported that Alameda Research, Sam Bankman-Fried's trading firm, held billions in FTT, a coin FTX made itself. Binance's boss, Changpeng Zhao, said he'd sell Binance's FTT. Bankman-Fried tweeted \"FTX is fine. Assets are fine.\" Customers pulled out about $6 billion in 72 hours, withdrawals froze, Binance dropped its offer to buy FTX over \"mishandled customer funds\", and FTX filed for bankruptcy on 11 Nov. FTX had sent customer deposits to Alameda. He was sentenced to 25 years in 2024.\nThe lesson: one man controlled the exchange and the firm using its customers' money, and customers couldn't check their coins until it was too late. Keep only what you trade on an exchange, and the rest in a wallet only you control.\nFollow for crypto, explained simply.\nNot financial advice.\n#Crypto #CryptoExplained #CryptoForBeginners #CryptoHistory #FTX",
+   "media_id": "18647205181010198",
+   "media_permalink": "https://www.instagram.com/reel/Dfd7zthDU5L/",
+   "media_type": "REELS",
+   "snapshots": {
+    "2026-11-08": {
+     "media_comments_count": 1,
+     "media_like_count": 0,
+     "media_reach": 210,
+     "media_reel_avg_watch_time": 13553,
+     "media_reel_skip_rate": 0.484,
+     "media_saved": 1,
+     "media_shares": 0,
+     "media_views": 255
+    }
+   },
+   "timestamp": "2026-11-08T04:49:07+0000"
   }
  }
 }

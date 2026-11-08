@@ -4,12 +4,13 @@
 - [x] A wallet idle since 2020 moves $377M of BTC for a 60-cent fee (2026-10-25-whale-wakes)
 - [x] What the mempool is, and why bots watch every transaction (2026-10-27-mempool-bots)
 - [x] How Bitcoin started (manual request) (2026-10-27-bitcoin-origin)
-- [ ] Stablecoin mints: when $1B of new USDT appears overnight, what actually happened — hook from the latest verified mint on-chain (date, amount, treasury address)
+- [x] Meme-coin snipers: the trader who bought the TRUMP coin in its first second (Jan 2025) (2026-11-03-trump-sniper)
+- [x] One copy-paste, $50M: the address-poisoning scam of 19 Dec 2025 (look-alike address, test transfer, Tornado Cash) (2026-11-03-copy-paste-50m)
 - [ ] How to read a whale alert without panicking (questions to ask) — "Stop panicking at whale alerts. Most of them are an exchange moving its own coins." (#2 Negative Command; Sonar's one mention goes here)
+- [ ] Mt. Gox: 850,000 BTC lost in 2014, and the trustee wallets repaying customers a decade later (planned Thu 12 Nov) — "In 2014, the biggest bitcoin exchange in the world said it had lost 850,000 bitcoin." (#25; verify; show the repayment wallets on-chain)
+- [ ] Stablecoin mints: when $1B of new USDT appears overnight, what actually happened — hook from the latest verified mint on-chain (date, amount, treasury address)
 - [ ] Exchange inflows vs outflows: what a whale moving coins can (and can't) tell you
 - [ ] Why moving $300M of bitcoin can cost less than a coffee (fees explained)
 - [ ] How trackers label wallets: exchanges, funds, miners, governments
 - [ ] Dormant wallets: why very old coins waking up makes headlines
 - [ ] Self-custody vs exchange custody: where the biggest holders keep coins
-- [x] Meme-coin snipers: the trader who bought the TRUMP coin in its first second (Jan 2025) (2026-11-03-trump-sniper)
-- [x] One copy-paste, $50M: the address-poisoning scam of 19 Dec 2025 (look-alike address, test transfer, Tornado Cash) (2026-11-03-copy-paste-50m)
