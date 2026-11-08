@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 7.09
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 27.38,
+    "to": 31.97
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "How FTX went from $32B to bankrupt"
+  }
+]

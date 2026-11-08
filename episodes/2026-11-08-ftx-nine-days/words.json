@@ -1,0 +1,1122 @@
+[
+ {
+  "text": "A",
+  "startMs": 80,
+  "endMs": 230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thirty-two",
+  "startMs": 230,
+  "endMs": 790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 790,
+  "endMs": 1130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar",
+  "startMs": 1130,
+  "endMs": 1460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " company,",
+  "startMs": 1460,
+  "endMs": 1946,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bankrupt",
+  "startMs": 2200,
+  "endMs": 2659,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 2660,
+  "endMs": 2824,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nine",
+  "startMs": 2830,
+  "endMs": 3080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " days:",
+  "startMs": 3080,
+  "endMs": 3373,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FTX,",
+  "startMs": 3590,
+  "endMs": 4196,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 4420,
+  "endMs": 4580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " crypto",
+  "startMs": 4580,
+  "endMs": 5019,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " exchange",
+  "startMs": 5120,
+  "endMs": 5570,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " where",
+  "startMs": 5570,
+  "endMs": 5842,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " people",
+  "startMs": 5880,
+  "endMs": 6140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stored",
+  "startMs": 6140,
+  "endMs": 6611,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins.",
+  "startMs": 6620,
+  "endMs": 6940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Its",
+  "startMs": 7120,
+  "endMs": 7277,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " founder,",
+  "startMs": 7290,
+  "endMs": 7643,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sam",
+  "startMs": 7850,
+  "endMs": 8060,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bankman-Fried,",
+  "startMs": 8060,
+  "endMs": 8794,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " also",
+  "startMs": 9000,
+  "endMs": 9370,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " owned",
+  "startMs": 9370,
+  "endMs": 9631,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " trading",
+  "startMs": 9640,
+  "endMs": 9990,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " firm",
+  "startMs": 9990,
+  "endMs": 10310,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Alameda.",
+  "startMs": 10310,
+  "endMs": 10730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " News",
+  "startMs": 10910,
+  "endMs": 11202,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " site",
+  "startMs": 11220,
+  "endMs": 11470,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " CoinDesk",
+  "startMs": 11470,
+  "endMs": 12070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " revealed",
+  "startMs": 12070,
+  "endMs": 12540,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Alameda",
+  "startMs": 12540,
+  "endMs": 12960,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " held",
+  "startMs": 12960,
+  "endMs": 13300,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billions",
+  "startMs": 13300,
+  "endMs": 13770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 13790,
+  "endMs": 13940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FTT,",
+  "startMs": 13940,
+  "endMs": 14587,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 14820,
+  "endMs": 14996,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin",
+  "startMs": 15000,
+  "endMs": 15288,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FTX",
+  "startMs": 15300,
+  "endMs": 15930,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " made",
+  "startMs": 15950,
+  "endMs": 16220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " itself.",
+  "startMs": 16220,
+  "endMs": 16630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " If",
+  "startMs": 16810,
+  "endMs": 16915,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FTT",
+  "startMs": 16920,
+  "endMs": 17490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " crashed,",
+  "startMs": 17490,
+  "endMs": 17809,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " so",
+  "startMs": 18020,
+  "endMs": 18229,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 18250,
+  "endMs": 18430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Alameda.",
+  "startMs": 18430,
+  "endMs": 18860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Changpeng",
+  "startMs": 19040,
+  "endMs": 19510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Zhao,",
+  "startMs": 19510,
+  "endMs": 19747,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " boss",
+  "startMs": 19980,
+  "endMs": 20219,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 20220,
+  "endMs": 20337,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rival",
+  "startMs": 20340,
+  "endMs": 20749,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " exchange",
+  "startMs": 20800,
+  "endMs": 21398,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Binance,",
+  "startMs": 21400,
+  "endMs": 21869,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " said",
+  "startMs": 22110,
+  "endMs": 22340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " he'd",
+  "startMs": 22340,
+  "endMs": 22576,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sell",
+  "startMs": 22640,
+  "endMs": 22810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Binance's",
+  "startMs": 22810,
+  "endMs": 23360,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FTT.",
+  "startMs": 23360,
+  "endMs": 24050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sam",
+  "startMs": 24230,
+  "endMs": 24464,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tweeted:",
+  "startMs": 24540,
+  "endMs": 24932,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FTX",
+  "startMs": 25220,
+  "endMs": 25810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 25810,
+  "endMs": 25927,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fine.",
+  "startMs": 25930,
+  "endMs": 26220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Assets",
+  "startMs": 26400,
+  "endMs": 26807,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " are",
+  "startMs": 26860,
+  "endMs": 26940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fine.",
+  "startMs": 26940,
+  "endMs": 27350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Customers",
+  "startMs": 27530,
+  "endMs": 28045,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " panicked,",
+  "startMs": 28050,
+  "endMs": 28445,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pulling",
+  "startMs": 28670,
+  "endMs": 29017,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " out",
+  "startMs": 29020,
+  "endMs": 29240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 29240,
+  "endMs": 29589,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " six",
+  "startMs": 29620,
+  "endMs": 29790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 29790,
+  "endMs": 30276,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 30320,
+  "endMs": 30676,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 30700,
+  "endMs": 30820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " seventy-two",
+  "startMs": 30820,
+  "endMs": 31530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hours.",
+  "startMs": 31530,
+  "endMs": 31820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FTX",
+  "startMs": 32000,
+  "endMs": 32630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " froze",
+  "startMs": 32630,
+  "endMs": 32995,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " withdrawals.",
+  "startMs": 33000,
+  "endMs": 33580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Binance",
+  "startMs": 33760,
+  "endMs": 34230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " offered",
+  "startMs": 34230,
+  "endMs": 34533,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 34540,
+  "endMs": 34710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buy",
+  "startMs": 34710,
+  "endMs": 34950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FTX,",
+  "startMs": 34950,
+  "endMs": 35604,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " then",
+  "startMs": 35840,
+  "endMs": 36050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " backed",
+  "startMs": 36050,
+  "endMs": 36377,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " out",
+  "startMs": 36410,
+  "endMs": 36615,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " over",
+  "startMs": 36630,
+  "endMs": 36913,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mishandled",
+  "startMs": 36920,
+  "endMs": 37567,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " customer",
+  "startMs": 37570,
+  "endMs": 38020,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " funds.",
+  "startMs": 38020,
+  "endMs": 38400,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sam",
+  "startMs": 38580,
+  "endMs": 38670,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 38670,
+  "endMs": 39010,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sent",
+  "startMs": 39020,
+  "endMs": 39260,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " customer",
+  "startMs": 39260,
+  "endMs": 39700,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " deposits",
+  "startMs": 39700,
+  "endMs": 40240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 40240,
+  "endMs": 40410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Alameda.",
+  "startMs": 40410,
+  "endMs": 40840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " On",
+  "startMs": 41020,
+  "endMs": 41179,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " November",
+  "startMs": 41260,
+  "endMs": 41650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eleventh,",
+  "startMs": 41650,
+  "endMs": 42078,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2022,",
+  "startMs": 42270,
+  "endMs": 43506,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FTX",
+  "startMs": 43660,
+  "endMs": 44299,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " filed",
+  "startMs": 44300,
+  "endMs": 44617,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 44620,
+  "endMs": 44800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bankruptcy.",
+  "startMs": 44800,
+  "endMs": 45410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sam",
+  "startMs": 45590,
+  "endMs": 45690,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " later",
+  "startMs": 45690,
+  "endMs": 46083,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " got",
+  "startMs": 46100,
+  "endMs": 46300,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twenty-five",
+  "startMs": 46300,
+  "endMs": 46900,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " years",
+  "startMs": 46900,
+  "endMs": 47167,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 47240,
+  "endMs": 47310,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " prison.",
+  "startMs": 47310,
+  "endMs": 47660,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Two",
+  "startMs": 47840,
+  "endMs": 48040,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " things",
+  "startMs": 48040,
+  "endMs": 48328,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " broke",
+  "startMs": 48330,
+  "endMs": 48650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FTX.",
+  "startMs": 48650,
+  "endMs": 49250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " One",
+  "startMs": 49430,
+  "endMs": 49650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " man",
+  "startMs": 49650,
+  "endMs": 49875,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " controlled",
+  "startMs": 49990,
+  "endMs": 50430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " both",
+  "startMs": 50430,
+  "endMs": 50710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " companies'",
+  "startMs": 50710,
+  "endMs": 51210,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " money.",
+  "startMs": 51210,
+  "endMs": 51490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Customers",
+  "startMs": 51670,
+  "endMs": 52199,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " couldn't",
+  "startMs": 52200,
+  "endMs": 52610,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " check",
+  "startMs": 52620,
+  "endMs": 52900,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " theirs",
+  "startMs": 52900,
+  "endMs": 53198,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " until",
+  "startMs": 53200,
+  "endMs": 53550,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 53550,
+  "endMs": 53669,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 53670,
+  "endMs": 53845,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gone.",
+  "startMs": 53850,
+  "endMs": 54080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Keep",
+  "startMs": 54260,
+  "endMs": 54500,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " only",
+  "startMs": 54500,
+  "endMs": 54810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " what",
+  "startMs": 54880,
+  "endMs": 54990,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 54990,
+  "endMs": 55160,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " trade",
+  "startMs": 55160,
+  "endMs": 55460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 55460,
+  "endMs": 55610,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 55630,
+  "endMs": 55710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " exchange.",
+  "startMs": 55760,
+  "endMs": 56260,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 56440,
+  "endMs": 56545,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rest",
+  "startMs": 56550,
+  "endMs": 56806,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " goes",
+  "startMs": 56830,
+  "endMs": 57068,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 57100,
+  "endMs": 57220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 57220,
+  "endMs": 57370,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wallet",
+  "startMs": 57370,
+  "endMs": 57695,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " only",
+  "startMs": 57700,
+  "endMs": 58009,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 58010,
+  "endMs": 58166,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " control:",
+  "startMs": 58170,
+  "endMs": 58637,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nobody",
+  "startMs": 58850,
+  "endMs": 59300,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " else",
+  "startMs": 59300,
+  "endMs": 59510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " can",
+  "startMs": 59510,
+  "endMs": 59735,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " move",
+  "startMs": 59740,
+  "endMs": 59996,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it,",
+  "startMs": 60020,
+  "endMs": 60101,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 60310,
+  "endMs": 60450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 60450,
+  "endMs": 60624,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " can",
+  "startMs": 60650,
+  "endMs": 60800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " check",
+  "startMs": 60800,
+  "endMs": 61090,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 61090,
+  "endMs": 61199,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " anytime.",
+  "startMs": 61300,
+  "endMs": 61670,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

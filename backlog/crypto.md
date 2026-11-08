@@ -57,3 +57,4 @@
 - [x] What is a meme coin? CZ's dog Broccoli (Feb 2025): a $140M coin in a day, then down 90%+; 7M Pump.fun coins, 1 in 70 kept $1,000 (2026-11-04-meme-coin-broccoli)
 - [x] Breaking (Edu's request): why crypto dipped when the Democrats won Congress, then ether jumped ~6% (priced in, scare over, stocks and gold up) (2026-11-04-midterm-dip-bounce)
 - [x] Poly Network, 2021: the hacker who stole $610 million and gave it back (bridge keeper bug, Tether freeze, Mr. White Hat) (2026-11-05-poly-network-hack)
+- [x] FTX's collapse, Nov 2022: $32B to bankrupt in nine days (CoinDesk's Alameda scoop, CZ's FTT sale, the $6B run, deposits sent to Alameda, 25 years) (2026-11-08-ftx-nine-days)

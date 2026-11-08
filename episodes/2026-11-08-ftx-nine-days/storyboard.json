@@ -1,0 +1,1156 @@
+{
+ "slug": "ftx-nine-days",
+ "format": "documentary",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 1.0,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "thirty-two billion",
+  "nine days:",
+  "Sam Bankman-Fried,",
+  "Alameda.",
+  "CoinDesk",
+  "FTT,",
+  "crashed,",
+  "Changpeng Zhao,",
+  "FTX is fine.",
+  "six billion dollars",
+  "froze withdrawals.",
+  "mishandled customer funds.",
+  "customer deposits to Alameda.",
+  "bankruptcy.",
+  "twenty-five years",
+  "One man",
+  "couldn't check",
+  "only what you trade",
+  "only you control:"
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "ftx",
+     "kind": "block",
+     "at": [
+      -3.2,
+      -0.4
+     ],
+     "icon": "coin",
+     "tone": "accent",
+     "size": 1.4
+    },
+    {
+     "id": "ala",
+     "kind": "server",
+     "at": [
+      2.8,
+      -0.6
+     ],
+     "tone": "warm",
+     "size": 1.3
+    },
+    {
+     "id": "ftt",
+     "kind": "coins",
+     "at": [
+      2.8,
+      1.9
+     ],
+     "tone": "warm",
+     "size": 1.2
+    },
+    {
+     "id": "c1",
+     "kind": "pawn",
+     "at": [
+      -5.0,
+      2.0
+     ],
+     "tone": "muted"
+    },
+    {
+     "id": "c2",
+     "kind": "pawn",
+     "at": [
+      -4.0,
+      2.5
+     ],
+     "tone": "muted"
+    },
+    {
+     "id": "c3",
+     "kind": "pawn",
+     "at": [
+      -2.8,
+      2.6
+     ],
+     "tone": "muted"
+    },
+    {
+     "id": "bnb",
+     "kind": "block",
+     "at": [
+      -0.2,
+      2.3
+     ],
+     "icon": "sign",
+     "tone": "alert",
+     "size": 1.1
+    }
+   ],
+   "links": [
+    {
+     "id": "l_make",
+     "from": "ftx",
+     "to": "ftt",
+     "style": "dashed",
+     "tone": "accent"
+    },
+    {
+     "id": "l_hold",
+     "from": "ftt",
+     "to": "ala",
+     "style": "beam",
+     "tone": "warm"
+    },
+    {
+     "id": "l_sell",
+     "from": "bnb",
+     "to": "ftt",
+     "style": "beam",
+     "tone": "alert"
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "A",
+   "component": "BigNumber",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "value": 32000000000,
+    "prefix": "$",
+    "chip": "FTX · valued Jan 2022",
+    "label": "→ bankrupt in 9 days",
+    "tone": "alert",
+    "formed": true
+   },
+   "beats": [
+    "A",
+    "thirty-two",
+    "bankrupt"
+   ]
+  },
+  {
+   "anchor": "FTX, a crypto",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "nodes": [
+     {
+      "id": "cus",
+      "icon": "👥",
+      "label": "Customers",
+      "x": 500,
+      "y": 120,
+      "size": 0.9
+     },
+     {
+      "id": "ftx",
+      "icon": "🏦",
+      "label": "FTX",
+      "sub": "crypto exchange",
+      "x": 500,
+      "y": 560,
+      "size": 1.15,
+      "tone": "accent"
+     }
+    ],
+    "edges": [
+     {
+      "from": "cus",
+      "to": "ftx",
+      "label": "coins + cash stored",
+      "flow": true
+     }
+    ],
+    "order": [
+     "ftx",
+     "cus"
+    ]
+   },
+   "beats": [
+    "FTX,",
+    "exchange",
+    "stored"
+   ]
+  },
+  {
+   "anchor": "Its founder",
+   "component": "Trader3D",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "screens": {
+     "ftx": {
+      "head": "FTX · exchange",
+      "big": "customer deposits",
+      "sub": [
+       "held by the exchange"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "deposit · BTC",
+       "deposit · USD",
+       "withdrawal · ETH"
+      ]
+     },
+     "ala": {
+      "head": "Alameda Research",
+      "big": "trading firm",
+      "sub": [
+       "also owned by Sam"
+      ],
+      "tone": "warm",
+      "chart": "up",
+      "feed": [
+       "BUY",
+       "SELL",
+       "BUY"
+      ]
+     }
+    },
+    "screen": "ftx",
+    "actions": [
+     "card",
+     "type",
+     "screen:ala"
+    ],
+    "caption": "3D recreation",
+    "card": {
+     "name": "SAM BANKMAN-FRIED",
+     "role": "founder & CEO, FTX",
+     "note": "3D stand-in",
+     "y": 1250
+    },
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.2,
+       1.42,
+       1.05
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 2,
+      "pos": [
+       -0.55,
+       1.42,
+       -0.85
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 31,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "Sam",
+    "also",
+    "trading"
+   ]
+  },
+  {
+   "anchor": "News site",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "coindesk-balance.png",
+    "url": "malaysia.news.yahoo.com/sam-bankman-fried-empire-crushed-153000636.html",
+    "source": "CoinDesk (via Yahoo News) · on its 2 Nov 2022 scoop",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.6,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.5,
+      "y": 0.48,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 420,
+      "y": 376,
+      "w": 585,
+      "h": 48
+     },
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 28,
+      "y": 432,
+      "w": 120,
+      "h": 48
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 22,
+      "y": 260,
+      "w": 945,
+      "h": 110
+     }
+    ]
+   },
+   "beats": [
+    "CoinDesk",
+    "Alameda"
+   ]
+  },
+  {
+   "anchor": "billions in FTT",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "c1",
+     "c2",
+     "c3",
+     "bnb"
+    ],
+    "actions": [
+     "label:0",
+     "link:l_hold",
+     "label:1",
+     "link:l_make",
+     "label:2"
+    ],
+    "labels": [
+     {
+      "text": "Alameda: $14.6B of assets",
+      "at": "ala",
+      "side": "up",
+      "dy": -170,
+      "tone": "warm"
+     },
+     {
+      "text": "≈$5.8B of it: FTT",
+      "at": "ftt",
+      "side": "right",
+      "tone": "warm"
+     },
+     {
+      "text": "FTT: a coin FTX made",
+      "at": "ftx",
+      "side": "up",
+      "dy": -170,
+      "tone": "accent"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       2.2,
+       0,
+       0.6
+      ],
+      "zoom": 92
+     },
+     {
+      "beat": 3,
+      "target": [
+       0,
+       0,
+       0.4
+      ],
+      "zoom": 74,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "billions",
+    "FTT,",
+    "coin",
+    "FTX",
+    "itself."
+   ]
+  },
+  {
+   "anchor": "If FTT crashed",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "c1",
+     "c2",
+     "c3",
+     "bnb"
+    ],
+    "state": {
+     "links": [
+      "l_hold",
+      "l_make"
+     ]
+    },
+    "actions": [
+     "alert:ftt",
+     "label:0",
+     "alert:ala",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "FTT falls…",
+      "at": "ftt",
+      "side": "right",
+      "tone": "alert"
+     },
+     {
+      "text": "…Alameda sinks",
+      "at": "ala",
+      "side": "up",
+      "dy": -170,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.6,
+       0,
+       0.6
+      ],
+      "zoom": 80
+     },
+     {
+      "beat": 2,
+      "target": [
+       2.4,
+       0,
+       0.2
+      ],
+      "zoom": 96,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "FTT",
+    "crashed,",
+    "would",
+    "Alameda."
+   ]
+  },
+  {
+   "anchor": "Changpeng",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "c1",
+     "c2",
+     "c3"
+    ],
+    "state": {
+     "links": [
+      "l_hold",
+      "l_make"
+     ],
+     "alert": [
+      "ftt"
+     ]
+    },
+    "actions": [
+     "label:0",
+     "link:l_sell"
+    ],
+    "labels": [
+     {
+      "text": "Binance: rival exchange",
+      "at": "bnb",
+      "side": "up",
+      "dy": -150,
+      "tone": "alert"
+     },
+     {
+      "text": "boss: Changpeng Zhao",
+      "at": "bnb",
+      "side": "left",
+      "tone": "muted"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0.6,
+       0,
+       1.2
+      ],
+      "zoom": 82
+     },
+     {
+      "beat": 1,
+      "target": [
+       1.4,
+       0,
+       1.4
+      ],
+      "zoom": 90,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "Changpeng",
+    "Binance,"
+   ]
+  },
+  {
+   "anchor": "said he'd sell",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "source": "Changpeng Zhao, CEO of Binance · tweet, 6 Nov 2022 (via CoinDesk)",
+    "text": "“Due to recent revelations that have came to light, we have decided to liquidate any remaining FTT on our books.”",
+    "mark": "liquidate any remaining FTT",
+    "stamp": "6 Nov 2022",
+    "note": "His exact words",
+    "stampTop": 860
+   },
+   "beats": [
+    "sell",
+    "Binance's",
+    "FTT."
+   ]
+  },
+  {
+   "anchor": "Sam tweeted",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "source": "Sam Bankman-Fried · tweet, 7 Nov 2022 (via The Block)",
+    "text": "“FTX is fine. Assets are fine. FTX has enough to cover all client holdings.”",
+    "mark": "FTX is fine. Assets are fine.",
+    "stamp": "7 Nov 2022",
+    "note": "His exact words",
+    "stampTop": 860
+   },
+   "beats": [
+    "tweeted:",
+    "FTX",
+    "Assets"
+   ]
+  },
+  {
+   "anchor": "Customers panicked",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "plate": "FTX",
+    "opened": true,
+    "actions": [
+     "drain",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "everyone withdraws",
+      "x": 540,
+      "y": 600,
+      "tone": "alert",
+      "size": 56,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       0.9,
+       9.4
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.2,
+       0.6,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "Customers",
+    "pulling"
+   ]
+  },
+  {
+   "anchor": "about six",
+   "component": "Growth",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "items": [
+     {
+      "label": "a normal day",
+      "value": 0.05,
+      "display": "tens of millions"
+     },
+     {
+      "label": "72 hours, to 8 Nov 2022",
+      "value": 6,
+      "display": "≈ $6 billion"
+     }
+    ]
+   },
+   "beats": [
+    "about",
+    "seventy-two"
+   ]
+  },
+  {
+   "anchor": "FTX froze",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "plate": "FTX",
+    "coins": 10,
+    "actions": [
+     "lock",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "WITHDRAWALS FROZEN",
+      "x": 540,
+      "y": 600,
+      "tone": "accent",
+      "size": 52,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.2,
+       1.1,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.4,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.6,
+       0.8,
+       7.8
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "froze",
+    "withdrawals."
+   ]
+  },
+  {
+   "anchor": "Binance offered",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "8 Nov: Binance offers",
+     "to buy FTX…"
+    ],
+    "accent": [
+     "Binance",
+     "buy"
+    ]
+   },
+   "beats": [
+    "Binance",
+    "buy"
+   ]
+  },
+  {
+   "anchor": "then backed",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "source": "Binance statement, 9 Nov 2022 (via Reuters / Al Jazeera) · a day after agreeing to buy FTX",
+    "text": "“…the latest news reports regarding mishandled customer funds and alleged US agency investigations, we have decided that we will not pursue the potential acquisition of FTX.com”",
+    "mark": "mishandled customer funds",
+    "note": "Their exact words",
+    "stampTop": 860
+   },
+   "beats": [
+    "backed",
+    "mishandled",
+    "funds."
+   ]
+  },
+  {
+   "anchor": "Sam had sent",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "nodes": [
+     {
+      "id": "ftx",
+      "icon": "🏦",
+      "label": "FTX",
+      "sub": "customer deposits",
+      "x": 500,
+      "y": 120,
+      "size": 1.0,
+      "tone": "accent"
+     },
+     {
+      "id": "ala",
+      "icon": "📈",
+      "label": "Alameda",
+      "sub": "Sam's trading firm",
+      "x": 500,
+      "y": 640,
+      "size": 1.0,
+      "tone": "alert"
+     }
+    ],
+    "edges": [
+     {
+      "from": "ftx",
+      "to": "ala",
+      "label": "billions of customer money",
+      "flow": true,
+      "tone": "alert"
+     }
+    ],
+    "order": [
+     [
+      "ftx",
+      "ala"
+     ]
+    ]
+   },
+   "beats": [
+    "sent",
+    "deposits",
+    "Alameda."
+   ]
+  },
+  {
+   "anchor": "eleventh,",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "engadget-bankrupt.png",
+    "url": "engadget.com/ftx-bankruptcy-ceo-sam-bankman-fried-resigns-155552534.html",
+    "source": "Engadget · 11 Nov 2022",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.3,
+      "y": 0.85,
+      "zoom": 1.5
+     },
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.42,
+      "zoom": 1.08
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 235,
+      "y": 362,
+      "w": 400,
+      "h": 46
+     },
+     {
+      "beat": 3,
+      "kind": "box",
+      "x": 25,
+      "y": 120,
+      "w": 540,
+      "h": 105
+     }
+    ]
+   },
+   "beats": [
+    "eleventh,",
+    "2022,",
+    "FTX",
+    "bankruptcy."
+   ]
+  },
+  {
+   "anchor": "Sam later",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "src": "doj-sentence.png",
+    "url": "justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-prison",
+    "source": "U.S. Attorney's Office, SDNY · 28 Mar 2024",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.08
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 880,
+      "y": 88,
+      "w": 890,
+      "h": 95
+     }
+    ]
+   },
+   "beats": [
+    "twenty-five",
+    "prison."
+   ]
+  },
+  {
+   "anchor": "Two things",
+   "component": "Flow",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "nodes": [
+     {
+      "id": "sam",
+      "icon": "👤",
+      "label": "One man",
+      "sub": "Sam Bankman-Fried",
+      "x": 500,
+      "y": 110,
+      "size": 1.0,
+      "tone": "alert"
+     },
+     {
+      "id": "ftx",
+      "icon": "🏦",
+      "label": "FTX",
+      "sub": "customers' money",
+      "x": 220,
+      "y": 600,
+      "size": 0.9,
+      "tone": "accent"
+     },
+     {
+      "id": "ala",
+      "icon": "📈",
+      "label": "Alameda",
+      "sub": "his trading firm",
+      "x": 780,
+      "y": 600,
+      "size": 0.9,
+      "tone": "warm"
+     }
+    ],
+    "edges": [
+     {
+      "from": "sam",
+      "to": "ftx",
+      "tone": "alert"
+     },
+     {
+      "from": "sam",
+      "to": "ala",
+      "tone": "alert"
+     },
+     {
+      "from": "ftx",
+      "to": "ala",
+      "label": "no wall",
+      "dashed": true,
+      "tone": "alert"
+     }
+    ],
+    "order": [
+     "sam",
+     [
+      "ftx",
+      "ala"
+     ]
+    ]
+   },
+   "beats": [
+    "Two",
+    "One",
+    "both"
+   ]
+  },
+  {
+   "anchor": "Customers couldn't",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "plate": "FTX",
+    "opened": true,
+    "coins": 0,
+    "actions": [
+     "label:0",
+     "scan",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "no way to check",
+      "x": 540,
+      "y": 600,
+      "tone": "accent",
+      "size": 46,
+      "pill": true
+     },
+     {
+      "text": "BILLIONS MISSING",
+      "x": 540,
+      "y": 1300,
+      "tone": "alert",
+      "size": 60,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.8,
+       0.8,
+       9.0
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.3,
+       0.5,
+       7.8
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "couldn't",
+    "until",
+    "gone."
+   ]
+  },
+  {
+   "anchor": "Keep only",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "On an exchange:",
+     "only what you trade."
+    ],
+    "accent": [
+     "only",
+     "trade."
+    ]
+   },
+   "beats": [
+    "Keep",
+    "trade"
+   ]
+  },
+  {
+   "anchor": "The rest goes",
+   "component": "Seed3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "actions": [
+     "device",
+     "card",
+     "label:0",
+     "label:1",
+     "label:2"
+    ],
+    "title": "Backup words",
+    "tags": [
+     {
+      "text": "only you control it",
+      "x": 540,
+      "y": 560,
+      "tone": "good",
+      "size": 46,
+      "pill": true
+     },
+     {
+      "text": "nobody else can move it",
+      "x": 540,
+      "y": 650,
+      "tone": "good",
+      "size": 40,
+      "pill": true
+     },
+     {
+      "text": "check it anytime",
+      "x": 540,
+      "y": 740,
+      "tone": "accent",
+      "size": 40,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.2,
+       9.6,
+       8.6
+      ],
+      "look": [
+       -0.2,
+       0,
+       0.3
+      ],
+      "fov": 37
+     },
+     {
+      "beat": 3,
+      "pos": [
+       0.0,
+       9.2,
+       8.4
+      ],
+      "look": [
+       0.0,
+       0,
+       0.3
+      ],
+      "fov": 37,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "rest",
+    "wallet",
+    "control:",
+    "nobody",
+    "check"
+   ]
+  }
+ ]
+}
