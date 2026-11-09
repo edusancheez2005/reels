@@ -190,6 +190,10 @@ out of the door for the rest of the scene, the pile empties and a red alarm beac
 `opened`, `keyGone`, `frozen`; `plate` (text on the top plate), `coins`, `scale` (0.62). Frame it with look y ≈ -0.5, camera z ≈ 8–9.
 **Drive3D**: a generic unbranded encrypted USB drive with 10 attempt lights. Actions: `drive`, `ten` (lights on), `lockout`
 (ghost padlock), `used` (first `used` lights turn amber), `left` (remaining pulse), `label:<n>`, `cam`. Camera z ≈ 15–17.
+Added 9 Nov 2026 (ironkey reel): `open` (the shell lifts and tilts back, showing the board: a secure chip that holds the
+encryption key, a flash chip with the data), `wipe` (the secure chip flashes red and goes dark, every light turns red: key erased);
+props `red` (used lights red, not amber), `usedLit` (used lights already lit), `opened`. Whole drive face in portrait: cam
+`{pos: [0, 0.25, 10.6], look: [0, -0.08, 0], fov: 30}` (the light row fills the width); opened board: `{pos: [0, 3.4, 12], look: [0, 0.3, 0]}`.
 **Coin3D** also has `lost` (frost sweeps over `lost` coins' worth of stacks, counter switches to the lost amount, `lostText`)
 and `filled: true` (stacks start full, no `stack` beat). Keep `sub` matched to the number it sits under.
 

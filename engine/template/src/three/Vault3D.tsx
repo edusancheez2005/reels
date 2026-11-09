@@ -388,7 +388,13 @@ export const Vault3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames
  *          | left (the remaining lights pulse) | label:<n> | cam
  * props: used (default 8), tags, caption, cam
  */
-type DP = {actions?: string[]; cam?: Cam[]; tags?: Tag[]; caption?: string; used?: number; on?: boolean};
+type DP = {actions?: string[]; cam?: Cam[]; tags?: Tag[]; caption?: string; used?: number; on?: boolean;
+  /** used lights glow red instead of amber */ red?: boolean;
+  /** start with the shell lifted (state from an earlier scene) */ opened?: boolean;
+  /** start with the used lights already lit */ usedLit?: boolean};
+// Added 9 Nov 2026 (ironkey reel): open (the top shell lifts and tilts back, showing the board: a secure chip that holds the
+// encryption key and a flash chip with the data), wipe (the secure chip flashes red and goes dark, every light turns red: key erased),
+// props red, opened, usedLit. Tags can point at the chips: secure chip ≈ screen centre-left, flash ≈ centre-right after open.
 
 export const Drive3D: React.FC<SceneProps<DP>> = ({props, beats, durationInFrames}) => {
   const acts = props.actions ?? [];
@@ -411,16 +417,28 @@ export const Drive3D: React.FC<SceneProps<DP>> = ({props, beats, durationInFrame
   const lockFade = since('lockout') >= 0 ? interpolate(since('lockout'), [0, 14, 40, 60], [0, 1, 1, 0.25], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}) : 0;
   const leftS = since('left');
   lockMat.opacity = 0.75 * lockFade;
+  const openP = props.opened ? 1 : p('open', 24, Easing.inOut(Easing.cubic));
+  const wipeS = since('wipe');
+  const redMat = useMemo(() => glowMat('#ff4d5e', 3.0), []);
+  const boardMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#0f3d2a', metalness: 0.3, roughness: 0.55}), []);
+  const goldMat = useMemo(() => new THREE.MeshPhysicalMaterial({color: '#d9a640', metalness: 1, roughness: 0.25}), []);
+  const chipMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#121418', roughness: 0.35, metalness: 0.2, emissive: new THREE.Color('#ff3344'), emissiveIntensity: 0}), []);
+  const flashMat = useMemo(() => new THREE.MeshStandardMaterial({color: '#1b1e24', roughness: 0.4, metalness: 0.2, emissive: new THREE.Color('#3bc9ee'), emissiveIntensity: 0}), []);
+  // secure chip: calm cyan-ish idle glow after open; on wipe flashes red 3 times, then dark
+  const wipeFlash = wipeS >= 0 ? (wipeS < 36 ? (Math.floor(wipeS / 6) % 2 === 0 ? 2.4 : 0.2) : Math.max(0, 0.6 - (wipeS - 36) / 30)) : 0;
+  chipMat.emissiveIntensity = wipeFlash;
+  flashMat.emissiveIntensity = openP > 0.9 ? (wipeS >= 30 ? Math.max(0, 0.5 - (wipeS - 30) / 25) : 0.5) : 0;
 
   const rotY = (1 - driveP) * -2.2 + Math.sin(frame / 50) * 0.08;
   const x0 = (1 - driveP) * -5;
   const lights = Array.from({length: 10}).map((_, i) => {
     const lx = -1.1 + i * 0.235;
     const isOn = props.on || (tenS >= 0 && tenS >= i * 2);
-    const isUsed = i < used && usedS >= 0 && usedS >= i * 3;
-    const pulse = !isUsed && leftS >= 0 ? 1 + 0.25 * Math.abs(Math.sin(leftS / 5)) : 1;
+    const isUsed = i < used && ((props.usedLit ?? false) || (usedS >= 0 && usedS >= i * 3));
+    const wiped = wipeS >= 0 && wipeS >= 4 + i * 2;
+    const pulse = !isUsed && !wiped && leftS >= 0 ? 1 + 0.25 * Math.abs(Math.sin(leftS / 5)) : 1;
     return (
-      <mesh key={i} material={isUsed ? amberMat : isOn ? whiteMat : offMat} position={[lx, -0.12, 0.185]} scale={[pulse, pulse, 1]} rotation={[Math.PI / 2, 0, 0]}>
+      <mesh key={i} material={wiped ? redMat : isUsed ? (props.red ? redMat : amberMat) : isOn ? whiteMat : offMat} position={[lx, -0.12, 0.185]} scale={[pulse, pulse, 1]} rotation={[Math.PI / 2, 0, 0]}>
         <cylinderGeometry args={[0.07, 0.07, 0.03, 24]} />
       </mesh>
     );
@@ -430,6 +448,31 @@ export const Drive3D: React.FC<SceneProps<DP>> = ({props, beats, durationInFrame
   return (
     <Studio cam={cam} overlay={<><Tags tags={props.tags ?? []} show={tagShow} />{props.caption ? <Caption text={props.caption} /> : null}</>} bloom={1}>
       <group position={[x0, 0, 0]} rotation={[0.12, rotY, 0]}>
+        {/* the board under the shell (visible once the shell lifts) */}
+        {openP > 0 ? (
+          <group position={[0.05, 0, -0.02]}>
+            <mesh material={boardMat}><boxGeometry args={[2.7, 0.78, 0.05]} /></mesh>
+            {/* secure chip (holds the encryption key) */}
+            <group position={[-0.55, 0, 0.05]}>
+              <mesh material={chipMat}><boxGeometry args={[0.5, 0.5, 0.06]} /></mesh>
+              {Array.from({length: 8}).map((_, k) => (
+                <mesh key={k} material={goldMat} position={[-0.21 + k * 0.06, (k % 2 ? 1 : -1) * 0.27, -0.01]}><boxGeometry args={[0.025, 0.06, 0.015]} /></mesh>
+              ))}
+            </group>
+            {/* flash memory (the encrypted data) */}
+            <group position={[0.55, 0, 0.05]}>
+              <mesh material={flashMat}><boxGeometry args={[0.9, 0.5, 0.05]} /></mesh>
+              {Array.from({length: 12}).map((_, k) => (
+                <mesh key={k} material={goldMat} position={[-0.4 + k * 0.073, (k % 2 ? 1 : -1) * 0.27, -0.01]}><boxGeometry args={[0.03, 0.06, 0.015]} /></mesh>
+              ))}
+            </group>
+            {/* traces */}
+            {[-0.18, 0, 0.18].map((y, k) => (
+              <mesh key={k} material={goldMat} position={[0, y, 0.03]}><boxGeometry args={[0.6, 0.012, 0.005]} /></mesh>
+            ))}
+          </group>
+        ) : null}
+        <group position={[0, openP * 0.95, openP * 0.55]} rotation={[-openP * 0.9, 0, 0]}>
         <mesh geometry={bodyGeo} material={bodyMat} />
         {/* metal connector */}
         <mesh material={steelMat} position={[-1.85, 0, 0]}>
@@ -450,6 +493,7 @@ export const Drive3D: React.FC<SceneProps<DP>> = ({props, beats, durationInFrame
           <meshStandardMaterial color="#14181d" metalness={0.4} roughness={0.5} />
         </mesh>
         {lights}
+        </group>
       </group>
       {/* ghost padlock (illustration of lock-out) */}
       {lockP > 0 ? (

@@ -1,0 +1,1110 @@
+{
+ "slug": "ironkey-two-guesses",
+ "format": "object",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 1.0,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "Two more wrong guesses,",
+  "locked away forever.",
+  "Stefan Thomas",
+  "seven thousand",
+  "secret keys",
+  "IronKey,",
+  "lost the paper.",
+  "wipes itself for good.",
+  "eight times.",
+  "half a billion dollars.",
+  "break in?",
+  "Unciphered",
+  "said no.",
+  "still locked.",
+  "one piece of paper,",
+  "no second copy.",
+  "recovery words.",
+  "twice,",
+  "two different places.",
+  "gets your coins back."
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "paper",
+     "kind": "doc",
+     "at": [
+      -4.0,
+      0.4
+     ],
+     "tone": "alert",
+     "size": 1.2
+    },
+    {
+     "id": "drive",
+     "kind": "block",
+     "at": [
+      0,
+      0.4
+     ],
+     "icon": "lock",
+     "tone": "accent",
+     "size": 1.3
+    },
+    {
+     "id": "coins",
+     "kind": "coins",
+     "at": [
+      4.0,
+      0.4
+     ],
+     "tone": "warm",
+     "size": 1.3
+    }
+   ],
+   "links": [
+    {
+     "id": "l1",
+     "from": "paper",
+     "to": "drive",
+     "style": "dashed",
+     "tone": "alert"
+    },
+    {
+     "id": "l2",
+     "from": "drive",
+     "to": "coins",
+     "style": "dashed",
+     "tone": "warm"
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "Two",
+   "component": "Drive3D",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "used": 8,
+    "red": true,
+    "on": true,
+    "usedLit": true,
+    "actions": [
+     "label:0",
+     "left",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "2 GUESSES LEFT",
+      "x": 540,
+      "y": 600,
+      "tone": "alert",
+      "size": 72,
+      "pill": true
+     },
+     {
+      "text": "7,002 BTC inside",
+      "x": 540,
+      "y": 1450,
+      "tone": "warm",
+      "size": 56,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.25,
+       10.6
+      ],
+      "look": [
+       -0.05,
+       -0.08,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.15,
+       0.15,
+       9.6
+      ],
+      "look": [
+       -0.05,
+       -0.08,
+       0
+      ],
+      "fov": 30,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "Two",
+    "guesses,",
+    "seven"
+   ]
+  },
+  {
+   "anchor": "are locked",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "plate": "7,002 BTC",
+    "actions": [
+     "lock",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "locked forever",
+      "x": 540,
+      "y": 600,
+      "tone": "accent",
+      "size": 60,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.8,
+       0.6,
+       8.8
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.4,
+       0.4,
+       7.8
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "locked",
+    "forever."
+   ]
+  },
+  {
+   "anchor": "Stefan",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "actions": [
+     "enter",
+     "card",
+     "label:0"
+    ],
+    "card": {
+     "name": "STEFAN THOMAS",
+     "role": "German-born programmer",
+     "note": "3D stand-in",
+     "y": 1300
+    },
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.85,
+       8.8
+      ],
+      "look": [
+       0,
+       0.15,
+       0
+      ],
+      "fov": 30
+     }
+    ],
+    "tags": [
+     {
+      "text": "2011",
+      "x": 540,
+      "y": 560,
+      "tone": "warm",
+      "size": 64,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "Stefan",
+    "German-born",
+    "eleven,"
+   ]
+  },
+  {
+   "anchor": "a Bitcoin fan",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "desk": true,
+    "actions": [
+     "coins",
+     "count",
+     "label:0"
+    ],
+    "counter": {
+     "to": 7002,
+     "suffix": " BTC",
+     "x": 790,
+     "y": 1030,
+     "size": 78
+    },
+    "tags": [
+     {
+      "text": "paid by an early fan",
+      "x": 540,
+      "y": 1390,
+      "tone": "warm",
+      "size": 44
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.7,
+       1.15,
+       10.0
+      ],
+      "look": [
+       0.45,
+       -0.1,
+       0.6
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 2,
+      "pos": [
+       2.35,
+       1.0,
+       9.3
+      ],
+      "look": [
+       0.5,
+       -0.15,
+       0.65
+      ],
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "fan",
+    "paid",
+    "bitcoin"
+   ]
+  },
+  {
+   "anchor": "for an explainer",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "payment for a video:",
+     "“What is Bitcoin?”"
+    ],
+    "accent": [
+     "video:",
+     "Bitcoin?”"
+    ]
+   },
+   "beats": [
+    "for",
+    "explainer"
+   ]
+  },
+  {
+   "anchor": "He kept",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "plate": "7,002 BTC",
+    "actions": [
+     "key",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "secret keys:",
+      "x": 540,
+      "y": 580,
+      "tone": "warm",
+      "size": 44,
+      "pill": true
+     },
+     {
+      "text": "they move the coins",
+      "x": 540,
+      "y": 655,
+      "tone": "warm",
+      "size": 44,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.0,
+       0.5,
+       6.6
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.55,
+       0.25,
+       5.8
+      ],
+      "look": [
+       0,
+       -0.4,
+       0
+      ],
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "kept",
+    "move"
+   ]
+  },
+  {
+   "anchor": "on an IronKey",
+   "component": "Drive3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "used": 0,
+    "actions": [
+     "drive",
+     "label:0",
+     "label:1",
+     "open",
+     "label:2",
+     "label:3"
+    ],
+    "tags": [
+     {
+      "text": "IronKey",
+      "x": 540,
+      "y": 560,
+      "tone": "accent",
+      "size": 64,
+      "pill": true
+     },
+     {
+      "text": "an encrypted USB drive",
+      "x": 540,
+      "y": 640,
+      "tone": "muted",
+      "size": 36,
+      "pill": true
+     },
+     {
+      "text": "chip that guards the key",
+      "x": 400,
+      "y": 1260,
+      "tone": "warm",
+      "size": 34,
+      "pill": true
+     },
+     {
+      "text": "his keys, scrambled",
+      "x": 700,
+      "y": 1340,
+      "tone": "accent",
+      "size": 34,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.5,
+       14.0
+      ],
+      "look": [
+       0,
+       0,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 3,
+      "pos": [
+       0,
+       3.4,
+       11.5
+      ],
+      "look": [
+       0,
+       0.3,
+       0
+      ],
+      "fov": 30,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "IronKey,",
+    "IronKey,",
+    "encrypted",
+    "USB",
+    "drive."
+   ]
+  },
+  {
+   "anchor": "He wrote",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "item": "letter",
+    "actions": [
+     "hold",
+     "label:0",
+     "shrug",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "password: one paper",
+      "x": 540,
+      "y": 560,
+      "tone": "warm",
+      "size": 44,
+      "pill": true
+     },
+     {
+      "text": "then he lost it",
+      "x": 540,
+      "y": 640,
+      "tone": "alert",
+      "size": 44,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.85,
+       8.2
+      ],
+      "look": [
+       0,
+       0.2,
+       0
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "wrote",
+    "password",
+    "lost",
+    "paper."
+   ]
+  },
+  {
+   "anchor": "After ten",
+   "component": "Drive3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "used": 8,
+    "opened": true,
+    "actions": [
+     "ten",
+     "label:0",
+     "wipe",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "10 wrong guesses",
+      "x": 540,
+      "y": 580,
+      "tone": "accent",
+      "size": 56,
+      "pill": true
+     },
+     {
+      "text": "the key is erased",
+      "x": 540,
+      "y": 1380,
+      "tone": "alert",
+      "size": 56,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       3.4,
+       12.0
+      ],
+      "look": [
+       0,
+       0.3,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.3,
+       3.0,
+       10.8
+      ],
+      "look": [
+       0,
+       0.25,
+       0
+      ],
+      "fov": 30,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "ten",
+    "guesses,",
+    "wipes",
+    "good."
+   ]
+  },
+  {
+   "anchor": "He's guessed",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "cointelegraph_2021.png",
+    "url": "cointelegraph.com/news/programmer-has-2-password-guesses-left-to-avoid-losing-266m-in-bitcoin",
+    "source": "Cointelegraph · 14 Jan 2021",
+    "cam": [
+     {
+      "x": 0.34,
+      "y": 0.72,
+      "zoom": 1.4
+     },
+     {
+      "x": 0.33,
+      "y": 0.76,
+      "zoom": 1.55
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 940,
+      "y": 2120,
+      "w": 520,
+      "h": 34
+     }
+    ]
+   },
+   "beats": [
+    "guessed",
+    "eight"
+   ]
+  },
+  {
+   "anchor": "Those coins",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 532,
+    "prefix": "$",
+    "suffix": "M",
+    "chip": "7,002 BTC × $76,024 (6 Nov 2026)",
+    "label": "over half a billion dollars",
+    "tone": "warm"
+   },
+   "beats": [
+    "coins",
+    "half",
+    "dollars."
+   ]
+  },
+  {
+   "anchor": "So can't",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "So can't someone",
+     "break in?"
+    ],
+    "accent": [
+     "break",
+     "in?"
+    ]
+   },
+   "beats": [
+    "So",
+    "break"
+   ]
+  },
+  {
+   "anchor": "In twenty twenty-three",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "long": true,
+   "props": {
+    "src": "cointelegraph_2023.png",
+    "url": "cointelegraph.com/news/recovery-firm-cracking-ripple-cto-bitcoin-hard-drive",
+    "source": "Cointelegraph · 25 Oct 2023",
+    "cam": [
+     {
+      "x": 0.34,
+      "y": 0.22,
+      "zoom": 1.4
+     },
+     {
+      "x": 0.33,
+      "y": 0.84,
+      "zoom": 1.5
+     },
+     {
+      "x": 0.33,
+      "y": 0.86,
+      "zoom": 1.55
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 30,
+      "y": 460,
+      "w": 1240,
+      "h": 300
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 40,
+      "y": 2370,
+      "w": 1290,
+      "h": 34
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 40,
+      "y": 2428,
+      "w": 790,
+      "h": 34
+     }
+    ]
+   },
+   "beats": [
+    "twenty-three,",
+    "Unciphered",
+    "open"
+   ]
+  },
+  {
+   "anchor": "Thomas said",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "source": "TechSpot · Oct 2023",
+    "text": "“Thomas politely declined their assistance” — he was already working with a different set of experts.",
+    "mark": "politely declined",
+    "stamp": "Oct 2023",
+    "note": "Reported",
+    "stampTop": 900
+   },
+   "beats": [
+    "no.",
+    "Another"
+   ]
+  },
+  {
+   "anchor": "As far",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "plate": "7,002 BTC",
+    "frozen": true,
+    "actions": [
+     "try",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "still locked",
+      "x": 540,
+      "y": 600,
+      "tone": "accent",
+      "size": 64,
+      "pill": true
+     },
+     {
+      "text": "no recovery reported",
+      "x": 540,
+      "y": 690,
+      "tone": "muted",
+      "size": 36,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -1.0,
+       0.7,
+       8.4
+      ],
+      "look": [
+       -0.2,
+       -0.45,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.6,
+       0.5,
+       7.4
+      ],
+      "look": [
+       -0.2,
+       -0.45,
+       0
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "far",
+    "still"
+   ]
+  },
+  {
+   "anchor": "His mistake",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "actions": [
+     "tag:0",
+     "link:l1",
+     "tag:1",
+     "link:l2",
+     "tag:2",
+     "alert:paper"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       0,
+       0.4
+      ],
+      "zoom": 88
+     },
+     {
+      "beat": 3,
+      "target": [
+       0.3,
+       0,
+       0.4
+      ],
+      "zoom": 96,
+      "dur": 40
+     }
+    ],
+    "tags": [
+     {
+      "text": "one password",
+      "x": 540,
+      "y": 470,
+      "tone": "accent",
+      "size": 56,
+      "pill": true
+     },
+     {
+      "text": "on one piece of paper",
+      "x": 540,
+      "y": 550,
+      "tone": "alert",
+      "size": 46,
+      "pill": true
+     },
+     {
+      "text": "no second copy",
+      "x": 540,
+      "y": 1420,
+      "tone": "alert",
+      "size": 56,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "mistake:",
+    "one",
+    "piece",
+    "paper,",
+    "second",
+    "copy."
+   ]
+  },
+  {
+   "anchor": "Your wallet's",
+   "component": "Seed3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "actions": [
+     "card",
+     "glow",
+     "label:0",
+     "label:1"
+    ],
+    "title": "Recovery words",
+    "tags": [
+     {
+      "text": "recovery words =",
+      "x": 540,
+      "y": 1320,
+      "tone": "good",
+      "size": 40,
+      "pill": true
+     },
+     {
+      "text": "your backup",
+      "x": 540,
+      "y": 1400,
+      "tone": "good",
+      "size": 48,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       6.6,
+       7.4
+      ],
+      "look": [
+       0,
+       0,
+       0.9
+      ],
+      "fov": 34
+     }
+    ]
+   },
+   "beats": [
+    "wallet's",
+    "recovery",
+    "recovery",
+    "words."
+   ]
+  },
+  {
+   "anchor": "Write them",
+   "component": "Seed3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "actions": [
+     "write",
+     "two",
+     "label:0",
+     "label:1"
+    ],
+    "title": "Recovery words",
+    "tags": [
+     {
+      "text": "copy 1 · one safe place",
+      "x": 540,
+      "y": 560,
+      "tone": "good",
+      "size": 40,
+      "pill": true
+     },
+     {
+      "text": "copy 2 · another place",
+      "x": 540,
+      "y": 640,
+      "tone": "good",
+      "size": 40,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.3,
+       9.8,
+       8.6
+      ],
+      "look": [
+       0.3,
+       0,
+       0.6
+      ],
+      "fov": 36
+     }
+    ]
+   },
+   "beats": [
+    "Write",
+    "twice,",
+    "two",
+    "places."
+   ]
+  },
+  {
+   "anchor": "Lose one",
+   "component": "Seed3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "device": true,
+    "actions": [
+     "glow",
+     "restore",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "one copy = coins back",
+      "x": 540,
+      "y": 560,
+      "tone": "good",
+      "size": 42,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       6.4,
+       6.0
+      ],
+      "look": [
+       0.6,
+       0,
+       0.3
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       1.5,
+       4.2,
+       3.8
+      ],
+      "look": [
+       1.6,
+       0,
+       0.25
+      ],
+      "fov": 32,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "Lose",
+    "other",
+    "back."
+   ]
+  }
+ ]
+}

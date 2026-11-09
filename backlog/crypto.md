@@ -57,3 +57,4 @@
 - [ ] Bitcoin ETFs: why Wall Street funds now hold over a million bitcoin — "Funds on Wall Street hold more bitcoin than Satoshi." (#23)
 - [ ] Why Bitcoin uses as much electricity as a country (and the debate around it) — "Bitcoin's network uses about as much electricity as a mid-sized country." (#26 The Superlative; give the critics' side)
 - [ ] (Later, not within a week of the Binance reel) How the $1.5B Bybit hack worked (Feb 2025) — "In February 2025, hackers took nearly $1.5 billion of crypto from one exchange, in a single transaction." (#23; how: a tampered signing screen; who investigators blamed; lesson: check what you sign)
+- [x] The IronKey: programmer Stefan Thomas has two password guesses left before 7,002 BTC lock forever (2026-11-09-ironkey-two-guesses)
