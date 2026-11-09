@@ -1,0 +1,6 @@
+Two more wrong passwords and 7,002 bitcoin are locked forever. This is the IronKey story.
+In 2011 programmer Stefan Thomas was paid 7,002 BTC for a video called "What is Bitcoin?". He kept the keys on an IronKey, an encrypted USB drive, wrote its password on paper and lost the paper. After 10 wrong guesses the drive erases its key. He has used 8. In 2023 the firm Unciphered offered to crack it; he declined because another team was already on it. As far as anyone has reported, it's still locked.
+The lesson: everything hung on one password on one piece of paper. Write your wallet's recovery words down twice and keep the copies in two different places.
+Follow for crypto, explained simply.
+Not financial advice.
+#Crypto #Bitcoin #CryptoExplained #CryptoForBeginners #CryptoHistory
