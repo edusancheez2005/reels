@@ -1,0 +1,6 @@
+Four billion dollars of bitcoin moved in one day, and the internet said Strategy was selling.
+Strategy is a company that stockpiles bitcoin. Last November, Arkham, a site that tracks wallets, the addresses holding coins, showed forty-three thousand of Strategy's coins leaving. Before panicking, ask three questions.
+One: does the tracker know every wallet? Arkham knew four hundred and eighty-four thousand of Strategy's coins. Strategy held over six hundred and forty thousand.
+Two: did the coins go to an exchange, where people sell? They spread across over a hundred new wallets. Arkham called it a storage switch.
+Three: what happened next? Strategy's chairman, Michael Saylor, said the rumour had "no truth". Three days later, a government filing showed Strategy had bought eight thousand more.
+The rumour's two mistakes: it trusted an incomplete count, and read a move as a sale. Check transfers on a free site like mempool dot space. Into an exchange? Someone may sell. New wallets? Often storage.

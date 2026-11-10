@@ -1,0 +1,8 @@
+$4.26 billion of bitcoin moved in one day and the internet said Strategy was selling. It wasn't. How to read a whale alert:
+In Nov 2025 Arkham showed 43,415 BTC leaving Strategy's wallets. Arkham only knew about 484,000 of its coins; Strategy held over 640,000. The coins went to 100+ new wallets, and Arkham called it a custodian rotation. Michael Saylor said there was "no truth" to the rumour, and 3 days later an SEC filing showed Strategy had bought 8,178 more.
+Before you panic: look up the transfer on a free explorer like mempool.space. Into an exchange? Someone may sell. Into new wallets? Often storage.
+Comment "WHALE" and Orca will DM you the breakdown.
+Not financial advice.
+#Bitcoin #CryptoNews #WhaleAlert #OnChain #Sonar
+
+Sources: Arkham Research, "Why Strategy Is Moving BTC To New Wallets" (14 Nov 2025) - The Block, "'We are buying': Michael Saylor says 'no truth' to rumor that Strategy sold 47,000 bitcoin" (14 Nov 2025) - Strategy Form 8-K, SEC (17 Nov 2025: 8,178 BTC bought 10-16 Nov; 649,870 BTC held) - Decrypt / CryptoQuant on exchange inflows (20 Feb 2026) - example transfer: mempool.space tx dcfdddf9...e41a (5 Nov 2026).

@@ -1,0 +1,1054 @@
+{
+ "slug": "2026-11-10-whale-alert-panic",
+ "format": "breakdown",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 1.0,
+ "captionStyle": "pill",
+ "captionY": 1470,
+ "header": {
+  "title": "THE $4.26B \"SALE\" THAT WASN'T",
+  "date": "14 NOV 2025"
+ },
+ "chapters": [
+  {
+   "anchor": "Four billion",
+   "label": "Alert"
+  },
+  {
+   "anchor": "One: does",
+   "label": "Labels"
+  },
+  {
+   "anchor": "Two: did",
+   "label": "Direction"
+  },
+  {
+   "anchor": "Three: what",
+   "label": "Next"
+  },
+  {
+   "anchor": "The rumour's two",
+   "label": "Check"
+  }
+ ],
+ "emphasis": [
+  "Four billion dollars",
+  "selling.",
+  "stockpiles",
+  "Arkham,",
+  "forty-three thousand",
+  "three questions.",
+  "every wallet?",
+  "four hundred and eighty-four thousand",
+  "six hundred and forty thousand.",
+  "exchange,",
+  "hundred new wallets.",
+  "storage switch.",
+  "\"no truth\".",
+  "eight thousand more.",
+  "incomplete count,",
+  "move as a sale.",
+  "mempool dot space.",
+  "Someone may sell.",
+  "Often storage."
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "strat",
+     "kind": "vault",
+     "at": [
+      -3.9,
+      -1.3
+     ],
+     "tone": "warm"
+    },
+    {
+     "id": "k1",
+     "kind": "coins",
+     "at": [
+      -5.2,
+      1.3
+     ],
+     "tone": "warm"
+    },
+    {
+     "id": "k2",
+     "kind": "coins",
+     "at": [
+      -3.9,
+      1.9
+     ],
+     "tone": "warm"
+    },
+    {
+     "id": "k3",
+     "kind": "coins",
+     "at": [
+      -2.6,
+      1.3
+     ],
+     "tone": "warm"
+    },
+    {
+     "id": "k4",
+     "kind": "coins",
+     "at": [
+      -1.6,
+      -2.4
+     ],
+     "tone": "muted"
+    },
+    {
+     "id": "trk",
+     "kind": "block",
+     "at": [
+      -0.4,
+      2.4
+     ],
+     "tone": "accent",
+     "icon": "eye"
+    },
+    {
+     "id": "ex",
+     "kind": "server",
+     "at": [
+      3.9,
+      -2.0
+     ],
+     "tone": "warm"
+    },
+    {
+     "id": "n1",
+     "kind": "coins",
+     "at": [
+      2.4,
+      1.0
+     ],
+     "tone": "good"
+    },
+    {
+     "id": "n2",
+     "kind": "coins",
+     "at": [
+      3.6,
+      1.6
+     ],
+     "tone": "good"
+    },
+    {
+     "id": "n3",
+     "kind": "coins",
+     "at": [
+      4.8,
+      1.0
+     ],
+     "tone": "good"
+    },
+    {
+     "id": "n4",
+     "kind": "coins",
+     "at": [
+      3.6,
+      2.8
+     ],
+     "tone": "good"
+    }
+   ],
+   "links": [
+    {
+     "id": "l1",
+     "from": "trk",
+     "to": "k1",
+     "style": "dashed",
+     "tone": "accent"
+    },
+    {
+     "id": "l2",
+     "from": "trk",
+     "to": "k2",
+     "style": "dashed",
+     "tone": "accent"
+    },
+    {
+     "id": "l3",
+     "from": "trk",
+     "to": "k3",
+     "style": "dashed",
+     "tone": "accent"
+    }
+   ],
+   "movers": [
+    {
+     "id": "c1",
+     "kind": "coin",
+     "path": [
+      "strat",
+      "n1"
+     ],
+     "dur": 18
+    },
+    {
+     "id": "c2",
+     "kind": "coin",
+     "path": [
+      "strat",
+      "n3"
+     ],
+     "dur": 18
+    },
+    {
+     "id": "c3",
+     "kind": "coin",
+     "path": [
+      "strat",
+      "n4"
+     ],
+     "dur": 18
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "Four billion",
+   "component": "BigNumber",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "value": 4.26,
+    "decimals": 2,
+    "prefix": "$",
+    "suffix": "B",
+    "logo": "bitcoin.svg",
+    "chip": "MOVED IN ONE DAY · 14 NOV 2025",
+    "label": "43,415 BTC out of Strategy's wallets",
+    "tone": "alert",
+    "from": 4.0
+   },
+   "beats": [
+    "Four",
+    "billion",
+    "day,"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "and the internet",
+   "component": "Quote",
+   "transition": "whip",
+   "props": {
+    "source": "X post citing Arkham data, as reported by The Block · 14 Nov 2025",
+    "text": "Arkham data shows Strategy's bitcoin dropped from 484,000 to about 437,000.",
+    "mark": "dropped",
+    "stamp": "RUMOUR"
+   },
+   "beats": [
+    "internet",
+    "Strategy",
+    "selling."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Strategy is a company",
+   "component": "Iso3D",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "n1",
+     "n2",
+     "n3",
+     "n4",
+     "trk"
+    ],
+    "actions": [
+     "cam",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "Strategy: a company that stockpiles bitcoin",
+      "at": "strat",
+      "side": "up",
+      "dy": -190,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -3.9,
+       0.3,
+       -0.4
+      ],
+      "zoom": 120
+     },
+     {
+      "beat": 0,
+      "target": [
+       -3.6,
+       0.3,
+       0.2
+      ],
+      "zoom": 96
+     }
+    ]
+   },
+   "beats": [
+    "Strategy",
+    "stockpiles"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Last November",
+   "component": "Iso3D",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "n1",
+     "n2",
+     "n3",
+     "n4",
+     "trk"
+    ],
+    "actions": [
+     "cam",
+     "show:trk",
+     "link:l1",
+     "link:l2",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "Arkham: a site that tracks wallets",
+      "at": "trk",
+      "side": "up",
+      "dy": -170,
+      "tone": "accent"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -3.6,
+       0.3,
+       0.2
+      ],
+      "zoom": 96
+     },
+     {
+      "beat": 0,
+      "target": [
+       -2.6,
+       0.3,
+       1.2
+      ],
+      "zoom": 92
+     }
+    ]
+   },
+   "beats": [
+    "Last",
+    "Arkham,",
+    "tracks",
+    "addresses",
+    "coins,"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "showed forty-three",
+   "component": "Shot",
+   "transition": "whip",
+   "props": {
+    "src": "arkham.png",
+    "chrome": "browser",
+    "url": "info.arkm.com/research/why-strategy-transfers-moving-btc-bitcoin-sell-saylor",
+    "source": "Arkham Research · 14 Nov 2025",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.2,
+      "zoom": 1.15
+     },
+     {
+      "x": 0.5,
+      "y": 0.2,
+      "zoom": 1.3
+     },
+     {
+      "x": 0.5,
+      "y": 0.6,
+      "zoom": 1.1
+     },
+     {
+      "x": 0.5,
+      "y": 0.92,
+      "zoom": 1.25
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 250,
+      "y": 548,
+      "w": 1650,
+      "h": 120
+     },
+     {
+      "beat": 3,
+      "kind": "box",
+      "x": 285,
+      "y": 2585,
+      "w": 1650,
+      "h": 215
+     }
+    ]
+   },
+   "beats": [
+    "showed",
+    "forty-three",
+    "coins",
+    "leaving."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Before panicking",
+   "component": "Title",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "Before you panic:",
+     "3 questions"
+    ],
+    "accent": [
+     "3 questions"
+    ]
+   },
+   "beats": [
+    "Before",
+    "three"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "One: does",
+   "component": "Iso3D",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "n1",
+     "n2",
+     "n3",
+     "n4"
+    ],
+    "actions": [
+     "cam",
+     "label:0",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "known to Arkham",
+      "at": "k2",
+      "side": "up",
+      "dy": -150,
+      "tone": "accent"
+     },
+     {
+      "text": "not labelled",
+      "at": "k4",
+      "side": "right",
+      "dx": 40,
+      "dy": -60,
+      "tone": "muted"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -3.0,
+       0.3,
+       0.8
+      ],
+      "zoom": 70
+     },
+     {
+      "beat": 0,
+      "target": [
+       -3.0,
+       0.3,
+       0.0
+      ],
+      "zoom": 78
+     }
+    ],
+    "state": {
+     "links": [
+      "l1",
+      "l2",
+      "l3"
+     ]
+    }
+   },
+   "beats": [
+    "One:",
+    "tracker",
+    "every"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Arkham knew",
+   "component": "Iso3D",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "n1",
+     "n2",
+     "n3",
+     "n4"
+    ],
+    "actions": [
+     "tag:0",
+     "tag:1"
+    ],
+    "labels": [],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -3.0,
+       0.3,
+       0.0
+      ],
+      "zoom": 78
+     },
+     {
+      "beat": 0,
+      "target": [
+       -2.2,
+       0.3,
+       1.4
+      ],
+      "zoom": 92
+     }
+    ],
+    "state": {
+     "links": [
+      "l1",
+      "l2",
+      "l3"
+     ]
+    },
+    "tags": [
+     {
+      "text": "Arkham's count",
+      "x": 540,
+      "y": 600,
+      "tone": "accent",
+      "size": 46
+     },
+     {
+      "text": "484,000 BTC",
+      "x": 540,
+      "y": 680,
+      "tone": "accent",
+      "size": 64
+     }
+    ]
+   },
+   "beats": [
+    "Arkham",
+    "eighty-four"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Strategy held",
+   "component": "Growth",
+   "transition": "zoom",
+   "props": {
+    "items": [
+     {
+      "label": "Arkham's count",
+      "value": 484000,
+      "display": "484,000"
+     },
+     {
+      "label": "Strategy held (SEC filing)",
+      "value": 641692,
+      "display": "641,692"
+     }
+    ],
+    "badge": "+157,692 unseen"
+   },
+   "beats": [
+    "Strategy",
+    "six",
+    "thousand."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Two: did",
+   "component": "Iso3D",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "n1",
+     "n2",
+     "n3",
+     "n4"
+    ],
+    "actions": [
+     "cam",
+     "pulse:ex",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "exchange: where people sell",
+      "at": "ex",
+      "side": "up",
+      "dy": -200,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.5,
+       0.3,
+       -0.8
+      ],
+      "zoom": 70
+     },
+     {
+      "beat": 0,
+      "target": [
+       1.5,
+       0.3,
+       -1.2
+      ],
+      "zoom": 80
+     }
+    ]
+   },
+   "beats": [
+    "Two:",
+    "exchange,",
+    "sell?"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "They spread",
+   "component": "Iso3D",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "n3",
+     "n4"
+    ],
+    "actions": [
+     "move:c1",
+     "show:n1",
+     "move:c2",
+     "show:n2",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "100+ new wallets",
+      "at": "n2",
+      "side": "up",
+      "dy": -170,
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.5,
+       0.3,
+       -1.2
+      ],
+      "zoom": 80
+     },
+     {
+      "beat": 0,
+      "target": [
+       1.2,
+       0.3,
+       0.6
+      ],
+      "zoom": 70
+     }
+    ]
+   },
+   "beats": [
+    "They",
+    "spread",
+    "across",
+    "hundred",
+    "wallets."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Arkham called",
+   "component": "Quote",
+   "transition": "whip",
+   "props": {
+    "source": "Arkham Research · 14 Nov 2025",
+    "text": "Large-scale holders like Strategy regularly undergo wallet and custodian rotations…",
+    "mark": "rotations"
+   },
+   "beats": [
+    "called",
+    "storage"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Three: what",
+   "component": "Trader3D",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "screens": {
+     "rumour": {
+      "head": "rumour on X",
+      "big": "SELLING?",
+      "sub": [
+       "Strategy · 14 Nov 2025"
+      ],
+      "tone": "alert",
+      "chart": "flat",
+      "feed": [
+       "Arkham: 484k → 437k BTC",
+       "transfer or sale?",
+       "unclear"
+      ]
+     }
+    },
+    "screen": "rumour",
+    "actions": [
+     "type",
+     "card"
+    ],
+    "caption": "3D recreation · details: The Block",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.6,
+       2.0,
+       -2.2
+      ],
+      "look": [
+       0,
+       0.9,
+       0.4
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       2.2,
+       1.8,
+       -1.5
+      ],
+      "look": [
+       0,
+       0.95,
+       0.4
+      ],
+      "fov": 33,
+      "dur": 40
+     }
+    ],
+    "card": {
+     "name": "MICHAEL SAYLOR",
+     "role": "executive chairman, Strategy",
+     "note": "3D stand-in",
+     "y": 1000
+    }
+   },
+   "beats": [
+    "Three:",
+    "chairman,"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "said the rumour",
+   "component": "Quote",
+   "transition": "cut",
+   "props": {
+    "source": "Michael Saylor, quoted by The Block · 14 Nov 2025",
+    "text": "There is no truth to this rumor.",
+    "mark": "no truth"
+   },
+   "beats": [
+    "said",
+    "truth\"."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Three days later",
+   "component": "Title",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "3 days later:",
+     "an SEC filing"
+    ],
+    "accent": [
+     "3 days later:"
+    ]
+   },
+   "beats": [
+    "Three",
+    "filing"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "showed Strategy",
+   "component": "BigNumber",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 8178,
+    "prefix": "+",
+    "suffix": " BTC",
+    "chip": "SEC FILING · 17 NOV 2025",
+    "label": "bought 10–16 Nov 2025, for $835.6M",
+    "tone": "good"
+   },
+   "beats": [
+    "showed",
+    "eight",
+    "more."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "The rumour's two",
+   "component": "Checklist",
+   "transition": "zoom",
+   "props": {
+    "title": "The rumour's 2 mistakes",
+    "rows": [
+     {
+      "left": "Trusted an incomplete count",
+      "right": "484k of 641k",
+      "badge": "✗",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "rumour's",
+    "trusted",
+    "count,"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "and read a move",
+   "component": "Checklist",
+   "transition": "cut",
+   "props": {
+    "title": "The rumour's 2 mistakes",
+    "rows": [
+     {
+      "left": "Trusted an incomplete count",
+      "right": "484k of 641k",
+      "badge": "✗",
+      "tone": "alert"
+     },
+     {
+      "left": "Read a move as a sale",
+      "right": "it bought more",
+      "badge": "✗",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "and",
+    "read",
+    "move",
+    "sale."
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Check transfers",
+   "component": "Shot",
+   "transition": "whip",
+   "props": {
+    "src": "mempool.png",
+    "chrome": "browser",
+    "url": "mempool.space/tx/dcfdddf91036bf0a7c06db991f8ec1a7d9e7d903bbccc6869503f3399ee9e41a",
+    "source": "mempool.space · example transfer, 5 Nov 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.25,
+      "zoom": 1.1
+     },
+     {
+      "x": 0.5,
+      "y": 0.78,
+      "zoom": 1.3
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 1125,
+      "y": 2200,
+      "w": 1020,
+      "h": 120
+     }
+    ]
+   },
+   "beats": [
+    "Check",
+    "free",
+    "mempool"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "Into an exchange",
+   "component": "Flow",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "tx",
+      "logo": "bitcoin.svg",
+      "label": "the transfer",
+      "x": 500,
+      "y": 160
+     },
+     {
+      "id": "ex",
+      "label": "Into an exchange",
+      "sub": "someone may sell",
+      "tone": "warm",
+      "x": 500,
+      "y": 620
+     }
+    ],
+    "edges": [
+     {
+      "from": "tx",
+      "to": "ex",
+      "tone": "warm",
+      "flow": true
+     }
+    ],
+    "order": [
+     "tx",
+     [
+      "tx>ex",
+      "ex"
+     ]
+    ]
+   },
+   "beats": [
+    "Into",
+    "Someone"
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": "New wallets",
+   "component": "Flow",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "tx",
+      "logo": "bitcoin.svg",
+      "label": "the transfer",
+      "x": 500,
+      "y": 160
+     },
+     {
+      "id": "nw",
+      "label": "New wallets",
+      "sub": "often storage",
+      "tone": "accent",
+      "x": 500,
+      "y": 620
+     }
+    ],
+    "edges": [
+     {
+      "from": "tx",
+      "to": "nw",
+      "tone": "accent",
+      "flow": true
+     }
+    ],
+    "order": [
+     "tx",
+     [
+      "tx>nw",
+      "nw"
+     ]
+    ]
+   },
+   "beats": [
+    "New",
+    "Often"
+   ],
+   "theme": "dark"
+  }
+ ]
+}

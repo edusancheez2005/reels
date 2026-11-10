@@ -1,0 +1,1122 @@
+[
+ {
+  "text": "Four",
+  "startMs": 80,
+  "endMs": 357,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 430,
+  "endMs": 745,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 800,
+  "endMs": 1130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 1130,
+  "endMs": 1243,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bitcoin",
+  "startMs": 1260,
+  "endMs": 1687,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " moved",
+  "startMs": 1690,
+  "endMs": 2019,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 2020,
+  "endMs": 2185,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 2210,
+  "endMs": 2400,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " day,",
+  "startMs": 2400,
+  "endMs": 2629,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 2850,
+  "endMs": 2990,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 2990,
+  "endMs": 3127,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " internet",
+  "startMs": 3180,
+  "endMs": 3600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " said",
+  "startMs": 3600,
+  "endMs": 3820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Strategy",
+  "startMs": 3820,
+  "endMs": 4400,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 4400,
+  "endMs": 4568,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " selling.",
+  "startMs": 4570,
+  "endMs": 4900,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Strategy",
+  "startMs": 5080,
+  "endMs": 5630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 5630,
+  "endMs": 5740,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 5800,
+  "endMs": 5900,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " company",
+  "startMs": 5900,
+  "endMs": 6340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 6340,
+  "endMs": 6550,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stockpiles",
+  "startMs": 6550,
+  "endMs": 7160,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bitcoin.",
+  "startMs": 7160,
+  "endMs": 7610,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Last",
+  "startMs": 7790,
+  "endMs": 8070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " November,",
+  "startMs": 8070,
+  "endMs": 8592,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Arkham,",
+  "startMs": 8760,
+  "endMs": 9222,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 9450,
+  "endMs": 9540,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " site",
+  "startMs": 9540,
+  "endMs": 9910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 9910,
+  "endMs": 10139,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tracks",
+  "startMs": 10140,
+  "endMs": 10410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wallets,",
+  "startMs": 10410,
+  "endMs": 10884,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 11110,
+  "endMs": 11228,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " addresses",
+  "startMs": 11290,
+  "endMs": 11686,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " holding",
+  "startMs": 11690,
+  "endMs": 12130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins,",
+  "startMs": 12130,
+  "endMs": 12489,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " showed",
+  "startMs": 12720,
+  "endMs": 13004,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forty-three",
+  "startMs": 13060,
+  "endMs": 13620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 13620,
+  "endMs": 14090,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 14090,
+  "endMs": 14250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Strategy's",
+  "startMs": 14250,
+  "endMs": 14895,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins",
+  "startMs": 14900,
+  "endMs": 15230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " leaving.",
+  "startMs": 15230,
+  "endMs": 15640,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Before",
+  "startMs": 15820,
+  "endMs": 16140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " panicking,",
+  "startMs": 16140,
+  "endMs": 16613,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ask",
+  "startMs": 16850,
+  "endMs": 17020,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 17020,
+  "endMs": 17260,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " questions.",
+  "startMs": 17260,
+  "endMs": 17830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " One:",
+  "startMs": 18010,
+  "endMs": 18234,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " does",
+  "startMs": 18410,
+  "endMs": 18682,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 18700,
+  "endMs": 18794,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tracker",
+  "startMs": 18850,
+  "endMs": 19130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " know",
+  "startMs": 19210,
+  "endMs": 19354,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 19360,
+  "endMs": 19634,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wallet?",
+  "startMs": 19660,
+  "endMs": 19970,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Arkham",
+  "startMs": 20174,
+  "endMs": 20592,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " knew",
+  "startMs": 20724,
+  "endMs": 20831,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " four",
+  "startMs": 20834,
+  "endMs": 21084,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 21084,
+  "endMs": 21604,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 21604,
+  "endMs": 21784,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eighty-four",
+  "startMs": 21784,
+  "endMs": 22294,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 22294,
+  "endMs": 22844,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 22844,
+  "endMs": 22979,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Strategy's",
+  "startMs": 23024,
+  "endMs": 23574,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins.",
+  "startMs": 23574,
+  "endMs": 23994,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Strategy",
+  "startMs": 24174,
+  "endMs": 24686,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " held",
+  "startMs": 24754,
+  "endMs": 24942,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " over",
+  "startMs": 24974,
+  "endMs": 25194,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " six",
+  "startMs": 25194,
+  "endMs": 25453,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 25454,
+  "endMs": 25844,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 25844,
+  "endMs": 26014,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forty",
+  "startMs": 26014,
+  "endMs": 26324,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand.",
+  "startMs": 26324,
+  "endMs": 26784,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Two:",
+  "startMs": 26964,
+  "endMs": 27171,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " did",
+  "startMs": 27374,
+  "endMs": 27586,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 27604,
+  "endMs": 27690,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins",
+  "startMs": 27694,
+  "endMs": 28001,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " go",
+  "startMs": 28004,
+  "endMs": 28209,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 28224,
+  "endMs": 28294,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 28294,
+  "endMs": 28468,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " exchange,",
+  "startMs": 28474,
+  "endMs": 29039,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " where",
+  "startMs": 29234,
+  "endMs": 29424,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " people",
+  "startMs": 29424,
+  "endMs": 29774,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sell?",
+  "startMs": 29774,
+  "endMs": 30024,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " They",
+  "startMs": 30228,
+  "endMs": 30372,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " spread",
+  "startMs": 30408,
+  "endMs": 30658,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " across",
+  "startMs": 30658,
+  "endMs": 30995,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " over",
+  "startMs": 31008,
+  "endMs": 31234,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 31248,
+  "endMs": 31318,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 31318,
+  "endMs": 31761,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " new",
+  "startMs": 31778,
+  "endMs": 31953,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wallets.",
+  "startMs": 31958,
+  "endMs": 32288,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Arkham",
+  "startMs": 32468,
+  "endMs": 32812,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " called",
+  "startMs": 32898,
+  "endMs": 33106,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 33108,
+  "endMs": 33188,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 33188,
+  "endMs": 33348,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " storage",
+  "startMs": 33348,
+  "endMs": 33748,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " switch.",
+  "startMs": 33748,
+  "endMs": 34088,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Three:",
+  "startMs": 34268,
+  "endMs": 34503,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " what",
+  "startMs": 34748,
+  "endMs": 34878,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " happened",
+  "startMs": 34898,
+  "endMs": 35206,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " next?",
+  "startMs": 35208,
+  "endMs": 35488,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Strategy's",
+  "startMs": 35692,
+  "endMs": 36274,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " chairman,",
+  "startMs": 36302,
+  "endMs": 36697,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Michael",
+  "startMs": 36902,
+  "endMs": 37278,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Saylor,",
+  "startMs": 37282,
+  "endMs": 37596,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " said",
+  "startMs": 37792,
+  "endMs": 38002,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 38002,
+  "endMs": 38124,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rumour",
+  "startMs": 38132,
+  "endMs": 38442,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 38442,
+  "endMs": 38653,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " \"no",
+  "startMs": 38772,
+  "endMs": 38862,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " truth\".",
+  "startMs": 38862,
+  "endMs": 39182,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Three",
+  "startMs": 39362,
+  "endMs": 39582,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " days",
+  "startMs": 39582,
+  "endMs": 39885,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " later,",
+  "startMs": 39952,
+  "endMs": 40200,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 40382,
+  "endMs": 40492,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " government",
+  "startMs": 40492,
+  "endMs": 41089,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " filing",
+  "startMs": 41092,
+  "endMs": 41456,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " showed",
+  "startMs": 41462,
+  "endMs": 41718,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Strategy",
+  "startMs": 41732,
+  "endMs": 42241,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 42242,
+  "endMs": 42372,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bought",
+  "startMs": 42372,
+  "endMs": 42662,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eight",
+  "startMs": 42662,
+  "endMs": 42922,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 42922,
+  "endMs": 43340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " more.",
+  "startMs": 43342,
+  "endMs": 43602,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 43782,
+  "endMs": 43892,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rumour's",
+  "startMs": 43892,
+  "endMs": 44275,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 44302,
+  "endMs": 44402,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mistakes:",
+  "startMs": 44402,
+  "endMs": 44988,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 45212,
+  "endMs": 45317,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " trusted",
+  "startMs": 45322,
+  "endMs": 45756,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 45782,
+  "endMs": 45865,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " incomplete",
+  "startMs": 45882,
+  "endMs": 46468,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " count,",
+  "startMs": 46522,
+  "endMs": 46797,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 47012,
+  "endMs": 47142,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " read",
+  "startMs": 47142,
+  "endMs": 47422,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 47422,
+  "endMs": 47620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " move",
+  "startMs": 47622,
+  "endMs": 47892,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " as",
+  "startMs": 47892,
+  "endMs": 48002,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 48002,
+  "endMs": 48168,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sale.",
+  "startMs": 48172,
+  "endMs": 48442,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Check",
+  "startMs": 48622,
+  "endMs": 48872,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " transfers",
+  "startMs": 48872,
+  "endMs": 49489,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 49492,
+  "endMs": 49662,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 49662,
+  "endMs": 49836,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " free",
+  "startMs": 49842,
+  "endMs": 50125,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " site",
+  "startMs": 50132,
+  "endMs": 50412,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " like",
+  "startMs": 50412,
+  "endMs": 50703,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mempool",
+  "startMs": 50832,
+  "endMs": 51166,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dot",
+  "startMs": 51172,
+  "endMs": 51432,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " space.",
+  "startMs": 51432,
+  "endMs": 51802,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Into",
+  "startMs": 51982,
+  "endMs": 52242,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 52242,
+  "endMs": 52352,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " exchange?",
+  "startMs": 52352,
+  "endMs": 52942,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Someone",
+  "startMs": 53146,
+  "endMs": 53543,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " may",
+  "startMs": 53606,
+  "endMs": 53769,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sell.",
+  "startMs": 53786,
+  "endMs": 53996,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " New",
+  "startMs": 54176,
+  "endMs": 54386,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wallets?",
+  "startMs": 54386,
+  "endMs": 54876,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Often",
+  "startMs": 55080,
+  "endMs": 55409,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " storage.",
+  "startMs": 55420,
+  "endMs": 56000,
+  "timestampMs": null,
+  "confidence": null
+ }
+]
