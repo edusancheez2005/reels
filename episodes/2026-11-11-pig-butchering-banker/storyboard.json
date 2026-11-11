@@ -1,0 +1,970 @@
+{
+ "slug": "pig-butchering-banker",
+ "format": "character",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 0.9,
+ "emphasis": [
+  "Seven point two billion dollars.",
+  "costliest scam",
+  "pig butchering:",
+  "fake profits,",
+  "take everything.",
+  "fool a banker.",
+  "Shan Hanes",
+  "stranger on WhatsApp",
+  "send more",
+  "unlock",
+  "daughter's college fund.",
+  "eleven wire transfers,",
+  "forty-seven million dollars,",
+  "never got a cent back.",
+  "collapsed.",
+  "twenty-four years",
+  "block them.",
+  "pay to withdraw,",
+  "already gone."
+ ],
+ "scenes": [
+  {
+   "anchor": "Seven",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "opened": true,
+    "keyGone": true,
+    "plate": "SCAM VICTIMS",
+    "actions": [
+     "label:0",
+     "drain",
+     "label:1",
+     "label:2"
+    ],
+    "tags": [
+     {
+      "text": "$7.2 BILLION",
+      "x": 540,
+      "y": 560,
+      "tone": "alert",
+      "size": 84
+     },
+     {
+      "text": "crypto investment scams",
+      "x": 540,
+      "y": 650,
+      "size": 40,
+      "pill": true
+     },
+     {
+      "text": "US losses, 2025",
+      "x": 540,
+      "y": 720,
+      "size": 40,
+      "tone": "warm",
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.9,
+       1.2,
+       9.8
+      ],
+      "look": [
+       0.3,
+       -0.25,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 2,
+      "pos": [
+       1.2,
+       1.05,
+       8.9
+      ],
+      "look": [
+       0.35,
+       -0.25,
+       0
+      ],
+      "fov": 38
+     }
+    ]
+   },
+   "beats": [
+    "Seven",
+    "billion",
+    "dollars."
+   ]
+  },
+  {
+   "anchor": "That's what",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "src": "ic3_report.png",
+    "chrome": "browser",
+    "url": "ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf",
+    "source": "FBI IC3 2025 Annual Report · p. 11",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.03
+     },
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.05
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 12,
+      "y": 214,
+      "w": 1040,
+      "h": 62
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 255,
+      "y": 214,
+      "w": 395,
+      "h": 32
+     }
+    ],
+    "width": 960
+   },
+   "beats": [
+    "That's",
+    "Americans",
+    "costliest",
+    "report."
+   ]
+  },
+  {
+   "anchor": "It's called",
+   "component": "Title",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "Pig butchering"
+    ],
+    "accent": [
+     "butchering"
+    ],
+    "size": 110
+   },
+   "beats": [
+    "called",
+    "butchering:"
+   ]
+  },
+  {
+   "anchor": "fatten",
+   "component": "Phone",
+   "theme": "light",
+   "transition": "rise",
+   "props": {
+    "time": "9:41",
+    "date": "Example messages",
+    "notifs": [
+     {
+      "app": "Trading app",
+      "title": "Your profit: +$8,400",
+      "body": "balance growing",
+      "icon": "📈",
+      "iconBg": "#16a34a"
+     },
+     {
+      "app": "Trading app",
+      "title": "Your profit: +$31,250",
+      "body": "invest more to earn more",
+      "icon": "📈",
+      "iconBg": "#16a34a"
+     },
+     {
+      "app": "Trading app",
+      "title": "Withdrawal blocked",
+      "body": "pay a fee to unlock your funds",
+      "icon": "⛔",
+      "iconBg": "#dc2626"
+     }
+    ]
+   },
+   "beats": [
+    "fatten",
+    "profits,",
+    "everything."
+   ]
+  },
+  {
+   "anchor": "And it can",
+   "component": "Trader3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "screens": {
+     "bank": {
+      "head": "Elkhart, Kansas",
+      "big": "BANK CEO",
+      "sub": [
+       "town of about 2,000"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "Heartland Tri-State Bank",
+       "CEO: Shan Hanes"
+      ]
+     },
+     "chat": {
+      "head": "new message",
+      "big": "UNKNOWN",
+      "sub": [
+       "WhatsApp · late 2022"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "unknown contact",
+       "crypto 'investment'",
+       "identity never found"
+      ]
+     },
+     "invest": {
+      "head": "crypto 'investment'",
+      "big": "PROFIT?",
+      "sub": [
+       "shown on screen only"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "money sent",
+       "more requested",
+       "'to unlock'"
+      ]
+     }
+    },
+    "caption": "3D recreation · details: DOJ, court filings via CNBC",
+    "colours": {
+     "top": "#2c3b55",
+     "legs": "#23262d",
+     "hair": "#8d8579"
+    },
+    "screen": "bank",
+    "actions": [
+     "idle",
+     "card",
+     "label:0",
+     "label:1"
+    ],
+    "card": {
+     "name": "SHAN HANES",
+     "role": "CEO, Heartland Tri-State Bank",
+     "note": "3D stand-in",
+     "y": 1000
+    },
+    "tags": [
+     {
+      "text": "ex-chairman",
+      "x": 540,
+      "y": 520,
+      "tone": "accent",
+      "size": 48,
+      "pill": true
+     },
+     {
+      "text": "Kansas Bankers Association",
+      "x": 540,
+      "y": 590,
+      "tone": "accent",
+      "size": 34,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.6,
+       2.0,
+       -2.2
+      ],
+      "look": [
+       0,
+       0.9,
+       0.4
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       2.2,
+       1.42,
+       1.05
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 32,
+      "dur": 40
+     },
+     {
+      "beat": 2,
+      "pos": [
+       2.0,
+       1.4,
+       0.9
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 31,
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "banker.",
+    "Shan",
+    "once",
+    "association."
+   ]
+  },
+  {
+   "anchor": "In late",
+   "component": "Trader3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "screens": {
+     "bank": {
+      "head": "Elkhart, Kansas",
+      "big": "BANK CEO",
+      "sub": [
+       "town of about 2,000"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "Heartland Tri-State Bank",
+       "CEO: Shan Hanes"
+      ]
+     },
+     "chat": {
+      "head": "new message",
+      "big": "UNKNOWN",
+      "sub": [
+       "WhatsApp · late 2022"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "unknown contact",
+       "crypto 'investment'",
+       "identity never found"
+      ]
+     },
+     "invest": {
+      "head": "crypto 'investment'",
+      "big": "PROFIT?",
+      "sub": [
+       "shown on screen only"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "money sent",
+       "more requested",
+       "'to unlock'"
+      ]
+     }
+    },
+    "caption": "3D recreation · details: DOJ, court filings via CNBC",
+    "colours": {
+     "top": "#2c3b55",
+     "legs": "#23262d",
+     "hair": "#8d8579"
+    },
+    "screen": "bank",
+    "actions": [
+     "label:0",
+     "screen:chat",
+     "label:1",
+     "type"
+    ],
+    "tags": [
+     {
+      "text": "late 2022:",
+      "x": 540,
+      "y": 500,
+      "tone": "warm",
+      "size": 48,
+      "pill": true
+     },
+     {
+      "text": "a stranger on WhatsApp",
+      "x": 540,
+      "y": 570,
+      "tone": "warm",
+      "size": 40,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.55,
+       1.42,
+       -0.85
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 31
+     },
+     {
+      "beat": 2,
+      "pos": [
+       -0.5,
+       1.4,
+       -0.72
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 30,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "2022,",
+    "stranger",
+    "WhatsApp",
+    "investment."
+   ]
+  },
+  {
+   "anchor": "Every time",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "source": "CNBC, from court records · 21 Aug 2024",
+    "text": "they needed more funds to unlock the supposed returns on his investments",
+    "mark": "more funds to unlock",
+    "note": "Exact words from the article"
+   },
+   "beats": [
+    "Every",
+    "paid",
+    "more"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "unlock his",
+   "component": "Trader3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "long": false,
+   "props": {
+    "screens": {
+     "bank": {
+      "head": "Elkhart, Kansas",
+      "big": "BANK CEO",
+      "sub": [
+       "town of about 2,000"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "Heartland Tri-State Bank",
+       "CEO: Shan Hanes"
+      ]
+     },
+     "chat": {
+      "head": "new message",
+      "big": "UNKNOWN",
+      "sub": [
+       "WhatsApp · late 2022"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "unknown contact",
+       "crypto 'investment'",
+       "identity never found"
+      ]
+     },
+     "invest": {
+      "head": "crypto 'investment'",
+      "big": "LOCKED",
+      "sub": [
+       "'profits' shown on screen",
+       "pay more to unlock"
+      ],
+      "tone": "alert",
+      "chart": "up",
+      "feed": [
+       "money sent",
+       "more requested",
+       "nothing withdrawn"
+      ]
+     }
+    },
+    "caption": "3D recreation · details: DOJ, court filings via CNBC",
+    "colours": {
+     "top": "#2c3b55",
+     "legs": "#23262d",
+     "hair": "#8d8579"
+    },
+    "screen": "invest",
+    "actions": [
+     "label:0",
+     "screen:invest"
+    ],
+    "tags": [
+     {
+      "text": "fake profits, locked",
+      "x": 540,
+      "y": 520,
+      "tone": "alert",
+      "size": 50,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.5,
+       1.4,
+       -0.72
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.45,
+       1.38,
+       -0.6
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 29,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "unlock",
+    "fake"
+   ]
+  },
+  {
+   "anchor": "He raided",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "value": 60000,
+    "prefix": "$",
+    "from": 60000,
+    "chip": "DEFENCE FILING",
+    "label": "taken from his daughter's college fund",
+    "tone": "alert"
+   },
+   "beats": [
+    "raided",
+    "college"
+   ]
+  },
+  {
+   "anchor": "Then he took",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "src": "doj_release.png",
+    "chrome": "browser",
+    "url": "justice.gov/usao-ks/pr/former-ceo-failed-bank-sentenced-prison",
+    "source": "US Attorney's Office, District of Kansas · 19 Aug 2024",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.08,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.78,
+      "zoom": 1.03
+     },
+     {
+      "x": 0.5,
+      "y": 0.8,
+      "zoom": 1.05
+     },
+     {
+      "x": 0.5,
+      "y": 0.8,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 265,
+      "y": 1200,
+      "w": 520,
+      "h": 44
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 228,
+      "y": 1245,
+      "w": 228,
+      "h": 56
+     }
+    ],
+    "width": 960
+   },
+   "beats": [
+    "took",
+    "eleven",
+    "forty-seven",
+    "months."
+   ]
+  },
+  {
+   "anchor": "He never",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "opened": true,
+    "keyGone": true,
+    "plate": "KANSAS BANK",
+    "actions": [
+     "drain",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "$0 came back",
+      "x": 540,
+      "y": 580,
+      "tone": "alert",
+      "size": 64,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.6,
+       0.8,
+       9.0
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.3,
+       0.6,
+       8.2
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "never",
+    "cent"
+   ]
+  },
+  {
+   "anchor": "So the bank",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "keyGone": true,
+    "plate": "KANSAS BANK",
+    "coins": 0,
+    "actions": [
+     "label:0",
+     "lock",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "bank closed",
+      "x": 540,
+      "y": 560,
+      "tone": "accent",
+      "size": 60,
+      "pill": true
+     },
+     {
+      "text": "28 July 2023",
+      "x": 540,
+      "y": 640,
+      "tone": "accent",
+      "size": 44,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.8,
+       0.6,
+       8.8
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.4,
+       0.4,
+       7.8
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "So",
+    "collapsed."
+   ]
+  },
+  {
+   "anchor": "He got",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "src": "nbc_head.png",
+    "chrome": "browser",
+    "url": "nbcwashington.com/news/business/money-report",
+    "source": "CNBC via NBC Washington · 21 Aug 2024",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.65,
+      "zoom": 1.06
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 28,
+      "y": 572,
+      "w": 960,
+      "h": 132
+     }
+    ],
+    "width": 960
+   },
+   "beats": [
+    "got",
+    "twenty-four"
+   ]
+  },
+  {
+   "anchor": "His mistakes",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "title": "His 2 mistakes",
+    "rows": [
+     {
+      "left": "Trusted a stranger",
+      "right": "WhatsApp",
+      "badge": "✗",
+      "tone": "alert"
+     },
+     {
+      "left": "Paid to 'unlock'",
+      "right": "never got it out",
+      "badge": "✗",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "mistakes:",
+    "trusting",
+    "paying"
+   ]
+  },
+  {
+   "anchor": "money he could",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "source": "FBI IC3 2025 Annual Report · p. 12",
+    "text": "they will be charged taxes and fees as a final attempt to exploit money from the victims before the scammers disappear",
+    "mark": "charged taxes and fees",
+    "note": "Exact words from the report"
+   },
+   "beats": [
+    "money",
+    "never",
+    "out."
+   ]
+  },
+  {
+   "anchor": "If a stranger",
+   "component": "Phone",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "time": "9:41",
+    "date": "Example",
+    "notifs": [
+     {
+      "app": "Messages",
+      "title": "Unknown number",
+      "body": "brings up crypto out of nowhere",
+      "icon": "💬",
+      "iconBg": "#3b82f6"
+     },
+     {
+      "app": "Phone",
+      "title": "Number blocked ✓",
+      "body": "no reply needed",
+      "icon": "🚫",
+      "iconBg": "#16a34a"
+     },
+     {
+      "app": "Reminder",
+      "title": "Strangers + crypto = scam",
+      "body": "that's how these scams start",
+      "icon": "⚠️",
+      "iconBg": "#f59e0b"
+     }
+    ]
+   },
+   "beats": [
+    "stranger",
+    "block",
+    "That's"
+   ]
+  },
+  {
+   "anchor": "If you must",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "Pay to withdraw?",
+     "It's already gone."
+    ],
+    "accent": [
+     "already gone."
+    ],
+    "size": 96
+   },
+   "beats": [
+    "must",
+    "money's"
+   ]
+  }
+ ]
+}
