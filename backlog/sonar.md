@@ -14,3 +14,4 @@
 - [ ] How trackers label wallets: exchanges, funds, miners, governments
 - [ ] Dormant wallets: why very old coins waking up makes headlines
 - [ ] Self-custody vs exchange custody: where the biggest holders keep coins
+- [x] Mt. Gox: 850,000 BTC lost in 2014 (hack from 2011, 647,000 BTC per DOJ), Karpelès' 2019 verdict, trustee repayments from 2024, ~34,000 BTC still to distribute (deadline Oct 2027) (2026-11-12-mt-gox-850k)

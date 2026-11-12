@@ -1,0 +1,1025 @@
+{
+ "slug": "mt-gox-850k",
+ "format": "documentary",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 0.9,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "fifty thousand",
+  "gone.",
+  "biggest bitcoin exchange",
+  "Tokyo",
+  "Mark Karpelès",
+  "hackers",
+  "six hundred and forty-seven thousand coins.",
+  "number on the website,",
+  "froze withdrawals",
+  "bankruptcy.",
+  "pocketing customers' money,",
+  "tampering with records.",
+  "ten years later,",
+  "thirty-four thousand coins",
+  "one company,",
+  "couldn't check.",
+  "only you control",
+  "small amount"
+ ],
+ "scenes": [
+  {
+   "anchor": "Eight",
+   "component": "BigNumber",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "value": 850000,
+    "suffix": " BTC",
+    "chip": "Mt. Gox · Feb 2014",
+    "label": "→ gone",
+    "tone": "alert"
+   },
+   "beats": [
+    "Eight",
+    "hundred",
+    "gone."
+   ]
+  },
+  {
+   "anchor": "In 2014,",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "source": "Computerworld (IDG News) · 21 Mar 2014",
+    "text": "“The exchange filed for bankruptcy protection stating that 850,000 bitcoins had disappeared”",
+    "mark": "850,000 bitcoins",
+    "stamp": "2014",
+    "note": "Exact words"
+   },
+   "beats": [
+    "In",
+    "2014,"
+   ]
+  },
+  {
+   "anchor": "the world's biggest",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "cut",
+   "props": {
+    "source": "US Justice Department · 9 Jun 2023",
+    "text": "“At the time, Mt. Gox was the largest Bitcoin exchange in existence, servicing thousands of users worldwide.”",
+    "mark": "largest Bitcoin exchange",
+    "note": "Exact words"
+   },
+   "beats": [
+    "the",
+    "biggest",
+    "lost"
+   ]
+  },
+  {
+   "anchor": "Mt. Gox was",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "plate": "MT. GOX",
+    "actions": [
+     "build",
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "TOKYO, JAPAN",
+      "x": 540,
+      "y": 600,
+      "tone": "accent",
+      "size": 52,
+      "pill": true
+     },
+     {
+      "text": "customers' coins,",
+      "x": 540,
+      "y": 1330,
+      "tone": "text",
+      "size": 46,
+      "pill": true
+     },
+     {
+      "text": "kept by the exchange",
+      "x": 540,
+      "y": 1410,
+      "tone": "text",
+      "size": 46,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.6,
+       1.4,
+       9.6
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.3,
+       0.8,
+       8.4
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36,
+      "dur": 45
+     }
+    ]
+   },
+   "beats": [
+    "Mt.",
+    "Tokyo",
+    "kept"
+   ]
+  },
+  {
+   "anchor": "French",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "actions": [
+     "enter",
+     "card",
+     "label:0"
+    ],
+    "card": {
+     "name": "MARK KARPELÈS",
+     "role": "French programmer · ran Mt. Gox",
+     "note": "3D stand-in",
+     "y": 1250
+    },
+    "tags": [
+     {
+      "text": "BOUGHT IT IN 2011",
+      "x": 540,
+      "y": 560,
+      "tone": "accent",
+      "size": 52,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.85,
+       8.8
+      ],
+      "look": [
+       0,
+       0.15,
+       0
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "French",
+    "Karpelès",
+    "2011."
+   ]
+  },
+  {
+   "anchor": "That same year",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "doj.png",
+    "url": "justice.gov/opa/pr/russian-nationals-charged-hacking-one-cryptocurrency-exchange-and-illicitly-operating-another",
+    "source": "US Justice Department · charges unsealed 9 Jun 2023",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.85,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 845,
+      "y": 668,
+      "w": 140,
+      "h": 44
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 340,
+      "y": 932,
+      "w": 285,
+      "h": 56
+     }
+    ]
+   },
+   "beats": [
+    "That",
+    "prosecutors"
+   ]
+  },
+  {
+   "anchor": "hackers got",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "you",
+     "loot"
+    ],
+    "actions": [
+     "alert:gox",
+     "link:in",
+     "label:0",
+     "show:loot",
+     "move:m1",
+     "label:1",
+     "move:m2"
+    ],
+    "labels": [
+     {
+      "text": "Mt. Gox's server, Japan",
+      "at": "gox",
+      "side": "up"
+     },
+     {
+      "text": "hackers",
+      "at": "h1",
+      "side": "right",
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       0,
+       0
+      ],
+      "zoom": 62
+     },
+     {
+      "beat": 3,
+      "target": [
+       1.0,
+       0,
+       0.8
+      ],
+      "zoom": 75,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "hackers",
+    "into",
+    "server.",
+    "Over",
+    "years,",
+    "hackers",
+    "took"
+   ]
+  },
+  {
+   "anchor": "about six",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "value": 647000,
+    "suffix": " BTC",
+    "chip": "US charges · alleged",
+    "label": "taken by the hackers",
+    "tone": "alert"
+   },
+   "beats": [
+    "about",
+    "six",
+    "coins."
+   ]
+  },
+  {
+   "anchor": "Customers only",
+   "component": "Flow",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "nodes": [
+     {
+      "id": "you",
+      "icon": "🖥️",
+      "label": "What customers saw",
+      "sub": "a balance on a website",
+      "x": 500,
+      "y": 110,
+      "size": 0.95,
+      "tone": "accent",
+      "badge": "10 BTC"
+     },
+     {
+      "id": "real",
+      "icon": "🔑",
+      "label": "The real coins",
+      "sub": "on Mt. Gox's server",
+      "x": 500,
+      "y": 620,
+      "size": 0.95,
+      "tone": "alert",
+      "cross": true
+     }
+    ],
+    "edges": [
+     {
+      "from": "you",
+      "to": "real",
+      "label": "no way to look",
+      "dashed": true,
+      "tone": "alert"
+     }
+    ],
+    "order": [
+     "you",
+     "real"
+    ]
+   },
+   "beats": [
+    "Customers",
+    "number",
+    "website,"
+   ]
+  },
+  {
+   "anchor": "so they couldn't",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "plate": "MT. GOX",
+    "opened": true,
+    "actions": [
+     "drain",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "COINS DRAINING",
+      "x": 540,
+      "y": 600,
+      "tone": "alert",
+      "size": 52,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       0.9,
+       9.4
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       -0.2,
+       0.6,
+       8.4
+      ],
+      "look": [
+       0,
+       -0.5,
+       0
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "couldn't",
+    "vanish."
+   ]
+  },
+  {
+   "anchor": "In February",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "plate": "MT. GOX",
+    "coins": 6,
+    "actions": [
+     "label:0",
+     "lock",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "FEB 2014",
+      "x": 540,
+      "y": 560,
+      "tone": "accent",
+      "size": 56,
+      "pill": true
+     },
+     {
+      "text": "WITHDRAWALS FROZEN",
+      "x": 540,
+      "y": 1330,
+      "tone": "alert",
+      "size": 50,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.2,
+       1.1,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.4,
+       0
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.6,
+       0.8,
+       7.8
+      ],
+      "look": [
+       0,
+       -0.45,
+       0
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "February",
+    "froze",
+    "withdrawals"
+   ]
+  },
+  {
+   "anchor": "and filed",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "source": "Computerworld (IDG News) · 21 Mar 2014",
+    "text": "“...after filing for bankruptcy in Tokyo District Court on Feb. 28.”",
+    "mark": "filing for bankruptcy",
+    "stamp": "28 Feb 2014",
+    "note": "Exact words"
+   },
+   "beats": [
+    "filed",
+    "bankruptcy."
+   ]
+  },
+  {
+   "anchor": "In 2019,",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "pose": "idle",
+    "actions": [
+     "label:0",
+     "shrug"
+    ],
+    "tags": [
+     {
+      "text": "TOKYO COURT · 2019",
+      "x": 540,
+      "y": 560,
+      "tone": "accent",
+      "size": 52,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       1.0,
+       7.8
+      ],
+      "look": [
+       0,
+       0.3,
+       0
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "2019,",
+    "Karpelès"
+   ]
+  },
+  {
+   "anchor": "cleared",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "fmt.png",
+    "url": "freemalaysiatoday.com/category/world/2019/03/15/mtgox-bitcoin-exchange-founder-gets-2-5-yr-suspended-sentence",
+    "source": "AFP via Free Malaysia Today · 15 Mar 2019",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.72,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 40,
+      "y": 385,
+      "w": 990,
+      "h": 46
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 40,
+      "y": 442,
+      "w": 930,
+      "h": 46
+     }
+    ]
+   },
+   "beats": [
+    "cleared",
+    "pocketing"
+   ]
+  },
+  {
+   "anchor": "but convicted",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Guilty:",
+     "tampering with records"
+    ],
+    "accent": [
+     "tampering"
+    ]
+   },
+   "beats": [
+    "convicted",
+    "tampering",
+    "records."
+   ]
+  },
+  {
+   "anchor": "Repayments",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "value": 10,
+    "suffix": " years",
+    "chip": "Feb 2014 → Jul 2024",
+    "label": "until the first repayments",
+    "tone": "accent"
+   },
+   "beats": [
+    "Repayments",
+    "started",
+    "ten"
+   ]
+  },
+  {
+   "anchor": "through a court-appointed",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "decrypt.png",
+    "url": "decrypt.co/381392/mt-gox-pushes-repayment-deadline-to-2027-with-2-8b-in-bitcoin-still-to-distribute",
+    "source": "Decrypt · 20 Oct 2026 (Arkham data)",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.12,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.88,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 15,
+      "y": 78,
+      "w": 1000,
+      "h": 60
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 100,
+      "y": 1665,
+      "w": 960,
+      "h": 120
+     }
+    ]
+   },
+   "beats": [
+    "court-appointed",
+    "trustee."
+   ]
+  },
+  {
+   "anchor": "About",
+   "component": "Coin3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "coin": "none",
+    "filled": true,
+    "value": 142000,
+    "total": 142000,
+    "unit": "BTC",
+    "lost": 34388,
+    "lostText": "still not paid out",
+    "sub": "Arkham data via Decrypt · Oct 2026",
+    "actions": [
+     "lost",
+     "cam",
+     "cam"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       2.4,
+       9.4
+      ],
+      "look": [
+       0,
+       -0.35,
+       0
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.6,
+       2.1,
+       8.6
+      ],
+      "look": [
+       0,
+       -0.35,
+       0
+      ],
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "thirty-four",
+    "paid",
+    "customers'"
+   ]
+  },
+  {
+   "anchor": "mistake:",
+   "component": "Checklist",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "title": "The customers' mistake",
+    "rows": [
+     {
+      "left": "Every coin with one company",
+      "badge": "1 PLACE",
+      "tone": "alert"
+     },
+     {
+      "left": "No way to check it",
+      "badge": "BLIND",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "mistake:",
+    "every",
+    "company,",
+    "check."
+   ]
+  },
+  {
+   "anchor": "A wallet only",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "nodes": [
+     {
+      "id": "ex",
+      "icon": "🏦",
+      "label": "Exchange",
+      "sub": "a balance it promises you",
+      "x": 500,
+      "y": 110,
+      "size": 0.9,
+      "tone": "muted"
+     },
+     {
+      "id": "w",
+      "icon": "🔑",
+      "label": "Your own wallet",
+      "sub": "only you hold the key",
+      "x": 500,
+      "y": 620,
+      "size": 1.0,
+      "tone": "good"
+     }
+    ],
+    "edges": [
+     {
+      "from": "ex",
+      "to": "w",
+      "label": "a hack there can't touch it",
+      "flow": true,
+      "tone": "good"
+     }
+    ],
+    "order": [
+     "w",
+     "ex"
+    ]
+   },
+   "beats": [
+    "wallet",
+    "control"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "emptied",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "alert": [
+      "gox"
+     ],
+     "links": [
+      "in"
+     ]
+    },
+    "hidden": [
+     "you"
+    ],
+    "actions": [
+     "show:you",
+     "label:0",
+     "good:you"
+    ],
+    "labels": [
+     {
+      "text": "your own wallet: untouched",
+      "at": "you",
+      "side": "up",
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       0,
+       0.5
+      ],
+      "zoom": 62
+     },
+     {
+      "beat": 1,
+      "target": [
+       0.6,
+       0,
+       1.8
+      ],
+      "zoom": 90,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "emptied",
+    "else's",
+    "hack."
+   ]
+  },
+  {
+   "anchor": "Today,",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Today:",
+     "send a small test",
+     "to your own wallet."
+    ],
+    "accent": [
+     "small",
+     "test",
+     "own"
+    ]
+   },
+   "beats": [
+    "Today,",
+    "small",
+    "know"
+   ]
+  }
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "gox",
+     "kind": "server",
+     "at": [
+      -2.8,
+      -0.6
+     ],
+     "tone": "accent",
+     "size": 1.3
+    },
+    {
+     "id": "pile",
+     "kind": "coins",
+     "at": [
+      -2.8,
+      2.0
+     ],
+     "tone": "warm",
+     "size": 1.2
+    },
+    {
+     "id": "h1",
+     "kind": "pawn",
+     "at": [
+      3.4,
+      -1.2
+     ],
+     "tone": "alert"
+    },
+    {
+     "id": "h2",
+     "kind": "pawn",
+     "at": [
+      4.2,
+      0.2
+     ],
+     "tone": "alert"
+    },
+    {
+     "id": "loot",
+     "kind": "coins",
+     "at": [
+      3.8,
+      2.0
+     ],
+     "tone": "alert",
+     "size": 0.9
+    },
+    {
+     "id": "you",
+     "kind": "block",
+     "at": [
+      0.6,
+      2.6
+     ],
+     "tone": "good",
+     "icon": "key",
+     "size": 0.9
+    }
+   ],
+   "links": [
+    {
+     "id": "in",
+     "from": "h1",
+     "to": "gox",
+     "style": "beam",
+     "tone": "alert"
+    }
+   ],
+   "movers": [
+    {
+     "id": "m1",
+     "kind": "coin",
+     "path": [
+      "pile",
+      "gox",
+      "loot"
+     ],
+     "dur": 40
+    },
+    {
+     "id": "m2",
+     "kind": "coin",
+     "path": [
+      "pile",
+      "gox",
+      "loot"
+     ],
+     "dur": 40
+    }
+   ]
+  }
+ }
+}
