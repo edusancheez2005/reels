@@ -4,12 +4,21 @@
   "topic": "Terra/Luna, May 2022: a $1 stablecoin (UST) and Luna fell to almost zero in about a week; about $40B wiped out; how the swap peg worked and ran backwards; Do Kwon's 15 years",
   "produced_at": "2026-11-13T04:23:29+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-13-terra-luna-peg.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-13-terra-luna-peg-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-13-terra-luna-peg-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-13-terra-luna-peg-story_3.jpg"
   ],
   "format": "motion",
-  "topic_source": "plan"
+  "topic_source": "plan",
+  "auto_posted": true,
+  "posted_at": "2026-11-13T04:28:15Z",
+  "instagram_media_id": "18114181727171518",
+  "sources_comment_id": "18031169639864549",
+  "story_media_ids": [
+    "18223010566358353",
+    "18104894060042403",
+    "18185138155887132"
+  ]
 }
