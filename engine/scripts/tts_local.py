@@ -24,6 +24,7 @@ import numpy as np
 MODEL_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
 FILES = ["kokoro-v1.0.onnx", "voices-v1.0.bin"]
 SR = 24000
+SAY = {}
 GAP = {".": 0.30, "?": 0.34, "!": 0.30, ":": 0.22, ";": 0.22}
 
 
@@ -66,6 +67,7 @@ def word_weights(words, phonemize):
     w = []
     for word in words:
         core = re.sub(r"[^\w'’-]", "", word)
+        core = SAY.get(core, core)
         ph = phonemize(core) if core else ""
         n = max(1, len(ph.replace(" ", "")))
         pause = 0.0
@@ -119,6 +121,7 @@ def main():
     ap.add_argument("--voice", default="af_heart", help="af_heart (best), af_bella, am_michael, bf_emma, bm_george…")
     ap.add_argument("--speed", type=float, default=1.05)
     ap.add_argument("--cache", default=str(Path.home() / ".cache" / "kokoro"))
+    ap.add_argument("--say", default=None, help="JSON file {written: spoken} (e.g. {\"UST\": \"U S T\"}): respell words for the voice only; captions keep the written words")
     ap.add_argument("--gap-scale", type=float, default=1.0, help="scale the pauses between sentences (0.6 = tighter, more energetic)")
     a = ap.parse_args()
 
@@ -133,12 +136,23 @@ def main():
     phonemize = lambda s: k.tokenizer.phonemize(s, "en-us")  # noqa: E731
 
     sentences = split_sentences(Path(a.script).read_text())
+    say = json.loads(Path(a.say).read_text()) if a.say else {}
+    SAY.update(say)
+
+    def spoken(sent):
+        out = []
+        for w in sent.split():
+            m = re.match(r"^([\"'(]*)(.*?)([.,;:!?\"')]*)$", w)
+            pre, core, post = m.groups()
+            out.append(pre + say.get(core, core) + post)
+        return " ".join(out)
+
     chunks, captions, t0 = [], [], 0.0
     lead = np.zeros(int(0.08 * SR), dtype=np.float32)
     chunks.append(lead)
     t0 = len(lead) / SR
     for si, sent in enumerate(sentences):
-        samples, sr = k.create(sent, voice=a.voice, speed=a.speed, lang="en-us")
+        samples, sr = k.create(spoken(sent), voice=a.voice, speed=a.speed, lang="en-us")
         assert sr == SR, sr
         audio = trim(np.asarray(samples, dtype=np.float32))
         words = sent.split()

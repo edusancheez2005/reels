@@ -1,0 +1,9 @@
+Forty billion dollars, gone in a week, when a coin built to always be worth one dollar broke.
+It was a stablecoin called UST, from Terraform Labs, co-founded by Do Kwon.
+A rival, USDC, holds a dollar per coin. UST used a second coin instead: Luna.
+One UST could always swap for a dollar's worth of new Luna. If UST dipped, traders bought it cheap, swapped it, and UST climbed back.
+In 2021, UST slipped. Kwon said the swap fixed it. Really, he'd had a trading firm secretly buy UST.
+A savings app, Anchor, paid up to nineteen and a half percent on UST, and fourteen billion piled in.
+In May 2022, five billion fled Anchor. UST fell again, too big to secretly prop up. Holders swapped it for new Luna, flooding the market, and Luna crashed from eighty-four dollars to under a tenth of a cent.
+Kwon got fifteen years for fraud.
+Holders made two mistakes: trusting a coin-backed dollar, and reading a huge yield as safety. When the backing is a coin, panic sinks both. Check what backs a stablecoin, and who pays the yield.

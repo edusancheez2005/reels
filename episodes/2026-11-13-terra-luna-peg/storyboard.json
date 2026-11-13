@@ -1,0 +1,636 @@
+{
+ "slug": "2026-11-13-terra-luna-peg",
+ "format": "motion",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 0.9,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "Forty billion",
+  "one dollar",
+  "UST,",
+  "Do Kwon.",
+  "Luna.",
+  "dollar's worth",
+  "cheap,",
+  "secretly",
+  "nineteen and a half percent",
+  "fourteen billion",
+  "five billion",
+  "too big",
+  "flooding the market,",
+  "under a tenth of a cent.",
+  "fifteen years",
+  "two mistakes:",
+  "panic sinks both.",
+  "who pays the yield."
+ ],
+ "scenes": [
+  {
+   "anchor": "Forty",
+   "component": "BigNumber",
+   "theme": "dark",
+   "props": {
+    "value": 40,
+    "prefix": "$",
+    "suffix": "B",
+    "chip": "TERRA / LUNA · MAY 2022",
+    "label": "wiped out in about a week",
+    "tone": "alert"
+   },
+   "beats": [
+    "Forty"
+   ],
+   "transition": "cut",
+   "moving": true
+  },
+  {
+   "anchor": "when a coin",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "props": {
+    "shape": "circle",
+    "label": "$1",
+    "sublabel": "always, by design",
+    "tone": "accent",
+    "split": [
+     {
+      "x": 180,
+      "y": 700,
+      "label": ""
+     },
+     {
+      "x": 420,
+      "y": 760,
+      "label": ""
+     },
+     {
+      "x": 620,
+      "y": 690,
+      "label": ""
+     },
+     {
+      "x": 840,
+      "y": 780,
+      "label": ""
+     }
+    ]
+   },
+   "beats": [
+    "coin",
+    "always",
+    "broke."
+   ],
+   "transition": "zoom",
+   "moving": true
+  },
+  {
+   "anchor": "It was",
+   "component": "Shot",
+   "theme": "light",
+   "props": {
+    "src": "doj.png",
+    "chrome": "browser",
+    "url": "justice.gov/usao-sdny/pr/crypto-enabled-fraudster-sentenced-orchestrating-40-billion-fraud",
+    "source": "US Department of Justice · 11 Dec 2025",
+    "cam": [
+     {
+      "x": 0.4,
+      "y": 0.38,
+      "zoom": 1.25
+     },
+     {
+      "x": 0.36,
+      "y": 0.47,
+      "zoom": 1.4
+     },
+     {
+      "x": 0.3,
+      "y": 0.58,
+      "zoom": 1.9
+     }
+    ],
+    "marks": [
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 140,
+      "y": 1595,
+      "w": 850,
+      "h": 50
+     }
+    ]
+   },
+   "beats": [
+    "stablecoin",
+    "Terraform",
+    "Do"
+   ],
+   "transition": "whip",
+   "long": true
+  },
+  {
+   "anchor": "A rival",
+   "component": "Shot",
+   "theme": "light",
+   "props": {
+    "src": "circle.png",
+    "chrome": "browser",
+    "url": "circle.com/transparency",
+    "source": "Circle · USDC reserves, as of 9 Nov 2026",
+    "cam": [
+     {
+      "x": 0.3,
+      "y": 0.24,
+      "zoom": 1.6
+     },
+     {
+      "x": 0.27,
+      "y": 0.63,
+      "zoom": 1.7
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 42,
+      "y": 716,
+      "w": 1180,
+      "h": 50
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 195,
+      "y": 1745,
+      "w": 760,
+      "h": 150
+     }
+    ]
+   },
+   "beats": [
+    "USDC,",
+    "dollar"
+   ],
+   "transition": "zoom"
+  },
+  {
+   "anchor": "UST used",
+   "component": "Flow",
+   "theme": "dark",
+   "props": {
+    "nodes": [
+     {
+      "id": "usdc",
+      "label": "USDC",
+      "sub": "each coin",
+      "x": 270,
+      "y": 200,
+      "tone": "accent",
+      "size": 1.4
+     },
+     {
+      "id": "cash",
+      "label": "$1 in reserve",
+      "sub": "cash, short-term bonds",
+      "x": 270,
+      "y": 600,
+      "tone": "good",
+      "size": 1.3
+     },
+     {
+      "id": "ust",
+      "label": "UST",
+      "sub": "each coin",
+      "x": 730,
+      "y": 200,
+      "tone": "accent",
+      "size": 1.4
+     },
+     {
+      "id": "luna",
+      "label": "LUNA",
+      "sub": "another coin",
+      "x": 730,
+      "y": 600,
+      "tone": "alert",
+      "size": 1.3
+     }
+    ],
+    "edges": [
+     {
+      "from": "usdc",
+      "to": "cash",
+      "label": "backed by",
+      "tone": "good"
+     },
+     {
+      "from": "ust",
+      "to": "luna",
+      "label": "backed by",
+      "tone": "alert",
+      "dashed": true
+     }
+    ],
+    "order": [
+     [
+      "usdc",
+      "usdc>cash",
+      "cash"
+     ],
+     "ust",
+     [
+      "ust>luna",
+      "luna"
+     ]
+    ]
+   },
+   "beats": [
+    "UST",
+    "second",
+    "Luna."
+   ],
+   "transition": "whip"
+  },
+  {
+   "anchor": "One UST",
+   "component": "PegLoop",
+   "theme": "dark",
+   "props": {
+    "swapText": "1 UST → $1 of new LUNA",
+    "ustText": "$1.00",
+    "dipText": "$0.98",
+    "lunaText": "",
+    "actions": [
+     "swap",
+     "dip",
+     "arb"
+    ]
+   },
+   "beats": [
+    "swap",
+    "dipped,",
+    "swapped"
+   ],
+   "transition": "zoom",
+   "moving": true,
+   "long": true
+  },
+  {
+   "anchor": "In 2021",
+   "component": "BigNumber",
+   "theme": "dark",
+   "props": {
+    "value": 92,
+    "prefix": "< ",
+    "suffix": "¢",
+    "chip": "UST · MAY 2021 · US DOJ",
+    "label": "UST slipped below 92 cents",
+    "tone": "alert"
+   },
+   "beats": [
+    "slipped."
+   ],
+   "transition": "whip",
+   "moving": true
+  },
+  {
+   "anchor": "Kwon said",
+   "component": "Quote",
+   "theme": "light",
+   "props": {
+    "source": "US Attorney's Office, SDNY · 11 Dec 2025",
+    "text": "“KWON claimed that the Terra Protocol on its own had caused the successful restoration of UST’s $1 value… That was a lie.”",
+    "mark": "That was a lie.",
+    "note": "Exact words from the DOJ release. Kwon pleaded guilty."
+   },
+   "beats": [
+    "said",
+    "Really,",
+    "secretly"
+   ],
+   "transition": "zoom",
+   "long": true
+  },
+  {
+   "anchor": "A savings",
+   "component": "Shot",
+   "theme": "light",
+   "props": {
+    "src": "yahoo.png",
+    "chrome": "browser",
+    "url": "yahoo.com/now/investors-flee-terra-anchor-ust-203543470.html",
+    "source": "CoinDesk via Yahoo Finance · 9 May 2022",
+    "cam": [
+     {
+      "x": 0.38,
+      "y": 0.5,
+      "zoom": 1.35
+     },
+     {
+      "x": 0.36,
+      "y": 0.92,
+      "zoom": 1.9
+     },
+     {
+      "x": 0.3,
+      "y": 0.95,
+      "zoom": 2.1
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 371,
+      "y": 2545,
+      "w": 940,
+      "h": 50
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 362,
+      "y": 2672,
+      "w": 160,
+      "h": 62
+     }
+    ]
+   },
+   "beats": [
+    "Anchor,",
+    "nineteen",
+    "percent"
+   ],
+   "transition": "whip",
+   "long": true
+  },
+  {
+   "anchor": "fourteen",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 14,
+    "prefix": "$",
+    "suffix": "B",
+    "chip": "ANCHOR DEPOSITS · FRI 6 MAY 2022 · COINDESK",
+    "label": "piled into Anchor",
+    "tone": "good"
+   },
+   "beats": [
+    "fourteen"
+   ]
+  },
+  {
+   "anchor": "In May",
+   "component": "Growth",
+   "theme": "light",
+   "props": {
+    "items": [
+     {
+      "label": "Fri 6 May",
+      "value": 14,
+      "display": "$14B"
+     },
+     {
+      "label": "Mon 9 May",
+      "value": 8.7,
+      "display": "$8.7B"
+     }
+    ],
+    "badge": "−$5B in days"
+   },
+   "beats": [
+    "May",
+    "five",
+    "fled"
+   ],
+   "transition": "whip",
+   "moving": true
+  },
+  {
+   "anchor": "UST fell",
+   "component": "PegLoop",
+   "theme": "dark",
+   "props": {
+    "swapText": "1 UST → $1 of new LUNA",
+    "ustText": "$1.00",
+    "dipText": "$0.61",
+    "lunaText": "$84",
+    "actions": [
+     "dip",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "9× bigger than in 2021",
+      "x": 500,
+      "y": 720,
+      "tone": "alert"
+     }
+    ],
+    "note": "UST on 9 May 2022 · The Block"
+   },
+   "beats": [
+    "fell",
+    "big"
+   ],
+   "transition": "cut",
+   "moving": true
+  },
+  {
+   "anchor": "Holders swapped",
+   "component": "PegLoop",
+   "theme": "dark",
+   "props": {
+    "swapText": "everyone swaps UST → new LUNA",
+    "ustText": "$0.61",
+    "runUstText": "$0.20",
+    "lunaText": "$84",
+    "lunaToText": "< $0.001",
+    "supply": {
+     "text": "923 BILLION LUNA",
+     "label": "LUNA coins in existence"
+    },
+    "actions": [
+     "run",
+     "supply",
+     "crash"
+    ],
+    "note": "prices: The Block, CoinGecko · supply 13 May 2022",
+    "ustTone": "alert"
+   },
+   "beats": [
+    "swapped",
+    "market,",
+    "tenth"
+   ],
+   "transition": "zoom",
+   "moving": true,
+   "long": true
+  },
+  {
+   "anchor": "Kwon got",
+   "component": "Quote",
+   "theme": "light",
+   "props": {
+    "source": "US Department of Justice · 11 Dec 2025",
+    "text": "Do Kwon, Founder of Terraform Labs, Sentenced to 15 Years for Fraud and Manipulation",
+    "mark": "15 Years",
+    "stamp": "PLEADED GUILTY · AUG 2025",
+    "stampTop": 760,
+    "note": "Headline of the DOJ release"
+   },
+   "beats": [
+    "fifteen"
+   ],
+   "transition": "whip"
+  },
+  {
+   "anchor": "Holders made",
+   "component": "Checklist",
+   "theme": "dark",
+   "props": {
+    "title": "The holders' two mistakes",
+    "rows": [
+     {
+      "left": "Trusted a dollar backed by another coin",
+      "badge": "COIN",
+      "tone": "alert"
+     },
+     {
+      "left": "Read a 19.5% yield as safety",
+      "badge": "YIELD",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "two",
+    "trusting",
+    "reading",
+    "safety."
+   ],
+   "transition": "zoom",
+   "long": true
+  },
+  {
+   "anchor": "When the backing",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "nodes": [
+     {
+      "id": "panic",
+      "label": "Panic",
+      "sub": "UST holders sell",
+      "x": 500,
+      "y": 130,
+      "tone": "alert",
+      "size": 1.3
+     },
+     {
+      "id": "swap",
+      "label": "More LUNA",
+      "sub": "printed by swaps",
+      "x": 745,
+      "y": 430,
+      "tone": "alert",
+      "size": 1.2
+     },
+     {
+      "id": "fall",
+      "label": "LUNA falls",
+      "sub": "backing shrinks",
+      "x": 500,
+      "y": 730,
+      "tone": "alert",
+      "size": 1.3
+     },
+     {
+      "id": "trust",
+      "label": "Less trust",
+      "sub": "more selling",
+      "x": 255,
+      "y": 430,
+      "tone": "alert",
+      "size": 1.2
+     }
+    ],
+    "edges": [
+     {
+      "from": "panic",
+      "to": "swap",
+      "flow": true,
+      "tone": "alert"
+     },
+     {
+      "from": "swap",
+      "to": "fall",
+      "flow": true,
+      "tone": "alert"
+     },
+     {
+      "from": "fall",
+      "to": "trust",
+      "flow": true,
+      "tone": "alert"
+     },
+     {
+      "from": "trust",
+      "to": "panic",
+      "flow": true,
+      "tone": "alert"
+     }
+    ],
+    "order": [
+     "panic",
+     [
+      "panic>swap",
+      "swap",
+      "swap>fall",
+      "fall"
+     ],
+     [
+      "fall>trust",
+      "trust",
+      "trust>panic"
+     ]
+    ]
+   },
+   "beats": [
+    "backing",
+    "panic",
+    "both."
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "Check",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Check what backs it:",
+     "cash, or a coin?",
+     "Who pays the yield?"
+    ],
+    "accent": [
+     "cash, or a coin?",
+     "Who pays the yield?"
+    ],
+    "size": 92
+   },
+   "beats": [
+    "Check",
+    "stablecoin,",
+    "who"
+   ]
+  }
+ ]
+}

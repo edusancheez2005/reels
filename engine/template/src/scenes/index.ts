@@ -43,6 +43,7 @@ import {Odometer} from './Odometer';
 import {AddressMatch} from './AddressMatch';
 import {CoinSwarm} from './CoinSwarm';
 import {HypeCurve} from './HypeCurve';
+import {PegLoop} from './PegLoop';
 import {PriceTrack} from './PriceTrack';
 
 // Register new components here. Storyboard "component" names map to these keys.
@@ -94,6 +95,7 @@ export const SCENES: Record<string, React.FC<SceneProps<any>>> = {
   AddressMatch,
   CoinSwarm,
   HypeCurve,
+  PegLoop,
   // v1 — cards (dark)
   Stat,
   Steps,

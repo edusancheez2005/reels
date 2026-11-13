@@ -304,3 +304,13 @@ keep (count or index list), counter {to, prefix, suffix, label}, title, labels [
 **HypeCurve** (4 Nov 2026): a hype cycle as a diagram, not data (say so in `note`): a queue of buyer dots walks in and the price line
 climbs; `stop` empties the queue (`stopLabel`, e.g. "new buyers: 0"); `fall` plunges the line red. Actions `rise`, `stop`, `fall`,
 `label:<n>`; props priceLabel, buyersLabel, stopLabel, note, labels [{text, x, y, tone}], risen.
+
+**PegLoop** (13 Nov 2026, Terra/Luna reel): an algorithmic stablecoin's swap loop as a 2D machine: the stablecoin coin (left,
+price tag), a SWAP box with a dashed loop arrow, the second coin (right, price tag), and (with `supply`) a dot field of the second
+coin's supply that multiplies. Actions: `swap` (one token rides through and comes out as new LUNA), `dip` (tag flips to `dipText`,
+red), `arb` (a token trip, tag flips back to `ustText` green, "+2¢ profit"), `run` (a stream pours through, arrows red, supply dots
+multiply, tag flips to `runUstText`), `crash` (LUNA tag flips to `lunaToText`), `supply` (stamp `supply.text`), `label:<n>`.
+Props: stable, other, ustText, ustTone, dipText, runUstText, lunaText, lunaToText, swapText, supply {text, label}, labels, note, ran.
+Prices are tag flips between sourced values, never counters with in-between numbers. Max 3 scenes (e.g. mechanism / dip / run).
+Voice respelling: `tts_local.py … --say episodes/<id>/say.json` with `{"UST": "U S T", "Do": "Doh"}` changes only what the voice
+says; captions keep the written words (Kokoro read "UST" as "ust" and "USDC" as "usdk").

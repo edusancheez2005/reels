@@ -1,0 +1,1311 @@
+[
+ {
+  "text": "Forty",
+  "startMs": 80,
+  "endMs": 432,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 440,
+  "endMs": 770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars,",
+  "startMs": 770,
+  "endMs": 1136,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gone",
+  "startMs": 1340,
+  "endMs": 1410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 1410,
+  "endMs": 1690,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 1690,
+  "endMs": 1800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " week,",
+  "startMs": 1800,
+  "endMs": 2092,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " when",
+  "startMs": 2290,
+  "endMs": 2495,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 2540,
+  "endMs": 2646,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin",
+  "startMs": 2650,
+  "endMs": 2897,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " built",
+  "startMs": 2940,
+  "endMs": 3149,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 3150,
+  "endMs": 3300,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " always",
+  "startMs": 3300,
+  "endMs": 3700,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " be",
+  "startMs": 3700,
+  "endMs": 3904,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " worth",
+  "startMs": 4000,
+  "endMs": 4080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 4080,
+  "endMs": 4310,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar",
+  "startMs": 4310,
+  "endMs": 4630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " broke.",
+  "startMs": 4630,
+  "endMs": 4960,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It",
+  "startMs": 5110,
+  "endMs": 5180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 5180,
+  "endMs": 5372,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 5430,
+  "endMs": 5529,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stablecoin",
+  "startMs": 5620,
+  "endMs": 6210,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " called",
+  "startMs": 6270,
+  "endMs": 6525,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " UST,",
+  "startMs": 6580,
+  "endMs": 7101,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 7310,
+  "endMs": 7500,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Terraform",
+  "startMs": 7500,
+  "endMs": 8096,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Labs,",
+  "startMs": 8110,
+  "endMs": 8358,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " co-founded",
+  "startMs": 8570,
+  "endMs": 9160,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " by",
+  "startMs": 9160,
+  "endMs": 9350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Do",
+  "startMs": 9350,
+  "endMs": 9616,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Kwon.",
+  "startMs": 9620,
+  "endMs": 9930,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 10080,
+  "endMs": 10180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rival,",
+  "startMs": 10180,
+  "endMs": 10548,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " USDC,",
+  "startMs": 10620,
+  "endMs": 11438,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " holds",
+  "startMs": 11630,
+  "endMs": 11950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 11950,
+  "endMs": 12090,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar",
+  "startMs": 12090,
+  "endMs": 12360,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " per",
+  "startMs": 12360,
+  "endMs": 12516,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin.",
+  "startMs": 12520,
+  "endMs": 12750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " UST",
+  "startMs": 12900,
+  "endMs": 13488,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " used",
+  "startMs": 13490,
+  "endMs": 13809,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 13810,
+  "endMs": 13950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " second",
+  "startMs": 13950,
+  "endMs": 14344,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin",
+  "startMs": 14350,
+  "endMs": 14611,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " instead:",
+  "startMs": 14620,
+  "endMs": 14985,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Luna.",
+  "startMs": 15100,
+  "endMs": 15520,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " One",
+  "startMs": 15670,
+  "endMs": 15868,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " UST",
+  "startMs": 15870,
+  "endMs": 16410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " could",
+  "startMs": 16410,
+  "endMs": 16608,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " always",
+  "startMs": 16610,
+  "endMs": 17003,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " swap",
+  "startMs": 17050,
+  "endMs": 17299,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 17370,
+  "endMs": 17490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 17490,
+  "endMs": 17620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar's",
+  "startMs": 17620,
+  "endMs": 17990,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " worth",
+  "startMs": 17990,
+  "endMs": 18238,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 18240,
+  "endMs": 18336,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " new",
+  "startMs": 18340,
+  "endMs": 18530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Luna.",
+  "startMs": 18530,
+  "endMs": 18830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " If",
+  "startMs": 18980,
+  "endMs": 19080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " UST",
+  "startMs": 19080,
+  "endMs": 19630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dipped,",
+  "startMs": 19650,
+  "endMs": 19880,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " traders",
+  "startMs": 20080,
+  "endMs": 20480,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bought",
+  "startMs": 20530,
+  "endMs": 20730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 20760,
+  "endMs": 20830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cheap,",
+  "startMs": 20830,
+  "endMs": 21130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " swapped",
+  "startMs": 21260,
+  "endMs": 21680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it,",
+  "startMs": 21680,
+  "endMs": 21780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 21900,
+  "endMs": 22130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " UST",
+  "startMs": 22130,
+  "endMs": 22640,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " climbed",
+  "startMs": 22640,
+  "endMs": 23030,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " back.",
+  "startMs": 23030,
+  "endMs": 23230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 23380,
+  "endMs": 23500,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2021,",
+  "startMs": 23500,
+  "endMs": 24702,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " UST",
+  "startMs": 24790,
+  "endMs": 25465,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " slipped.",
+  "startMs": 25470,
+  "endMs": 25770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Kwon",
+  "startMs": 25920,
+  "endMs": 26222,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " said",
+  "startMs": 26240,
+  "endMs": 26424,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 26430,
+  "endMs": 26510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " swap",
+  "startMs": 26510,
+  "endMs": 26790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fixed",
+  "startMs": 26790,
+  "endMs": 27129,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it.",
+  "startMs": 27130,
+  "endMs": 27230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Really,",
+  "startMs": 27380,
+  "endMs": 27677,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " he'd",
+  "startMs": 27870,
+  "endMs": 28030,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 28030,
+  "endMs": 28271,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 28290,
+  "endMs": 28410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " trading",
+  "startMs": 28410,
+  "endMs": 28810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " firm",
+  "startMs": 28810,
+  "endMs": 29060,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " secretly",
+  "startMs": 29060,
+  "endMs": 29558,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buy",
+  "startMs": 29560,
+  "endMs": 29756,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " UST.",
+  "startMs": 29770,
+  "endMs": 30300,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 30450,
+  "endMs": 30608,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " savings",
+  "startMs": 30610,
+  "endMs": 30980,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " app,",
+  "startMs": 30980,
+  "endMs": 31189,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Anchor,",
+  "startMs": 31430,
+  "endMs": 31665,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " paid",
+  "startMs": 31880,
+  "endMs": 32140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " up",
+  "startMs": 32180,
+  "endMs": 32270,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 32270,
+  "endMs": 32457,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nineteen",
+  "startMs": 32520,
+  "endMs": 32932,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 33000,
+  "endMs": 33090,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 33090,
+  "endMs": 33249,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " half",
+  "startMs": 33250,
+  "endMs": 33460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " percent",
+  "startMs": 33460,
+  "endMs": 33830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 33830,
+  "endMs": 33960,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " UST,",
+  "startMs": 33960,
+  "endMs": 34570,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 34820,
+  "endMs": 34890,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fourteen",
+  "startMs": 34890,
+  "endMs": 35410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 35410,
+  "endMs": 35760,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " piled",
+  "startMs": 35760,
+  "endMs": 36100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in.",
+  "startMs": 36100,
+  "endMs": 36260,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 36410,
+  "endMs": 36576,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " May",
+  "startMs": 36720,
+  "endMs": 36798,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2022,",
+  "startMs": 36810,
+  "endMs": 38071,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " five",
+  "startMs": 38290,
+  "endMs": 38510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 38510,
+  "endMs": 38950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fled",
+  "startMs": 38950,
+  "endMs": 39233,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Anchor.",
+  "startMs": 39280,
+  "endMs": 39510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " UST",
+  "startMs": 39660,
+  "endMs": 40224,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fell",
+  "startMs": 40270,
+  "endMs": 40429,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " again,",
+  "startMs": 40430,
+  "endMs": 40686,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " too",
+  "startMs": 40890,
+  "endMs": 41050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " big",
+  "startMs": 41050,
+  "endMs": 41301,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 41350,
+  "endMs": 41455,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " secretly",
+  "startMs": 41460,
+  "endMs": 41968,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " prop",
+  "startMs": 41970,
+  "endMs": 42276,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " up.",
+  "startMs": 42280,
+  "endMs": 42430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Holders",
+  "startMs": 42580,
+  "endMs": 43003,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " swapped",
+  "startMs": 43010,
+  "endMs": 43330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 43330,
+  "endMs": 43479,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 43480,
+  "endMs": 43690,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " new",
+  "startMs": 43690,
+  "endMs": 43900,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Luna,",
+  "startMs": 43900,
+  "endMs": 44219,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " flooding",
+  "startMs": 44420,
+  "endMs": 44800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 44800,
+  "endMs": 44907,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " market,",
+  "startMs": 44930,
+  "endMs": 45330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 45440,
+  "endMs": 45700,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Luna",
+  "startMs": 45790,
+  "endMs": 46017,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " crashed",
+  "startMs": 46100,
+  "endMs": 46270,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 46270,
+  "endMs": 46460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eighty-four",
+  "startMs": 46460,
+  "endMs": 47000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 47000,
+  "endMs": 47445,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 47450,
+  "endMs": 47604,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " under",
+  "startMs": 47610,
+  "endMs": 47850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 47850,
+  "endMs": 48027,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tenth",
+  "startMs": 48030,
+  "endMs": 48291,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 48300,
+  "endMs": 48390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 48390,
+  "endMs": 48556,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cent.",
+  "startMs": 48560,
+  "endMs": 48820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Kwon",
+  "startMs": 48970,
+  "endMs": 49260,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " got",
+  "startMs": 49260,
+  "endMs": 49490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fifteen",
+  "startMs": 49490,
+  "endMs": 49898,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " years",
+  "startMs": 49900,
+  "endMs": 50110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 50110,
+  "endMs": 50290,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fraud.",
+  "startMs": 50290,
+  "endMs": 50630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Holders",
+  "startMs": 50780,
+  "endMs": 51190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " made",
+  "startMs": 51190,
+  "endMs": 51460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 51460,
+  "endMs": 51678,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mistakes:",
+  "startMs": 51720,
+  "endMs": 52153,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " trusting",
+  "startMs": 52360,
+  "endMs": 52770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 52770,
+  "endMs": 52945,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin-backed",
+  "startMs": 52950,
+  "endMs": 53470,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar,",
+  "startMs": 53470,
+  "endMs": 53790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 54000,
+  "endMs": 54070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " reading",
+  "startMs": 54070,
+  "endMs": 54530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 54530,
+  "endMs": 54630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " huge",
+  "startMs": 54630,
+  "endMs": 55058,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " yield",
+  "startMs": 55060,
+  "endMs": 55375,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " as",
+  "startMs": 55380,
+  "endMs": 55480,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " safety.",
+  "startMs": 55480,
+  "endMs": 55850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " When",
+  "startMs": 56000,
+  "endMs": 56200,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 56200,
+  "endMs": 56301,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " backing",
+  "startMs": 56370,
+  "endMs": 56603,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 56610,
+  "endMs": 56703,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 56710,
+  "endMs": 56810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin,",
+  "startMs": 56810,
+  "endMs": 57105,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " panic",
+  "startMs": 57290,
+  "endMs": 57600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sinks",
+  "startMs": 57600,
+  "endMs": 57850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " both.",
+  "startMs": 57850,
+  "endMs": 58160,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Check",
+  "startMs": 58310,
+  "endMs": 58559,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " what",
+  "startMs": 58560,
+  "endMs": 58700,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " backs",
+  "startMs": 58700,
+  "endMs": 59007,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 59010,
+  "endMs": 59090,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stablecoin,",
+  "startMs": 59090,
+  "endMs": 59804,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 59930,
+  "endMs": 60153,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " who",
+  "startMs": 60170,
+  "endMs": 60250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pays",
+  "startMs": 60250,
+  "endMs": 60600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 60600,
+  "endMs": 60701,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " yield.",
+  "startMs": 60710,
+  "endMs": 61000,
+  "timestampMs": null,
+  "confidence": null
+ }
+]
