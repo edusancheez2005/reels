@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 6.95
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 22.67,
+    "to": 27.29
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "$2,861 a coin. Then buyers couldn't sell."
+  }
+]

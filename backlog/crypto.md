@@ -60,3 +60,4 @@
 - [x] The IronKey: programmer Stefan Thomas has two password guesses left before 7,002 BTC lock forever (2026-11-09-ironkey-two-guesses)
 - [x] Pig-butchering: the bank CEO who wired $47.1M to scammers after a stranger on WhatsApp pulled him into a crypto 'investment' (Shan Hanes, Heartland Tri-State Bank; FBI IC3 2025: $7.2B) (2026-11-11-pig-butchering-banker)
 - [x] Terra/Luna, May 2022: a $1 stablecoin (UST) and Luna fell to almost zero in about a week; about $40B wiped out; how the swap peg worked and ran backwards; Do Kwon's 15 years (2026-11-13-terra-luna-peg)
+- [x] The Squid Game token, Nov 2021, told as a scam: buyers couldn't sell (Marbles anti-dump), $2,861 to under a tenth of a cent in five minutes, an estimated $3.38M taken (2026-11-14-squid-game-token)
