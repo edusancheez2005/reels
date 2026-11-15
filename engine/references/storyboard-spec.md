@@ -248,6 +248,11 @@ of her x or she leaves the frame, and never key a camera move that passes throug
 (Lightning arc to the kiosk), `funnel` (payments from every window squeeze through one gate), `sour`, `shutter`, `card`, `pin:<n>` /
 `hide:<n>` (labels pinned to 3D points, `rel` to her by default), `label:<n>`, `cam`. Props: from, to, walkDur, jumpTo, face, z,
 queue + queueX (people in line), screen, card, pins, tags. First used in `../episodes/2026-11-02-bitcoin-only-money/`.
+Added 15 Nov 2026 (internet-down reel): `blackout` (windows, signs and lamps go out building by building; night sky with stars;
+`dark0: true` starts dark), phone screens `offline` (NO INTERNET) | `nosee` (NO NEW BLOCKS) | `signed` | `stuck` (NOT SENT) | `sat`
+(NEW BLOCK), a wall `dish: [x, y, z]` aimed at a `sat: [x, y, z]` satellite (keep it over the street, z ≈ 1.5, or the façades hide it),
+`beam` (cyan beam + glowing block cubes travel down) and `ping` (dish LED blinks, phone → NEW BLOCK). Looking-up shot that frames
+satellite, beam and dish: camAbs `{pos: [17.6, 1.0, 6.0], look: [21.6, 7.4, -0.8], fov: 56}` with dish [21.4, 3.5, -1.95], sat [23.6, 12.5, 1.5].
 
 **Trader3D** (2 Nov 2026, the TRUMP-sniper reel): a grounded, adult-proportioned person (Walk3D's build, seated) at a desk at night:
 three monitors, keyboard, mouse, mug, desk lamp, office chair, a window onto a city. The screens show `props.screens[state]` =

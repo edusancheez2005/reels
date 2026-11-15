@@ -25,6 +25,12 @@ import {BlobShadow, Studio, Tags, canvasTex, clamp01, projectTo, rand, useCamera
  *   sour        green wavy lines over the cup
  *   shutter     the bank's shutter rolls down
  *   card        name card (props.card)       pin:<n>  show pin n    hide:<n>  hide pin n       cam  (no-op beat for cam[])
+ *   (15 Nov 2026, internet-down reel)
+ *   blackout    the town loses power/internet: windows and shop signs go out building by building, lamps die, night sky
+ *               (props.dark0: start already dark)
+ *   offline nosee signed stuck sat   phone screens: NO INTERNET / NO NEW BLOCKS / SIGNED (offline) / NOT SENT / NEW BLOCK
+ *   beam        a satellite (props.sat [x,y,z]) beams Bitcoin blocks (glowing cubes) down to the wall dish (props.dish [x,y,z])
+ *   ping        the dish's receiver light blinks green and her phone flips to NEW BLOCK (use with beam)
  * props: from, to, walkDur, jumpTo, face, card{name, role, note, y}, pins[{text, at:[x,y,z], rel?, dx?, dy?, tone, size, pill}],
  *   tags (plain 2D tags, shown with label:<n>), cam (rel to her, unless camAbs), camAbs, queue (number of people in line),
  *   stops[{x, kind: "cafe"|"bank"|"home"|"kiosk"|"shop", sign}], colours {top, legs, hair, skin}, screen (starting phone state)
@@ -50,6 +56,9 @@ type P = {
   colours?: {top?: string; legs?: string; hair?: string; skin?: string};
   screen?: string;
   z?: number;
+  dark0?: boolean;
+  dish?: V3;
+  sat?: V3;
 };
 
 const DEFAULT_STOPS: Stop[] = [
@@ -100,6 +109,11 @@ const screenTex = (state: string) =>
       zero: ['#24070c', '#5a0f1a'],
       bolt: ['#1a1440', '#5b3df0'],
       refund: ['#1f2530', '#3a4454'],
+      offline: ['#15171c', '#2a2e36'],
+      nosee: ['#15171c', '#2a2e36'],
+      signed: ['#0b2a33', '#13708a'],
+      stuck: ['#3a2706', '#8a5a0a'],
+      sat: ['#06321b', '#0f7a43'],
     };
     const [a, b] = bg[state] ?? bg.none;
     const grd = g.createLinearGradient(0, 0, 0, 400);
@@ -109,12 +123,24 @@ const screenTex = (state: string) =>
     g.fillRect(0, 0, 200, 400);
     g.fillStyle = '#ffffff';
     g.textAlign = 'center';
-    const big: Record<string, string> = {none: '₿', pending: '⏳', paid: '✓', locked: '🔒', zero: '0', bolt: '⚡', refund: '↩'};
-    const small: Record<string, string> = {none: 'WALLET', pending: 'PENDING', paid: 'PAID', locked: 'LOCKED', zero: '₿ 0.000', bolt: 'PAID', refund: 'NO UNDO'};
+    const big: Record<string, string> = {none: '₿', pending: '⏳', paid: '✓', locked: '🔒', zero: '0', bolt: '⚡', refund: '↩', offline: '✕', nosee: '?', signed: '✓', stuck: '…', sat: '▼'};
+    const small: Record<string, string> = {none: 'WALLET', pending: 'PENDING', paid: 'PAID', locked: 'LOCKED', zero: '₿ 0.000', bolt: 'PAID', refund: 'NO UNDO', offline: 'NO INTERNET', nosee: 'NO NEW BLOCKS', signed: 'SIGNED', stuck: 'NOT SENT', sat: 'NEW BLOCK'};
+    const sub: Record<string, string> = {signed: 'offline', sat: 'via satellite', offline: 'no signal', stuck: 'needs a link'};
     g.font = '900 120px "DejaVu Sans", Arial, sans-serif';
     g.fillText(big[state] ?? '₿', 100, 210);
-    g.font = '800 30px "DejaVu Sans", Arial, sans-serif';
-    g.fillText(small[state] ?? '', 100, 300);
+    const t = small[state] ?? '';
+    let fs = 30;
+    g.font = `800 ${fs}px "DejaVu Sans", Arial, sans-serif`;
+    while (g.measureText(t).width > 184 && fs > 14) {
+      fs -= 1;
+      g.font = `800 ${fs}px "DejaVu Sans", Arial, sans-serif`;
+    }
+    g.fillText(t, 100, 300);
+    if (sub[state]) {
+      g.font = '600 22px "DejaVu Sans", Arial, sans-serif';
+      g.fillStyle = 'rgba(255,255,255,0.75)';
+      g.fillText(sub[state], 100, 340);
+    }
   });
 
 const signTex = (text: string, bg: string, fg: string, w = 512, h = 128) =>
@@ -175,6 +201,43 @@ const skyTex = () =>
     g.fillRect(0, 0, 16, 512);
   });
 
+const nightTex = () =>
+  canvasTex(512, 512, (g) => {
+    const grd = g.createLinearGradient(0, 0, 0, 512);
+    grd.addColorStop(0, '#02040b');
+    grd.addColorStop(0.6, '#0a1124');
+    grd.addColorStop(0.86, '#141c33');
+    grd.addColorStop(1, '#1d2440');
+    g.fillStyle = grd;
+    g.fillRect(0, 0, 512, 512);
+    for (let i = 0; i < 260; i++) {
+      const y = rand(i * 3 + 1) * 380;
+      g.fillStyle = `rgba(255,255,255,${0.25 + rand(i * 5 + 2) * 0.7})`;
+      const r = rand(i * 7 + 3) > 0.92 ? 1.6 : 0.8;
+      g.fillRect(rand(i * 11 + 4) * 512, y, r, r);
+    }
+  });
+
+const panelTex = () =>
+  canvasTex(256, 64, (g) => {
+    g.fillStyle = '#0c1a3a';
+    g.fillRect(0, 0, 256, 64);
+    g.strokeStyle = '#4a6fb0';
+    g.lineWidth = 2;
+    for (let c = 0; c <= 16; c++) {
+      g.beginPath();
+      g.moveTo(c * 16, 0);
+      g.lineTo(c * 16, 64);
+      g.stroke();
+    }
+    for (let r = 0; r <= 4; r++) {
+      g.beginPath();
+      g.moveTo(0, r * 16);
+      g.lineTo(256, r * 16);
+      g.stroke();
+    }
+  });
+
 const NameCard: React.FC<{p: number; name: string; role?: string; note?: string; y?: number}> = ({p, name, role, note, y = 1180}) => (
   <div style={{position: 'absolute', left: 90, width: 780, top: y, opacity: clamp01(p * 1.5), transform: `translateY(${(1 - p) * 34}px)`, fontFamily: theme.font}}>
     <div style={{display: 'flex', gap: 24, background: 'rgba(9,13,22,0.84)', border: '1.5px solid rgba(255,255,255,0.16)', borderRadius: 24, padding: '22px 30px', boxShadow: '0 18px 50px rgba(0,0,0,0.45)'}}>
@@ -189,7 +252,7 @@ const NameCard: React.FC<{p: number; name: string; role?: string; note?: string;
 );
 
 const POSES = ['phone', 'pay', 'cup', 'slump', 'search', 'idle'];
-const SCREENS = ['pending', 'paid', 'locked', 'zero', 'bolt', 'refund'];
+const SCREENS = ['pending', 'paid', 'locked', 'zero', 'bolt', 'refund', 'offline', 'nosee', 'signed', 'stuck', 'sat'];
 
 export const Walk3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}) => {
   const acts = props.actions ?? [];
@@ -369,6 +432,26 @@ export const Walk3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
     [stops],
   );
   const closedTex = useMemo(() => signTex('CLOSED', '#7a1420', '#ffffff', 256, 80), []);
+  const night = useMemo(() => nightTex(), []);
+  const panel = useMemo(() => panelTex(), []);
+  // ---- blackout ----
+  const dk = props.dark0 ? 1 : has('blackout') ? p('blackout', 40, Easing.inOut(Easing.quad)) : 0;
+  const offOf = (k: number) => clamp01((dk - rand(k * 13 + 5) * 0.75) / 0.12); // each building goes out at its own moment
+  mats.bulb.emissiveIntensity = 2.2 * (1 - offOf(91));
+  mats.glass.emissiveIntensity = 0.35 * (1 - dk * 0.92);
+  const satMats = useMemo(
+    () => ({
+      foil: new THREE.MeshStandardMaterial({color: '#d9a640', metalness: 0.9, roughness: 0.35, emissive: new THREE.Color('#4a3006'), emissiveIntensity: 0.5}),
+      white: new THREE.MeshStandardMaterial({color: '#cfd5de', metalness: 0.4, roughness: 0.35, side: THREE.DoubleSide}),
+      panel: new THREE.MeshStandardMaterial({color: '#ffffff', roughness: 0.3, metalness: 0.6, side: THREE.DoubleSide}),
+      beam: new THREE.MeshBasicMaterial({color: '#3bc9ee', transparent: true, opacity: 0.18, depthWrite: false, toneMapped: false}),
+      block: new THREE.MeshStandardMaterial({color: '#ffd38a', emissive: new THREE.Color('#ffb547'), emissiveIntensity: 3, toneMapped: false}),
+      led: new THREE.MeshStandardMaterial({color: '#3ddc84', emissive: new THREE.Color('#3ddc84'), emissiveIntensity: 4, toneMapped: false}),
+      ledOff: new THREE.MeshStandardMaterial({color: '#1d2a22', roughness: 0.5}),
+    }),
+    [],
+  );
+  if (panel) satMats.panel.map = panel;
 
   // ---- phone screen state ----
   let scr = props.screen ?? 'none';
@@ -381,6 +464,8 @@ export const Walk3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
       scrAt = f0;
     }
   });
+  const pingS = since('ping');
+  if (pingS >= 0 && at('ping')! >= scrAt) scr = 'sat';
   const phoneOn = pose.rh[1] > 1.0 || props.screen !== undefined;
 
   // ---- camera (relative to her unless camAbs) ----
@@ -459,7 +544,14 @@ export const Walk3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
         <planeGeometry args={[160, 46]} />
         <meshBasicMaterial map={sky ?? undefined} fog={false} />
       </mesh>
-      <pointLight position={[x + 2, 4, 3]} intensity={0.8} distance={12} color="#ffd2a0" />
+      {dk > 0 ? (
+        <mesh position={[x + 0, 14, -33.9]}>
+          <planeGeometry args={[160, 46]} />
+          <meshBasicMaterial map={night ?? undefined} fog={false} transparent opacity={dk} />
+        </mesh>
+      ) : null}
+      <pointLight position={[x + 2, 4, 3]} intensity={0.8 * (1 - dk * 0.7)} distance={12} color="#ffd2a0" />
+      {dk > 0 ? <pointLight position={[x - 1, 3, 4]} intensity={0.5 * dk} distance={14} color="#7f9cff" /> : null}
       {/* sidewalk, curb, road */}
       <mesh material={mats.walk} position={[16, -0.06, -0.3]}>
         <boxGeometry args={[80, 0.12, 4.0]} />
@@ -512,7 +604,7 @@ export const Walk3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
           <mesh material={mats.pole} position={[0, 3.98, -0.3]} rotation={[Math.PI / 2, 0, 0]}>
             <cylinderGeometry args={[0.035, 0.035, 0.6, 8]} />
           </mesh>
-          <mesh material={mats.bulb} position={[0, 3.9, -0.58]}>
+          <mesh material={offOf(200 + i) > 0.5 ? mats.dark : mats.bulb} position={[0, 3.9, -0.58]}>
             <sphereGeometry args={[0.13, 14, 10]} />
           </mesh>
         </group>
@@ -526,7 +618,7 @@ export const Walk3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
           </mesh>
           <mesh position={[0, (f.h + 3) / 2, 0.01]}>
             <planeGeometry args={[f.w * 0.9, f.h - 3.2]} />
-            <meshStandardMaterial map={facadeTex[f.t] ?? undefined} roughness={0.6} emissive={new THREE.Color('#ffd38a')} emissiveIntensity={0.18} emissiveMap={facadeTex[f.t] ?? undefined} />
+            <meshStandardMaterial map={facadeTex[f.t] ?? undefined} color={new THREE.Color('#ffffff').lerp(new THREE.Color('#1a2030'), offOf(i) * 0.9)} roughness={0.6} emissive={new THREE.Color('#ffd38a')} emissiveIntensity={0.18 * (1 - offOf(i))} emissiveMap={facadeTex[f.t] ?? undefined} />
           </mesh>
           <mesh material={mats.glass} position={[0, 1.15, 0.02]}>
             <planeGeometry args={[f.w * 0.8, 1.9]} />
@@ -542,7 +634,7 @@ export const Walk3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
         <group key={i} position={[s.x, 0, -2.0]}>
           <mesh position={[0, 2.95, 0.14]}>
             <planeGeometry args={[s.kind === 'home' ? 0.6 : 2.4, s.kind === 'home' ? 0.3 : 0.6]} />
-            <meshStandardMaterial map={signs[i] ?? undefined} emissiveMap={signs[i] ?? undefined} emissive={new THREE.Color('#ffffff')} emissiveIntensity={s.kind === 'bank' ? 0.15 : 0.7} />
+            <meshStandardMaterial map={signs[i] ?? undefined} emissiveMap={signs[i] ?? undefined} emissive={new THREE.Color('#ffffff')} emissiveIntensity={(s.kind === 'bank' ? 0.15 : 0.7) * (1 - offOf(50 + i) * 0.85)} />
           </mesh>
           {s.kind === 'cafe' ? (
             <group>
@@ -707,6 +799,90 @@ export const Walk3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}
           })()
         : null}
       {arcS >= 0 && arcS < 50 ? <pointLight position={[x + 0.4, 1.4, 0]} intensity={3 * (1 - clamp01(arcS / 50))} distance={4} color="#a08cff" /> : null}
+
+      {/* wall dish (props.dish) and satellite beam (props.sat, action beam) */}
+      {props.dish
+        ? (() => {
+            const [dx, dy, dz] = props.dish;
+            const sat = new THREE.Vector3(...(props.sat ?? [dx + 3, dy + 10, dz - 6]));
+            const d = new THREE.Vector3(dx, dy, dz);
+            const aim = sat.clone().sub(d).normalize();
+            const q = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 0, 1), aim);
+            const pinged = pingS >= 0;
+            const blink = pinged && Math.floor(pingS / 5) % 2 === 0;
+            return (
+              <group>
+                {/* wall bracket */}
+                <mesh material={mats.pole} position={[dx, dy - 0.05, dz - 0.25]}>
+                  <boxGeometry args={[0.08, 0.08, 0.5]} />
+                </mesh>
+                <group position={d} quaternion={q}>
+                  <mesh material={satMats.white} rotation={[Math.PI / 2, 0, 0]} position={[0, 0, -0.05]}>
+                    <sphereGeometry args={[0.55, 32, 12, 0, Math.PI * 2, Math.PI - 0.62, 0.62]} />
+                  </mesh>
+                  <mesh material={mats.pole} position={[0, -0.18, 0.28]} rotation={[0.55, 0, 0]}>
+                    <cylinderGeometry args={[0.015, 0.015, 0.62, 8]} />
+                  </mesh>
+                  <mesh material={mats.dark} position={[0, -0.02, 0.52]}>
+                    <boxGeometry args={[0.07, 0.07, 0.12]} />
+                  </mesh>
+                  <mesh material={blink ? satMats.led : satMats.ledOff} position={[0.05, 0.02, 0.5]}>
+                    <sphereGeometry args={[0.018, 8, 6]} />
+                  </mesh>
+                </group>
+                {/* satellite */}
+                {props.sat ? (
+                  <group position={sat} rotation={[0.3, frame / 300, 0.2]}>
+                    <mesh material={satMats.foil}>
+                      <boxGeometry args={[0.9, 0.9, 1.2]} />
+                    </mesh>
+                    {[-1, 1].map((sd) => (
+                      <group key={sd}>
+                        <mesh material={mats.pole} position={[sd * 0.75, 0, 0]} rotation={[0, 0, Math.PI / 2]}>
+                          <cylinderGeometry args={[0.03, 0.03, 0.6, 6]} />
+                        </mesh>
+                        <mesh material={satMats.panel} position={[sd * 2.1, 0, 0]}>
+                          <boxGeometry args={[2.4, 0.03, 0.8]} />
+                        </mesh>
+                      </group>
+                    ))}
+                    <mesh material={satMats.white} position={[0, -0.55, 0.3]} rotation={[Math.PI * 0.85, 0, 0]}>
+                      <sphereGeometry args={[0.45, 24, 10, 0, Math.PI * 2, 0, 0.6]} />
+                    </mesh>
+                  </group>
+                ) : null}
+                {/* beam + blocks travelling down */}
+                {since('beam') >= 0
+                  ? (() => {
+                      const bS = since('beam');
+                      const grow = clamp01(bS / 14);
+                      const len = sat.distanceTo(d);
+                      const mid = sat.clone().lerp(d, 0.5 * grow);
+                      const qb = new THREE.Quaternion().setFromUnitVectors(UP, d.clone().sub(sat).normalize());
+                      return (
+                        <group>
+                          <mesh material={satMats.beam} position={mid} quaternion={qb}>
+                            <cylinderGeometry args={[0.35, 0.08, len * grow, 16, 1, true]} />
+                          </mesh>
+                          {Array.from({length: 6}).map((_, k) => {
+                            const t = ((bS - 10 - k * 9) % 54) / 54;
+                            if (bS - 10 - k * 9 < 0) return null;
+                            const pos = sat.clone().lerp(d, t);
+                            return (
+                              <mesh key={k} material={satMats.block} position={pos} rotation={[bS / 9 + k, bS / 11, 0]}>
+                                <boxGeometry args={[0.22, 0.22, 0.22]} />
+                              </mesh>
+                            );
+                          })}
+                          <pointLight position={d.clone().add(new THREE.Vector3(0, 0.3, 0.6))} intensity={1.5} distance={4} color="#7fe3ff" />
+                        </group>
+                      );
+                    })()
+                  : null}
+              </group>
+            );
+          })()
+        : null}
 
       {/* ---- Maya ---- */}
       <group position={[x, bodyY, z0]} rotation={[0, heading, 0]}>
