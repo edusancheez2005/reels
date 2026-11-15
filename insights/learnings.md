@@ -1,49 +1,51 @@
 # What works on @sonartracker.io (from our own numbers, and Edu's taste)
 
-Updated 2026-11-08: 2,458 followers (−44 since 1 Nov), 24 reels in the data, 21 old enough to judge (median 1,564 views).
-Reports in `insights/weekly/`. The daily run reads this before writing a script. Each line: what to do, how sure we are, and the
-evidence. Edu's explicit calls on quality override the numbers. The weekly review rewrites this file; keep it under 12 bullets.
+Updated 2026-11-15: 2,309 followers (−149 since 8 Nov, the biggest weekly drop so far), 31 reels in the data, 28 old enough to
+judge (median 1,447 views). Reports in `insights/weekly/`. The daily run reads this before writing its script. Each line: what to
+do, how sure we are, and the evidence. Edu's explicit calls on quality override the numbers. The weekly review rewrites this file;
+keep it under 12 bullets.
+
+## Not working: reach fell off a cliff on 8 Nov (read this first)
+- Every reel since 8 Nov is stuck at 34–545 views: ftx-nine-days 277, ironkey-two-guesses 34 (reach 14), whale-alert-panic 164,
+  pig-butchering-banker 190, mt-gox-850k 268, and (too early) terra-luna-peg 286, squid-game-token 211, internet-down 545. The 7
+  reels before it (1–7 Nov) did 1,528–4,856, except broccoli 477. Same pipeline, same posting time (~04:30–05:00 UTC since 5 Nov),
+  same hashtags, review scores as good as before (hook 5 on every one). It hits every format, channel and topic at once, so it is
+  not a script problem, and this week's numbers say nothing about what content works. [Certain] that it happened (8 reels in a
+  row); I do not know why. With 2,309 followers and ~150–250 reach per reel, Instagram is barely showing the reels to anyone,
+  followers included. Edu needs to check Account Status in the app. Until we know, don't change any content rule because of the
+  8–15 Nov numbers, and don't read a reel from that week as a flop.
+- Follows. [Certain] Followers keep falling: 2,526 (28 Oct) → 2,502 → 2,458 → 2,309 (15 Nov). The data has no follows-per-reel
+  field. I do not know why. Don't change the CTA on a guess.
 
 ## Do
-- Open on one big, concrete number with a stake for the viewer, in the first spoken sentence and on screen from frame one. Say
-  the number before the date ("$215 million, gone when…", not "In December 2018…"). [Likely] 16 number-led judged reels: median
-  1,580 views, 37% 3s skip; 5 without: median 174, 52%. Not [Certain]: three number-led reels still got 145–209 (whale-wakes,
-  trump-sniper, midterm-dip-bounce). The "number before the date" part is [Guessing]: broccoli opened its voice on "In February
-  2025" (473 views, 53% skip) and the reviewer flagged it, but 184-billion-bug and poly-network also opened on a year and did fine.
-- Tell scam, hack and loss stories, and end on one concrete step the viewer can do today, said aloud and shown (a habit or a
-  setting, not "be careful"). [Likely] These four reels hold 26 of the 33 shares in the judged data: copy-paste-50m 10 shares and
-  42 saves (2.9 shares / 12.0 saves per 1k reach), poly-network-hack 6/8 (5.1 / 6.8), binance-hack 6/3 (4.1 / 2.1), mempool-bots
-  4/5 (2.9 / 3.7). The other 17 judged reels got 0–2 shares each. Copy-paste's step was the most specific ("never copy an address
-  from your history; save checked ones as contacts; read the middle characters") and it got the most saves by far. n=4.
+- Open on one big, concrete number with a stake for the viewer, in the first spoken sentence and on screen from frame one. [Likely]
+  Judged on the 23 reels posted before 8 Nov only: 18 number-led: median 1,599 views, 37% 3s skip; 5 without: median 174, 52%
+  (but two of those 5, quantum-bitcoin 2,116 and wallet-words 1,838, did fine). Not [Certain]: number-led whale-wakes,
+  trump-sniper and midterm-dip-bounce still got 145–210. "Number before the date" stays
+  [Guessing] (broccoli opened on a date and got 477; 184-billion-bug and poly-network did too and got 2,160 and 1,528).
+- Tell scam, hack and loss stories and end on one concrete step the viewer can do today, said aloud and shown. [Likely] The four
+  reels with 4+ shares are all of this kind: copy-paste-50m 10 shares / 44 saves (2.8 / 12.3 per 1k reach), poly-network-hack 6/8,
+  binance-hack 6/3, mempool-bots 4/5. The other 24 judged reels got 0–3 shares each. The most specific step (copy-paste: "never
+  copy an address from your history") got by far the most saves. n=4.
+- Have the card, number or object on screen from the first frame of every scene, and keep it under 60 s. [Certain: reviewer notes,
+  4 of 7 reels this week] Scenes opened on an empty frame for 0.4–1.4 s in ironkey, whale-alert, terra and squid (twice in some);
+  terra-luna ran 61.9 s and ftx 62.7 s. The 54–62 s story reels hold 20–27 s of average watch (pre-8 Nov), so the length is right;
+  the dead air is not. This is this week's one change.
 - Make every reel to the reference standard: episodes/2026-10-29-landfill-story and episodes/2026-11-01-184-billion-bug (real
   people, real documents as receipts, story-specific scenes, the specific lesson). [Certain: Edu, 29 Oct and 1 Nov] Vary the
-  format by concept; never the same format twice in a row. [Certain: Edu, 31 Oct] No format has shown a clear edge
-  yet (character: 209–2,159; breakdown: 1,215–4,742; documentary: 145–1,857).
-- Keep reels 45–60 s with real substance; cut anything past 60 s. [Likely] Views don't track length (>55 s median 1,648 vs ≤55 s
-  1,442, n=10 each), but the 54–62 s story reels hold 20–27 s of average watch vs 15.0 s for the 30 s cut. Satoshi (64.8 s) and
-  FTX (62.7 s) ran over; Edu's target is 60.
+  format; never the same format twice in a row. [Certain: Edu, 31 Oct] Prefer a real name card or headline to a toy-like 3D
+  stand-in: reviewers flagged the stand-ins as the flattest visual in 4 reels this week (pig-butchering, mt-gox, whale-alert, ironkey).
 
 ## Avoid
-- Off-crypto topics. [Likely] battery-lithium 152 views / 61% skip; ai-agent-hack 1,215 / 47%, 0.8× median (n=2).
-- Politics anywhere near the hook or caption: parties, elections, politicians' names, a politician's coin. [Guessing, n=2 but
-  matches Edu's 2 Nov rule] midterm-dip-bounce ("…as the Democrats won the US Congress") got 145 views, 77% skip and 5.3 s average
-  watch, the worst hook we have; trump-sniper (TRUMP coin) got 209 despite a decent 37% skip, which looks like limited reach rather
-  than a bad hook. Both were also the day's second reel posted after 16:00, so I do not know which of these caused it.
-- Cartoonish stand-ins, filler visuals and over-used components. [Certain: Edu, "realistic, not flat"; flagged again in the
-  184-billion-bug and trump-sniper reviews: Trader3D in 8 of 23 scenes vs the cap of 3] Use a real-document name card or a
-  grounded figure; keep text ≥40 px from the edges and out of Instagram's bottom 20% and right-hand button column.
-
-## Not working yet
-- Follows. [Certain] Followers keep falling while views rise: 2,526 (28 Oct) → 2,502 (1 Nov) → 2,458 (8 Nov), in a week with our
-  best reel ever (4,742 views). I do not know why: the data has no follows-per-reel field. Don't change the CTA on a guess.
-- Reach is all-or-nothing. Since 27 Oct, judged reels land either at 1,215–4,742 views or at 145–473, with nothing in between
-  (low: bitcoin-origin, trump-sniper, broccoli, midterm-dip-bounce). I do not know what decides it. Only copy-paste-50m (3.0×) has
-  broken clearly above the band; one reel, so [Guessing] that the copyable warning is why.
+- Off-crypto topics. [Likely] battery-lithium 152 views / 61% skip; ai-agent-hack 1,219 / 47%, 0.8× median (n=2).
+- Politics anywhere near the hook or caption. [Guessing, n=2, matches Edu's 2 Nov rule] midterm-dip-bounce 145 views, 77% skip,
+  5.3 s average watch (still our worst hook); trump-sniper 210. Both were also late second posts of the day, so I do not know which
+  caused it.
+- Meme-coin framing. [Guessing] trump-sniper 210, meme-coin-broccoli 477, both the bottom of their days before the cliff. Meme items
+  stay low in `backlog/crypto.md`. squid-game-token (told as a scam) is too early and inside the cliff, so it proves nothing.
 
 ## Watching (not enough data yet)
-- Breaking news vs plan: three breaking reels so far: binance-hack 1,857 (6 shares), ai-agent-hack 1,215 (off-crypto), midterm-dip-
-  bounce 145 (a market-move explainer). Plan reels' median is about 1,560. [Guessing] Breaking news isn't earning its place on views;
-  only an on-topic hack story earned shares. Keep the scout's bar high; skip "why the price moved" stories.
-- Meme coins: trump-sniper 209 and meme-coin-broccoli 473, both the bottom of their days. Two flops, but trump-sniper is confounded
-  with politics. Meme items moved down in `backlog/crypto.md`; the Squid Game slot (Sat 14) is framed as a scam ("you could buy but
-  never sell"), not a meme coin. Posting time: no clean effect (morning and evening reels both span ~150 to 2,000+ views).
+- Breaking news vs plan: no breaking reels this week (the scout found nothing big on any day). Still three in total: binance-hack
+  1,857 (6 shares), ai-agent-hack 1,219, midterm-dip-bounce 145. [Guessing] Only an on-topic hack story earned its place. Keep the
+  scout's bar high; skip "why the price moved" stories. Posting time: no clean effect (all reels since 5 Nov went out ~05:00 UTC,
+  both the good ones and the cliff ones).
