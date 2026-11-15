@@ -1,0 +1,1084 @@
+{
+ "slug": "internet-down",
+ "format": "scenario",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 0.9,
+ "emphasis": [
+  "Three hundred and thirteen",
+  "deliberately",
+  "thought experiment,",
+  "lost the internet.",
+  "shared record.",
+  "incoming payments.",
+  "satellites",
+  "sending.",
+  "offline.",
+  "miners,",
+  "ham radio",
+  "unrealistic:",
+  "someone online.",
+  "recovery words",
+  "two places."
+ ],
+ "scenes": [
+  {
+   "anchor": "Three",
+   "component": "Walk3D",
+   "theme": "dark",
+   "moving": true,
+   "props": {
+    "from": -3.0,
+    "to": -0.6,
+    "walkDur": 80,
+    "actions": [
+     "label:0",
+     "label:1",
+     "blackout",
+     "offline"
+    ],
+    "screen": "none",
+    "tags": [
+     {
+      "text": "313",
+      "x": 540,
+      "y": 470,
+      "tone": "alert",
+      "size": 190,
+      "pill": true
+     },
+     {
+      "text": "internet shutdowns in 2025",
+      "x": 540,
+      "y": 640,
+      "tone": "accent",
+      "size": 38,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -4.8,
+       2.2,
+       6.4
+      ],
+      "look": [
+       0.2,
+       1.9,
+       -0.6
+      ],
+      "fov": 40
+     },
+     {
+      "beat": 2,
+      "pos": [
+       -3.8,
+       1.8,
+       5.2
+      ],
+      "look": [
+       0.2,
+       1.5,
+       -0.4
+      ],
+      "fov": 38,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "Three",
+    "thirteen",
+    "year,",
+    "internet"
+   ]
+  },
+  {
+   "anchor": "deliberately",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "an_n.png",
+    "chrome": "browser",
+    "url": "accessnow.org/internet-shutdowns-2025/",
+    "source": "Access Now · 31 Mar 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.33,
+      "zoom": 1.25
+     },
+     {
+      "x": 0.42,
+      "y": 0.3,
+      "zoom": 1.45
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 203,
+      "y": 168,
+      "w": 492,
+      "h": 10
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 193,
+      "y": 112,
+      "w": 512,
+      "h": 70
+     }
+    ]
+   },
+   "beats": [
+    "deliberately",
+    "somewhere."
+   ]
+  },
+  {
+   "anchor": "What",
+   "component": "Title",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "What happens to bitcoin?",
+     "A thought experiment.",
+     "Not a prediction."
+    ],
+    "accent": [
+     "thought experiment."
+    ],
+    "size": 80
+   },
+   "beats": [
+    "What",
+    "thought",
+    "not"
+   ]
+  },
+  {
+   "anchor": "Meet",
+   "component": "Walk3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "dark0": true,
+    "from": 2.0,
+    "to": 5.6,
+    "walkDur": 90,
+    "screen": "offline",
+    "actions": [
+     "walk",
+     "card",
+     "phone",
+     "pin:0",
+     "hide:0",
+     "pin:1",
+     "hide:1",
+     "nosee",
+     "pin:2"
+    ],
+    "card": {
+     "name": "SAM",
+     "role": "her town just lost the internet",
+     "note": "Fictional · a thought experiment",
+     "y": 1240
+    },
+    "pins": [
+     {
+      "text": "no internet",
+      "at": [
+       0,
+       2.05,
+       0
+      ],
+      "dy": -210,
+      "tone": "alert",
+      "size": 44
+     },
+     {
+      "text": "coins: on the blockchain",
+      "at": [
+       0,
+       2.05,
+       0
+      ],
+      "dy": -210,
+      "tone": "good",
+      "size": 40
+     },
+     {
+      "text": "Problem 1: can't see payments",
+      "at": [
+       0,
+       2.05,
+       0
+      ],
+      "dy": -210,
+      "tone": "warm",
+      "size": 38
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       4.6,
+       2.2,
+       6.0
+      ],
+      "look": [
+       0.6,
+       1.2,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 3,
+      "pos": [
+       3.4,
+       1.9,
+       4.6
+      ],
+      "look": [
+       0.3,
+       1.25,
+       0
+      ],
+      "fov": 36,
+      "dur": 40
+     },
+     {
+      "beat": 7,
+      "pos": [
+       2.4,
+       1.65,
+       3.4
+      ],
+      "look": [
+       0,
+       1.3,
+       0
+      ],
+      "fov": 34,
+      "dur": 30
+     }
+    ]
+   },
+   "beats": [
+    "Meet",
+    "Sam,",
+    "lost",
+    "internet.",
+    "blockchain,",
+    "blockchain,",
+    "Problem",
+    "can't",
+    "incoming"
+   ]
+  },
+  {
+   "anchor": "since",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "bs2017_n.png",
+    "chrome": "browser",
+    "url": "blog.blockstream.com/en-announcing-blockstream-satellite/",
+    "source": "Blockstream blog · 15 Aug 2017",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.1,
+      "zoom": 1.1
+     },
+     {
+      "x": 0.3,
+      "y": 0.2,
+      "zoom": 1.5
+     },
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.5,
+      "y": 0.47,
+      "zoom": 1.35
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 24,
+      "y": 258,
+      "w": 171,
+      "h": 54
+     },
+     {
+      "beat": 3,
+      "kind": "underline",
+      "x": 794,
+      "y": 532,
+      "w": 242,
+      "h": 10
+     },
+     {
+      "beat": 3,
+      "kind": "underline",
+      "x": 32,
+      "y": 582,
+      "w": 1032,
+      "h": 10
+     }
+    ]
+   },
+   "beats": [
+    "since",
+    "2017,",
+    "company",
+    "Blockstream"
+   ]
+  },
+  {
+   "anchor": "beamed",
+   "component": "Walk3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "dark0": true,
+    "camAbs": true,
+    "from": 19.8,
+    "to": 19.8,
+    "face": 0.5,
+    "screen": "nosee",
+    "dish": [
+     21.4,
+     3.5,
+     -1.95
+    ],
+    "sat": [
+     23.6,
+     12.5,
+     1.5
+    ],
+    "actions": [
+     "beam",
+     "label:0",
+     "label:1",
+     "ping",
+     "pin:0",
+     "label:2",
+     "stuck"
+    ],
+    "tags": [
+     {
+      "text": "Blockstream Satellite",
+      "x": 540,
+      "y": 450,
+      "tone": "accent",
+      "size": 44,
+      "pill": true
+     },
+     {
+      "text": "since 2017",
+      "x": 540,
+      "y": 530,
+      "tone": "accent",
+      "size": 40,
+      "pill": true
+     },
+     {
+      "text": "Problem 2: sending",
+      "x": 540,
+      "y": 1330,
+      "tone": "warm",
+      "size": 48,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       17.6,
+       1.0,
+       6.0
+      ],
+      "look": [
+       21.6,
+       7.4,
+       -0.8
+      ],
+      "fov": 56
+     },
+     {
+      "beat": 1,
+      "pos": [
+       17.9,
+       1.2,
+       5.6
+      ],
+      "look": [
+       21.8,
+       7.8,
+       -0.6
+      ],
+      "fov": 56,
+      "dur": 60
+     },
+     {
+      "beat": 3,
+      "pos": [
+       16.4,
+       2.0,
+       6.2
+      ],
+      "look": [
+       20.6,
+       2.4,
+       -1.2
+      ],
+      "fov": 44,
+      "dur": 30
+     },
+     {
+      "beat": 5,
+      "pos": [
+       18.3,
+       1.8,
+       3.0
+      ],
+      "look": [
+       19.9,
+       1.1,
+       -0.2
+      ],
+      "fov": 36,
+      "dur": 26
+     }
+    ],
+    "pins": [
+     {
+      "text": "new block received",
+      "at": [
+       21.4,
+       3.5,
+       -1.95
+      ],
+      "rel": false,
+      "dy": -170,
+      "tone": "good",
+      "size": 40
+     }
+    ]
+   },
+   "beats": [
+    "beamed",
+    "Bitcoin's",
+    "blocks,",
+    "dishes",
+    "Sam's.",
+    "Problem",
+    "sending."
+   ]
+  },
+  {
+   "anchor": "Sam can",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "cc_n.png",
+    "chrome": "browser",
+    "url": "coldcard.com/learn/advanced-concepts/air-gap-signing-methods",
+    "source": "COLDCARD guide",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.3,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.45,
+      "y": 0.5,
+      "zoom": 1.35
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 552,
+      "y": 78,
+      "w": 492,
+      "h": 10
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 689,
+      "y": 138,
+      "w": 324,
+      "h": 10
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 24,
+      "y": 199,
+      "w": 603,
+      "h": 10
+     }
+    ]
+   },
+   "beats": [
+    "approve",
+    "offline."
+   ]
+  },
+  {
+   "anchor": "It counts",
+   "component": "Pool3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "filled": true,
+    "actions": [
+     "send",
+     "wait",
+     "label:0",
+     "label:1",
+     "block",
+     "chain"
+    ],
+    "tags": [
+     {
+      "text": "miners: computers",
+      "x": 540,
+      "y": 1290,
+      "tone": "accent",
+      "size": 42,
+      "pill": true
+     },
+     {
+      "text": "that confirm payments",
+      "x": 540,
+      "y": 1370,
+      "tone": "accent",
+      "size": 40,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       6.2,
+       12.0
+      ],
+      "look": [
+       0,
+       2.4,
+       -0.4
+      ],
+      "fov": 40
+     },
+     {
+      "beat": 4,
+      "pos": [
+       1.2,
+       6.8,
+       10.6
+      ],
+      "look": [
+       0,
+       3.2,
+       -0.4
+      ],
+      "fov": 42,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "counts",
+    "only",
+    "miners,",
+    "computers",
+    "confirm",
+    "get"
+   ]
+  },
+  {
+   "anchor": "Could",
+   "component": "Title",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Could radio",
+     "carry a payment?"
+    ],
+    "accent": [
+     "radio"
+    ],
+    "size": 96
+   },
+   "beats": [
+    "Could",
+    "carry"
+   ]
+  },
+  {
+   "anchor": "2019,",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "actions": [
+     "enter",
+     "label:0",
+     "card"
+    ],
+    "card": {
+     "name": "RODOLFO NOVAK",
+     "role": "co-founder, Coinkite (COLDCARD wallets)",
+     "note": "3D stand-in",
+     "y": 1250
+    },
+    "tags": [
+     {
+      "text": "2019",
+      "x": 540,
+      "y": 520,
+      "tone": "accent",
+      "size": 90,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0.85,
+       8.8
+      ],
+      "look": [
+       0,
+       0.15,
+       0
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "2019,",
+    "2019,",
+    "Rodolfo"
+   ]
+  },
+  {
+   "anchor": "bitcoin",
+   "component": "RouteMap",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "bbox": [
+     -132,
+     24,
+     -62,
+     56
+    ],
+    "legs": [
+     {
+      "route": [
+       [
+        -79.38,
+        43.65
+       ],
+       [
+        -92,
+        45.5
+       ],
+       [
+        -106,
+        43.5
+       ],
+       [
+        -122.42,
+        37.77
+       ]
+      ],
+      "beat": 0,
+      "dur": 60,
+      "color": "#3bc9ee",
+      "label": "by ham radio"
+     }
+    ],
+    "pins": [
+     {
+      "name": "Toronto",
+      "lon": -79.38,
+      "lat": 43.65,
+      "beat": 0,
+      "side": "left"
+     },
+     {
+      "name": "San Francisco",
+      "lon": -122.42,
+      "lat": 37.77,
+      "beat": 2,
+      "side": "right"
+     }
+    ],
+    "cam": [
+     {
+      "beat": 0,
+      "lon": -100,
+      "lat": 41,
+      "zoom": 1.05
+     }
+    ]
+   },
+   "beats": [
+    "bitcoin",
+    "Toronto",
+    "to"
+   ]
+  },
+  {
+   "anchor": "developer",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "actions": [
+     "enter",
+     "card"
+    ],
+    "colours": {
+     "top": "#5b7fd6",
+     "legs": "#2b2f3a",
+     "hair": "#141010",
+     "skin": "#e2b48e"
+    },
+    "card": {
+     "name": "ELAINE OU",
+     "role": "developer · San Francisco",
+     "note": "3D stand-in",
+     "y": 1250
+    },
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.3,
+       0.85,
+       8.6
+      ],
+      "look": [
+       0,
+       0.15,
+       0
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "developer",
+    "Elaine"
+   ]
+  },
+  {
+   "anchor": "The catch",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "source": "Elaine Ou, quoted by CoinDesk · 4 Mar 2019",
+    "text": "“It was a fun demo, but obviously unrealistic because we coordinated everything online before sending the radio signals.”",
+    "mark": "obviously unrealistic",
+    "note": "Exact words from the article."
+   },
+   "beats": [
+    "catch?",
+    "unrealistic:"
+   ]
+  },
+  {
+   "anchor": "they set",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "pose": "idle",
+    "actions": [
+     "shrug",
+     "label:0"
+    ],
+    "colours": {
+     "top": "#5b7fd6",
+     "legs": "#2b2f3a",
+     "hair": "#141010",
+     "skin": "#e2b48e"
+    },
+    "tags": [
+     {
+      "text": "set up online first",
+      "x": 540,
+      "y": 520,
+      "tone": "warm",
+      "size": 56,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.4,
+       1.0,
+       6.6
+      ],
+      "look": [
+       0,
+       0.35,
+       0
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "set",
+    "online"
+   ]
+  },
+  {
+   "anchor": "The limit",
+   "component": "Compare",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "left": {
+     "title": "Satellite",
+     "tone": "accent",
+     "items": [
+      "blocks come IN"
+     ]
+    },
+    "right": {
+     "title": "Sending",
+     "tone": "alert",
+     "items": [
+      "needs someone online"
+     ]
+    }
+   },
+   "beats": [
+    "limit:",
+    "bring",
+    "sending",
+    "someone"
+   ]
+  },
+  {
+   "anchor": "Sam's",
+   "component": "Phone3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "rotY": 0.3,
+    "screenOn": true,
+    "pct": 0.15,
+    "pctTo": 0.0,
+    "actions": [
+     "label:0",
+     "screen",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "her coins wait, safe",
+      "x": 540,
+      "y": 470,
+      "tone": "good",
+      "size": 46,
+      "pill": true
+     },
+     {
+      "text": "phone dies?",
+      "x": 540,
+      "y": 1420,
+      "tone": "alert",
+      "size": 54,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       0,
+       10.2
+      ],
+      "look": [
+       0,
+       0,
+       0
+      ]
+     }
+    ]
+   },
+   "beats": [
+    "Sam's",
+    "phone",
+    "dies"
+   ]
+  },
+  {
+   "anchor": "her recovery",
+   "component": "Seed3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "actions": [
+     "card",
+     "glow",
+     "label:0"
+    ],
+    "title": "Recovery words",
+    "tags": [
+     {
+      "text": "rebuild the wallet",
+      "x": 540,
+      "y": 1300,
+      "tone": "good",
+      "size": 46,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       6.6,
+       7.4
+      ],
+      "look": [
+       0,
+       0,
+       0.9
+      ],
+      "fov": 34
+     }
+    ]
+   },
+   "beats": [
+    "recovery",
+    "rebuild",
+    "wallet."
+   ]
+  },
+  {
+   "anchor": "Keep",
+   "component": "Seed3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "actions": [
+     "cam",
+     "two",
+     "label:0",
+     "label:1"
+    ],
+    "title": "Recovery words",
+    "tags": [
+     {
+      "text": "on paper",
+      "x": 540,
+      "y": 1300,
+      "tone": "accent",
+      "size": 52,
+      "pill": true
+     },
+     {
+      "text": "in two places",
+      "x": 540,
+      "y": 1390,
+      "tone": "good",
+      "size": 52,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.4,
+       6.9,
+       7.6
+      ],
+      "look": [
+       0.4,
+       0,
+       0.9
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.7,
+       7.4,
+       8.2
+      ],
+      "look": [
+       0.6,
+       0,
+       0.7
+      ],
+      "fov": 38,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "Keep",
+    "paper,",
+    "paper,",
+    "two"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+Three hundred and thirteen times last year, the internet was deliberately shut down somewhere. What happens to bitcoin then? A thought experiment, not a prediction.
+Meet Sam, whose town just lost the internet. Her bitcoin is safe on the blockchain, a shared record.
+Problem one: Sam can't see incoming payments. But since 2017, the company Blockstream has beamed Bitcoin's new blocks, batches of payments, from satellites to dishes like Sam's.
+Problem two: sending. Sam can approve a payment offline. It counts only once miners, the computers that confirm payments, get it.
+Could radio carry a payment? In 2019, Coinkite co-founder Rodolfo Novak sent bitcoin by ham radio from Toronto to developer Elaine Ou, in San Francisco.
+The catch? Ou called it unrealistic: they set it up online first.
+The limit: satellites bring blocks in, but sending needs someone online. Sam's coins wait. If her phone dies meanwhile, her recovery words rebuild her wallet. Keep them on paper, in two places.

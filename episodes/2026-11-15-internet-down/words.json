@@ -1,0 +1,1122 @@
+[
+ {
+  "text": "Three",
+  "startMs": 80,
+  "endMs": 370,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 370,
+  "endMs": 830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 830,
+  "endMs": 1008,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thirteen",
+  "startMs": 1010,
+  "endMs": 1440,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " times",
+  "startMs": 1440,
+  "endMs": 1750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " last",
+  "startMs": 1750,
+  "endMs": 2110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " year,",
+  "startMs": 2110,
+  "endMs": 2342,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 2570,
+  "endMs": 2640,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " internet",
+  "startMs": 2640,
+  "endMs": 3210,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 3210,
+  "endMs": 3386,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " deliberately",
+  "startMs": 3390,
+  "endMs": 4082,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shut",
+  "startMs": 4100,
+  "endMs": 4290,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " down",
+  "startMs": 4290,
+  "endMs": 4604,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " somewhere.",
+  "startMs": 4620,
+  "endMs": 5010,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " What",
+  "startMs": 5190,
+  "endMs": 5405,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " happens",
+  "startMs": 5470,
+  "endMs": 5782,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 5810,
+  "endMs": 5940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bitcoin",
+  "startMs": 5940,
+  "endMs": 6375,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " then?",
+  "startMs": 6380,
+  "endMs": 6590,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 6794,
+  "endMs": 6924,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thought",
+  "startMs": 6924,
+  "endMs": 7143,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " experiment,",
+  "startMs": 7154,
+  "endMs": 7665,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 7804,
+  "endMs": 8054,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 8054,
+  "endMs": 8184,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " prediction.",
+  "startMs": 8184,
+  "endMs": 8624,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Meet",
+  "startMs": 8804,
+  "endMs": 9056,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sam,",
+  "startMs": 9084,
+  "endMs": 9258,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " whose",
+  "startMs": 9464,
+  "endMs": 9704,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " town",
+  "startMs": 9704,
+  "endMs": 9964,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " just",
+  "startMs": 10024,
+  "endMs": 10184,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lost",
+  "startMs": 10184,
+  "endMs": 10484,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 10484,
+  "endMs": 10620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " internet.",
+  "startMs": 10674,
+  "endMs": 11074,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Her",
+  "startMs": 11254,
+  "endMs": 11384,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bitcoin",
+  "startMs": 11384,
+  "endMs": 11851,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 11854,
+  "endMs": 11959,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " safe",
+  "startMs": 11974,
+  "endMs": 12194,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 12194,
+  "endMs": 12393,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 12394,
+  "endMs": 12501,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " blockchain,",
+  "startMs": 12604,
+  "endMs": 13098,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 13244,
+  "endMs": 13434,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shared",
+  "startMs": 13434,
+  "endMs": 13749,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " record.",
+  "startMs": 13774,
+  "endMs": 14074,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Problem",
+  "startMs": 14254,
+  "endMs": 14734,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one:",
+  "startMs": 14734,
+  "endMs": 14950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sam",
+  "startMs": 15164,
+  "endMs": 15378,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " can't",
+  "startMs": 15474,
+  "endMs": 15646,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " see",
+  "startMs": 15684,
+  "endMs": 15860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " incoming",
+  "startMs": 15884,
+  "endMs": 16342,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " payments.",
+  "startMs": 16344,
+  "endMs": 16824,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " But",
+  "startMs": 17004,
+  "endMs": 17226,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " since",
+  "startMs": 17334,
+  "endMs": 17504,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2017,",
+  "startMs": 17504,
+  "endMs": 18783,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 18994,
+  "endMs": 19117,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " company",
+  "startMs": 19124,
+  "endMs": 19554,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Blockstream",
+  "startMs": 19554,
+  "endMs": 20144,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " has",
+  "startMs": 20144,
+  "endMs": 20452,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " beamed",
+  "startMs": 20454,
+  "endMs": 20744,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bitcoin's",
+  "startMs": 20744,
+  "endMs": 21244,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " new",
+  "startMs": 21244,
+  "endMs": 21504,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " blocks,",
+  "startMs": 21504,
+  "endMs": 21898,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " batches",
+  "startMs": 22184,
+  "endMs": 22504,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 22504,
+  "endMs": 22614,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " payments,",
+  "startMs": 22614,
+  "endMs": 23121,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 23364,
+  "endMs": 23464,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " satellites",
+  "startMs": 23464,
+  "endMs": 24174,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 24174,
+  "endMs": 24344,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dishes",
+  "startMs": 24344,
+  "endMs": 24678,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " like",
+  "startMs": 24704,
+  "endMs": 24954,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sam's.",
+  "startMs": 24954,
+  "endMs": 25234,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Problem",
+  "startMs": 25414,
+  "endMs": 25924,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two:",
+  "startMs": 25924,
+  "endMs": 26183,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sending.",
+  "startMs": 26394,
+  "endMs": 26834,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sam",
+  "startMs": 27014,
+  "endMs": 27214,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " can",
+  "startMs": 27214,
+  "endMs": 27414,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " approve",
+  "startMs": 27414,
+  "endMs": 27773,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 27774,
+  "endMs": 27924,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " payment",
+  "startMs": 27924,
+  "endMs": 28330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " offline.",
+  "startMs": 28334,
+  "endMs": 28684,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It",
+  "startMs": 28864,
+  "endMs": 28954,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " counts",
+  "startMs": 28954,
+  "endMs": 29318,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " only",
+  "startMs": 29324,
+  "endMs": 29614,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " once",
+  "startMs": 29614,
+  "endMs": 29834,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " miners,",
+  "startMs": 29834,
+  "endMs": 30225,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 30424,
+  "endMs": 30524,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " computers",
+  "startMs": 30524,
+  "endMs": 31082,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 31184,
+  "endMs": 31283,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " confirm",
+  "startMs": 31284,
+  "endMs": 31686,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " payments,",
+  "startMs": 31764,
+  "endMs": 32140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " get",
+  "startMs": 32344,
+  "endMs": 32543,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it.",
+  "startMs": 32554,
+  "endMs": 32644,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Could",
+  "startMs": 32824,
+  "endMs": 33004,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " radio",
+  "startMs": 33004,
+  "endMs": 33474,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " carry",
+  "startMs": 33474,
+  "endMs": 33724,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 33744,
+  "endMs": 33854,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " payment?",
+  "startMs": 33854,
+  "endMs": 34274,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 34478,
+  "endMs": 34656,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2019,",
+  "startMs": 34678,
+  "endMs": 35904,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Coinkite",
+  "startMs": 36108,
+  "endMs": 36628,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " co-founder",
+  "startMs": 36628,
+  "endMs": 37330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Rodolfo",
+  "startMs": 37418,
+  "endMs": 37924,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Novak",
+  "startMs": 37948,
+  "endMs": 38268,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sent",
+  "startMs": 38268,
+  "endMs": 38637,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bitcoin",
+  "startMs": 38678,
+  "endMs": 39048,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " by",
+  "startMs": 39048,
+  "endMs": 39278,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ham",
+  "startMs": 39278,
+  "endMs": 39587,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " radio",
+  "startMs": 39658,
+  "endMs": 40118,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 40118,
+  "endMs": 40359,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Toronto",
+  "startMs": 40438,
+  "endMs": 40908,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 40908,
+  "endMs": 41128,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " developer",
+  "startMs": 41128,
+  "endMs": 41648,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Elaine",
+  "startMs": 41648,
+  "endMs": 41918,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Ou,",
+  "startMs": 41918,
+  "endMs": 42201,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 42438,
+  "endMs": 42568,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " San",
+  "startMs": 42568,
+  "endMs": 42855,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Francisco.",
+  "startMs": 42858,
+  "endMs": 43508,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 43688,
+  "endMs": 43828,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " catch?",
+  "startMs": 43828,
+  "endMs": 44298,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Ou",
+  "startMs": 44502,
+  "endMs": 44671,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " called",
+  "startMs": 44672,
+  "endMs": 45010,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 45022,
+  "endMs": 45092,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " unrealistic:",
+  "startMs": 45092,
+  "endMs": 45858,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " they",
+  "startMs": 46082,
+  "endMs": 46192,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " set",
+  "startMs": 46192,
+  "endMs": 46479,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 46492,
+  "endMs": 46592,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " up",
+  "startMs": 46602,
+  "endMs": 46682,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " online",
+  "startMs": 46682,
+  "endMs": 47162,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " first.",
+  "startMs": 47162,
+  "endMs": 47552,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 47732,
+  "endMs": 47832,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " limit:",
+  "startMs": 47832,
+  "endMs": 48138,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " satellites",
+  "startMs": 48342,
+  "endMs": 48901,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bring",
+  "startMs": 48922,
+  "endMs": 49142,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " blocks",
+  "startMs": 49142,
+  "endMs": 49510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in,",
+  "startMs": 49512,
+  "endMs": 49663,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " but",
+  "startMs": 49862,
+  "endMs": 50062,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sending",
+  "startMs": 50062,
+  "endMs": 50382,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " needs",
+  "startMs": 50382,
+  "endMs": 50722,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " someone",
+  "startMs": 50722,
+  "endMs": 51082,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " online.",
+  "startMs": 51082,
+  "endMs": 51492,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sam's",
+  "startMs": 51672,
+  "endMs": 52013,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins",
+  "startMs": 52022,
+  "endMs": 52402,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wait.",
+  "startMs": 52402,
+  "endMs": 52762,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " If",
+  "startMs": 52942,
+  "endMs": 53059,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " her",
+  "startMs": 53062,
+  "endMs": 53232,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " phone",
+  "startMs": 53232,
+  "endMs": 53529,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dies",
+  "startMs": 53542,
+  "endMs": 53823,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " meanwhile,",
+  "startMs": 53862,
+  "endMs": 54351,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " her",
+  "startMs": 54582,
+  "endMs": 54762,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " recovery",
+  "startMs": 54762,
+  "endMs": 55290,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " words",
+  "startMs": 55342,
+  "endMs": 55643,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rebuild",
+  "startMs": 55652,
+  "endMs": 56052,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " her",
+  "startMs": 56052,
+  "endMs": 56222,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wallet.",
+  "startMs": 56222,
+  "endMs": 56582,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Keep",
+  "startMs": 56762,
+  "endMs": 56982,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " them",
+  "startMs": 56982,
+  "endMs": 57224,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 57232,
+  "endMs": 57378,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " paper,",
+  "startMs": 57422,
+  "endMs": 57686,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 57942,
+  "endMs": 58012,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 58012,
+  "endMs": 58182,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " places.",
+  "startMs": 58182,
+  "endMs": 58662,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

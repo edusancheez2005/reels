@@ -1,0 +1,8 @@
+313 times last year, the internet was deliberately shut down somewhere. What happens to bitcoin when it goes dark? A thought experiment, not a prediction.
+Your coins sit on the blockchain, not in your phone, so a blackout doesn't erase them. Since 2017, Blockstream has beamed new Bitcoin blocks down from satellites, so a dish can still receive them. Sending is the hard part: a payment only counts once miners get it. In 2019, Coinkite co-founder Rodolfo Novak sent bitcoin by ham radio from Toronto to developer Elaine Ou in San Francisco, and Ou herself called it unrealistic because they set it up online first.
+The step: your recovery words rebuild your wallet in any compatible wallet, even if the company behind yours is gone. Keep them on paper, in two places.
+Follow for crypto, explained simply.
+Not financial advice.
+#Bitcoin #Crypto #CryptoExplained #CryptoForBeginners #Sonar
+
+Sources: Access Now, "When repression meets resistance: internet shutdowns in 2025" (31 Mar 2026) - Blockstream blog, "Announcing Blockstream Satellite" (15 Aug 2017) - Blockstream Help Center, "Blockstream Satellite" - bitcoin.org, "How does Bitcoin work?" - COLDCARD, "Bitcoin Air-Gap Signing Methods" - CoinDesk, "Bitcoin Coders Send International Lightning Payment Over Ham Radio" (4 Mar 2019) - Ledger Academy, "What is a seed phrase?"
