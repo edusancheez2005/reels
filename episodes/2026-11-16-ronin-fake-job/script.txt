@@ -1,0 +1,10 @@
+Hackers took six hundred and twenty-five million dollars, and nobody noticed for six days.
+Ronin's bridge was a vault for the crypto game Axie Infinity. Money left only when five of nine secret keys approved.
+Sky Mavis, the game's maker, held four of those keys.
+So hackers sent a Sky Mavis engineer a fake LinkedIn job offer, as a PDF.
+The PDF let them into the computers holding those four keys.
+The fifth? In November 2021, a partner lent Sky Mavis their key during a player rush.
+That help ended in December, but the permission stayed on. Five keys.
+On March 23rd, 2022, two withdrawals took the money. Six days later, a user's failed withdrawal exposed the theft. The FBI blamed North Korea's Lazarus Group.
+Two mistakes: the engineer opened a stranger's file at work, and Sky Mavis left old access on.
+Never open a recruiter's file on the computer with your wallet: one file can hand hackers your coins.

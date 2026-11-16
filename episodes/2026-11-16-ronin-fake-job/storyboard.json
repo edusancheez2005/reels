@@ -1,0 +1,1275 @@
+{
+ "slug": "ronin-fake-job",
+ "format": "character",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 0.9,
+ "emphasis": [
+  "six hundred and twenty-five million dollars,",
+  "six days.",
+  "five of nine",
+  "four of those keys.",
+  "fake LinkedIn job offer,",
+  "The fifth?",
+  "stayed on.",
+  "Five keys.",
+  "took the money.",
+  "failed withdrawal",
+  "Lazarus Group.",
+  "Two mistakes:",
+  "stranger's file",
+  "old access",
+  "recruiter's file",
+  "your coins."
+ ],
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "vault",
+     "kind": "vault",
+     "at": [
+      0,
+      -1.3
+     ],
+     "tone": "accent",
+     "size": 1.5
+    },
+    {
+     "id": "pile",
+     "kind": "coins",
+     "at": [
+      -1.9,
+      -1.6
+     ],
+     "tone": "warm",
+     "size": 1.0
+    },
+    {
+     "id": "k1",
+     "kind": "block",
+     "at": [
+      -4.4,
+      1.9
+     ],
+     "tone": "muted",
+     "icon": "key",
+     "size": 0.8
+    },
+    {
+     "id": "k2",
+     "kind": "block",
+     "at": [
+      -3.3,
+      1.9
+     ],
+     "tone": "muted",
+     "icon": "key",
+     "size": 0.8
+    },
+    {
+     "id": "k3",
+     "kind": "block",
+     "at": [
+      -2.2,
+      1.9
+     ],
+     "tone": "muted",
+     "icon": "key",
+     "size": 0.8
+    },
+    {
+     "id": "k4",
+     "kind": "block",
+     "at": [
+      -1.1,
+      1.9
+     ],
+     "tone": "muted",
+     "icon": "key",
+     "size": 0.8
+    },
+    {
+     "id": "k5",
+     "kind": "block",
+     "at": [
+      0,
+      1.9
+     ],
+     "tone": "warm",
+     "icon": "key",
+     "size": 0.8
+    },
+    {
+     "id": "k6",
+     "kind": "block",
+     "at": [
+      1.1,
+      1.9
+     ],
+     "tone": "muted",
+     "icon": "key",
+     "size": 0.8
+    },
+    {
+     "id": "k7",
+     "kind": "block",
+     "at": [
+      2.2,
+      1.9
+     ],
+     "tone": "muted",
+     "icon": "key",
+     "size": 0.8
+    },
+    {
+     "id": "k8",
+     "kind": "block",
+     "at": [
+      3.3,
+      1.9
+     ],
+     "tone": "muted",
+     "icon": "key",
+     "size": 0.8
+    },
+    {
+     "id": "k9",
+     "kind": "block",
+     "at": [
+      4.4,
+      1.9
+     ],
+     "tone": "muted",
+     "icon": "key",
+     "size": 0.8
+    },
+    {
+     "id": "hack",
+     "kind": "pawn",
+     "at": [
+      4.6,
+      -2.0
+     ],
+     "tone": "alert"
+    },
+    {
+     "id": "loot",
+     "kind": "coins",
+     "at": [
+      3.4,
+      -2.3
+     ],
+     "tone": "alert",
+     "size": 0.9
+    }
+   ],
+   "movers": [
+    {
+     "id": "m1",
+     "kind": "coin",
+     "path": [
+      "vault",
+      "loot"
+     ],
+     "dur": 36
+    },
+    {
+     "id": "m2",
+     "kind": "coin",
+     "path": [
+      "vault",
+      "loot"
+     ],
+     "dur": 36
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "Hackers",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "opened": true,
+    "keyGone": true,
+    "plate": "RONIN BRIDGE",
+    "actions": [
+     "label:0",
+     "drain",
+     "label:1",
+     "label:2"
+    ],
+    "tags": [
+     {
+      "text": "$625M STOLEN",
+      "x": 540,
+      "y": 540,
+      "tone": "alert",
+      "size": 84
+     },
+     {
+      "text": "nobody noticed for",
+      "x": 540,
+      "y": 640,
+      "size": 44,
+      "pill": true
+     },
+     {
+      "text": "6 DAYS",
+      "x": 540,
+      "y": 745,
+      "tone": "warm",
+      "size": 96
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.9,
+       1.2,
+       9.8
+      ],
+      "look": [
+       0.3,
+       -0.25,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 2,
+      "pos": [
+       1.2,
+       1.05,
+       8.9
+      ],
+      "look": [
+       0.35,
+       -0.25,
+       0
+      ],
+      "fov": 38
+     }
+    ]
+   },
+   "beats": [
+    "Hackers",
+    "million",
+    "nobody",
+    "days."
+   ],
+   "long": true
+  },
+  {
+   "anchor": "Ronin's bridge",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "hack",
+     "loot"
+    ],
+    "actions": [
+     "label:0",
+     "label:1",
+     "tag:0",
+     "tag:1"
+    ],
+    "labels": [
+     {
+      "text": "Ronin bridge: the vault",
+      "at": "vault",
+      "side": "up",
+      "dy": -150,
+      "tone": "accent"
+     },
+     {
+      "text": "Axie Infinity players' coins",
+      "at": "pile",
+      "side": "left",
+      "dx": -10,
+      "dy": 90,
+      "tone": "warm"
+     }
+    ],
+    "tags": [
+     {
+      "text": "PAYS OUT ONLY WITH",
+      "x": 540,
+      "y": 1330,
+      "size": 44,
+      "pill": true
+     },
+     {
+      "text": "5 OF 9 KEYS",
+      "x": 540,
+      "y": 1420,
+      "size": 72,
+      "tone": "accent"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.0,
+       0,
+       1.6
+      ],
+      "zoom": 70
+     }
+    ]
+   },
+   "beats": [
+    "Ronin's",
+    "Axie",
+    "five",
+    "approved."
+   ]
+  },
+  {
+   "anchor": "Sky Mavis, the",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "hack",
+     "loot"
+    ],
+    "actions": [
+     "label:0",
+     "good:k1",
+     "good:k2",
+     "good:k3",
+     "good:k4"
+    ],
+    "labels": [
+     {
+      "text": "Sky Mavis, the game's maker: 4 keys",
+      "at": "k2",
+      "side": "up",
+      "dy": -170,
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -3.4,
+       0,
+       2.6
+      ],
+      "zoom": 100
+     }
+    ]
+   },
+   "beats": [
+    "Sky",
+    "held",
+    "four",
+    "those",
+    "keys."
+   ]
+  },
+  {
+   "anchor": "So hackers",
+   "component": "Trader3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "screens": {
+     "work": {
+      "head": "Sky Mavis · work computer",
+      "big": "ENGINEER",
+      "sub": [
+       "senior engineer"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "Axie Infinity",
+       "Ronin network"
+      ]
+     },
+     "offer": {
+      "head": "new message · LinkedIn",
+      "big": "JOB OFFER",
+      "sub": [
+       "generous salary"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "several interviews",
+       "company: fake"
+      ]
+     },
+     "pdf": {
+      "head": "offer letter",
+      "big": "OFFER.PDF",
+      "sub": [
+       "open file?"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "sent by 'recruiter'",
+       "opened at work"
+      ]
+     },
+     "hacked": {
+      "head": "remote access",
+      "big": "HACKERS IN",
+      "sub": [
+       "Sky Mavis systems"
+      ],
+      "tone": "alert",
+      "chart": "spike",
+      "feed": [
+       "computers holding",
+       "4 signing keys"
+      ]
+     }
+    },
+    "caption": "",
+    "colours": {
+     "top": "#3a4a5e",
+     "legs": "#23262d",
+     "hair": "#2b2622"
+    },
+    "screen": "work",
+    "actions": [
+     "idle",
+     "card",
+     "screen:offer",
+     "label:0",
+     "label:1",
+     "screen:pdf"
+    ],
+    "card": {
+     "name": "SKY MAVIS ENGINEER",
+     "role": "senior engineer · name never made public",
+     "note": "3D stand-in",
+     "y": 1300
+    },
+    "tags": [
+     {
+      "text": "fake job offer",
+      "x": 540,
+      "y": 500,
+      "tone": "warm",
+      "size": 52,
+      "pill": true
+     },
+     {
+      "text": "via LinkedIn",
+      "x": 540,
+      "y": 580,
+      "tone": "warm",
+      "size": 40,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.2,
+       1.42,
+       1.05
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 32
+     },
+     {
+      "beat": 2,
+      "dur": 30,
+      "pos": [
+       -0.55,
+       1.42,
+       -0.85
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 31
+     }
+    ]
+   },
+   "beats": [
+    "hackers",
+    "engineer",
+    "fake",
+    "LinkedIn",
+    "job",
+    "as"
+   ]
+  },
+  {
+   "anchor": "PDF.",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "src": "thn_job.png",
+    "chrome": "browser",
+    "url": "thehackernews.com/2022/07/hackers-used-fake-job-offer-to-hack-and.html",
+    "source": "The Hacker News, citing The Block · 11 Jul 2022",
+    "width": 960,
+    "cam": [
+     {
+      "x": 0.345,
+      "y": 0.6,
+      "zoom": 1.35
+     },
+     {
+      "x": 0.33,
+      "y": 0.61,
+      "zoom": 1.45
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 50,
+      "y": 1855,
+      "w": 1290,
+      "h": 152
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 62,
+      "y": 1972,
+      "w": 272,
+      "h": 32
+     }
+    ]
+   },
+   "beats": [
+    "PDF.",
+    "let"
+   ]
+  },
+  {
+   "anchor": "into the computers",
+   "component": "Trader3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "screens": {
+     "work": {
+      "head": "Sky Mavis · work computer",
+      "big": "ENGINEER",
+      "sub": [
+       "senior engineer"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "Axie Infinity",
+       "Ronin network"
+      ]
+     },
+     "offer": {
+      "head": "new message · LinkedIn",
+      "big": "JOB OFFER",
+      "sub": [
+       "generous salary"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "several interviews",
+       "company: fake"
+      ]
+     },
+     "pdf": {
+      "head": "offer letter",
+      "big": "OFFER.PDF",
+      "sub": [
+       "open file?"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "sent by 'recruiter'",
+       "opened at work"
+      ]
+     },
+     "hacked": {
+      "head": "remote access",
+      "big": "HACKERS IN",
+      "sub": [
+       "Sky Mavis systems"
+      ],
+      "tone": "alert",
+      "chart": "spike",
+      "feed": [
+       "computers holding",
+       "4 signing keys"
+      ]
+     }
+    },
+    "caption": "3D recreation · details: The Block, via The Hacker News",
+    "colours": {
+     "top": "#3a4a5e",
+     "legs": "#23262d",
+     "hair": "#2b2622"
+    },
+    "screen": "pdf",
+    "actions": [
+     "screen:hacked",
+     "label:0",
+     "label:1",
+     "look"
+    ],
+    "tags": [
+     {
+      "text": "hackers inside",
+      "x": 540,
+      "y": 500,
+      "tone": "alert",
+      "size": 52,
+      "pill": true
+     },
+     {
+      "text": "4 OF 9 KEYS",
+      "x": 540,
+      "y": 600,
+      "tone": "alert",
+      "size": 80
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.55,
+       1.42,
+       -0.85
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 31
+     },
+     {
+      "beat": 2,
+      "dur": 40,
+      "pos": [
+       -0.5,
+       1.4,
+       -0.72
+      ],
+      "look": [
+       0.07,
+       1.12,
+       0.99
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "computers",
+    "holding",
+    "four",
+    "keys."
+   ]
+  },
+  {
+   "anchor": "The fifth?",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "dao",
+      "label": "Key #5",
+      "sub": "a partner: the Axie DAO",
+      "x": 230,
+      "y": 640,
+      "icon": "🔑",
+      "tone": "warm",
+      "size": 1.3
+     },
+     {
+      "id": "rush",
+      "label": "Player rush",
+      "sub": "November 2021",
+      "x": 770,
+      "y": 200,
+      "icon": "🎮",
+      "tone": "accent",
+      "size": 1.2
+     }
+    ],
+    "edges": [
+     {
+      "from": "rush",
+      "to": "dao",
+      "label": "too much traffic",
+      "tone": "accent",
+      "dashed": true,
+      "flow": true
+     }
+    ],
+    "order": [
+     "dao",
+     "rush",
+     "rush>dao"
+    ]
+   },
+   "beats": [
+    "fifth?",
+    "November",
+    "2021,"
+   ]
+  },
+  {
+   "anchor": "a partner lent",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "dao",
+      "label": "Key #5",
+      "sub": "the partner's",
+      "x": 250,
+      "y": 480,
+      "icon": "🔑",
+      "tone": "warm",
+      "size": 1.3
+     },
+     {
+      "id": "sky",
+      "label": "Sky Mavis",
+      "sub": "already keys #1–4",
+      "x": 750,
+      "y": 480,
+      "icon": "🔑",
+      "tone": "accent",
+      "size": 1.3
+     }
+    ],
+    "edges": [
+     {
+      "from": "dao",
+      "to": "sky",
+      "label": "may sign for us",
+      "tone": "warm",
+      "flow": true
+     }
+    ],
+    "order": [
+     [
+      "dao",
+      "sky"
+     ],
+     "dao>sky"
+    ]
+   },
+   "beats": [
+    "partner",
+    "lent"
+   ]
+  },
+  {
+   "anchor": "That help",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "rise",
+   "moving": true,
+   "props": {
+    "source": "Sky Mavis post-mortem, Apr 2022 · quoted by Malwarebytes",
+    "text": "“This was discontinued in December 2021, but the allowlist access was not revoked.”",
+    "mark": "not revoked",
+    "note": "Exact words from the post-mortem."
+   },
+   "beats": [
+    "help",
+    "permission"
+   ]
+  },
+  {
+   "anchor": "Five keys.",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "alert": [
+      "k1",
+      "k2",
+      "k3",
+      "k4"
+     ]
+    },
+    "actions": [
+     "alert:k5",
+     "tag:0",
+     "label:0",
+     "move:m1"
+    ],
+    "labels": [
+     {
+      "text": "23 March 2022",
+      "at": "vault",
+      "side": "up",
+      "dy": -150,
+      "tone": "alert"
+     }
+    ],
+    "tags": [
+     {
+      "text": "5 OF 9",
+      "x": 540,
+      "y": 1350,
+      "tone": "alert",
+      "size": 120
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.0,
+       0,
+       1.6
+      ],
+      "zoom": 70
+     },
+     {
+      "beat": 3,
+      "target": [
+       0.4,
+       0,
+       0.2
+      ],
+      "zoom": 80,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "Five",
+    "keys.",
+    "March",
+    "2022,"
+   ]
+  },
+  {
+   "anchor": "two withdrawals",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "src": "bs_tx.png",
+    "chrome": "browser",
+    "url": "eth.blockscout.com/tx/0xc28fad5e8d5e0ce6a2eaf67b6687be5d58113e16be590824d6cfa1a94467d0b7",
+    "source": "Blockscout · Ethereum, withdrawal 1 of 2",
+    "width": 960,
+    "cam": [
+     {
+      "x": 0.52,
+      "y": 0.42,
+      "zoom": 1.5
+     },
+     {
+      "x": 0.52,
+      "y": 0.53,
+      "zoom": 1.55
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 770,
+      "y": 1080,
+      "w": 545,
+      "h": 48
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 815,
+      "y": 1742,
+      "w": 300,
+      "h": 50
+     }
+    ]
+   },
+   "beats": [
+    "two",
+    "money."
+   ]
+  },
+  {
+   "anchor": "Six days later",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "value": 6,
+    "suffix": " days",
+    "chip": "FOUND 29 MARCH 2022",
+    "label": "a user's 5,000 ETH withdrawal failed",
+    "tone": "alert"
+   },
+   "beats": [
+    "Six",
+    "later,",
+    "exposed"
+   ]
+  },
+  {
+   "anchor": "The FBI",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "src": "aj_quote.png",
+    "chrome": "browser",
+    "url": "aljazeera.com/news/2022/4/15/north-korea-hackers-accused-of-axie-infinity-crypto-heist",
+    "source": "Al Jazeera (news agencies) · 15 Apr 2022",
+    "width": 900,
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.06
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 262,
+      "y": 376,
+      "w": 282,
+      "h": 56
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 382,
+      "y": 140,
+      "w": 425,
+      "h": 48
+     }
+    ]
+   },
+   "beats": [
+    "FBI",
+    "Lazarus"
+   ]
+  },
+  {
+   "anchor": "Two mistakes:",
+   "component": "Trader3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "screens": {
+     "work": {
+      "head": "Sky Mavis · work computer",
+      "big": "ENGINEER",
+      "sub": [
+       "senior engineer"
+      ],
+      "tone": "accent",
+      "chart": "flat",
+      "feed": [
+       "Axie Infinity",
+       "Ronin network"
+      ]
+     },
+     "offer": {
+      "head": "new message · LinkedIn",
+      "big": "JOB OFFER",
+      "sub": [
+       "generous salary"
+      ],
+      "tone": "good",
+      "chart": "up",
+      "feed": [
+       "several interviews",
+       "company: fake"
+      ]
+     },
+     "pdf": {
+      "head": "offer letter",
+      "big": "OFFER.PDF",
+      "sub": [
+       "open file?"
+      ],
+      "tone": "warm",
+      "chart": "flat",
+      "feed": [
+       "sent by 'recruiter'",
+       "opened at work"
+      ]
+     },
+     "hacked": {
+      "head": "remote access",
+      "big": "HACKERS IN",
+      "sub": [
+       "Sky Mavis systems"
+      ],
+      "tone": "alert",
+      "chart": "spike",
+      "feed": [
+       "computers holding",
+       "4 signing keys"
+      ]
+     }
+    },
+    "caption": "3D recreation · details: The Block, via The Hacker News",
+    "colours": {
+     "top": "#3a4a5e",
+     "legs": "#23262d",
+     "hair": "#2b2622"
+    },
+    "screen": "pdf",
+    "actions": [
+     "label:0",
+     "label:1",
+     "click",
+     "label:2"
+    ],
+    "tags": [
+     {
+      "text": "2 MISTAKES",
+      "x": 540,
+      "y": 480,
+      "tone": "alert",
+      "size": 76
+     },
+     {
+      "text": "1. a stranger's file",
+      "x": 540,
+      "y": 580,
+      "tone": "warm",
+      "size": 48,
+      "pill": true
+     },
+     {
+      "text": "on a work computer",
+      "x": 540,
+      "y": 655,
+      "tone": "warm",
+      "size": 40,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.6,
+       2.0,
+       -2.2
+      ],
+      "look": [
+       0,
+       0.9,
+       0.4
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "dur": 30,
+      "pos": [
+       2.2,
+       1.42,
+       1.05
+      ],
+      "look": [
+       0,
+       1.06,
+       0.18
+      ],
+      "fov": 32
+     }
+    ]
+   },
+   "beats": [
+    "Two",
+    "engineer",
+    "opened",
+    "work,"
+   ]
+  },
+  {
+   "anchor": "and Sky Mavis left",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "nodes": [
+     {
+      "id": "dao",
+      "label": "Key #5",
+      "sub": "the partner's",
+      "x": 200,
+      "y": 480,
+      "icon": "🔑",
+      "tone": "warm",
+      "size": 1.3
+     },
+     {
+      "id": "sky",
+      "label": "Sky Mavis",
+      "sub": "2. old access left on",
+      "x": 800,
+      "y": 480,
+      "icon": "🔑",
+      "tone": "alert",
+      "size": 1.3
+     }
+    ],
+    "edges": [
+     {
+      "from": "dao",
+      "to": "sky",
+      "label": "still on",
+      "tone": "alert",
+      "flow": true
+     }
+    ],
+    "order": [
+     "dao",
+     "sky",
+     "dao>sky"
+    ]
+   },
+   "beats": [
+    "Sky",
+    "left",
+    "access"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "Never open",
+   "component": "Character3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "desk": true,
+    "pose": "type",
+    "actions": [
+     "type",
+     "label:0",
+     "label:1",
+     "hacked",
+     "label:2"
+    ],
+    "colours": {
+     "top": "#2f6f73",
+     "legs": "#2a2d35",
+     "hair": "#3a2a1e"
+    },
+    "tags": [
+     {
+      "text": "a recruiter's file?",
+      "x": 540,
+      "y": 480,
+      "tone": "alert",
+      "size": 50,
+      "pill": true
+     },
+     {
+      "text": "never on your wallet computer",
+      "x": 540,
+      "y": 560,
+      "size": 32,
+      "pill": true
+     },
+     {
+      "text": "one file → your coins",
+      "x": 540,
+      "y": 1420,
+      "tone": "alert",
+      "size": 46,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.7,
+       1.15,
+       10
+      ],
+      "look": [
+       0.45,
+       -0.1,
+       0.6
+      ],
+      "fov": 30
+     }
+    ]
+   },
+   "beats": [
+    "Never",
+    "recruiter's",
+    "wallet:",
+    "one",
+    "coins."
+   ],
+   "long": true
+  }
+ ]
+}
