@@ -34,6 +34,8 @@ Malwarebytes' quote. The two drain transactions were checked directly on an expl
    https://www.aljazeera.com/news/2022/4/15/north-korea-hackers-accused-of-axie-infinity-crypto-heist
 9. (Not in the voice; caption/comment only) Sky Mavis raised $150M led by Binance to reimburse users, and planned to grow the validator set to 21 (TechCrunch, 6 Apr 2022).
 
+On screen, Blockscout's page also shows today's dollar value of the 173,600 WETH (~$317.5M at ~$1,822/ETH, Nov 2026); the $625M is the value reported at discovery. The Hacker News headline's "$540 Million" is a later valuation.
+
 Not used: the engineer's name (never published), the claim that the PDF was "spyware" of a specific family, the "$540M" figure some outlets used (later value).
 
 ## Format: candidates

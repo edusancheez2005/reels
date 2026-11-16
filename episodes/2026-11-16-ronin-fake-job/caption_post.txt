@@ -1,0 +1,6 @@
+A fake job offer cost a crypto game's bridge about $625 million, and nobody noticed for six days.
+Ronin's bridge held the coins of Axie Infinity players and paid out only when 5 of 9 keys approved. Sky Mavis, the game's maker, held 4. A Sky Mavis engineer opened a job offer PDF from a fake company, and the hackers got in. Key 5 came from a partner's permission that was never switched off. On 23 March 2022, two withdrawals took 173,600 ETH and $25.5M in USDC.
+Today's step: never open a file from a recruiter you haven't checked on the computer that holds your wallet.
+Follow for crypto, explained simply.
+Not financial advice.
+#Crypto #CryptoHack #CryptoSecurity #CryptoForBeginners #Bitcoin

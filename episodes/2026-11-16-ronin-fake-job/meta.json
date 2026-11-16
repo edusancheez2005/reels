@@ -4,12 +4,21 @@
   "topic": "Ronin bridge, March 2022: $625M through a fake job offer, unnoticed for six days",
   "produced_at": "2026-11-16T04:39:33+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-16-ronin-fake-job.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-16-ronin-fake-job-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-16-ronin-fake-job-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-16-ronin-fake-job-story_3.jpg"
   ],
   "format": "character",
-  "topic_source": "plan"
+  "topic_source": "plan",
+  "auto_posted": true,
+  "posted_at": "2026-11-16T04:43:57Z",
+  "instagram_media_id": "18121318631099035",
+  "sources_comment_id": "18157449748524169",
+  "story_media_ids": [
+    "17957811417316306",
+    "18079731881737824",
+    "18015515033768421"
+  ]
 }
