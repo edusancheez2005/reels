@@ -50,6 +50,12 @@ Then rewrite `learnings.md` (keep its sections: Do / Avoid / Not working yet / W
   "new look": compare skit vs explainer only within that period.
 
 ## 3b. Write next week's `insights/plan.md`
+**From 18 Nov 2026 there are two reels a day** (Edu: two a day, and "not just all crypto... global markets stuff"): write
+fourteen rows, a morning one (crypto or sonar, from `backlog/skits.md` and the crypto/sonar backlogs) and an evening one
+(channel `markets`, from `backlog/markets.md`) for each day, marked "· morning" and "· evening" in the Day column. All skits
+unless a row says otherwise, each with a genre, and no genre repeated within the two skits before it. In the review, compare
+morning against evening (views at 48 hours, 3-second skip, likes and shares per reach) and crypto against markets, with n for
+each, and say plainly which slot and which subject is ahead; Edu asked on 17 Nov when the best time to post is.
 Seven rows (one per day, following `channels/rota.json`), in the same table format as the current plan: channel, type
 (Proof / Teach / Story / Opinion; never the same type two days running; at most one Sonar product mention a week), topic and
 angle, a hook with its formula number from `tools/ig/hooks.json` (Jake Schincariol's 26 formulas; the current plan.md shows the format), and a story-card

@@ -111,6 +111,21 @@ A skit is true content told as a joke: a deadpan narrator talks to "you", two ca
    storyboard (storyboard-spec, `Actor3D`) make a night street, a bathroom floor with a popcorn tin, a courtroom, the sea.
    Two or three places at most; the first shot is already in the story's place (the gate checks it differs from the last reels).
 
+**Borrowed from what is travelling on Reels right now** (researched 17 Nov 2026 at Edu's request; use one per skit at most,
+and only where it fits the story; none of these needs a trending song, which this pipeline can't attach anyway):
+- *The narrator contradicts.* The oldest narrator joke there is: a character says something confident, the narrator flatly
+  corrects it. `[stonks] It's going up!` / "It was not going up." Use it once, at the turn.
+- *"This is Dave."* The narrator-voice-over format that has been everywhere since 2025 is third person: "This is Dave. Dave
+  thinks he found a shortcut. Dave is wrong." Our default is "you"; a third-person skit is a fine change of pace.
+- *"Some bills are non-negotiable. The bills:"* (trending in November 2026): treating a luxury as a fixed cost. A good cold
+  open for a skit about inflation, fees or subscriptions.
+- *"Major cheat code in life"* (same month): a tip framed as an insider shortcut. This is "because you're a genius" in the
+  audience's own words: the skit's bad idea can be introduced as a cheat code.
+- *"It's cool to do both"*: two things that contradict each other, side by side. Stonks buying and panic-selling the same day.
+- *State the conflict in the first line, then switch character.* The comedy reels that got sent to friends that week all did
+  this: the problem in the first sentence, the second character's reaction straight after.
+- Make it something a person would send to one specific friend ("this is you"). That is the reason "you" works.
+
 **Still true from the pilot:**
 - **Voice**: a deadpan narrator speaking to "you", in the present tense. Short sentences. He never laughs at the joke.
 - **Length**: about 120–140 words, 45–55 s.

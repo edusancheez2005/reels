@@ -117,6 +117,13 @@ reel a day at most), and the story is not the one the morning scout already saw 
 
 ## 1. Pick the channel and topic
 
+**Two reels a day from 18 Nov 2026** (Edu, 17 Nov: "we need like a lot but good ones"; he chose two a day; and "maybe NOT just
+all crypto... put like global markets stuff"). The run that starts at 03:47 London makes the MORNING reel (crypto or sonar);
+the run that starts at 17:11 makes the EVENING reel (channel `markets`: stocks, oil, gold, currencies, bubbles, famous trades).
+Work out which run you are from the London time you started (before noon = morning). `insights/plan.md` has a row for each:
+use only your own slot's row, and never build the other slot's reel. The gate allows two planned auto-posts a day at least
+8 hours apart, plus at most one breaking story. Each run checks what is already live first (§4a step 0), as always.
+
 - If §0b picked a breaking story, it is today's topic: channel = `crypto` unless the plan row says `sonar` and the story is
   on-chain; skip the backlog lines below.
 - If `insights/plan.md` has a row for today's date, that row decides the channel and the topic (it overrides the rota; on a
@@ -132,6 +139,12 @@ reel a day at most), and the story is not the one the morning scout already saw 
   - **crypto**: the first unchecked item in `backlog/crypto.md` (explainers/history; the line's hook idea is a lead, verify it).
     If fewer than 5 unchecked items remain, append 5 new beginner-friendly crypto explainer topics (each with a hook idea) to the
     backlog in the same commit; don't repeat a topic or a hook fact used in the last 14 episodes.
+  - **markets** (the evening reel): the plan row; otherwise the first unchecked item in `backlog/markets.md` whose genre
+    neither of the last two skits used. Every line there is a lead: verify each number, name and date from an exchange,
+    regulator or central-bank record, a company filing, or two major outlets. Follow `channels/markets.json` (no predictions,
+    no buy/sell, nothing invented about a real person, "the story goes" for old legends). If fewer than 5 unchecked items
+    remain, append 5 new ones in the same commit (true, strange stories about money, each with its genre).
+  - Skits on any channel can also come from `backlog/skits.md` (crypto ideas with genres).
   - **general** (not on the rota for now): the first unchecked item in `backlog/general.md`.
 - Episode id: `YYYY-MM-DD-<slug>`, folder `episodes/<id>/`.
 

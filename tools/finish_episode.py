@@ -26,13 +26,25 @@ except Exception:
     pass
 meta_p.write_text(json.dumps(meta, indent=2))
 if meta.get("channel") and meta.get("topic"):
-    bl = root / "backlog" / f"{meta['channel']}.md"
-    lines = bl.read_text().splitlines()
-    for i, l in enumerate(lines):
-        if l.startswith("- [ ]") and meta["topic"].lower()[:40] in l.lower():
-            lines[i] = l.replace("- [ ]", "- [x]", 1) + f" ({eid})"
+    # tick the item in the channel's backlog or in the skit idea bank (backlog/skits.md), whichever has it
+    key = meta["topic"].lower()[:40]
+    done = False
+    for name in (meta["channel"], "skits"):
+        bl = root / "backlog" / f"{name}.md"
+        if not bl.exists():
+            continue
+        lines = bl.read_text().splitlines()
+        for i, l in enumerate(lines):
+            if l.startswith("- [ ]") and key in l.lower():
+                lines[i] = l.replace("- [ ]", "- [x]", 1) + f" ({eid})"
+                bl.write_text("\n".join(lines) + "\n")
+                done = True
+                break
+        if done:
             break
-    else:
+    if not done:
+        bl = root / "backlog" / f"{meta['channel']}.md"
+        lines = bl.read_text().splitlines() if bl.exists() else []
         lines.append(f"- [x] {meta['topic']} ({eid})")
-    bl.write_text("\n".join(lines) + "\n")
+        bl.write_text("\n".join(lines) + "\n")
 print(json.dumps(meta, indent=2))

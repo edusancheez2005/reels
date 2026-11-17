@@ -1,0 +1,65 @@
+{
+  "name": "markets",
+  "instagram_account_id": "17841440268229419",
+  "handle": "@sonartracker.io",
+  "voice": "am_michael",
+  "brand": {
+    "handle": "",
+    "fontSource": "system",
+    "bg": "#070b12",
+    "panel": "#0d141f",
+    "line": "#1c2a3c",
+    "text": "#e9f0f7",
+    "muted": "#8595a8",
+    "accent": "#3bc9ee",
+    "alert": "#ff5b6b"
+  },
+  "audience": "people curious about money and markets who are not traders or insiders: stocks, oil, gold, currencies, bubbles, famous trades. Smart adults, so never childish or condescending.",
+  "tone": "deadpan and funny, like telling a mate the stupidest true story you know about money; simple words, still factual; no hype, no price predictions, no financial advice",
+  "signoff": "Follow for money, explained simply.",
+  "hashtags_base": [
+    "#StockMarket",
+    "#Finance",
+    "#Money",
+    "#FinanceMemes",
+    "#Sonar"
+  ],
+  "rules": [
+    "Edu, 17 Nov 2026: \"maybe NOT just all crypto... put like global markets stuff\". This channel is the evening skit: stocks, oil, gold, currencies, inflation, bubbles and famous trading disasters, told as skits (script-guide 'Skits').",
+    "Never say or imply a price will go up or down, and never tell anyone to buy, sell or hold anything. Past prices with their dates are facts; the future is not. If the story invites a prediction, say plainly that nobody knows.",
+    "Every number on screen is in research.md with a source: an exchange or regulator record, a company filing, a central bank, or two major outlets (Reuters, Bloomberg, FT, WSJ, BBC). Old stories (before 1900) often come with legends: say 'the story goes' for anything historians doubt.",
+    "Explain any finance term the first time it's needed in one quick plain clause; max one new term per sentence; cut terms the story doesn't need.",
+    "Real people: tell what the record says, plainly. Nothing invented about them, nothing cruel. A regulator's finding or a court's verdict can be stated; a joke is never stated as a fact about them.",
+    "Keep current politicians and parties out of the hook and the caption (Instagram limits political content); a central bank or a government in a historical story is fine in the voice.",
+    "Mention Sonar at most once (the caption or the end tag), never as a hard sell.",
+    "Green only for up, red only for down; always pair colour with a text label."
+  ],
+  "style_source": "edusancheez2005/sonar: IG_CONTENT_PLAYBOOK.md §2 (colours), §6 (Orca voice), §7 (data integrity), §8 (captions). Same account, same look.",
+  "caption_format": [
+    "Line 1: the hook fact, keyword-rich (Instagram search reads captions).",
+    "1–2 lines with the real numbers and the date.",
+    "The suit guy and his friend are made up. The numbers are real.",
+    "Follow for money, explained simply.",
+    "Not financial advice.",
+    "Max 5 hashtags (Instagram's cap since Dec 2025): #StockMarket #Finance #Money #FinanceMemes #Sonar (swap one for a topic tag if it fits better).",
+    "Then a 'Sources:' block (posted as the first comment, not in the caption)."
+  ],
+  "instagram_connector": "Windsor.ai for Social Media → connector \"instagram\" (account \"sonartracker.io\")",
+  "topic_source": "backlog/markets.md (first unchecked item whose genre neither of the last two skits used)",
+  "voice_eleven": null,
+  "voice_note": "Narrator: Kokoro am_michael at --speed 1.05 --gap-scale 0.75 (Edu picked it by ear on 17 Nov 2026 from six samples; he said the old af_heart voice was 'so bad... I hate it'). Characters who speak get their own voices in the episode's cast.json (Stonks: am_puck 1.12, suit guy: bm_george). voice_eleven = ElevenLabs voice id if Edu ever adds a key and picks one.",
+  "cast": {
+    "suit": {
+      "model": "Bizdude.vrm",
+      "voice": "bm_george",
+      "speed": 1.0,
+      "who": "the suit guy: grumpy, sure of himself, the one who takes the shortcut"
+    },
+    "stonks": {
+      "model": "StonksReporter.vrm",
+      "voice": "am_puck",
+      "speed": 1.12,
+      "who": "Stonks: the friend who cheers every bad idea"
+    }
+  }
+}

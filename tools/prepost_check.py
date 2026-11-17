@@ -43,8 +43,9 @@ if meta.get("posted"):
 if meta.get("superseded_by"):
     fails.append(f"superseded by {meta['superseded_by']}; don't post")
 
-# one auto-post per London day; a second only for a midday breaking story when the first one wasn't breaking
-# (Edu, 31 Oct 2026). And not just news: at most 3 breaking reels in any 7 days, the rest come from the plan/backlog.
+# Two planned auto-posts per London day, a morning one and an evening one at least 8 hours apart (Edu, 17 Nov 2026: "we need
+# like a lot but good ones"; he chose "2 a day from tomorrow"), plus at most one breaking story on top (Edu, 31 Oct 2026).
+# And not just news: at most 3 breaking reels in any 7 days, the rest come from the plan/backlog.
 now_l = datetime.datetime.now(ZoneInfo("Europe/London"))
 today = now_l.date().isoformat()
 try:
@@ -64,13 +65,22 @@ for m in root.glob("episodes/*/meta.json"):
     except ValueError:
         continue
     if o.get("auto_posted") and pdt.date().isoformat() == today:
-        posted_today.append((m.parent.name, o.get("topic_source", "plan")))
+        posted_today.append((m.parent.name, o.get("topic_source", "plan"), pdt))
     if o.get("topic_source") == "breaking" and (now_l - pdt).days < 7:
         breaking_7d.append(m.parent.name)
 if not approved:
-    second_ok = this_src == "breaking" and len(posted_today) == 1 and posted_today[0][1] != "breaking"
-    if posted_today and not second_ok:
-        fails.append(f"already auto-posted today ({', '.join(n for n, _ in posted_today)})")
+    _planned = [x for x in posted_today if x[1] != "breaking"]
+    _breaking = [x for x in posted_today if x[1] == "breaking"]
+    if this_src == "breaking":
+        if _breaking:
+            fails.append(f"already auto-posted a breaking reel today ({_breaking[0][0]})")
+    else:
+        if len(_planned) >= 2:
+            fails.append(f"already auto-posted two planned reels today ({', '.join(x[0] for x in _planned)})")
+        elif _planned and min((now_l - x[2]).total_seconds() for x in _planned) < 8 * 3600:
+            fails.append(f"a planned reel went up less than 8 hours ago ({_planned[0][0]}); the two daily reels are a morning and an evening one")
+    if posted_today and min((now_l - x[2]).total_seconds() for x in posted_today) < 2 * 3600:
+        fails.append("another reel went up less than 2 hours ago; leave a gap")
     if this_src == "breaking" and len(breaking_7d) >= 3:
         fails.append(f"already 3 breaking-news reels in the last 7 days ({', '.join(breaking_7d)}); use the plan/backlog")
 
