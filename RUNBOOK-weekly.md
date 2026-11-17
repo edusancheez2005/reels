@@ -37,6 +37,11 @@ Then rewrite `learnings.md` (keep its sections: Do / Avoid / Not working yet / W
   breaking news is earning its place (same evidence bar as above). Glance at `insights/trends/` for big stories the scout
   flagged that we skipped.
 - If a topic type clearly flops twice, move similar items down in `backlog/crypto.md` (don't delete them) and say so in learnings.
+- **Skits vs explainers** (Edu's test from 17 Nov 2026; `format` "skit" in meta.json vs every other format, alternating days):
+  compare the two groups on views, 3-second skip, average watch and shares + saves per reach, with n for each. Say plainly
+  which is ahead and whether the gap is bigger than the day-to-day spread; in the 29 Nov review, recommend what share of the
+  week skits should take (Edu decides). New voice and new characters started the same day, so every reel from 17 Nov on is
+  "new look": compare skit vs explainer only within that period.
 
 ## 3b. Write next week's `insights/plan.md`
 Seven rows (one per day, following `channels/rota.json`), in the same table format as the current plan: channel, type

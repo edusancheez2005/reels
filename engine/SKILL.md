@@ -49,6 +49,7 @@ or two from another. The formats:
 | `motion` | numbers, concepts, comparisons, fast explainers | pure 2D motion graphics, no 3D world: kinetic type, particles forming shapes, counters, bars, maps, quick cuts | ParticleShape, BigNumber, Growth, Ruler, RouteMap, Flow, Title, Checklist; kinetic captions |
 | `breakdown` | mechanisms with steps (a hack, how a system works) | chapter bar + one isometric world the camera moves through, labels with leader lines, caption pill | header + chapters, Iso3D, Shot receipts; `"captionStyle": "pill"`, dark throughout |
 | `documentary` | breaking news with strong sources | a news-desk feel: real headlines, filings, explorers and charts with marks, quotes, the numbers between them; a timeline only if dates are the point | Shot, Quote, BigNumber, price charts, PriceLine; kinetic or band captions |
+| `skit` | a mistake people make, a scam, a "what would you do" (Edu, 17 Nov 2026: funny, creative, "proper 3D" characters) | a deadpan narrator talks to "you"; the suit guy and Stonks act it out at a desk; characters say short lines in their own voices; first-person shots of the screen; a real case and one step at the end | Actor3D (+ AddressMatch, one Shot receipt); kinetic captions |
 | `object` | how a thing works (a device, a wallet, a coin, a chip) | one realistic 3D object, opened up, exploded, scanned, close-ups | Phone3D, Cell3D, Vault3D, Drive3D, Coin3D, Seed3D, Pool3D |
 
 Choosing: start from the concept, not the toolbox. Ask "what would make a stranger stop scrolling and understand this fastest?"
@@ -61,6 +62,17 @@ labels with leader lines; red = attacker / what went wrong, green = legitimate /
 `references/examples/breakdown-binance.storyboard.json` and `breakdown-binance-full.storyboard.json`; the posted
 `../episodes/2026-10-30-ai-agent-hack/`. The chapter bar can also top other formats when the story has clear steps, but don't
 put it on every reel.
+
+The `skit` format (17 Nov 2026, `../episodes/2026-11-17-genius-copy-paste/` is the reference; read its script.txt, cast.json and
+storyboard.json before making one): script-guide "Skits", storyboard-spec `Actor3D`. One set and the same two characters are
+the format, so `Actor3D` may fill most scenes; vary the shot instead (face over the monitor, both faces, first person at the
+screen, wide) and never hold one camera for two scenes running.
+
+**People are `Actor3D` characters now** (Edu, 17 Nov 2026, on the faceless stand-ins: "really generic... I want a proper 3D
+person"; on the new ones: "way cooler and way better... have those characters instead of the other ones"). In every format,
+when a scene needs a person, use an `Actor3D` character with a face (`public/models/`), not `Character3D`, `Trader3D` or
+`Walk3D`. They are cartoons: never present one as a likeness of a real person, and say "cartoon stand-in" on the name card
+when one stands for a real person.
 
 The number on screen in the first second and the designed cover apply to every format.
 
@@ -101,7 +113,9 @@ fresh script reviewer in RUNBOOK §2a instead).
 ## 3. Voice + word timestamps
 
 - 3a ElevenLabs: `python3 <skill>/scripts/tts_elevenlabs.py episodes/<slug>/script.txt --out episodes/<slug>`
-- 3b Free: `python3 <skill>/scripts/tts_local.py episodes/<slug>/script.txt --out episodes/<slug> [--voice af_heart|bf_emma|am_michael]`
+- 3b Free: `python3 <skill>/scripts/tts_local.py episodes/<slug>/script.txt --out episodes/<slug> [--voice am_michael|bm_george|am_puck|af_heart]`
+  Lines that start with `[name]` are spoken by that character with the voice in `episodes/<slug>/cast.json`
+  (`{"stonks": {"voice": "am_puck", "speed": 1.12}}`); `speech.json` lists who speaks when.
 - 3c Own recording at `episodes/<slug>/voice.mp3`: `python3 <skill>/scripts/transcribe_words.py … --out episodes/<slug>`
 
 Then `python3 <skill>/scripts/print_words.py episodes/<slug>/words.json` and anchor against that list.

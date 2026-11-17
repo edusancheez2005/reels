@@ -275,6 +275,25 @@ pops, lock turns red, sparks), `cover` (frosted cover drops over the lock), `spi
 [4.0, 2.0, 5.3], look: [0, 1.2, 0], fov: 38}`; chip `{pos: [0.05, 0.17, 0.92], look: [0, 0.12, 0.16], fov: 30}`; lock `{pos: [2.5,
 1.15, 2.7], look: [1.0, 0.62, 0.45], fov: 36}`. First used in `../episodes/2026-11-04-quantum-bitcoin/`.
 
+**Actor3D** (17 Nov 2026, the "genius" skit): real rigged characters with faces (VRM models in `public/models/`, CC0), posed
+by named poses, on a coloured studio floor or at a desk with a monitor. Use it wherever a person is on screen.
+Props: `actors` `[{id, model, at, yaw, tall, pose, hidden, look}]` (the cast: `suit` = `Bizdude.vrm`, 1.75 m, at the origin;
+`stonks` = `StonksReporter.vrm`, 1.6 m, at `[0.46, 0, -0.32]`, yaw -0.18), `set` (`"desk"` | `"studio"`), `mood` (`day` yellow,
+`teal`, `pink`, `blue`, `night`, `doom` dark red), `screens` `{[state]: {head, big, sub, tone, chart}}` + `screen` (the monitor;
+keep `big` to one short word or number), `cam`, `tags` (add `"raw": true` to keep a tag's own letter case, e.g. an address),
+`stamp` `{text, x, y, size, tone, rot}` (a word slammed on screen; put it low, y ≈ 1450, over the monitor's back), `shift`.
+Actions, one per beat, `"a+b"` for several on one beat: `<id>:<pose>` (relax, genius, proud, panic, cheer, clap, type, click,
+lean, point, shrug, think, facepalm, slump, wave), `<id>:in` / `<id>:out`, `<id>:look:<deg>`, `<id>:talk:<seconds>` (mouth
+moves: use it on a `[id]` line of the script), `screen:<state>`, `mood:<name>`, `stamp`, `shake`, `label:<n>`, `hide:<n>`, `cam`.
+Cameras that work (suit at the origin, facing +z):
+- face over the monitor `{pos: [0.3, 1.52, 2.35], look: [0, 1.5, 0], fov: 30}`
+- both faces `{pos: [0.6, 1.36, 3.15], look: [0.22, 1.42, 0], fov: 38}`
+- first person at the screen `{pos: [0, 1.4, 0.07], look: [0, 0.92, 0.82], fov: 74}` with `"shift": 60` (his hands, the keyboard
+  and the whole screen; hide the other actor). A landscape monitor can't be read over a shoulder in a vertical frame.
+- wide `{pos: [2.0, 1.55, 3.6], look: [0.2, 1.0, 0.25], fov: 40}`
+Always `"moving": true`. Anchor a character's line with `{"word": n}` (from `print_words.py`) when the same word is also
+narrated. To add a character, see `public/models/README.md`.
+
 ### v1 (dark-only cards, still available)
 Stat, Steps, Compare, Terminal, Window, Diagram, Chart, Image.
 

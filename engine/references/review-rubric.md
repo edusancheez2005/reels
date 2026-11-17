@@ -16,7 +16,8 @@ Default to PASS. Use FAIL only for the "must fix" items below; everything else i
    sentence; no unexplained jargon on screen either (e.g. "coinbase transaction", "ETF", "mempool", "mine" without a gloss). Never childish.
 6. **True and sourced.** Every number on screen is in research.md with a source. No price predictions, no financial advice.
    When the reel touches what something is worth, the critics' side gets a line.
-7. **Plain words.** "Refrigerated container", not "reefer". American female voice.
+7. **Plain words.** "Refrigerated container", not "reefer". The narrator is the male voice Edu picked on 17 Nov 2026
+   (`channels/*.json` → `voice`; he called the old female voice "horrible"); characters may speak short lines in their own voices.
 8. **Readable on a phone.** Nothing important clipped at the frame edges, no tiny text, highlight boxes on the right words.
    Nothing important in Instagram's overlay zone (bottom ~20%, right-edge buttons): see visual-style.md "Instagram safe zone".
 9. **Enough substance** (Edu, 29 Oct 2026: the 33 s landfill reel was "too short, barely any information"). 45–60 s, 6+
@@ -24,8 +25,16 @@ Default to PASS. Use FAIL only for the "must fix" items below; everything else i
    story's specific mistakes and the fix, and says why.
 10. **Original visuals.** No "Illustration" captions on obvious graphics. A timeline (date Ruler) at most once, and only when a
    sequence of dates is the point; the chapter bar at the top is not a timeline (Edu asked for it, 30 Oct 2026). No component in
-   more than 3 scenes, except consecutive Iso3D scenes on one world, which count as one continuous shot. Show the real thing
+   more than 3 scenes, except consecutive Iso3D scenes on one world, which count as one continuous shot, and `Actor3D` scenes
+   (the characters and their room are the format: there, the camera and the pose must change from scene to scene instead). Show the real thing
    (document, headline, name card) where possible.
+
+## Skits (format `skit`, Edu, 17 Nov 2026)
+A skit is a true case told as a joke by a deadpan narrator, acted by cartoon characters who say a few short lines. Judge the
+facts, sync, readability and hook exactly as above. Different from an explainer: the people are "you" and two made-up
+characters (nobody needs a name card), the jokes are not facts (but nothing may state a joke as a fact about a real person),
+and "enough substance" means the trick is explained, the real case is named with its date and number, and the reel ends on
+this story's one step. Add one note on whether the jokes land.
 
 ## Must fix (FAIL), only these
 - A factual error, a number that doesn't match research.md, or a claim with no source.

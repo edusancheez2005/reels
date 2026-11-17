@@ -72,6 +72,26 @@ Self-check: read the script aloud once, no rewinding. Any line you'd have to rep
 4. **One line on the other side** (what supporters or critics would say), then **a practical takeaway** the viewer can use.
 5. Show-ability: each consequence needs a picture (3D scene, real chart, real document), not talking points on cards.
 
+## Skits (Edu, 17 Nov 2026: "we need some creative content"; "you can have more than one character speak")
+
+The explainers stopped being shown (reach fell off on 7 Nov and almost nobody ever shared them). A skit is the same true
+content told as a joke: someone takes a clever-sounding shortcut "because you're a genius", and it backfires.
+Reference: `episodes/2026-11-17-genius-copy-paste/` (script.txt, cast.json, research.md).
+- **Voice**: a deadpan narrator speaking to "you", in the present tense. Short sentences. He never laughs at the joke.
+- **Shape** (about 120–140 words, 45–55 s): (1) the promise, with the number: "Here's how to lose fifty million dollars with
+  one copy and paste." (2) two or three shortcuts, each one sounding sensible ("You are a responsible adult."), the last one
+  "Because you're a genius." (3) "One problem." and how the trick works, in one or two plain sentences. (4) the cost.
+  (5) "This happened to a real [person] in [month, year]." (6) the one step, as an order: "Never copy an address from your
+  wallet history."
+- **The cast** (`channels/<channel>.json` → `cast`): the suit guy takes the shortcut; Stonks is the friend who cheers every bad
+  idea and is still cheering at the end. Give them two to five short lines in total, each on its own line starting with the
+  tag: `[stonks] Genius!`, `[suit] Send.`, `[stonks] Great trade!`. One to three words each; the narrator carries the facts.
+- **True where it counts**: every number and every step of the trick comes from a real, sourced case (research.md, as always).
+  The characters, "you" and the jokes are the fiction; say so in the caption ("The suit guy and his friend are made up. The
+  numbers are real."). Never write "did exactly this" about a real victim: the jokes are not facts about them.
+- No price talk, no advice beyond the one step, nothing cruel about a real person. Don't name a victim to mock them.
+- Topics that fit: one mistake, one mechanism, one step. Scams and losses (they are also what got shared before).
+
 ## Hooks (Edu, 2026-10-27: "a cool fact")
 
 Open on the single most striking fact the reel can prove, stated flat, with a number, and show it in the first second.

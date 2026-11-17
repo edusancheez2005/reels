@@ -35,6 +35,11 @@ Repo: `edusancheez2005/reels` (public). Engine docs: `engine/SKILL.md` + `engine
    Why: 6 of the 10 reels from 8–17 Nov opened on the same red-number-on-black card with a number fragment, and those six
    had 46–58% 3-second skips; the sentence-and-scene openers in the same stretch (ronin 36%, quadriga 40%, internet-down 43%)
    held better. See `insights/learnings.md`.
+8. **People are the `Actor3D` characters, and the narrator is the voice Edu picked** (Edu, 17 Nov 2026: "have those characters
+   instead of the other ones... they're way cooler and way better"; on the old voice: "the lady talking is actually horrible").
+   Any scene with a person uses an `Actor3D` character (engine/references/storyboard-spec.md), never the faceless
+   `Character3D` / `Trader3D` / `Walk3D` stand-ins. Voice the script with the channel's `voice` (am_michael) and give speaking
+   characters their voices in `episodes/<id>/cast.json` (copy `cast` from the channel file).
 
 ## 0. Start
 
@@ -143,7 +148,8 @@ reel a day at most), and the story is not the one the morning scout already saw 
   Voice (Edu, 30 Oct: "make the talking a little bit more enthusiastic"): if `ELEVENLABS_API_KEY` is set in the environment
   and the channel has `voice_eleven`, use `python3 engine/scripts/tts_elevenlabs.py … --voice-id <voice_eleven> --stability 0.35
   --style 0.45 --speed 1.08`; otherwise `python3 engine/scripts/tts_local.py … --voice <channel "voice"> --speed 1.12
-  --gap-scale 0.6` (tighter pauses between sentences: livelier, and ~2 s shorter).
+  --gap-scale 0.6` (tighter pauses between sentences: livelier, and ~2 s shorter). For a skit: `--speed 1.05 --gap-scale 0.75`
+  (deadpan needs the pauses), with `cast.json` next to the script for the characters' lines.
   Write the script to be spoken with energy: "Talk like a friend" in the script guide.
 - Assets: logos via `get_logos.mjs`. Real pages: `node engine/scripts/screenshot.mjs <url> episodes/<id>/assets/<name>.png
   --selector "<css>" --zoom 1.6` (the workspace can reach all websites since 29 Oct; Etherscan blocks bots, use another

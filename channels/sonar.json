@@ -2,7 +2,7 @@
   "name": "sonar",
   "instagram_account_id": "17841440268229419",
   "handle": "@sonartracker.io",
-  "voice": "af_heart",
+  "voice": "am_michael",
   "brand": {
     "handle": "",
     "fontSource": "system",
@@ -31,16 +31,30 @@
     "Green only for moves that are up over the window shown, red only for down; always pair colour with a text label.",
     "Explain any crypto term the first time it's needed (fee, wallet, block, miner, mempool, exchange...) in one quick plain clause, e.g. 'a fee, the small tip you pay to get processed'. Don't stack jargon: max one new term per sentence, and cut any term the story doesn't need (e.g. drop the Ethereum detour if Bitcoin carries the point)."
   ],
-  "style_source": "edusancheez2005/sonar: IG_CONTENT_PLAYBOOK.md §2 (colours), §6 (Orca voice), §7 (data integrity), §8 (captions). Same account, same look.",
+  "style_source": "edusancheez2005/sonar: IG_CONTENT_PLAYBOOK.md \u00a72 (colours), \u00a76 (Orca voice), \u00a77 (data integrity), \u00a78 (captions). Same account, same look.",
   "caption_format": [
     "Line 1: the hook, keyword-rich (Instagram search reads captions).",
-    "1–2 lines with the real numbers.",
+    "1\u20132 lines with the real numbers.",
     "Comment \"WHALE\" and Orca will DM you the breakdown.",
     "Not financial advice.",
     "Max 5 hashtags (Instagram's cap since Dec 2025): #Bitcoin #CryptoNews #WhaleAlert #OnChain #Sonar.",
     "Then a 'Sources:' block (posted as the first comment, not in the caption)."
   ],
-  "instagram_connector": "Windsor.ai for Social Media → connector \"instagram\" (account \"sonartracker.io\")",
+  "instagram_connector": "Windsor.ai for Social Media \u2192 connector \"instagram\" (account \"sonartracker.io\")",
   "voice_eleven": null,
-  "voice_note": "Kokoro voice used when no ElevenLabs key is set; voice_eleven = ElevenLabs voice id once Edu picks one from samples."
+  "voice_note": "Narrator: Kokoro am_michael at --speed 1.05 --gap-scale 0.75 (Edu picked it by ear on 17 Nov 2026 from six samples; he said the old af_heart voice was 'so bad... I hate it'). Characters who speak get their own voices in the episode's cast.json (Stonks: am_puck 1.12, suit guy: bm_george). voice_eleven = ElevenLabs voice id if Edu ever adds a key and picks one.",
+  "cast": {
+    "suit": {
+      "model": "Bizdude.vrm",
+      "voice": "bm_george",
+      "speed": 1.0,
+      "who": "the suit guy: grumpy, sure of himself, the one who takes the shortcut"
+    },
+    "stonks": {
+      "model": "StonksReporter.vrm",
+      "voice": "am_puck",
+      "speed": 1.12,
+      "who": "Stonks: the friend who cheers every bad idea"
+    }
+  }
 }

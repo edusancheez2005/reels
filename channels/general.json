@@ -2,7 +2,7 @@
   "name": "general",
   "instagram_account_id": "17841440268229419",
   "handle": "@sonartracker.io",
-  "voice": "af_heart",
+  "voice": "am_michael",
   "brand": {
     "handle": "",
     "accent": "#3D7BFF",
@@ -35,5 +35,20 @@
     "4\u20136 hashtags.",
     "Then a 'Sources:' block for the first comment."
   ],
-  "instagram_connector": "Windsor.ai for Social Media \u2192 connector \"instagram\" (account \"sonartracker.io\")"
+  "instagram_connector": "Windsor.ai for Social Media \u2192 connector \"instagram\" (account \"sonartracker.io\")",
+  "voice_note": "Narrator: Kokoro am_michael at --speed 1.05 --gap-scale 0.75 (Edu picked it by ear on 17 Nov 2026 from six samples; he said the old af_heart voice was 'so bad... I hate it'). Characters who speak get their own voices in the episode's cast.json (Stonks: am_puck 1.12, suit guy: bm_george). voice_eleven = ElevenLabs voice id if Edu ever adds a key and picks one.",
+  "cast": {
+    "suit": {
+      "model": "Bizdude.vrm",
+      "voice": "bm_george",
+      "speed": 1.0,
+      "who": "the suit guy: grumpy, sure of himself, the one who takes the shortcut"
+    },
+    "stonks": {
+      "model": "StonksReporter.vrm",
+      "voice": "am_puck",
+      "speed": 1.12,
+      "who": "Stonks: the friend who cheers every bad idea"
+    }
+  }
 }

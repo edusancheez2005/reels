@@ -145,7 +145,7 @@ const Backdrop: React.FC<{color: string}> = ({color}) => {
 };
 
 // ---------- 2D overlay labels (canvas pixel coords, 1080 × CANVAS.h) ----------
-export type Tag = {text: string; x: number; y: number; to?: [number, number]; tone?: 'accent' | 'alert' | 'good' | 'warm' | 'muted'; size?: number; mono?: boolean; pill?: boolean};
+export type Tag = {text: string; x: number; y: number; to?: [number, number]; tone?: 'accent' | 'alert' | 'good' | 'warm' | 'muted'; size?: number; mono?: boolean; pill?: boolean; raw?: boolean};
 
 export const Tags: React.FC<{tags: Tag[]; show: number[]}> = ({tags, show}) => {
   const pal = usePal();
@@ -184,7 +184,7 @@ export const Tags: React.FC<{tags: Tag[]; show: number[]}> = ({tags, show}) => {
               fontSize={fs}
               letterSpacing={t.mono ? 1 : 4}
               fill={col}
-              style={{textTransform: 'uppercase', filter: 'drop-shadow(0 2px 10px rgba(0,0,0,0.85))'}}
+              style={{textTransform: t.raw ? 'none' : 'uppercase', filter: 'drop-shadow(0 2px 10px rgba(0,0,0,0.85))'}}
               transform={`translate(0 ${(1 - o) * 14})`}
             >
               {t.text}

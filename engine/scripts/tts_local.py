@@ -4,6 +4,11 @@
 Usage:
   python3 tts_local.py episodes/<slug>/script.txt --out episodes/<slug> [--voice af_heart] [--speed 1.05]
 
+Several voices: start a script line with a speaker tag, e.g. "[stonks] Genius!", and give each speaker a voice in
+<out>/cast.json (or --cast): {"stonks": {"voice": "am_puck", "speed": 1.1}, "suit": {"voice": "bm_george"}}. Untagged lines
+are the narrator (--voice). The tags are not spoken or captioned; words.json marks those words with "speaker", and
+speech.json lists every sentence with its speaker and times (for mouth movement).
+
 First run downloads the model (~350 MB) from the kokoro-onnx GitHub releases into ~/.cache/kokoro.
 Requires: pip install kokoro-onnx soundfile numpy
 
@@ -123,6 +128,7 @@ def main():
     ap.add_argument("--cache", default=str(Path.home() / ".cache" / "kokoro"))
     ap.add_argument("--say", default=None, help="JSON file {written: spoken} (e.g. {\"UST\": \"U S T\"}): respell words for the voice only; captions keep the written words")
     ap.add_argument("--gap-scale", type=float, default=1.0, help="scale the pauses between sentences (0.6 = tighter, more energetic)")
+    ap.add_argument("--cast", default=None, help="JSON file {speaker: {voice, speed}} for lines tagged [speaker]; default <out>/cast.json if it exists")
     a = ap.parse_args()
 
     try:
@@ -135,7 +141,19 @@ def main():
     k = Kokoro(str(model), str(voices))
     phonemize = lambda s: k.tokenizer.phonemize(s, "en-us")  # noqa: E731
 
-    sentences = split_sentences(Path(a.script).read_text())
+    cast_file = Path(a.cast) if a.cast else Path(a.out) / "cast.json"
+    cast = json.loads(cast_file.read_text()) if cast_file.is_file() else {}
+    lines = []  # (speaker or None, sentence)
+    for raw in Path(a.script).read_text().splitlines():
+        raw = raw.strip()
+        if not raw:
+            continue
+        m = re.match(r"^\[(\w+)\]\s*(.*)$", raw)
+        who, text = (m.group(1), m.group(2)) if m else (None, raw)
+        if who and who not in cast:
+            sys.exit(f"speaker [{who}] has no voice: add it to {cast_file}")
+        lines += [(who, sn) for sn in split_sentences(text)]
+    sentences = [sn for _, sn in lines]
     say = json.loads(Path(a.say).read_text()) if a.say else {}
     SAY.update(say)
 
@@ -147,12 +165,15 @@ def main():
             out.append(pre + say.get(core, core) + post)
         return " ".join(out)
 
-    chunks, captions, t0 = [], [], 0.0
+    chunks, captions, speech, t0 = [], [], [], 0.0
     lead = np.zeros(int(0.08 * SR), dtype=np.float32)
     chunks.append(lead)
     t0 = len(lead) / SR
     for si, sent in enumerate(sentences):
-        samples, sr = k.create(spoken(sent), voice=a.voice, speed=a.speed, lang="en-us")
+        who = lines[si][0]
+        voice = cast[who].get("voice", a.voice) if who else a.voice
+        speed = cast[who].get("speed", a.speed) if who else a.speed
+        samples, sr = k.create(spoken(sent), voice=voice, speed=speed, lang="en-gb" if voice.startswith("b") else "en-us")
         assert sr == SR, sr
         audio = trim(np.asarray(samples, dtype=np.float32))
         words = sent.split()
@@ -160,6 +181,9 @@ def main():
         for w, (s, e) in zip(words, spans):
             captions.append({"text": (" " if captions else "") + w, "startMs": round((t0 + s) * 1000),
                              "endMs": round((t0 + e) * 1000), "timestampMs": None, "confidence": None})
+            if who:
+                captions[-1]["speaker"] = who
+        speech.append({"speaker": who or "narrator", "text": sent, "startMs": round(t0 * 1000), "endMs": round((t0 + len(audio) / SR) * 1000)})
         chunks.append(audio)
         gap = GAP.get(sent.rstrip("\"')]")[-1], 0.25) * a.gap_scale if si < len(sentences) - 1 else 0.15
         chunks.append(np.zeros(int(gap * SR), dtype=np.float32))
@@ -173,6 +197,7 @@ def main():
     wav = out / "voice.wav"
     sf.write(wav, full, SR)
     (out / "words.json").write_text(json.dumps(captions, indent=1))
+    (out / "speech.json").write_text(json.dumps(speech, indent=1))
     dur = len(full) / SR
     print(f"OK  {len(captions)} words, {dur:.1f}s, {len(captions) / dur * 60:.0f} wpm → {wav}, words.json")
 

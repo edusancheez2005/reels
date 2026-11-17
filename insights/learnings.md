@@ -49,6 +49,9 @@ keep it under 12 bullets.
   stay low in `backlog/crypto.md`. squid-game-token (told as a scam) is too early and inside the cliff, so it proves nothing.
 
 ## Watching (not enough data yet)
+- Skits vs explainers, from 17 Nov (with Edu). [No data yet] The first skit (genius-copy-paste) went up the evening of 17 Nov with
+  the new narrator voice (am_michael) and the new rigged characters; skit and explainer days alternate until the 29 Nov review.
+  Read RUNBOOK hard rules 7 and 8 and the script guide's "Skits" before writing either kind.
 - Breaking news vs plan: no breaking reels this week (the scout found nothing big on any day). Still three in total: binance-hack
   1,857 (6 shares), ai-agent-hack 1,219, midterm-dip-bounce 145. [Guessing] Only an on-topic hack story earned its place. Keep the
   scout's bar high; skip "why the price moved" stories. Posting time: no clean effect (all reels since 5 Nov went out ~05:00 UTC,
