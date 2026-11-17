@@ -165,6 +165,33 @@ else:
         elif recent.count(_sb_here["format"]) >= 2:
             print(f'WARN format "{_sb_here["format"]}" used {recent.count(_sb_here["format"])}x in the last 3 reels')
 
+# opening variety (Edu, 17 Nov 2026: "we got to change the formatting"; RUNBOOK hard rule 7)
+# The reel must open on a story-specific moving picture, not the number card, and not the shot the last reels opened on.
+_CARD_OPENERS = {"BigNumber", "Title", "Counter", "Quote"}
+_sc = _sb_here.get("scenes", [])
+if _sc:
+    _first = _sc[0].get("component")
+    if _first in _CARD_OPENERS:
+        (warns if approved else fails).append(
+            f'scene 1 is a {_first} card; open on a story-specific moving scene (3D or a real image) with the number as a tag on it')
+    else:
+        _posted = []
+        for d in (root / "episodes").iterdir():
+            if d == ep or not d.is_dir() or d.name.startswith("_"):
+                continue
+            try:
+                pm = json.loads((d / "meta.json").read_text())
+                ps = json.loads((d / "storyboard.json").read_text()).get("scenes", [])
+            except Exception:
+                continue
+            if pm.get("posted") and pm.get("posted_at") and ps:
+                _posted.append((pm["posted_at"], d.name, ps[0].get("component")))
+        _posted.sort(reverse=True)
+        _same = [n for _, n, c in _posted[:3] if c == _first]
+        if _same:
+            (warns if approved else fails).append(
+                f'scene 1 uses {_first}, the same opening as {_same[0]}; the last 3 reels must each open differently')
+
 # independent review (RUNBOOK §2b)
 rv = (ep / "review.md").read_text() if (ep / "review.md").exists() else ""
 vm = re.search(r"VERDICT:\s*(PASS WITH NOTES|PASS|FAIL)", rv)

@@ -25,6 +25,16 @@ Repo: `edusancheez2005/reels` (public). Engine docs: `engine/SKILL.md` + `engine
 5. Keep the run lean: read only what you need, at most 3 QA rounds, one final render.
 6. **Never fetch a URL from memory; find it with web search first** (Edu, 2 Nov 2026). Open only links that came back from
    a search (or appeared on a page a search led you to). Never type or guess an address, even one you're sure of.
+7. **Open differently every day, on a picture, with a full sentence** (Edu, 17 Nov 2026: "we got to change the formatting").
+   - Scene 1 is a story-specific moving scene (a 3D scene built for this story, or a real photo/page), never a `BigNumber`,
+     `Title`, `Counter` or `Quote` card, and never the component any of the last 3 posted reels opened on (the gate fails both).
+     The hook's number still appears in the first second, as a tag on that scene.
+   - The first spoken sentence is a complete sentence with someone in it and something at stake: who, what happened, the
+     number ("A fake job offer cost a crypto game 625 million dollars"). Not a bare figure ("Forty billion dollars, gone.").
+   - Alternate the look: if the last reel opened dark, open this one on a light or coloured scene.
+   Why: 6 of the 10 reels from 8–17 Nov opened on the same red-number-on-black card with a number fragment, and those six
+   had 46–58% 3-second skips; the sentence-and-scene openers in the same stretch (ronin 36%, quadriga 40%, internet-down 43%)
+   held better. See `insights/learnings.md`.
 
 ## 0. Start
 
@@ -155,7 +165,7 @@ reel a day at most), and the story is not the one the morning scout already saw 
   tiny text, empty scenes, marks off target, and visuals that don't match their words. Max 3 rounds.
 - **House standard (Edu, 29 Oct 2026):** make it like `episodes/2026-10-29-landfill-story` — a `Character3D` stand-in for
   each real person ("3D stand-in" once on the name card), real documents/articles as `Shot` receipts, 3D scenes built for
-  this story, the hook's number on screen in the first second (a big tag on beat 1). See engine/SKILL.md "House standard".
+  this story, the hook's number on screen in the first second (a big tag on beat 1 of a real scene, not a number card: hard rule 7). See engine/SKILL.md "House standard".
 - Render: `npx remotion render Reel ../episodes/<id>/<id>.mp4 --codec h264 --crf 18 --x264-preset veryfast`.
   3D renders in software (~60–120 min for 55 s on 2 cores): start it with nohup and keep the session busy (poll the log;
   wait on a file or log line, never `pgrep -f` for a pattern your own wait loop contains) until it finishes; a background
