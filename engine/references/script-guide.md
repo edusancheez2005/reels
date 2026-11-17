@@ -74,23 +74,57 @@ Self-check: read the script aloud once, no rewinding. Any line you'd have to rep
 
 ## Skits (Edu, 17 Nov 2026: "we need some creative content"; "you can have more than one character speak")
 
-The explainers stopped being shown (reach fell off on 7 Nov and almost nobody ever shared them). A skit is the same true
-content told as a joke: someone takes a clever-sounding shortcut "because you're a genius", and it backfires.
-Reference: `episodes/2026-11-17-genius-copy-paste/` (script.txt, cast.json, research.md).
+**The default daily format from 18 Nov 2026.** After the first one (`episodes/2026-11-17-genius-copy-paste/`) went up, Edu:
+"Absolutely love it. It's so funny and stupid... I like the skits idea", and yes to skits on consecutive days. In its first two
+hours that reel had a 16% three-second skip rate (the explainers that week: 36–57%) and 26 likes (explainers: 1–5).
+A skit is true content told as a joke: a deadpan narrator talks to "you", two cartoon characters act it out.
+
+**What Edu asked for after the pilot (17 Nov), and every skit must do:**
+1. *A different story every day.* "It's always like $50 million copy paste scam... I need like maybe like a story." The pilot's
+   "Here's how to lose X with one Y" is one shape out of many: use it at most once a week. A skit doesn't have to be a scam
+   or a loss: it can be how something works, how something started, a win, a mystery.
+2. *A film, not a list.* "We need something like a movie kind of thing." Each skit borrows a kind of film and plays it
+   straight. Set `"genre"` in storyboard.json; the gate fails if it matches either of the last two skits. Use any short name:
+   `how-to-lose` (the pilot), `office` (a workplace drama), `heist` (the plan, the hiding place, the one mistake), `horror`
+   (a dark room and a countdown), `nature-doc` (a hushed narrator watching a whale in its habitat), `romcom` (a meet-cute that
+   turns), `trailer` (grave one-line cards and a title), `origin` (how it began, as a buddy comedy), `sports` (a training
+   montage and commentary), `courtroom`, `noir` (a detective following money), `disaster`, `period`, `game-show`.
+   The narrator stays `am_michael` and deadpan; the genre is in the words, the place and the light. Never use a real film's
+   title, characters, lines or music, and never imitate a real presenter's voice.
+3. *A story has a beginning, a turn and an ending.* (1) Who "you" are and what you want, in one line. (2) Two or three steps,
+   each a worse idea done with total confidence. (3) The turn: "One problem." and how it really works, in one or two plain
+   sentences. (4) An ending picture that calls back to the start (the friend is still clapping; the pizza box is still on the
+   table). (5) "This happened to a real [person] in [month, year]." (6) The one step, as an order, when the story has one;
+   a how-it-works skit ends on the one thing to remember instead.
+4. *Less text on screen.* "It's just like quite a lot of text, maybe." The picture and the voice tell it. Budget for the whole
+   skit: at most 8 tags and 2 stamps (the pilot had 18 and 3; the gate warns over budget and fails over 12 in total). A tag is
+   three words or fewer and carries the number or the name, never a sentence the voice is already saying. What's on the
+   monitor counts as picture. One real receipt (a `Shot`) near the end proves it happened.
+5. *One number, not a pile.* "The numbers are always kind of like the same." Pick the one figure the story turns on and say
+   it once or twice. Don't open every skit on a dollar amount.
+6. *Stonks celebrates the worst moment.* "Stonks, and like your friend has never been prouder, and he's like jumping and
+   clapping... I find that really funny." Every skit has it once, set up by a flat line from the narrator ("Your friend has
+   never been prouder."), then `stonks:jump` (or `stonks:dance`) for at least two seconds on a shot wide enough to see his
+   feet leave the floor, and a callback at the very end where he is still at it. His lines are one to three words and change
+   every skit; "Stonks!" at most once.
+7. *A place built for this story.* Not the yellow desk room every day. `mood`, `backdrop: "sky"` and `props` in the
+   storyboard (storyboard-spec, `Actor3D`) make a night street, a bathroom floor with a popcorn tin, a courtroom, the sea.
+   Two or three places at most; the first shot is already in the story's place (the gate checks it differs from the last reels).
+
+**Still true from the pilot:**
 - **Voice**: a deadpan narrator speaking to "you", in the present tense. Short sentences. He never laughs at the joke.
-- **Shape** (about 120–140 words, 45–55 s): (1) the promise, with the number: "Here's how to lose fifty million dollars with
-  one copy and paste." (2) two or three shortcuts, each one sounding sensible ("You are a responsible adult."), the last one
-  "Because you're a genius." (3) "One problem." and how the trick works, in one or two plain sentences. (4) the cost.
-  (5) "This happened to a real [person] in [month, year]." (6) the one step, as an order: "Never copy an address from your
-  wallet history."
+- **Length**: about 120–140 words, 45–55 s.
 - **The cast** (`channels/<channel>.json` → `cast`): the suit guy takes the shortcut; Stonks is the friend who cheers every bad
-  idea and is still cheering at the end. Give them two to five short lines in total, each on its own line starting with the
-  tag: `[stonks] Genius!`, `[suit] Send.`, `[stonks] Great trade!`. One to three words each; the narrator carries the facts.
-- **True where it counts**: every number and every step of the trick comes from a real, sourced case (research.md, as always).
-  The characters, "you" and the jokes are the fiction; say so in the caption ("The suit guy and his friend are made up. The
-  numbers are real."). Never write "did exactly this" about a real victim: the jokes are not facts about them.
-- No price talk, no advice beyond the one step, nothing cruel about a real person. Don't name a victim to mock them.
-- Topics that fit: one mistake, one mechanism, one step. Scams and losses (they are also what got shared before).
+  idea. Two to five short lines between them, each on its own line starting with the tag: `[stonks] Promoted!`,
+  `[suit] Send.` The narrator carries the facts. Either can play a part in the story (Stonks as the boss, the judge, a small
+  fish), but they stay themselves.
+- **True where it counts**: every number and every step of how it works comes from a real, sourced case (research.md, as
+  always). The characters, "you" and the jokes are the fiction; say so in the caption ("The suit guy and his friend are made
+  up. The numbers are real."). Never write "did exactly this" about a real victim: the jokes are not facts about them.
+- No price talk, no advice beyond the one step, nothing cruel about a real person. Don't name a victim to mock them; a
+  convicted person's public court record can be told plainly.
+- Ideas: `backlog/skits.md` (each is a lead to verify, with its genre). Reuse a story an explainer already told only after
+  7 days, and only with a new angle.
 
 ## Hooks (Edu, 2026-10-27: "a cool fact")
 

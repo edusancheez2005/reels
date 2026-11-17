@@ -26,7 +26,9 @@ import {CANVAS, Caption, Tags, canvasTex, clamp01, useCamera, type Cam, type Tag
  *                         whole screen; a landscape monitor can't be read over a shoulder in a vertical frame)
  * actions (one per beat; "a+b" fires several on the same beat):
  *   <id>:<pose>      the actor snaps to a pose: relax | genius (finger to the temple) | panic (hands on head) | cheer | clap |
- *                    proud (hands on hips) | type | click | point | shrug | think | facepalm | slump | wave | lean
+ *                    jump (jumping and clapping) | dance | proud (hands on hips) | type | click | point | shrug | think |
+ *                    facepalm | slump | wave | lean | beg (hands together) | phone (a phone at his ear) | scroll (reading a
+ *                    phone held in front of him)
  *   <id>:look:<deg>  turn the head (+ = to the actor's left)        <id>:in / <id>:out   pop into / drop out of frame
  *   <id>:talk:<sec>  the mouth moves for that long (a line tagged [id] in script.txt, voiced by cast.json)
  *   screen:<state>   the monitor switches to props.screens[state]   mood:<name>   day | teal | pink | night | doom (colours + light)
@@ -35,17 +37,26 @@ import {CANVAS, Caption, Tags, canvasTex, clamp01, useCamera, type Cam, type Tag
  * props: actors [{id, model, at, yaw, tall, pose, hidden}], set ("studio" | "desk"), mood, screens {[state]: {head, big, sub,
  *   tone, chart}}, screen, screenTurn, cam, tags, stamp {text, x, y, size, tone, rot}, caption, shift (px the picture is pushed
  *   down to clear a caption at the top; default 230, use ~60 with "pill" captions)
+ *   backdrop ("wall" | "sky"): "sky" takes the back wall away and puts a sky behind the floor (stars when the mood is dark),
+ *     for anything outdoors.
+ *   props [{shape, at, size, color, rot, glow}]: set dressing built from simple solids, so each story gets its own place
+ *     (a judge's bench, a campfire, a bed, a bin, a moon) without new code. shape: box (size [w, h, d]) | cyl ([radius, height])
+ *     | ball ([radius]) | cone ([radius, height]) | plane ([w, h], faces +z). at is the CENTRE of the solid in metres; rot is
+ *     degrees [x, y, z]; glow > 0 makes it shine in its own colour (lamps, screens, the moon, fire).
  */
 type V3 = [number, number, number];
 type Tone = 'accent' | 'good' | 'alert' | 'warm' | 'muted' | 'white';
 type ActorDef = {id: string; model: string; at?: V3; yaw?: number; tall?: number; pose?: string; hidden?: boolean; look?: number};
 type ScreenState = {head?: string; big?: string; sub?: string; tone?: Tone; chart?: 'up' | 'down'};
 type Mood = {wall: string; floor: string; key: number; fill: number; glow: string; glowI: number};
+type PropDef = {shape: 'box' | 'cyl' | 'ball' | 'cone' | 'plane'; at: V3; size?: number[]; color?: string; rot?: V3; glow?: number};
 type P = {
   actors: ActorDef[];
   actions?: string[];
   cam?: Cam[];
   set?: 'studio' | 'desk';
+  backdrop?: 'wall' | 'sky';
+  props?: PropDef[];
   mood?: string;
   screens?: Record<string, ScreenState>;
   screen?: string;
@@ -122,6 +133,8 @@ type PoseDef = {
   rShape?: 'open' | 'fist' | 'point';
   lShape?: 'open' | 'fist' | 'point';
   bounce?: number; // 0..1 how much the body bobs
+  hop?: number; // 0..1 how high he jumps, over and over
+  item?: 'ear' | 'front'; // a phone in the right hand: at the ear, or held in front to read
 };
 
 const DOWN: V3 = [0.5, -1, -0.45];
@@ -175,6 +188,57 @@ const poseOf = (name: string, R: number, f: number, ph: number): PoseDef => {
         bounce: 0.5,
       };
     }
+    case 'jump': {
+      // jumping and clapping (Edu, 17 Nov 2026: "he's like jumping and clapping... I find that really funny")
+      const c = 0.5 + 0.5 * Math.sin(f * 1.35 + ph);
+      return {
+        rh: {a: 'head', o: [0.07 + 0.2 * c, 0.34, 0.08], p: OUTP},
+        lh: {a: 'head', o: [0.07 + 0.2 * c, 0.32, 0.08], p: OUTP},
+        head: [-0.16, 0, 0.07 * Math.sin(f * 0.224 + ph)],
+        spine: [-0.05, 0, 0],
+        expr: {happy: 1, aa: 0.6},
+        hop: 1,
+      };
+    }
+    case 'dance': {
+      const d = Math.sin(f * 0.224 + ph);
+      return {
+        rh: {a: 'head', o: [0.34, 0.12 + 0.24 * d, 0.1], p: OUTP},
+        lh: {a: 'head', o: [0.34, 0.12 - 0.24 * d, 0.1], p: OUTP},
+        head: [-0.08, 0.1 * d, 0.14 * d],
+        spine: [0, 0.08 * d, 0.12 * d],
+        expr: {happy: 1, aa: 0.3},
+        rShape: 'fist',
+        lShape: 'fist',
+        hop: 0.4,
+      };
+    }
+    case 'beg':
+      return {
+        // the hand carries on past the wrist, so the wrists stay apart and the fingertips meet under the chin
+        rh: {a: 'chest', o: [0.19, 0.0, 0.24], p: [1, -0.5, -0.1]},
+        lh: {a: 'chest', o: [0.19, 0.0, 0.24], p: [1, -0.5, -0.1]},
+        head: [-0.2, 0, 0.06],
+        spine: [0.06, 0, 0],
+        expr: {sad: 1},
+      };
+    case 'phone':
+      return {
+        rh: {a: 'head', o: [R * 1.18, -R * 0.55, R * 0.1], p: [1, -0.7, -0.15]},
+        lh: relaxH,
+        head: [0, 0, -0.06],
+        rShape: 'fist',
+        item: 'ear',
+      };
+    case 'scroll':
+      return {
+        rh: {a: 'chest', o: [0.02, -0.02, 0.3], p: [1, -0.8, -0.1]},
+        lh: relaxH,
+        head: [0.34, 0, 0],
+        spine: [0.06, 0, 0],
+        rShape: 'fist',
+        item: 'front',
+      };
     case 'type': {
       const t = (s: number) => 0.012 * Math.sin(f * 1.45 + s * 2.1) + 0.006 * Math.sin(f * 3.1 + s);
       return {
@@ -241,7 +305,7 @@ const poseOf = (name: string, R: number, f: number, ph: number): PoseDef => {
 };
 
 type Axes = {left: THREE.Vector3; up: THREE.Vector3; fwd: THREE.Vector3};
-type Solved = {rh: THREE.Vector3; lh: THREE.Vector3; rp: THREE.Vector3; lp: THREE.Vector3; head: V3; spine: V3; expr: Record<string, number>; rFist: number; rPoint: number; lFist: number; lPoint: number; bounce: number};
+type Solved = {rh: THREE.Vector3; lh: THREE.Vector3; rp: THREE.Vector3; lp: THREE.Vector3; head: V3; spine: V3; expr: Record<string, number>; rFist: number; rPoint: number; lFist: number; lPoint: number; bounce: number; hop: number; item: string};
 
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 const lerpV = (a: V3, b: V3, t: number): V3 => [lerp(a[0], b[0], t), lerp(a[1], b[1], t), lerp(a[2], b[2], t)];
@@ -310,6 +374,17 @@ const Actor: React.FC<{def: ActorDef; evs: Ev[]; frame: number; fps: number; idx
   const {vrm, handle} = useVRM(def.model);
   const {advance} = useThree();
   const ph = idx * 2.3;
+  // a phone for the "phone" and "scroll" poses: a dark slab with a lit screen, placed on the right hand every frame
+  const phone = useMemo(() => {
+    const g = new THREE.Group();
+    const body = new THREE.Mesh(new THREE.BoxGeometry(0.078, 0.158, 0.012), new THREE.MeshStandardMaterial({color: '#11141b', roughness: 0.4}));
+    const glass = new THREE.Mesh(new THREE.PlaneGeometry(0.068, 0.146), new THREE.MeshBasicMaterial({color: '#bfe3ff', toneMapped: false}));
+    glass.position.z = 0.0065;
+    body.castShadow = true;
+    g.add(body, glass);
+    g.visible = false;
+    return g;
+  }, []);
 
   useLayoutEffect(() => {
     if (!vrm) return;
@@ -354,7 +429,9 @@ const Actor: React.FC<{def: ActorDef; evs: Ev[]; frame: number; fps: number; idx
     const A = poseOf(prevName, R, frame, ph);
     const B = poseOf(curName, R, frame, ph);
     const bounce = lerp(A.bounce ?? 0, B.bounce ?? 0, tBody);
-    const bob = bounce * Math.abs(Math.sin(frame * 0.42 + ph)) * 0.05 * k;
+    const hop = lerp(A.hop ?? 0, B.hop ?? 0, tBody);
+    // one jump every 14 frames; he hangs at the top a little (the 0.7 power), which reads as a jump and not a wobble
+    const bob = bounce * Math.abs(Math.sin(frame * 0.42 + ph)) * 0.05 * k + hop * Math.pow(Math.abs(Math.sin(frame * 0.224 + ph)), 0.7) * 0.3 * k;
     vrm.scene.visible = vis;
     vrm.scene.rotation.set(0, yaw + (vrm.meta?.metaVersion === '0' ? Math.PI : 0), 0);
     vrm.scene.scale.set(k * (1 - 0.035 * pop), k * (1 + 0.06 * pop), k * (1 - 0.035 * pop));
@@ -396,6 +473,8 @@ const Actor: React.FC<{def: ActorDef; evs: Ev[]; frame: number; fps: number; idx
       lFist: D.lShape === 'fist' ? 1 : 0,
       lPoint: D.lShape === 'point' ? 1 : 0,
       bounce: D.bounce ?? 0,
+      hop: D.hop ?? 0,
+      item: D.item ?? '',
     });
     const a = solve(A);
     const b = solve(B);
@@ -414,6 +493,18 @@ const Actor: React.FC<{def: ActorDef; evs: Ev[]; frame: number; fps: number; idx
     if (neck) applyWorldRot(neck, torsoQ([headR[0] * 0.3, headR[1] * 0.3, headR[2] * 0.3], ax));
     const head = bone('head');
     if (head) applyWorldRot(head, torsoQ([headR[0] * 0.7, headR[1] * 0.7, headR[2] * 0.7], ax));
+
+    // ---- legs: the knees tuck at the top of a jump ----
+    if (hop > 0.01) {
+      const up = hop * Math.pow(Math.abs(Math.sin(frame * 0.224 + ph)), 0.7);
+      (['left', 'right'] as const).forEach((sd, i) => {
+        const tuck = up * (i === 0 ? 0.55 : 0.3);
+        const ul = bone(`${sd}UpperLeg`);
+        const ll = bone(`${sd}LowerLeg`);
+        if (ul) applyWorldRot(ul, torsoQ([-tuck, 0, 0], ax));
+        if (ll) applyWorldRot(ll, torsoQ([tuck * 1.9, 0, 0], ax));
+      });
+    }
 
     // ---- arms and hands ----
     solveArm(vrm, 'right', a.rh.clone().lerp(b.rh, tHand), a.rp.clone().lerp(b.rp, tBody));
@@ -443,6 +534,23 @@ const Actor: React.FC<{def: ActorDef; evs: Ev[]; frame: number; fps: number; idx
     }
     h.update();
     vrm.scene.updateMatrixWorld(true);
+
+    // ---- the phone ----
+    const item = tBody > 0.5 ? b.item : a.item;
+    phone.visible = vis && !!item;
+    if (item) {
+      const hand = h.getRawBoneNode('rightHand' as never)?.getWorldPosition(new THREE.Vector3()) ?? b.rh;
+      phone.scale.setScalar(k * 1.15);
+      if (item === 'ear') {
+        // flat against the side of his head, screen towards the ear
+        phone.position.copy(hand).add(ax.up.clone().multiplyScalar(0.075 * k)).add(ax.left.clone().multiplyScalar(0.035 * k)).add(ax.fwd.clone().multiplyScalar(0.02 * k));
+        phone.rotation.set(0, yaw + Math.PI / 2, 0.22);
+      } else {
+        // held in front of his chest, screen towards his face
+        phone.position.copy(hand).add(ax.up.clone().multiplyScalar(0.085 * k)).add(ax.left.clone().multiplyScalar(0.03 * k)).add(ax.fwd.clone().multiplyScalar(0.03 * k));
+        phone.rotation.set(0.55, yaw + Math.PI, 0);
+      }
+    }
   });
 
   // @remotion/three only draws when the frame number changes, so a model that finishes loading on the same frame would
@@ -453,7 +561,12 @@ const Actor: React.FC<{def: ActorDef; evs: Ev[]; frame: number; fps: number; idx
     continueRender(handle);
   }, [vrm, advance, handle]);
 
-  return vrm ? <primitive object={vrm.scene} /> : null;
+  return vrm ? (
+    <>
+      <primitive object={vrm.scene} />
+      <primitive object={phone} />
+    </>
+  ) : null;
 };
 
 // ---------- camera ----------
@@ -616,6 +729,88 @@ const Plant: React.FC<{position: V3}> = ({position}) => (
   </group>
 );
 
+// ---------- set dressing ----------
+const Solid: React.FC<{d: PropDef}> = ({d}) => {
+  const z = d.size ?? [];
+  const rot = (d.rot ?? [0, 0, 0]).map((v) => (v * Math.PI) / 180) as V3;
+  const color = d.color ?? '#8595a8';
+  return (
+    <mesh position={d.at} rotation={rot} castShadow={!d.glow} receiveShadow={!d.glow}>
+      {d.shape === 'cyl' ? (
+        <cylinderGeometry args={[z[0] ?? 0.2, z[0] ?? 0.2, z[1] ?? 0.4, 28]} />
+      ) : d.shape === 'ball' ? (
+        <sphereGeometry args={[z[0] ?? 0.2, 28, 20]} />
+      ) : d.shape === 'cone' ? (
+        <coneGeometry args={[z[0] ?? 0.2, z[1] ?? 0.4, 28]} />
+      ) : d.shape === 'plane' ? (
+        <planeGeometry args={[z[0] ?? 0.5, z[1] ?? 0.5]} />
+      ) : (
+        <boxGeometry args={[z[0] ?? 0.4, z[1] ?? 0.4, z[2] ?? 0.4]} />
+      )}
+      {d.glow ? (
+        <meshBasicMaterial color={color} toneMapped={false} side={THREE.DoubleSide} />
+      ) : (
+        <meshStandardMaterial color={color} roughness={0.75} side={d.shape === 'plane' ? THREE.DoubleSide : THREE.FrontSide} />
+      )}
+    </mesh>
+  );
+};
+
+/** Outdoors: a sky in the mood's wall colour, paler at the horizon, with stars and a moon when the light is low. */
+const Sky: React.FC<{color: string; dark: number}> = ({color, dark}) => {
+  const haze = useMemo(
+    () =>
+      canvasTex(16, 256, (g) => {
+        const grd = g.createLinearGradient(0, 0, 0, 256);
+        grd.addColorStop(0, 'rgba(255,255,255,0)');
+        grd.addColorStop(0.55, 'rgba(255,255,255,0.12)');
+        grd.addColorStop(1, 'rgba(255,255,255,0.6)');
+        g.fillStyle = grd;
+        g.fillRect(0, 0, 16, 256);
+      }),
+    [],
+  );
+  const stars = useMemo(
+    () =>
+      canvasTex(2048, 1024, (g) => {
+        for (let i = 0; i < 520; i++) {
+          const x = (i * 397.3) % 2048;
+          const y = ((i * 189.7) % 860) + ((i * 13) % 7);
+          const r = 0.9 + ((i * 31) % 10) / 9;
+          g.fillStyle = `rgba(255,255,255,${0.4 + ((i * 17) % 10) / 17})`;
+          g.beginPath();
+          g.arc(x, y, r, 0, Math.PI * 2);
+          g.fill();
+        }
+      }),
+    [],
+  );
+  return (
+    <group position={[0, 0, -29]}>
+      <mesh position={[0, 20, 0]}>
+        <planeGeometry args={[140, 44]} />
+        <meshBasicMaterial color={color} toneMapped={false} />
+      </mesh>
+      <mesh position={[0, 20, 0.05]}>
+        <planeGeometry args={[140, 44]} />
+        <meshBasicMaterial map={haze ?? undefined} transparent opacity={0.06 + 0.8 * (1 - dark)} toneMapped={false} />
+      </mesh>
+      {dark > 0.02 ? (
+        <>
+          <mesh position={[0, 21, 0.1]}>
+            <planeGeometry args={[110, 40]} />
+            <meshBasicMaterial map={stars ?? undefined} transparent opacity={dark} toneMapped={false} />
+          </mesh>
+          <mesh position={[-4, 8.5, 0.15]}>
+            <circleGeometry args={[1.3, 40]} />
+            <meshBasicMaterial color="#f4f1e4" transparent opacity={dark} toneMapped={false} />
+          </mesh>
+        </>
+      ) : null}
+    </group>
+  );
+};
+
 // ---------- the scene ----------
 export const Actor3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames}) => {
   const frame = useCurrentFrame();
@@ -718,10 +913,17 @@ export const Actor3D: React.FC<SceneProps<P>> = ({props, beats, durationInFrames
           <planeGeometry args={[60, 60]} />
           <meshStandardMaterial color={mood.floor} roughness={0.92} />
         </mesh>
-        <mesh position={[0, 6, -2.6]} receiveShadow>
-          <planeGeometry args={[60, 12]} />
-          <meshStandardMaterial color={mood.wall} roughness={1} />
-        </mesh>
+        {props.backdrop === 'sky' ? (
+          <Sky color={mood.wall} dark={clamp01((1.3 - mood.key) / 0.8)} />
+        ) : (
+          <mesh position={[0, 6, -2.6]} receiveShadow>
+            <planeGeometry args={[60, 12]} />
+            <meshStandardMaterial color={mood.wall} roughness={1} />
+          </mesh>
+        )}
+        {(props.props ?? []).map((d, i) => (
+          <Solid key={i} d={d} />
+        ))}
         {props.set === 'desk' ? (
           <>
             <Desk tex={texSet[scr] ?? null} glow={mood.glow} glowI={mood.glowI + flash * 2} turn={props.screenTurn ?? 0} flash={flash} />

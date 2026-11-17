@@ -282,8 +282,9 @@ Props: `actors` `[{id, model, at, yaw, tall, pose, hidden, look}]` (the cast: `s
 `teal`, `pink`, `blue`, `night`, `doom` dark red), `screens` `{[state]: {head, big, sub, tone, chart}}` + `screen` (the monitor;
 keep `big` to one short word or number), `cam`, `tags` (add `"raw": true` to keep a tag's own letter case, e.g. an address),
 `stamp` `{text, x, y, size, tone, rot}` (a word slammed on screen; put it low, y ≈ 1450, over the monitor's back), `shift`.
-Actions, one per beat, `"a+b"` for several on one beat: `<id>:<pose>` (relax, genius, proud, panic, cheer, clap, type, click,
-lean, point, shrug, think, facepalm, slump, wave), `<id>:in` / `<id>:out`, `<id>:look:<deg>`, `<id>:talk:<seconds>` (mouth
+Actions, one per beat, `"a+b"` for several on one beat: `<id>:<pose>` (relax, genius, proud, panic, cheer, clap, `jump` =
+jumping with his hands clapping over his head, `dance`, type, click, lean, point, shrug, think, facepalm, slump, wave, `beg` =
+hands clasped at the chest, `phone` = a phone at his ear, `scroll` = reading a phone held in front of him), `<id>:in` / `<id>:out`, `<id>:look:<deg>`, `<id>:talk:<seconds>` (mouth
 moves: use it on a `[id]` line of the script), `screen:<state>`, `mood:<name>`, `stamp`, `shake`, `label:<n>`, `hide:<n>`, `cam`.
 Cameras that work (suit at the origin, facing +z):
 - face over the monitor `{pos: [0.3, 1.52, 2.35], look: [0, 1.5, 0], fov: 30}`
@@ -293,6 +294,22 @@ Cameras that work (suit at the origin, facing +z):
 - wide `{pos: [2.0, 1.55, 3.6], look: [0.2, 1.0, 0.25], fov: 40}`
 Always `"moving": true`. Anchor a character's line with `{"word": n}` (from `print_words.py`) when the same word is also
 narrated. To add a character, see `public/models/README.md`.
+A place for each story (18 Nov 2026; Edu: "something like a movie kind of thing"): don't shoot every skit in the yellow desk room.
+- `"backdrop": "sky"` takes the back wall away: the floor runs to a horizon under a sky in the mood's colour, with stars and
+  a moon when the mood is `night` or `doom`. Use it for anything outdoors (a street at night, a field, the sea floor in `blue`).
+- `"props"`: set dressing from simple solids, `[{shape, at, size, color, rot, glow}]`. `shape`: `box` (size `[w, h, d]`),
+  `cyl` (`[radius, height]`), `ball` (`[radius]`), `cone` (`[radius, height]`), `plane` (`[w, h]`, facing +z). `at` is the
+  centre of the solid in metres (floor y = 0, so a 0.9 m high box stands at y 0.45); `rot` in degrees; `"glow": 1` makes it
+  shine in its own colour (a lamp, a moon, a screen, fire). Build each thing from two to six solids and check the QA still:
+  a market stall = a 1.5 × 0.9 × 0.55 box, a 1.8 × 0.1 × 1.0 red box 2.15 m up, two thin `cyl` poles; a campfire = a low dark
+  `cyl` with an orange glowing `cone`; a judge's bench = a 2.2 × 1.7 × 0.5 box with a darker slab on top and the judge
+  standing on a 0.55 m box behind it; a popcorn tin = a 0.16 × 0.3 `cyl` with a darker lid; a bed, a bin, a door, a safe.
+  Keep props off the actors' spots, and behind or beside them rather than between them and the camera.
+- Shots that work without the desk: full body `{pos: [0.6, 1.15, 4.7], look: [0, 0.9, 0], fov: 28}`; waist up
+  `{pos: [0.5, 1.42, 2.5], look: [0, 1.28, 0], fov: 28}`; two people and their place, wide `{pos: [1.4, 1.5, 6.2],
+  look: [0.2, 1.0, 0], fov: 34}` with the actors about 1.2 m apart, turned towards each other (`yaw` ±0.5).
+- `jump` and `dance` need a full-body or wide shot (his feet leave the floor), and an actor who is not behind the desk.
+- Text budget for a skit: at most 8 tags and 2 stamps in the whole reel, three words each (script-guide "Skits").
 
 ### v1 (dark-only cards, still available)
 Stat, Steps, Compare, Terminal, Window, Diagram, Chart, Image.

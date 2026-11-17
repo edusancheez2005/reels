@@ -28,7 +28,8 @@ Repo: `edusancheez2005/reels` (public). Engine docs: `engine/SKILL.md` + `engine
 7. **Open differently every day, on a picture, with a full sentence** (Edu, 17 Nov 2026: "we got to change the formatting").
    - Scene 1 is a story-specific moving scene (a 3D scene built for this story, or a real photo/page), never a `BigNumber`,
      `Title`, `Counter` or `Quote` card, and never the component any of the last 3 posted reels opened on (the gate fails both).
-     The hook's number still appears in the first second, as a tag on that scene.
+     When it opens on the characters (`Actor3D`, most days now), the place must differ instead: not the same `set`, `backdrop`
+     and `mood` as any of the last 3. If the story turns on a number, it appears in the first second as a tag on that scene.
    - The first spoken sentence is a complete sentence with someone in it and something at stake: who, what happened, the
      number ("A fake job offer cost a crypto game 625 million dollars"). Not a bare figure ("Forty billion dollars, gone.").
    - Alternate the look: if the last reel opened dark, open this one on a light or coloured scene.
@@ -154,11 +155,17 @@ reel a day at most), and the story is not the one the morning scout already saw 
 - Assets: logos via `get_logos.mjs`. Real pages: `node engine/scripts/screenshot.mjs <url> episodes/<id>/assets/<name>.png
   --selector "<css>" --zoom 1.6` (the workspace can reach all websites since 29 Oct; Etherscan blocks bots, use another
   explorer). If a page still can't be captured, use a Quote card with the exact words and source, never a recreated page.
-- **Format: pick it for the concept, never the same as the last reel** (Edu, 31 Oct: "I don't want you to use the same exact
-  format every single time... be creative"). Read the formats of the last 3 posted reels (`"format"` in their meta.json or
-  storyboard.json; older ones: breakdown = has chapters, character = has Character3D, otherwise motion/documentary). Write 2–3
-  candidate formats in research.md with why, pick one that differs from the last reel, set `"format"` in storyboard.json. Menu and
-  when to use each: engine/SKILL.md "Pick the format for the concept".
+- **Format: a skit by default, a different kind of story every day** (Edu, 17 Nov 2026, after the first skit: "Absolutely love
+  it... I like the skits idea", and yes to skits on consecutive days; and: "it's always like $50 million copy paste scam... I
+  need like maybe like a story... something like a movie kind of thing"). Unless today's plan row says otherwise, set
+  `"format": "skit"` and a `"genre"` that neither of the last two skits used (the gate fails without one, or on a repeat), and
+  follow script-guide "Skits": a story with a beginning, a turn and an ending; a place built for it (`props`, `backdrop`); at
+  most 8 tags and 2 stamps; one number; Stonks jumping and clapping at the worst moment. Write 2–3 candidate genres in
+  research.md with why. The variety Edu asked for on 31 Oct ("I don't want you to use the same exact format every single
+  time... be creative") now lives in the genre, the place and the story.
+  For a reel that is not a skit (a breaking story that needs to be told straight, or a plan row that names another format):
+  pick the format for the concept and never the same as the last non-skit reel; menu in engine/SKILL.md "Pick the format for
+  the concept".
 - Storyboard: 14–20 scenes, ≤ 1 plain text title per 5 scenes, 10–20 emphasis phrases. Variety (Edu, 29 Oct): no component
   in more than 3 scenes (and change the camera or setting each time); a timeline (Ruler) at most once and only when a
   sequence of 3+ dates is the point, never in two reels in a row; no "Illustration" captions on obvious graphics. Show the

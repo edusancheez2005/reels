@@ -37,6 +37,12 @@ Then rewrite `learnings.md` (keep its sections: Do / Avoid / Not working yet / W
   breaking news is earning its place (same evidence bar as above). Glance at `insights/trends/` for big stories the scout
   flagged that we skipped.
 - If a topic type clearly flops twice, move similar items down in `backlog/crypto.md` (don't delete them) and say so in learnings.
+- **Skits are the default from 18 Nov 2026** (Edu, 17 Nov evening: "I like the skits idea", yes to skits on consecutive
+  days), so there are no alternating explainer days to compare against. Compare each skit with the explainers of 8–17 Nov on
+  3-second skip, average watch time, likes and shares per reach (the pilot, in its first two hours: 16% skip against 36–57%,
+  26 likes against 1–5), and compare skits with each other by `genre` (storyboard.json) to see which kinds of story travel.
+  Plan the next week from `backlog/skits.md`, no genre twice within three days. If two skits in a row fall back to the
+  explainers' numbers, say so plainly and propose mixing explainers back in. The original test, for reference:
 - **Skits vs explainers** (Edu's test from 17 Nov 2026; `format` "skit" in meta.json vs every other format, alternating days):
   compare the two groups on views, 3-second skip, average watch and shares + saves per reach, with n for each. Say plainly
   which is ahead and whether the gap is bigger than the day-to-day spread; in the 29 Nov review, recommend what share of the

@@ -34,7 +34,15 @@ A skit is a true case told as a joke by a deadpan narrator, acted by cartoon cha
 facts, sync, readability and hook exactly as above. Different from an explainer: the people are "you" and two made-up
 characters (nobody needs a name card), the jokes are not facts (but nothing may state a joke as a fact about a real person),
 and "enough substance" means the trick is explained, the real case is named with its date and number, and the reel ends on
-this story's one step. Add one note on whether the jokes land.
+this story's one step (or, for a how-it-works skit, the one thing to remember). Add one note on whether the jokes land.
+From 18 Nov 2026 (Edu: "I need like maybe like a story... something like a movie kind of thing... quite a lot of text, maybe...
+he's like jumping and clapping... I find that really funny"), also say in the notes, and count the first two as must-fix:
+- Is it a story (someone wants something, it escalates, it turns, it ends on a picture that calls back to the start), or a
+  list of facts with jokes between them? A list is a FAIL for a skit.
+- Does on-screen text stay out of the way: no more than about 8 labels and 2 stamps in the whole reel, none of them a
+  sentence the voice is already saying? Well over that (12+) is a FAIL.
+- Does Stonks get his celebration (jumping or dancing at the worst moment, feet visible), and is it funny?
+- Does the place look like this story's place, or the same room as yesterday?
 
 ## Must fix (FAIL), only these
 - A factual error, a number that doesn't match research.md, or a claim with no source.
@@ -69,10 +77,17 @@ PASS only if all of these hold, otherwise REWRITE with the exact lines to change
 - 120–160 words; the hook is a striking verifiable fact with a number; no price predictions.
 
 **For a skit** (storyboard/plan format `skit`), check this instead (script-guide "Skits"):
-- The first sentence is the promise with the real number ("Here's how to lose … with …").
-- Each shortcut sounds sensible, and the trick is explained in one or two plain sentences a beginner follows on one listen.
-- Every number and every step of the trick is in research.md from a real, sourced case; the real case is named with its date.
-- Nothing states a joke as a fact about a real person ("did exactly this"), and nothing is cruel about the victim.
+- It is a story, not a list (Edu, 17 Nov 2026: "I need like maybe like a story... something like a movie kind of thing"): the
+  first sentence puts "you" somewhere wanting something; two or three steps escalate; there is a turn ("One problem."); the
+  last picture calls back to the start. A list of facts with jokes between them is a REWRITE.
+- It plays one kind of film (the plan's genre) and is not "Here's how to lose X with one Y" again unless the plan says so.
+  No real film's title, characters or lines.
+- How it really works is explained in one or two plain sentences a beginner follows on one listen.
+- One number carries it (Edu: "the numbers are always kind of like the same"); a second is fine, a stack of figures is not.
+- Every number and every step is in research.md from a real, sourced case; the real case is named with its date.
+- Nothing states a joke as a fact about a real person ("did exactly this"), and nothing is cruel about a real person.
 - Characters' lines (`[name] …`) are one to three words, two to five lines in total; the narrator carries the facts.
-- It ends on this story's one step, as an order. 110–140 words. No price predictions, no advice beyond the step.
+- Stonks has his moment: a flat set-up line ("Your friend has never been prouder.") followed by a beat with no narration
+  long enough for him to jump and clap (about two seconds), and a callback at the end.
+- It ends on this story's one step, as an order, or on the one thing to remember. 110–140 words. No price predictions.
 - Say which joke is weakest and give a replacement line.

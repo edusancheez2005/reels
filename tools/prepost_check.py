@@ -156,7 +156,7 @@ else:
         if pm.get("posted") and pm.get("posted_at"):
             _prev.append((pm["posted_at"], d))
     _prev.sort(reverse=True)
-    if _prev:
+    if _prev and _sb_here["format"] != "skit":
         last_fmt = _fmt(_prev[0][1])
         recent = [_fmt(d) for _, d in _prev[:3]]
         if last_fmt == _sb_here["format"]:
@@ -164,6 +164,52 @@ else:
             (warns if approved else fails).append(msg)
         elif recent.count(_sb_here["format"]) >= 2:
             print(f'WARN format "{_sb_here["format"]}" used {recent.count(_sb_here["format"])}x in the last 3 reels')
+
+# skits may run on consecutive days (Edu, 17 Nov 2026: "two skits running... I like the skits idea"), but each one is a
+# different kind of story ("it's always like $50 million copy paste scam... I need like maybe like a story... something like
+# a movie kind of thing"), with less text on screen ("quite a lot of text, maybe") and Stonks celebrating ("he's like jumping
+# and clapping... I find that really funny"). script-guide.md "Skits".
+def _sbj(d):
+    try:
+        return json.loads((d / "storyboard.json").read_text())
+    except Exception:
+        return {}
+
+if _sb_here.get("format") == "skit":
+    genre = str(_sb_here.get("genre", "")).strip().lower()
+    if not genre:
+        fails.append('skit has no "genre" in storyboard.json (script-guide.md "Skits": pick the kind of film this story is)')
+    else:
+        _skits = []
+        for d in (root / "episodes").iterdir():
+            if d == ep or not d.is_dir() or d.name.startswith("_"):
+                continue
+            try:
+                pm = json.loads((d / "meta.json").read_text())
+            except Exception:
+                continue
+            if pm.get("posted") and pm.get("posted_at") and _fmt(d) == "skit":
+                _skits.append((pm["posted_at"], d.name, str(_sbj(d).get("genre", "how-to-lose")).lower()))
+        _skits.sort(reverse=True)
+        _clash = [n for _, n, g in _skits[:2] if g == genre]
+        if _clash:
+            (warns if approved else fails).append(
+                f'skit genre "{genre}" was used by {_clash[0]}; the last two skits must each be a different kind of story')
+    _n_tags = _n_stamps = 0
+    _acts = []
+    _defs = _sb_here.get("defs", {})
+    for sc in _sb_here.get("scenes", []):
+        pr = dict(_defs.get(sc.get("props", {}).get("$use", ""), {}), **sc.get("props", {}))
+        _n_tags += len(pr.get("tags", []) or [])
+        _n_stamps += 1 if pr.get("stamp") else 0
+        _acts += [x for a in pr.get("actions", []) or [] for x in str(a).split("+")]
+    if _n_tags + _n_stamps > 12:
+        (warns if approved else fails).append(
+            f"skit has {_n_tags} tags and {_n_stamps} stamps on screen; the budget is 8 tags and 2 stamps (let the picture and the voice tell it)")
+    elif _n_tags > 8 or _n_stamps > 2:
+        warns.append(f"skit text: {_n_tags} tags, {_n_stamps} stamps (budget: 8 and 2)")
+    if not any(a in ("stonks:jump", "stonks:dance") for a in _acts):
+        warns.append('skit: Stonks never jumps or dances ("stonks:jump" on the worst moment, on a shot that shows his feet)')
 
 # opening variety (Edu, 17 Nov 2026: "we got to change the formatting"; RUNBOOK hard rule 7)
 # The reel must open on a story-specific moving picture, not the number card, and not the shot the last reels opened on.
@@ -187,10 +233,22 @@ if _sc:
             if pm.get("posted") and pm.get("posted_at") and ps:
                 _posted.append((pm["posted_at"], d.name, ps[0].get("component")))
         _posted.sort(reverse=True)
-        _same = [n for _, n, c in _posted[:3] if c == _first]
-        if _same:
-            (warns if approved else fails).append(
-                f'scene 1 uses {_first}, the same opening as {_same[0]}; the last 3 reels must each open differently')
+        if _first == "Actor3D":
+            # characters open most reels now, so compare the place they open in: set + backdrop + mood
+            def _place(sbj):
+                sc0 = (sbj.get("scenes") or [{}])[0]
+                pr = dict(sbj.get("defs", {}).get(sc0.get("props", {}).get("$use", ""), {}), **sc0.get("props", {}))
+                return (pr.get("set", "studio"), pr.get("backdrop", "wall"), pr.get("mood", "day"))
+            _here = _place(_sb_here)
+            _same = [n for _, n, c in _posted[:3] if c == "Actor3D" and _place(_sbj(root / "episodes" / n)) == _here]
+            if _same:
+                (warns if approved else fails).append(
+                    f'scene 1 opens in the same place as {_same[0]} (set, backdrop, mood = {", ".join(_here)}); open somewhere built for this story')
+        else:
+            _same = [n for _, n, c in _posted[:3] if c == _first]
+            if _same:
+                (warns if approved else fails).append(
+                    f'scene 1 uses {_first}, the same opening as {_same[0]}; the last 3 reels must each open differently')
 
 # independent review (RUNBOOK §2b)
 rv = (ep / "review.md").read_text() if (ep / "review.md").exists() else ""
@@ -261,7 +319,7 @@ if (ep / "storyboard.json").exists():
     if labels:
         warns.append(f"{labels} 'Illustration' captions; obvious graphics shouldn't have one")
     runs = [c for i, c in enumerate(comps) if not (c == "Iso3D" and i > 0 and comps[i - 1] == "Iso3D")]  # one world = one shot
-    over = sorted({c for c in runs if runs.count(c) > 3})
+    over = sorted({c for c in runs if runs.count(c) > 3 and c != "Actor3D"})  # the characters are the cast, not a repeated graphic
     if over:
         warns.append(f"components in more than 3 scenes: {', '.join(over)}")
 

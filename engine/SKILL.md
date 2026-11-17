@@ -49,7 +49,7 @@ or two from another. The formats:
 | `motion` | numbers, concepts, comparisons, fast explainers | pure 2D motion graphics, no 3D world: kinetic type, particles forming shapes, counters, bars, maps, quick cuts | ParticleShape, BigNumber, Growth, Ruler, RouteMap, Flow, Title, Checklist; kinetic captions |
 | `breakdown` | mechanisms with steps (a hack, how a system works) | chapter bar + one isometric world the camera moves through, labels with leader lines, caption pill | header + chapters, Iso3D, Shot receipts; `"captionStyle": "pill"`, dark throughout |
 | `documentary` | breaking news with strong sources | a news-desk feel: real headlines, filings, explorers and charts with marks, quotes, the numbers between them; a timeline only if dates are the point | Shot, Quote, BigNumber, price charts, PriceLine; kinetic or band captions |
-| `skit` | a mistake people make, a scam, a "what would you do" (Edu, 17 Nov 2026: funny, creative, "proper 3D" characters) | a deadpan narrator talks to "you"; the suit guy and Stonks act it out at a desk; characters say short lines in their own voices; first-person shots of the screen; a real case and one step at the end | Actor3D (+ AddressMatch, one Shot receipt); kinetic captions |
+| `skit` | **the default from 18 Nov 2026** (Edu: "I like the skits idea"; yes to skits on consecutive days): any true story, mistake, scam or how-it-works that can be told as a short film | a deadpan narrator talks to "you"; the suit guy and Stonks act it out in a place built for the story; a different film genre each day (`"genre"`); characters say short lines in their own voices; Stonks jumps and claps at the worst moment; a real case and one step at the end | Actor3D with `props` / `backdrop` (+ one Shot receipt); kinetic captions; at most 8 tags and 2 stamps |
 | `object` | how a thing works (a device, a wallet, a coin, a chip) | one realistic 3D object, opened up, exploded, scanned, close-ups | Phone3D, Cell3D, Vault3D, Drive3D, Coin3D, Seed3D, Pool3D |
 
 Choosing: start from the concept, not the toolbox. Ask "what would make a stranger stop scrolling and understand this fastest?"
@@ -64,9 +64,11 @@ labels with leader lines; red = attacker / what went wrong, green = legitimate /
 put it on every reel.
 
 The `skit` format (17 Nov 2026, `../episodes/2026-11-17-genius-copy-paste/` is the reference; read its script.txt, cast.json and
-storyboard.json before making one): script-guide "Skits", storyboard-spec `Actor3D`. One set and the same two characters are
-the format, so `Actor3D` may fill most scenes; vary the shot instead (face over the monitor, both faces, first person at the
-screen, wide) and never hold one camera for two scenes running.
+storyboard.json before making one, for how the pieces fit, not to copy its shape): script-guide "Skits" (the seven things
+Edu asked for after the pilot: a different story and film genre each day, a beginning, turn and ending, less text, one
+number, Stonks jumping and clapping, a place built for the story), storyboard-spec `Actor3D` (`props`, `backdrop`, the
+poses), ideas in `../backlog/skits.md`. The same two characters are the format, so `Actor3D` may fill most scenes; vary the
+place and the shot instead, and never hold one camera for two scenes running. Set `"format": "skit"` and `"genre"`.
 
 **People are `Actor3D` characters now** (Edu, 17 Nov 2026, on the faceless stand-ins: "really generic... I want a proper 3D
 person"; on the new ones: "way cooler and way better... have those characters instead of the other ones"). In every format,

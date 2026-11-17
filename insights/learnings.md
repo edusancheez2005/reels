@@ -49,10 +49,18 @@ keep it under 12 bullets.
   stay low in `backlog/crypto.md`. squid-game-token (told as a scam) is too early and inside the cliff, so it proves nothing.
 
 ## Watching (not enough data yet)
-- Skits vs explainers, from 17 Nov (with Edu). [No data yet] The first skit (genius-copy-paste) went up the evening of 17 Nov with
-  the new narrator voice (am_michael) and the new rigged characters; skit and explainer days alternate until the 29 Nov review.
-  Read RUNBOOK hard rules 7 and 8 and the script guide's "Skits" before writing either kind.
+- Skits, from 17 Nov (with Edu). [One reel, two hours of data: a hint, not a pattern] The first skit (genius-copy-paste) went
+  up at 20:07 London on 17 Nov with the new narrator (am_michael) and the new rigged characters. Two hours in: 1,241 views on
+  560 accounts reached, 16% three-second skip, 25.4 s average watch, 26 likes. The explainers of 14–17 Nov after 1–4 days:
+  213–1,285 views, 36–57% skip, 12–29 s average watch, 1–5 likes. It also went out in the evening instead of 04:00–06:00, so
+  format and hour can't be told apart yet. Edu the same evening: skits every day, each a different story and film genre, less
+  text, more Stonks ("jumping and clapping"); script guide "Skits", `backlog/skits.md`. Compare skits by genre from 22 Nov.
+- Posting hour (asked by Edu, 17 Nov). [I do not know the best hour] Before the 7 Nov drop, by London hour posted: 04–06
+  n=3, median 1,601 views; 07–08 n=7, 1,800; 11–14 n=5, 174; 15–18 n=4, 903; 21–24 n=4, 1,538. The weak midday and afternoon
+  groups include off-topic reels and second posts of the day, so the hour is confounded. After the drop every reel went out
+  04–06 (n=10, median 272), so the drop was not about the hour. Outside studies agree on midweek and disagree on the hour,
+  and none measures reach to non-followers, which is 99% of ours. A two-slot test with skits (early morning against evening)
+  would answer it; changing the run's time needs Edu's yes.
 - Breaking news vs plan: no breaking reels this week (the scout found nothing big on any day). Still three in total: binance-hack
   1,857 (6 shares), ai-agent-hack 1,219, midterm-dip-bounce 145. [Guessing] Only an on-topic hack story earned its place. Keep the
-  scout's bar high; skip "why the price moved" stories. Posting time: no clean effect (all reels since 5 Nov went out ~05:00 UTC,
-  both the good ones and the cliff ones).
+  scout's bar high; skip "why the price moved" stories.
