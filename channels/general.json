@@ -26,16 +26,16 @@
     "Science topics: one mechanism, explained with a picture for every sentence.",
     "No Sonar mention in general episodes for now.",
     "Edu 2026-10-26: visuals must look realistic and detailed (3D: src/three/), not flat diagrams; reference = Keyframes reels.",
-    "Edu 2026-10-26: hooks need stakes + a picture in the first second (see script-guide 'Hooks'); never 'Have you ever wondered\u2026'."
+    "Edu 2026-10-26: hooks need stakes + a picture in the first second (see script-guide 'Hooks'); never 'Have you ever wondered…'."
   ],
   "caption_format": [
     "Line 1: the hook as a question or surprising fact.",
-    "1\u20132 lines of substance.",
+    "1–2 lines of substance.",
     "Follow @sonartracker.io for one 'how does that work?' every week.",
-    "4\u20136 hashtags.",
+    "4–6 hashtags.",
     "Then a 'Sources:' block for the first comment."
   ],
-  "instagram_connector": "Windsor.ai for Social Media \u2192 connector \"instagram\" (account \"sonartracker.io\")",
+  "instagram_connector": "Windsor.ai for Social Media → connector \"instagram\" (account \"sonartracker.io\")",
   "voice_note": "Narrator: Kokoro am_michael at --speed 1.05 --gap-scale 0.75 (Edu picked it by ear on 17 Nov 2026 from six samples; he said the old af_heart voice was 'so bad... I hate it'). Characters who speak get their own voices in the episode's cast.json (Stonks: am_puck 1.12, suit guy: bm_george). voice_eleven = ElevenLabs voice id if Edu ever adds a key and picks one.",
   "cast": {
     "suit": {
@@ -49,6 +49,15 @@
       "voice": "am_puck",
       "speed": 1.12,
       "who": "Stonks: the friend who cheers every bad idea"
+    },
+    "squeak": {
+      "voice": "bm_george",
+      "speed": 0.6,
+      "pitch": 2.1,
+      "drive": 4,
+      "thin": 300,
+      "gain_db": 5,
+      "who": "the suit guy when he finally snaps: a squeaky, furious, overdriven scream, used only for the last word of a skit (\"GET OUT!\"). Acted by suit (suit:away + suit:talk). Edu, 17 Nov 2026: \"a squeaky, mad kind of voice... like a sound effect\"."
     }
   }
 }

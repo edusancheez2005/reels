@@ -8,6 +8,8 @@ Several voices: start a script line with a speaker tag, e.g. "[stonks] Genius!",
 <out>/cast.json (or --cast): {"stonks": {"voice": "am_puck", "speed": 1.1}, "suit": {"voice": "bm_george"}}. Untagged lines
 are the narrator (--voice). The tags are not spoken or captioned; words.json marks those words with "speaker", and
 speech.json lists every sentence with its speaker and times (for mouth movement).
+A cast entry can also bend its voice into a cartoon sound: "pitch" (2.0 = an octave up), "glide" (rises through the line),
+"drive" (overdrive) and "thin" (cut the low end, in Hz), e.g. {"voice": "af_bella", "speed": 0.7, "pitch": 1.6, "drive": 3}.
 A line that is only "[pause 2]" adds that many seconds of silence after the sentence before it (max 5): room for a picture
 gag with no talking over it (Stonks jumping and clapping, a sound effect, a door slamming).
 
@@ -121,6 +123,33 @@ def align_sentence(words, audio, phonemize):
     return out
 
 
+def voice_fx(audio, pitch=1.0, glide=0.0, drive=0.0, thin=0.0):
+    """Turn a voiced line into a cartoon sound (Edu, 17 Nov 2026: "a squeaky, mad kind of voice... like a sound effect").
+    pitch: resampling factor (2.0 = an octave up and twice as fast: set the cast entry's speed lower to compensate);
+    glide: how much further the pitch climbs by the end of the line (0.25 = a rising shriek); drive: overdrive, 0-8 (the
+    voice breaks up as if shouted into a cheap microphone); thin: cut everything below this many Hz (300 = small and tinny)."""
+    x = np.asarray(audio, dtype=np.float32)
+    n = len(x)
+    if n < 16:
+        return x
+    if pitch != 1.0 or glide:
+        out_n = max(16, int(n / (pitch * (1 + glide / 2))))
+        rate = pitch * (1 + glide * np.linspace(0.0, 1.0, out_n))
+        pos = np.cumsum(rate) - rate[0]
+        pos = pos[pos < n - 1]
+        x = np.interp(pos, np.arange(n), x).astype(np.float32)
+    if thin:
+        X = np.fft.rfft(x)
+        fr = np.fft.rfftfreq(len(x), 1 / SR)
+        X *= 1.0 / np.sqrt(1.0 + (thin / np.maximum(fr, 1e-6)) ** 6)
+        x = np.fft.irfft(X, len(x)).astype(np.float32)
+    if drive:
+        m = float(np.abs(x).max()) or 1.0
+        g = 1.0 + float(drive)
+        x = (np.tanh(x / m * g) / np.tanh(g) * m).astype(np.float32)
+    return x
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script")
@@ -184,6 +213,9 @@ def main():
         samples, sr = k.create(spoken(sent), voice=voice, speed=speed, lang="en-gb" if voice.startswith("b") else "en-us")
         assert sr == SR, sr
         audio = trim(np.asarray(samples, dtype=np.float32))
+        if who and any(cast[who].get(k_) for k_ in ("pitch", "glide", "drive", "thin")):
+            c_ = cast[who]
+            audio = voice_fx(audio, float(c_.get("pitch", 1.0)), float(c_.get("glide", 0.0)), float(c_.get("drive", 0.0)), float(c_.get("thin", 0.0)))
         words = sent.split()
         spans = align_sentence(words, audio, phonemize)
         for w, (s, e) in zip(words, spans):
@@ -213,7 +245,8 @@ def main():
             if sp["speaker"] != "narrator":
                 r = _rms(full[_span(sp)])
                 if r > 0:
-                    full[_span(sp)] *= target / r
+                    # "gain_db" in the cast entry: louder or quieter than the other characters (a scream wants about +5)
+                    full[_span(sp)] *= target / r * 10 ** (float(cast.get(sp["speaker"], {}).get("gain_db", 0.0)) / 20)
     full = full / (np.abs(full).max() + 1e-9) * 0.89  # peak-normalise to about −1 dBFS
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)

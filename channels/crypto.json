@@ -33,20 +33,20 @@
     "Mention Sonar at most once on screen (end tag), never as a hard sell.",
     "Green only for up, red only for down; always pair colour with a text label.",
     "Edu 2026-10-27: 'like the Bitcoin-origin reel' (episodes/2026-10-27-bitcoin-origin): real documents/screenshots + 3D for the key mechanism + clear numbers.",
-    "Edu 2026-10-29: 45\u201360 s. For a person or event: who they are, what happened step by step, what they tried, how it ended; end on the story's own lesson and why (the specific mistakes \u2192 what to do), never a generic tip.",
+    "Edu 2026-10-29: 45–60 s. For a person or event: who they are, what happened step by step, what they tried, how it ended; end on the story's own lesson and why (the specific mistakes → what to do), never a generic tip.",
     "Edu 2026-10-29: no timeline ruler by default, no 'Illustration' captions under generic 3D, vary the look; it must feel original.",
     "Edu 2026-10-29 on episodes/2026-10-29-landfill-story: 'so much better... the quality, the detail... even if it might take longer, do this type of content.' That reel is the standard: a 3D character as the stand-in for each real person (labelled '3D stand-in' once), real documents and articles as on-screen receipts, 3D scenes built for the story, 45-60 s, the story's own lesson with the why. Budget the time for it (the full 3D render takes 1-2 h)."
   ],
-  "style_source": "edusancheez2005/sonar: IG_CONTENT_PLAYBOOK.md \u00a72 (colours), \u00a76 (Orca voice), \u00a77 (data integrity), \u00a78 (captions). Same account, same look.",
+  "style_source": "edusancheez2005/sonar: IG_CONTENT_PLAYBOOK.md §2 (colours), §6 (Orca voice), §7 (data integrity), §8 (captions). Same account, same look.",
   "caption_format": [
     "Line 1: the hook fact, keyword-rich (Instagram search reads captions).",
-    "1\u20132 lines with the real numbers.",
+    "1–2 lines with the real numbers.",
     "Follow for crypto, explained simply.",
     "Not financial advice.",
     "Max 5 hashtags (Instagram's cap since Dec 2025): #Bitcoin #Crypto #CryptoExplained #CryptoForBeginners #Sonar (swap one for a topic tag if it fits better).",
     "Then a 'Sources:' block (posted as the first comment, not in the caption)."
   ],
-  "instagram_connector": "Windsor.ai for Social Media \u2192 connector \"instagram\" (account \"sonartracker.io\")",
+  "instagram_connector": "Windsor.ai for Social Media → connector \"instagram\" (account \"sonartracker.io\")",
   "topic_source": "backlog/crypto.md (first unchecked item); explainers and history, not news",
   "voice_eleven": null,
   "voice_note": "Narrator: Kokoro am_michael at --speed 1.05 --gap-scale 0.75 (Edu picked it by ear on 17 Nov 2026 from six samples; he said the old af_heart voice was 'so bad... I hate it'). Characters who speak get their own voices in the episode's cast.json (Stonks: am_puck 1.12, suit guy: bm_george). voice_eleven = ElevenLabs voice id if Edu ever adds a key and picks one.",
@@ -62,6 +62,15 @@
       "voice": "am_puck",
       "speed": 1.12,
       "who": "Stonks: the friend who cheers every bad idea"
+    },
+    "squeak": {
+      "voice": "bm_george",
+      "speed": 0.6,
+      "pitch": 2.1,
+      "drive": 4,
+      "thin": 300,
+      "gain_db": 5,
+      "who": "the suit guy when he finally snaps: a squeaky, furious, overdriven scream, used only for the last word of a skit (\"GET OUT!\"). Acted by suit (suit:away + suit:talk). Edu, 17 Nov 2026: \"a squeaky, mad kind of voice... like a sound effect\"."
     }
   }
 }

@@ -303,7 +303,9 @@ the looping ones). Names: `boom`, `slam`, `clap` (loops), `applause`, `ding`, `b
 actor is in `jump` or `clap`, a `boom` on `stamp`, a `pop` on `<id>:in`; `"autoSfx": false` on the scene turns them off.
 build_timeline.py prints nothing extra: check `timeline.json` → `sfx` if a sound seems missing. A beat can land after a
 word instead of on it, for a gag inside a `[pause]`: `{"word": 41, "at": "end", "plus": 0.3}` (seconds).
-The `away` pose is the suit guy's "Get out.": his right arm straight out to the side, so keep about a metre of room on that
+Voices can be bent in cast.json (`pitch`, `glide`, `drive`, `thin`, `gain_db`; see tts_local.py): the cast's `squeak` is the
+squeaky scream for the last word, `[squeak] GET OUT!`, after which the reel cuts dead (`"tail": 0.3`).
+The `away` pose is the suit guy's "GET OUT!": his right arm straight out to the side, so keep about a metre of room on that
 side of the frame (e.g. cam `{pos: [0.3, 1.2, 6.6], look: [-0.05, 0.95, 0], fov: 30}` with him at x −0.4 and Stonks at 0.7).
 A place for each story (18 Nov 2026; Edu: "something like a movie kind of thing"): don't shoot every skit in the yellow desk room.
 - `"backdrop": "sky"` takes the back wall away: the floor runs to a horizon under a sky in the mood's colour, with stars and

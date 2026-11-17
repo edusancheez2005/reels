@@ -60,6 +60,15 @@
       "voice": "am_puck",
       "speed": 1.12,
       "who": "Stonks: the friend who cheers every bad idea"
+    },
+    "squeak": {
+      "voice": "bm_george",
+      "speed": 0.6,
+      "pitch": 2.1,
+      "drive": 4,
+      "thin": 300,
+      "gain_db": 5,
+      "who": "the suit guy when he finally snaps: a squeaky, furious, overdriven scream, used only for the last word of a skit (\"GET OUT!\"). Acted by suit (suit:away + suit:talk). Edu, 17 Nov 2026: \"a squeaky, mad kind of voice... like a sound effect\"."
     }
   }
 }

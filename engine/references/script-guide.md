@@ -114,13 +114,18 @@ A skit is true content told as a joke: a deadpan narrator talks to "you", two ca
 **Sound, pauses and the last word** (Edu, 17 Nov 2026, after the pilot: "you can add like little sound effects... in the last
 one it was like you've lost like 50 million whatever, and then... your friend is still clapping, and it's like get out, like
 as a joke... That'd be quite funny."):
-- *"Get out."* is the skit's button. After the callback ("Your friend is still clapping."), a pause with only the clapping,
-  then the suit guy, flat, in his own voice: `[suit] Get out.` Then the door slams (`slam`) and Stonks is gone. Use it on most
-  skits; it is the running gag. The wording can change now and then ("Out.", "Leave.", "Please leave."), the shape doesn't.
-  In script.txt:
-  `Your friend is still clapping.` / `[pause 1.5]` / `[suit] Get out.` and in that scene `suit:away+suit:look:<towards Stonks>+suit:talk:0.8`,
-  then `stonks:out` on a beat just after the line (`{"word": n, "at": "end", "plus": 0.2}`) and
-  `"sfx": [{"name": "slam", "beat": 1, "offset": 0.3}]`. Leave the frame wide enough to see his pointing arm.
+- *"GET OUT!"* is the skit's last word. Edu first heard it said flat and said no: "It has to be like a squeaky, like get
+  out, like a squeaky, mad kind of voice. Like it's like a sound effect." So it is a scream, and the reel ends on it: after
+  the real case and the step, the narrator says the callback ("Your friend is still clapping."), there is a pause with only
+  the clapping, then a squeaky, furious, overdriven `[squeak] GET OUT!` and the video cuts dead about a third of a second
+  later, with Stonks still mid-jump. No door, no fade, no end card: the cut is the joke, and it loops straight back into
+  the hook. `squeak` is in every channel's `cast` (the suit guy's voice bent up an octave and driven hard:
+  `pitch`, `drive`, `thin`, `gain_db` in cast.json); the suit guy acts it. In script.txt, as the last three lines:
+  `Your friend is still clapping.` / `[pause 1.3]` / `[squeak] GET OUT!`
+  In the storyboard: `"tail": 0.3`, and a last scene anchored on "GET" with `suit:away+suit:look:<towards Stonks>+suit:talk:0.7+shake`,
+  Stonks left in `jump`, and the frame wide enough to see the suit guy's pointing arm (storyboard-spec, `away`).
+  Use it on most skits; it is the running gag. Never use the well-known "GET OUT" scream clip itself, or any other clip:
+  it is somebody's recording.
 - *Pauses.* A line that is only `[pause 2]` in script.txt adds two seconds of silence after the sentence before it (max 5).
   That is where a picture gag lives: Stonks jumping and clapping after his set-up line, the beat before "Get out.", the
   silence after a terrible idea. Two or three pauses a skit, 1–2 s each; they count towards the 45–55 s.
