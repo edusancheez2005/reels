@@ -42,6 +42,7 @@ import {Iso3D} from '../three/Iso3D';
 import {Odometer} from './Odometer';
 import {AddressMatch} from './AddressMatch';
 import {CoinSwarm} from './CoinSwarm';
+import {CoinStacks} from './CoinStacks';
 import {HypeCurve} from './HypeCurve';
 import {PegLoop} from './PegLoop';
 import {PriceTrack} from './PriceTrack';
@@ -94,6 +95,7 @@ export const SCENES: Record<string, React.FC<SceneProps<any>>> = {
   Odometer,
   AddressMatch,
   CoinSwarm,
+  CoinStacks,
   HypeCurve,
   PegLoop,
   // v1 — cards (dark)

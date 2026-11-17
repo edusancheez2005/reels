@@ -1,0 +1,8 @@
+Wall Street's bitcoin funds now hold more bitcoin than Satoshi. Here's who owns the biggest piles:
+US spot bitcoin ETFs: 1,252,607 BTC (16 Nov). Satoshi: an estimated ~1.1M, never moved. Strategy: 850,849 (SEC filing, 16 Nov). Coinbase: ~969K in its wallets, mostly customers' coins (its own: ~16.5K). US government: ~325K, mostly seized (Arkham estimates).
+Coins on an exchange sit in the exchange's pile, and it holds the key. A wallet where only you hold the key, with backup words on paper, keeps your pile yours.
+Comment "WHALE" and Orca will DM you the breakdown.
+Not financial advice.
+#Bitcoin #CryptoNews #WhaleAlert #OnChain #Sonar
+
+Sources: Bitbo, "US Bitcoin ETF Tracker & AUM" (updated 16 Nov 2026) - Cointelegraph Magazine, "Big Questions: Does Satoshi actually own 1.1 million Bitcoin?" (22 Sep 2026) - Bitquery, Satoshi Nakamoto net worth investigation (Sep 2026) - Strategy Form 8-K, SEC (16 Nov 2026: 850,849 BTC held) - Cointelegraph, "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364" (9 Nov 2026) - Arkham Research, "Who owns the most bitcoin" (Sep 2026: US government 325K, Coinbase 969K) - Bitcoin.com / KuCoin on Coinbase's own treasury, 16,492 BTC (Q1 2026).

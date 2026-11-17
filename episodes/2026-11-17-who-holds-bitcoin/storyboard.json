@@ -1,0 +1,676 @@
+{
+ "slug": "2026-11-17-who-holds-bitcoin",
+ "format": "motion",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 0.9,
+ "captionStyle": "kinetic",
+ "emphasis": [
+  "more bitcoin than Satoshi,",
+  "ETFs.",
+  "believed",
+  "never moved.",
+  "big pile?",
+  "seized from criminals.",
+  "beats Strategy.",
+  "The twist:",
+  "customers.",
+  "a key.",
+  "holds that key,",
+  "only you hold the key.",
+  "on paper.",
+  "twenty-five thousand,",
+  "sixty-nine thousand",
+  "fifty thousand.",
+  "five million"
+ ],
+ "defs": {
+  "st": {
+   "stacks": [
+    {
+     "label": "US ETFs",
+     "sub": "Bitbo, 16 Nov",
+     "value": 1252607,
+     "display": "1.25M",
+     "tone": "accent"
+    },
+    {
+     "label": "Satoshi",
+     "sub": "estimate",
+     "value": 1100000,
+     "display": "~1.1M",
+     "est": true,
+     "tone": "muted"
+    },
+    {
+     "label": "Strategy",
+     "sub": "its filings",
+     "value": 850849,
+     "display": "850K+"
+    },
+    {
+     "label": "US gov't",
+     "sub": "Arkham est.",
+     "value": 325000,
+     "display": "~325K"
+    },
+    {
+     "label": "Coinbase",
+     "sub": "Arkham est.",
+     "value": 969000,
+     "display": "~969K",
+     "own": 0
+    }
+   ],
+   "unit": 50000,
+   "title": "1 COIN = 50,000 BTC",
+   "maxCoins": 25
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "Wall",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "value": 1.25,
+    "decimals": 2,
+    "suffix": "M BTC",
+    "chip": "US BITCOIN ETFs · 16 NOV 2026",
+    "label": "Satoshi: ~1.1M (estimate)",
+    "tone": "accent"
+   },
+   "beats": [
+    "Wall"
+   ]
+  },
+  {
+   "anchor": "Satoshi,",
+   "component": "Growth",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "items": [
+     {
+      "label": "US ETFs",
+      "value": 1.25,
+      "display": "1.25M"
+     },
+     {
+      "label": "Satoshi (est.)",
+      "value": 1.1,
+      "display": "~1.1M"
+     }
+    ]
+   },
+   "beats": [
+    "Satoshi,",
+    "inventor."
+   ]
+  },
+  {
+   "anchor": "They're",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "you",
+      "label": "You",
+      "sub": "buy a share",
+      "x": 200,
+      "y": 180,
+      "icon": "🧑",
+      "tone": "accent",
+      "size": 1.1
+     },
+     {
+      "id": "etf",
+      "label": "ETF",
+      "sub": "a fund sold like a stock",
+      "x": 640,
+      "y": 420,
+      "icon": "📈",
+      "tone": "warm",
+      "size": 1.2
+     },
+     {
+      "id": "vault",
+      "label": "Real bitcoin",
+      "sub": "held by the fund",
+      "x": 260,
+      "y": 700,
+      "icon": "🔒",
+      "tone": "good",
+      "size": 1.1
+     }
+    ],
+    "edges": [
+     {
+      "from": "you",
+      "to": "etf",
+      "label": "$",
+      "flow": true,
+      "tone": "accent"
+     },
+     {
+      "from": "etf",
+      "to": "vault",
+      "label": "buys",
+      "flow": true,
+      "tone": "good"
+     }
+    ],
+    "order": [
+     "you",
+     [
+      "etf",
+      "you>etf"
+     ],
+     [
+      "vault",
+      "etf>vault"
+     ]
+    ]
+   },
+   "beats": [
+    "They're",
+    "stocks,",
+    "ETFs."
+   ]
+  },
+  {
+   "anchor": "They hold",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "src": "bitbo.png",
+    "chrome": "browser",
+    "url": "bitbo.io/treasuries/us-etfs",
+    "source": "Bitbo · US Bitcoin ETF Tracker · updated 16 Nov 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 765,
+      "y": 102,
+      "w": 220,
+      "h": 50
+     }
+    ]
+   },
+   "beats": [
+    "They",
+    "about",
+    "million"
+   ]
+  },
+  {
+   "anchor": "Satoshi is",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "ct.png",
+    "chrome": "browser",
+    "url": "cointelegraph.com/magazine/big-questions-does-satoshi-actually-own-1-million-bitcoin",
+    "source": "Cointelegraph Magazine · 22 Sep 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.6,
+      "zoom": 1.04
+     }
+    ],
+    "marks": [
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 20,
+      "y": 350,
+      "w": 1300,
+      "h": 54
+     }
+    ]
+   },
+   "beats": [
+    "Satoshi",
+    "believed",
+    "one"
+   ]
+  },
+  {
+   "anchor": "mined",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "shape": "circle",
+    "label": "~1.1M",
+    "sublabel": "mined early · never moved",
+    "tone": "warm"
+   },
+   "beats": [
+    "mined",
+    "never"
+   ]
+  },
+  {
+   "anchor": "Who else",
+   "component": "CoinStacks",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "st",
+    "actions": [
+     "add:0",
+     "add:1",
+     "add:2"
+    ]
+   },
+   "beats": [
+    "Who",
+    "pile?",
+    "Strategy,"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "owns",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "ctstr.png",
+    "chrome": "browser",
+    "url": "cointelegraph.com/news/strategy-buy-1036-bitcoin-holdings-850364-btc",
+    "source": "Cointelegraph · 9 Nov 2026 (SEC filing, 16 Nov: 850,849)",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.04
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 30,
+      "y": 200,
+      "w": 930,
+      "h": 80
+     }
+    ]
+   },
+   "beats": [
+    "owns",
+    "eight"
+   ]
+  },
+  {
+   "anchor": "Tracking",
+   "component": "Title",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "Arkham",
+     "labels wallets",
+     "by owner"
+    ],
+    "accent": [
+     "Arkham"
+    ],
+    "size": 90
+   },
+   "beats": [
+    "Tracking",
+    "Arkham",
+    "US"
+   ]
+  },
+  {
+   "anchor": "at about",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 325,
+    "suffix": "K BTC",
+    "chip": "US GOVERNMENT · ARKHAM ESTIMATE",
+    "label": "US government's bitcoin",
+    "tone": "warm"
+   },
+   "beats": [
+    "about",
+    "three",
+    "thousand,"
+   ]
+  },
+  {
+   "anchor": "mostly",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "lines": [
+     "Mostly seized",
+     "from criminals"
+    ],
+    "accent": [
+     "seized"
+    ],
+    "size": 96
+   },
+   "beats": [
+    "mostly",
+    "criminals."
+   ]
+  },
+  {
+   "anchor": "Coinbase,",
+   "component": "CoinStacks",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "st",
+    "built": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "actions": [
+     "add:4",
+     "hi:2",
+     "hi:4"
+    ]
+   },
+   "beats": [
+    "Coinbase,",
+    "beats",
+    "Strategy."
+   ]
+  },
+  {
+   "anchor": "Arkham counts",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 969,
+    "suffix": "K BTC",
+    "chip": "COINBASE WALLETS · ARKHAM ESTIMATE",
+    "label": "in the exchange's wallets",
+    "tone": "accent"
+   },
+   "beats": [
+    "Arkham",
+    "nine",
+    "there."
+   ]
+  },
+  {
+   "anchor": "The twist",
+   "component": "CoinStacks",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "st",
+    "built": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "actions": [
+     "hi:4",
+     "cust:4",
+     "label:0",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "most are customers' coins",
+      "tone": "accent",
+      "y": 115
+     },
+     {
+      "text": "Coinbase's own: ~16.5K",
+      "tone": "warm",
+      "y": 185
+     }
+    ]
+   },
+   "beats": [
+    "twist:",
+    "most",
+    "belong",
+    "customers."
+   ]
+  },
+  {
+   "anchor": "Bitcoin moves",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "key",
+      "label": "Key",
+      "sub": "a secret code",
+      "x": 250,
+      "y": 300,
+      "icon": "🔑",
+      "tone": "warm",
+      "size": 1.3
+     },
+     {
+      "id": "coins",
+      "label": "Coins move",
+      "sub": "only with the key",
+      "x": 720,
+      "y": 620,
+      "icon": "₿",
+      "tone": "accent",
+      "size": 1.2
+     }
+    ],
+    "edges": [
+     {
+      "from": "key",
+      "to": "coins",
+      "label": "signs",
+      "flow": true,
+      "tone": "warm"
+     }
+    ],
+    "order": [
+     "key",
+     [
+      "coins",
+      "key>coins"
+     ]
+    ]
+   },
+   "beats": [
+    "secret",
+    "key."
+   ]
+  },
+  {
+   "anchor": "On an",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "you",
+      "label": "You",
+      "sub": "no key",
+      "x": 220,
+      "y": 220,
+      "icon": "🧑",
+      "tone": "text",
+      "size": 1.1
+     },
+     {
+      "id": "ex",
+      "label": "Exchange",
+      "sub": "holds the key",
+      "x": 720,
+      "y": 440,
+      "icon": "🏦",
+      "tone": "alert",
+      "size": 1.3,
+      "badge": "🔑"
+     },
+     {
+      "id": "coins",
+      "label": "Your coins",
+      "sub": "move when it decides",
+      "x": 300,
+      "y": 720,
+      "icon": "₿",
+      "tone": "accent",
+      "size": 1.1
+     }
+    ],
+    "edges": [
+     {
+      "from": "you",
+      "to": "ex",
+      "label": "asks",
+      "dashed": true,
+      "tone": "text"
+     },
+     {
+      "from": "ex",
+      "to": "coins",
+      "label": "decides",
+      "flow": true,
+      "tone": "alert"
+     }
+    ],
+    "order": [
+     "you",
+     [
+      "ex",
+      "you>ex"
+     ],
+     [
+      "coins",
+      "ex>coins"
+     ]
+    ]
+   },
+   "beats": [
+    "exchange,",
+    "holds",
+    "decides"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "Want",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "shape": "circle",
+    "label": "Your pile",
+    "sublabel": "only you hold the key",
+    "tone": "good"
+   },
+   "beats": [
+    "Want",
+    "only"
+   ]
+  },
+  {
+   "anchor": "The wallet's",
+   "component": "Checklist",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "title": "Your own pile",
+    "rows": [
+     {
+      "left": "Wallet: only you hold the key",
+      "badge": "YOURS",
+      "tone": "good"
+     },
+     {
+      "left": "Backup words rebuild the key",
+      "badge": "IF PHONE DIES",
+      "tone": "good"
+     },
+     {
+      "left": "Keep the words on paper",
+      "badge": "OFFLINE",
+      "tone": "good"
+     }
+    ]
+   },
+   "beats": [
+    "wallet's",
+    "backup",
+    "phone",
+    "keep",
+    "paper."
+   ]
+  }
+ ]
+}

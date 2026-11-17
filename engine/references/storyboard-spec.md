@@ -319,3 +319,11 @@ Props: stable, other, ustText, ustTone, dipText, runUstText, lunaText, lunaToTex
 Prices are tag flips between sourced values, never counters with in-between numbers. Max 3 scenes (e.g. mechanism / dip / run).
 Voice respelling: `tts_local.py … --say episodes/<id>/say.json` with `{"UST": "U S T", "Do": "Doh"}` changes only what the voice
 says; captions keep the written words (Kokoro read "UST" as "ust" and "USDC" as "usdk").
+
+**CoinStacks** (17 Nov 2026, who-holds-bitcoin reel): "who owns how much" as piles of gold coins side by side, to scale (one coin =
+`unit`, e.g. 50,000 BTC). Actions on beats: `add:<k>` (stack k builds coin by coin, number above + name/sub below), `hi:<k>` /
+`all` (spotlight), `cust:<k>` (coins above `own` turn blue: "customers' coins"), `move:<k>` (top `moveCount` coins fly into a
+"your wallet" slot, `wallet {x, label}`), `beat:<k>` (top coin bounces), `label:<n>`. Props: stacks [{label, sub, value, display,
+tone, est, own}], unit, built (indices already standing, for continuity across scenes), title, labels [{text, tone, y}], maxCoins.
+Define the stacks once in `defs` and reuse. 5 stacks is the max before bottom labels crowd (reviewer note); counts are sourced
+display values, never in-between numbers.

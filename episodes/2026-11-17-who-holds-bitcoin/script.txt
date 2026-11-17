@@ -1,0 +1,10 @@
+Wall Street funds now hold more bitcoin than Satoshi, Bitcoin's inventor.
+They're US funds sold like stocks, called ETFs. They hold about one point two five million bitcoin.
+Satoshi is believed to hold one point one million, mined early and never moved.
+Who else has a big pile?
+Strategy, a software company turned bitcoin buyer, owns over eight hundred and fifty thousand.
+Tracking firm Arkham puts the US government at about three hundred and twenty-five thousand, mostly seized from criminals.
+Coinbase, an exchange where people buy crypto, beats Strategy. Arkham counts about nine hundred and sixty-nine thousand there.
+The twist: most of those belong to Coinbase's customers.
+Bitcoin moves with a secret code called a key. On an exchange, the exchange holds that key, and decides when your coins move.
+Want your own pile? Use a wallet where only you hold the key. The wallet's backup words rebuild that key if your phone dies, so keep them on paper.

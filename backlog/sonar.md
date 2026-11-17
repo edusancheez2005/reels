@@ -15,3 +15,4 @@
 - [ ] How trackers label wallets: exchanges, funds, miners, governments
 - [ ] Dormant wallets: why very old coins waking up makes headlines
 - [ ] Self-custody vs exchange custody: where the biggest holders keep coins
+- [x] Who holds the most bitcoin: US ETFs (1.25M) now beat Satoshi's estimated ~1.1M; Strategy, the US government, Coinbase (mostly customers' coins) (2026-11-17-who-holds-bitcoin)
