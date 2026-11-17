@@ -41,7 +41,8 @@ One reel, posted in the evening instead of the early morning, so it is a strong 
   around 19:30–20:00, the hour the pilot went out. Each run uses only its own row. This also answers Edu's posting-time
   question with our own numbers: the Sunday review compares morning against evening.
 - **Sound from 18 Nov** (Edu, 17 Nov, 22:49: "you can add like little sound effects like get out... your friend is still
-  clapping, and it's like get out, like as a joke... That'd be quite funny"): every skit ends on the button (the friend still
+  clapping, and it's like get out, like as a joke... That'd be quite funny"): some skits, where it suits the story and never two running (Edu, 23:46: "not every single skit... only like when
+  appropriate"), end on the button (the friend still
   clapping, a pause, then an off-screen "GET OUT!" (the recording Edu sent at 23:39 after three synthetic tries missed: "here it is. use this.") that nobody on screen says, and the video
   cuts dead; Edu, 23:04–23:20: "a squeaky, mad kind of voice... like a sound effect", "higher and angrier and longer", "it's
   not him that says it... a third party"), Stonks is heard clapping, and a few synthesised effects mark

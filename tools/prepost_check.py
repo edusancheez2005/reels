@@ -205,6 +205,20 @@ if _sb_here.get("format") == "skit":
         if _clash:
             (warns if approved else fails).append(
                 f'skit genre "{genre}" was used by {_clash[0]}; the last two skits must each be a different kind of story')
+    # the "GET OUT!" ending is for the skits it suits, never two running (Edu, 17 Nov 2026: "not every single skit... only
+    # like when appropriate")
+    def _has_getout(d):
+        try:
+            return any(l.strip().lower().startswith("[squeak]") for l in (d / "script.txt").read_text().splitlines())
+        except Exception:
+            return False
+    if _has_getout(ep):
+        _recent = [n for _, n, _g in (_skits[:3] if genre else [])]
+        if _recent and _has_getout(root / "episodes" / _recent[0]):
+            (warns if approved else fails).append(
+                f'the "GET OUT!" ending was used in the last skit ({_recent[0]}); only when it suits the story, never two running')
+        elif sum(_has_getout(root / "episodes" / n) for n in _recent) >= 2:
+            warns.append('the "GET OUT!" ending is in 2 of the last 3 skits; Edu: "only like when appropriate"')
     _n_tags = _n_stamps = 0
     _acts = []
     _defs = _sb_here.get("defs", {})

@@ -43,8 +43,9 @@ he's like jumping and clapping... I find that really funny"), also say in the no
   sentence the voice is already saying? Well over that (12+) is a FAIL.
 - Does Stonks get his celebration (jumping or dancing at the worst moment, feet visible), and is it funny?
 - Does the place look like this story's place, or the same room as yesterday?
-- Sound (Edu, 17 Nov: "little sound effects... get out... that'd be quite funny"): do the effects land on the joke, and does
-  the ending have its button (the friend still clapping, a pause, an off-screen "GET OUT!" that nobody on screen says, then the video cuts dead)?
+- Sound (Edu, 17 Nov: "little sound effects... get out... that'd be quite funny"): do the effects land on the joke? If the
+  skit ends on the "GET OUT!" button (only some do: Edu, "only like when appropriate"), does it fit this story and land
+  (the friend still clapping, a pause, an off-screen "GET OUT!" that nobody on screen says, then the video cuts dead)?
   In the audio, that last second should be clearly louder than the narrator; if it sounds like an ordinary voiced line,
   the recording failed to load: a note for Edu, not a fail. An effect that makes
   a spoken fact hard to hear is a must-fix; a missing or mistimed one is a note.

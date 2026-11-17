@@ -114,7 +114,13 @@ A skit is true content told as a joke: a deadpan narrator talks to "you", two ca
 **Sound, pauses and the last word** (Edu, 17 Nov 2026, after the pilot: "you can add like little sound effects... in the last
 one it was like you've lost like 50 million whatever, and then... your friend is still clapping, and it's like get out, like
 as a joke... That'd be quite funny."):
-- *"GET OUT!"* is the skit's last word, and nobody on screen says it. Edu, 17 Nov: "It's not him that says it. It's like a
+- *"GET OUT!"* is an ending for the skits it suits, not for every skit (Edu, 17 Nov, 23:46: "not every single skit... only
+  like when appropriate... if you deem appropriate, put it in"). It suits a skit whose last picture is someone cheerfully
+  carrying on after a disaster (the friend still clapping, the boss still smiling), where a sudden shout and a hard cut is
+  the right full stop. It does not suit a story that ends warmly, a how-it-works skit, or one about a real person's loss.
+  Never in two skits running (the gate fails it); aim for roughly one skit in three. A skit without it still ends on its
+  callback picture and the one step or the one thing to remember, with a normal tail. When it is used, nobody on screen says
+  it. Edu, 17 Nov: "It's not him that says it. It's like a
   third party, like kind of like person that's seeing everything... just a sound effect that it's in the background." After
   three synthetic tries missed (too flat, then too high and distorted to understand), he sent the sound himself: "here it is.
   use this." So the last word is that recording. After the real case and the step, the narrator says the callback ("Your
@@ -132,7 +138,7 @@ as a joke... That'd be quite funny."):
   - In script.txt, as the last three lines: `Your friend is still clapping.` / `[pause 1.3]` / `[squeak] GET OUT!`
   - In the storyboard: `"tail": 0.3`, and a last scene anchored on "GET" with `"actions": ["shake"]`, both characters as they
     were in the scene before.
-  Use it on most skits; it is the running gag. It is the only outside recording in the pipeline, used on Edu's instruction
+  It is the only outside recording in the pipeline, used on Edu's instruction
   after he was told the risk (it is someone else's recording, so Instagram could mute or pull a reel over it). If that ever
   happens, delete `"file"` from `squeak` in every channel file and the fallback voice takes over; tell Edu. Don't add any
   other clip from a film, a show, a song or a meme: everything else is synthesised or voiced here.
