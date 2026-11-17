@@ -1,0 +1,7 @@
+How to lose $50 million with one copy and paste. A real trader did it in December 2025.
+The trick is called address poisoning. The trader sent a $50 test to the right address. Minutes later a scammer sent the wallet 0.005 USDT from a look-alike address, with the same first 3 and last 4 characters, so the fake sat at the top of the wallet's history. The trader copied that one and sent it 49,999,950 USDT.
+The step: never copy an address from your wallet history. Save the real one as a contact, and read the middle characters, not just the ends.
+The suit guy and his friend are made up. The numbers and both addresses are real.
+Follow for crypto, explained simply.
+Not financial advice.
+#Crypto #CryptoScam #CryptoMemes #CryptoForBeginners #Sonar

@@ -1,0 +1,9 @@
+How to lose $50 million with one copy and paste. A real trader did it in December 2025.
+The trick is called address poisoning. The trader sent a $50 test to the right address. Minutes later a scammer sent the wallet 0.005 USDT from a look-alike address, with the same first 3 and last 4 characters, so the fake sat at the top of the wallet's history. The trader copied that one and sent it 49,999,950 USDT.
+The step: never copy an address from your wallet history. Save the real one as a contact, and read the middle characters, not just the ends.
+The suit guy and his friend are made up. The numbers and both addresses are real.
+Follow for crypto, explained simply.
+Not financial advice.
+#Crypto #CryptoScam #CryptoMemes #CryptoForBeginners #Sonar
+
+Sources: Blockscout (Ethereum explorer), 19 Dec 2025: test tx 0x7f5d895c..., bait tx 0x9780f38b..., theft tx 0xc0514a79... - Cointelegraph, 20 Dec 2025 (first 3 and last 4 characters the same) - CoinDesk, 20 Dec 2025 ($50 test; the victim copied the look-alike from transaction history) - Bitquery, address-poisoning investigation - ethereum.org, "Ethereum accounts" (42-character address) - MetaMask support, "Address poisoning scams" (don't copy from history, check the middle, use contacts).

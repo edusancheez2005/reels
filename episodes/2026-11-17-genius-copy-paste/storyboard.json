@@ -1,0 +1,1840 @@
+{
+ "slug": "genius-copy-paste",
+ "format": "skit",
+ "topic_source": "plan",
+ "theme": "light",
+ "tail": 1.1,
+ "emphasis": [
+  "fifty million dollars",
+  "copy and paste.",
+  "responsible adult.",
+  "forty-two",
+  "normal people.",
+  "genius.",
+  "Genius!",
+  "Nobody reads the middle.",
+  "Send.",
+  "Stonks!",
+  "half a cent",
+  "look-alike address.",
+  "the one you copied.",
+  "No.",
+  "gone.",
+  "no undo button.",
+  "still clapping.",
+  "Great trade!",
+  "real trader",
+  "Never copy"
+ ],
+ "defs": {
+  "solo": {
+   "set": "desk",
+   "actors": [
+    {
+     "id": "suit",
+     "model": "Bizdude.vrm",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "tall": 1.75,
+     "pose": "type"
+    }
+   ],
+   "screens": {
+    "idle": {
+     "head": "WALLET",
+     "big": "$50,000,000",
+     "tone": "white",
+     "sub": "USDT"
+    },
+    "test": {
+     "head": "TEST PAYMENT",
+     "big": "$50",
+     "tone": "white",
+     "sub": "to 0xbaf\u2026F8b5"
+    },
+    "sent": {
+     "head": "TEST PAYMENT",
+     "big": "SENT",
+     "tone": "good",
+     "sub": "$50 to 0xbaf\u2026F8b5"
+    },
+    "real": {
+     "head": "SEND",
+     "big": "$49,999,950",
+     "tone": "warm",
+     "sub": "to: paste address"
+    },
+    "history": {
+     "head": "WALLET HISTORY \u00b7 NEWEST",
+     "big": "0xBaF\u2026f8b5",
+     "tone": "white",
+     "sub": "click to copy"
+    },
+    "copied": {
+     "head": "WALLET HISTORY \u00b7 NEWEST",
+     "big": "COPIED",
+     "tone": "good",
+     "sub": "0xBaF\u2026f8b5"
+    },
+    "send": {
+     "head": "SEND TO 0xBaF\u2026f8b5",
+     "big": "$49,999,950",
+     "tone": "warm",
+     "sub": "press SEND"
+    },
+    "sentbig": {
+     "head": "SEND TO 0xBaF\u2026f8b5",
+     "big": "SENT",
+     "tone": "good",
+     "sub": "$49,999,950"
+    },
+    "bal": {
+     "head": "BALANCE",
+     "big": "$49,999,950",
+     "tone": "white",
+     "sub": "USDT"
+    },
+    "zero": {
+     "head": "BALANCE",
+     "big": "$0.00",
+     "tone": "alert",
+     "sub": "USDT",
+     "chart": "down"
+    },
+    "bait": {
+     "head": "WALLET HISTORY \u00b7 NEWEST",
+     "big": "+0.005 USDT",
+     "tone": "alert",
+     "sub": "from 0xBaF\u2026f8b5"
+    }
+   }
+  },
+  "duo": {
+   "set": "desk",
+   "actors": [
+    {
+     "id": "suit",
+     "model": "Bizdude.vrm",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "tall": 1.75,
+     "pose": "type"
+    },
+    {
+     "id": "stonks",
+     "model": "StonksReporter.vrm",
+     "at": [
+      0.46,
+      0,
+      -0.32
+     ],
+     "yaw": -0.18,
+     "tall": 1.6,
+     "pose": "relax"
+    }
+   ],
+   "screens": {
+    "idle": {
+     "head": "WALLET",
+     "big": "$50,000,000",
+     "tone": "white",
+     "sub": "USDT"
+    },
+    "test": {
+     "head": "TEST PAYMENT",
+     "big": "$50",
+     "tone": "white",
+     "sub": "to 0xbaf\u2026F8b5"
+    },
+    "sent": {
+     "head": "TEST PAYMENT",
+     "big": "SENT",
+     "tone": "good",
+     "sub": "$50 to 0xbaf\u2026F8b5"
+    },
+    "real": {
+     "head": "SEND",
+     "big": "$49,999,950",
+     "tone": "warm",
+     "sub": "to: paste address"
+    },
+    "history": {
+     "head": "WALLET HISTORY \u00b7 NEWEST",
+     "big": "0xBaF\u2026f8b5",
+     "tone": "white",
+     "sub": "click to copy"
+    },
+    "copied": {
+     "head": "WALLET HISTORY \u00b7 NEWEST",
+     "big": "COPIED",
+     "tone": "good",
+     "sub": "0xBaF\u2026f8b5"
+    },
+    "send": {
+     "head": "SEND TO 0xBaF\u2026f8b5",
+     "big": "$49,999,950",
+     "tone": "warm",
+     "sub": "press SEND"
+    },
+    "sentbig": {
+     "head": "SEND TO 0xBaF\u2026f8b5",
+     "big": "SENT",
+     "tone": "good",
+     "sub": "$49,999,950"
+    },
+    "bal": {
+     "head": "BALANCE",
+     "big": "$49,999,950",
+     "tone": "white",
+     "sub": "USDT"
+    },
+    "zero": {
+     "head": "BALANCE",
+     "big": "$0.00",
+     "tone": "alert",
+     "sub": "USDT",
+     "chart": "down"
+    },
+    "bait": {
+     "head": "WALLET HISTORY \u00b7 NEWEST",
+     "big": "+0.005 USDT",
+     "tone": "alert",
+     "sub": "from 0xBaF\u2026f8b5"
+    }
+   }
+  }
+ },
+ "scenes": [
+  {
+   "anchor": "Here's",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "solo",
+    "mood": "day",
+    "screen": "idle",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.25,
+       1.5,
+       2.15
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "label:0",
+     "suit:lean",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "$50,000,000",
+      "x": 540,
+      "y": 560,
+      "tone": "alert",
+      "size": 90,
+      "pill": true
+     },
+     {
+      "text": "one copy and paste",
+      "x": 540,
+      "y": 672,
+      "size": 46,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "Here's",
+    "fifty",
+    "copy"
+   ]
+  },
+  {
+   "anchor": "First,",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "solo",
+    "mood": "day",
+    "screen": "idle",
+    "shift": 60,
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:test",
+     "suit:click",
+     "screen:sent"
+    ]
+   },
+   "beats": [
+    "First,",
+    "send",
+    "test",
+    "address."
+   ]
+  },
+  {
+   "anchor": "You are",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "sent",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38
+     }
+    ],
+    "actions": [
+     "suit:proud",
+     "stamp",
+     "stonks:in"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "click"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "clap",
+      "hidden": true
+     }
+    ],
+    "stamp": {
+     "text": "responsible adult",
+     "y": 1400,
+     "size": 64,
+     "tone": "good",
+     "rot": -4,
+     "x": 520
+    }
+   },
+   "beats": [
+    "You",
+    "responsible",
+    "adult."
+   ]
+  },
+  {
+   "anchor": "Now the real",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "sent",
+    "shift": 60,
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:real"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    "Now",
+    "real"
+   ]
+  },
+  {
+   "anchor": "The address is",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "real",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.5,
+       1.4,
+       2.8
+      ],
+      "look": [
+       0.2,
+       1.45,
+       0
+      ],
+      "fov": 38,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "suit:think",
+     "label:0",
+     "label:1",
+     "label:2"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "look": 25
+     }
+    ],
+    "tags": [
+     {
+      "text": "0xbaf4b1aF7E3B560d937",
+      "x": 540,
+      "y": 560,
+      "size": 44,
+      "mono": true,
+      "pill": true,
+      "raw": true
+     },
+     {
+      "text": "DA0458514552B6495F8b5",
+      "x": 540,
+      "y": 628,
+      "size": 44,
+      "mono": true,
+      "pill": true,
+      "raw": true
+     },
+     {
+      "text": "42 characters",
+      "x": 540,
+      "y": 730,
+      "tone": "warm",
+      "size": 72,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "The",
+    "address",
+    "forty-two",
+    "characters."
+   ]
+  },
+  {
+   "anchor": "Looking it up",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "real",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38
+     }
+    ],
+    "actions": [
+     "suit:shrug",
+     "stonks:shrug",
+     "label:0"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "think"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "look": 25
+     }
+    ],
+    "tags": [
+     {
+      "text": "for normal people",
+      "x": 540,
+      "y": 600,
+      "size": 56,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "Looking",
+    "again",
+    "normal"
+   ]
+  },
+  {
+   "anchor": "So you copy",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "real",
+    "shift": 60,
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "screen:history",
+     "suit:click",
+     "screen:copied"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    "So",
+    "copy",
+    "history."
+   ]
+  },
+  {
+   "anchor": "Because",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "copied",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.5,
+       1.4,
+       2.75
+      ],
+      "look": [
+       0.2,
+       1.45,
+       0
+      ],
+      "fov": 38,
+      "dur": 8
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "suit:genius+stamp",
+     "stonks:cheer+stonks:talk:0.6"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "click"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "look": 25
+     }
+    ],
+    "stamp": {
+     "text": "genius",
+     "y": 1310,
+     "size": 170,
+     "tone": "warm",
+     "x": 430
+    }
+   },
+   "beats": [
+    "Because",
+    "genius.",
+    {
+     "word": 58
+    }
+   ]
+  },
+  {
+   "anchor": "The start",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "copied",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30
+     }
+    ],
+    "actions": [
+     "label:0",
+     "label:1"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "think"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "tags": [
+     {
+      "text": "0xBaF",
+      "x": 270,
+      "y": 590,
+      "tone": "good",
+      "size": 92,
+      "mono": true,
+      "pill": true,
+      "raw": true
+     },
+     {
+      "text": "f8b5",
+      "x": 810,
+      "y": 590,
+      "tone": "good",
+      "size": 92,
+      "mono": true,
+      "pill": true,
+      "raw": true
+     }
+    ]
+   },
+   "beats": [
+    "start",
+    "end"
+   ]
+  },
+  {
+   "anchor": "Nobody",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "copied",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38
+     }
+    ],
+    "actions": [
+     "label:0+label:1+label:2",
+     "suit:shrug+stonks:shrug"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "think"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "look": 25
+     }
+    ],
+    "tags": [
+     {
+      "text": "0xBaF",
+      "x": 270,
+      "y": 560,
+      "tone": "good",
+      "size": 92,
+      "mono": true,
+      "pill": true,
+      "raw": true
+     },
+     {
+      "text": "f8b5",
+      "x": 810,
+      "y": 560,
+      "tone": "good",
+      "size": 92,
+      "mono": true,
+      "pill": true,
+      "raw": true
+     },
+     {
+      "text": "F2F13638C04B10F8119760B2D2aE86b08",
+      "x": 540,
+      "y": 676,
+      "tone": "muted",
+      "size": 28,
+      "mono": true,
+      "pill": true,
+      "raw": true
+     }
+    ]
+   },
+   "beats": [
+    "Nobody",
+    "middle."
+   ]
+  },
+  {
+   "anchor": {
+    "word": 71
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "send",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 0,
+      "pos": [
+       0.24,
+       1.52,
+       2.05
+      ],
+      "look": [
+       0,
+       1.52,
+       0
+      ],
+      "fov": 30,
+      "dur": 6
+     }
+    ],
+    "actions": [
+     "suit:click+suit:talk:0.7+label:0+shake"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "tags": [
+     {
+      "text": "sent",
+      "x": 540,
+      "y": 590,
+      "tone": "good",
+      "size": 110,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 71
+    }
+   ]
+  },
+  {
+   "anchor": "Your friend has",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "sentbig",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.9,
+       1.4,
+       2.9
+      ],
+      "look": [
+       0.36,
+       1.36,
+       -0.2
+      ],
+      "fov": 36
+     },
+     {
+      "beat": 3,
+      "pos": [
+       0.85,
+       1.4,
+       2.55
+      ],
+      "look": [
+       0.4,
+       1.4,
+       -0.2
+      ],
+      "fov": 36,
+      "dur": 8
+     }
+    ],
+    "actions": [
+     "stonks:clap",
+     "label:0",
+     "suit:proud",
+     "stonks:cheer+stonks:talk:0.5+stamp"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "look": 15
+     }
+    ],
+    "tags": [
+     {
+      "text": "your friend",
+      "x": 540,
+      "y": 560,
+      "size": 56,
+      "pill": true
+     }
+    ],
+    "stamp": {
+     "text": "stonks!",
+     "y": 1330,
+     "size": 150,
+     "tone": "accent",
+     "rot": 6
+    }
+   },
+   "beats": [
+    "Your",
+    "never",
+    "prouder.",
+    {
+     "word": 78
+    }
+   ]
+  },
+  {
+   "anchor": "One problem.",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "day",
+    "screen": "sentbig",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.0,
+       1.55,
+       3.6
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40
+     }
+    ],
+    "actions": [
+     "mood:doom",
+     "suit:lean"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "proud"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "cheer"
+     }
+    ]
+   },
+   "beats": [
+    "One",
+    "problem."
+   ]
+  },
+  {
+   "anchor": "Minutes ago,",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "doom",
+    "screen": "sentbig",
+    "shift": 60,
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:bait",
+     "label:0"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "tags": [
+     {
+      "text": "real transaction \u00b7 19 Dec 2025",
+      "x": 540,
+      "y": 470,
+      "size": 28,
+      "pill": true,
+      "raw": true
+     }
+    ]
+   },
+   "beats": [
+    "Minutes",
+    "scammer",
+    "half"
+   ]
+  },
+  {
+   "anchor": "look-alike",
+   "component": "AddressMatch",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "a": {
+     "label": "THE RIGHT ADDRESS",
+     "text": "0xbaf4b1aF7E3B560d937DA0458514552B6495F8b5",
+     "tone": "good"
+    },
+    "b": {
+     "label": "THE SCAMMER'S LOOK-ALIKE",
+     "text": "0xBaFF2F13638C04B10F8119760B2D2aE86b08f8b5",
+     "tone": "alert"
+    },
+    "start": 3,
+    "end": 4,
+    "endLabel": "same start, same end"
+   },
+   "beats": [
+    "look-alike",
+    "address.",
+    "Now",
+    "history."
+   ]
+  },
+  {
+   "anchor": "That's the one",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "doom",
+    "screen": "sentbig",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.22,
+       1.52,
+       2.0
+      ],
+      "look": [
+       0,
+       1.52,
+       0
+      ],
+      "fov": 30,
+      "dur": 6
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "suit:panic+shake",
+     "suit:talk:0.7"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "proud"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    "That's",
+    "copied.",
+    {
+     "word": 105
+    }
+   ]
+  },
+  {
+   "anchor": "Fifty million dollars, gone.",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "doom",
+    "screen": "bal",
+    "shift": 60,
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:zero+shake+suit:panic"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    "Fifty",
+    "gone."
+   ]
+  },
+  {
+   "anchor": "Crypto has",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "doom",
+    "screen": "zero",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38
+     }
+    ],
+    "actions": [
+     "suit:facepalm",
+     "label:0"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "panic"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "clap",
+      "look": 15
+     }
+    ],
+    "tags": [
+     {
+      "text": "no undo button",
+      "x": 540,
+      "y": 590,
+      "tone": "alert",
+      "size": 72,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "Crypto",
+    "undo"
+   ]
+  },
+  {
+   "anchor": "Your friend is",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "doom",
+    "screen": "zero",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.0,
+       1.55,
+       3.6
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40
+     },
+     {
+      "beat": 2,
+      "pos": [
+       1.15,
+       1.42,
+       3.05
+      ],
+      "look": [
+       0.24,
+       1.3,
+       -0.1
+      ],
+      "fov": 40,
+      "dur": 10
+     }
+    ],
+    "actions": [
+     "suit:slump",
+     "cam",
+     "stonks:cheer+stonks:talk:0.75"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "facepalm"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "clap",
+      "look": 15
+     }
+    ]
+   },
+   "beats": [
+    "Your",
+    "clapping.",
+    {
+     "word": 120
+    }
+   ]
+  },
+  {
+   "anchor": "This happened",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "src": "bs_theft.png",
+    "chrome": "browser",
+    "url": "eth.blockscout.com/tx/0xc0514a795f065fce8a3e1238a1ba480e8a792d45f6431ee4ba8d800bedd86a0f",
+    "source": "Blockscout \u00b7 Ethereum explorer \u00b7 19 Dec 2025",
+    "cam": [
+     {
+      "x": 0.4,
+      "y": 0.68,
+      "zoom": 1.12
+     },
+     {
+      "x": 0.36,
+      "y": 0.76,
+      "zoom": 1.3
+     },
+     {
+      "x": 0.38,
+      "y": 0.76,
+      "zoom": 1.34
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 10,
+      "y": 365,
+      "w": 680,
+      "h": 60
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 320,
+      "y": 310,
+      "w": 410,
+      "h": 56
+     }
+    ]
+   },
+   "beats": [
+    "This",
+    "real",
+    "December"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "Never copy",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "duo",
+    "mood": "teal",
+    "screen": "idle",
+    "set": "studio",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.75,
+       1.34,
+       3.9
+      ],
+      "look": [
+       0.22,
+       1.2,
+       -0.1
+      ],
+      "fov": 34
+     }
+    ],
+    "actions": [
+     "suit:genius+label:0",
+     "label:1",
+     "label:2"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "clap",
+      "look": 15
+     }
+    ],
+    "tags": [
+     {
+      "text": "never copy an address",
+      "x": 540,
+      "y": 460,
+      "size": 40,
+      "pill": true
+     },
+     {
+      "text": "from your wallet history",
+      "x": 540,
+      "y": 532,
+      "tone": "warm",
+      "size": 40,
+      "pill": true
+     },
+     {
+      "text": "save the real one as a contact",
+      "x": 540,
+      "y": 602,
+      "size": 32,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "Never",
+    "address",
+    "wallet"
+   ],
+   "long": true
+  }
+ ]
+}

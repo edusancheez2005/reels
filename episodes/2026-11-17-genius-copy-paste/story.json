@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 7.79
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 16.8,
+    "to": 21.55
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "How to lose $50M with one copy-paste"
+  }
+]

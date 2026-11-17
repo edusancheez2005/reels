@@ -191,6 +191,20 @@ def main():
         print(f"  {si + 1}/{len(sentences)}  {len(audio) / SR:5.2f}s  {sent[:60]}")
 
     full = np.concatenate(chunks)
+    # even out the speakers: each character line sits 1.5 dB above the narrator's median level (some voices are far louder)
+    def _rms(a):
+        a = a[np.abs(a) > 1e-4]
+        return float(np.sqrt((a ** 2).mean())) if len(a) else 0.0
+    def _span(sp):
+        return slice(int(sp["startMs"] / 1000 * SR), int(sp["endMs"] / 1000 * SR))
+    nar = [_rms(full[_span(sp)]) for sp in speech if sp["speaker"] == "narrator"]
+    if nar and len(nar) < len(speech):
+        target = float(np.median(nar)) * 10 ** (1.5 / 20)
+        for sp in speech:
+            if sp["speaker"] != "narrator":
+                r = _rms(full[_span(sp)])
+                if r > 0:
+                    full[_span(sp)] *= target / r
     full = full / (np.abs(full).max() + 1e-9) * 0.89  # peak-normalise to about −1 dBFS
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
