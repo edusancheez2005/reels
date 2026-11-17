@@ -187,6 +187,9 @@ reel a day at most), and the story is not the one the morning scout already saw 
 
 ## 2a. Script review (before the voice)
 
+For a `skit`, give the reviewer the same brief but point it at the rubric's "For a skit" list and the script guide's "Skits"
+section instead of "Story reels", and drop the questions about introducing every person and 120–160 words.
+
 Edu (29 Oct 2026): the landfill reel didn't say who the man was, how it happened, or why the lesson matters. Catch that before
 spending an hour on voice and render. When the script and research.md are done, spawn a fresh reviewer with the Agent tool
 (subagent_type "general-purpose", run_in_background false) with this brief, <id> filled in:

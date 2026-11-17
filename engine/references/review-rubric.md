@@ -67,3 +67,12 @@ PASS only if all of these hold, otherwise REWRITE with the exact lines to change
 - 6+ concrete facts, each one in research.md with a source.
 - The ending names this story's specific mistakes and the fix, and says why (never a generic "keep your keys safe").
 - 120–160 words; the hook is a striking verifiable fact with a number; no price predictions.
+
+**For a skit** (storyboard/plan format `skit`), check this instead (script-guide "Skits"):
+- The first sentence is the promise with the real number ("Here's how to lose … with …").
+- Each shortcut sounds sensible, and the trick is explained in one or two plain sentences a beginner follows on one listen.
+- Every number and every step of the trick is in research.md from a real, sourced case; the real case is named with its date.
+- Nothing states a joke as a fact about a real person ("did exactly this"), and nothing is cruel about the victim.
+- Characters' lines (`[name] …`) are one to three words, two to five lines in total; the narrator carries the facts.
+- It ends on this story's one step, as an order. 110–140 words. No price predictions, no advice beyond the step.
+- Say which joke is weakest and give a replacement line.

@@ -64,3 +64,4 @@
 - [ ] (Later, not within a week of the Binance reel) How the $1.5B Bybit hack worked (Feb 2025) — "In February 2025, hackers took nearly $1.5 billion of crypto from one exchange, in a single transaction." (#23; how: a tampered signing screen; who investigators blamed; lesson: check what you sign)
 - [x] Ronin bridge, March 2022: $625M through a fake job offer, unnoticed for six days (2026-11-16-ronin-fake-job)
 - [ ] The DAO hack (2016): $60M, and why Ethereum split in two (was planned for Sat 21 Nov; replaced by a skit on 17 Nov)
+- [x] Skit: how to lose $50M with one copy and paste (address poisoning, the 19 Dec 2025 case), with the suit guy and Stonks (2026-11-17-genius-copy-paste)

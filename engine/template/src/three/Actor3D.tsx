@@ -149,8 +149,8 @@ const poseOf = (name: string, R: number, f: number, ph: number): PoseDef => {
       };
     case 'panic':
       return {
-        rh: {a: 'head', o: [R * 0.85, R * 0.75, 0], p: [1, 0.25, -0.1]},
-        lh: {a: 'head', o: [R * 0.85, R * 0.75, 0], p: [1, 0.25, -0.1]},
+        rh: {a: 'head', o: [R * 1.12, R * 0.15, 0.02], p: [1, -0.15, -0.1]},
+        lh: {a: 'head', o: [R * 1.12, R * 0.15, 0.02], p: [1, -0.15, -0.1]},
         head: [0.1, 0, 0],
         spine: [0.05, 0, 0],
         expr: {aa: 1, sad: 0.8},
@@ -217,7 +217,7 @@ const poseOf = (name: string, R: number, f: number, ph: number): PoseDef => {
       };
     case 'facepalm':
       return {
-        rh: {a: 'head', o: [-0.02, R * 0.1, R * 1.0], p: [1, -0.7, 0.2]},
+        rh: {a: 'head', o: [0.0, -R * 0.8, R * 1.1], p: [1, -0.8, 0.3]},
         lh: relaxH,
         head: [0.3, 0, 0],
         spine: [0.14, 0, 0],
@@ -492,7 +492,7 @@ const screenTex = (s: ScreenState) =>
       g.fillStyle = 'rgba(255,255,255,0.72)';
       g.font = `700 40px ${theme.font}`;
       g.textAlign = 'left';
-      g.fillText(s.head.toUpperCase(), 36, 44);
+      g.fillText(s.head, 36, 44);
     }
     g.textAlign = 'center';
     if (s.big) {
