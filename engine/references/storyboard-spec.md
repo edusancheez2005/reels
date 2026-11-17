@@ -303,8 +303,9 @@ the looping ones). Names: `boom`, `slam`, `clap` (loops), `applause`, `ding`, `b
 actor is in `jump` or `clap`, a `boom` on `stamp`, a `pop` on `<id>:in`; `"autoSfx": false` on the scene turns them off.
 build_timeline.py prints nothing extra: check `timeline.json` → `sfx` if a sound seems missing. A beat can land after a
 word instead of on it, for a gag inside a `[pause]`: `{"word": 41, "at": "end", "plus": 0.3}` (seconds).
-Voices can be bent in cast.json (`pitch`, `glide`, `hold`, `drive`, `rasp`, `bite`, `thin`, `gain_db`; see tts_local.py): the
-cast's `squeak` is the off-screen scream for the last word, `[squeak] GET OUT!`, after which the reel cuts dead
+Voices can be bent in cast.json (`pitch`, `glide`, `hold`, `drive`, `rasp`, `bite`, `thin`, `gain_db`; see tts_local.py), and a
+cast entry with `"file"` plays a recording as its line. The cast's `squeak` is the off-screen "GET OUT!" for the last word
+(the recording Edu supplied, `sfx/getout.mp3` on the media branch), `[squeak] GET OUT!`, after which the reel cuts dead
 (`"tail": 0.3`). Nobody on screen says it: no `talk` and no pointing in that scene, just `shake`.
 The `away` pose (an arm straight out to the side, pointing at the door) is for other moments: keep about a metre of room on that
 side of the frame (e.g. cam `{pos: [0.3, 1.2, 6.6], look: [-0.05, 0.95, 0], fov: 30}` with him at x −0.4 and Stonks at 0.7).

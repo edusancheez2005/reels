@@ -114,25 +114,28 @@ A skit is true content told as a joke: a deadpan narrator talks to "you", two ca
 **Sound, pauses and the last word** (Edu, 17 Nov 2026, after the pilot: "you can add like little sound effects... in the last
 one it was like you've lost like 50 million whatever, and then... your friend is still clapping, and it's like get out, like
 as a joke... That'd be quite funny."):
-- *"GET OUT!"* is the skit's last word, and nobody on screen says it. Edu, in three notes on 17 Nov: "It has to be like a
-  squeaky, like get out, like a squeaky, mad kind of voice. Like it's like a sound effect"; "higher and angrier and longer";
-  "It's not him that says it. It's like a third party, like kind of like person that's seeing everything... just a sound
-  effect that it's in the background"; and, when a try went far too high and distorted, "way too high... you can't even tell
-  that he's saying get out... way lower... way less distorted." The words must be clear: loud and held, not mangled. So: after the real case and the step, the narrator says the callback ("Your friend is
-  still clapping."), there is a pause with only the clapping, then an off-screen voice shouts a loud, drawn-out
-  `[squeak] GET OUT!` over the scene, and the video cuts dead about a third of a second after it, with Stonks still mid-jump.
-  No door, no fade, no end card: the cut is the joke, and the reel loops straight back into the hook.
+- *"GET OUT!"* is the skit's last word, and nobody on screen says it. Edu, 17 Nov: "It's not him that says it. It's like a
+  third party, like kind of like person that's seeing everything... just a sound effect that it's in the background." After
+  three synthetic tries missed (too flat, then too high and distorted to understand), he sent the sound himself: "here it is.
+  use this." So the last word is that recording. After the real case and the step, the narrator says the callback ("Your
+  friend is still clapping."), there is a pause with only the clapping, then `[squeak] GET OUT!` plays over the scene and the
+  video cuts dead about a third of a second after it, with Stonks still mid-jump. No door, no fade, no end card: the cut is
+  the joke, and the reel loops straight back into the hook.
   - Nobody acts it: no `talk`, no pointing, no mouth movement, no character turning to shout. The two of them just carry
-    on (Stonks jumping, the suit guy ruined); a `shake` and a slow push-in on the scream are enough, with both faces
+    on (Stonks jumping, the suit guy ruined); a `shake` and a slow push-in on the sound are enough, with both faces
     still fully in frame at the end of it.
-  - `squeak` is in every channel's `cast` (a voice raised a little, held on the vowel and pushed only slightly: `pitch`, `hold`,
-    `drive`, `bite`, `gain_db` in cast.json; copy the whole `cast` into the episode). Don't change its settings in an episode:
-    Edu picks them by ear.
+  - `squeak` is in every channel's `cast` with `"file": "sfx/getout.mp3"`: tts_local.py plays the recording as that line
+    (about one second) and still writes its captions and timings. Copy the whole `cast` into the episode's cast.json and
+    don't change the entry. The file is not on main (no media there): the script takes it from `local-assets/` or fetches
+    it from the `media` branch by itself. If it can't be loaded it prints a WARNING and voices the line instead: say so
+    in the final message to Edu.
   - In script.txt, as the last three lines: `Your friend is still clapping.` / `[pause 1.3]` / `[squeak] GET OUT!`
   - In the storyboard: `"tail": 0.3`, and a last scene anchored on "GET" with `"actions": ["shake"]`, both characters as they
     were in the scene before.
-  Use it on most skits; it is the running gag. Never use the well-known "GET OUT" scream clip itself, or any other clip:
-  it is somebody's recording.
+  Use it on most skits; it is the running gag. It is the only outside recording in the pipeline, used on Edu's instruction
+  after he was told the risk (it is someone else's recording, so Instagram could mute or pull a reel over it). If that ever
+  happens, delete `"file"` from `squeak` in every channel file and the fallback voice takes over; tell Edu. Don't add any
+  other clip from a film, a show, a song or a meme: everything else is synthesised or voiced here.
 - *Pauses.* A line that is only `[pause 2]` in script.txt adds two seconds of silence after the sentence before it (max 5).
   That is where a picture gag lives: Stonks jumping and clapping after his set-up line, the beat before "Get out.", the
   silence after a terrible idea. Two or three pauses a skit, 1–2 s each; they count towards the 45–55 s.
@@ -143,8 +146,8 @@ as a joke... That'd be quite funny."):
   idea, `buzzer` for the wrong answer, `cash` when money moves, `scratch` when everything stops, `rimshot` after a bad joke,
   `applause`, `whoosh`, `tick` (a countdown), `slam`. One effect per joke, at most six placed effects a skit, and never on top
   of a sentence that carries a fact: put it in a pause or between sentences.
-- Never use a clip from a film, a show, a song or a meme sound, however well known: only these effects and the characters'
-  own voices.
+- Apart from Edu's "GET OUT!" recording above, never use a clip from a film, a show, a song or a meme sound, however well
+  known: only these effects and the characters' own voices.
 
 **Borrowed from what is travelling on Reels right now** (researched 17 Nov 2026 at Edu's request; use one per skit at most,
 and only where it fits the story; none of these needs a trending song, which this pipeline can't attach anyway):

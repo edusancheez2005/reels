@@ -15,3 +15,4 @@ episodes/*/assets/raw/
 episodes/*/render.log
 episodes/*/splice.log
 episodes/_preview-*/
+local-assets/

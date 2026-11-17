@@ -11,6 +11,9 @@ speech.json lists every sentence with its speaker and times (for mouth movement)
 A cast entry can also bend its voice into a cartoon sound: "pitch" (2.0 = an octave up), "glide" (rises through the line),
 "hold" (seconds: holds the last vowel, "GET OUUUT!"), "rasp" and "bite" (rage), "drive" (overdrive) and "thin" (cut the low end, in
 Hz), e.g. {"voice": "bm_george", "speed": 0.5, "pitch": 2.8, "hold": 1.0, "drive": 9}. See voice_fx().
+A cast entry with "file" (e.g. {"file": "sfx/getout.mp3", "voice": "bm_george"}) plays that recording as the line instead of
+voicing it (the words still get captions and timings); the file comes from <repo>/local-assets/ or the `media` branch, and
+the entry's voice settings are the fallback if it can't be loaded.
 A line that is only "[pause 2]" adds that many seconds of silence after the sentence before it (max 5): room for a picture
 gag with no talking over it (Stonks jumping and clapping, a sound effect, a door slamming).
 
@@ -208,6 +211,38 @@ def voice_fx(audio, pitch=1.0, glide=0.0, drive=0.0, thin=0.0, hold=0.0, rasp=0.
     return x
 
 
+def load_clip(rel):
+    """A recording used in place of a voiced line (cast entry "file", e.g. "sfx/getout.mp3"). Media never lives on main:
+    look in <repo>/local-assets/ first, then fetch it from the repo's `media` branch. Returns float32 mono at SR, or None."""
+    import subprocess
+    root = Path(__file__).resolve().parents[2]
+    local = root / "local-assets" / rel
+    if not local.is_file():
+        local.parent.mkdir(parents=True, exist_ok=True)
+        for cmd in (["git", "-C", str(root), "show", f"origin/media:{rel}"], None):
+            try:
+                if cmd is None:
+                    subprocess.run(["git", "-C", str(root), "fetch", "-q", "--depth", "1", "origin", "media:refs/remotes/origin/media"], check=True, timeout=120)
+                    cmd = ["git", "-C", str(root), "show", f"origin/media:{rel}"]
+                data = subprocess.run(cmd, check=True, capture_output=True, timeout=60).stdout
+                if data:
+                    local.write_bytes(data)
+                    break
+            except Exception:
+                continue
+    if not local.is_file():
+        try:
+            urllib.request.urlretrieve(f"https://raw.githubusercontent.com/edusancheez2005/reels/media/{rel}", local)
+        except Exception:
+            return None
+    try:
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-i", str(local), "-f", "f32le", "-ac", "1", "-ar", str(SR), "-"], check=True, capture_output=True, timeout=60).stdout
+    except Exception:
+        return None
+    x = np.frombuffer(raw, dtype=np.float32).copy()
+    return x if len(x) > SR // 10 else None
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script")
@@ -268,10 +303,16 @@ def main():
         who = lines[si][0]
         voice = cast[who].get("voice", a.voice) if who else a.voice
         speed = cast[who].get("speed", a.speed) if who else a.speed
-        samples, sr = k.create(spoken(sent), voice=voice, speed=speed, lang="en-gb" if voice.startswith("b") else "en-us")
-        assert sr == SR, sr
-        audio = trim(np.asarray(samples, dtype=np.float32))
-        if who and any(cast[who].get(k_) for k_ in ("pitch", "glide", "drive", "thin", "hold", "rasp", "bite")):
+        clip = load_clip(cast[who]["file"]) if who and cast[who].get("file") else None
+        if who and cast[who].get("file") and clip is None:
+            print(f"  WARNING: could not load {cast[who]['file']} for [{who}]; voicing the line instead", file=sys.stderr)
+        if clip is not None:
+            audio = trim(clip)  # the recording is the line: no voice, no effects
+        else:
+            samples, sr = k.create(spoken(sent), voice=voice, speed=speed, lang="en-gb" if voice.startswith("b") else "en-us")
+            assert sr == SR, sr
+            audio = trim(np.asarray(samples, dtype=np.float32))
+        if clip is None and who and any(cast[who].get(k_) for k_ in ("pitch", "glide", "drive", "thin", "hold", "rasp", "bite")):
             c_ = cast[who]
             audio = voice_fx(audio, **{k_: float(c_[k_]) for k_ in ("pitch", "glide", "drive", "thin", "hold", "rasp", "bite") if c_.get(k_) is not None})
         words = sent.split()

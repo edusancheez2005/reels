@@ -64,14 +64,15 @@
       "who": "Stonks: the friend who cheers every bad idea"
     },
     "squeak": {
+      "file": "sfx/getout.mp3",
+      "gain_db": 4,
       "voice": "bm_george",
       "speed": 0.7,
       "pitch": 1.2,
       "hold": 0.5,
       "drive": 1.2,
       "bite": 2,
-      "gain_db": 5,
-      "who": "an off-screen voice, nobody on screen: a third party who has watched the whole thing and shouts the last word of the skit (\"GET OUT!\"), loud, a bit raised and held on the vowel, but clear enough that anyone can tell what is said. No character says it: no talk, no pointing, no mouth movement. Edu, 17 Nov 2026: \"It's not him that says it... just a sound effect that it's in the background\"; after a much higher, heavily distorted try: \"way too high... you can't even tell that he's saying get out... way lower... way less distorted\". Don't raise pitch above about 1.35 or drive above about 2."
+      "who": "an off-screen voice, nobody on screen: the \"GET OUT!\" that ends a skit. It is a recording Edu supplied on 17 Nov 2026 (\"here it is. use this.\"), kept on the media branch as sfx/getout.mp3 (not on main); \"file\" plays it as the line. No character says it: no talk, no pointing, no mouth movement. The voice settings here are only the fallback if the file cannot be loaded. If a reel is ever muted or flagged for its audio, delete \"file\" from this entry in every channel."
     }
   }
 }
