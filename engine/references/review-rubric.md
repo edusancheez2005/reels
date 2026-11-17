@@ -44,7 +44,8 @@ he's like jumping and clapping... I find that really funny"), also say in the no
 - Does Stonks get his celebration (jumping or dancing at the worst moment, feet visible), and is it funny?
 - Does the place look like this story's place, or the same room as yesterday?
 - Sound (Edu, 17 Nov: "little sound effects... get out... that'd be quite funny"): do the effects land on the joke, and does
-  the ending have its button (the friend still clapping, a pause, a squeaky furious "GET OUT!", then the video cuts dead)? An effect that makes
+  the ending have its button (the friend still clapping, a pause, an off-screen squeaky, furious "GET OUT!" that nobody on
+  screen says, then the video cuts dead)? An effect that makes
   a spoken fact hard to hear is a must-fix; a missing or mistimed one is a note.
 
 ## Must fix (FAIL), only these

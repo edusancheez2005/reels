@@ -114,16 +114,21 @@ A skit is true content told as a joke: a deadpan narrator talks to "you", two ca
 **Sound, pauses and the last word** (Edu, 17 Nov 2026, after the pilot: "you can add like little sound effects... in the last
 one it was like you've lost like 50 million whatever, and then... your friend is still clapping, and it's like get out, like
 as a joke... That'd be quite funny."):
-- *"GET OUT!"* is the skit's last word. Edu first heard it said flat and said no: "It has to be like a squeaky, like get
-  out, like a squeaky, mad kind of voice. Like it's like a sound effect." So it is a scream, and the reel ends on it: after
-  the real case and the step, the narrator says the callback ("Your friend is still clapping."), there is a pause with only
-  the clapping, then a squeaky, furious, overdriven `[squeak] GET OUT!` and the video cuts dead about a third of a second
-  later, with Stonks still mid-jump. No door, no fade, no end card: the cut is the joke, and it loops straight back into
-  the hook. `squeak` is in every channel's `cast` (the suit guy's voice bent up an octave and driven hard:
-  `pitch`, `drive`, `thin`, `gain_db` in cast.json); the suit guy acts it. In script.txt, as the last three lines:
-  `Your friend is still clapping.` / `[pause 1.3]` / `[squeak] GET OUT!`
-  In the storyboard: `"tail": 0.3`, and a last scene anchored on "GET" with `suit:away+suit:look:<towards Stonks>+suit:talk:0.7+shake`,
-  Stonks left in `jump`, and the frame wide enough to see the suit guy's pointing arm (storyboard-spec, `away`).
+- *"GET OUT!"* is the skit's last word, and nobody on screen says it. Edu, in three notes on 17 Nov: "It has to be like a
+  squeaky, like get out, like a squeaky, mad kind of voice. Like it's like a sound effect"; "higher and angrier and longer";
+  and "It's not him that says it. It's like a third party, like kind of like person that's seeing everything... just a sound
+  effect that it's in the background." So: after the real case and the step, the narrator says the callback ("Your friend is
+  still clapping."), there is a pause with only the clapping, then an off-screen voice screams a squeaky, furious, drawn-out
+  `[squeak] GET OUT!` over the scene, and the video cuts dead about a third of a second after it, with Stonks still mid-jump.
+  No door, no fade, no end card: the cut is the joke, and the reel loops straight back into the hook.
+  - Nobody acts it: no `talk`, no pointing, no mouth movement, no character turning to shout. The two of them just carry
+    on (Stonks jumping, the suit guy ruined); a `shake` and a slow push-in on the scream are enough, with both faces
+    still fully in frame at the end of it.
+  - `squeak` is in every channel's `cast` (a voice bent far up, held on the vowel and driven hard: `pitch`, `hold`, `drive`,
+    `rasp`, `bite`, `gain_db` in cast.json; copy the whole `cast` into the episode). Don't change its settings in an episode.
+  - In script.txt, as the last three lines: `Your friend is still clapping.` / `[pause 1.3]` / `[squeak] GET OUT!`
+  - In the storyboard: `"tail": 0.3`, and a last scene anchored on "GET" with `"actions": ["shake"]`, both characters as they
+    were in the scene before.
   Use it on most skits; it is the running gag. Never use the well-known "GET OUT" scream clip itself, or any other clip:
   it is somebody's recording.
 - *Pauses.* A line that is only `[pause 2]` in script.txt adds two seconds of silence after the sentence before it (max 5).

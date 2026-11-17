@@ -42,8 +42,9 @@ One reel, posted in the evening instead of the early morning, so it is a strong 
   question with our own numbers: the Sunday review compares morning against evening.
 - **Sound from 18 Nov** (Edu, 17 Nov, 22:49: "you can add like little sound effects like get out... your friend is still
   clapping, and it's like get out, like as a joke... That'd be quite funny"): every skit ends on the button (the friend still
-  clapping, a pause, then a squeaky, furious "GET OUT!" and the video cuts dead; Edu, 23:04: "a squeaky, mad kind of voice...
-  like a sound effect"), Stonks is heard clapping, and a few synthesised effects mark
+  clapping, a pause, then an off-screen, squeaky, furious, drawn-out "GET OUT!" that nobody on screen says, and the video
+  cuts dead; Edu, 23:04–23:20: "a squeaky, mad kind of voice... like a sound effect", "higher and angrier and longer", "it's
+  not him that says it... a third party"), Stonks is heard clapping, and a few synthesised effects mark
   the jokes. Script guide, "Sound, pauses and the last word".
 - Trend research the same evening (script-guide "Skits", "Borrowed from what is travelling"): most of what trended on Reels in
   November 2026 is tied to a song (which this pipeline can't attach) or to someone's face; what transfers is the

@@ -65,12 +65,16 @@
     },
     "squeak": {
       "voice": "bm_george",
-      "speed": 0.6,
-      "pitch": 2.1,
-      "drive": 4,
-      "thin": 300,
-      "gain_db": 5,
-      "who": "the suit guy when he finally snaps: a squeaky, furious, overdriven scream, used only for the last word of a skit (\"GET OUT!\"). Acted by suit (suit:away + suit:talk). Edu, 17 Nov 2026: \"a squeaky, mad kind of voice... like a sound effect\"."
+      "speed": 0.5,
+      "pitch": 2.8,
+      "glide": 0.1,
+      "hold": 1.0,
+      "drive": 9,
+      "rasp": 0.5,
+      "thin": 350,
+      "bite": 6,
+      "gain_db": 6,
+      "who": "an off-screen voice, nobody on screen: a third party who has watched the whole thing and screams the last word of the skit (\"GET OUT!\"), squeaky, furious and held long, like a sound effect dropped on the scene. No character says it: no talk, no pointing, no mouth movement. Edu, 17 Nov 2026: \"It's not him that says it. It's like just a sound effect that it's in the background\"; \"higher and angrier and longer\"."
     }
   }
 }

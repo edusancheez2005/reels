@@ -9,7 +9,8 @@ Several voices: start a script line with a speaker tag, e.g. "[stonks] Genius!",
 are the narrator (--voice). The tags are not spoken or captioned; words.json marks those words with "speaker", and
 speech.json lists every sentence with its speaker and times (for mouth movement).
 A cast entry can also bend its voice into a cartoon sound: "pitch" (2.0 = an octave up), "glide" (rises through the line),
-"drive" (overdrive) and "thin" (cut the low end, in Hz), e.g. {"voice": "af_bella", "speed": 0.7, "pitch": 1.6, "drive": 3}.
+"hold" (seconds: holds the last vowel, "GET OUUUT!"), "rasp" and "bite" (rage), "drive" (overdrive) and "thin" (cut the low end, in
+Hz), e.g. {"voice": "bm_george", "speed": 0.5, "pitch": 2.8, "hold": 1.0, "drive": 9}. See voice_fx().
 A line that is only "[pause 2]" adds that many seconds of silence after the sentence before it (max 5): room for a picture
 gag with no talking over it (Stonks jumping and clapping, a sound effect, a door slamming).
 
@@ -123,30 +124,87 @@ def align_sentence(words, audio, phonemize):
     return out
 
 
-def voice_fx(audio, pitch=1.0, glide=0.0, drive=0.0, thin=0.0):
-    """Turn a voiced line into a cartoon sound (Edu, 17 Nov 2026: "a squeaky, mad kind of voice... like a sound effect").
-    pitch: resampling factor (2.0 = an octave up and twice as fast: set the cast entry's speed lower to compensate);
-    glide: how much further the pitch climbs by the end of the line (0.25 = a rising shriek); drive: overdrive, 0-8 (the
-    voice breaks up as if shouted into a cheap microphone); thin: cut everything below this many Hz (300 = small and tinny)."""
-    x = np.asarray(audio, dtype=np.float32)
+def _wsola(x, rate_at, n_win=1024, hop=256, tol=160):
+    """Stretch time without changing pitch (overlap-add with waveform matching). rate_at(i) = how much longer the sound
+    around input sample i should become (1 = unchanged, 4 = four times as long)."""
+    win = np.hanning(n_win).astype(np.float32)
     n = len(x)
-    if n < 16:
+    cap = int(n * 8) + n_win * 2
+    y = np.zeros(cap, dtype=np.float32)
+    wsum = np.zeros(cap, dtype=np.float32)
+    pos, prev, k = 0.0, None, 0
+    while int(pos) + n_win + tol < n and (k * hop + n_win) < cap:
+        ideal = int(pos)
+        if prev is None or prev + hop + n_win > n:
+            at = ideal
+        else:
+            ref = x[prev + hop: prev + hop + n_win]
+            lo, hi = max(0, ideal - tol), min(n - n_win, ideal + tol)
+            at = lo + int(np.argmax(np.correlate(x[lo: hi + n_win], ref, "valid")))
+        y[k * hop: k * hop + n_win] += x[at: at + n_win] * win
+        wsum[k * hop: k * hop + n_win] += win
+        prev, k = at, k + 1
+        pos += hop / max(1.0, float(rate_at(ideal)))
+    end = max(n_win, (k - 1) * hop + n_win)
+    return y[:end] / np.maximum(wsum[:end], 1e-3)
+
+
+def voice_fx(audio, pitch=1.0, glide=0.0, drive=0.0, thin=0.0, hold=0.0, rasp=0.0, bite=0.0):
+    """Turn a voiced line into a cartoon sound (Edu, 17 Nov 2026: "a squeaky, mad kind of voice... like a sound effect";
+    then "higher and angrier and longer").
+    pitch: resampling factor (2.0 = an octave up and twice as fast: set the cast entry's speed lower to compensate);
+    glide: how much further the pitch climbs by the end of the line (0.25 = a rising shriek);
+    hold:  seconds added by holding the loudest vowel of the line's second half ("GET OUUUUT!");
+    rasp:  0-1, a fast flutter in the loudness that reads as rage; bite: dB of boost around 3 kHz (harsh);
+    drive: overdrive, 0-10 (the voice breaks up as if shouted into a cheap microphone);
+    thin:  cut everything below this many Hz (300 = small and tinny)."""
+    x = np.asarray(audio, dtype=np.float32)
+    if len(x) < 2048:
         return x
+    if hold > 0:
+        # the vowel to hold: the longest loud run in the last two thirds of the line
+        w = int(0.02 * SR)
+        env = np.sqrt(np.convolve(x ** 2, np.ones(w) / w, "same"))
+        s0 = int(len(x) * 0.33)
+        loud = env[s0:] > 0.5 * env[s0:].max()
+        best, run, start = (0, 0), 0, 0
+        for i, v in enumerate(np.append(loud, False)):
+            if v and run == 0:
+                start = i
+            run = run + 1 if v else 0
+            if run > best[1] - best[0]:
+                best = (start, start + run)
+        a0, a1 = s0 + best[0], s0 + best[1]
+        c0, c1 = a0 + int((a1 - a0) * 0.25), a0 + int((a1 - a0) * 0.8)
+        if c1 - c0 > 256:
+            extra = hold * pitch * (1 + glide / 2) * SR  # in input samples: the pitch change shrinks it again
+            factor = (c1 - c0 + extra) / (c1 - c0)
+            x = _wsola(x, lambda i: factor if c0 <= i < c1 else 1.0)
+    n = len(x)
     if pitch != 1.0 or glide:
         out_n = max(16, int(n / (pitch * (1 + glide / 2))))
         rate = pitch * (1 + glide * np.linspace(0.0, 1.0, out_n))
         pos = np.cumsum(rate) - rate[0]
         pos = pos[pos < n - 1]
         x = np.interp(pos, np.arange(n), x).astype(np.float32)
-    if thin:
+    if rasp:
+        t = np.arange(len(x)) / SR
+        flutter = 0.5 * (1 + np.sin(2 * np.pi * 71 * t + 1.7 * np.sin(2 * np.pi * 9 * t)))
+        x = (x * (1 - float(rasp) * 0.7 * flutter)).astype(np.float32)
+    if thin or bite:
         X = np.fft.rfft(x)
         fr = np.fft.rfftfreq(len(x), 1 / SR)
-        X *= 1.0 / np.sqrt(1.0 + (thin / np.maximum(fr, 1e-6)) ** 6)
+        if thin:
+            X *= 1.0 / np.sqrt(1.0 + (thin / np.maximum(fr, 1e-6)) ** 6)
+        if bite:
+            X *= 1.0 + (10 ** (bite / 20) - 1) * np.exp(-0.5 * ((np.log2(np.maximum(fr, 1.0) / 3000.0)) / 0.6) ** 2)
         x = np.fft.irfft(X, len(x)).astype(np.float32)
     if drive:
         m = float(np.abs(x).max()) or 1.0
         g = 1.0 + float(drive)
         x = (np.tanh(x / m * g) / np.tanh(g) * m).astype(np.float32)
+    fade = min(len(x) // 4, int(0.03 * SR))
+    x[-fade:] *= np.linspace(1.0, 0.0, fade, dtype=np.float32)
     return x
 
 
@@ -213,9 +271,9 @@ def main():
         samples, sr = k.create(spoken(sent), voice=voice, speed=speed, lang="en-gb" if voice.startswith("b") else "en-us")
         assert sr == SR, sr
         audio = trim(np.asarray(samples, dtype=np.float32))
-        if who and any(cast[who].get(k_) for k_ in ("pitch", "glide", "drive", "thin")):
+        if who and any(cast[who].get(k_) for k_ in ("pitch", "glide", "drive", "thin", "hold", "rasp", "bite")):
             c_ = cast[who]
-            audio = voice_fx(audio, float(c_.get("pitch", 1.0)), float(c_.get("glide", 0.0)), float(c_.get("drive", 0.0)), float(c_.get("thin", 0.0)))
+            audio = voice_fx(audio, **{k_: float(c_[k_]) for k_ in ("pitch", "glide", "drive", "thin", "hold", "rasp", "bite") if c_.get(k_) is not None})
         words = sent.split()
         spans = align_sentence(words, audio, phonemize)
         for w, (s, e) in zip(words, spans):
