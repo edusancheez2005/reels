@@ -116,16 +116,18 @@ one it was like you've lost like 50 million whatever, and then... your friend is
 as a joke... That'd be quite funny."):
 - *"GET OUT!"* is the skit's last word, and nobody on screen says it. Edu, in three notes on 17 Nov: "It has to be like a
   squeaky, like get out, like a squeaky, mad kind of voice. Like it's like a sound effect"; "higher and angrier and longer";
-  and "It's not him that says it. It's like a third party, like kind of like person that's seeing everything... just a sound
-  effect that it's in the background." So: after the real case and the step, the narrator says the callback ("Your friend is
-  still clapping."), there is a pause with only the clapping, then an off-screen voice screams a squeaky, furious, drawn-out
+  "It's not him that says it. It's like a third party, like kind of like person that's seeing everything... just a sound
+  effect that it's in the background"; and, when a try went far too high and distorted, "way too high... you can't even tell
+  that he's saying get out... way lower... way less distorted." The words must be clear: loud and held, not mangled. So: after the real case and the step, the narrator says the callback ("Your friend is
+  still clapping."), there is a pause with only the clapping, then an off-screen voice shouts a loud, drawn-out
   `[squeak] GET OUT!` over the scene, and the video cuts dead about a third of a second after it, with Stonks still mid-jump.
   No door, no fade, no end card: the cut is the joke, and the reel loops straight back into the hook.
   - Nobody acts it: no `talk`, no pointing, no mouth movement, no character turning to shout. The two of them just carry
     on (Stonks jumping, the suit guy ruined); a `shake` and a slow push-in on the scream are enough, with both faces
     still fully in frame at the end of it.
-  - `squeak` is in every channel's `cast` (a voice bent far up, held on the vowel and driven hard: `pitch`, `hold`, `drive`,
-    `rasp`, `bite`, `gain_db` in cast.json; copy the whole `cast` into the episode). Don't change its settings in an episode.
+  - `squeak` is in every channel's `cast` (a voice raised a little, held on the vowel and pushed only slightly: `pitch`, `hold`,
+    `drive`, `bite`, `gain_db` in cast.json; copy the whole `cast` into the episode). Don't change its settings in an episode:
+    Edu picks them by ear.
   - In script.txt, as the last three lines: `Your friend is still clapping.` / `[pause 1.3]` / `[squeak] GET OUT!`
   - In the storyboard: `"tail": 0.3`, and a last scene anchored on "GET" with `"actions": ["shake"]`, both characters as they
     were in the scene before.
