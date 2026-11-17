@@ -111,6 +111,29 @@ A skit is true content told as a joke: a deadpan narrator talks to "you", two ca
    storyboard (storyboard-spec, `Actor3D`) make a night street, a bathroom floor with a popcorn tin, a courtroom, the sea.
    Two or three places at most; the first shot is already in the story's place (the gate checks it differs from the last reels).
 
+**Sound, pauses and the last word** (Edu, 17 Nov 2026, after the pilot: "you can add like little sound effects... in the last
+one it was like you've lost like 50 million whatever, and then... your friend is still clapping, and it's like get out, like
+as a joke... That'd be quite funny."):
+- *"Get out."* is the skit's button. After the callback ("Your friend is still clapping."), a pause with only the clapping,
+  then the suit guy, flat, in his own voice: `[suit] Get out.` Then the door slams (`slam`) and Stonks is gone. Use it on most
+  skits; it is the running gag. The wording can change now and then ("Out.", "Leave.", "Please leave."), the shape doesn't.
+  In script.txt:
+  `Your friend is still clapping.` / `[pause 1.5]` / `[suit] Get out.` and in that scene `suit:away+suit:look:<towards Stonks>+suit:talk:0.8`,
+  then `stonks:out` on a beat just after the line (`{"word": n, "at": "end", "plus": 0.2}`) and
+  `"sfx": [{"name": "slam", "beat": 1, "offset": 0.3}]`. Leave the frame wide enough to see his pointing arm.
+- *Pauses.* A line that is only `[pause 2]` in script.txt adds two seconds of silence after the sentence before it (max 5).
+  That is where a picture gag lives: Stonks jumping and clapping after his set-up line, the beat before "Get out.", the
+  silence after a terrible idea. Two or three pauses a skit, 1–2 s each; they count towards the 45–55 s.
+- *Sound effects* are made by `engine/scripts/make_sfx.py` (synthesised; nothing downloaded, nothing sampled). Three are
+  automatic in `Actor3D` scenes: an actor in the `jump` or `clap` pose is heard clapping, a `stamp` lands with a `boom`, an
+  entrance (`<id>:in`) gets a `pop`. The rest you place on a scene with `"sfx": [{"name", "beat"}]` (storyboard-spec):
+  `dun` (dun dun DUN) on the turn, `trombone` when it has gone wrong, `crickets` over an awkward pause, `ding` for the bright
+  idea, `buzzer` for the wrong answer, `cash` when money moves, `scratch` when everything stops, `rimshot` after a bad joke,
+  `applause`, `whoosh`, `tick` (a countdown), `slam`. One effect per joke, at most six placed effects a skit, and never on top
+  of a sentence that carries a fact: put it in a pause or between sentences.
+- Never use a clip from a film, a show, a song or a meme sound, however well known: only these effects and the characters'
+  own voices.
+
 **Borrowed from what is travelling on Reels right now** (researched 17 Nov 2026 at Edu's request; use one per skit at most,
 and only where it fits the story; none of these needs a trending song, which this pipeline can't attach anyway):
 - *The narrator contradicts.* The oldest narrator joke there is: a character says something confident, the narrator flatly

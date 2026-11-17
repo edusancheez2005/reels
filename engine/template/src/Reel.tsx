@@ -28,6 +28,7 @@ export type Timeline = {
   height: number;
   durationInFrames: number;
   audio: string | null;
+  sfx?: {name: string; from: number; durationInFrames: number; volume?: number; loop?: boolean}[];
   captionStyle?: 'kinetic' | 'band' | 'pill' | 'none';
   captionY?: number;
   header?: Header;
@@ -70,6 +71,11 @@ export const Reel: React.FC<{timeline: Timeline}> = ({timeline}) => {
       {style === 'pill' ? <PillCaptions captions={timeline.captions} y={timeline.captionY} /> : null}
       {timeline.chapters && timeline.chapters.length ? <ChapterBar header={timeline.header} chapters={timeline.chapters} durationInFrames={timeline.durationInFrames} /> : null}
       {timeline.audio ? <Audio src={staticFile(timeline.audio)} /> : null}
+      {(timeline.sfx ?? []).map((x, i) => (
+        <Sequence key={`sfx${i}`} from={x.from} durationInFrames={x.durationInFrames} name={`sfx · ${x.name}`} layout="none">
+          <Audio src={staticFile(`sfx/${x.name}.wav`)} volume={x.volume ?? 0.5} loop={!!x.loop} />
+        </Sequence>
+      ))}
     </AbsoluteFill>
   );
 };

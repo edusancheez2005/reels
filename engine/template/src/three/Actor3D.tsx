@@ -28,7 +28,7 @@ import {CANVAS, Caption, Tags, canvasTex, clamp01, useCamera, type Cam, type Tag
  *   <id>:<pose>      the actor snaps to a pose: relax | genius (finger to the temple) | panic (hands on head) | cheer | clap |
  *                    jump (jumping and clapping) | dance | proud (hands on hips) | type | click | point | shrug | think |
  *                    facepalm | slump | wave | lean | beg (hands together) | phone (a phone at his ear) | scroll (reading a
- *                    phone held in front of him)
+ *                    phone held in front of him) | away (arm out to his side, pointing at the door: "Get out.")
  *   <id>:look:<deg>  turn the head (+ = to the actor's left)        <id>:in / <id>:out   pop into / drop out of frame
  *   <id>:talk:<sec>  the mouth moves for that long (a line tagged [id] in script.txt, voiced by cast.json)
  *   screen:<state>   the monitor switches to props.screens[state]   mood:<name>   day | teal | pink | night | doom (colours + light)
@@ -265,6 +265,9 @@ const poseOf = (name: string, R: number, f: number, ph: number): PoseDef => {
       };
     case 'point':
       return {rh: {a: 'chest', o: [0.05, 0.06, 0.62], p: [0.6, -1, 0]}, lh: relaxH, head: [0, 0, 0.05], rShape: 'point'};
+    case 'away':
+      // "Get out.": the right arm straight out to his side, pointing at the door; turn his head the other way with look
+      return {rh: {a: 'chest', o: [0.6, 0.1, 0.04], p: [0.2, -1, -0.2]}, lh: relaxH, head: [0.05, 0, 0], spine: [0, 0, -0.05], rShape: 'point'};
     case 'shrug':
       return {
         rh: {a: 'chest', o: [0.42, -0.04, 0.2], p: [0.3, -1, -0.3]},

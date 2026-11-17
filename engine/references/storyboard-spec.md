@@ -284,7 +284,8 @@ keep `big` to one short word or number), `cam`, `tags` (add `"raw": true` to kee
 `stamp` `{text, x, y, size, tone, rot}` (a word slammed on screen; put it low, y ≈ 1450, over the monitor's back), `shift`.
 Actions, one per beat, `"a+b"` for several on one beat: `<id>:<pose>` (relax, genius, proud, panic, cheer, clap, `jump` =
 jumping with his hands clapping over his head, `dance`, type, click, lean, point, shrug, think, facepalm, slump, wave, `beg` =
-hands clasped at the chest, `phone` = a phone at his ear, `scroll` = reading a phone held in front of him), `<id>:in` / `<id>:out`, `<id>:look:<deg>`, `<id>:talk:<seconds>` (mouth
+hands clasped at the chest, `phone` = a phone at his ear, `scroll` = reading a phone held in front of him, `away` = arm out
+to his side pointing at the door), `<id>:in` / `<id>:out`, `<id>:look:<deg>`, `<id>:talk:<seconds>` (mouth
 moves: use it on a `[id]` line of the script), `screen:<state>`, `mood:<name>`, `stamp`, `shake`, `label:<n>`, `hide:<n>`, `cam`.
 Cameras that work (suit at the origin, facing +z):
 - face over the monitor `{pos: [0.3, 1.52, 2.35], look: [0, 1.5, 0], fov: 30}`
@@ -294,6 +295,16 @@ Cameras that work (suit at the origin, facing +z):
 - wide `{pos: [2.0, 1.55, 3.6], look: [0.2, 1.0, 0.25], fov: 40}`
 Always `"moving": true`. Anchor a character's line with `{"word": n}` (from `print_words.py`) when the same word is also
 narrated. To add a character, see `public/models/README.md`.
+Sound (18 Nov 2026; Edu: "you can add like little sound effects... that'd be quite funny"): any scene can carry
+`"sfx": [{"name": "trombone", "beat": 2, "offset": 0.2, "gain": 0.5, "dur": 1.5}]` next to its `props` (`beat` = index into
+the scene's beats, or leave it out for the start of the scene; `offset` in seconds; `gain` and `dur` optional, `dur` only for
+the looping ones). Names: `boom`, `slam`, `clap` (loops), `applause`, `ding`, `buzzer`, `cash`, `trombone`, `dun`, `whoosh`,
+`scratch`, `crickets` (loops), `pop`, `rimshot`, `tick` (loops). In `Actor3D` scenes three are automatic: clapping while an
+actor is in `jump` or `clap`, a `boom` on `stamp`, a `pop` on `<id>:in`; `"autoSfx": false` on the scene turns them off.
+build_timeline.py prints nothing extra: check `timeline.json` → `sfx` if a sound seems missing. A beat can land after a
+word instead of on it, for a gag inside a `[pause]`: `{"word": 41, "at": "end", "plus": 0.3}` (seconds).
+The `away` pose is the suit guy's "Get out.": his right arm straight out to the side, so keep about a metre of room on that
+side of the frame (e.g. cam `{pos: [0.3, 1.2, 6.6], look: [-0.05, 0.95, 0], fov: 30}` with him at x −0.4 and Stonks at 0.7).
 A place for each story (18 Nov 2026; Edu: "something like a movie kind of thing"): don't shoot every skit in the yellow desk room.
 - `"backdrop": "sky"` takes the back wall away: the floor runs to a horizon under a sky in the mood's colour, with stars and
   a moon when the mood is `night` or `doom`. Use it for anything outdoors (a street at night, a field, the sea floor in `blue`).

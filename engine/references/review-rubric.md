@@ -43,6 +43,9 @@ he's like jumping and clapping... I find that really funny"), also say in the no
   sentence the voice is already saying? Well over that (12+) is a FAIL.
 - Does Stonks get his celebration (jumping or dancing at the worst moment, feet visible), and is it funny?
 - Does the place look like this story's place, or the same room as yesterday?
+- Sound (Edu, 17 Nov: "little sound effects... get out... that'd be quite funny"): do the effects land on the joke, and does
+  the ending have its button (the friend still clapping, a pause, the suit guy's "Get out.", the door)? An effect that makes
+  a spoken fact hard to hear is a must-fix; a missing or mistimed one is a note.
 
 ## Must fix (FAIL), only these
 - A factual error, a number that doesn't match research.md, or a claim with no source.

@@ -90,7 +90,8 @@ class Resolver:
             i = int(spec["word"])
             if not 0 <= i < len(self.words):
                 raise ValueError(f"{label}: word index {i} out of range 0..{len(self.words) - 1}")
-            return i, self.words[i]["endMs" if at == "end" else "startMs"], i
+            # "plus": seconds after that point, for a beat inside a "[pause]" (a gag that lands after the line, not on it)
+            return i, self.words[i]["endMs" if at == "end" else "startMs"] + round(float(spec.get("plus", 0)) * 1000), i
         phrase = [norm(t) for t in str(spec["anchor"]).split()]
         phrase = [p for p in phrase if p]
         if not phrase:
@@ -103,7 +104,7 @@ class Resolver:
                 if seen == want:
                     last = i + len(phrase) - 1
                     ms = self.words[last]["endMs"] if at == "end" else self.words[i]["startMs"]
-                    return i, ms, last
+                    return i, ms + round(float(spec.get("plus", 0)) * 1000), last
         nearby = " ".join(w["text"].strip() for w in self.words[start_idx:start_idx + 12])
         raise ValueError(f"{label}: anchor '{spec['anchor']}' (occurrence {want}) not found after word {start_idx}. "
                          f"Next words: \"{nearby}…\"")
@@ -211,6 +212,67 @@ def main():
             "anchorText": " ".join(w["text"].strip() for w in words[r["idx"]:min(r["idx"] + 4, len(words))]),
         })
 
+    # sound effects (Edu, 17 Nov 2026: "you can add like little sound effects... that'd be quite funny"). Explicit ones come
+    # from a scene's "sfx": [{"name", "beat", "offset", "gain", "dur"}]; Actor3D scenes also get them from their actions:
+    # a stamp lands with a boom, an actor who jumps or claps is heard clapping, an entrance pops. "autoSfx": false turns
+    # the automatic ones off for a scene. The sounds are synthesised by make_sfx.py (nothing downloaded or sampled).
+    sfx = []
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from make_sfx import SFX as SFX_LIB
+    except Exception as e:  # numpy missing: render without effects rather than fail
+        SFX_LIB = {}
+        warns.append(f"sound effects unavailable ({e})")
+
+    def add_sfx(lab, name, at_f, gain=None, dur_f=None):
+        if name not in SFX_LIB:
+            if SFX_LIB:
+                errors.append(f"{lab}: unknown sound effect '{name}' (have: {', '.join(sorted(SFX_LIB))})")
+            return
+        sec, loops, g0, _ = SFX_LIB[name]
+        at_f = max(0, min(int(at_f), total_frames - 2))
+        n = int(dur_f) if dur_f else round(sec * fps)
+        n = max(2, min(n, total_frames - at_f))
+        sfx.append({"name": name, "from": at_f, "durationInFrames": n, "volume": round(float(gain if gain is not None else g0), 3), "loop": bool(loops)})
+
+    for s_, r_ in zip(out_scenes, resolved):
+        lab, src, bts = r_["label"], r_["src"], s_["beats"]
+        beat_f = lambda i: s_["from"] + (bts[i] if isinstance(i, int) and 0 <= i < len(bts) else 0)  # noqa: E731
+        end_f = s_["from"] + s_["durationInFrames"]
+        for x in src.get("sfx", []) or []:
+            if not isinstance(x, dict) or not x.get("name"):
+                errors.append(f"{lab}: sfx entries look like {{\"name\": \"ding\", \"beat\": 1}}")
+                continue
+            at = beat_f(x.get("beat", -1)) + round(float(x.get("offset", 0)) * fps)
+            add_sfx(lab, x["name"], at, x.get("gain"), round(float(x["dur"]) * fps) if x.get("dur") else None)
+        if s_["component"] == "Actor3D" and src.get("autoSfx", True):
+            pr = s_["props"]
+            groups = [str(a).split("+") for a in pr.get("actions", []) or []]
+            explicit = {x.get("name") for x in src.get("sfx", []) or [] if isinstance(x, dict)}
+            pose_at = {}  # actor id -> [(frame, pose)]
+            for a_ in pr.get("actors", []) or []:
+                if not a_.get("hidden"):
+                    pose_at.setdefault(a_["id"], []).append((s_["from"], a_.get("pose", "relax")))
+            for gi, grp in enumerate(groups):
+                for act in grp:
+                    parts = act.split(":")
+                    if act == "stamp" and "boom" not in explicit:
+                        add_sfx(lab, "boom", beat_f(gi))
+                    elif len(parts) == 2 and parts[1] == "in" and "pop" not in explicit:
+                        add_sfx(lab, "pop", beat_f(gi))
+                        pose_at.setdefault(parts[0], []).append((beat_f(gi), next((a_.get("pose", "relax") for a_ in pr.get("actors", []) if a_["id"] == parts[0]), "relax")))
+                    elif len(parts) == 2 and parts[1] == "out":
+                        pose_at.setdefault(parts[0], []).append((beat_f(gi), "relax"))
+                    elif len(parts) == 2 and parts[1] not in ("look", "talk"):
+                        pose_at.setdefault(parts[0], []).append((beat_f(gi), parts[1]))
+            if "clap" not in explicit:
+                for who, evs in pose_at.items():
+                    evs.sort()
+                    for (f0, pose), nxt in zip(evs, evs[1:] + [(end_f, "")]):
+                        if pose in ("jump", "clap") and nxt[0] - f0 >= 6:
+                            add_sfx(lab, "clap", f0 + 4, None, nxt[0] - f0 - 4)
+    sfx.sort(key=lambda x: x["from"])
+
     # pacing: gaps between visual events (scene cuts + beats)
     moving = set()
     for s_, r_ in zip(out_scenes, resolved):
@@ -262,6 +324,8 @@ def main():
         "captions": caps,
         "scenes": out_scenes,
     }
+    if sfx:
+        timeline["sfx"] = sfx
     if chapters:
         timeline["chapters"] = chapters
     if sb.get("header"):
@@ -286,6 +350,9 @@ def main():
         (studio / "public").mkdir(exist_ok=True)
         if audio:
             shutil.copy(audio, studio / "public" / f"voice{audio.suffix}")
+        if sfx:
+            from make_sfx import ensure as ensure_sfx
+            ensure_sfx(studio / "public" / "sfx", sorted({x["name"] for x in sfx}))
         if (ep / "assets").is_dir():
             dst = studio / "public" / "assets" / slug
             shutil.rmtree(dst, ignore_errors=True)

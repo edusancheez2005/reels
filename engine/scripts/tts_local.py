@@ -8,6 +8,8 @@ Several voices: start a script line with a speaker tag, e.g. "[stonks] Genius!",
 <out>/cast.json (or --cast): {"stonks": {"voice": "am_puck", "speed": 1.1}, "suit": {"voice": "bm_george"}}. Untagged lines
 are the narrator (--voice). The tags are not spoken or captioned; words.json marks those words with "speaker", and
 speech.json lists every sentence with its speaker and times (for mouth movement).
+A line that is only "[pause 2]" adds that many seconds of silence after the sentence before it (max 5): room for a picture
+gag with no talking over it (Stonks jumping and clapping, a sound effect, a door slamming).
 
 First run downloads the model (~350 MB) from the kokoro-onnx GitHub releases into ~/.cache/kokoro.
 Requires: pip install kokoro-onnx soundfile numpy
@@ -144,9 +146,15 @@ def main():
     cast_file = Path(a.cast) if a.cast else Path(a.out) / "cast.json"
     cast = json.loads(cast_file.read_text()) if cast_file.is_file() else {}
     lines = []  # (speaker or None, sentence)
+    pause_after = {}  # sentence index -> extra seconds of silence after it ("[pause 2]" on its own line)
     for raw in Path(a.script).read_text().splitlines():
         raw = raw.strip()
         if not raw:
+            continue
+        mp = re.match(r"^\[pause\s+([0-9.]+)\]$", raw, re.I)
+        if mp:
+            if lines:
+                pause_after[len(lines) - 1] = pause_after.get(len(lines) - 1, 0.0) + min(float(mp.group(1)), 5.0)
             continue
         m = re.match(r"^\[(\w+)\]\s*(.*)$", raw)
         who, text = (m.group(1), m.group(2)) if m else (None, raw)
@@ -186,6 +194,7 @@ def main():
         speech.append({"speaker": who or "narrator", "text": sent, "startMs": round(t0 * 1000), "endMs": round((t0 + len(audio) / SR) * 1000)})
         chunks.append(audio)
         gap = GAP.get(sent.rstrip("\"')]")[-1], 0.25) * a.gap_scale if si < len(sentences) - 1 else 0.15
+        gap += pause_after.get(si, 0.0)  # room for a picture gag: Stonks jumping, a door slamming
         chunks.append(np.zeros(int(gap * SR), dtype=np.float32))
         t0 += len(audio) / SR + gap
         print(f"  {si + 1}/{len(sentences)}  {len(audio) / SR:5.2f}s  {sent[:60]}")

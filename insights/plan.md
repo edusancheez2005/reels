@@ -40,6 +40,10 @@ One reel, posted in the evening instead of the early morning, so it is a strong 
   marked **morning** (crypto or sonar); a second run at 17:11 makes the row marked **evening** (channel `markets`), up
   around 19:30–20:00, the hour the pilot went out. Each run uses only its own row. This also answers Edu's posting-time
   question with our own numbers: the Sunday review compares morning against evening.
+- **Sound from 18 Nov** (Edu, 17 Nov, 22:49: "you can add like little sound effects like get out... your friend is still
+  clapping, and it's like get out, like as a joke... That'd be quite funny"): every skit ends on the button (the friend still
+  clapping, a pause, the suit guy's "Get out.", a door slam), Stonks is heard clapping, and a few synthesised effects mark
+  the jokes. Script guide, "Sound, pauses and the last word".
 - Trend research the same evening (script-guide "Skits", "Borrowed from what is travelling"): most of what trended on Reels in
   November 2026 is tied to a song (which this pipeline can't attach) or to someone's face; what transfers is the
   narrator-voice-over format itself, the "narrator contradicts" joke, and the month's text formats ("Some bills are

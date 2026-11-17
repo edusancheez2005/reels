@@ -163,7 +163,9 @@ use only your own slot's row, and never build the other slot's reel. The gate al
   and the channel has `voice_eleven`, use `python3 engine/scripts/tts_elevenlabs.py … --voice-id <voice_eleven> --stability 0.35
   --style 0.45 --speed 1.08`; otherwise `python3 engine/scripts/tts_local.py … --voice <channel "voice"> --speed 1.12
   --gap-scale 0.6` (tighter pauses between sentences: livelier, and ~2 s shorter). For a skit: `--speed 1.05 --gap-scale 0.75`
-  (deadpan needs the pauses), with `cast.json` next to the script for the characters' lines.
+  (deadpan needs the pauses), with `cast.json` next to the script for the characters' lines. A script line that is only
+  `[pause 2]` adds that much silence for a picture gag (Stonks clapping, the beat before "Get out."), and sound effects go on
+  scenes with `"sfx"` (script-guide "Sound, pauses and the last word"; Edu, 17 Nov 2026).
   Write the script to be spoken with energy: "Talk like a friend" in the script guide.
 - Assets: logos via `get_logos.mjs`. Real pages: `node engine/scripts/screenshot.mjs <url> episodes/<id>/assets/<name>.png
   --selector "<css>" --zoom 1.6` (the workspace can reach all websites since 29 Oct; Etherscan blocks bots, use another
