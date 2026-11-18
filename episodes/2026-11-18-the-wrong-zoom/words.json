@@ -1,0 +1,925 @@
+[
+ {
+  "text": "It's",
+  "startMs": 80,
+  "endMs": 250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " March",
+  "startMs": 250,
+  "endMs": 650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2020.",
+  "startMs": 650,
+  "endMs": 1750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You're",
+  "startMs": 1975,
+  "endMs": 2144,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " locked",
+  "startMs": 2145,
+  "endMs": 2483,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " indoors,",
+  "startMs": 2485,
+  "endMs": 2934,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 3185,
+  "endMs": 3285,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 3285,
+  "endMs": 3495,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " have",
+  "startMs": 3495,
+  "endMs": 3724,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 3725,
+  "endMs": 3893,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " plan.",
+  "startMs": 3895,
+  "endMs": 4175,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 4400,
+  "endMs": 4530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " whole",
+  "startMs": 4530,
+  "endMs": 4860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " planet",
+  "startMs": 4860,
+  "endMs": 5357,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 5360,
+  "endMs": 5490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 5490,
+  "endMs": 5670,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Zoom.",
+  "startMs": 5670,
+  "endMs": 6040,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 6265,
+  "endMs": 6492,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you're",
+  "startMs": 6535,
+  "endMs": 6615,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buying",
+  "startMs": 6615,
+  "endMs": 7003,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 7025,
+  "endMs": 7174,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " piece",
+  "startMs": 7175,
+  "endMs": 7455,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 7455,
+  "endMs": 7565,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Zoom.",
+  "startMs": 7565,
+  "endMs": 7855,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Your",
+  "startMs": 8080,
+  "endMs": 8279,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " friend",
+  "startMs": 8280,
+  "endMs": 8676,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " double-checked.",
+  "startMs": 8680,
+  "endMs": 9470,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Says",
+  "startMs": 9695,
+  "endMs": 9925,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Zoom.",
+  "startMs": 9925,
+  "endMs": 10385,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " You",
+  "startMs": 10610,
+  "endMs": 10740,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " type",
+  "startMs": 10740,
+  "endMs": 10964,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Z,",
+  "startMs": 10970,
+  "endMs": 11141,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " O,",
+  "startMs": 11300,
+  "endMs": 11451,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " O,",
+  "startMs": 11700,
+  "endMs": 11770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " M.",
+  "startMs": 11940,
+  "endMs": 12070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 12295,
+  "endMs": 12465,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tap",
+  "startMs": 12465,
+  "endMs": 12745,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 12745,
+  "endMs": 12905,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " first",
+  "startMs": 12905,
+  "endMs": 13311,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " result.",
+  "startMs": 13325,
+  "endMs": 13785,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It's",
+  "startMs": 14010,
+  "endMs": 14100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " already",
+  "startMs": 14100,
+  "endMs": 14580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gone",
+  "startMs": 14580,
+  "endMs": 14920,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 14920,
+  "endMs": 15120,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 15120,
+  "endMs": 15480,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 15480,
+  "endMs": 15829,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 15940,
+  "endMs": 16250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 16250,
+  "endMs": 16435,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " over",
+  "startMs": 16440,
+  "endMs": 16730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twenty",
+  "startMs": 16730,
+  "endMs": 17160,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 17160,
+  "endMs": 17340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 17340,
+  "endMs": 17527,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " month.",
+  "startMs": 17590,
+  "endMs": 17830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 18055,
+  "endMs": 18230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " start",
+  "startMs": 18265,
+  "endMs": 18565,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pricing",
+  "startMs": 18565,
+  "endMs": 19105,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " boats.",
+  "startMs": 19165,
+  "endMs": 19455,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Used",
+  "startMs": 19680,
+  "endMs": 20110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ones.",
+  "startMs": 20110,
+  "endMs": 20580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Let's",
+  "startMs": 20805,
+  "endMs": 21097,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 21105,
+  "endMs": 21389,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " get",
+  "startMs": 21435,
+  "endMs": 21623,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " carried",
+  "startMs": 21625,
+  "endMs": 21973,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " away.",
+  "startMs": 21975,
+  "endMs": 22265,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 23690,
+  "endMs": 23810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " video",
+  "startMs": 23810,
+  "endMs": 24234,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " company's",
+  "startMs": 24240,
+  "endMs": 24779,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stock",
+  "startMs": 24780,
+  "endMs": 25140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " code",
+  "startMs": 25140,
+  "endMs": 25440,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 25440,
+  "endMs": 25565,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Z,",
+  "startMs": 25570,
+  "endMs": 25807,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " M.",
+  "startMs": 26050,
+  "endMs": 26230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 26455,
+  "endMs": 26615,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " own",
+  "startMs": 26615,
+  "endMs": 26925,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Zoom",
+  "startMs": 26925,
+  "endMs": 27266,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Technologies.",
+  "startMs": 27285,
+  "endMs": 28145,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Silent",
+  "startMs": 28370,
+  "endMs": 28820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " since",
+  "startMs": 28820,
+  "endMs": 29110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2015.",
+  "startMs": 29110,
+  "endMs": 30280,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bollocks.",
+  "startMs": 30505,
+  "endMs": 31225,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " Off",
+  "startMs": 31450,
+  "endMs": 31658,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " by",
+  "startMs": 31660,
+  "endMs": 31910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 31910,
+  "endMs": 32214,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " letters.",
+  "startMs": 32280,
+  "endMs": 32630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " By",
+  "startMs": 32855,
+  "endMs": 33085,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " then,",
+  "startMs": 33085,
+  "endMs": 33392,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 33585,
+  "endMs": 33795,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wrong",
+  "startMs": 33805,
+  "endMs": 34064,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fucking",
+  "startMs": 34075,
+  "endMs": 34465,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Zoom",
+  "startMs": 34465,
+  "endMs": 34803,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 34855,
+  "endMs": 34945,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rising",
+  "startMs": 34945,
+  "endMs": 35474,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " faster",
+  "startMs": 35475,
+  "endMs": 35875,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " than",
+  "startMs": 35875,
+  "endMs": 36045,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 36045,
+  "endMs": 36213,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " real",
+  "startMs": 36215,
+  "endMs": 36616,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one.",
+  "startMs": 36625,
+  "endMs": 36885,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 37110,
+  "endMs": 37227,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " regulator",
+  "startMs": 37230,
+  "endMs": 37928,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " froze",
+  "startMs": 37930,
+  "endMs": 38279,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 38280,
+  "endMs": 38390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 38390,
+  "endMs": 38629,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 38640,
+  "endMs": 38863,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " weeks,",
+  "startMs": 38910,
+  "endMs": 39213,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " worried",
+  "startMs": 39450,
+  "endMs": 39798,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " people",
+  "startMs": 39800,
+  "endMs": 40180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " were",
+  "startMs": 40180,
+  "endMs": 40380,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mixing",
+  "startMs": 40380,
+  "endMs": 40790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " them",
+  "startMs": 40790,
+  "endMs": 41025,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " up.",
+  "startMs": 41030,
+  "endMs": 41200,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Nobody",
+  "startMs": 41425,
+  "endMs": 41985,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " could",
+  "startMs": 41985,
+  "endMs": 42205,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sell.",
+  "startMs": 42205,
+  "endMs": 42535,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " This",
+  "startMs": 42760,
+  "endMs": 42980,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " happened",
+  "startMs": 42980,
+  "endMs": 43376,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 43390,
+  "endMs": 43544,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " March",
+  "startMs": 43550,
+  "endMs": 43930,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2020.",
+  "startMs": 43930,
+  "endMs": 45000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " And",
+  "startMs": 45225,
+  "endMs": 45403,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 45465,
+  "endMs": 45575,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2019.",
+  "startMs": 45575,
+  "endMs": 46825,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Same",
+  "startMs": 47050,
+  "endMs": 47416,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " four",
+  "startMs": 47420,
+  "endMs": 47781,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " letters.",
+  "startMs": 47880,
+  "endMs": 48220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Read",
+  "startMs": 48445,
+  "endMs": 48735,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 48735,
+  "endMs": 48914,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " whole",
+  "startMs": 48915,
+  "endMs": 49245,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " name.",
+  "startMs": 49245,
+  "endMs": 49585,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Boat's",
+  "startMs": 49810,
+  "endMs": 50120,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " coming",
+  "startMs": 50120,
+  "endMs": 50506,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Tuesday.",
+  "startMs": 50510,
+  "endMs": 50970,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ }
+]

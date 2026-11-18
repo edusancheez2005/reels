@@ -1,0 +1,2023 @@
+{
+ "slug": "the-wrong-zoom",
+ "format": "skit",
+ "genre": "comedy-of-errors",
+ "bit": "understatement",
+ "topic_source": "plan",
+ "theme": "light",
+ "tail": 1.0,
+ "emphasis": [
+  "March 2020.",
+  "a plan.",
+  "on Zoom.",
+  "double-checked.",
+  "Says Zoom.",
+  "first result.",
+  "three dollars",
+  "over twenty",
+  "pricing boats.",
+  "Used ones.",
+  "Z, M.",
+  "Zoom Technologies.",
+  "2015.",
+  "Bollocks.",
+  "two letters.",
+  "wrong fucking Zoom",
+  "two weeks,",
+  "Nobody could sell.",
+  "2019.",
+  "whole name.",
+  "Tuesday."
+ ],
+ "defs": {
+  "room": {
+   "set": "desk",
+   "screens": {
+    "call": {
+     "head": "EVERYONE YOU KNOW",
+     "big": "ON ZOOM",
+     "tone": "white",
+     "sub": "you're on mute"
+    },
+    "search": {
+     "head": "SEARCH SHARES",
+     "big": "ZOOM",
+     "tone": "white",
+     "sub": "type a name"
+    },
+    "result": {
+     "head": "TOP RESULT",
+     "big": "ZOOM",
+     "tone": "white",
+     "sub": "Zoom Technologies, Inc."
+    },
+    "bought": {
+     "head": "ZOOM",
+     "big": "BOUGHT",
+     "tone": "good",
+     "sub": "Zoom Technologies, Inc."
+    },
+    "price": {
+     "head": "ZOOM · ONE MONTH",
+     "big": "$20+",
+     "tone": "good",
+     "sub": "from about $3",
+     "chart": "up"
+    },
+    "boats": {
+     "head": "USED BOATS",
+     "big": "BOATS",
+     "tone": "warm",
+     "sub": "sort by: biggest"
+    },
+    "zm": {
+     "head": "ZOOM VIDEO · THE VIDEO CALLS",
+     "big": "ZM",
+     "tone": "white",
+     "sub": "stock code: two letters"
+    },
+    "own": {
+     "head": "YOU OWN",
+     "big": "ZOOM",
+     "tone": "alert",
+     "sub": "Zoom Technologies · no reports since 2015"
+    },
+    "race": {
+     "head": "FIVE WEEKS · WRONG ZOOM",
+     "big": "3×",
+     "tone": "warm",
+     "sub": "the real one: +30%",
+     "chart": "up"
+    },
+    "halt": {
+     "head": "ZOOM",
+     "big": "HALTED",
+     "tone": "alert",
+     "sub": "26 Mar – 8 Apr 2020"
+    },
+    "y2019": {
+     "head": "APRIL 2019 · TOP RESULT",
+     "big": "ZOOM",
+     "tone": "white",
+     "sub": "Zoom Technologies, Inc."
+    }
+   },
+   "props": [
+    {
+     "shape": "box",
+     "at": [
+      -1.45,
+      0.24,
+      -1.95
+     ],
+     "size": [
+      1.9,
+      0.48,
+      0.85
+     ],
+     "color": "#c9603f"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.45,
+      0.72,
+      -2.3
+     ],
+     "size": [
+      1.9,
+      0.55,
+      0.22
+     ],
+     "color": "#b5532f"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.45,
+      0.42,
+      -1.95
+     ],
+     "size": [
+      0.22,
+      0.84,
+      0.85
+     ],
+     "color": "#b5532f"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.45,
+      0.42,
+      -1.95
+     ],
+     "size": [
+      0.22,
+      0.84,
+      0.85
+     ],
+     "color": "#b5532f"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.95,
+      0.62,
+      -1.95
+     ],
+     "size": [
+      0.5,
+      0.3,
+      0.5
+     ],
+     "color": "#f0c987",
+     "rot": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.25,
+      1.75,
+      -2.56
+     ],
+     "size": [
+      1.3,
+      1.1,
+      0.04
+     ],
+     "color": "#f4f1ea"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      1.25,
+      1.75,
+      -2.53
+     ],
+     "size": [
+      1.16,
+      0.96
+     ],
+     "color": "#ffcf8a",
+     "glow": 1
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.25,
+      1.75,
+      -2.51
+     ],
+     "size": [
+      0.04,
+      0.96,
+      0.02
+     ],
+     "color": "#f4f1ea"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.25,
+      1.75,
+      -2.51
+     ],
+     "size": [
+      1.16,
+      0.04,
+      0.02
+     ],
+     "color": "#f4f1ea"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.35,
+      0.3,
+      -2.0
+     ],
+     "size": [
+      0.9,
+      0.6,
+      0.6
+     ],
+     "color": "#c9955c"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.0050000000000001,
+      0.69,
+      -2.0
+     ],
+     "size": [
+      0.105,
+      0.17
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.235,
+      0.69,
+      -2.0
+     ],
+     "size": [
+      0.105,
+      0.17
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.465,
+      0.69,
+      -2.0
+     ],
+     "size": [
+      0.105,
+      0.17
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.695,
+      0.69,
+      -2.0
+     ],
+     "size": [
+      0.105,
+      0.17
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.12,
+      0.87,
+      -2.0
+     ],
+     "size": [
+      0.105,
+      0.17
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.35,
+      0.87,
+      -2.0
+     ],
+     "size": [
+      0.105,
+      0.17
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.58,
+      0.87,
+      -2.0
+     ],
+     "size": [
+      0.105,
+      0.17
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.235,
+      1.05,
+      -2.0
+     ],
+     "size": [
+      0.105,
+      0.17
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.465,
+      1.05,
+      -2.0
+     ],
+     "size": [
+      0.105,
+      0.17
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.95,
+      1.23,
+      -2.0
+     ],
+     "size": [
+      0.105,
+      0.17
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      2.35,
+      0.8,
+      -2.2
+     ],
+     "size": [
+      0.025,
+      1.6
+     ],
+     "color": "#3a3f4b"
+    },
+    {
+     "shape": "cone",
+     "at": [
+      2.35,
+      1.7,
+      -2.2
+     ],
+     "size": [
+      0.24,
+      0.32
+     ],
+     "color": "#ffe2a8",
+     "glow": 1
+    }
+   ],
+   "actors": [
+    {
+     "id": "suit",
+     "model": "Bizdude.vrm",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "tall": 1.75,
+     "pose": "type"
+    },
+    {
+     "id": "stonks",
+     "model": "StonksReporter.vrm",
+     "at": [
+      0.46,
+      0,
+      -0.32
+     ],
+     "yaw": -0.18,
+     "tall": 1.6,
+     "pose": "scroll"
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": {
+    "word": 0
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "blue",
+    "screen": "call",
+    "cam": [
+     {
+      "pos": [
+       0.9,
+       1.6,
+       5.4
+      ],
+      "look": [
+       0.0,
+       1.15,
+       -0.6
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.8,
+       1.58,
+       4.7
+      ],
+      "look": [
+       0,
+       1.15,
+       -0.6
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "label:0+suit:type",
+     "suit:type"
+    ],
+    "tags": [
+     {
+      "text": "March 2020",
+      "x": 540,
+      "y": 540,
+      "size": 84,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 0
+    },
+    {
+     "word": 1
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 3
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "blue",
+    "screen": "call",
+    "cam": [
+     {
+      "pos": [
+       0.5,
+       1.42,
+       2.5
+      ],
+      "look": [
+       0.1,
+       1.3,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.45,
+       1.42,
+       2.3
+      ],
+      "look": [
+       0.1,
+       1.32,
+       0
+      ],
+      "fov": 30,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:think",
+     "suit:genius"
+    ]
+   },
+   "beats": [
+    {
+     "word": 3
+    },
+    {
+     "word": 8
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 11
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "blue",
+    "screen": "call",
+    "shift": 60,
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "suit:type"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "scroll",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 11
+    },
+    {
+     "word": 15
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 17
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "blue",
+    "screen": "call",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.25,
+       1.5,
+       2.15
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": 1,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "suit:genius"
+    ]
+   },
+   "beats": [
+    {
+     "word": 17
+    },
+    {
+     "word": 21
+    }
+   ],
+   "sfx": [
+    {
+     "name": "ding",
+     "beat": 1,
+     "offset": 0.35,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 24
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "blue",
+    "screen": "call",
+    "cam": [
+     {
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.85,
+       1.4,
+       2.55
+      ],
+      "look": [
+       0.4,
+       1.4,
+       -0.2
+      ],
+      "fov": 36,
+      "beat": 2,
+      "dur": 8
+     }
+    ],
+    "actions": [
+     "stonks:scroll",
+     "suit:look:25",
+     "stonks:point+stonks:talk:0.7"
+    ]
+   },
+   "beats": [
+    {
+     "word": 24
+    },
+    {
+     "word": 26
+    },
+    {
+     "word": 27
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 29
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "blue",
+    "screen": "search",
+    "shift": 60,
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "suit:type",
+     "screen:result+suit:click",
+     "screen:bought"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "scroll",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 29
+    },
+    {
+     "word": 31
+    },
+    {
+     "word": 36
+    },
+    {
+     "word": 39
+    }
+   ],
+   "sfx": [
+    {
+     "name": "cash",
+     "beat": 3,
+     "offset": 0.1,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 40
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "blue",
+    "screen": "price",
+    "cam": [
+     {
+      "pos": [
+       2.0,
+       1.55,
+       3.6
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.8,
+       1.5,
+       3.3
+      ],
+      "look": [
+       0.2,
+       1.05,
+       0.2
+      ],
+      "fov": 40,
+      "beat": 1,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "label:0",
+     "label:1+suit:proud"
+    ],
+    "tags": [
+     {
+      "text": "about $3",
+      "x": 540,
+      "y": 520,
+      "size": 64,
+      "pill": true
+     },
+     {
+      "text": "over $20",
+      "x": 540,
+      "y": 630,
+      "size": 96,
+      "tone": "good",
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 40
+    },
+    {
+     "word": 45
+    },
+    {
+     "word": 49
+    }
+   ],
+   "long": true
+  },
+  {
+   "anchor": {
+    "word": 53
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "blue",
+    "screen": "price",
+    "shift": 60,
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:boats",
+     "suit:click"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "scroll",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 53
+    },
+    {
+     "word": 56
+    },
+    {
+     "word": 57
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 59
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "blue",
+    "screen": "boats",
+    "cam": [
+     {
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.5,
+       1.4,
+       2.8
+      ],
+      "look": [
+       0.24,
+       1.44,
+       0
+      ],
+      "fov": 38,
+      "beat": 1,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "suit:proud",
+     "stonks:phone"
+    ]
+   },
+   "beats": [
+    {
+     "word": 59
+    },
+    {
+     "word": 63,
+     "at": "end",
+     "plus": 0.25
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 64
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "blue",
+    "screen": "boats",
+    "shift": 60,
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "mood:night+screen:zm",
+     "suit:lean"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "phone",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 64
+    },
+    {
+     "word": 70
+    }
+   ],
+   "sfx": [
+    {
+     "name": "scratch",
+     "beat": 0,
+     "gain": 0.55
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 72
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "night",
+    "screen": "own",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.22,
+       1.52,
+       2.0
+      ],
+      "look": [
+       0,
+       1.52,
+       0
+      ],
+      "fov": 30,
+      "beat": 2,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "suit:think",
+     "label:0"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "phone"
+     }
+    ],
+    "tags": [
+     {
+      "text": "silent since 2015",
+      "x": 540,
+      "y": 560,
+      "size": 54,
+      "tone": "alert",
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 72
+    },
+    {
+     "word": 74
+    },
+    {
+     "word": 76
+    }
+   ],
+   "sfx": [
+    {
+     "name": "dun",
+     "beat": 1,
+     "offset": 0.5,
+     "gain": 0.4
+    }
+   ],
+   "long": true
+  },
+  {
+   "anchor": {
+    "word": 79
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "night",
+    "screen": "own",
+    "cam": [
+     {
+      "pos": [
+       0.5,
+       1.42,
+       2.5
+      ],
+      "look": [
+       0,
+       1.28,
+       0
+      ],
+      "fov": 28,
+      "beat": -1
+     }
+    ],
+    "actions": [
+     "suit:shrug+suit:talk:0.7"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "phone"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 79
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 80
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "night",
+    "screen": "own",
+    "cam": [
+     {
+      "pos": [
+       0.9,
+       1.6,
+       5.4
+      ],
+      "look": [
+       0.0,
+       1.15,
+       -0.6
+      ],
+      "fov": 40,
+      "beat": -1
+     }
+    ],
+    "actions": [
+     "label:0+suit:slump",
+     "label:1"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "phone"
+     }
+    ],
+    "tags": [
+     {
+      "text": "ZOOM",
+      "x": 330,
+      "y": 560,
+      "size": 110,
+      "tone": "alert",
+      "pill": true
+     },
+     {
+      "text": "ZM",
+      "x": 760,
+      "y": 560,
+      "size": 110,
+      "tone": "good",
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 80
+    },
+    {
+     "word": 82
+    }
+   ],
+   "sfx": [
+    {
+     "name": "trombone",
+     "beat": 0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 84
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "night",
+    "screen": "own",
+    "shift": 60,
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:race",
+     "suit:lean"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "phone",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 84
+    },
+    {
+     "word": 87
+    },
+    {
+     "word": 91
+    }
+   ],
+   "long": true
+  },
+  {
+   "anchor": {
+    "word": 97
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "night",
+    "screen": "halt",
+    "cam": [
+     {
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.55,
+       1.38,
+       2.9
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": 1,
+      "dur": 10
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "stamp+shake+suit:panic",
+     "stonks:shrug"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "phone"
+     }
+    ],
+    "stamp": {
+     "text": "frozen",
+     "x": 520,
+     "y": 1400,
+     "size": 150,
+     "tone": "accent",
+     "rot": -5
+    }
+   },
+   "beats": [
+    {
+     "word": 97
+    },
+    {
+     "word": 99
+    },
+    {
+     "word": 104
+    }
+   ],
+   "long": true
+  },
+  {
+   "anchor": {
+    "word": 110
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "night",
+    "screen": "halt",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     }
+    ],
+    "actions": [
+     "suit:click",
+     "suit:facepalm"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "phone"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 110
+    },
+    {
+     "word": 112
+    }
+   ],
+   "sfx": [
+    {
+     "name": "buzzer",
+     "beat": 0,
+     "offset": 0.25,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 113
+   },
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "long": true,
+   "props": {
+    "src": "fortune_headline.png",
+    "chrome": "browser",
+    "url": "fortune.com/2020/03/26/zoom-stock-halt-zm-ticker/",
+    "source": "Fortune · 26 March 2020",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 24,
+      "y": 98,
+      "w": 866,
+      "h": 262
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 30,
+      "y": 516,
+      "w": 320,
+      "h": 8
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 113
+    },
+    {
+     "word": 116
+    },
+    {
+     "word": 117,
+     "at": "end",
+     "plus": -0.25
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 118
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "day",
+    "screen": "y2019",
+    "cam": [
+     {
+      "pos": [
+       2.0,
+       1.55,
+       3.6
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.7,
+       1.5,
+       3.2
+      ],
+      "look": [
+       0.2,
+       1.05,
+       0.2
+      ],
+      "fov": 40,
+      "beat": 2,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "label:0",
+     "suit:click+stonks:scroll"
+    ],
+    "tags": [
+     {
+      "text": "April 2019",
+      "x": 540,
+      "y": 560,
+      "size": 84,
+      "tone": "warm",
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 118
+    },
+    {
+     "word": 120
+    },
+    {
+     "word": 121
+    }
+   ],
+   "sfx": [
+    {
+     "name": "whoosh",
+     "beat": 0,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 124
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "day",
+    "screen": "y2019",
+    "shift": 60,
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.93,
+       0.82
+      ],
+      "fov": 73,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "label:0"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "scroll",
+      "hidden": true
+     }
+    ],
+    "tags": [
+     {
+      "text": "read the whole name",
+      "x": 540,
+      "y": 520,
+      "size": 52,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 124
+    },
+    {
+     "word": 126
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 128
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "room",
+    "mood": "day",
+    "screen": "y2019",
+    "cam": [
+     {
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.85,
+       1.4,
+       2.6
+      ],
+      "look": [
+       0.4,
+       1.4,
+       -0.2
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 10
+     }
+    ],
+    "actions": [
+     "stonks:phone+stonks:talk:1.1",
+     "suit:facepalm"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "phone"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 128
+    },
+    {
+     "word": 129
+    }
+   ]
+  }
+ ]
+}
