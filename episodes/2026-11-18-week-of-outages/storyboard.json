@@ -1,0 +1,1312 @@
+{
+ "slug": "week-of-outages",
+ "format": "documentary",
+ "topic_source": "breaking",
+ "theme": "dark",
+ "tail": 0.9,
+ "captionStyle": "kinetic",
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "ms",
+     "kind": "server",
+     "at": [
+      -4.4,
+      0
+     ]
+    },
+    {
+     "id": "faa",
+     "kind": "server",
+     "at": [
+      -2.2,
+      0
+     ]
+    },
+    {
+     "id": "chase",
+     "kind": "server",
+     "at": [
+      0,
+      0
+     ]
+    },
+    {
+     "id": "apple",
+     "kind": "server",
+     "at": [
+      2.2,
+      0
+     ]
+    },
+    {
+     "id": "nsa",
+     "kind": "server",
+     "at": [
+      4.4,
+      0
+     ],
+     "tone": "ice"
+    },
+    {
+     "id": "ai",
+     "kind": "block",
+     "at": [
+      0,
+      2.4
+     ],
+     "icon": "eye",
+     "tone": "accent"
+    }
+   ],
+   "hidden": [
+    "ai"
+   ]
+  }
+ },
+ "emphasis": [
+  "six days,",
+  "not an attack.",
+  "worldwide.",
+  "network upgrade.",
+  "every departing flight",
+  "nine eleven.",
+  "slow down.",
+  "not a cyberattack.",
+  "Apple Pay",
+  "internal update.",
+  "classified network",
+  "spy agency,",
+  "routine maintenance.",
+  "Jay Clayton,",
+  "\"This is not a cyberattack.\"",
+  "finds security holes faster.",
+  "down and back up,",
+  "only way to pay,",
+  "bad update",
+  "second way to pay."
+ ],
+ "scenes": [
+  {
+   "anchor": "In",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "actions": [
+     "tag:0",
+     "label:0",
+     "off:ms",
+     "label:1",
+     "off:faa",
+     "label:2",
+     "off:chase",
+     "label:3",
+     "off:apple"
+    ],
+    "labels": [
+     {
+      "text": "Microsoft",
+      "at": "ms",
+      "side": "left",
+      "dy": -110
+     },
+     {
+      "text": "FAA",
+      "at": "faa",
+      "side": "up",
+      "dy": -280
+     },
+     {
+      "text": "Chase",
+      "at": "chase",
+      "side": "up",
+      "dy": -150
+     },
+     {
+      "text": "Apple",
+      "at": "apple",
+      "side": "right",
+      "dy": -280
+     }
+    ],
+    "tags": [
+     {
+      "text": "6 DAYS",
+      "x": 540,
+      "y": 1240,
+      "tone": "alert",
+      "size": 110,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -0.4,
+       0.3,
+       0
+      ],
+      "zoom": 76
+     },
+     {
+      "beat": 5,
+      "target": [
+       0.4,
+       0.3,
+       0
+      ],
+      "zoom": 82,
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "In",
+    "Microsoft,",
+    "America's",
+    "air",
+    "control,",
+    "Chase",
+    "bank",
+    "Apple",
+    "all"
+   ]
+  },
+  {
+   "anchor": "and officials",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "gma_head.png",
+    "url": "goodmorningamerica.com/news/story/national-intelligence-director-signs-cyberattack-amid-tech-outage-138229967",
+    "source": "Good Morning America (ABC News) \u00b7 18 Nov 2026",
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.49,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.53,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 500,
+      "y": 440,
+      "w": 1260,
+      "h": 70
+     }
+    ]
+   },
+   "beats": [
+    "officials",
+    "say:",
+    "not"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "Thursday:",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "ok": {
+      "head": "OUTLOOK",
+      "big": "INBOX",
+      "tone": "good",
+      "sub": "Thursday 12 Nov"
+     },
+     "down": {
+      "head": "OUTLOOK + TEAMS",
+      "big": "DOWN",
+      "tone": "alert",
+      "sub": "worldwide"
+     }
+    },
+    "screen": "ok",
+    "actions": [
+     "screen:down",
+     "suit:facepalm"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 1,
+      "pos": [
+       2.0,
+       1.55,
+       3.6
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "Outlook",
+    "worldwide."
+   ]
+  },
+  {
+   "anchor": "Microsoft blames",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "source": "Microsoft statement, 13 Nov 2026 \u00b7 via BleepingComputer",
+    "text": "\u201cThe incident was introduced by an issue during an earlier network capacity upgrade\u201d",
+    "mark": "network capacity upgrade",
+    "note": "Exact words"
+   },
+   "beats": [
+    "Microsoft",
+    "network",
+    "upgrade."
+   ]
+  },
+  {
+   "anchor": "Friday:",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "off": [
+      "ms"
+     ]
+    },
+    "actions": [
+     "label:0",
+     "off:faa"
+    ],
+    "labels": [
+     {
+      "text": "FAA: runs air traffic control",
+      "at": "faa",
+      "side": "right",
+      "dy": -200,
+      "tone": "accent"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.2,
+       0.3,
+       0
+      ],
+      "zoom": 80
+     },
+     {
+      "beat": 0,
+      "target": [
+       -2.2,
+       0.4,
+       0
+      ],
+      "zoom": 120,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "FAA,",
+    "control,"
+   ]
+  },
+  {
+   "anchor": "stops every",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "blue",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "board": {
+      "head": "DEPARTURES",
+      "big": "ON TIME",
+      "tone": "good",
+      "sub": "all US airports"
+     },
+     "held": {
+      "head": "DEPARTURES \u00b7 13 NOV",
+      "big": "HELD",
+      "tone": "alert",
+      "sub": "nationwide ground stop"
+     }
+    },
+    "screen": "board",
+    "actions": [
+     "screen:held",
+     "suit:shrug"
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "stops",
+    "America."
+   ]
+  },
+  {
+   "anchor": "Only once",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "faa.png",
+    "url": "wrdw.com/2026/11/14/faa-issues-nationwide-ground-stop-second-time-since-911-what-know/",
+    "source": "WRDW / Gray News \u00b7 13 Nov 2026, 7:58 PM ET",
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.49,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 640,
+      "y": 125,
+      "w": 520,
+      "h": 110
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 0,
+      "y": 245,
+      "w": 920,
+      "h": 110
+     }
+    ]
+   },
+   "beats": [
+    "Only",
+    "nine"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "Monday:",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "src": "chase.png",
+    "url": "chicago.suntimes.com/business/2026/11/16/a-technical-issue-at-jpmorgan-chase-triggers-online-banking-delays-across-major-us-banks",
+    "source": "AP via Chicago Sun-Times \u00b7 16 Nov 2026",
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.49,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.53,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5700000000000001,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 0,
+      "y": 10,
+      "w": 690,
+      "h": 95
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 0,
+      "y": 105,
+      "w": 1160,
+      "h": 310
+     }
+    ]
+   },
+   "beats": [
+    "Monday:",
+    "slow",
+    "Chase",
+    "cyberattack."
+   ],
+   "long": true,
+   "moving": true
+  },
+  {
+   "anchor": "Tuesday:",
+   "component": "Shot",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "src": "apple.png",
+    "url": "9to5mac.com/2026/11/17/icloud-app-store-and-other-apple-services-hit-by-ongoing-outage/",
+    "source": "9to5Mac \u00b7 17 Nov 2026",
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.49,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.53,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 0,
+      "y": 8,
+      "w": 820,
+      "h": 105
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 0,
+      "y": 110,
+      "w": 1100,
+      "h": 220
+     }
+    ],
+    "tags": []
+   },
+   "beats": [
+    "Tuesday:",
+    "iCloud,",
+    "Pay"
+   ],
+   "moving": true
+  },
+  {
+   "anchor": "Apple blames",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "source": "Apple statement, 17 Nov 2026 \u00b7 via The Independent / The Apple Post",
+    "text": "\u201cMany of our systems are back up and running after an internal update caused some outages.\u201d",
+    "mark": "an internal update",
+    "note": "Exact words"
+   },
+   "beats": [
+    "Apple",
+    "update."
+   ]
+  },
+  {
+   "anchor": "Same day,",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "off": [
+      "ms",
+      "faa",
+      "chase",
+      "apple"
+     ]
+    },
+    "actions": [
+     "label:0",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "NSA \u00b7 America's spy agency",
+      "at": "nsa",
+      "side": "up",
+      "dy": -300,
+      "tone": "accent"
+     },
+     {
+      "text": "a classified network",
+      "at": "nsa",
+      "side": "up",
+      "dy": -200
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       2.0,
+       0.3,
+       0
+      ],
+      "zoom": 75
+     },
+     {
+      "beat": 0,
+      "target": [
+       4.0,
+       0.6,
+       0
+      ],
+      "zoom": 110,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "classified",
+    "spy"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "goes dark",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "off": [
+      "ms",
+      "faa",
+      "chase",
+      "apple"
+     ]
+    },
+    "actions": [
+     "off:nsa",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "NSA: \u201cscheduled routine maintenance\u201d",
+      "at": "nsa",
+      "side": "up",
+      "dy": -260,
+      "tone": "alert"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       4.0,
+       0.6,
+       0
+      ],
+      "zoom": 110
+     },
+     {
+      "beat": 0,
+      "target": [
+       1.5,
+       0.3,
+       0
+      ],
+      "zoom": 64,
+      "dur": 60
+     }
+    ]
+   },
+   "beats": [
+    "dark",
+    "maintenance."
+   ]
+  },
+  {
+   "anchor": "America's intelligence",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "gma_q2.png",
+    "url": "goodmorningamerica.com/news/story/national-intelligence-director-signs-cyberattack-amid-tech-outage-138229967",
+    "source": "Good Morning America (ABC News) \u00b7 Clayton on CNBC, 17 Nov 2026",
+    "chrome": "card",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.49,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.53,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5700000000000001,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 20,
+      "y": 30,
+      "w": 1060,
+      "h": 70
+     }
+    ]
+   },
+   "beats": [
+    "America's",
+    "Clayton,",
+    "This",
+    "cyberattack.\""
+   ],
+   "long": true,
+   "moving": true
+  },
+  {
+   "anchor": "His view:",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "actions": [
+     "show:ai",
+     "label:0",
+     "pulse:ai"
+    ],
+    "labels": [
+     {
+      "text": "his view: A.I. finds security holes faster",
+      "at": "ai",
+      "side": "up",
+      "dy": -260,
+      "tone": "accent"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0,
+       0.3,
+       1.0
+      ],
+      "zoom": 100
+     }
+    ]
+   },
+   "beats": [
+    "His",
+    "A.",
+    "holes"
+   ]
+  },
+  {
+   "anchor": "Fixing them",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [],
+    "actions": [
+     "label:0",
+     "off:chase",
+     "good:apple"
+    ],
+    "labels": [
+     {
+      "text": "fix = take it down, bring it back up",
+      "at": "chase",
+      "side": "up",
+      "dy": -240,
+      "tone": "warm"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       1.0,
+       0.3,
+       0.6
+      ],
+      "zoom": 90
+     }
+    ]
+   },
+   "beats": [
+    "Fixing",
+    "down",
+    "back"
+   ]
+  },
+  {
+   "anchor": "and he says",
+   "component": "Quote",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "source": "Jay Clayton, Director of National Intelligence, on CNBC \u00b7 17 Nov 2026 (via ABC News)",
+    "text": "\u201cAs you patch and upgrade your systems, taking them down and bringing them back up, there are things like this that happened.\u201d",
+    "mark": "taking them down",
+    "note": "Exact words"
+   },
+   "beats": [
+    "he",
+    "when",
+    "happen."
+   ]
+  },
+  {
+   "anchor": "If one",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "set": "studio",
+    "mood": "pink",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.5,
+       0.9
+      ],
+      "size": [
+       1.8,
+       1.0,
+       0.6
+      ],
+      "color": "#c9b49a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       1.02,
+       0.9
+      ],
+      "size": [
+       1.9,
+       0.05,
+       0.7
+      ],
+      "color": "#6b4f3a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.55,
+       1.13,
+       0.85
+      ],
+      "size": [
+       0.28,
+       0.18,
+       0.22
+      ],
+      "color": "#2b2f38"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       0.55,
+       1.2,
+       0.97
+      ],
+      "size": [
+       0.2,
+       0.1
+      ],
+      "color": "#ff5b6b",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.6,
+       1.1,
+       -1.6
+      ],
+      "size": [
+       1.0,
+       2.2,
+       0.5
+      ],
+      "color": "#e8d9c4"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.7,
+       0.4,
+       -1.3
+      ],
+      "size": [
+       0.25,
+       0.8
+      ],
+      "color": "#7aa36b"
+     }
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       -0.1
+      ],
+      "tall": 1.75,
+      "pose": "scroll"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "actions": [
+     "label:0",
+     "suit:panic",
+     "stamp"
+    ],
+    "tags": [
+     {
+      "text": "ONE WAY TO PAY",
+      "x": 540,
+      "y": 520,
+      "tone": "accent",
+      "size": 56,
+      "pill": true
+     }
+    ],
+    "stamp": {
+     "text": "DECLINED",
+     "x": 540,
+     "y": 1450,
+     "size": 120,
+     "tone": "alert",
+     "rot": -6
+    },
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.5,
+       1.42,
+       2.9
+      ],
+      "look": [
+       0,
+       1.28,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.4,
+       1.42,
+       2.4
+      ],
+      "look": [
+       0,
+       1.3,
+       0
+      ],
+      "fov": 28,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "one",
+    "update",
+    "stops"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "like Apple's",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "studio",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.5,
+       0.9
+      ],
+      "size": [
+       1.8,
+       1.0,
+       0.6
+      ],
+      "color": "#c9b49a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       1.02,
+       0.9
+      ],
+      "size": [
+       1.9,
+       0.05,
+       0.7
+      ],
+      "color": "#6b4f3a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.55,
+       1.13,
+       0.85
+      ],
+      "size": [
+       0.28,
+       0.18,
+       0.22
+      ],
+      "color": "#2b2f38"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       0.55,
+       1.2,
+       0.97
+      ],
+      "size": [
+       0.2,
+       0.1
+      ],
+      "color": "#ff5b6b",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.6,
+       1.1,
+       -1.6
+      ],
+      "size": [
+       1.0,
+       2.2,
+       0.5
+      ],
+      "color": "#e8d9c4"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.7,
+       0.4,
+       -1.3
+      ],
+      "size": [
+       0.25,
+       0.8
+      ],
+      "color": "#7aa36b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.25,
+       1.08,
+       0.75
+      ],
+      "size": [
+       0.34,
+       0.01,
+       0.22
+      ],
+      "color": "#3bc9ee"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.15,
+       1.08,
+       0.75
+      ],
+      "size": [
+       0.34,
+       0.012,
+       0.18
+      ],
+      "color": "#7fc77f"
+     }
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       -0.1
+      ],
+      "tall": 1.75,
+      "pose": "shrug"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "actions": [
+     "suit:shrug",
+     "label:0",
+     "suit:proud"
+    ],
+    "tags": [
+     {
+      "text": "PLAN B: CARD + CASH",
+      "x": 540,
+      "y": 520,
+      "tone": "good",
+      "size": 52,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.4,
+       1.5,
+       4.6
+      ],
+      "look": [
+       0.1,
+       1.0,
+       0.3
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.9,
+       1.45,
+       3.6
+      ],
+      "look": [
+       0,
+       1.0,
+       0.5
+      ],
+      "fov": 34,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "like",
+    "Keep",
+    "pay."
+   ]
+  }
+ ]
+}

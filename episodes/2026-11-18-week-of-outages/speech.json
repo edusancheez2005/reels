@@ -1,0 +1,104 @@
+[
+ {
+  "speaker": "narrator",
+  "text": "In six days, Microsoft, America's air traffic control, Chase bank and Apple all broke, and officials had to say: this is not an attack.",
+  "startMs": 80,
+  "endMs": 8760
+ },
+ {
+  "speaker": "narrator",
+  "text": "Thursday: Outlook and Teams go down worldwide.",
+  "startMs": 8940,
+  "endMs": 11700
+ },
+ {
+  "speaker": "narrator",
+  "text": "Microsoft blames a network upgrade.",
+  "startMs": 11880,
+  "endMs": 14070
+ },
+ {
+  "speaker": "narrator",
+  "text": "Friday: the FAA, which runs air traffic control, stops every departing flight in America.",
+  "startMs": 14250,
+  "endMs": 19900
+ },
+ {
+  "speaker": "narrator",
+  "text": "Only once before since nine eleven.",
+  "startMs": 20080,
+  "endMs": 22110
+ },
+ {
+  "speaker": "narrator",
+  "text": "Monday: Chase payments slow down.",
+  "startMs": 22290,
+  "endMs": 24180
+ },
+ {
+  "speaker": "narrator",
+  "text": "Chase says it's not a cyberattack.",
+  "startMs": 24360,
+  "endMs": 26200
+ },
+ {
+  "speaker": "narrator",
+  "text": "Tuesday: iCloud, the App Store and Apple Pay stall.",
+  "startMs": 26380,
+  "endMs": 29470
+ },
+ {
+  "speaker": "narrator",
+  "text": "Apple blames an internal update.",
+  "startMs": 29650,
+  "endMs": 31490
+ },
+ {
+  "speaker": "narrator",
+  "text": "Same day, a classified network at the NSA, America's spy agency, goes dark during routine maintenance.",
+  "startMs": 31670,
+  "endMs": 38900
+ },
+ {
+  "speaker": "narrator",
+  "text": "America's intelligence chief, Jay Clayton, says: \"This is not a cyberattack.\"",
+  "startMs": 39080,
+  "endMs": 43680
+ },
+ {
+  "speaker": "narrator",
+  "text": "His view: A.",
+  "startMs": 43860,
+  "endMs": 44770
+ },
+ {
+  "speaker": "narrator",
+  "text": "I.",
+  "startMs": 44950,
+  "endMs": 45400
+ },
+ {
+  "speaker": "narrator",
+  "text": "now finds security holes faster.",
+  "startMs": 45580,
+  "endMs": 47540
+ },
+ {
+  "speaker": "narrator",
+  "text": "Fixing them means taking systems down and back up, and he says that's when things like this happen.",
+  "startMs": 47720,
+  "endMs": 53170
+ },
+ {
+  "speaker": "narrator",
+  "text": "If one app or card is your only way to pay, one bad update stops you, like Apple's did.",
+  "startMs": 53350,
+  "endMs": 59070
+ },
+ {
+  "speaker": "narrator",
+  "text": "Keep a second way to pay.",
+  "startMs": 59250,
+  "endMs": 60640
+ }
+]

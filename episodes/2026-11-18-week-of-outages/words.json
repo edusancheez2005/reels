@@ -1,0 +1,1122 @@
+[
+ {
+  "text": "In",
+  "startMs": 80,
+  "endMs": 260,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " six",
+  "startMs": 260,
+  "endMs": 520,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " days,",
+  "startMs": 520,
+  "endMs": 869,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Microsoft,",
+  "startMs": 1060,
+  "endMs": 1901,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " America's",
+  "startMs": 2140,
+  "endMs": 2690,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " air",
+  "startMs": 2690,
+  "endMs": 2780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " traffic",
+  "startMs": 2780,
+  "endMs": 3297,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " control,",
+  "startMs": 3310,
+  "endMs": 3843,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Chase",
+  "startMs": 4010,
+  "endMs": 4400,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bank",
+  "startMs": 4400,
+  "endMs": 4754,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 4780,
+  "endMs": 4936,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Apple",
+  "startMs": 4950,
+  "endMs": 5140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " all",
+  "startMs": 5140,
+  "endMs": 5450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " broke,",
+  "startMs": 5450,
+  "endMs": 5846,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 6090,
+  "endMs": 6270,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " officials",
+  "startMs": 6270,
+  "endMs": 6730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 6730,
+  "endMs": 7000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 7000,
+  "endMs": 7180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " say:",
+  "startMs": 7180,
+  "endMs": 7425,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " this",
+  "startMs": 7620,
+  "endMs": 7910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 7910,
+  "endMs": 8030,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 8030,
+  "endMs": 8335,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 8340,
+  "endMs": 8410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " attack.",
+  "startMs": 8410,
+  "endMs": 8760,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Thursday:",
+  "startMs": 8940,
+  "endMs": 9410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Outlook",
+  "startMs": 9640,
+  "endMs": 10020,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 10020,
+  "endMs": 10230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Teams",
+  "startMs": 10230,
+  "endMs": 10540,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " go",
+  "startMs": 10540,
+  "endMs": 10819,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " down",
+  "startMs": 10820,
+  "endMs": 11110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " worldwide.",
+  "startMs": 11110,
+  "endMs": 11700,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Microsoft",
+  "startMs": 11880,
+  "endMs": 12610,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " blames",
+  "startMs": 12610,
+  "endMs": 12980,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 12980,
+  "endMs": 13172,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " network",
+  "startMs": 13260,
+  "endMs": 13621,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " upgrade.",
+  "startMs": 13640,
+  "endMs": 14070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Friday:",
+  "startMs": 14250,
+  "endMs": 14731,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 14970,
+  "endMs": 15090,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FAA,",
+  "startMs": 15090,
+  "endMs": 15332,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " which",
+  "startMs": 15590,
+  "endMs": 15850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " runs",
+  "startMs": 15850,
+  "endMs": 16173,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " air",
+  "startMs": 16210,
+  "endMs": 16354,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " traffic",
+  "startMs": 16420,
+  "endMs": 16774,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " control,",
+  "startMs": 16780,
+  "endMs": 17315,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stops",
+  "startMs": 17560,
+  "endMs": 17930,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 17930,
+  "endMs": 18250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " departing",
+  "startMs": 18250,
+  "endMs": 18878,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " flight",
+  "startMs": 18920,
+  "endMs": 19239,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 19240,
+  "endMs": 19419,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " America.",
+  "startMs": 19420,
+  "endMs": 19900,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Only",
+  "startMs": 20080,
+  "endMs": 20370,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " once",
+  "startMs": 20370,
+  "endMs": 20718,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " before",
+  "startMs": 20720,
+  "endMs": 21124,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " since",
+  "startMs": 21130,
+  "endMs": 21300,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nine",
+  "startMs": 21300,
+  "endMs": 21700,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eleven.",
+  "startMs": 21700,
+  "endMs": 22110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Monday:",
+  "startMs": 22290,
+  "endMs": 22658,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Chase",
+  "startMs": 22880,
+  "endMs": 23140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " payments",
+  "startMs": 23140,
+  "endMs": 23655,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " slow",
+  "startMs": 23660,
+  "endMs": 23918,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " down.",
+  "startMs": 23980,
+  "endMs": 24180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Chase",
+  "startMs": 24360,
+  "endMs": 24695,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " says",
+  "startMs": 24700,
+  "endMs": 24910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it's",
+  "startMs": 24910,
+  "endMs": 25085,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 25110,
+  "endMs": 25364,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 25380,
+  "endMs": 25500,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cyberattack.",
+  "startMs": 25500,
+  "endMs": 26200,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Tuesday:",
+  "startMs": 26380,
+  "endMs": 26838,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " iCloud,",
+  "startMs": 27050,
+  "endMs": 27582,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 27810,
+  "endMs": 27925,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " App",
+  "startMs": 27990,
+  "endMs": 28097,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Store",
+  "startMs": 28130,
+  "endMs": 28440,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 28440,
+  "endMs": 28612,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Apple",
+  "startMs": 28660,
+  "endMs": 28898,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Pay",
+  "startMs": 28900,
+  "endMs": 29127,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stall.",
+  "startMs": 29160,
+  "endMs": 29470,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Apple",
+  "startMs": 29650,
+  "endMs": 29957,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " blames",
+  "startMs": 29960,
+  "endMs": 30386,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 30400,
+  "endMs": 30509,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " internal",
+  "startMs": 30510,
+  "endMs": 31050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " update.",
+  "startMs": 31050,
+  "endMs": 31490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Same",
+  "startMs": 31670,
+  "endMs": 31982,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " day,",
+  "startMs": 32000,
+  "endMs": 32231,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 32450,
+  "endMs": 32667,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " classified",
+  "startMs": 32670,
+  "endMs": 33353,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " network",
+  "startMs": 33410,
+  "endMs": 33850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 33850,
+  "endMs": 33976,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 34010,
+  "endMs": 34100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " NSA,",
+  "startMs": 34100,
+  "endMs": 34662,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " America's",
+  "startMs": 34830,
+  "endMs": 35470,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " spy",
+  "startMs": 35470,
+  "endMs": 35780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " agency,",
+  "startMs": 35780,
+  "endMs": 36345,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " goes",
+  "startMs": 36590,
+  "endMs": 36906,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dark",
+  "startMs": 36930,
+  "endMs": 37279,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " during",
+  "startMs": 37330,
+  "endMs": 37716,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " routine",
+  "startMs": 37720,
+  "endMs": 38210,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " maintenance.",
+  "startMs": 38210,
+  "endMs": 38900,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " America's",
+  "startMs": 39080,
+  "endMs": 39585,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " intelligence",
+  "startMs": 39590,
+  "endMs": 40258,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " chief,",
+  "startMs": 40260,
+  "endMs": 40595,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Jay",
+  "startMs": 40790,
+  "endMs": 41100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Clayton,",
+  "startMs": 41100,
+  "endMs": 41548,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " says:",
+  "startMs": 41770,
+  "endMs": 41997,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " \"This",
+  "startMs": 42220,
+  "endMs": 42446,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 42450,
+  "endMs": 42558,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 42560,
+  "endMs": 42839,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 42850,
+  "endMs": 43007,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cyberattack.\"",
+  "startMs": 43010,
+  "endMs": 43680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " His",
+  "startMs": 43860,
+  "endMs": 44088,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " view:",
+  "startMs": 44090,
+  "endMs": 44372,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A.",
+  "startMs": 44600,
+  "endMs": 44770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " I.",
+  "startMs": 44950,
+  "endMs": 45400,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " now",
+  "startMs": 45580,
+  "endMs": 45811,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " finds",
+  "startMs": 45820,
+  "endMs": 46214,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " security",
+  "startMs": 46220,
+  "endMs": 46848,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " holes",
+  "startMs": 46850,
+  "endMs": 47194,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " faster.",
+  "startMs": 47220,
+  "endMs": 47540,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Fixing",
+  "startMs": 47720,
+  "endMs": 48144,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " them",
+  "startMs": 48160,
+  "endMs": 48386,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " means",
+  "startMs": 48390,
+  "endMs": 48720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " taking",
+  "startMs": 48720,
+  "endMs": 49173,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " systems",
+  "startMs": 49260,
+  "endMs": 49580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " down",
+  "startMs": 49580,
+  "endMs": 49960,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 49960,
+  "endMs": 50142,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " back",
+  "startMs": 50250,
+  "endMs": 50384,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " up,",
+  "startMs": 50430,
+  "endMs": 50566,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 50810,
+  "endMs": 50950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " he",
+  "startMs": 50950,
+  "endMs": 51140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " says",
+  "startMs": 51140,
+  "endMs": 51414,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that's",
+  "startMs": 51460,
+  "endMs": 51717,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " when",
+  "startMs": 51750,
+  "endMs": 51959,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " things",
+  "startMs": 51960,
+  "endMs": 52262,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " like",
+  "startMs": 52300,
+  "endMs": 52560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " this",
+  "startMs": 52560,
+  "endMs": 52780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " happen.",
+  "startMs": 52780,
+  "endMs": 53170,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " If",
+  "startMs": 53350,
+  "endMs": 53480,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 53480,
+  "endMs": 53740,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " app",
+  "startMs": 53740,
+  "endMs": 53935,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " or",
+  "startMs": 53980,
+  "endMs": 54130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " card",
+  "startMs": 54190,
+  "endMs": 54520,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 54520,
+  "endMs": 54650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 54650,
+  "endMs": 54845,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " only",
+  "startMs": 54890,
+  "endMs": 55230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " way",
+  "startMs": 55230,
+  "endMs": 55495,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 55520,
+  "endMs": 55690,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pay,",
+  "startMs": 55690,
+  "endMs": 55950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 56210,
+  "endMs": 56470,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bad",
+  "startMs": 56540,
+  "endMs": 56730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " update",
+  "startMs": 56760,
+  "endMs": 57185,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stops",
+  "startMs": 57200,
+  "endMs": 57580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you,",
+  "startMs": 57580,
+  "endMs": 57835,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " like",
+  "startMs": 58090,
+  "endMs": 58420,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Apple's",
+  "startMs": 58500,
+  "endMs": 58810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " did.",
+  "startMs": 58810,
+  "endMs": 59070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Keep",
+  "startMs": 59250,
+  "endMs": 59517,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 59520,
+  "endMs": 59650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " second",
+  "startMs": 59650,
+  "endMs": 60050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " way",
+  "startMs": 60050,
+  "endMs": 60266,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 60270,
+  "endMs": 60426,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pay.",
+  "startMs": 60490,
+  "endMs": 60640,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

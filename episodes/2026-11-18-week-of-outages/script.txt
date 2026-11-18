@@ -1,0 +1,9 @@
+In six days, Microsoft, America's air traffic control, Chase bank and Apple all broke, and officials had to say: this is not an attack.
+Thursday: Outlook and Teams go down worldwide. Microsoft blames a network upgrade.
+Friday: the FAA, which runs air traffic control, stops every departing flight in America. Only once before since nine eleven.
+Monday: Chase payments slow down. Chase says it's not a cyberattack.
+Tuesday: iCloud, the App Store and Apple Pay stall. Apple blames an internal update.
+Same day, a classified network at the NSA, America's spy agency, goes dark during routine maintenance.
+America's intelligence chief, Jay Clayton, says: "This is not a cyberattack."
+His view: A.I. now finds security holes faster. Fixing them means taking systems down and back up, and he says that's when things like this happen.
+If one app or card is your only way to pay, one bad update stops you, like Apple's did. Keep a second way to pay.

@@ -66,3 +66,4 @@
 - [ ] The DAO hack (2016): $60M, and why Ethereum split in two (was planned for Sat 21 Nov; replaced by a skit on 17 Nov)
 - [x] Skit: how to lose $50M with one copy and paste (address poisoning, the 19 Dec 2025 case), with the suit guy and Stonks (2026-11-17-genius-copy-paste)
 - [x] Skit: the pay cut — the bitcoin halving told as your job (office): 50 → 25 → 12.5 → 6.25 → 3.125 BTC a block, next ~2028 (2026-11-18-the-pay-cut)
+- [x] Breaking: a week of US tech outages (Microsoft, FAA, Chase, Apple, NSA, 12–17 Nov 2026); DNI Clayton: not a cyberattack (2026-11-18-week-of-outages)
