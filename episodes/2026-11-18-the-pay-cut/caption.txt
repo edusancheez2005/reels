@@ -1,0 +1,8 @@
+Bitcoin miners get their pay cut in half about every four years, and nobody signs it off. It's called the halving.
+In 2009 every new block paid 50 new bitcoin. Then 25 in 2012, 12.5 in 2016, 6.25 in 2020 and 3.125 since block 840,000 in April 2024. The code halves the new coins every 210,000 blocks, which is why only 21 million will ever exist. The next cut is due around 2028.
+The suit guy and his "boss" are made up. The numbers are real.
+Follow for crypto, explained simply.
+Not financial advice.
+#Bitcoin #BitcoinHalving #Crypto #CryptoForBeginners #Sonar
+
+Sources: Blockstream Help, "What is the Bitcoin halving" (every 210,000 blocks; past halving dates and rewards; next at block 1,050,000) - blockchain.com explorer, block 840,000 (20 Apr 2024 00:09 UTC, mining reward 3.125 BTC, 4th halving) - The Block, 20 Apr 2024 (fourth halving, 6.25 to 3.125 BTC) - learnmeabitcoin, "Block reward" (50 BTC start, halving table, ~13 Apr 2028 estimate, 20,999,999.9769 BTC total) - Bitcoin Wiki, Genesis block (3 Jan 2009, 50 BTC) - bitref.com halving countdown.

@@ -1,0 +1,8309 @@
+{
+ "slug": "the-pay-cut",
+ "format": "skit",
+ "genre": "office",
+ "topic_source": "plan",
+ "theme": "light",
+ "tail": 1.0,
+ "emphasis": [
+  "half",
+  "everybody claps.",
+  "fifty",
+  "boss walks in.",
+  "Twenty-five!",
+  "clap too.",
+  "twelve and a half.",
+  "coffee machine.",
+  "six and a quarter.",
+  "your chair.",
+  "three point one two five.",
+  "Standing desk.",
+  "never been prouder.",
+  "One problem.",
+  "no boss.",
+  "four years",
+  "twenty-one million",
+  "still clapping.",
+  "Again!",
+  "April 2024,",
+  "2028.",
+  "Nobody decides it."
+ ],
+ "scenes": [
+  {
+   "anchor": "You have the only",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "idle",
+    "cam": [
+     {
+      "pos": [
+       0.9,
+       1.6,
+       5.4
+      ],
+      "look": [
+       0.0,
+       1.15,
+       -0.6
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.8,
+       1.58,
+       4.7
+      ],
+      "look": [
+       0.0,
+       1.15,
+       -0.6
+      ],
+      "fov": 40,
+      "beat": 1,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "label:0+suit:type",
+     "suit:think"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "clap",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.12,
+       -0.55
+      ],
+      "size": [
+       0.32,
+       0.44,
+       0.3
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.0,
+       -0.38
+      ],
+      "size": [
+       0.2,
+       0.04,
+       0.12
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.55,
+       0.95,
+       -0.36
+      ],
+      "size": [
+       0.04,
+       0.09
+      ],
+      "color": "#f4f1ea"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.47,
+       1.26,
+       -0.395
+      ],
+      "size": [
+       0.018
+      ],
+      "color": "#ff3b30",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.03,
+       -0.5
+      ],
+      "size": [
+       0.28,
+       0.04
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.27,
+       -0.5
+      ],
+      "size": [
+       0.035,
+       0.45
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.52,
+       -0.5
+      ],
+      "size": [
+       0.52,
+       0.08,
+       0.5
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.92,
+       -0.76
+      ],
+      "size": [
+       0.5,
+       0.66,
+       0.07
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "tags": [
+     {
+      "text": "50% pay cut",
+      "x": 540,
+      "y": 520,
+      "tone": "alert",
+      "size": 84,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "You",
+    "cuts"
+   ]
+  },
+  {
+   "anchor": "every four years, and everybody",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "idle",
+    "cam": [
+     {
+      "pos": [
+       1.15,
+       1.4,
+       4.0
+      ],
+      "look": [
+       0.7,
+       1.25,
+       0.35
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.1,
+       1.42,
+       3.7
+      ],
+      "look": [
+       0.7,
+       1.25,
+       0.35
+      ],
+      "fov": 40,
+      "beat": 2,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "suit:think",
+     "stonks:in+stonks:clap",
+     "suit:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "clap",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.12,
+       -0.55
+      ],
+      "size": [
+       0.32,
+       0.44,
+       0.3
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.0,
+       -0.38
+      ],
+      "size": [
+       0.2,
+       0.04,
+       0.12
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.55,
+       0.95,
+       -0.36
+      ],
+      "size": [
+       0.04,
+       0.09
+      ],
+      "color": "#f4f1ea"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.47,
+       1.26,
+       -0.395
+      ],
+      "size": [
+       0.018
+      ],
+      "color": "#ff3b30",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.03,
+       -0.5
+      ],
+      "size": [
+       0.28,
+       0.04
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.27,
+       -0.5
+      ],
+      "size": [
+       0.035,
+       0.45
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.52,
+       -0.5
+      ],
+      "size": [
+       0.52,
+       0.08,
+       0.5
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.92,
+       -0.76
+      ],
+      "size": [
+       0.5,
+       0.66,
+       0.07
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ]
+   },
+   "beats": [
+    "every",
+    "everybody",
+    "claps."
+   ]
+  },
+  {
+   "anchor": "You mine bitcoin.",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "idle",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.25,
+       1.5,
+       2.1
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "suit:lean"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.12,
+       -0.55
+      ],
+      "size": [
+       0.32,
+       0.44,
+       0.3
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.0,
+       -0.38
+      ],
+      "size": [
+       0.2,
+       0.04,
+       0.12
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.55,
+       0.95,
+       -0.36
+      ],
+      "size": [
+       0.04,
+       0.09
+      ],
+      "color": "#f4f1ea"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.47,
+       1.26,
+       -0.395
+      ],
+      "size": [
+       0.018
+      ],
+      "color": "#ff3b30",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.03,
+       -0.5
+      ],
+      "size": [
+       0.28,
+       0.04
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.27,
+       -0.5
+      ],
+      "size": [
+       0.035,
+       0.45
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.52,
+       -0.5
+      ],
+      "size": [
+       0.52,
+       0.08,
+       0.5
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.92,
+       -0.76
+      ],
+      "size": [
+       0.5,
+       0.66,
+       0.07
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ]
+   },
+   "beats": [
+    "mine",
+    "2009,"
+   ]
+  },
+  {
+   "anchor": "every block of payments",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "idle",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 2,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type+screen:idle",
+     "screen:block+suit:click",
+     "screen:p50"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.12,
+       -0.55
+      ],
+      "size": [
+       0.32,
+       0.44,
+       0.3
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.0,
+       -0.38
+      ],
+      "size": [
+       0.2,
+       0.04,
+       0.12
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.55,
+       0.95,
+       -0.36
+      ],
+      "size": [
+       0.04,
+       0.09
+      ],
+      "color": "#f4f1ea"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.47,
+       1.26,
+       -0.395
+      ],
+      "size": [
+       0.018
+      ],
+      "color": "#ff3b30",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.03,
+       -0.5
+      ],
+      "size": [
+       0.28,
+       0.04
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.27,
+       -0.5
+      ],
+      "size": [
+       0.035,
+       0.45
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.52,
+       -0.5
+      ],
+      "size": [
+       0.52,
+       0.08,
+       0.5
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.92,
+       -0.76
+      ],
+      "size": [
+       0.5,
+       0.66,
+       0.07
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "shift": 60
+   },
+   "beats": [
+    "every",
+    "payments",
+    "fifty"
+   ]
+  },
+  {
+   "anchor": "In 2012, the boss",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p50",
+    "cam": [
+     {
+      "pos": [
+       1.7,
+       1.5,
+       4.6
+      ],
+      "look": [
+       0.65,
+       1.05,
+       0.3
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.75,
+       1.48,
+       4.2
+      ],
+      "look": [
+       0.7,
+       1.05,
+       0.35
+      ],
+      "fov": 40,
+      "beat": 1,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "stonks:in+label:0"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "point",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.12,
+       -0.55
+      ],
+      "size": [
+       0.32,
+       0.44,
+       0.3
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.0,
+       -0.38
+      ],
+      "size": [
+       0.2,
+       0.04,
+       0.12
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.55,
+       0.95,
+       -0.36
+      ],
+      "size": [
+       0.04,
+       0.09
+      ],
+      "color": "#f4f1ea"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.47,
+       1.26,
+       -0.395
+      ],
+      "size": [
+       0.018
+      ],
+      "color": "#ff3b30",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.03,
+       -0.5
+      ],
+      "size": [
+       0.28,
+       0.04
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.27,
+       -0.5
+      ],
+      "size": [
+       0.035,
+       0.45
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.52,
+       -0.5
+      ],
+      "size": [
+       0.52,
+       0.08,
+       0.5
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.92,
+       -0.76
+      ],
+      "size": [
+       0.5,
+       0.66,
+       0.07
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "tags": [
+     {
+      "text": "your boss",
+      "x": 700,
+      "y": 600,
+      "size": 56,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "2012,",
+    "walks"
+   ],
+   "sfx": [
+    {
+     "name": "slam",
+     "beat": 1,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "anchor": "Twenty-five!",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p25",
+    "cam": [
+     {
+      "pos": [
+       1.75,
+       1.45,
+       3.2
+      ],
+      "look": [
+       1.2,
+       1.32,
+       0.7
+      ],
+      "fov": 28,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.7,
+       1.45,
+       3.0
+      ],
+      "look": [
+       1.2,
+       1.32,
+       0.7
+      ],
+      "fov": 28,
+      "beat": 0,
+      "dur": 20
+     }
+    ],
+    "actions": [
+     "stonks:talk:0.8+stonks:point+stamp"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "cheer"
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.12,
+       -0.55
+      ],
+      "size": [
+       0.32,
+       0.44,
+       0.3
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.0,
+       -0.38
+      ],
+      "size": [
+       0.2,
+       0.04,
+       0.12
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.55,
+       0.95,
+       -0.36
+      ],
+      "size": [
+       0.04,
+       0.09
+      ],
+      "color": "#f4f1ea"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.47,
+       1.26,
+       -0.395
+      ],
+      "size": [
+       0.018
+      ],
+      "color": "#ff3b30",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.03,
+       -0.5
+      ],
+      "size": [
+       0.28,
+       0.04
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.27,
+       -0.5
+      ],
+      "size": [
+       0.035,
+       0.45
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.52,
+       -0.5
+      ],
+      "size": [
+       0.52,
+       0.08,
+       0.5
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.92,
+       -0.76
+      ],
+      "size": [
+       0.5,
+       0.66,
+       0.07
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "stamp": {
+     "text": "-50%",
+     "x": 540,
+     "y": 1380,
+     "size": 150,
+     "tone": "alert",
+     "rot": -6
+    }
+   },
+   "beats": [
+    "Twenty-five!"
+   ]
+  },
+  {
+   "anchor": "You clap too.",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p25",
+    "cam": [
+     {
+      "pos": [
+       1.15,
+       1.4,
+       4.0
+      ],
+      "look": [
+       0.7,
+       1.25,
+       0.35
+      ],
+      "fov": 40,
+      "beat": -1
+     }
+    ],
+    "actions": [
+     "suit:clap+stonks:clap"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "proud"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "cheer"
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.12,
+       -0.55
+      ],
+      "size": [
+       0.32,
+       0.44,
+       0.3
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.0,
+       -0.38
+      ],
+      "size": [
+       0.2,
+       0.04,
+       0.12
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.55,
+       0.95,
+       -0.36
+      ],
+      "size": [
+       0.04,
+       0.09
+      ],
+      "color": "#f4f1ea"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.47,
+       1.26,
+       -0.395
+      ],
+      "size": [
+       0.018
+      ],
+      "color": "#ff3b30",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.03,
+       -0.5
+      ],
+      "size": [
+       0.28,
+       0.04
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.27,
+       -0.5
+      ],
+      "size": [
+       0.035,
+       0.45
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.52,
+       -0.5
+      ],
+      "size": [
+       0.52,
+       0.08,
+       0.5
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.92,
+       -0.76
+      ],
+      "size": [
+       0.5,
+       0.66,
+       0.07
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ]
+   },
+   "beats": [
+    "clap"
+   ]
+  },
+  {
+   "anchor": "2016, twelve",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "blue",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p25",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 70,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.12
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 68,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:p12"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.12,
+       -0.55
+      ],
+      "size": [
+       0.32,
+       0.44,
+       0.3
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       1.0,
+       -0.38
+      ],
+      "size": [
+       0.2,
+       0.04,
+       0.12
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.55,
+       0.95,
+       -0.36
+      ],
+      "size": [
+       0.04,
+       0.09
+      ],
+      "color": "#f4f1ea"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.47,
+       1.26,
+       -0.395
+      ],
+      "size": [
+       0.018
+      ],
+      "color": "#ff3b30",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.03,
+       -0.5
+      ],
+      "size": [
+       0.28,
+       0.04
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.27,
+       -0.5
+      ],
+      "size": [
+       0.035,
+       0.45
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.52,
+       -0.5
+      ],
+      "size": [
+       0.52,
+       0.08,
+       0.5
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.92,
+       -0.76
+      ],
+      "size": [
+       0.5,
+       0.66,
+       0.07
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "shift": 60
+   },
+   "beats": [
+    "2016,",
+    "twelve"
+   ]
+  },
+  {
+   "anchor": "You sell the coffee",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "blue",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p12",
+    "cam": [
+     {
+      "pos": [
+       -0.5,
+       1.45,
+       2.7
+      ],
+      "look": [
+       -1.2,
+       0.95,
+       -0.5
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.6,
+       1.4,
+       2.4
+      ],
+      "look": [
+       -1.2,
+       0.95,
+       -0.5
+      ],
+      "fov": 40,
+      "beat": 1,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "suit:shrug",
+     "suit:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": -0.5
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.03,
+       -0.5
+      ],
+      "size": [
+       0.28,
+       0.04
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.27,
+       -0.5
+      ],
+      "size": [
+       0.035,
+       0.45
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.52,
+       -0.5
+      ],
+      "size": [
+       0.52,
+       0.08,
+       0.5
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.92,
+       -0.76
+      ],
+      "size": [
+       0.5,
+       0.66,
+       0.07
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.55,
+       0.95,
+       -0.45
+      ],
+      "size": [
+       0.045,
+       0.1
+      ],
+      "color": "#f4f1ea"
+     }
+    ]
+   },
+   "beats": [
+    "sell",
+    "machine."
+   ]
+  },
+  {
+   "anchor": "2020, six",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p12",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 72,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 70,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:p6"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.03,
+       -0.5
+      ],
+      "size": [
+       0.28,
+       0.04
+      ],
+      "color": "#20242c"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0,
+       0.27,
+       -0.5
+      ],
+      "size": [
+       0.035,
+       0.45
+      ],
+      "color": "#6b7280"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.52,
+       -0.5
+      ],
+      "size": [
+       0.52,
+       0.08,
+       0.5
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.92,
+       -0.76
+      ],
+      "size": [
+       0.5,
+       0.66,
+       0.07
+      ],
+      "color": "#d6453d"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "shift": 60
+   },
+   "beats": [
+    "2020,",
+    "six"
+   ]
+  },
+  {
+   "anchor": "You sell your chair.",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p6",
+    "cam": [
+     {
+      "pos": [
+       0.4,
+       1.15,
+       4.6
+      ],
+      "look": [
+       0.0,
+       0.85,
+       -0.2
+      ],
+      "fov": 32,
+      "beat": -1
+     }
+    ],
+    "actions": [
+     "suit:relax",
+     "suit:shrug"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ]
+   },
+   "beats": [
+    "sell",
+    "chair."
+   ],
+   "sfx": [
+    {
+     "name": "trombone",
+     "beat": 1,
+     "offset": 0.45,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "anchor": "2024, three",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "doom",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p6",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.1
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 71,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:p3"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "shift": 60
+   },
+   "beats": [
+    "2024,",
+    "three"
+   ]
+  },
+  {
+   "anchor": "Standing desk.",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "doom",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p3",
+    "cam": [
+     {
+      "pos": [
+       0.35,
+       1.5,
+       2.6
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 34,
+      "beat": -1
+     }
+    ],
+    "actions": [
+     "suit:talk:1.0+suit:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ]
+   },
+   "beats": [
+    "Standing"
+   ]
+  },
+  {
+   "anchor": "Your boss has never",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "doom",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p3",
+    "cam": [
+     {
+      "pos": [
+       1.2,
+       1.25,
+       5.6
+      ],
+      "look": [
+       0.7,
+       1.0,
+       0.4
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.15,
+       1.22,
+       5.3
+      ],
+      "look": [
+       0.7,
+       1.0,
+       0.4
+      ],
+      "fov": 34,
+      "beat": 1,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "stonks:in+stonks:proud",
+     "stonks:jump"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "slump"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "proud",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ]
+   },
+   "beats": [
+    "Your",
+    "prouder."
+   ],
+   "long": true
+  },
+  {
+   "anchor": "One problem.",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p3",
+    "cam": [
+     {
+      "pos": [
+       1.2,
+       1.25,
+       5.6
+      ],
+      "look": [
+       0.7,
+       1.0,
+       0.4
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.0,
+       1.3,
+       4.9
+      ],
+      "look": [
+       0.7,
+       1.0,
+       0.4
+      ],
+      "fov": 34,
+      "beat": 1,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "stonks:clap",
+     "stonks:out",
+     "stamp+suit:think"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "slump"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "clap"
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "stamp": {
+     "text": "no boss",
+     "x": 540,
+     "y": 1400,
+     "size": 120,
+     "tone": "warm",
+     "rot": -5
+    }
+   },
+   "beats": [
+    "One",
+    "no",
+    "boss."
+   ],
+   "sfx": [
+    {
+     "name": "scratch",
+     "beat": 0,
+     "gain": 0.6
+    }
+   ]
+  },
+  {
+   "anchor": "Bitcoin's code",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p3",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.12
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "screen:code",
+     "suit:click"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "shift": 60
+   },
+   "beats": [
+    "code",
+    "halves"
+   ]
+  },
+  {
+   "anchor": "every four years or so",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "code",
+    "cam": [
+     {
+      "pos": [
+       0.2,
+       1.62,
+       1.2
+      ],
+      "look": [
+       1.15,
+       1.62,
+       -2.55
+      ],
+      "fov": 42,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.4,
+       1.62,
+       0.6
+      ],
+      "look": [
+       1.3,
+       1.5,
+       -2.55
+      ],
+      "fov": 40,
+      "beat": 1,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:point",
+     "suit:think",
+     "suit:shrug"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "think"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ]
+   },
+   "beats": [
+    "every",
+    "until",
+    "stop."
+   ]
+  },
+  {
+   "anchor": "So only",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "set": "studio",
+    "mood": "night",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "idle",
+    "cam": [
+     {
+      "pos": [
+       0.6,
+       1.25,
+       4.4
+      ],
+      "look": [
+       0.1,
+       1.1,
+       0
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.5,
+       1.3,
+       4.0
+      ],
+      "look": [
+       0.1,
+       1.15,
+       0
+      ],
+      "fov": 36,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:look:-20",
+     "label:0+suit:point"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "think"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       0.75,
+       0.04,
+       0.2
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f7b955"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.75,
+       0.11499999999999999,
+       0.2
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f2a93b"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.75,
+       0.19,
+       0.2
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f7b955"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.75,
+       0.26499999999999996,
+       0.2
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f2a93b"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.75,
+       0.33999999999999997,
+       0.2
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f7b955"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.75,
+       0.415,
+       0.2
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f2a93b"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.75,
+       0.48999999999999994,
+       0.2
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f7b955"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.75,
+       0.5650000000000001,
+       0.2
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f2a93b"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.75,
+       0.64,
+       0.2
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f7b955"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.7,
+       0.04,
+       -0.1
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f7b955"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.7,
+       0.11499999999999999,
+       -0.1
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f2a93b"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.7,
+       0.19,
+       -0.1
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f7b955"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.7,
+       0.26499999999999996,
+       -0.1
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f2a93b"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.7,
+       0.33999999999999997,
+       -0.1
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f7b955"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.7,
+       0.415,
+       -0.1
+      ],
+      "size": [
+       0.22,
+       0.07
+      ],
+      "color": "#f2a93b"
+     }
+    ],
+    "tags": [
+     {
+      "text": "21 million max",
+      "x": 540,
+      "y": 520,
+      "tone": "warm",
+      "size": 62,
+      "pill": true
+     }
+    ],
+    "backdrop": "sky"
+   },
+   "beats": [
+    "only",
+    "million"
+   ]
+  },
+  {
+   "anchor": "Your not-boss",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p3",
+    "cam": [
+     {
+      "pos": [
+       1.2,
+       1.25,
+       5.6
+      ],
+      "look": [
+       0.7,
+       1.0,
+       0.4
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.1,
+       1.28,
+       5.2
+      ],
+      "look": [
+       0.7,
+       1.0,
+       0.4
+      ],
+      "fov": 34,
+      "beat": 2,
+      "dur": 25
+     }
+    ],
+    "actions": [
+     "stonks:in+stonks:jump",
+     "suit:facepalm",
+     "stonks:talk:0.6+stonks:cheer"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "slump"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "jump",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ]
+   },
+   "beats": [
+    "not-boss",
+    "clapping.",
+    "Again!"
+   ]
+  },
+  {
+   "anchor": "The cuts are real",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "src": "block840000_top.png",
+    "chrome": "browser",
+    "url": "blockchain.com/explorer/blocks/btc/840000",
+    "source": "blockchain.com explorer · block 840,000",
+    "width": 1000,
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.55,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.42,
+      "zoom": 1.3
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.08
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 436,
+      "y": 226,
+      "w": 162,
+      "h": 66
+     },
+     {
+      "beat": 1,
+      "kind": "box",
+      "x": 372,
+      "y": 116,
+      "w": 290,
+      "h": 34
+     }
+    ]
+   },
+   "beats": [
+    "real:",
+    "April",
+    "2024,"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "the next around",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "p3",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.39,
+       0.11
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "screen:p3",
+     "screen:next+suit:click"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "shift": 60
+   },
+   "beats": [
+    "next",
+    "2028."
+   ]
+  },
+  {
+   "anchor": "Nobody decides",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "screens": {
+     "idle": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "good",
+      "sub": "sealing blocks"
+     },
+     "block": {
+      "head": "NEW BLOCK",
+      "big": "SEALED",
+      "tone": "good",
+      "sub": "a block of payments"
+     },
+     "p50": {
+      "head": "PAY PER BLOCK · 2009",
+      "big": "50",
+      "tone": "good",
+      "sub": "new bitcoin"
+     },
+     "p25": {
+      "head": "PAY PER BLOCK · 2012",
+      "big": "25",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p12": {
+      "head": "PAY PER BLOCK · 2016",
+      "big": "12.5",
+      "tone": "warm",
+      "sub": "new bitcoin"
+     },
+     "p6": {
+      "head": "PAY PER BLOCK · 2020",
+      "big": "6.25",
+      "tone": "alert",
+      "sub": "new bitcoin"
+     },
+     "p3": {
+      "head": "PAY PER BLOCK · 2024",
+      "big": "3.125",
+      "tone": "alert",
+      "sub": "new bitcoin",
+      "chart": "down"
+     },
+     "code": {
+      "head": "BITCOIN'S CODE",
+      "big": "÷ 2",
+      "tone": "white",
+      "sub": "every 210,000 blocks"
+     },
+     "next": {
+      "head": "NEXT CUT",
+      "big": "~2028",
+      "tone": "white",
+      "sub": "block 1,050,000"
+     }
+    },
+    "screen": "next",
+    "cam": [
+     {
+      "pos": [
+       2.1,
+       1.5,
+       4.2
+      ],
+      "look": [
+       0.5,
+       1.15,
+       -0.3
+      ],
+      "fov": 40,
+      "beat": -1
+     }
+    ],
+    "actions": [
+     "suit:shrug+label:0",
+     "suit:point+stonks:clap"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       1.25,
+       0,
+       0.75
+      ],
+      "yaw": -0.7,
+      "tall": 1.6,
+      "pose": "clap"
+     }
+    ],
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.55
+      ],
+      "size": [
+       1.3,
+       1.0,
+       0.04
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.25,
+       1.65,
+       -2.52
+      ],
+      "size": [
+       1.18,
+       0.88
+      ],
+      "color": "#bfe6ff",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.04,
+       0.88,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.7,
+       -2.55
+      ],
+      "size": [
+       1.1,
+       0.85,
+       0.03
+      ],
+      "color": "#fbfaf6"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       1.6600000000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.6,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       1.51,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.3,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.15,
+       1.435,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.15,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.35,
+       1.3975000000000002,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.075,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.55,
+       1.3787500000000001,
+       -2.52
+      ],
+      "size": [
+       0.13,
+       0.0375,
+       0.02
+      ],
+      "color": "#f7931a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.6,
+       -1.5
+      ],
+      "size": [
+       0.5,
+       1.2,
+       0.55
+      ],
+      "color": "#8e98a8"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.9,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.75,
+       0.5,
+       -1.22
+      ],
+      "size": [
+       0.3,
+       0.03,
+       0.02
+      ],
+      "color": "#3a3f4b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.55,
+       0.45,
+       -0.5
+      ],
+      "size": [
+       0.7,
+       0.9,
+       0.5
+      ],
+      "color": "#c9955c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.45,
+       1.05,
+       -2.53
+      ],
+      "size": [
+       0.95,
+       2.1,
+       0.05
+      ],
+      "color": "#8a5a35"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -2.1,
+       1.0,
+       -2.48
+      ],
+      "size": [
+       0.04
+      ],
+      "color": "#e3c27a"
+     }
+    ],
+    "tags": [
+     {
+      "text": "next cut ~2028",
+      "x": 540,
+      "y": 520,
+      "size": 70,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "Nobody",
+    "Everyone"
+   ]
+  }
+ ]
+}
