@@ -1,15 +1,26 @@
 {
   "id": "2026-11-18-the-wrong-zoom",
   "channel": "markets",
-  "topic": "Skit: the wrong Zoom \u2014 in March 2020 buyers piled into Zoom Technologies (ZOOM) instead of Zoom Video (ZM); SEC froze it 26 Mar\u20138 Apr 2020 (comedy-of-errors, understatement)",
+  "topic": "Skit: the wrong Zoom — in March 2020 buyers piled into Zoom Technologies (ZOOM) instead of Zoom Video (ZM); SEC froze it 26 Mar–8 Apr 2020 (comedy-of-errors, understatement)",
   "produced_at": "2026-11-18T17:50:15+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-18-the-wrong-zoom.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-18-the-wrong-zoom-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-18-the-wrong-zoom-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-18-the-wrong-zoom-story_3.jpg"
   ],
   "format": "skit",
-  "topic_source": "plan"
+  "topic_source": "plan",
+  "auto_posted": true,
+  "posted_at": "2026-11-18T17:55:46+00:00",
+  "genre": "comedy-of-errors",
+  "bit": "understatement",
+  "instagram_media_id": "18049370648829329",
+  "sources_comment_id": "18353199481253457",
+  "story_media_ids": [
+    "17920018626264516",
+    "17912996607575689",
+    "17866770672694483"
+  ]
 }
