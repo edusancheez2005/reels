@@ -4,12 +4,21 @@
   "topic": "Breaking: a week of US tech outages (Microsoft, FAA, Chase, Apple, NSA, 12\u201317 Nov 2026); DNI Clayton: not a cyberattack",
   "produced_at": "2026-11-18T12:34:53+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-18-week-of-outages.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-18-week-of-outages-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-18-week-of-outages-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-18-week-of-outages-story_3.jpg"
   ],
   "format": "documentary",
-  "topic_source": "breaking"
+  "topic_source": "breaking",
+  "auto_posted": true,
+  "posted_at": "2026-11-18T12:40:45+00:00",
+  "instagram_media_id": "18113409974205790",
+  "sources_comment_id": "18248857249314459",
+  "story_media_ids": [
+    "18376610377212801",
+    "18178911121457020",
+    "18011155253785439"
+  ]
 }
