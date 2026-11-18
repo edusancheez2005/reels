@@ -3,6 +3,9 @@
 # channel `markets`. Each line: title, genre, the story, the true part (a LEAD: verify every number, name and date from
 # primary sources or two major outlets before writing), the Stonks moment. Rules: engine/references/script-guide.md "Skits"
 # and channels/markets.json. No price predictions, no "buy/sell", nothing invented about a real person.
+# 18 Nov (Edu: "too much clapping... you need something different"): ignore any "Stonks claps / jumps / dances / is delighted" or
+# "has never been prouder" in the lines below. Each skit needs a joke engine the last two didn't use and Stonks doing something
+# new (script-guide "Skits", rules a-g).
 
 - [ ] The wrong Zoom — comedy of errors — It's March 2020. Everyone is on Zoom. You want to buy Zoom shares, you type ZOOM, you buy, and it goes up. Your friend has never been prouder. One problem: the video company's ticker is ZM. You bought a small Chinese phone-parts company with the same name. So did thousands of others. True part (LEAD): Zoom Technologies (ticker ZOOM) rose many times over in early 2020 until the US regulator (SEC) suspended trading on 26 March 2020; verify the size of the rise and the SEC order. One thing to remember: read the company name, not just the letters. (planned Wed 18 Nov, evening)
 - [ ] Minus thirty-seven dollars — disaster — You buy oil because it's cheap. Then it's free. Then they pay you to take it. You have a thousand barrels arriving and nowhere to put them. True part (LEAD): on 20 April 2020 the US oil price (WTI, May contract) closed at about minus $37.63 a barrel: storage was full in the lockdown, and holders of expiring contracts paid to get out of taking delivery; verify from the exchange (CME) or the US energy agency (EIA). Stonks is delighted at the price. One thing to remember: a contract for oil is a promise to collect actual oil. (planned Thu 19 Nov, evening)

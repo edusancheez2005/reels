@@ -112,6 +112,8 @@ post, sources = parts[0].strip(), ("Sources:" + parts[1]).strip() if len(parts) 
 post, _ = safe_clean(post)          # invisible characters, dashes, curly quotes: never ship them
 sources, _ = safe_clean(sources)
 if post:
+    if __import__("re").search(r"(?i)\b(?:fuck\w*|\w*shit\w*)\b", post):
+        fails.append("caption: no swearing in the post caption (script-guide Skits, rule e)")
     cc = caption_check(post)
     fails += [f"caption: {f}" for f in cc["fails"]]
     warns += [f"caption: {w}" for w in cc["warns"]]
@@ -232,8 +234,52 @@ if _sb_here.get("format") == "skit":
             f"skit has {_n_tags} tags and {_n_stamps} stamps on screen; the budget is 8 tags and 2 stamps (let the picture and the voice tell it)")
     elif _n_tags > 8 or _n_stamps > 2:
         warns.append(f"skit text: {_n_tags} tags, {_n_stamps} stamps (budget: 8 and 2)")
-    if not any(a in ("stonks:jump", "stonks:dance") for a in _acts):
-        warns.append('skit: Stonks never jumps or dances ("stonks:jump" on the worst moment, on a shot that shows his feet)')
+    # freshness (Edu, 18 Nov 2026, after the second skit: "you're using the clapping a little bit too much... this one wasn't
+    # as funny... you need something different"). script-guide "Skits", rules a-g.
+    _recent5 = [n for _, n, _g in (_skits[:5] if genre else [])]
+
+    def _claps(d):
+        sbj = _sbj(d)
+        dfs = sbj.get("defs", {})
+        for sc in sbj.get("scenes", []):
+            pr = dict(dfs.get(sc.get("props", {}).get("$use", ""), {}), **sc.get("props", {}))
+            acts = [x for a in pr.get("actions", []) or [] for x in str(a).split("+")]
+            if any(a.split(":")[-1] in ("jump", "clap", "dance") for a in acts if ":" in a):
+                return True
+            if any(a.get("pose") in ("jump", "clap", "dance") for a in pr.get("actors", []) or []):
+                return True
+        return False
+
+    def _script(d):
+        try:
+            return " ".join((d / "script.txt").read_text().lower().replace("\u2019", "'").split())
+        except Exception:
+            return ""
+
+    if _claps(ep):
+        _prev_clap = [n for n in _recent5[:3] if _claps(root / "episodes" / n)]
+        if _prev_clap:
+            (warns if approved else fails).append(
+                f"someone jumps, claps or dances, and so did {_prev_clap[0]}; at most one skit in four (script-guide Skits, rule b)")
+    bit = str(_sb_here.get("bit", "")).strip().lower()
+    if not bit:
+        fails.append('skit has no "bit" in storyboard.json (script-guide "Skits", rule c: name the main joke engine)')
+    else:
+        _bit_clash = [n for n in _recent5[:2] if str(_sbj(root / "episodes" / n).get("bit", "friend-claps")).lower() == bit]
+        if _bit_clash:
+            (warns if approved else fails).append(f'joke engine "{bit}" was used by {_bit_clash[0]}; the last two skits must each run on a different one')
+    _mine = _script(ep)
+    for phrase in ("never been prouder", "still clapping", "you're a genius", "you are a genius", "one problem"):
+        if phrase in _mine:
+            _used = [n for n in _recent5 if phrase in _script(root / "episodes" / n)]
+            if _used:
+                (warns if approved else fails).append(f'"{phrase}" was used in {_used[0]}; nothing from the last five skits comes back (rule a)')
+    _swears = len(__import__("re").findall(r"\b(?:fuck\w*|\w*shit\w*)\b", _mine))
+    if _swears > 3:
+        warns.append(f"{_swears} swear words in the script; it is funnier at one to three (rule e)")
+    _first = _mine.split(".")[0] if _mine else ""
+    if __import__("re").search(r"\b(?:fuck\w*|\w*shit\w*)\b", _first):
+        (warns if approved else fails).append("swearing in the hook sentence; keep it for a punchline (rule e)")
 
 # opening variety (Edu, 17 Nov 2026: "we got to change the formatting"; RUNBOOK hard rule 7)
 # The reel must open on a story-specific moving picture, not the number card, and not the shot the last reels opened on.

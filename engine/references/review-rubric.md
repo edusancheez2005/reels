@@ -41,7 +41,11 @@ he's like jumping and clapping... I find that really funny"), also say in the no
   list of facts with jokes between them? A list is a FAIL for a skit.
 - Does on-screen text stay out of the way: no more than about 8 labels and 2 stamps in the whole reel, none of them a
   sentence the voice is already saying? Well over that (12+) is a FAIL.
-- Does Stonks get his celebration (jumping or dancing at the worst moment, feet visible), and is it funny?
+- Is it fresh (Edu, 18 Nov: "too much clapping... this one wasn't as funny... you need something different")? Read the
+  script.txt of the last three posted skits: any set-up, catchphrase, physical gag or ending repeated from them is a
+  must-fix, and so is Stonks clapping, jumping or dancing if any of those three had it.
+- Which is the funniest moment, and which is the weakest? Is there one a viewer would send to a friend?
+- Swearing, if any: rare, flat and on a punchline, never at a real person or a group, never in the hook?
 - Does the place look like this story's place, or the same room as yesterday?
 - Sound (Edu, 17 Nov: "little sound effects... get out... that'd be quite funny"): do the effects land on the joke? If the
   skit ends on the "GET OUT!" button (only some do: Edu, "only like when appropriate"), does it fit this story and land
@@ -93,7 +97,11 @@ PASS only if all of these hold, otherwise REWRITE with the exact lines to change
 - Every number and every step is in research.md from a real, sourced case; the real case is named with its date.
 - Nothing states a joke as a fact about a real person ("did exactly this"), and nothing is cruel about a real person.
 - Characters' lines (`[name] …`) are one to three words, two to five lines in total; the narrator carries the facts.
-- Stonks has his moment: a flat set-up line ("Your friend has never been prouder.") followed by a beat with no narration
-  long enough for him to jump and clap (about two seconds), and a callback at the end.
+- Fresh (script-guide "Skits", rules a–g of 18 Nov): nothing reused from the last five skits (read their script.txt), no
+  clapping premise, a joke engine (`bit`) the last two skits didn't use, and Stonks doing something he hasn't done before.
+- Funny check: score each joke 1–5. Any joke at 2 or below gets a replacement line from you; if the best joke is below 4,
+  REWRITE. Name the one moment a viewer would send to a friend; if there is none, REWRITE.
+- Swearing is allowed: one to three words, on a punchline, never in the first sentence, never a slur, never sexual, never
+  aimed at a real person or a group.
 - It ends on this story's one step, as an order, or on the one thing to remember. 110–140 words. No price predictions.
 - Say which joke is weakest and give a replacement line.

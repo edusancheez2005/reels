@@ -177,7 +177,8 @@ use only your own slot's row, and never build the other slot's reel. The gate al
   need like maybe like a story... something like a movie kind of thing"). Unless today's plan row says otherwise, set
   `"format": "skit"` and a `"genre"` that neither of the last two skits used (the gate fails without one, or on a repeat), and
   follow script-guide "Skits": a story with a beginning, a turn and an ending; a place built for it (`props`, `backdrop`); at
-  most 8 tags and 2 stamps; one number; Stonks jumping and clapping at the worst moment. Write 2–3 candidate genres in
+  most 8 tags and 2 stamps; one number; and, since 18 Nov (rules a–g at the top of "Skits"), nothing reused from the last
+  five skits, a joke engine (`"bit"`) the last two didn't use, clapping only rarely, swearing allowed. Write 2–3 candidate genres in
   research.md with why. The variety Edu asked for on 31 Oct ("I don't want you to use the same exact format every single
   time... be creative") now lives in the genre, the place and the story.
   For a reel that is not a skit (a breaking story that needs to be told straight, or a plan row that names another format):
@@ -213,6 +214,12 @@ use only your own slot's row, and never build the other slot's reel. The gate al
 
 For a `skit`, give the reviewer the same brief but point it at the rubric's "For a skit" list and the script guide's "Skits"
 section instead of "Story reels", and drop the questions about introducing every person and 120–160 words.
+**Funny check for a skit** (Edu, 18 Nov 2026: "this one wasn't as funny... you need something different"). The reviewer also
+gets the script.txt of the last five posted skits and must: (1) list anything this script reuses from them (a set-up, a
+catchphrase, a physical gag, an ending) — any reuse is REWRITE; (2) score every joke 1–5 and write a replacement for each
+joke at 2 or below; (3) say which single moment a viewer would send to a friend, or REWRITE if there is none; (4) REWRITE if
+the best joke scores below 4. A script that is correct but not funny does not go to voice: two rounds, and if it still isn't
+there, switch to another story from the backlog rather than posting a flat one.
 
 Edu (29 Oct 2026): the landfill reel didn't say who the man was, how it happened, or why the lesson matters. Catch that before
 spending an hour on voice and render. When the script and research.md are done, spawn a fresh reviewer with the Agent tool

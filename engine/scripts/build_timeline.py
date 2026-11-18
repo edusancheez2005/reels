@@ -11,6 +11,7 @@ Exit code 1 on any error (or on warnings with --strict).
 """
 import argparse
 import json
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -289,6 +290,10 @@ def main():
 
     # caption emphasis: phrases listed in storyboard "emphasis" get a selection box when spoken
     caps = [dict(w) for w in words]
+    # swearing is allowed in the voice (Edu, 18 Nov 2026); the words shown on screen are masked: "f*cking", "sh*t"
+    for c_ in caps:
+        t_ = re.sub(r"(?i)(f)u(ck)", r"\1*\2", c_.get("text", ""))
+        c_["text"] = re.sub(r"(?i)\b((?:bull)?sh)i(t(?:s|ty|e)?)\b", r"\1*\2", t_)
     for phrase in sb.get("emphasis", []):
         toks = [norm(t) for t in str(phrase).split() if norm(t)]
         hit = False

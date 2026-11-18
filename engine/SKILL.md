@@ -66,7 +66,8 @@ put it on every reel.
 The `skit` format (17 Nov 2026, `../episodes/2026-11-17-genius-copy-paste/` is the reference; read its script.txt, cast.json and
 storyboard.json before making one, for how the pieces fit, not to copy its shape): script-guide "Skits" (the seven things
 Edu asked for after the pilot: a different story and film genre each day, a beginning, turn and ending, less text, one
-number, Stonks jumping and clapping, a place built for the story), storyboard-spec `Actor3D` (`props`, `backdrop`, the
+number, a place built for the story; and rules a–g of 18 Nov on top: nothing reused from the last five skits, a new joke
+engine each time, clapping rare, swearing allowed), storyboard-spec `Actor3D` (`props`, `backdrop`, the
 poses), ideas in `../backlog/skits.md`. The same two characters are the format, so `Actor3D` may fill most scenes; vary the
 place and the shot instead, and never hold one camera for two scenes running. Set `"format": "skit"` and `"genre"`.
 

@@ -79,6 +79,56 @@ Self-check: read the script aloud once, no rewinding. Any line you'd have to rep
 hours that reel had a 16% three-second skip rate (the explainers that week: 36–57%) and 26 likes (explainers: 1–5).
 A skit is true content told as a joke: a deadpan narrator talks to "you", two cartoon characters act it out.
 
+**18 Nov, after the second skit ("The pay cut"). Edu: "you're using the clapping a little bit too much. Like, it doesn't have to
+be the only [thing]. This one wasn't as funny... you could use swear words like fuck and stuff like that. That's quite funny...
+You need like a little bit of a change, like too much clapping... you need something different."**
+What went wrong, so it isn't repeated: the plan's premise was built on clapping, the old rule 6 forced Stonks to clap in every
+skit, and the old rule 3 handed over the pilot's skeleton, so the second skit was the first one again ("has never been
+prouder", "One problem.", "is still clapping"). After seven hours it had about the pilot's views and skip rate (1,660 views,
+30% skipped) but about half the likes per viewer, and neither skit had been shared once. Rules a–g override anything further
+down that disagrees with them:
+a. *Nothing from the last five skits comes back.* Before writing, read script.txt of the last five posted skits and list their
+   set-ups, catchphrases, physical gags and endings in research.md under "Used". None of them appears again: no "has never
+   been prouder", no "still clapping", no "because you're a genius", no "One problem." (the gate fails these while any of the
+   last five skits has them). A running gag is only funny once the audience has had time to miss it.
+b. *Clapping is rare.* Stonks jumps, claps or dances in at most one skit in four, for one stretch of three seconds at most,
+   and never as the premise of the skit. The gate fails a skit that has it when any of the last three skits did.
+c. *A different joke engine every time.* Set `"bit"` in storyboard.json to the main one; the gate fails a `bit` that either of
+   the last two skits used. Engines (not a closed list; invent better ones):
+   - `confident-wrong`: someone explains exactly how it works with total confidence; every word is wrong; the narrator lets
+     them finish, then says what is true.
+   - `narrator-loses-it`: the narrator starts calm and professional and gets steadily more fed up with "you".
+   - `argues-back`: a character can hear the narrator and argues with him, corrects him, or tries to bribe him.
+   - `understatement`: the biggest disaster gets the smallest reaction ("A mild setback.").
+   - `escalation`: the same decision three times, each bigger, the third absurd and very specific.
+   - `anticlimax`: an enormous build-up, then nothing happens, or the wrong tiny thing happens.
+   - `literal`: a figure of speech shown literally (a "bank run" is people jogging; "liquid assets" in a bucket).
+   - `the-list`: a list whose last item doesn't belong ("He checked the price, the news, and his horoscope.").
+   - `role-swap`: Stonks is the careful one for once and nobody listens; or the suit guy is the hype man.
+   - `bad-expert`: Stonks as the lawyer, the surgeon, the adviser, the pilot: one certificate, no knowledge.
+   - `deadpan-sums`: the narrator calmly does the arithmetic nobody wants done.
+   - `fast-forward`: years go by in title cards while one person stays in exactly the same spot.
+   - `friend-claps`: the pilot's engine (used on 17 and 18 Nov; rest it).
+d. *Stonks is a person, not a clap.* He is the friend with total confidence and no information. Instead of clapping he can:
+   take a selfie with the disaster; sleep through all of it; read the chart upside down; have "done his own research" (one
+   headline); be on the phone to his mum; sell T-shirts about it; give a thumbs-up from behind a newspaper; answer every
+   question with another question; be eerily calm; have already told everyone. Sometimes he is barely in it. The suit guy
+   isn't always the fool either: he can be the only sane person in the room, and say so.
+e. *Swearing is allowed*, and it is funniest when it is rare and flat: one to three swear words in a skit, on a punchline,
+   usually the narrator finally cracking or one word from a character (`[suit] Well, shit.`). Edu's own reference line is
+   "because you're a fucking genius". Not in the hook sentence, the cover, a tag, a stamp or the post caption; the words shown
+   under the voice are masked automatically ("f*cking"). Never a slur, never sexual, never aimed at a real person or a
+   group of people, and never contempt for the viewer. (Instagram does not recommend posts with strong language to under-18
+   accounts. Edu's call: they are not the audience.)
+f. *Funnier, not only different.* Once the facts are right, do a joke pass. Write the funniest ten seconds of this story
+   three times, in three different engines, and keep the best. For every joke ask: is this the first thing anyone would
+   write? If so, replace it. Be specific (a 2004 Honda Civic, not "a car"; "your nan's spare room", not "a house"). Cut every
+   sentence that is neither a fact the story needs nor a joke. Then name, in research.md, the one moment a viewer would send
+   to a particular friend with "this is you": if there isn't one, the script isn't finished. Then the funny check (RUNBOOK §2a).
+g. *The shape changes too.* A beginning, a turn and an ending, yes, but not the pilot's order every time: start at the end
+   and rewind; tell it as a complaint letter, a court transcript, a list of rules, a countdown, a voicemail; let the true
+   fact be the punchline instead of the explanation.
+
 **What Edu asked for after the pilot (17 Nov), and every skit must do:**
 1. *A different story every day.* "It's always like $50 million copy paste scam... I need like maybe like a story." The pilot's
    "Here's how to lose X with one Y" is one shape out of many: use it at most once a week. A skit doesn't have to be a scam
@@ -91,22 +141,20 @@ A skit is true content told as a joke: a deadpan narrator talks to "you", two ca
    montage and commentary), `courtroom`, `noir` (a detective following money), `disaster`, `period`, `game-show`.
    The narrator stays `am_michael` and deadpan; the genre is in the words, the place and the light. Never use a real film's
    title, characters, lines or music, and never imitate a real presenter's voice.
-3. *A story has a beginning, a turn and an ending.* (1) Who "you" are and what you want, in one line. (2) Two or three steps,
-   each a worse idea done with total confidence. (3) The turn: "One problem." and how it really works, in one or two plain
-   sentences. (4) An ending picture that calls back to the start (the friend is still clapping; the pizza box is still on the
-   table). (5) "This happened to a real [person] in [month, year]." (6) The one step, as an order, when the story has one;
-   a how-it-works skit ends on the one thing to remember instead.
+3. *A story has a beginning, a turn and an ending.* Someone wants something; it goes somewhere; there is a moment where what
+   is really happening becomes clear (in one or two plain sentences a beginner follows); and it ends on a picture, not on a
+   summary. The order and the wording are yours and should differ from the last skits' (rule g above). Two things are fixed
+   and come near the end: "This happened to a real [person] in [month, year]." (or the real date and place), and the one
+   step, as an order, when the story has one; a how-it-works skit ends on the one thing to remember instead.
 4. *Less text on screen.* "It's just like quite a lot of text, maybe." The picture and the voice tell it. Budget for the whole
    skit: at most 8 tags and 2 stamps (the pilot had 18 and 3; the gate warns over budget and fails over 12 in total). A tag is
    three words or fewer and carries the number or the name, never a sentence the voice is already saying. What's on the
    monitor counts as picture. One real receipt (a `Shot`) near the end proves it happened.
 5. *One number, not a pile.* "The numbers are always kind of like the same." Pick the one figure the story turns on and say
    it once or twice. Don't open every skit on a dollar amount.
-6. *Stonks celebrates the worst moment.* "Stonks, and like your friend has never been prouder, and he's like jumping and
-   clapping... I find that really funny." Every skit has it once, set up by a flat line from the narrator ("Your friend has
-   never been prouder."), then `stonks:jump` (or `stonks:dance`) for at least two seconds on a shot wide enough to see his
-   feet leave the floor, and a callback at the very end where he is still at it. His lines are one to three words and change
-   every skit; "Stonks!" at most once.
+6. *Stonks is the comic engine, and he needs new material every time.* Edu loved him jumping and clapping in the pilot
+   ("I find that really funny") and by the second skit said it was too much: see rules b and d above. His lines are one to
+   three words and never repeat from one skit to the next; "Stonks!" at most once a week.
 7. *A place built for this story.* Not the yellow desk room every day. `mood`, `backdrop: "sky"` and `props` in the
    storyboard (storyboard-spec, `Actor3D`) make a night street, a bathroom floor with a popcorn tin, a courtroom, the sea.
    Two or three places at most; the first shot is already in the story's place (the gate checks it differs from the last reels).
@@ -116,8 +164,9 @@ one it was like you've lost like 50 million whatever, and then... your friend is
 as a joke... That'd be quite funny."):
 - *"GET OUT!"* is an ending for the skits it suits, not for every skit (Edu, 17 Nov, 23:46: "not every single skit... only
   like when appropriate... if you deem appropriate, put it in"). It suits a skit whose last picture is someone cheerfully
-  carrying on after a disaster (the friend still clapping, the boss still smiling), where a sudden shout and a hard cut is
-  the right full stop. It does not suit a story that ends warmly, a how-it-works skit, or one about a real person's loss.
+  carrying on after a disaster (Stonks taking a selfie with it, the boss still smiling, the salesman still selling), where a
+  sudden shout and a hard cut is the right full stop. It does not need clapping in front of it: any oblivious last beat works
+  ("Your friend is live-streaming it." / `[pause 1.3]` / `[squeak] GET OUT!`). It does not suit a story that ends warmly, a how-it-works skit, or one about a real person's loss.
   Never in two skits running (the gate fails it); aim for roughly one skit in three. A skit without it still ends on its
   callback picture and the one step or the one thing to remember, with a normal tail. When it is used, nobody on screen says
   it. Edu, 17 Nov: "It's not him that says it. It's like a

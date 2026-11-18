@@ -3,6 +3,9 @@
 # I need like maybe like a story." Each line: title, genre, the story, the true part (a LEAD: verify every number and date
 # from primary sources before writing), the Stonks moment. Rules: engine/references/script-guide.md "Skits".
 # Never two of the same genre within the last two skits. Stories an explainer already told wait 7 days and need a new angle.
+# 18 Nov (Edu: "too much clapping... you need something different"): ignore any "Stonks claps / jumps / dances / is delighted" or
+# "has never been prouder" in the lines below. Each skit needs a joke engine the last two didn't use and Stonks doing something
+# new (script-guide "Skits", rules a-g).
 
 - [x] The copy and paste — how-to-lose — (2026-11-17-genius-copy-paste)
 - [ ] The pay cut — office — You mine bitcoin. Every four years your boss walks in, cuts your pay in half, and the whole office claps. You have never been more excited. True part: the block reward went 50 → 25 → 12.5 → 6.25 → 3.125 BTC (2012, 2016, 2020, April 2024); about 450 new bitcoin a day now, about 225 after the next halving, expected in 2028 (by block height, not a calendar date); why: only 21 million will ever exist. No price talk. Stonks is the boss: he announces each cut and jumps. Ends on the one thing to remember, not a step. (planned Wed 18 Nov)
