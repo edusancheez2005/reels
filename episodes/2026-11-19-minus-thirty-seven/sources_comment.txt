@@ -1,0 +1,6 @@
+Sources:
+US Energy Information Administration, 27 April 2020: https://www.eia.gov/todayinenergy/detail.php?id=43495
+CFTC, Interim Staff Report on NYMEX WTI crude oil futures around 20 April 2020 (23 Nov 2020): https://www.cftc.gov/PressRoom/PressReleases/8315-20
+Reuters, 20 April 2020 (via gCaptain): https://gcaptain.com/oil-prices-crash-below-zero-for-first-time-in-history-amid-pandemic/
+Bloomberg News, 8 May 2020: https://www.bnnbloomberg.ca/oil-crash-busted-a-broker-s-computers-and-inflicted-huge-losses-1.1433542
+CFTC release 8432-21, 28 Sep 2021: https://www.cftc.gov/PressRoom/PressReleases/8432-21
