@@ -4,7 +4,7 @@
   "topic": "Skit: minus thirty-seven dollars — on 20 April 2020 US oil (WTI, May contract) settled at −$37.63 a barrel; holders paid to avoid collecting real oil at Cushing (disaster, escalation)",
   "produced_at": "2026-11-19T17:59:59+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-19-minus-thirty-seven.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-19-minus-thirty-seven-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-19-minus-thirty-seven-story_2.mp4",
@@ -13,5 +13,14 @@
   "format": "skit",
   "topic_source": "plan",
   "genre": "disaster",
-  "bit": "escalation"
+  "bit": "escalation",
+  "auto_posted": true,
+  "posted_at": "2026-11-19T18:06:47+00:00",
+  "instagram_media_id": "18387006427237376",
+  "sources_comment_id": "17874298758647932",
+  "story_media_ids": [
+    "18650922412053178",
+    "18033275012689874",
+    "18082563905391355"
+  ]
 }
