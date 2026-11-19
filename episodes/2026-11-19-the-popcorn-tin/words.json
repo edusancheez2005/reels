@@ -1,0 +1,993 @@
+[
+ {
+  "text": "You've",
+  "startMs": 80,
+  "endMs": 260,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " just",
+  "startMs": 260,
+  "endMs": 600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stolen",
+  "startMs": 600,
+  "endMs": 1060,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fifty",
+  "startMs": 1060,
+  "endMs": 1406,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 1410,
+  "endMs": 1847,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bitcoin",
+  "startMs": 1850,
+  "endMs": 2289,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 2290,
+  "endMs": 2490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 2490,
+  "endMs": 2676,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dark-web",
+  "startMs": 2680,
+  "endMs": 3228,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " market.",
+  "startMs": 3230,
+  "endMs": 3670,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Its",
+  "startMs": 3895,
+  "endMs": 4080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " withdrawal",
+  "startMs": 4085,
+  "endMs": 4635,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " button",
+  "startMs": 4635,
+  "endMs": 4945,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " has",
+  "startMs": 4945,
+  "endMs": 5192,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 5215,
+  "endMs": 5378,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bug.",
+  "startMs": 5455,
+  "endMs": 5625,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Deposit",
+  "startMs": 5850,
+  "endMs": 6410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " once,",
+  "startMs": 6410,
+  "endMs": 6743,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " withdraw",
+  "startMs": 7000,
+  "endMs": 7508,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " five",
+  "startMs": 7510,
+  "endMs": 7827,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " times.",
+  "startMs": 7890,
+  "endMs": 8210,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Repeat",
+  "startMs": 8435,
+  "endMs": 8935,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " until",
+  "startMs": 8935,
+  "endMs": 9374,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rich.",
+  "startMs": 9465,
+  "endMs": 9735,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Give",
+  "startMs": 9960,
+  "endMs": 10160,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " it",
+  "startMs": 10160,
+  "endMs": 10338,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " back?",
+  "startMs": 10390,
+  "endMs": 10590,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Popcorn",
+  "startMs": 10845,
+  "endMs": 11681,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " tin.",
+  "startMs": 11685,
+  "endMs": 12015,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " Bathroom",
+  "startMs": 12240,
+  "endMs": 12777,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cupboard.",
+  "startMs": 12780,
+  "endMs": 13180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Under",
+  "startMs": 13405,
+  "endMs": 13755,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 13765,
+  "endMs": 13835,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " blankets.",
+  "startMs": 13835,
+  "endMs": 14525,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Six",
+  "startMs": 14750,
+  "endMs": 15090,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " years.",
+  "startMs": 15090,
+  "endMs": 15610,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 15835,
+  "endMs": 15975,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2019,",
+  "startMs": 15975,
+  "endMs": 17180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 17355,
+  "endMs": 17572,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " get",
+  "startMs": 17595,
+  "endMs": 17715,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " burgled.",
+  "startMs": 17715,
+  "endMs": 18245,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 18470,
+  "endMs": 18650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " do",
+  "startMs": 18710,
+  "endMs": 18860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 18860,
+  "endMs": 19009,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 19080,
+  "endMs": 19248,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thing",
+  "startMs": 19250,
+  "endMs": 19480,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 19480,
+  "endMs": 19667,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " man",
+  "startMs": 19670,
+  "endMs": 19906,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 19910,
+  "endMs": 20086,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 20150,
+  "endMs": 20265,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " snack-tin",
+  "startMs": 20340,
+  "endMs": 20730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fortune",
+  "startMs": 20730,
+  "endMs": 21320,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " must",
+  "startMs": 21320,
+  "endMs": 21641,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " never",
+  "startMs": 21710,
+  "endMs": 21880,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " do.",
+  "startMs": 21880,
+  "endMs": 22180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 23605,
+  "endMs": 23775,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " call",
+  "startMs": 23775,
+  "endMs": 24123,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 24125,
+  "endMs": 24252,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " police.",
+  "startMs": 24255,
+  "endMs": 24705,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " My",
+  "startMs": 24930,
+  "endMs": 25290,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " bitcoin's",
+  "startMs": 25290,
+  "endMs": 26115,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " gone!",
+  "startMs": 26120,
+  "endMs": 26480,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " For",
+  "startMs": 26705,
+  "endMs": 26939,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " fuck's",
+  "startMs": 26985,
+  "endMs": 27232,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " sake.",
+  "startMs": 27235,
+  "endMs": 27525,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " You",
+  "startMs": 27750,
+  "endMs": 27927,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " send",
+  "startMs": 27930,
+  "endMs": 28221,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eight",
+  "startMs": 28240,
+  "endMs": 28457,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 28460,
+  "endMs": 28790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 28790,
+  "endMs": 29330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 29330,
+  "endMs": 29459,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 29460,
+  "endMs": 29530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 29530,
+  "endMs": 29750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 29750,
+  "endMs": 29872,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " exchange.",
+  "startMs": 29880,
+  "endMs": 30520,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 30745,
+  "endMs": 30975,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 30975,
+  "endMs": 31215,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " name.",
+  "startMs": 31215,
+  "endMs": 31615,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Every",
+  "startMs": 31840,
+  "endMs": 32147,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bitcoin",
+  "startMs": 32150,
+  "endMs": 32637,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " payment",
+  "startMs": 32650,
+  "endMs": 33128,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 33160,
+  "endMs": 33250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " public.",
+  "startMs": 33250,
+  "endMs": 33680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Tax",
+  "startMs": 33905,
+  "endMs": 34185,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " agents",
+  "startMs": 34215,
+  "endMs": 34685,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " trace",
+  "startMs": 34685,
+  "endMs": 35025,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it,",
+  "startMs": 35025,
+  "endMs": 35138,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 35395,
+  "endMs": 35465,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " call",
+  "startMs": 35465,
+  "endMs": 35795,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 35795,
+  "endMs": 35905,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " police.",
+  "startMs": 35905,
+  "endMs": 36315,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Who",
+  "startMs": 36540,
+  "endMs": 36750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " already",
+  "startMs": 36750,
+  "endMs": 37250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " have",
+  "startMs": 37250,
+  "endMs": 37487,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 37490,
+  "endMs": 37664,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " file.",
+  "startMs": 37670,
+  "endMs": 37960,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " November",
+  "startMs": 38185,
+  "endMs": 38665,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2021.",
+  "startMs": 38665,
+  "endMs": 40035,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Agents",
+  "startMs": 40260,
+  "endMs": 40800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lift",
+  "startMs": 40800,
+  "endMs": 41110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 41110,
+  "endMs": 41180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " blankets.",
+  "startMs": 41180,
+  "endMs": 41780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 42005,
+  "endMs": 42192,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 42205,
+  "endMs": 42315,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tin:",
+  "startMs": 42315,
+  "endMs": 42566,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 42815,
+  "endMs": 42965,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tiny",
+  "startMs": 42965,
+  "endMs": 43375,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " computer",
+  "startMs": 43375,
+  "endMs": 43975,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " holding",
+  "startMs": 43975,
+  "endMs": 44475,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 44475,
+  "endMs": 44623,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " keys.",
+  "startMs": 44635,
+  "endMs": 44935,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 45160,
+  "endMs": 45270,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " real",
+  "startMs": 45270,
+  "endMs": 45600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thief,",
+  "startMs": 45600,
+  "endMs": 45881,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " James",
+  "startMs": 46100,
+  "endMs": 46491,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Zhong,",
+  "startMs": 46560,
+  "endMs": 46768,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " got",
+  "startMs": 46990,
+  "endMs": 47267,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 47270,
+  "endMs": 47410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " year",
+  "startMs": 47410,
+  "endMs": 47650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 47650,
+  "endMs": 47820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 47820,
+  "endMs": 47988,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " day.",
+  "startMs": 48030,
+  "endMs": 48210,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 48435,
+  "endMs": 48625,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tin",
+  "startMs": 48625,
+  "endMs": 48885,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " can",
+  "startMs": 48885,
+  "endMs": 49145,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hide",
+  "startMs": 49145,
+  "endMs": 49465,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 49465,
+  "endMs": 49601,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " keys.",
+  "startMs": 49605,
+  "endMs": 49925,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Nothing",
+  "startMs": 50150,
+  "endMs": 50579,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hides",
+  "startMs": 50580,
+  "endMs": 51000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 51000,
+  "endMs": 51151,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " trail.",
+  "startMs": 51170,
+  "endMs": 51580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Any",
+  "startMs": 51805,
+  "endMs": 52179,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " news",
+  "startMs": 52215,
+  "endMs": 52645,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " on",
+  "startMs": 52645,
+  "endMs": 52885,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " my",
+  "startMs": 52885,
+  "endMs": 53301,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " burglar?",
+  "startMs": 53375,
+  "endMs": 53955,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " GET",
+  "startMs": 55210,
+  "endMs": 55700,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "squeak"
+ },
+ {
+  "text": " OUT!",
+  "startMs": 55700,
+  "endMs": 56190,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "squeak"
+ }
+]

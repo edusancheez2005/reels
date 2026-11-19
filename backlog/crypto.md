@@ -67,3 +67,4 @@
 - [x] Skit: how to lose $50M with one copy and paste (address poisoning, the 19 Dec 2025 case), with the suit guy and Stonks (2026-11-17-genius-copy-paste)
 - [x] Skit: the pay cut — the bitcoin halving told as your job (office): 50 → 25 → 12.5 → 6.25 → 3.125 BTC a block, next ~2028 (2026-11-18-the-pay-cut)
 - [x] Breaking: a week of US tech outages (Microsoft, FAA, Chase, Apple, NSA, 12–17 Nov 2026); DNI Clayton: not a cyberattack (2026-11-18-week-of-outages)
+- [x] Skit: the popcorn tin — James Zhong stole ~50,000 BTC from Silk Road (Sept 2012), reported a burglary in 2019, an $800 transfer in his name led investigators to him; 50,676 BTC seized Nov 2021 from a floor safe and a computer in a popcorn tin; a year and a day (heist, role-swap) (2026-11-19-the-popcorn-tin)

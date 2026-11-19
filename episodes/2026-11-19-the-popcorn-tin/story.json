@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 8.41
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 18.4,
+    "to": 24.9
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "He stole 50,000 bitcoin. Then he called the police."
+  }
+]
