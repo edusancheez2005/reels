@@ -1,0 +1,989 @@
+[
+ {
+  "text": "In",
+  "startMs": 80,
+  "endMs": 240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " April",
+  "startMs": 240,
+  "endMs": 660,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2020,",
+  "startMs": 660,
+  "endMs": 1896,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " oil",
+  "startMs": 2150,
+  "endMs": 2240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gets",
+  "startMs": 2240,
+  "endMs": 2710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " so",
+  "startMs": 2710,
+  "endMs": 2961,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cheap",
+  "startMs": 3040,
+  "endMs": 3337,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " they",
+  "startMs": 3340,
+  "endMs": 3525,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pay",
+  "startMs": 3570,
+  "endMs": 3770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " people",
+  "startMs": 3770,
+  "endMs": 4214,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 4220,
+  "endMs": 4390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " take",
+  "startMs": 4390,
+  "endMs": 4715,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it.",
+  "startMs": 4720,
+  "endMs": 4840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 5065,
+  "endMs": 5225,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buy",
+  "startMs": 5225,
+  "endMs": 5525,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " yours",
+  "startMs": 5525,
+  "endMs": 5915,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 5915,
+  "endMs": 6050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Friday",
+  "startMs": 6055,
+  "endMs": 6575,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " before.",
+  "startMs": 6605,
+  "endMs": 7035,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Nobody's",
+  "startMs": 7260,
+  "endMs": 7910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " driving.",
+  "startMs": 7910,
+  "endMs": 8440,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Oil's",
+  "startMs": 8665,
+  "endMs": 8983,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eighteen",
+  "startMs": 9025,
+  "endMs": 9355,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 9355,
+  "endMs": 9873,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 9875,
+  "endMs": 10035,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " barrel.",
+  "startMs": 10035,
+  "endMs": 10445,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 10670,
+  "endMs": 10840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buy",
+  "startMs": 10840,
+  "endMs": 11120,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 11120,
+  "endMs": 11220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand.",
+  "startMs": 11220,
+  "endMs": 11830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Before",
+  "startMs": 12055,
+  "endMs": 12475,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " breakfast.",
+  "startMs": 12475,
+  "endMs": 13095,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Cars",
+  "startMs": 13320,
+  "endMs": 13726,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " need",
+  "startMs": 13810,
+  "endMs": 14060,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " it.",
+  "startMs": 14060,
+  "endMs": 14200,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Monday",
+  "startMs": 14425,
+  "endMs": 14823,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 14825,
+  "endMs": 14935,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twentieth,",
+  "startMs": 14935,
+  "endMs": 15449,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it's",
+  "startMs": 15675,
+  "endMs": 15765,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " falling.",
+  "startMs": 15765,
+  "endMs": 16245,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 16470,
+  "endMs": 16660,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 16660,
+  "endMs": 17180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " more.",
+  "startMs": 17180,
+  "endMs": 17540,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Just",
+  "startMs": 17765,
+  "endMs": 18015,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " after",
+  "startMs": 18015,
+  "endMs": 18355,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two,",
+  "startMs": 18355,
+  "endMs": 18615,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 18845,
+  "endMs": 18955,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hits",
+  "startMs": 18975,
+  "endMs": 19235,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " zero.",
+  "startMs": 19235,
+  "endMs": 19635,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Free",
+  "startMs": 19860,
+  "endMs": 20220,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " oil!",
+  "startMs": 20220,
+  "endMs": 20510,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " You",
+  "startMs": 20735,
+  "endMs": 20865,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " take",
+  "startMs": 20865,
+  "endMs": 21235,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 21235,
+  "endMs": 21365,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 21365,
+  "endMs": 21915,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " free",
+  "startMs": 21915,
+  "endMs": 22241,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ones.",
+  "startMs": 22245,
+  "endMs": 22555,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Twenty",
+  "startMs": 22780,
+  "endMs": 23178,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " minutes",
+  "startMs": 23180,
+  "endMs": 23576,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " later:",
+  "startMs": 23600,
+  "endMs": 23917,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " minus",
+  "startMs": 24150,
+  "endMs": 24470,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forty.",
+  "startMs": 24470,
+  "endMs": 24940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " They",
+  "startMs": 25165,
+  "endMs": 25445,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " pay",
+  "startMs": 25445,
+  "endMs": 25820,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " me?",
+  "startMs": 25825,
+  "endMs": 26195,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " No.",
+  "startMs": 27450,
+  "endMs": 27950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 28175,
+  "endMs": 28385,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pay.",
+  "startMs": 28385,
+  "endMs": 28835,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 29060,
+  "endMs": 29250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " promised",
+  "startMs": 29250,
+  "endMs": 29827,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 29830,
+  "endMs": 30019,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " collect",
+  "startMs": 30020,
+  "endMs": 30467,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " real",
+  "startMs": 30490,
+  "endMs": 30850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " oil,",
+  "startMs": 30850,
+  "endMs": 31106,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 31360,
+  "endMs": 31617,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 31700,
+  "endMs": 31873,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Oklahoma",
+  "startMs": 31910,
+  "endMs": 32640,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " town.",
+  "startMs": 32640,
+  "endMs": 32960,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Its",
+  "startMs": 33185,
+  "endMs": 33383,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tanks",
+  "startMs": 33385,
+  "endMs": 33765,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " are",
+  "startMs": 33765,
+  "endMs": 33975,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nearly",
+  "startMs": 33975,
+  "endMs": 34305,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " full.",
+  "startMs": 34305,
+  "endMs": 34635,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Tomorrow,",
+  "startMs": 34860,
+  "endMs": 35378,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you're",
+  "startMs": 35610,
+  "endMs": 35782,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " locked",
+  "startMs": 35840,
+  "endMs": 36127,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in.",
+  "startMs": 36130,
+  "endMs": 36300,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 36525,
+  "endMs": 36725,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " people",
+  "startMs": 36725,
+  "endMs": 37085,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pay",
+  "startMs": 37085,
+  "endMs": 37445,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 37445,
+  "endMs": 37634,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " escape.",
+  "startMs": 37635,
+  "endMs": 38065,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 38290,
+  "endMs": 38390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " day",
+  "startMs": 38390,
+  "endMs": 38650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ends",
+  "startMs": 38650,
+  "endMs": 38930,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 38930,
+  "endMs": 39078,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " minus",
+  "startMs": 39080,
+  "endMs": 39502,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thirty-seven",
+  "startMs": 39540,
+  "endMs": 40229,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 40230,
+  "endMs": 40650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sixty-three.",
+  "startMs": 40650,
+  "endMs": 41380,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " First",
+  "startMs": 41605,
+  "endMs": 41975,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " time",
+  "startMs": 41975,
+  "endMs": 42295,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " below",
+  "startMs": 42295,
+  "endMs": 42685,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " zero.",
+  "startMs": 42685,
+  "endMs": 43135,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 43360,
+  "endMs": 43508,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " real",
+  "startMs": 43510,
+  "endMs": 43805,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " life,",
+  "startMs": 43810,
+  "endMs": 44052,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you'd",
+  "startMs": 44250,
+  "endMs": 44440,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " get",
+  "startMs": 44440,
+  "endMs": 44644,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 44650,
+  "endMs": 44792,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bill.",
+  "startMs": 44840,
+  "endMs": 44990,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " This",
+  "startMs": 45215,
+  "endMs": 45465,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 45465,
+  "endMs": 45632,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 45645,
+  "endMs": 45840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cartoon.",
+  "startMs": 45925,
+  "endMs": 46465,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Here's",
+  "startMs": 46690,
+  "endMs": 47060,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 47060,
+  "endMs": 47210,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lorry.",
+  "startMs": 47210,
+  "endMs": 47660,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " I",
+  "startMs": 49385,
+  "endMs": 49535,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " signed.",
+  "startMs": 49535,
+  "endMs": 50025,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Three",
+  "startMs": 50250,
+  "endMs": 50585,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 50590,
+  "endMs": 51030,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " barrels.",
+  "startMs": 51030,
+  "endMs": 51590,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " One-bed",
+  "startMs": 51815,
+  "endMs": 52395,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " flat.",
+  "startMs": 52395,
+  "endMs": 52785,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Never",
+  "startMs": 53010,
+  "endMs": 53368,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 53410,
+  "endMs": 53583,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bet.",
+  "startMs": 53630,
+  "endMs": 53870,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It",
+  "startMs": 54095,
+  "endMs": 54214,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 54215,
+  "endMs": 54393,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " oil,",
+  "startMs": 54395,
+  "endMs": 54632,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 54875,
+  "endMs": 55045,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 55045,
+  "endMs": 55229,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " delivery",
+  "startMs": 55235,
+  "endMs": 55767,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " date.",
+  "startMs": 55795,
+  "endMs": 56065,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " More",
+  "startMs": 56290,
+  "endMs": 56570,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " outside.",
+  "startMs": 56570,
+  "endMs": 57070,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Fuck",
+  "startMs": 57295,
+  "endMs": 57785,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " off.",
+  "startMs": 57785,
+  "endMs": 58155,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ }
+]
