@@ -1,0 +1,972 @@
+[
+ {
+  "text": "Chicago,",
+  "startMs": 80,
+  "endMs": 585,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 1955.",
+  "startMs": 810,
+  "endMs": 2380,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 2605,
+  "endMs": 2775,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " own",
+  "startMs": 2775,
+  "endMs": 3045,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nearly",
+  "startMs": 3045,
+  "endMs": 3425,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 3425,
+  "endMs": 3740,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " onion",
+  "startMs": 3745,
+  "endMs": 4115,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 4115,
+  "endMs": 4295,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 4295,
+  "endMs": 4434,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " city,",
+  "startMs": 4445,
+  "endMs": 4750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 5005,
+  "endMs": 5165,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " they're",
+  "startMs": 5165,
+  "endMs": 5385,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rotting.",
+  "startMs": 5385,
+  "endMs": 5885,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " I've",
+  "startMs": 6110,
+  "endMs": 6340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " done",
+  "startMs": 6340,
+  "endMs": 6650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 6650,
+  "endMs": 6790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sum.",
+  "startMs": 6790,
+  "endMs": 7120,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Eight",
+  "startMs": 7345,
+  "endMs": 7575,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pounds",
+  "startMs": 7575,
+  "endMs": 8025,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 8025,
+  "endMs": 8227,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " onion",
+  "startMs": 8235,
+  "endMs": 8635,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 8635,
+  "endMs": 8906,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 8915,
+  "endMs": 9245,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " person",
+  "startMs": 9255,
+  "endMs": 9721,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 9725,
+  "endMs": 9924,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Chicago.",
+  "startMs": 9945,
+  "endMs": 10535,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Including",
+  "startMs": 10760,
+  "endMs": 11410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 11410,
+  "endMs": 11543,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " babies.",
+  "startMs": 11630,
+  "endMs": 12000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " I'm",
+  "startMs": 12225,
+  "endMs": 12403,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " not",
+  "startMs": 12455,
+  "endMs": 12700,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " crying.",
+  "startMs": 12725,
+  "endMs": 13115,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Dump",
+  "startMs": 13340,
+  "endMs": 13632,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " them,",
+  "startMs": 13640,
+  "endMs": 13866,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 14180,
+  "endMs": 14270,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 14270,
+  "endMs": 14390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " price",
+  "startMs": 14390,
+  "endMs": 14744,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " collapses.",
+  "startMs": 14750,
+  "endMs": 15270,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 15495,
+  "endMs": 15745,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " farmers",
+  "startMs": 15745,
+  "endMs": 16235,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buy",
+  "startMs": 16235,
+  "endMs": 16499,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " some,",
+  "startMs": 16505,
+  "endMs": 16750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " if",
+  "startMs": 17005,
+  "endMs": 17126,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 17135,
+  "endMs": 17314,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lock",
+  "startMs": 17315,
+  "endMs": 17628,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " up",
+  "startMs": 17665,
+  "endMs": 17815,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 17815,
+  "endMs": 17941,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rest.",
+  "startMs": 17975,
+  "endMs": 18255,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You've",
+  "startMs": 18480,
+  "endMs": 18720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sold",
+  "startMs": 18720,
+  "endMs": 19070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " onions",
+  "startMs": 19070,
+  "endMs": 19527,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " by",
+  "startMs": 19540,
+  "endMs": 19774,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " promising",
+  "startMs": 19780,
+  "endMs": 20390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 20390,
+  "endMs": 20698,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 20700,
+  "endMs": 20882,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sell",
+  "startMs": 20940,
+  "endMs": 21129,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " onions.",
+  "startMs": 21130,
+  "endMs": 21560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Then,",
+  "startMs": 22485,
+  "endMs": 22736,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " greed.",
+  "startMs": 22985,
+  "endMs": 23365,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 23590,
+  "endMs": 23789,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sell",
+  "startMs": 23800,
+  "endMs": 24055,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " futures:",
+  "startMs": 24060,
+  "endMs": 24652,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " promises",
+  "startMs": 24920,
+  "endMs": 25582,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 25650,
+  "endMs": 25780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " deliver",
+  "startMs": 25780,
+  "endMs": 26246,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " onions",
+  "startMs": 26250,
+  "endMs": 26710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " later,",
+  "startMs": 26710,
+  "endMs": 27109,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 27370,
+  "endMs": 27507,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " today's",
+  "startMs": 27510,
+  "endMs": 27920,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " price.",
+  "startMs": 27920,
+  "endMs": 28370,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " If",
+  "startMs": 28595,
+  "endMs": 28720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " onions",
+  "startMs": 28725,
+  "endMs": 29159,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " get",
+  "startMs": 29165,
+  "endMs": 29409,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cheaper,",
+  "startMs": 29415,
+  "endMs": 29847,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 30095,
+  "endMs": 30285,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " keep",
+  "startMs": 30285,
+  "endMs": 30595,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 30595,
+  "endMs": 30724,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " difference.",
+  "startMs": 30755,
+  "endMs": 31225,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 31450,
+  "endMs": 31728,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 31820,
+  "endMs": 31937,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " unlock",
+  "startMs": 31960,
+  "endMs": 32424,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 32440,
+  "endMs": 32510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " onions.",
+  "startMs": 32510,
+  "endMs": 33050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " March",
+  "startMs": 33275,
+  "endMs": 33665,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 1956.",
+  "startMs": 33665,
+  "endMs": 35235,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 35460,
+  "endMs": 35620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fifty-pound",
+  "startMs": 35620,
+  "endMs": 36260,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bag:",
+  "startMs": 36260,
+  "endMs": 36577,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ten",
+  "startMs": 36740,
+  "endMs": 37040,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cents.",
+  "startMs": 37040,
+  "endMs": 37400,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 37625,
+  "endMs": 37753,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " story",
+  "startMs": 37775,
+  "endMs": 38165,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " goes",
+  "startMs": 38165,
+  "endMs": 38524,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 38525,
+  "endMs": 38652,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " empty",
+  "startMs": 38685,
+  "endMs": 39035,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bag",
+  "startMs": 39035,
+  "endMs": 39285,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cost",
+  "startMs": 39285,
+  "endMs": 39615,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twenty.",
+  "startMs": 39615,
+  "endMs": 40065,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Tip",
+  "startMs": 40290,
+  "endMs": 40530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 40530,
+  "endMs": 40657,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " onions",
+  "startMs": 40670,
+  "endMs": 41080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " out,",
+  "startMs": 41080,
+  "endMs": 41330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 41570,
+  "endMs": 41710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you've",
+  "startMs": 41710,
+  "endMs": 42000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " doubled",
+  "startMs": 42000,
+  "endMs": 42430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 42430,
+  "endMs": 42610,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " money.",
+  "startMs": 42610,
+  "endMs": 42920,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 43845,
+  "endMs": 43973,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " men",
+  "startMs": 43975,
+  "endMs": 44215,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " behind",
+  "startMs": 44215,
+  "endMs": 44744,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it:",
+  "startMs": 44745,
+  "endMs": 44873,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Vincent",
+  "startMs": 45125,
+  "endMs": 45625,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Kosuga",
+  "startMs": 45625,
+  "endMs": 46222,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 46255,
+  "endMs": 46414,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sam",
+  "startMs": 46415,
+  "endMs": 46671,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Siegel.",
+  "startMs": 46675,
+  "endMs": 47185,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 47410,
+  "endMs": 47510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " government",
+  "startMs": 47510,
+  "endMs": 48190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ruled",
+  "startMs": 48190,
+  "endMs": 48580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " they'd",
+  "startMs": 48580,
+  "endMs": 48840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " manipulated",
+  "startMs": 48840,
+  "endMs": 49819,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 49820,
+  "endMs": 49949,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " price.",
+  "startMs": 50020,
+  "endMs": 50340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 50565,
+  "endMs": 50715,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 1958,",
+  "startMs": 50715,
+  "endMs": 52351,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Congress",
+  "startMs": 52545,
+  "endMs": 53125,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " banned",
+  "startMs": 53175,
+  "endMs": 53422,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " onion",
+  "startMs": 53425,
+  "endMs": 53779,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " futures.",
+  "startMs": 53785,
+  "endMs": 54315,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " No",
+  "startMs": 54540,
+  "endMs": 54840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " other",
+  "startMs": 54840,
+  "endMs": 55120,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " crop.",
+  "startMs": 55120,
+  "endMs": 55600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Still",
+  "startMs": 55825,
+  "endMs": 56195,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 56195,
+  "endMs": 56335,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " law.",
+  "startMs": 56335,
+  "endMs": 56725,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Garlic?",
+  "startMs": 56950,
+  "endMs": 57520,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Garlic's",
+  "startMs": 57775,
+  "endMs": 58343,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " legal.",
+  "startMs": 58345,
+  "endMs": 58785,
+  "timestampMs": null,
+  "confidence": null
+ }
+]
