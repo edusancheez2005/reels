@@ -1,0 +1,773 @@
+{
+ "slug": "biggest-ipo",
+ "format": "motion",
+ "topic_source": "breaking",
+ "theme": "dark",
+ "tail": 0.9,
+ "captionStyle": "kinetic",
+ "defs": {
+  "desk": {
+   "set": "desk",
+   "mood": "night",
+   "actors": [
+    {
+     "id": "suit",
+     "model": "Bizdude.vrm",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "tall": 1.75,
+     "pose": "type"
+    }
+   ],
+   "screens": {
+    "raise": {
+     "head": "ANT · NASDAQ · IPO",
+     "big": "$81.3B",
+     "tone": "white",
+     "sub": "980M shares × $83"
+    },
+    "open": {
+     "head": "ANT · FIRST TRADE",
+     "big": "$111.50",
+     "tone": "good",
+     "sub": "IPO price $83",
+     "chart": "up"
+    },
+    "close": {
+     "head": "ANT · CLOSE, DAY ONE",
+     "big": "$97.17",
+     "tone": "warm",
+     "sub": "first trade $111.50",
+     "chart": "down"
+    }
+   }
+  }
+ },
+ "emphasis": [
+  "eighty-one billion dollars",
+  "biggest stock market debut ever.",
+  "I. P. O.",
+  "pieces of itself,",
+  "eighty-three dollars each.",
+  "SpaceX,",
+  "seventy-five billion,",
+  "a hundred and eleven fifty,",
+  "ninety-seven seventeen.",
+  "down thirteen percent.",
+  "Binance Wallet",
+  "five hundred million dollars",
+  "isn't a share.",
+  "No vote,",
+  "just the price moves.",
+  "the price you'd actually pay:",
+  "isn't the stock.",
+  "stay with the shares."
+ ],
+ "scenes": [
+  {
+   "anchor": "On",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "desk",
+    "screen": "raise",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.1,
+       1.3,
+       0
+      ],
+      "fov": 38,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "label:0+label:1",
+     "suit:lean",
+     "suit:proud"
+    ],
+    "tags": [
+     {
+      "text": "$81.3 BILLION",
+      "x": 540,
+      "y": 560,
+      "tone": "accent",
+      "size": 74,
+      "pill": true
+     },
+     {
+      "text": "Anthropic's IPO",
+      "x": 540,
+      "y": 680,
+      "size": 46,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "On",
+    "Anthropic,",
+    "Claude,"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "raised",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 81.3,
+    "decimals": 1,
+    "prefix": "$",
+    "suffix": "B",
+    "chip": "RAISED · BIGGEST IPO EVER",
+    "label": "980M shares × $83",
+    "tone": "accent"
+   },
+   "beats": [
+    "eighty-one",
+    "dollars"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "biggest",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "ap_c.png",
+    "url": "ca.finance.yahoo.com/news/anthropic-pulled-off-biggest-ipo-212850934.html",
+    "source": "The Canadian Press / AP via Yahoo Finance · 19 Nov 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.25,
+      "zoom": 1.05
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 740,
+      "y": 82,
+      "w": 580,
+      "h": 80
+     }
+    ]
+   },
+   "beats": [
+    "biggest",
+    "debut"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "That was its",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "shape": "circle",
+    "label": "IPO",
+    "sublabel": "initial public offering",
+    "tone": "accent",
+    "split": [
+     {
+      "x": 200,
+      "y": 260,
+      "label": "share"
+     },
+     {
+      "x": 800,
+      "y": 260,
+      "label": "share"
+     },
+     {
+      "x": 200,
+      "y": 680,
+      "label": "share"
+     },
+     {
+      "x": 800,
+      "y": 680,
+      "label": "share"
+     }
+    ]
+   },
+   "beats": [
+    "I.",
+    "company",
+    "pieces"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "called shares",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "co",
+      "label": "Anthropic",
+      "sub": "sells shares",
+      "x": 250,
+      "y": 200,
+      "logo": "anthropic.svg",
+      "tone": "accent",
+      "size": 1.1
+     },
+     {
+      "id": "inv",
+      "label": "Investors",
+      "sub": "first time outside owners can buy",
+      "x": 720,
+      "y": 700,
+      "icon": "👥",
+      "tone": "good",
+      "size": 1.1
+     }
+    ],
+    "edges": [
+     {
+      "from": "co",
+      "to": "inv",
+      "label": "shares",
+      "flow": true,
+      "tone": "accent"
+     }
+    ],
+    "order": [
+     "co",
+     [
+      "inv",
+      "co>inv"
+     ]
+    ]
+   },
+   "beats": [
+    "shares,",
+    "investors"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "Anthropic sold",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "props": {
+    "src": "anth_release_c.png",
+    "url": "anthropic.com/news/anthropic-prices-initial-public-offering",
+    "source": "Anthropic press release · 18 Nov 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.015
+     },
+     {
+      "x": 0.5,
+      "y": 0.7,
+      "zoom": 1.03
+     },
+     {
+      "x": 0.5,
+      "y": 0.75,
+      "zoom": 1.045
+     },
+     {
+      "x": 0.5,
+      "y": 0.75,
+      "zoom": 1.06
+     }
+    ],
+    "marks": [
+     {
+      "beat": 3,
+      "kind": "box",
+      "x": 660,
+      "y": 645,
+      "w": 330,
+      "h": 62
+     },
+     {
+      "beat": 4,
+      "kind": "box",
+      "x": 26,
+      "y": 645,
+      "w": 270,
+      "h": 62
+     }
+    ]
+   },
+   "beats": [
+    "Anthropic",
+    "sold",
+    "nine",
+    "million",
+    "eighty-three"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "The old record",
+   "component": "Growth",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "items": [
+     {
+      "label": "SpaceX · June 2026",
+      "value": 75,
+      "display": "~$75B"
+     },
+     {
+      "label": "Anthropic · Nov 2026",
+      "value": 81.3,
+      "display": "$81.3B"
+     }
+    ],
+    "badge": "NEW RECORD"
+   },
+   "beats": [
+    "SpaceX,",
+    "billion,",
+    "June."
+   ],
+   "long": true
+  },
+  {
+   "anchor": "Then the shares",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "desk",
+    "screen": "raise",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:open+suit:cheer+label:0"
+    ],
+    "tags": [
+     {
+      "text": "$111.50",
+      "x": 540,
+      "y": 600,
+      "tone": "good",
+      "size": 100,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "Nasdaq.",
+    "hundred"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "over thirty",
+   "component": "BigNumber",
+   "theme": "light",
+   "transition": "pop",
+   "moving": true,
+   "props": {
+    "value": 34,
+    "prefix": "+",
+    "suffix": "%",
+    "chip": "FIRST TRADE vs $83 IPO PRICE",
+    "label": "$83 → $111.50",
+    "tone": "good"
+   },
+   "beats": [
+    "over"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "By the end",
+   "component": "Growth",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "items": [
+     {
+      "label": "IPO price",
+      "value": 83,
+      "display": "$83"
+     },
+     {
+      "label": "First trade",
+      "value": 111.5,
+      "display": "$111.50"
+     },
+     {
+      "label": "Close, day one",
+      "value": 97.17,
+      "display": "$97.17"
+     }
+    ],
+    "badge": "+17% vs IPO"
+   },
+   "beats": [
+    "By",
+    "day:",
+    "ninety-seven",
+    "Still"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "but anyone",
+   "component": "BigNumber",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "value": 13,
+    "prefix": "−",
+    "suffix": "%",
+    "chip": "PAID THE FIRST TRADE, $111.50",
+    "label": "by the close: $97.17",
+    "tone": "alert"
+   },
+   "beats": [
+    "down"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "The day before",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "props": {
+    "src": "cn_c.png",
+    "url": "crypto.news/binance-wallet-launches-500-million-anthropic-ipo-tokenized-stock-campaign/",
+    "source": "crypto.news · 18 Nov 2026",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.3,
+      "zoom": 1.015
+     },
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.03
+     },
+     {
+      "x": 0.5,
+      "y": 0.55,
+      "zoom": 1.045
+     }
+    ],
+    "marks": [
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 870,
+      "y": 118,
+      "w": 460,
+      "h": 84
+     }
+    ]
+   },
+   "beats": [
+    "before,",
+    "Binance",
+    "five",
+    "million"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "tokens built",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "pop",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "ant",
+      "label": "ANT",
+      "sub": "the stock, on Nasdaq",
+      "x": 250,
+      "y": 200,
+      "icon": "📈",
+      "tone": "accent",
+      "size": 1.1
+     },
+     {
+      "id": "tok",
+      "label": "ANTx",
+      "sub": "a token on Binance Wallet",
+      "x": 720,
+      "y": 700,
+      "logo": "binance.svg",
+      "tone": "warm",
+      "size": 1.1
+     }
+    ],
+    "edges": [
+     {
+      "from": "ant",
+      "to": "tok",
+      "label": "follows the price",
+      "dashed": true,
+      "tone": "warm"
+     }
+    ],
+    "order": [
+     "ant",
+     [
+      "tok",
+      "ant>tok"
+     ]
+    ]
+   },
+   "beats": [
+    "tokens",
+    "follow"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "But a token",
+   "component": "Checklist",
+   "theme": "dark",
+   "transition": "whip",
+   "long": true,
+   "props": {
+    "title": "What an ANTx token gives you",
+    "rows": [
+     {
+      "left": "An Anthropic share",
+      "badge": "NO",
+      "tone": "alert"
+     },
+     {
+      "left": "A vote",
+      "badge": "NO",
+      "tone": "alert"
+     },
+     {
+      "left": "A cut of profits paid out",
+      "badge": "NO",
+      "tone": "alert"
+     },
+     {
+      "left": "The price moves",
+      "badge": "YES",
+      "tone": "good"
+     }
+    ]
+   },
+   "beats": [
+    "token",
+    "share.",
+    "vote,",
+    "profits",
+    "price",
+    "moves."
+   ]
+  },
+  {
+   "anchor": "Two lessons",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "desk",
+    "screen": "close",
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       2.0,
+       1.55,
+       3.6
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.1,
+       1.35,
+       0
+      ],
+      "fov": 36,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:think",
+     "suit:point+label:0"
+    ],
+    "tags": [
+     {
+      "text": "check the price you pay",
+      "x": 540,
+      "y": 600,
+      "size": 40,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    "Two",
+    "Check"
+   ],
+   "long": true
+  },
+  {
+   "anchor": "And a token",
+   "component": "Flow",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "nodes": [
+     {
+      "id": "share",
+      "label": "Share",
+      "sub": "vote + payouts + price",
+      "x": 260,
+      "y": 230,
+      "icon": "📄",
+      "tone": "good",
+      "size": 1.1
+     },
+     {
+      "id": "token",
+      "label": "Token",
+      "sub": "price only",
+      "x": 740,
+      "y": 230,
+      "icon": "🪙",
+      "tone": "warm",
+      "size": 1.1
+     },
+     {
+      "id": "you",
+      "label": "Check what you own",
+      "sub": "before you buy",
+      "x": 500,
+      "y": 650,
+      "icon": "🔍",
+      "tone": "accent",
+      "size": 1.2
+     }
+    ],
+    "edges": [],
+    "order": [
+     "share",
+     "token",
+     "you"
+    ]
+   },
+   "beats": [
+    "token",
+    "stock.",
+    "vote"
+   ],
+   "long": true
+  }
+ ]
+}
