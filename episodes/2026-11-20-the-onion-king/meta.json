@@ -1,15 +1,26 @@
 {
-  "id": "2026-11-20-the-onion-king",
-  "channel": "markets",
-  "topic": "Skit: the onion king \u2014 in 1955\u201356 two traders held practically all of Chicago's onions (about 30 million lb), then pushed the price to ten cents a bag; Congress banned onion futures on 28 Aug 1958 (period, deadpan-sums)",
-  "produced_at": "2026-11-20T18:06:00+00:00",
-  "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-onion-king.mp4",
-  "posted": false,
-  "story_urls": [
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-onion-king-story_1.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-onion-king-story_2.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-onion-king-story_3.jpg"
-  ],
-  "format": "skit",
-  "topic_source": "plan"
+ "id": "2026-11-20-the-onion-king",
+ "channel": "markets",
+ "topic": "Skit: the onion king — in 1955–56 two traders held practically all of Chicago's onions (about 30 million lb), then pushed the price to ten cents a bag; Congress banned onion futures on 28 Aug 1958 (period, deadpan-sums)",
+ "produced_at": "2026-11-20T18:06:00+00:00",
+ "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-onion-king.mp4",
+ "posted": true,
+ "story_urls": [
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-onion-king-story_1.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-onion-king-story_2.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-onion-king-story_3.jpg"
+ ],
+ "format": "skit",
+ "topic_source": "plan",
+ "auto_posted": true,
+ "posted_at": "2026-11-20T18:10:00Z",
+ "genre": "period",
+ "bit": "deadpan-sums",
+ "instagram_media_id": "17973883383194694",
+ "sources_comment_id": "17874712764644134",
+ "story_media_ids": [
+  "18355710574280090",
+  "18149383198575901",
+  "18081770657416385"
+ ]
 }
