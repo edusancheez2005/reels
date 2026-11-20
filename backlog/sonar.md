@@ -17,3 +17,4 @@
 - [ ] Self-custody vs exchange custody: where the biggest holders keep coins
 - [x] Who holds the most bitcoin: US ETFs (1.25M) now beat Satoshi's estimated ~1.1M; Strategy, the US government, Coinbase (mostly customers' coins) (2026-11-17-who-holds-bitcoin)
 - [ ] Exchange inflows vs outflows: what a whale moving coins can and can't tell you, from a fresh verified move (was planned for Thu 19 Nov; replaced by a skit on 17 Nov)
+- [x] Skit: the whale — a 2011 wallet sat on 10,000 BTC for 14 years; on 4 July 2025 it and seven sibling wallets (80,000 BTC) moved; three weeks later Galaxy sold over 80,000 BTC (>$9B) for a Satoshi-era investor (nature-doc, narrator-loses-it) (2026-11-20-the-whale)

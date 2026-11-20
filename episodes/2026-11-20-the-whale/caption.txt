@@ -1,0 +1,13 @@
+A bitcoin whale sat still for 14 years. Then, on 4 July 2025, it moved 80,000 coins in a single day.
+Eight wallets, 10,000 BTC each, untouched since 2011. Trackers saw the coins go to new addresses and no sign of selling. Three weeks later Galaxy said it had sold more than 80,000 bitcoin, worth over $9 billion, for one early investor. A move isn't a sale: watch where the coins land.
+The suit guy and his friend are made up. The numbers are real.
+Comment "WHALE" and Orca will DM you the breakdown.
+Not financial advice.
+#Bitcoin #CryptoNews #WhaleAlert #OnChain #Sonar
+
+Sources:
+mempool.space, the 10,000 BTC move (4 July 2025, 03:43 UTC): https://mempool.space/tx/9d5d67169a37222720b407c99939f7baa40587eef9ab16ec3a17c7c856ef9045
+mempool.space, the same address funded 2 April 2011: https://mempool.space/address/12tLs9c9RsALt4ockxa1hB4iTCTSmxj2me
+Galaxy, sale of more than 80,000 BTC for a Satoshi-era investor, 25 July 2025: https://www.galaxy.com/newsroom/galaxy-executes-one-of-the-largest-notional-bitcoin-transactions
+The Block, eight wallets, 80,000 BTC, Arkham "no indication the whale is selling", 7 July 2025: https://www.theblock.co/news/business/2025-07-07-bitcoin-whale-movement-arkham-361269
+Decrypt, the coins moved to Galaxy's addresses, 25 July 2025: https://decrypt.co/331939/one-biggest-bitcoin-whales-history-cashed-out-9-billion
