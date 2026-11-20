@@ -1,15 +1,16 @@
 {
-  "id": "2026-11-20-biggest-ipo",
-  "channel": "crypto",
-  "topic": "Breaking: Anthropic's record IPO \u2014 980M shares at $83 raised $81.3B (beat SpaceX's ~$75B); first trade $111.50, close $97.17; Binance Wallet's ANTx tokens give price exposure only (motion)",
-  "produced_at": "2026-11-20T12:05:03+00:00",
-  "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-biggest-ipo.mp4",
-  "posted": false,
-  "story_urls": [
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-biggest-ipo-story_1.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-biggest-ipo-story_2.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-biggest-ipo-story_3.jpg"
-  ],
-  "format": "motion",
-  "topic_source": "breaking"
+ "id": "2026-11-20-biggest-ipo",
+ "channel": "crypto",
+ "topic": "Breaking: Anthropic's record IPO \u2014 980M shares at $83 raised $81.3B (beat SpaceX's ~$75B); first trade $111.50, close $97.17; Binance Wallet's ANTx tokens give price exposure only (motion)",
+ "produced_at": "2026-11-20T12:05:03+00:00",
+ "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-biggest-ipo.mp4",
+ "posted": false,
+ "story_urls": [
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-biggest-ipo-story_1.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-biggest-ipo-story_2.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-biggest-ipo-story_3.jpg"
+ ],
+ "format": "motion",
+ "topic_source": "breaking",
+ "held_for_approval": "producer (Claude) is built by Anthropic; Edu checks tone before posting"
 }
