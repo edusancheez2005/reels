@@ -1,15 +1,26 @@
 {
-  "id": "2026-11-20-the-whale",
-  "channel": "sonar",
-  "topic": "Skit: the whale \u2014 a 2011 wallet sat on 10,000 BTC for 14 years; on 4 July 2025 it and seven sibling wallets (80,000 BTC) moved; three weeks later Galaxy sold over 80,000 BTC (>$9B) for a Satoshi-era investor (nature-doc, narrator-loses-it)",
-  "produced_at": "2026-11-20T04:44:34+00:00",
-  "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-whale.mp4",
-  "posted": false,
-  "story_urls": [
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-whale-story_1.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-whale-story_2.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-whale-story_3.jpg"
-  ],
-  "format": "skit",
-  "topic_source": "plan"
+ "id": "2026-11-20-the-whale",
+ "channel": "sonar",
+ "topic": "Skit: the whale \u2014 a 2011 wallet sat on 10,000 BTC for 14 years; on 4 July 2025 it and seven sibling wallets (80,000 BTC) moved; three weeks later Galaxy sold over 80,000 BTC (>$9B) for a Satoshi-era investor (nature-doc, narrator-loses-it)",
+ "produced_at": "2026-11-20T04:44:34+00:00",
+ "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-whale.mp4",
+ "posted": true,
+ "story_urls": [
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-whale-story_1.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-whale-story_2.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-20-the-whale-story_3.jpg"
+ ],
+ "format": "skit",
+ "topic_source": "plan",
+ "auto_posted": true,
+ "posted_at": "2026-11-20T04:49:00Z",
+ "instagram_media_id": "17905371606608365",
+ "sources_comment_id": "18127397005921479",
+ "story_media_ids": [
+  "17942086461388863",
+  "18165479143444869",
+  "17957977182036531"
+ ],
+ "genre": "nature-doc",
+ "bit": "narrator-loses-it"
 }
