@@ -1,15 +1,26 @@
 {
-  "id": "2026-11-21-newtons-bubble",
-  "channel": "markets",
-  "topic": "Skit: Newton's bubble \u2014 in 1720 Isaac Newton sold his South Sea stock in April at a profit, bought back near the top in June, and lost about a third of his fortune (biopic, argues-back)",
-  "produced_at": "2026-11-21T17:59:49+00:00",
-  "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-21-newtons-bubble.mp4",
-  "posted": false,
-  "story_urls": [
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-21-newtons-bubble-story_1.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-21-newtons-bubble-story_2.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-21-newtons-bubble-story_3.jpg"
-  ],
-  "format": "skit",
-  "topic_source": "plan"
+ "id": "2026-11-21-newtons-bubble",
+ "channel": "markets",
+ "topic": "Skit: Newton's bubble — in 1720 Isaac Newton sold his South Sea stock in April at a profit, bought back near the top in June, and lost about a third of his fortune (biopic, argues-back)",
+ "produced_at": "2026-11-21T17:59:49+00:00",
+ "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-21-newtons-bubble.mp4",
+ "posted": true,
+ "story_urls": [
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-21-newtons-bubble-story_1.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-21-newtons-bubble-story_2.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-21-newtons-bubble-story_3.jpg"
+ ],
+ "format": "skit",
+ "topic_source": "plan",
+ "auto_posted": true,
+ "posted_at": "2026-11-21T18:03:46Z",
+ "genre": "biopic",
+ "bit": "argues-back",
+ "instagram_media_id": "18116894837139168",
+ "sources_comment_id": "18249802840313893",
+ "story_media_ids": [
+  "18027570731939005",
+  "17957746635082813",
+  "18102881573660606"
+ ]
 }
