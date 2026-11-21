@@ -25,3 +25,4 @@
 - [x] Skit: the wrong Zoom — in March 2020 buyers piled into Zoom Technologies (ZOOM) instead of Zoom Video (ZM); SEC froze it 26 Mar–8 Apr 2020 (comedy-of-errors, understatement) (2026-11-18-the-wrong-zoom)
 - [x] Skit: minus thirty-seven dollars — on 20 April 2020 US oil (WTI, May contract) settled at −$37.63 a barrel; holders paid to avoid collecting real oil at Cushing (disaster, escalation) (2026-11-19-minus-thirty-seven)
 - [x] Skit: the onion king — in 1955–56 two traders held practically all of Chicago's onions (about 30 million lb), then pushed the price to ten cents a bag; Congress banned onion futures on 28 Aug 1958 (period, deadpan-sums) (2026-11-20-the-onion-king)
+- [x] Skit: Newton's bubble — in 1720 Isaac Newton sold his South Sea stock in April at a profit, bought back near the top in June, and lost about a third of his fortune (biopic, argues-back) (2026-11-21-newtons-bubble)

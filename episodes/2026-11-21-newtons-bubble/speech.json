@@ -1,0 +1,176 @@
+[
+ {
+  "speaker": "narrator",
+  "text": "It's 1720.",
+  "startMs": 80,
+  "endMs": 2350
+ },
+ {
+  "speaker": "narrator",
+  "text": "You're the cleverest man in England, and you're about to bet nearly everything on one stock.",
+  "startMs": 2575,
+  "endMs": 7805
+ },
+ {
+  "speaker": "narrator",
+  "text": "You explained gravity.",
+  "startMs": 8030,
+  "endMs": 9300
+ },
+ {
+  "speaker": "suit",
+  "text": "And calculus.",
+  "startMs": 9525,
+  "endMs": 10725
+ },
+ {
+  "speaker": "narrator",
+  "text": "And calculus.",
+  "startMs": 10950,
+  "endMs": 11950
+ },
+ {
+  "speaker": "narrator",
+  "text": "You work at the Royal Mint.",
+  "startMs": 12175,
+  "endMs": 13605
+ },
+ {
+  "speaker": "suit",
+  "text": "I run it.",
+  "startMs": 13830,
+  "endMs": 14820
+ },
+ {
+  "speaker": "narrator",
+  "text": "You run it.",
+  "startMs": 15045,
+  "endMs": 15825
+ },
+ {
+  "speaker": "narrator",
+  "text": "You own the hot stock: the South Sea Company.",
+  "startMs": 16050,
+  "endMs": 18810
+ },
+ {
+  "speaker": "narrator",
+  "text": "In April you sell, at a huge profit.",
+  "startMs": 19035,
+  "endMs": 21355
+ },
+ {
+  "speaker": "narrator",
+  "text": "It keeps rising.",
+  "startMs": 21580,
+  "endMs": 22690
+ },
+ {
+  "speaker": "narrator",
+  "text": "Without you.",
+  "startMs": 22915,
+  "endMs": 23745
+ },
+ {
+  "speaker": "narrator",
+  "text": "People buy because it's rising.",
+  "startMs": 23970,
+  "endMs": 25780
+ },
+ {
+  "speaker": "narrator",
+  "text": "It's rising because people buy.",
+  "startMs": 26005,
+  "endMs": 27835
+ },
+ {
+  "speaker": "narrator",
+  "text": "That's a bubble.",
+  "startMs": 28060,
+  "endMs": 28970
+ },
+ {
+  "speaker": "narrator",
+  "text": "June.",
+  "startMs": 29795,
+  "endMs": 30415
+ },
+ {
+  "speaker": "narrator",
+  "text": "Near the top, you buy back in.",
+  "startMs": 30640,
+  "endMs": 32400
+ },
+ {
+  "speaker": "narrator",
+  "text": "With nearly everything.",
+  "startMs": 32625,
+  "endMs": 33875
+ },
+ {
+  "speaker": "stonks",
+  "text": "Nothing comes down.",
+  "startMs": 34100,
+  "endMs": 35120
+ },
+ {
+  "speaker": "narrator",
+  "text": "It peaks at a thousand and fifty pounds.",
+  "startMs": 35345,
+  "endMs": 37605
+ },
+ {
+  "speaker": "narrator",
+  "text": "By December:",
+  "startMs": 37830,
+  "endMs": 38680
+ },
+ {
+  "speaker": "suit",
+  "text": "Don't.",
+  "startMs": 38845,
+  "endMs": 39495
+ },
+ {
+  "speaker": "narrator",
+  "text": "A hundred and twenty-four.",
+  "startMs": 39720,
+  "endMs": 41240
+ },
+ {
+  "speaker": "suit",
+  "text": "Back to gravity?",
+  "startMs": 42065,
+  "endMs": 43455
+ },
+ {
+  "speaker": "narrator",
+  "text": "This was Isaac Newton.",
+  "startMs": 43710,
+  "endMs": 45120
+ },
+ {
+  "speaker": "narrator",
+  "text": "One study reckons it cost him about a third of his fortune.",
+  "startMs": 45345,
+  "endMs": 48965
+ },
+ {
+  "speaker": "narrator",
+  "text": "He supposedly said he could calculate the heavens, but not the madness of people.",
+  "startMs": 49190,
+  "endMs": 54100
+ },
+ {
+  "speaker": "narrator",
+  "text": "Fine.",
+  "startMs": 55125,
+  "endMs": 55745
+ },
+ {
+  "speaker": "narrator",
+  "text": "Gravity.",
+  "startMs": 55970,
+  "endMs": 56660
+ }
+]
