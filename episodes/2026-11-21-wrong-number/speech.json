@@ -1,0 +1,182 @@
+[
+ {
+  "speaker": "narrator",
+  "text": "A wrong-number text is about to cost you everything.",
+  "startMs": 80,
+  "endMs": 3020
+ },
+ {
+  "speaker": "narrator",
+  "text": "\"Is this Dave?\"",
+  "startMs": 3245,
+  "endMs": 4265
+ },
+ {
+  "speaker": "narrator",
+  "text": "You're not Dave.",
+  "startMs": 4520,
+  "endMs": 5490
+ },
+ {
+  "speaker": "narrator",
+  "text": "She's lovely.",
+  "startMs": 5715,
+  "endMs": 6565
+ },
+ {
+  "speaker": "suit",
+  "text": "I could be Dave.",
+  "startMs": 6790,
+  "endMs": 7960
+ },
+ {
+  "speaker": "narrator",
+  "text": "Week one: she's rich from crypto.",
+  "startMs": 8185,
+  "endMs": 10145
+ },
+ {
+  "speaker": "narrator",
+  "text": "She'll teach you, on her app.",
+  "startMs": 10370,
+  "endMs": 11820
+ },
+ {
+  "speaker": "stonks",
+  "text": "June wedding?",
+  "startMs": 12045,
+  "endMs": 12785
+ },
+ {
+  "speaker": "narrator",
+  "text": "Week two: your savings go in.",
+  "startMs": 13040,
+  "endMs": 14850
+ },
+ {
+  "speaker": "narrator",
+  "text": "The app says you've doubled them.",
+  "startMs": 15075,
+  "endMs": 16605
+ },
+ {
+  "speaker": "narrator",
+  "text": "You try to cash out.",
+  "startMs": 16830,
+  "endMs": 18070
+ },
+ {
+  "speaker": "narrator",
+  "text": "First, a fee.",
+  "startMs": 19095,
+  "endMs": 20025
+ },
+ {
+  "speaker": "narrator",
+  "text": "Then a tax on the fee.",
+  "startMs": 20250,
+  "endMs": 21560
+ },
+ {
+  "speaker": "suit",
+  "text": "It's for us.",
+  "startMs": 21785,
+  "endMs": 22825
+ },
+ {
+  "speaker": "narrator",
+  "text": "Red flags: a stranger.",
+  "startMs": 23050,
+  "endMs": 24600
+ },
+ {
+  "speaker": "narrator",
+  "text": "Rich from crypto.",
+  "startMs": 24825,
+  "endMs": 25965
+ },
+ {
+  "speaker": "narrator",
+  "text": "Pay to withdraw.",
+  "startMs": 26190,
+  "endMs": 27230
+ },
+ {
+  "speaker": "narrator",
+  "text": "And the one you noticed: she puts the milk in first.",
+  "startMs": 27455,
+  "endMs": 30265
+ },
+ {
+  "speaker": "suit",
+  "text": "Dealbreaker.",
+  "startMs": 30490,
+  "endMs": 31550
+ },
+ {
+  "speaker": "narrator",
+  "text": "That's pig butchering: fatten you up with fake profits, then take everything.",
+  "startMs": 32375,
+  "endMs": 36615
+ },
+ {
+  "speaker": "narrator",
+  "text": "In 2023, this scam took a real Kansas bank boss.",
+  "startMs": 36840,
+  "endMs": 41260
+ },
+ {
+  "speaker": "narrator",
+  "text": "He wired the scammers forty-seven million dollars of his bank's money.",
+  "startMs": 41485,
+  "endMs": 45375
+ },
+ {
+  "speaker": "narrator",
+  "text": "He got twenty-four years.",
+  "startMs": 45600,
+  "endMs": 47130
+ },
+ {
+  "speaker": "narrator",
+  "text": "Stranger talks crypto?",
+  "startMs": 47355,
+  "endMs": 48885
+ },
+ {
+  "speaker": "narrator",
+  "text": "Block.",
+  "startMs": 49140,
+  "endMs": 49800
+ },
+ {
+  "speaker": "narrator",
+  "text": "Fee to withdraw?",
+  "startMs": 50025,
+  "endMs": 51095
+ },
+ {
+  "speaker": "narrator",
+  "text": "It's already gone.",
+  "startMs": 51350,
+  "endMs": 52400
+ },
+ {
+  "speaker": "narrator",
+  "text": "Your phone buzzes.",
+  "startMs": 52625,
+  "endMs": 53785
+ },
+ {
+  "speaker": "narrator",
+  "text": "\"Is this Dave?\"",
+  "startMs": 54010,
+  "endMs": 55030
+ },
+ {
+  "speaker": "suit",
+  "text": "Speaking.",
+  "startMs": 55285,
+  "endMs": 56145
+ }
+]

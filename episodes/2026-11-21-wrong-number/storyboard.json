@@ -1,0 +1,2372 @@
+{
+ "slug": "wrong-number",
+ "format": "skit",
+ "genre": "romcom",
+ "bit": "the-list",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 0.9,
+ "emphasis": [
+  "wrong-number text",
+  "everything.",
+  "I could be Dave.",
+  "rich from crypto.",
+  "June wedding?",
+  "doubled them.",
+  "cash out.",
+  "a fee.",
+  "tax on the fee.",
+  "It's for us.",
+  "Red flags:",
+  "milk in first.",
+  "Dealbreaker.",
+  "pig butchering:",
+  "fake profits,",
+  "take everything.",
+  "forty-seven million dollars",
+  "twenty-four years.",
+  "Block.",
+  "already gone.",
+  "Speaking."
+ ],
+ "defs": {
+  "flat": {
+   "set": "studio",
+   "props": [
+    {
+     "shape": "box",
+     "at": [
+      -0.35,
+      0.24,
+      -1.45
+     ],
+     "size": [
+      2.0,
+      0.48,
+      0.85
+     ],
+     "color": "#7a3b52"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.35,
+      0.72,
+      -1.8
+     ],
+     "size": [
+      2.0,
+      0.62,
+      0.2
+     ],
+     "color": "#6a3046"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.42,
+      0.36,
+      -1.45
+     ],
+     "size": [
+      0.2,
+      0.72,
+      0.85
+     ],
+     "color": "#6a3046"
+    },
+    {
+     "shape": "box",
+     "at": [
+      0.72,
+      0.36,
+      -1.45
+     ],
+     "size": [
+      0.2,
+      0.72,
+      0.85
+     ],
+     "color": "#6a3046"
+    },
+    {
+     "shape": "box",
+     "at": [
+      0.2,
+      0.62,
+      -1.55
+     ],
+     "size": [
+      0.42,
+      0.32,
+      0.14
+     ],
+     "color": "#e8b4c4",
+     "rot": [
+      0,
+      0,
+      -8
+     ]
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.85,
+      0.02,
+      -1.6
+     ],
+     "size": [
+      0.18,
+      0.04
+     ],
+     "color": "#2b2b2b"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.85,
+      0.8,
+      -1.6
+     ],
+     "size": [
+      0.02,
+      1.6
+     ],
+     "color": "#2b2b2b"
+    },
+    {
+     "shape": "cone",
+     "at": [
+      -1.85,
+      1.68,
+      -1.6
+     ],
+     "size": [
+      0.26,
+      0.3
+     ],
+     "color": "#ffd9a0",
+     "glow": 0.6
+    },
+    {
+     "shape": "plane",
+     "at": [
+      1.25,
+      1.75,
+      -2.42
+     ],
+     "size": [
+      1.2,
+      1.3
+     ],
+     "color": "#1b2850",
+     "glow": 0.25
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.25,
+      1.75,
+      -2.41
+     ],
+     "size": [
+      0.05,
+      1.3,
+      0.03
+     ],
+     "color": "#d9d2c5"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.25,
+      1.75,
+      -2.41
+     ],
+     "size": [
+      1.2,
+      0.05,
+      0.03
+     ],
+     "color": "#d9d2c5"
+    },
+    {
+     "shape": "ball",
+     "at": [
+      1.55,
+      2.15,
+      -2.4
+     ],
+     "size": [
+      0.1
+     ],
+     "color": "#fff4d6",
+     "glow": 1
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.35,
+      0.3,
+      -0.5
+     ],
+     "size": [
+      0.5,
+      0.6,
+      0.5
+     ],
+     "color": "#5a3a28"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.45,
+      0.66,
+      -0.45
+     ],
+     "size": [
+      0.055,
+      0.12
+     ],
+     "color": "#c8324a"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.45,
+      0.716,
+      -0.45
+     ],
+     "size": [
+      0.047,
+      0.01
+     ],
+     "color": "#d9b48c"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.51,
+      0.66,
+      -0.45
+     ],
+     "size": [
+      0.03,
+      0.07,
+      0.015
+     ],
+     "color": "#c8324a"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.24,
+      0.69,
+      -0.52
+     ],
+     "size": [
+      0.045,
+      0.18
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cone",
+     "at": [
+      -1.24,
+      0.81,
+      -0.52
+     ],
+     "size": [
+      0.045,
+      0.06
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.24,
+      0.85,
+      -0.52
+     ],
+     "size": [
+      0.022,
+      0.03
+     ],
+     "color": "#2f6fd6"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.24,
+      0.68,
+      -0.52
+     ],
+     "size": [
+      0.047,
+      0.06
+     ],
+     "color": "#2f6fd6"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.3,
+      0.42,
+      -0.35
+     ],
+     "size": [
+      0.55,
+      0.84,
+      0.55
+     ],
+     "color": "#e9e2ec"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.3,
+      0.92,
+      -0.35
+     ],
+     "size": [
+      0.24,
+      0.16
+     ],
+     "color": "#fffaf3"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.3,
+      1.07,
+      -0.35
+     ],
+     "size": [
+      0.17,
+      0.14
+     ],
+     "color": "#fffaf3"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.3,
+      1.2,
+      -0.35
+     ],
+     "size": [
+      0.11,
+      0.12
+     ],
+     "color": "#fffaf3"
+    },
+    {
+     "shape": "ball",
+     "at": [
+      1.3,
+      1.3,
+      -0.35
+     ],
+     "size": [
+      0.05
+     ],
+     "color": "#ff7aa8",
+     "glow": 0.4
+    }
+   ]
+  },
+  "desk": {
+   "set": "desk",
+   "props": [
+    {
+     "shape": "cyl",
+     "at": [
+      1.3,
+      0.02,
+      -1.4
+     ],
+     "size": [
+      0.18,
+      0.04
+     ],
+     "color": "#2b2b2b"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.3,
+      0.8,
+      -1.4
+     ],
+     "size": [
+      0.02,
+      1.6
+     ],
+     "color": "#2b2b2b"
+    },
+    {
+     "shape": "cone",
+     "at": [
+      1.3,
+      1.68,
+      -1.4
+     ],
+     "size": [
+      0.26,
+      0.3
+     ],
+     "color": "#ffd9a0",
+     "glow": 0.6
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -0.9,
+      1.75,
+      -2.42
+     ],
+     "size": [
+      1.2,
+      1.3
+     ],
+     "color": "#1b2850",
+     "glow": 0.25
+    },
+    {
+     "shape": "ball",
+     "at": [
+      -0.6,
+      2.15,
+      -2.4
+     ],
+     "size": [
+      0.1
+     ],
+     "color": "#fff4d6",
+     "glow": 1
+    }
+   ],
+   "screens": {
+    "lesson": {
+     "head": "HER APP",
+     "big": "Hi you",
+     "sub": "Lesson 1: trust me",
+     "tone": "accent"
+    },
+    "bal": {
+     "head": "YOUR BALANCE",
+     "big": "x2",
+     "sub": "doubled!",
+     "tone": "good",
+     "chart": "up"
+    },
+    "wd": {
+     "head": "CASH OUT",
+     "big": "...",
+     "sub": "processing",
+     "tone": "muted"
+    },
+    "locked": {
+     "head": "CASH OUT",
+     "big": "LOCKED",
+     "sub": "",
+     "tone": "alert"
+    },
+    "fee": {
+     "head": "TO UNLOCK",
+     "big": "FEE",
+     "sub": "pay first",
+     "tone": "alert"
+    },
+    "tax": {
+     "head": "TO UNLOCK",
+     "big": "TAX",
+     "sub": "on the fee",
+     "tone": "alert"
+    },
+    "fake": {
+     "head": "YOUR PROFITS",
+     "big": "+100%",
+     "sub": "(fake)",
+     "tone": "good",
+     "chart": "up"
+    },
+    "zero": {
+     "head": "YOUR PROFITS",
+     "big": "$0",
+     "sub": "",
+     "tone": "alert",
+     "chart": "down"
+    }
+   }
+  }
+ },
+ "scenes": [
+  {
+   "anchor": {
+    "word": 0
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "night",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "scroll"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.2,
+       1.45,
+       4.4
+      ],
+      "look": [
+       -0.3,
+       1.15,
+       -0.4
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.1,
+       1.45,
+       3.5000000000000004
+      ],
+      "look": [
+       -0.3,
+       1.15,
+       -0.4
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 90
+     }
+    ],
+    "actions": [
+     "suit:scroll",
+     "cam"
+    ],
+    "tags": []
+   },
+   "beats": [
+    {
+     "word": 0
+    },
+    {
+     "word": 6
+    }
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": {
+    "word": 9
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "scroll"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       -0.05,
+       1.5,
+       1.9
+      ],
+      "look": [
+       -0.45,
+       1.42,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.05,
+       1.5,
+       1.65
+      ],
+      "look": [
+       -0.45,
+       1.42,
+       0
+      ],
+      "fov": 30,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "label:0+suit:scroll",
+     "suit:proud+hide:0"
+    ],
+    "tags": [
+     {
+      "text": "Is this Dave?",
+      "x": 540,
+      "y": 430,
+      "size": 66,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 9
+    },
+    {
+     "word": 15
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 17
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "proud"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.05,
+       1.42,
+       2.6
+      ],
+      "look": [
+       -0.45,
+       1.3,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.05,
+       1.42,
+       2.3000000000000003
+      ],
+      "look": [
+       -0.45,
+       1.3,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:talk:0.85+suit:genius",
+     "suit:point"
+    ]
+   },
+   "beats": [
+    {
+     "word": 17
+    },
+    {
+     "word": 19
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 21
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "desk",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "lean"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "screen": "lesson",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.55,
+       2.5
+      ],
+      "look": [
+       0,
+       1.45,
+       0
+      ],
+      "fov": 32,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.55,
+       2.3
+      ],
+      "look": [
+       0,
+       1.45,
+       0
+      ],
+      "fov": 32,
+      "beat": 1,
+      "dur": 50
+     },
+     {
+      "pos": [
+       0.0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 2
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "suit:think",
+     "suit:type"
+    ]
+   },
+   "beats": [
+    {
+     "word": 21
+    },
+    {
+     "word": 27
+    },
+    {
+     "word": 30
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 33
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "proud"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "proud",
+      "hidden": true
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.9,
+       1.35,
+       4.0
+      ],
+      "look": [
+       0.75,
+       1.0,
+       -0.1
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.9,
+       1.35,
+       3.6
+      ],
+      "look": [
+       0.75,
+       1.0,
+       -0.1
+      ],
+      "fov": 34,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "stonks:in+stonks:talk:0.9+stonks:proud",
+     "stonks:point"
+    ]
+   },
+   "beats": [
+    {
+     "word": 33
+    },
+    {
+     "word": 34
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 37
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "desk",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "screen": "lesson",
+    "cam": [
+     {
+      "pos": [
+       0.0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 1
+     }
+    ],
+    "shift": 60,
+    "actions": [
+     "suit:type",
+     "screen:bal"
+    ]
+   },
+   "beats": [
+    {
+     "word": 37
+    },
+    {
+     "word": 41
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 45
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "desk",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "cheer"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "screen": "bal",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.55,
+       2.5
+      ],
+      "look": [
+       0,
+       1.45,
+       0
+      ],
+      "fov": 32,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.55,
+       2.35
+      ],
+      "look": [
+       0,
+       1.45,
+       0
+      ],
+      "fov": 32,
+      "beat": 1,
+      "dur": 30
+     },
+     {
+      "pos": [
+       0.3,
+       1.55,
+       2.15
+      ],
+      "look": [
+       0,
+       1.45,
+       0
+      ],
+      "fov": 32,
+      "beat": 2,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "suit:cheer",
+     "screen:wd+suit:click",
+     "screen:locked+mood:doom+suit:panic"
+    ]
+   },
+   "beats": [
+    {
+     "word": 45
+    },
+    {
+     "word": 50
+    },
+    {
+     "word": 51,
+     "at": "end",
+     "plus": 0.45
+    }
+   ],
+   "sfx": [
+    {
+     "name": "buzzer",
+     "beat": 2,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 52
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "desk",
+    "mood": "doom",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "panic"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "screen": "fee",
+    "cam": [
+     {
+      "pos": [
+       0.0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 1
+     }
+    ],
+    "shift": 60,
+    "actions": [
+     "screen:fee+suit:click",
+     "screen:tax+suit:click"
+    ]
+   },
+   "beats": [
+    {
+     "word": 52
+    },
+    {
+     "word": 55
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 61
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "beg"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       -0.05,
+       1.5,
+       1.9
+      ],
+      "look": [
+       -0.45,
+       1.42,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.05,
+       1.5,
+       1.7
+      ],
+      "look": [
+       -0.45,
+       1.42,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 35
+     }
+    ],
+    "actions": [
+     "suit:beg+suit:talk:0.8"
+    ]
+   },
+   "beats": [
+    {
+     "word": 61
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 64
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "shrug"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": false
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.5,
+       1.45,
+       5.6
+      ],
+      "look": [
+       0.1,
+       1.0,
+       -0.3
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.5,
+       1.45,
+       5.3
+      ],
+      "look": [
+       0.1,
+       1.0,
+       -0.3
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 60
+     },
+     {
+      "pos": [
+       0.5,
+       1.45,
+       5.0
+      ],
+      "look": [
+       0.1,
+       1.0,
+       -0.3
+      ],
+      "fov": 36,
+      "beat": 2,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:scroll+stonks:think",
+     "label:0",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "A stranger",
+      "x": 540,
+      "y": 1180,
+      "size": 64,
+      "pill": true,
+      "tone": "alert"
+     },
+     {
+      "text": "Rich from crypto",
+      "x": 540,
+      "y": 1290,
+      "size": 64,
+      "pill": true,
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 64
+    },
+    {
+     "word": 66
+    },
+    {
+     "word": 68
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 71
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "scroll"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "proud",
+      "hidden": false
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       1.3,
+       1.35,
+       3.4
+      ],
+      "look": [
+       0.9,
+       1.1,
+       -0.2
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.3,
+       1.35,
+       3.1
+      ],
+      "look": [
+       0.9,
+       1.1,
+       -0.2
+      ],
+      "fov": 34,
+      "beat": 1,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "label:0+label:1+label:2+stonks:proud",
+     "stonks:point"
+    ],
+    "tags": [
+     {
+      "text": "A stranger",
+      "x": 540,
+      "y": 1180,
+      "size": 64,
+      "pill": true,
+      "tone": "alert"
+     },
+     {
+      "text": "Rich from crypto",
+      "x": 540,
+      "y": 1290,
+      "size": 64,
+      "pill": true,
+      "tone": "alert"
+     },
+     {
+      "text": "Pay to withdraw",
+      "x": 540,
+      "y": 1400,
+      "size": 64,
+      "pill": true,
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 71
+    },
+    {
+     "word": 73
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 74
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "scroll"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "proud",
+      "hidden": false
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       -0.9,
+       1.05,
+       0.55
+      ],
+      "look": [
+       -1.35,
+       0.7,
+       -0.48
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.9,
+       1.05,
+       0.43000000000000005
+      ],
+      "look": [
+       -1.35,
+       0.7,
+       -0.48
+      ],
+      "fov": 30,
+      "beat": 1,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "cam",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "Milk first",
+      "x": 540,
+      "y": 1350,
+      "size": 96,
+      "pill": true,
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 74
+    },
+    {
+     "word": 82
+    }
+   ],
+   "sfx": [
+    {
+     "name": "dun",
+     "beat": 1,
+     "offset": 0.75,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 85
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.4,
+       0,
+       0
+      ],
+      "yaw": 0.15,
+      "tall": 1.75,
+      "pose": "think"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.7,
+       0,
+       0.1
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": false
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.2,
+       6.6
+      ],
+      "look": [
+       -0.05,
+       0.95,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.2,
+       6.3
+      ],
+      "look": [
+       -0.05,
+       0.95,
+       0
+      ],
+      "fov": 30,
+      "beat": 1,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "suit:away+suit:talk:0.8",
+     "stamp"
+    ],
+    "stamp": {
+     "text": "DEALBREAKER",
+     "y": 1450,
+     "size": 120,
+     "tone": "alert",
+     "rot": -6
+    }
+   },
+   "beats": [
+    {
+     "word": 85
+    },
+    {
+     "word": 85,
+     "at": "end",
+     "plus": 0.25
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 86
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "desk",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "screen": "fake",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.55,
+       2.5
+      ],
+      "look": [
+       0,
+       1.45,
+       0
+      ],
+      "fov": 32,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 1
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "screen:fake+suit:cheer"
+    ]
+   },
+   "beats": [
+    {
+     "word": 86
+    },
+    {
+     "word": 93
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 95
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "desk",
+    "mood": "doom",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "cheer"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "screen": "fake",
+    "cam": [
+     {
+      "pos": [
+       0.0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.55,
+       2.5
+      ],
+      "look": [
+       0,
+       1.45,
+       0
+      ],
+      "fov": 32,
+      "beat": 1
+     }
+    ],
+    "actions": [
+     "screen:zero",
+     "suit:slump"
+    ]
+   },
+   "beats": [
+    {
+     "word": 95
+    },
+    {
+     "word": 97
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 98
+   },
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "long": true,
+   "props": {
+    "src": "doj_receipt.png",
+    "chrome": "browser",
+    "url": "justice.gov/usao-ks/pr/former-ceo-failed-bank-sentenced-prison",
+    "source": "US Department of Justice \u00b7 19 Aug 2024",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.1,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.1,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.1,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.14,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.72,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.8,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.8,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.78,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.53,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 3,
+      "kind": "box",
+      "x": 20,
+      "y": 80,
+      "w": 960,
+      "h": 150
+     },
+     {
+      "beat": 5,
+      "kind": "underline",
+      "x": 340,
+      "y": 1262,
+      "w": 310,
+      "h": 8
+     },
+     {
+      "beat": 8,
+      "kind": "underline",
+      "x": 765,
+      "y": 820,
+      "w": 180,
+      "h": 8
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 98
+    },
+    {
+     "word": 99,
+     "at": "end"
+    },
+    {
+     "word": 101
+    },
+    {
+     "word": 105
+    },
+    {
+     "word": 109
+    },
+    {
+     "word": 112
+    },
+    {
+     "word": 114
+    },
+    {
+     "word": 117
+    },
+    {
+     "word": 121
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 123
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "night",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "scroll"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.05,
+       1.42,
+       2.6
+      ],
+      "look": [
+       -0.45,
+       1.3,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.05,
+       1.42,
+       2.3000000000000003
+      ],
+      "look": [
+       -0.45,
+       1.3,
+       0
+      ],
+      "fov": 30,
+      "beat": 1,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "suit:scroll",
+     "label:0+suit:point"
+    ],
+    "tags": [
+     {
+      "text": "Stranger? Block.",
+      "x": 540,
+      "y": 420,
+      "size": 58,
+      "pill": true,
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 123
+    },
+    {
+     "word": 126
+    }
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": {
+    "word": 127
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "night",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "point"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       -0.05,
+       1.5,
+       1.9
+      ],
+      "look": [
+       -0.45,
+       1.42,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.05,
+       1.5,
+       1.7
+      ],
+      "look": [
+       -0.45,
+       1.42,
+       0
+      ],
+      "fov": 30,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:think",
+     "label:0+suit:shrug"
+    ],
+    "tags": [
+     {
+      "text": "Fee? Gone.",
+      "x": 540,
+      "y": 420,
+      "size": 70,
+      "pill": true,
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 127
+    },
+    {
+     "word": 130
+    }
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": {
+    "word": 133
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "night",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": false
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.2,
+       1.45,
+       4.4
+      ],
+      "look": [
+       -0.3,
+       1.15,
+       -0.4
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.1,
+       1.45,
+       3.8000000000000003
+      ],
+      "look": [
+       -0.3,
+       1.15,
+       -0.4
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:scroll",
+     "cam"
+    ]
+   },
+   "beats": [
+    {
+     "word": 133
+    },
+    {
+     "word": 135
+    }
+   ],
+   "theme": "dark",
+   "sfx": [
+    {
+     "name": "ding",
+     "beat": 1,
+     "offset": 0.35,
+     "gain": 0.5
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 136
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "flat",
+    "mood": "night",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.45,
+       0,
+       0.0
+      ],
+      "yaw": 0.3,
+      "tall": 1.75,
+      "pose": "scroll"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.12
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": false
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       -0.05,
+       1.5,
+       1.9
+      ],
+      "look": [
+       -0.45,
+       1.42,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.05,
+       1.5,
+       1.7
+      ],
+      "look": [
+       -0.45,
+       1.42,
+       0
+      ],
+      "fov": 30,
+      "beat": 1,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "label:0+suit:scroll",
+     "suit:proud+suit:talk:0.8"
+    ],
+    "tags": [
+     {
+      "text": "Is this Dave?",
+      "x": 540,
+      "y": 430,
+      "size": 66,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 136
+    },
+    {
+     "word": 139
+    }
+   ],
+   "theme": "dark"
+  }
+ ]
+}
