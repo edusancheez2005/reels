@@ -1,0 +1,6 @@
+An Anthropic mathematician says he used Claude to prove the Riemann hypothesis, math's $1 million problem from 1859.
+The proof is 17 million lines of Lean code. Independent computer checks found no errors, and Oxford's James Maynard told the NYT he's "98 or 99 percent certain". It isn't published yet, and Terence Tao says digesting it will take time. It doesn't break bitcoin either.
+The cartoon guy is made up. The pages and quotes are real.
+Follow for crypto, explained simply.
+Not financial advice.
+#RiemannHypothesis #AI #Claude #Math #Crypto

@@ -2,6 +2,7 @@ An Anthropic mathematician says he used Claude to prove the Riemann hypothesis, 
 The proof is 17 million lines of Lean code. Independent computer checks found no errors, and Oxford's James Maynard told the NYT he's "98 or 99 percent certain". It isn't published yet, and Terence Tao says digesting it will take time. It doesn't break bitcoin either.
 The cartoon guy is made up. The pages and quotes are real.
 Follow for crypto, explained simply.
+Not financial advice.
 #RiemannHypothesis #AI #Claude #Math #Crypto
 
 Sources: Levent Alpöge's note, 20 Nov 2026, via The Next Web and BBC News (21 Nov: about six weeks with Claude; Tao quote) - Michael Rubinstein, University of Waterloo, Lean check page (175,187 files, about 17 million lines; all four checks finished with no errors, 21 Nov) - Engadget / The New York Times (Maynard, "98 or 99 percent certain") - Clay Mathematics Institute (Riemann hypothesis, 1859; $1 million per Millennium problem; prize rules: publication, two years, general acceptance) - Compound and Nacionale (a proof does not weaken the encryption behind crypto).
