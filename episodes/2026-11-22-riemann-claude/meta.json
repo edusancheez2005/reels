@@ -1,0 +1,16 @@
+{
+ "id": "2026-11-22-riemann-claude",
+ "channel": "crypto",
+ "topic": "Breaking: an Anthropic mathematician says he used Claude to prove the Riemann hypothesis ($1M Clay prize, 1859); the Lean proof is ~17M lines in 175,187 files; Rubinstein (Waterloo) found no errors in four checks; Maynard 98-99% sure; Tao: will take time; not published yet; doesn't break crypto (documentary)",
+ "produced_at": "2026-11-22T12:17:56+00:00",
+ "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-22-riemann-claude.mp4",
+ "posted": false,
+ "story_urls": [
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-22-riemann-claude-story_1.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-22-riemann-claude-story_2.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-22-riemann-claude-story_3.jpg"
+ ],
+ "format": "documentary",
+ "topic_source": "breaking",
+ "held_for_approval": "Claude (made by Anthropic) produced a reel about a claim made with Claude; same rule as the 20 Nov IPO reel: Edu approves before posting"
+}

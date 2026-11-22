@@ -1,0 +1,9 @@
+On Friday, Levent Alpöge, a mathematician at the A.I. company Anthropic, said he used the company's A.I. Claude to prove math's most famous unsolved problem, worth a million dollars.
+It's the Riemann hypothesis, from eighteen fifty-nine: a guess about how prime numbers, like two, three and five, are spread out.
+His proof is seventeen million lines of code for Lean, a program that checks every step.
+Other mathematicians reran those checks. Michael Rubinstein at Canada's University of Waterloo found no errors.
+Oxford mathematician James Maynard says he's ninety-eight or ninety-nine percent sure it's right.
+But mathematician Terence Tao says understanding it will take time.
+No, it doesn't crack bitcoin: a pattern in primes doesn't break crypto's codes.
+The prize needs a published paper, then two years, and experts agreeing.
+When you see "A.I. solved it", ask: who checked it, and is it published? A computer check isn't the same as people understanding it. This proof is checked, but not published yet.

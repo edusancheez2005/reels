@@ -1,0 +1,14 @@
+VERDICT: PASS WITH NOTES
+
+Must fix: none.
+
+Accuracy check (every on-screen number against research.md): $1,000,000 (fact 4, Clay), 1859 (fact 3, Clay screenshot), primes 2·3·5·7·11·13 (fact 3, standard definition), 17M lines and 175,187 files (fact 5, Rubinstein's page), "all four checks finished with no errors", 21 Nov 2026 (fact 6), Maynard "98 or 99 percent certain" / 98–99% (fact 7, Engadget citing NYT, card says so), Tao "I imagine the digestion process will take some time" (fact 8, BBC 21 Nov, exact words), Clay rules: published, two years, general acceptance (fact 10, screenshot), "doesn't break crypto" (fact 9, Compound and Nacionale). BBC headline and date match fact 1. All match; no prediction or advice. The claim stays a claim, and Tao is the sceptic's line. Alpöge, Rubinstein, Maynard and Tao are each introduced before they act; Lean, primes and the hypothesis each get a plain gloss; 6+ facts; the ending is this story's own lesson with the why ("checked, but not published yet"). 63.6 s.
+
+Notes for next time:
+1. Hook (s1, 0–3 s): the voice opens on "On Friday, Levent Alpöge…", and the striking fact ("AI helped prove math's most famous unsolved problem, worth $1,000,000") only arrives at 8–12 s. The $1,000,000 tag is on screen from 0.3 s but nothing says what it is for. Lead with the fact, then the name.
+2. s1, 2.0–5.5 s: the camera push-in cuts off the prize vault at the right edge while the "the prize" label's leader line points off-frame (and it appears while the voice is on "Anthropic"). Keep any labelled object fully in frame, or add the label only once the camera shows it.
+3. Stamps over the cartoon's face: s19 at 55.0 s ("A.I. SOLVED IT" / "ASK TWO THINGS"), s21 at 59.8–60.3 s ("CHECKED ≠ UNDERSTOOD") and the last shot s22 at 62.5–63.6 s ("CHECKED ✓ / NOT PUBLISHED YET" across the head as the camera pushes in). They are still readable, but the last frame looks messy. Put stamps above the head or frame the actor lower.
+4. Receipt framing: in s11 (32.1–33.0 s) the highlight box around "All four checks finished with no errors" has a bottom edge that runs through the next line of Rubinstein's page, so that line looks struck through. In s4 (14.9–15.6 s) the zoom into the Clay page cuts off the first letters of each line. Pad highlight boxes by a line-gap and keep the zoomed line's start inside the card.
+5. Length and variety: 63.6 s is just over the 45–60 s target (s1's 5.5 s hold and s18 can be trimmed). Shot is used in 5 scenes (s3, s4, s10, s11, s18) against the "max 3" rule; s10 and s11 could be one continuous scroll. The "CARTOON STAND-IN" tag only appears in s2, so in s15 the same character can read as Tao. Keep the tag on him (or the caption's "made up" line covers it, which is enough this time).
+
+Scores 1–5: sync 4, detail/realism 4, hook 3, beginner clarity 4, accuracy 5, phone readability 4

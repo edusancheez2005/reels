@@ -1,0 +1,1380 @@
+{
+ "slug": "riemann-claude",
+ "format": "documentary",
+ "topic_source": "breaking",
+ "theme": "dark",
+ "tail": 0.9,
+ "captionStyle": "kinetic",
+ "defs": {
+  "iso": {
+   "world": {
+    "w": 12,
+    "d": 7
+   },
+   "objects": [
+    {
+     "id": "lap",
+     "kind": "laptop",
+     "at": [
+      -4.2,
+      0.6
+     ],
+     "tone": "accent"
+    },
+    {
+     "id": "doc",
+     "kind": "doc",
+     "at": [
+      -1.6,
+      0.6
+     ],
+     "tone": "warm"
+    },
+    {
+     "id": "lean",
+     "kind": "block",
+     "at": [
+      0.9,
+      0.6
+     ],
+     "icon": "check",
+     "tone": "accent"
+    },
+    {
+     "id": "wat",
+     "kind": "server",
+     "at": [
+      0.0,
+      -2.0
+     ],
+     "tone": "ice"
+    },
+    {
+     "id": "mit",
+     "kind": "server",
+     "at": [
+      1.8,
+      -2.0
+     ],
+     "tone": "ice"
+    },
+    {
+     "id": "prize",
+     "kind": "vault",
+     "at": [
+      4.2,
+      0.6
+     ],
+     "tone": "warm"
+    },
+    {
+     "id": "coins",
+     "kind": "coins",
+     "at": [
+      4.2,
+      2.2
+     ],
+     "tone": "warm"
+    }
+   ],
+   "hidden": [
+    "wat",
+    "mit"
+   ],
+   "links": [
+    {
+     "id": "l1",
+     "from": "lap",
+     "to": "doc",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "l2",
+     "from": "doc",
+     "to": "lean",
+     "style": "beam",
+     "tone": "accent"
+    },
+    {
+     "id": "w1",
+     "from": "wat",
+     "to": "doc",
+     "style": "dashed",
+     "tone": "good"
+    },
+    {
+     "id": "w2",
+     "from": "mit",
+     "to": "doc",
+     "style": "dashed",
+     "tone": "good"
+    }
+   ]
+  }
+ },
+ "emphasis": [
+  "Levent Alpöge,",
+  "Anthropic,",
+  "Claude",
+  "most famous unsolved problem,",
+  "million dollars.",
+  "Riemann hypothesis,",
+  "eighteen fifty-nine:",
+  "prime numbers,",
+  "seventeen million lines",
+  "Lean,",
+  "checks every step.",
+  "found no errors.",
+  "ninety-eight or ninety-nine percent",
+  "take time.",
+  "doesn't crack bitcoin:",
+  "published paper,",
+  "two years,",
+  "who checked it,",
+  "is it published?",
+  "not published yet."
+ ],
+ "scenes": [
+  {
+   "anchor": "On",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "long": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [
+     "wat",
+     "mit"
+    ],
+    "actions": [
+     "tag:0",
+     "label:0",
+     "label:1"
+    ],
+    "labels": [
+     {
+      "text": "Levent Alpöge · Anthropic",
+      "at": "lap",
+      "side": "up",
+      "dy": -230,
+      "tone": "accent"
+     },
+     {
+      "text": "the prize",
+      "at": "prize",
+      "side": "left",
+      "dy": -230,
+      "tone": "warm"
+     }
+    ],
+    "tags": [
+     {
+      "text": "$1,000,000",
+      "x": 540,
+      "y": 1240,
+      "tone": "warm",
+      "size": 100,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.0,
+       0.3,
+       0.6
+      ],
+      "zoom": 82
+     },
+     {
+      "beat": 1,
+      "target": [
+       -3.4,
+       0.4,
+       0.6
+      ],
+      "zoom": 110,
+      "dur": 45
+     },
+     {
+      "beat": 2,
+      "target": [
+       0.6,
+       0.3,
+       0.6
+      ],
+      "zoom": 85,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "On",
+    "Levent",
+    "Anthropic,"
+   ]
+  },
+  {
+   "anchor": "said he used",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "work": {
+      "head": "WITH CLAUDE",
+      "big": "PROOF?",
+      "tone": "accent",
+      "sub": "Riemann hypothesis"
+     },
+     "done": {
+      "head": "20 NOV 2026",
+      "big": "PROOF",
+      "tone": "good",
+      "sub": "he says"
+     }
+    },
+    "screen": "work",
+    "actions": [
+     "label:0",
+     "screen:done+suit:proud"
+    ],
+    "tags": [
+     {
+      "text": "cartoon stand-in",
+      "x": 540,
+      "y": 1330,
+      "size": 40,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "said",
+    "prove"
+   ]
+  },
+  {
+   "anchor": "math's most",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "src": "bbc_c.png",
+    "url": "au.news.yahoo.com/ai-solving-maths-problems-anthropic-230902059.html",
+    "source": "BBC News (via Yahoo News) · 21 Nov 2026",
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.08
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 20,
+      "y": 95,
+      "w": 1080,
+      "h": 215
+     }
+    ]
+   },
+   "beats": [
+    "math's",
+    "worth"
+   ]
+  },
+  {
+   "anchor": "It's the Riemann",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "src": "clay_rh_c.png",
+    "url": "www.claymath.org/millennium/riemann-hypothesis/",
+    "source": "Clay Mathematics Institute",
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.65,
+      "zoom": 1.15
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 50,
+      "y": 150,
+      "w": 900,
+      "h": 140
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 50,
+      "y": 520,
+      "w": 1050,
+      "h": 60
+     }
+    ]
+   },
+   "beats": [
+    "Riemann",
+    "eighteen"
+   ]
+  },
+  {
+   "anchor": "a guess",
+   "component": "Title",
+   "theme": "dark",
+   "transition": "zoom",
+   "props": {
+    "lines": [
+     "a guess about",
+     "prime numbers"
+    ],
+    "accent": [
+     "prime numbers"
+    ],
+    "size": 96
+   },
+   "beats": [
+    "guess",
+    "prime"
+   ]
+  },
+  {
+   "anchor": "like two,",
+   "component": "ParticleShape",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "shape": "circle",
+    "label": "2 · 3 · 5 · 7 · 11 · 13 …",
+    "sublabel": "where do they fall?",
+    "tone": "accent",
+    "split": [
+     {
+      "x": 250,
+      "y": 450,
+      "label": "2"
+     },
+     {
+      "x": 500,
+      "y": 450,
+      "label": "3"
+     },
+     {
+      "x": 750,
+      "y": 450,
+      "label": "5"
+     }
+    ]
+   },
+   "beats": [
+    "two,",
+    "three",
+    "spread"
+   ]
+  },
+  {
+   "anchor": "His proof",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "actions": [
+     "tag:0",
+     "link:l1+pulse:doc",
+     "label:0"
+    ],
+    "labels": [
+     {
+      "text": "175,187 files of code",
+      "at": "doc",
+      "side": "up",
+      "dy": -230,
+      "tone": "warm"
+     }
+    ],
+    "tags": [
+     {
+      "text": "17M LINES",
+      "x": 540,
+      "y": 1240,
+      "tone": "warm",
+      "size": 100,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -2.8,
+       0.3,
+       0.6
+      ],
+      "zoom": 95
+     },
+     {
+      "beat": 1,
+      "target": [
+       -1.6,
+       0.5,
+       0.6
+      ],
+      "zoom": 125,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "His",
+    "seventeen",
+    "code"
+   ]
+  },
+  {
+   "anchor": "for Lean,",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "l1"
+     ]
+    },
+    "actions": [
+     "link:l2+label:0",
+     "pulse:lean"
+    ],
+    "labels": [
+     {
+      "text": "Lean: software that checks every step",
+      "at": "lean",
+      "side": "up",
+      "dy": -240,
+      "tone": "accent"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -0.6,
+       0.4,
+       0.6
+      ],
+      "zoom": 105
+     },
+     {
+      "beat": 1,
+      "target": [
+       0.9,
+       0.5,
+       0.6
+      ],
+      "zoom": 125,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "Lean,",
+    "checks"
+   ]
+  },
+  {
+   "anchor": "Other mathematicians",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "state": {
+     "links": [
+      "l1",
+      "l2"
+     ]
+    },
+    "hidden": [],
+    "actions": [
+     "label:0+link:w1",
+     "link:w2+good:doc"
+    ],
+    "labels": [
+     {
+      "text": "other mathematicians rerun the checks",
+      "at": "wat",
+      "side": "up",
+      "dy": -230,
+      "tone": "good"
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       0.0,
+       0.4,
+       -0.6
+      ],
+      "zoom": 90
+     },
+     {
+      "beat": 1,
+      "target": [
+       0.3,
+       0.4,
+       -0.6
+      ],
+      "zoom": 100,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "Other",
+    "checks."
+   ]
+  },
+  {
+   "anchor": "Michael Rubinstein",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "src": "rub_top_c.png",
+    "url": "www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/",
+    "source": "Michael Rubinstein, University of Waterloo · 21 Nov 2026",
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.45,
+      "y": 0.45,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.5,
+      "y": 0.55,
+      "zoom": 1.4
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 40,
+      "y": 220,
+      "w": 1040,
+      "h": 70
+     }
+    ]
+   },
+   "beats": [
+    "Michael",
+    "Waterloo"
+   ]
+  },
+  {
+   "anchor": "found no errors",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "src": "rub_res_c.png",
+    "url": "www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/",
+    "source": "Michael Rubinstein, University of Waterloo · result, 21 Nov 2026",
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.4,
+      "y": 0.3,
+      "zoom": 1.4
+     },
+     {
+      "x": 0.5,
+      "y": 0.35,
+      "zoom": 1.5
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 20,
+      "y": 10,
+      "w": 1080,
+      "h": 80
+     }
+    ]
+   },
+   "beats": [
+    "found",
+    "errors."
+   ]
+  },
+  {
+   "anchor": "Oxford mathematician",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "source": "James Maynard, University of Oxford, to The New York Times · via Engadget, 21 Nov 2026",
+    "text": "“98 or 99 percent certain” it's accurate",
+    "mark": "98 or 99 percent certain",
+    "note": "Quoted words as reported"
+   },
+   "beats": [
+    "Oxford",
+    "Maynard"
+   ]
+  },
+  {
+   "anchor": "ninety-eight",
+   "component": "Iso3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "$use": "iso",
+    "hidden": [],
+    "state": {
+     "links": [
+      "l1",
+      "l2",
+      "w1",
+      "w2"
+     ],
+     "good": [
+      "doc"
+     ]
+    },
+    "actions": [
+     "tag:0",
+     "pulse:doc"
+    ],
+    "tags": [
+     {
+      "text": "98–99% SURE",
+      "x": 540,
+      "y": 1240,
+      "tone": "good",
+      "size": 100,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "target": [
+       -1.6,
+       0.4,
+       0.0
+      ],
+      "zoom": 85
+     },
+     {
+      "beat": 1,
+      "target": [
+       -1.6,
+       0.5,
+       0.4
+      ],
+      "zoom": 120,
+      "dur": 50
+     }
+    ]
+   },
+   "beats": [
+    "ninety-eight",
+    "right."
+   ]
+  },
+  {
+   "anchor": "But mathematician",
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "source": "Terence Tao, UCLA mathematician · BBC News, 21 Nov 2026",
+    "text": "“I imagine the digestion process will take some time”",
+    "mark": "will take some time",
+    "note": "Exact words"
+   },
+   "beats": [
+    "But",
+    "Tao"
+   ]
+  },
+  {
+   "anchor": "understanding it",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "set": "studio",
+    "mood": "day",
+    "backdrop": "sky",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "scroll"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "actions": [
+     "suit:scroll",
+     "label:0+suit:think"
+    ],
+    "tags": [
+     {
+      "text": "17M lines to read…",
+      "x": 540,
+      "y": 560,
+      "size": 52,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.5,
+       1.42,
+       2.5
+      ],
+      "look": [
+       0,
+       1.28,
+       0
+      ],
+      "fov": 28
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.6,
+       1.15,
+       4.7
+      ],
+      "look": [
+       0,
+       0.9,
+       0
+      ],
+      "fov": 28,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "understanding",
+    "time."
+   ]
+  },
+  {
+   "anchor": "No, it",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "plate": "BITCOIN",
+    "actions": [
+     "label:0",
+     "try",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "does it crack bitcoin?",
+      "x": 540,
+      "y": 560,
+      "size": 46,
+      "pill": true
+     },
+     {
+      "text": "NO",
+      "x": 540,
+      "y": 680,
+      "tone": "good",
+      "size": 120
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.9,
+       1.2,
+       9.6
+      ],
+      "look": [
+       0.3,
+       -0.4,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.6,
+       1.0,
+       8.6
+      ],
+      "look": [
+       0.2,
+       -0.4,
+       0
+      ],
+      "fov": 38
+     }
+    ]
+   },
+   "beats": [
+    "No,",
+    "crack",
+    "bitcoin:"
+   ]
+  },
+  {
+   "anchor": "a pattern in",
+   "component": "Vault3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "plate": "BITCOIN",
+    "actions": [
+     "label:0",
+     "lock",
+     "label:1"
+    ],
+    "tags": [
+     {
+      "text": "a pattern in primes",
+      "x": 540,
+      "y": 560,
+      "size": 46,
+      "pill": true
+     },
+     {
+      "text": "doesn't break crypto",
+      "x": 540,
+      "y": 650,
+      "tone": "good",
+      "size": 46,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       -0.8,
+       1.0,
+       8.8
+      ],
+      "look": [
+       0,
+       -0.4,
+       0
+      ],
+      "fov": 38
+     },
+     {
+      "beat": 2,
+      "pos": [
+       -0.4,
+       0.9,
+       8.2
+      ],
+      "look": [
+       0,
+       -0.4,
+       0
+      ],
+      "fov": 38
+     }
+    ]
+   },
+   "beats": [
+    "pattern",
+    "break",
+    "codes."
+   ]
+  },
+  {
+   "anchor": "The prize needs",
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "long": true,
+   "props": {
+    "src": "clay_rules_c.png",
+    "url": "www.claymath.org/millennium-problems/rules/",
+    "source": "Clay Mathematics Institute · prize rules",
+    "chrome": "browser",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.05
+     },
+     {
+      "x": 0.5,
+      "y": 0.6,
+      "zoom": 1.1
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "underline",
+      "x": 60,
+      "y": 180,
+      "w": 1000,
+      "h": 60
+     },
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 60,
+      "y": 265,
+      "w": 1000,
+      "h": 60
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 60,
+      "y": 400,
+      "w": 1000,
+      "h": 60
+     }
+    ]
+   },
+   "beats": [
+    "published",
+    "two",
+    "experts"
+   ]
+  },
+  {
+   "anchor": "When you see",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "zoom",
+   "moving": true,
+   "props": {
+    "set": "studio",
+    "mood": "pink",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "scroll"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "actions": [
+     "suit:scroll+label:0",
+     "label:1+suit:think"
+    ],
+    "tags": [
+     {
+      "text": "“A.I. SOLVED IT”",
+      "x": 540,
+      "y": 560,
+      "tone": "accent",
+      "size": 64
+     },
+     {
+      "text": "ask two things",
+      "x": 540,
+      "y": 660,
+      "size": 50,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.5,
+       1.42,
+       2.5
+      ],
+      "look": [
+       0,
+       1.28,
+       0
+      ],
+      "fov": 28
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.6,
+       1.15,
+       4.7
+      ],
+      "look": [
+       0,
+       0.9,
+       0
+      ],
+      "fov": 28,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "When",
+    "ask:"
+   ]
+  },
+  {
+   "anchor": "who checked",
+   "component": "Checklist",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "title": "“A.I. solved it”? Ask:",
+    "rows": [
+     {
+      "left": "Checked by others?",
+      "badge": "YES",
+      "tone": "good"
+     },
+     {
+      "left": "Published?",
+      "badge": "NOT YET",
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    "who",
+    "checked",
+    "published?",
+    "computer"
+   ]
+  },
+  {
+   "anchor": "isn't the same",
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "set": "studio",
+    "mood": "teal",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "think"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "actions": [
+     "suit:think",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "checked ≠ understood",
+      "x": 540,
+      "y": 560,
+      "tone": "accent",
+      "size": 60,
+      "pill": true
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       0.5,
+       1.42,
+       2.5
+      ],
+      "look": [
+       0,
+       1.28,
+       0
+      ],
+      "fov": 28
+     },
+     {
+      "beat": 2,
+      "pos": [
+       0.6,
+       1.15,
+       4.7
+      ],
+      "look": [
+       0,
+       0.9,
+       0
+      ],
+      "fov": 28,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "isn't",
+    "understanding"
+   ]
+  },
+  {
+   "anchor": "This proof",
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "set": "studio",
+    "mood": "blue",
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "actions": [
+     "label:0",
+     "label:1+suit:shrug"
+    ],
+    "tags": [
+     {
+      "text": "CHECKED ✓",
+      "x": 540,
+      "y": 560,
+      "tone": "good",
+      "size": 80
+     },
+     {
+      "text": "NOT PUBLISHED YET",
+      "x": 540,
+      "y": 680,
+      "tone": "alert",
+      "size": 54
+     }
+    ],
+    "cam": [
+     {
+      "beat": -1,
+      "pos": [
+       1.4,
+       1.5,
+       6.2
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0
+      ],
+      "fov": 34
+     },
+     {
+      "beat": 1,
+      "pos": [
+       0.6,
+       1.15,
+       4.7
+      ],
+      "look": [
+       0,
+       0.9,
+       0
+      ],
+      "fov": 28,
+      "dur": 40
+     }
+    ]
+   },
+   "beats": [
+    "checked,",
+    "not"
+   ]
+  }
+ ]
+}

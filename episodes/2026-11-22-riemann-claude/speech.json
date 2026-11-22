@@ -1,0 +1,110 @@
+[
+ {
+  "speaker": "narrator",
+  "text": "On Friday, Levent Alp\u00f6ge, a mathematician at the A.",
+  "startMs": 80,
+  "endMs": 3410
+ },
+ {
+  "speaker": "narrator",
+  "text": "I.",
+  "startMs": 3590,
+  "endMs": 4040
+ },
+ {
+  "speaker": "narrator",
+  "text": "company Anthropic, said he used the company's A.",
+  "startMs": 4220,
+  "endMs": 6990
+ },
+ {
+  "speaker": "narrator",
+  "text": "I.",
+  "startMs": 7170,
+  "endMs": 7620
+ },
+ {
+  "speaker": "narrator",
+  "text": "Claude to prove math's most famous unsolved problem, worth a million dollars.",
+  "startMs": 7800,
+  "endMs": 12480
+ },
+ {
+  "speaker": "narrator",
+  "text": "It's the Riemann hypothesis, from eighteen fifty-nine: a guess about how prime numbers, like two, three and five, are spread out.",
+  "startMs": 12660,
+  "endMs": 20150
+ },
+ {
+  "speaker": "narrator",
+  "text": "His proof is seventeen million lines of code for Lean, a program that checks every step.",
+  "startMs": 20330,
+  "endMs": 25430
+ },
+ {
+  "speaker": "narrator",
+  "text": "Other mathematicians reran those checks.",
+  "startMs": 25610,
+  "endMs": 27920
+ },
+ {
+  "speaker": "narrator",
+  "text": "Michael Rubinstein at Canada's University of Waterloo found no errors.",
+  "startMs": 28100,
+  "endMs": 32790
+ },
+ {
+  "speaker": "narrator",
+  "text": "Oxford mathematician James Maynard says he's ninety-eight or ninety-nine percent sure it's right.",
+  "startMs": 32970,
+  "endMs": 38860
+ },
+ {
+  "speaker": "narrator",
+  "text": "But mathematician Terence Tao says understanding it will take time.",
+  "startMs": 39040,
+  "endMs": 42940
+ },
+ {
+  "speaker": "narrator",
+  "text": "No, it doesn't crack bitcoin: a pattern in primes doesn't break crypto's codes.",
+  "startMs": 43120,
+  "endMs": 47820
+ },
+ {
+  "speaker": "narrator",
+  "text": "The prize needs a published paper, then two years, and experts agreeing.",
+  "startMs": 48000,
+  "endMs": 52130
+ },
+ {
+  "speaker": "narrator",
+  "text": "When you see \"A.",
+  "startMs": 52310,
+  "endMs": 53240
+ },
+ {
+  "speaker": "narrator",
+  "text": "I.",
+  "startMs": 53420,
+  "endMs": 53870
+ },
+ {
+  "speaker": "narrator",
+  "text": "solved it\", ask: who checked it, and is it published?",
+  "startMs": 54050,
+  "endMs": 56770
+ },
+ {
+  "speaker": "narrator",
+  "text": "A computer check isn't the same as people understanding it.",
+  "startMs": 56974,
+  "endMs": 60244
+ },
+ {
+  "speaker": "narrator",
+  "text": "This proof is checked, but not published yet.",
+  "startMs": 60424,
+  "endMs": 62714
+ }
+]
