@@ -1,0 +1,982 @@
+[
+ {
+  "text": "In",
+  "startMs": 80,
+  "endMs": 240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " May",
+  "startMs": 240,
+  "endMs": 460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2010,",
+  "startMs": 460,
+  "endMs": 1515,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " almost",
+  "startMs": 1770,
+  "endMs": 2327,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 2390,
+  "endMs": 2490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " trillion",
+  "startMs": 2490,
+  "endMs": 3013,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 3020,
+  "endMs": 3450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vanishes",
+  "startMs": 3450,
+  "endMs": 3940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 3940,
+  "endMs": 4199,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 4200,
+  "endMs": 4320,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " US",
+  "startMs": 4320,
+  "endMs": 4760,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stock",
+  "startMs": 4760,
+  "endMs": 5040,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " market",
+  "startMs": 5040,
+  "endMs": 5635,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 5640,
+  "endMs": 5820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " minutes,",
+  "startMs": 5820,
+  "endMs": 6259,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 6510,
+  "endMs": 6630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you're",
+  "startMs": 6630,
+  "endMs": 6883,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 6920,
+  "endMs": 7008,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " agent",
+  "startMs": 7040,
+  "endMs": 7450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sent",
+  "startMs": 7450,
+  "endMs": 7819,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 7820,
+  "endMs": 7980,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " find",
+  "startMs": 7980,
+  "endMs": 8381,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " out",
+  "startMs": 8390,
+  "endMs": 8630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " why.",
+  "startMs": 8700,
+  "endMs": 8880,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Within",
+  "startMs": 9105,
+  "endMs": 9450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twenty",
+  "startMs": 9455,
+  "endMs": 9853,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " minutes,",
+  "startMs": 9855,
+  "endMs": 10255,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " most",
+  "startMs": 10545,
+  "endMs": 10825,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 10825,
+  "endMs": 10945,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 10945,
+  "endMs": 11015,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 11015,
+  "endMs": 11175,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " back.",
+  "startMs": 11195,
+  "endMs": 11405,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " This",
+  "startMs": 12130,
+  "endMs": 12430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " summer.",
+  "startMs": 12430,
+  "endMs": 12830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " One",
+  "startMs": 13055,
+  "endMs": 13355,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " agent.",
+  "startMs": 13355,
+  "endMs": 13955,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " One",
+  "startMs": 14180,
+  "endMs": 14399,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " partner,",
+  "startMs": 14440,
+  "endMs": 14836,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 15060,
+  "endMs": 15218,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 15220,
+  "endMs": 15380,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " theory.",
+  "startMs": 15380,
+  "endMs": 15710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Volcano",
+  "startMs": 15935,
+  "endMs": 16575,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " lair.",
+  "startMs": 16575,
+  "endMs": 16815,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Someone",
+  "startMs": 17040,
+  "endMs": 17488,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " keeps",
+  "startMs": 17490,
+  "endMs": 17850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " placing",
+  "startMs": 17850,
+  "endMs": 18290,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " enormous",
+  "startMs": 18290,
+  "endMs": 18850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " orders",
+  "startMs": 18850,
+  "endMs": 19406,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 19410,
+  "endMs": 19597,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sell,",
+  "startMs": 19660,
+  "endMs": 19853,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " then",
+  "startMs": 20110,
+  "endMs": 20364,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " changing",
+  "startMs": 20410,
+  "endMs": 21004,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " them",
+  "startMs": 21010,
+  "endMs": 21240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " before",
+  "startMs": 21240,
+  "endMs": 21630,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " anyone",
+  "startMs": 21630,
+  "endMs": 22219,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " can",
+  "startMs": 22220,
+  "endMs": 22474,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buy.",
+  "startMs": 22540,
+  "endMs": 22730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Fake",
+  "startMs": 22955,
+  "endMs": 23245,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " orders,",
+  "startMs": 23245,
+  "endMs": 23668,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 23905,
+  "endMs": 24084,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " push",
+  "startMs": 24135,
+  "endMs": 24315,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 24315,
+  "endMs": 24441,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " price",
+  "startMs": 24445,
+  "endMs": 24798,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " down.",
+  "startMs": 24805,
+  "endMs": 25095,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " That's",
+  "startMs": 25320,
+  "endMs": 25689,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " spoofing.",
+  "startMs": 25690,
+  "endMs": 26280,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " On",
+  "startMs": 26505,
+  "endMs": 26695,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " crash",
+  "startMs": 26695,
+  "endMs": 27018,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " day:",
+  "startMs": 27065,
+  "endMs": 27275,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eighty-one",
+  "startMs": 27535,
+  "endMs": 28110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 28145,
+  "endMs": 28623,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " changes.",
+  "startMs": 28665,
+  "endMs": 29265,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Five",
+  "startMs": 29490,
+  "endMs": 29770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " years,",
+  "startMs": 29780,
+  "endMs": 30049,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 30270,
+  "endMs": 30441,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hunt",
+  "startMs": 30450,
+  "endMs": 30720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 30720,
+  "endMs": 30889,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mastermind.",
+  "startMs": 30930,
+  "endMs": 31560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 31785,
+  "endMs": 31905,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " trail",
+  "startMs": 31905,
+  "endMs": 32365,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ends",
+  "startMs": 32365,
+  "endMs": 32747,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 32755,
+  "endMs": 32895,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 33682,
+  "endMs": 33852,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bedroom.",
+  "startMs": 33852,
+  "endMs": 34472,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 34698,
+  "endMs": 34874,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " his",
+  "startMs": 34968,
+  "endMs": 35058,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " parents'",
+  "startMs": 35058,
+  "endMs": 35582,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " house.",
+  "startMs": 35598,
+  "endMs": 35878,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " We",
+  "startMs": 36102,
+  "endMs": 36292,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " brought",
+  "startMs": 36292,
+  "endMs": 36692,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " helicopters.",
+  "startMs": 36692,
+  "endMs": 37652,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " It's",
+  "startMs": 37878,
+  "endMs": 38061,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 38107,
+  "endMs": 38188,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " real",
+  "startMs": 38188,
+  "endMs": 38578,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " case:",
+  "startMs": 38578,
+  "endMs": 38917,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 39158,
+  "endMs": 39345,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " trader,",
+  "startMs": 39348,
+  "endMs": 39773,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Navinder",
+  "startMs": 40018,
+  "endMs": 40506,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Sarao,",
+  "startMs": 40518,
+  "endMs": 40873,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " arrested",
+  "startMs": 41118,
+  "endMs": 41607,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " April",
+  "startMs": 41607,
+  "endMs": 42035,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2015.",
+  "startMs": 42037,
+  "endMs": 43258,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " He",
+  "startMs": 43482,
+  "endMs": 43662,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pleaded",
+  "startMs": 43662,
+  "endMs": 44246,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " guilty.",
+  "startMs": 44352,
+  "endMs": 44662,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Regulators",
+  "startMs": 44887,
+  "endMs": 45656,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " said",
+  "startMs": 45658,
+  "endMs": 45892,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " he",
+  "startMs": 45937,
+  "endMs": 46070,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " contributed",
+  "startMs": 46117,
+  "endMs": 46857,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 46857,
+  "endMs": 47074,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 47077,
+  "endMs": 47187,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " crash,",
+  "startMs": 47187,
+  "endMs": 47488,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 47808,
+  "endMs": 47967,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " caused",
+  "startMs": 47967,
+  "endMs": 48375,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 48378,
+  "endMs": 48477,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " alone.",
+  "startMs": 48477,
+  "endMs": 48848,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 49072,
+  "endMs": 49197,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sentence:",
+  "startMs": 49202,
+  "endMs": 49696,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 49942,
+  "endMs": 50133,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " year",
+  "startMs": 50142,
+  "endMs": 50382,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " confined",
+  "startMs": 50382,
+  "endMs": 50944,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 50962,
+  "endMs": 51131,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " his",
+  "startMs": 51142,
+  "endMs": 51272,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " home.",
+  "startMs": 51272,
+  "endMs": 51692,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Which",
+  "startMs": 52418,
+  "endMs": 52762,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " room?",
+  "startMs": 52808,
+  "endMs": 53107,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Not",
+  "startMs": 53362,
+  "endMs": 53602,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 53602,
+  "endMs": 53942,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " order",
+  "startMs": 53942,
+  "endMs": 54292,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 54292,
+  "endMs": 54492,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 54492,
+  "endMs": 54640,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " screen",
+  "startMs": 54642,
+  "endMs": 55062,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 55062,
+  "endMs": 55182,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " real.",
+  "startMs": 55182,
+  "endMs": 55552,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 55777,
+  "endMs": 55943,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bedroom.",
+  "startMs": 55948,
+  "endMs": 56607,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 56832,
+  "endMs": 57022,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " no",
+  "startMs": 57022,
+  "endMs": 57308,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cinemas.",
+  "startMs": 57312,
+  "endMs": 57852,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

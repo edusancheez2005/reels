@@ -26,3 +26,4 @@
 - [x] Skit: minus thirty-seven dollars — on 20 April 2020 US oil (WTI, May contract) settled at −$37.63 a barrel; holders paid to avoid collecting real oil at Cushing (disaster, escalation) (2026-11-19-minus-thirty-seven)
 - [x] Skit: the onion king — in 1955–56 two traders held practically all of Chicago's onions (about 30 million lb), then pushed the price to ten cents a bag; Congress banned onion futures on 28 Aug 1958 (period, deadpan-sums) (2026-11-20-the-onion-king)
 - [x] Skit: Newton's bubble — in 1720 Isaac Newton sold his South Sea stock in April at a profit, bought back near the top in June, and lost about a third of his fortune (biopic, argues-back) (2026-11-21-newtons-bubble)
+- [x] The bedroom: the 2010 Flash Crash and Navinder Sarao (plan row, Sun 22 Nov evening) (2026-11-22-the-bedroom)

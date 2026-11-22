@@ -1,0 +1,4126 @@
+{
+ "slug": "the-bedroom",
+ "format": "skit",
+ "genre": "trailer",
+ "bit": "anticlimax",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 0.8,
+ "emphasis": [
+  "a trillion dollars",
+  "in minutes,",
+  "find out why.",
+  "most of it is back.",
+  "This summer.",
+  "One agent.",
+  "with a theory.",
+  "Volcano lair.",
+  "enormous orders",
+  "before anyone can buy.",
+  "Fake orders,",
+  "spoofing.",
+  "eighty-one thousand changes.",
+  "Five years,",
+  "a mastermind.",
+  "a bedroom.",
+  "his parents' house.",
+  "helicopters.",
+  "Navinder Sarao,",
+  "pleaded guilty.",
+  "contributed",
+  "not caused it alone.",
+  "confined to his home.",
+  "Which room?",
+  "is real.",
+  "The Bedroom."
+ ],
+ "defs": {
+  "hq": {
+   "set": "desk",
+   "screens": {
+    "ok": {
+     "head": "US STOCK MARKET · 6 MAY 2010",
+     "big": "OPEN",
+     "tone": "white",
+     "sub": "Thursday afternoon"
+    },
+    "gone": {
+     "head": "US STOCK MARKET · 6 MAY 2010",
+     "big": "-$1T",
+     "tone": "alert",
+     "sub": "in minutes",
+     "chart": "down"
+    },
+    "back": {
+     "head": "20 MINUTES LATER",
+     "big": "BACK",
+     "tone": "good",
+     "sub": "most of it",
+     "chart": "up"
+    },
+    "rec": {
+     "head": "TRADING RECORDS",
+     "big": "ORDERS",
+     "tone": "white",
+     "sub": "crash day"
+    },
+    "sell": {
+     "head": "ORDER TO SELL",
+     "big": "HUGE",
+     "tone": "warm",
+     "sub": "waiting for a buyer"
+    },
+    "moved": {
+     "head": "ORDER TO SELL",
+     "big": "MOVED",
+     "tone": "warm",
+     "sub": "before anyone can buy"
+    },
+    "fake": {
+     "head": "THOSE ORDERS",
+     "big": "FAKE",
+     "tone": "alert",
+     "sub": "price pushed down",
+     "chart": "down"
+    },
+    "q": {
+     "head": "ORDER TO SELL",
+     "big": "HUGE",
+     "tone": "warm",
+     "sub": "waiting for a buyer"
+    },
+    "real": {
+     "head": "ORDER TO SELL",
+     "big": "REAL?",
+     "tone": "alert",
+     "sub": "not every one is"
+    }
+   },
+   "props": [
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.75,
+      -2.5
+     ],
+     "size": [
+      1.7,
+      1.15,
+      0.05
+     ],
+     "color": "#8a6a45"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.75,
+      -2.47
+     ],
+     "size": [
+      1.6,
+      1.05,
+      0.02
+     ],
+     "color": "#c9a877"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -2.0,
+      2.0,
+      -2.45
+     ],
+     "size": [
+      0.3,
+      0.38
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -1.55,
+      1.95,
+      -2.45
+     ],
+     "size": [
+      0.34,
+      0.26
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -1.1,
+      2.05,
+      -2.45
+     ],
+     "size": [
+      0.28,
+      0.36
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -1.9,
+      1.5,
+      -2.45
+     ],
+     "size": [
+      0.34,
+      0.26
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -1.3,
+      1.48,
+      -2.45
+     ],
+     "size": [
+      0.3,
+      0.38
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.77,
+      1.98,
+      -2.43
+     ],
+     "size": [
+      0.5,
+      0.012,
+      0.01
+     ],
+     "color": "#d42b2b",
+     "rot": [
+      0,
+      0,
+      -6
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.32,
+      2.0,
+      -2.43
+     ],
+     "size": [
+      0.48,
+      0.012,
+      0.01
+     ],
+     "color": "#d42b2b",
+     "rot": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.6,
+      1.72,
+      -2.43
+     ],
+     "size": [
+      0.72,
+      0.012,
+      0.01
+     ],
+     "color": "#d42b2b",
+     "rot": [
+      0,
+      0,
+      -38
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.2,
+      1.76,
+      -2.43
+     ],
+     "size": [
+      0.6,
+      0.012,
+      0.01
+     ],
+     "color": "#d42b2b",
+     "rot": [
+      0,
+      0,
+      70
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      0.65,
+      -2.2
+     ],
+     "size": [
+      0.6,
+      1.3,
+      0.55
+     ],
+     "color": "#56606b"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      1.0,
+      -1.92
+     ],
+     "size": [
+      0.5,
+      0.03,
+      0.02
+     ],
+     "color": "#2c333b"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      0.6,
+      -1.92
+     ],
+     "size": [
+      0.5,
+      0.03,
+      0.02
+     ],
+     "color": "#2c333b"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      0.2,
+      -1.92
+     ],
+     "size": [
+      0.5,
+      0.03,
+      0.02
+     ],
+     "color": "#2c333b"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      1.38,
+      -2.2
+     ],
+     "size": [
+      0.42,
+      0.16,
+      0.32
+     ],
+     "color": "#efe9d8"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.3,
+      0.2,
+      -2.0
+     ],
+     "size": [
+      0.4,
+      0.4,
+      0.3
+     ],
+     "color": "#efe9d8"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.32,
+      0.5,
+      -2.0
+     ],
+     "size": [
+      0.38,
+      0.2,
+      0.3
+     ],
+     "color": "#e2dac4"
+    }
+   ]
+  },
+  "hq2": {
+   "set": "desk",
+   "screens": {
+    "ok": {
+     "head": "US STOCK MARKET · 6 MAY 2010",
+     "big": "OPEN",
+     "tone": "white",
+     "sub": "Thursday afternoon"
+    },
+    "gone": {
+     "head": "US STOCK MARKET · 6 MAY 2010",
+     "big": "-$1T",
+     "tone": "alert",
+     "sub": "in minutes",
+     "chart": "down"
+    },
+    "back": {
+     "head": "20 MINUTES LATER",
+     "big": "BACK",
+     "tone": "good",
+     "sub": "most of it",
+     "chart": "up"
+    },
+    "rec": {
+     "head": "TRADING RECORDS",
+     "big": "ORDERS",
+     "tone": "white",
+     "sub": "crash day"
+    },
+    "sell": {
+     "head": "ORDER TO SELL",
+     "big": "HUGE",
+     "tone": "warm",
+     "sub": "waiting for a buyer"
+    },
+    "moved": {
+     "head": "ORDER TO SELL",
+     "big": "MOVED",
+     "tone": "warm",
+     "sub": "before anyone can buy"
+    },
+    "fake": {
+     "head": "THOSE ORDERS",
+     "big": "FAKE",
+     "tone": "alert",
+     "sub": "price pushed down",
+     "chart": "down"
+    },
+    "q": {
+     "head": "ORDER TO SELL",
+     "big": "HUGE",
+     "tone": "warm",
+     "sub": "waiting for a buyer"
+    },
+    "real": {
+     "head": "ORDER TO SELL",
+     "big": "REAL?",
+     "tone": "alert",
+     "sub": "not every one is"
+    }
+   },
+   "props": [
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.75,
+      -2.5
+     ],
+     "size": [
+      1.7,
+      1.15,
+      0.05
+     ],
+     "color": "#8a6a45"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.75,
+      -2.47
+     ],
+     "size": [
+      1.6,
+      1.05,
+      0.02
+     ],
+     "color": "#c9a877"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -2.0,
+      2.0,
+      -2.45
+     ],
+     "size": [
+      0.3,
+      0.38
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -1.55,
+      1.95,
+      -2.45
+     ],
+     "size": [
+      0.34,
+      0.26
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -1.1,
+      2.05,
+      -2.45
+     ],
+     "size": [
+      0.28,
+      0.36
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -1.9,
+      1.5,
+      -2.45
+     ],
+     "size": [
+      0.34,
+      0.26
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -1.3,
+      1.48,
+      -2.45
+     ],
+     "size": [
+      0.3,
+      0.38
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.77,
+      1.98,
+      -2.43
+     ],
+     "size": [
+      0.5,
+      0.012,
+      0.01
+     ],
+     "color": "#d42b2b",
+     "rot": [
+      0,
+      0,
+      -6
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.32,
+      2.0,
+      -2.43
+     ],
+     "size": [
+      0.48,
+      0.012,
+      0.01
+     ],
+     "color": "#d42b2b",
+     "rot": [
+      0,
+      0,
+      12
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.6,
+      1.72,
+      -2.43
+     ],
+     "size": [
+      0.72,
+      0.012,
+      0.01
+     ],
+     "color": "#d42b2b",
+     "rot": [
+      0,
+      0,
+      -38
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.2,
+      1.76,
+      -2.43
+     ],
+     "size": [
+      0.6,
+      0.012,
+      0.01
+     ],
+     "color": "#d42b2b",
+     "rot": [
+      0,
+      0,
+      70
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      0.65,
+      -2.2
+     ],
+     "size": [
+      0.6,
+      1.3,
+      0.55
+     ],
+     "color": "#56606b"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      1.0,
+      -1.92
+     ],
+     "size": [
+      0.5,
+      0.03,
+      0.02
+     ],
+     "color": "#2c333b"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      0.6,
+      -1.92
+     ],
+     "size": [
+      0.5,
+      0.03,
+      0.02
+     ],
+     "color": "#2c333b"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      0.2,
+      -1.92
+     ],
+     "size": [
+      0.5,
+      0.03,
+      0.02
+     ],
+     "color": "#2c333b"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      1.38,
+      -2.2
+     ],
+     "size": [
+      0.42,
+      0.16,
+      0.32
+     ],
+     "color": "#efe9d8"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.3,
+      0.2,
+      -2.0
+     ],
+     "size": [
+      0.4,
+      0.4,
+      0.3
+     ],
+     "color": "#efe9d8"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.32,
+      0.5,
+      -2.0
+     ],
+     "size": [
+      0.38,
+      0.2,
+      0.3
+     ],
+     "color": "#e2dac4"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.0,
+      0.35,
+      0.9
+     ],
+     "size": [
+      0.4,
+      0.7,
+      0.32
+     ],
+     "color": "#efe9d8"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.5,
+      0.5,
+      0.6
+     ],
+     "size": [
+      0.4,
+      1.0,
+      0.32
+     ],
+     "color": "#e6dfca"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.95,
+      0.75,
+      0.9
+     ],
+     "size": [
+      0.36,
+      0.1,
+      0.3
+     ],
+     "color": "#d9d0b6"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.3,
+      0.45,
+      0.7
+     ],
+     "size": [
+      0.4,
+      0.9,
+      0.32
+     ],
+     "color": "#efe9d8"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.75,
+      0.3,
+      0.4
+     ],
+     "size": [
+      0.4,
+      0.6,
+      0.32
+     ],
+     "color": "#e6dfca"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.0,
+      0.25,
+      0.2
+     ],
+     "size": [
+      0.4,
+      0.5,
+      0.32
+     ],
+     "color": "#efe9d8"
+    }
+   ]
+  },
+  "trail": {
+   "set": "studio",
+   "backdrop": "sky",
+   "props": []
+  },
+  "lair": {
+   "set": "studio",
+   "backdrop": "sky",
+   "props": [
+    {
+     "shape": "cone",
+     "at": [
+      2.3,
+      2.3,
+      -11
+     ],
+     "size": [
+      3.6,
+      4.6
+     ],
+     "color": "#3b2a2e"
+    },
+    {
+     "shape": "cone",
+     "at": [
+      2.3,
+      4.9,
+      -11
+     ],
+     "size": [
+      0.95,
+      0.9
+     ],
+     "color": "#ff6a1a",
+     "glow": 1
+    },
+    {
+     "shape": "ball",
+     "at": [
+      2.3,
+      5.5,
+      -11
+     ],
+     "size": [
+      0.45
+     ],
+     "color": "#ffb347",
+     "glow": 1
+    },
+    {
+     "shape": "ball",
+     "at": [
+      2.9,
+      6.2,
+      -11
+     ],
+     "size": [
+      0.3
+     ],
+     "color": "#ff8c3a",
+     "glow": 1
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.2,
+      1.2,
+      -8.2
+     ],
+     "size": [
+      0.5,
+      0.9,
+      0.05
+     ],
+     "color": "#111418"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.2,
+      1.95,
+      -8.2
+     ],
+     "size": [
+      1.1,
+      0.5,
+      0.06
+     ],
+     "color": "#f3efe2"
+    }
+   ]
+  },
+  "hunt": {
+   "set": "studio",
+   "backdrop": "sky",
+   "props": [
+    {
+     "shape": "box",
+     "at": [
+      -0.2,
+      2.75,
+      -3.0
+     ],
+     "size": [
+      1.3,
+      0.55,
+      0.6
+     ],
+     "color": "#1d2733"
+    },
+    {
+     "shape": "box",
+     "at": [
+      0.25,
+      2.8,
+      -2.98
+     ],
+     "size": [
+      0.45,
+      0.32,
+      0.62
+     ],
+     "color": "#7fd3f0",
+     "glow": 1
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.3,
+      2.85,
+      -3.0
+     ],
+     "size": [
+      1.2,
+      0.13,
+      0.13
+     ],
+     "color": "#1d2733"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.9,
+      3.0300000000000002,
+      -3.0
+     ],
+     "size": [
+      0.12,
+      0.5,
+      0.08
+     ],
+     "color": "#1d2733"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.2,
+      3.17,
+      -3.0
+     ],
+     "size": [
+      2.6,
+      0.04,
+      0.16
+     ],
+     "color": "#0e141c",
+     "rot": [
+      0,
+      25,
+      0
+     ]
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -0.2,
+      3.09,
+      -3.0
+     ],
+     "size": [
+      0.05,
+      0.16
+     ],
+     "color": "#0e141c"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.2,
+      2.33,
+      -2.78
+     ],
+     "size": [
+      1.2,
+      0.05,
+      0.05
+     ],
+     "color": "#0e141c"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.2,
+      2.33,
+      -3.22
+     ],
+     "size": [
+      1.2,
+      0.05,
+      0.05
+     ],
+     "color": "#0e141c"
+    },
+    {
+     "shape": "cone",
+     "at": [
+      0.3,
+      1.15,
+      -2.7
+     ],
+     "size": [
+      0.75,
+      2.4
+     ],
+     "color": "#fff3b0",
+     "glow": 1
+    }
+   ]
+  },
+  "street": {
+   "set": "studio",
+   "backdrop": "sky",
+   "props": [
+    {
+     "shape": "box",
+     "at": [
+      0.4,
+      1.3,
+      -6
+     ],
+     "size": [
+      4.2,
+      2.6,
+      3.0
+     ],
+     "color": "#b0694f"
+    },
+    {
+     "shape": "box",
+     "at": [
+      0.4,
+      2.85,
+      -6
+     ],
+     "size": [
+      2.2,
+      0.7,
+      2.9
+     ],
+     "color": "#b0694f"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.72,
+      3.2,
+      -6
+     ],
+     "size": [
+      2.75,
+      0.16,
+      3.3
+     ],
+     "color": "#3d3340",
+     "rot": [
+      0,
+      0,
+      30
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.52,
+      3.2,
+      -6
+     ],
+     "size": [
+      2.75,
+      0.16,
+      3.3
+     ],
+     "color": "#3d3340",
+     "rot": [
+      0,
+      0,
+      -30
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.8,
+      0.6,
+      -4.47
+     ],
+     "size": [
+      0.62,
+      1.2,
+      0.06
+     ],
+     "color": "#3d7fc4"
+    },
+    {
+     "shape": "ball",
+     "at": [
+      -0.6,
+      0.6,
+      -4.42
+     ],
+     "size": [
+      0.035
+     ],
+     "color": "#e8c35a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.8,
+      1.3,
+      -4.4
+     ],
+     "size": [
+      0.9,
+      0.08,
+      0.3
+     ],
+     "color": "#3d3340"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.3,
+      0.85,
+      -4.47
+     ],
+     "size": [
+      1.1,
+      0.8,
+      0.05
+     ],
+     "color": "#39404d"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.8,
+      2.05,
+      -4.47
+     ],
+     "size": [
+      0.8,
+      0.65,
+      0.05
+     ],
+     "color": "#39404d"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.3,
+      2.05,
+      -4.47
+     ],
+     "size": [
+      1.1,
+      0.75,
+      0.05
+     ],
+     "color": "#ffe27a",
+     "glow": 1
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.3,
+      2.05,
+      -4.44
+     ],
+     "size": [
+      0.04,
+      0.75,
+      0.02
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.3,
+      2.05,
+      -4.44
+     ],
+     "size": [
+      1.1,
+      0.04,
+      0.02
+     ],
+     "color": "#f3efe2"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.9,
+      3.6,
+      -6.4
+     ],
+     "size": [
+      0.4,
+      1.0,
+      0.4
+     ],
+     "color": "#7a4636"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.8,
+      0.02,
+      -2.2
+     ],
+     "size": [
+      0.7,
+      0.03,
+      4.4
+     ],
+     "color": "#9a9a9a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.6,
+      0.35,
+      -3.3
+     ],
+     "size": [
+      2.4,
+      0.7,
+      0.4
+     ],
+     "color": "#2f6b3a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.4,
+      0.35,
+      -3.3
+     ],
+     "size": [
+      1.6,
+      0.7,
+      0.4
+     ],
+     "color": "#2f6b3a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -5.0,
+      1.3,
+      -6
+     ],
+     "size": [
+      4.0,
+      2.6,
+      3.0
+     ],
+     "color": "#6b4a40"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -6.1,
+      3.2,
+      -6
+     ],
+     "size": [
+      2.75,
+      0.16,
+      3.3
+     ],
+     "color": "#2f2833",
+     "rot": [
+      0,
+      0,
+      30
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -3.9,
+      3.2,
+      -6
+     ],
+     "size": [
+      2.75,
+      0.16,
+      3.3
+     ],
+     "color": "#2f2833",
+     "rot": [
+      0,
+      0,
+      -30
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      5.8,
+      1.3,
+      -6
+     ],
+     "size": [
+      4.0,
+      2.6,
+      3.0
+     ],
+     "color": "#6b4a40"
+    },
+    {
+     "shape": "box",
+     "at": [
+      4.7,
+      3.2,
+      -6
+     ],
+     "size": [
+      2.75,
+      0.16,
+      3.3
+     ],
+     "color": "#2f2833",
+     "rot": [
+      0,
+      0,
+      30
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      6.9,
+      3.2,
+      -6
+     ],
+     "size": [
+      2.75,
+      0.16,
+      3.3
+     ],
+     "color": "#2f2833",
+     "rot": [
+      0,
+      0,
+      -30
+     ]
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -2.9,
+      1.6,
+      -2.2
+     ],
+     "size": [
+      0.05,
+      3.2
+     ],
+     "color": "#30343c"
+    },
+    {
+     "shape": "ball",
+     "at": [
+      -2.9,
+      3.25,
+      -2.2
+     ],
+     "size": [
+      0.16
+     ],
+     "color": "#ffd98a",
+     "glow": 1
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.6,
+      5.0,
+      -5.0
+     ],
+     "size": [
+      1.3,
+      0.55,
+      0.6
+     ],
+     "color": "#1d2733"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.1500000000000001,
+      5.05,
+      -4.98
+     ],
+     "size": [
+      0.45,
+      0.32,
+      0.62
+     ],
+     "color": "#7fd3f0",
+     "glow": 1
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.7,
+      5.1,
+      -5.0
+     ],
+     "size": [
+      1.2,
+      0.13,
+      0.13
+     ],
+     "color": "#1d2733"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -3.3,
+      5.28,
+      -5.0
+     ],
+     "size": [
+      0.12,
+      0.5,
+      0.08
+     ],
+     "color": "#1d2733"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.6,
+      5.42,
+      -5.0
+     ],
+     "size": [
+      2.6,
+      0.04,
+      0.16
+     ],
+     "color": "#0e141c",
+     "rot": [
+      0,
+      25,
+      0
+     ]
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.6,
+      5.34,
+      -5.0
+     ],
+     "size": [
+      0.05,
+      0.16
+     ],
+     "color": "#0e141c"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.6,
+      4.58,
+      -4.78
+     ],
+     "size": [
+      1.2,
+      0.05,
+      0.05
+     ],
+     "color": "#0e141c"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.6,
+      4.58,
+      -5.22
+     ],
+     "size": [
+      1.2,
+      0.05,
+      0.05
+     ],
+     "color": "#0e141c"
+    },
+    {
+     "shape": "cone",
+     "at": [
+      -1.1,
+      3.4,
+      -4.7
+     ],
+     "size": [
+      0.75,
+      2.4
+     ],
+     "color": "#fff3b0",
+     "glow": 1
+    }
+   ]
+  },
+  "bed": {
+   "set": "studio",
+   "props": [
+    {
+     "shape": "box",
+     "at": [
+      0,
+      0.012,
+      -0.3
+     ],
+     "size": [
+      5.0,
+      0.02,
+      4.6
+     ],
+     "color": "#c9b79a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      0.0,
+      0.016,
+      0.3
+     ],
+     "size": [
+      2.2,
+      0.02,
+      1.5
+     ],
+     "color": "#6f8fb5"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.75,
+      0.22,
+      -1.55
+     ],
+     "size": [
+      1.15,
+      0.44,
+      2.0
+     ],
+     "color": "#8a5a3a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.75,
+      0.52,
+      -1.5
+     ],
+     "size": [
+      1.1,
+      0.2,
+      1.9
+     ],
+     "color": "#3f6fb0"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.75,
+      0.56,
+      -1.15
+     ],
+     "size": [
+      1.12,
+      0.14,
+      1.1
+     ],
+     "color": "#e9eef6"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.75,
+      0.7,
+      -2.25
+     ],
+     "size": [
+      0.7,
+      0.16,
+      0.4
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.75,
+      0.75,
+      -2.5
+     ],
+     "size": [
+      1.15,
+      1.0,
+      0.08
+     ],
+     "color": "#8a5a3a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.55,
+      0.74,
+      -2.15
+     ],
+     "size": [
+      1.5,
+      0.06,
+      0.65
+     ],
+     "color": "#b98a5a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      0.88,
+      0.37,
+      -2.15
+     ],
+     "size": [
+      0.06,
+      0.74,
+      0.6
+     ],
+     "color": "#8a6440"
+    },
+    {
+     "shape": "box",
+     "at": [
+      2.22,
+      0.37,
+      -2.15
+     ],
+     "size": [
+      0.06,
+      0.74,
+      0.6
+     ],
+     "color": "#8a6440"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.25,
+      1.12,
+      -2.3
+     ],
+     "size": [
+      0.56,
+      0.36,
+      0.04
+     ],
+     "color": "#101820"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.25,
+      1.12,
+      -2.275
+     ],
+     "size": [
+      0.5,
+      0.3,
+      0.01
+     ],
+     "color": "#2ee6a6",
+     "glow": 1
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.25,
+      0.85,
+      -2.3
+     ],
+     "size": [
+      0.06,
+      0.18,
+      0.06
+     ],
+     "color": "#101820"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.88,
+      1.12,
+      -2.3
+     ],
+     "size": [
+      0.56,
+      0.36,
+      0.04
+     ],
+     "color": "#101820"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.88,
+      1.12,
+      -2.275
+     ],
+     "size": [
+      0.5,
+      0.3,
+      0.01
+     ],
+     "color": "#39b8ff",
+     "glow": 1
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.88,
+      0.85,
+      -2.3
+     ],
+     "size": [
+      0.06,
+      0.18,
+      0.06
+     ],
+     "color": "#101820"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.55,
+      0.79,
+      -1.98
+     ],
+     "size": [
+      0.5,
+      0.03,
+      0.16
+     ],
+     "color": "#22272e"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.55,
+      0.45,
+      -1.5
+     ],
+     "size": [
+      0.48,
+      0.08,
+      0.48
+     ],
+     "color": "#30343c"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.55,
+      0.8,
+      -1.28
+     ],
+     "size": [
+      0.46,
+      0.6,
+      0.07
+     ],
+     "color": "#30343c"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.55,
+      0.22,
+      -1.5
+     ],
+     "size": [
+      0.04,
+      0.44
+     ],
+     "color": "#111418"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -1.75,
+      1.85,
+      -2.52
+     ],
+     "size": [
+      0.7,
+      0.95
+     ],
+     "color": "#e9573f"
+    },
+    {
+     "shape": "plane",
+     "at": [
+      -1.75,
+      1.85,
+      -2.51
+     ],
+     "size": [
+      0.5,
+      0.3
+     ],
+     "color": "#ffe27a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.55,
+      1.8,
+      -2.45
+     ],
+     "size": [
+      1.3,
+      0.05,
+      0.22
+     ],
+     "color": "#8a5a3a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.15,
+      1.96,
+      -2.45
+     ],
+     "size": [
+      0.07,
+      0.28,
+      0.18
+     ],
+     "color": "#c0392b"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.24,
+      1.94,
+      -2.45
+     ],
+     "size": [
+      0.07,
+      0.24,
+      0.18
+     ],
+     "color": "#2e86c1"
+    },
+    {
+     "shape": "box",
+     "at": [
+      1.33,
+      1.97,
+      -2.45
+     ],
+     "size": [
+      0.07,
+      0.3,
+      0.18
+     ],
+     "color": "#27ae60"
+    },
+    {
+     "shape": "ball",
+     "at": [
+      1.9,
+      1.95,
+      -2.45
+     ],
+     "size": [
+      0.13
+     ],
+     "color": "#f4d03f"
+    },
+    {
+     "shape": "box",
+     "at": [
+      0.0,
+      1.65,
+      -2.52
+     ],
+     "size": [
+      1.1,
+      1.0,
+      0.04
+     ],
+     "color": "#bfe6ff",
+     "glow": 1
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.62,
+      1.65,
+      -2.48
+     ],
+     "size": [
+      0.26,
+      1.2,
+      0.05
+     ],
+     "color": "#e58fb0"
+    },
+    {
+     "shape": "box",
+     "at": [
+      0.62,
+      1.65,
+      -2.48
+     ],
+     "size": [
+      0.26,
+      1.2,
+      0.05
+     ],
+     "color": "#e58fb0"
+    },
+    {
+     "shape": "box",
+     "at": [
+      0.0,
+      1.65,
+      -2.49
+     ],
+     "size": [
+      0.04,
+      1.0,
+      0.02
+     ],
+     "color": "#ffffff"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.35,
+      1.0,
+      0.2
+     ],
+     "size": [
+      0.6,
+      2.0,
+      1.1
+     ],
+     "color": "#9a6a45"
+    },
+    {
+     "shape": "ball",
+     "at": [
+      -2.03,
+      1.0,
+      0.2
+     ],
+     "size": [
+      0.04
+     ],
+     "color": "#e8c35a"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.95,
+      0.28,
+      -2.2
+     ],
+     "size": [
+      0.4,
+      0.56,
+      0.4
+     ],
+     "color": "#8a5a3a"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -0.95,
+      0.72,
+      -2.2
+     ],
+     "size": [
+      0.03,
+      0.3
+     ],
+     "color": "#444"
+    },
+    {
+     "shape": "cone",
+     "at": [
+      -0.95,
+      0.95,
+      -2.2
+     ],
+     "size": [
+      0.16,
+      0.22
+     ],
+     "color": "#ffe9a8",
+     "glow": 1
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "anchor": {
+    "word": 0
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "hq",
+    "mood": "doom",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.6
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.2
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 70
+     }
+    ],
+    "actions": [
+     "label:0+suit:type",
+     "label:1+suit:panic+shake"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screen": "ok",
+    "tags": [
+     {
+      "text": "6 May 2010",
+      "x": 540,
+      "y": 430,
+      "size": 64,
+      "pill": true
+     },
+     {
+      "text": "≈ $1 trillion",
+      "x": 540,
+      "y": 560,
+      "size": 76,
+      "pill": true,
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 0
+    },
+    {
+     "word": 3
+    }
+   ],
+   "sfx": [
+    {
+     "name": "slam",
+     "beat": 1,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 7
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "hq",
+    "mood": "doom",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.1
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 72,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "screen:gone+suit:click",
+     "suit:type"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screen": "ok",
+    "shift": 60
+   },
+   "beats": [
+    {
+     "word": 7
+    },
+    {
+     "word": 13
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 15
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "hq",
+    "mood": "night",
+    "cam": [
+     {
+      "pos": [
+       2.0,
+       1.55,
+       3.6
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.7,
+       1.5,
+       3.1
+      ],
+      "look": [
+       0.2,
+       1.05,
+       0.25
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 70
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "suit:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screen": "gone"
+   },
+   "beats": [
+    {
+     "word": 15
+    },
+    {
+     "word": 18
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 24
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "hq",
+    "mood": "blue",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.1
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 72,
+      "beat": 1,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:back+suit:click"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screen": "gone",
+    "shift": 60
+   },
+   "beats": [
+    {
+     "word": 24
+    },
+    {
+     "word": 27
+    }
+   ],
+   "sfx": [
+    {
+     "name": "ding",
+     "beat": 1,
+     "offset": 0.9,
+     "gain": 0.45
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 32
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "trail",
+    "mood": "night",
+    "cam": [
+     {
+      "pos": [
+       -0.1,
+       0.6,
+       5.6
+      ],
+      "look": [
+       -0.5,
+       1.15,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.2,
+       0.55,
+       5.0
+      ],
+      "look": [
+       -0.5,
+       1.2,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "stamp+suit:proud",
+     "suit:point"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.5,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "proud",
+      "yaw": 0.4
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.7,
+       0,
+       0
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ],
+    "stamp": {
+     "text": "THIS SUMMER",
+     "x": 540,
+     "y": 1400,
+     "size": 104,
+     "rot": -4
+    }
+   },
+   "beats": [
+    {
+     "word": 32
+    },
+    {
+     "word": 34
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 36
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "trail",
+    "mood": "night",
+    "cam": [
+     {
+      "pos": [
+       1.4,
+       1.5,
+       6.2
+      ],
+      "look": [
+       0.1,
+       1.0,
+       0
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.2,
+       1.45,
+       5.6
+      ],
+      "look": [
+       0.1,
+       1.0,
+       0
+      ],
+      "fov": 34,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "stonks:in+stonks:think",
+     "suit:look:-25"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.5,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "proud",
+      "yaw": 0.4
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.7,
+       0,
+       0
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "think",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 36
+    },
+    {
+     "word": 38
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 41
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "lair",
+    "mood": "doom",
+    "cam": [
+     {
+      "pos": [
+       0.1,
+       1.35,
+       3.4
+      ],
+      "look": [
+       1.1,
+       1.75,
+       -2
+      ],
+      "fov": 42,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.2,
+       1.35,
+       3.0
+      ],
+      "look": [
+       1.1,
+       1.8,
+       -2
+      ],
+      "fov": 42,
+      "beat": 0,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "stonks:point+stonks:talk:1.0"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.5,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "facepalm",
+      "yaw": 0.4
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.7,
+       0,
+       0
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "point"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 41
+    }
+   ],
+   "sfx": [
+    {
+     "name": "dun",
+     "offset": 0.75,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 43
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "hq",
+    "mood": "night",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.1
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 72,
+      "beat": 1,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:sell+suit:click"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screen": "rec",
+    "shift": 60
+   },
+   "beats": [
+    {
+     "word": 43
+    },
+    {
+     "word": 46
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 50
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "hq",
+    "mood": "night",
+    "cam": [
+     {
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.8,
+       1.36,
+       2.7
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "stonks:in+stonks:scroll+suit:lean",
+     "suit:think"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "lean"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "scroll",
+      "hidden": true
+     }
+    ],
+    "screen": "moved"
+   },
+   "beats": [
+    {
+     "word": 50
+    },
+    {
+     "word": 53
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 57
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "hq",
+    "mood": "doom",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.1
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 72,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "screen:fake+suit:type",
+     "suit:click"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screen": "moved",
+    "shift": 60
+   },
+   "beats": [
+    {
+     "word": 57
+    },
+    {
+     "word": 60
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 64
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "hq",
+    "mood": "doom",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.1
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 30
+     }
+    ],
+    "actions": [
+     "label:0+suit:point"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "think"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screen": "fake",
+    "tags": [
+     {
+      "text": "SPOOFING",
+      "x": 540,
+      "y": 470,
+      "size": 88,
+      "pill": true,
+      "tone": "alert"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 64
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 66
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "hq2",
+    "mood": "blue",
+    "cam": [
+     {
+      "pos": [
+       1.2,
+       1.9,
+       5.6
+      ],
+      "look": [
+       0.2,
+       0.85,
+       0.2
+      ],
+      "fov": 44,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.0,
+       1.8,
+       5.0
+      ],
+      "look": [
+       0.2,
+       0.85,
+       0.2
+      ],
+      "fov": 44,
+      "beat": 1,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:facepalm+stonks:slump",
+     "label:0+suit:slump"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "facepalm"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       -0.2
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "slump"
+     }
+    ],
+    "screen": "fake",
+    "tags": [
+     {
+      "text": "81,000 changes",
+      "x": 540,
+      "y": 470,
+      "size": 68,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 66
+    },
+    {
+     "word": 69
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 72
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "hunt",
+    "mood": "night",
+    "cam": [
+     {
+      "pos": [
+       1.6,
+       1.3,
+       6.4
+      ],
+      "look": [
+       0.3,
+       1.5,
+       0
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.2,
+       1.3,
+       5.6
+      ],
+      "look": [
+       0.3,
+       1.5,
+       0
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "label:0+suit:point+stonks:scroll",
+     "suit:look:20"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.5,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "point",
+      "yaw": 0.4
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.7,
+       0,
+       0
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "scroll"
+     }
+    ],
+    "tags": [
+     {
+      "text": "5 years",
+      "x": 540,
+      "y": 1330,
+      "size": 84,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 72
+    },
+    {
+     "word": 75
+    }
+   ],
+   "sfx": [
+    {
+     "name": "whoosh",
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 78
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "street",
+    "mood": "night",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.5,
+       7.5
+      ],
+      "look": [
+       0.4,
+       2.0,
+       -5
+      ],
+      "fov": 42,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.6,
+       1.6,
+       4.2
+      ],
+      "look": [
+       0.8,
+       2.1,
+       -5
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 95
+     }
+    ],
+    "actions": [
+     "suit:point",
+     "suit:relax"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.9,
+       0,
+       0.2
+      ],
+      "tall": 1.75,
+      "pose": "point",
+      "yaw": 3.14
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.3,
+       0,
+       0.5
+      ],
+      "yaw": 3.14,
+      "tall": 1.6,
+      "pose": "think"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 78
+    },
+    {
+     "word": 81,
+     "at": "end",
+     "plus": 0.35
+    }
+   ],
+   "sfx": [
+    {
+     "name": "tick",
+     "beat": 0,
+     "gain": 0.35,
+     "dur": 2.0
+    }
+   ],
+   "long": true
+  },
+  {
+   "anchor": {
+    "word": 82
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "bed",
+    "mood": "pink",
+    "cam": [
+     {
+      "pos": [
+       0.0,
+       1.9,
+       5.6
+      ],
+      "look": [
+       -0.1,
+       0.9,
+       -1.2
+      ],
+      "fov": 46,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.0,
+       1.85,
+       5.2
+      ],
+      "look": [
+       -0.1,
+       0.9,
+       -1.2
+      ],
+      "fov": 46,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:relax"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.22,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.3,
+      "hidden": true
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.15
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 82
+    }
+   ],
+   "sfx": [
+    {
+     "name": "crickets",
+     "gain": 0.5,
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 84
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "bed",
+    "mood": "pink",
+    "cam": [
+     {
+      "pos": [
+       0.2,
+       1.4,
+       3.6
+      ],
+      "look": [
+       0.17,
+       1.3,
+       0
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.2,
+       1.4,
+       3.2
+      ],
+      "look": [
+       0.17,
+       1.3,
+       0
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "label:0+suit:slump+stonks:look:-40",
+     "stonks:look:35"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.22,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "slump",
+      "yaw": 0.3
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.15
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think"
+     }
+    ],
+    "tags": [
+     {
+      "text": "Hounslow, London",
+      "x": 540,
+      "y": 470,
+      "size": 60,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 84
+    },
+    {
+     "word": 86
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 88
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "bed",
+    "mood": "pink",
+    "cam": [
+     {
+      "pos": [
+       0.08,
+       1.45,
+       2.3
+      ],
+      "look": [
+       -0.22,
+       1.35,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.08,
+       1.45,
+       1.95
+      ],
+      "look": [
+       -0.22,
+       1.35,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:shrug+suit:talk:1.5"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.22,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "slump",
+      "yaw": 0.3
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.15
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "think"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 88
+    }
+   ],
+   "sfx": [
+    {
+     "name": "trombone",
+     "offset": 1.55,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 91
+   },
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "long": true,
+   "props": {
+    "src": "doj_2015.png",
+    "chrome": "browser",
+    "url": "justice.gov/archives/opa/pr/futures-trader-charged-illegally-manipulating-stock-market-contributing-may-2010-market-flash",
+    "source": "US Department of Justice · 21 April 2015",
+    "maxHeight": 780,
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.25,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.32,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.72,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.34,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 14,
+      "y": 62,
+      "w": 840,
+      "h": 150
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 24,
+      "y": 815,
+      "w": 615,
+      "h": 6
+     },
+     {
+      "beat": 3,
+      "kind": "underline",
+      "x": 24,
+      "y": 332,
+      "w": 213,
+      "h": 8
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 91
+    },
+    {
+     "word": 94
+    },
+    {
+     "word": 97
+    },
+    {
+     "word": 99
+    },
+    {
+     "word": 101
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 102
+   },
+   "component": "Shot",
+   "theme": "light",
+   "transition": "cut",
+   "props": {
+    "src": "doj_2016.png",
+    "chrome": "browser",
+    "url": "justice.gov/archives/opa/pr/futures-trader-pleads-guilty-illegally-manipulating-futures-market-connection-2010-flash",
+    "source": "US Department of Justice · 9 November 2016",
+    "maxHeight": 780,
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.25,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.33,
+      "zoom": 1.0
+     }
+    ],
+    "marks": [
+     {
+      "beat": 0,
+      "kind": "box",
+      "x": 14,
+      "y": 62,
+      "w": 845,
+      "h": 150
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 102
+    },
+    {
+     "word": 104
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 105
+   },
+   "component": "Quote",
+   "theme": "dark",
+   "transition": "whip",
+   "props": {
+    "source": "US regulator (CFTC) · complaint announced 21 April 2015",
+    "text": "His trading “contributed to market conditions that led to the Flash Crash.”",
+    "mark": "contributed",
+    "note": "Exact words in quotes"
+   },
+   "beats": [
+    {
+     "word": 105
+    },
+    {
+     "word": 108
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 112
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "hq2",
+    "mood": "night",
+    "cam": [
+     {
+      "pos": [
+       -0.2,
+       1.6,
+       3.4
+      ],
+      "look": [
+       -1.0,
+       1.5,
+       -2.0
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.3,
+       1.6,
+       2.9
+      ],
+      "look": [
+       -1.0,
+       1.55,
+       -2.0
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:point+stonks:think"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.6,
+       0,
+       -0.9
+      ],
+      "tall": 1.75,
+      "pose": "point",
+      "yaw": -2.6
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.3,
+       0,
+       -0.6
+      ],
+      "yaw": -2.4,
+      "tall": 1.6,
+      "pose": "think"
+     }
+    ],
+    "screen": "fake"
+   },
+   "beats": [
+    {
+     "word": 112
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 116
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "bed",
+    "mood": "pink",
+    "cam": [
+     {
+      "pos": [
+       1.3,
+       1.6,
+       4.6
+      ],
+      "look": [
+       0.1,
+       1.0,
+       -0.6
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.0,
+       1.55,
+       4.0
+      ],
+      "look": [
+       0.1,
+       1.0,
+       -0.6
+      ],
+      "fov": 40,
+      "beat": 1,
+      "dur": 70
+     }
+    ],
+    "actions": [
+     "suit:think+stonks:relax",
+     "label:0",
+     "stonks:look:-45"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.22,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "think",
+      "yaw": 0.3
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.15
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ],
+    "tags": [
+     {
+      "text": "1 year, at home",
+      "x": 540,
+      "y": 470,
+      "size": 60,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 116
+    },
+    {
+     "word": 118
+    },
+    {
+     "word": 123,
+     "at": "end",
+     "plus": 0.3
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 124
+   },
+   "component": "Actor3D",
+   "theme": "light",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "bed",
+    "mood": "pink",
+    "cam": [
+     {
+      "pos": [
+       0.75,
+       1.5,
+       1.9
+      ],
+      "look": [
+       0.55,
+       1.42,
+       0.15
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.75,
+       1.5,
+       1.7
+      ],
+      "look": [
+       0.55,
+       1.42,
+       0.15
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 20
+     }
+    ],
+    "actions": [
+     "stonks:shrug+stonks:talk:0.75"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.22,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "facepalm",
+      "yaw": 0.3
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.15
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 124
+    }
+   ],
+   "sfx": [
+    {
+     "name": "rimshot",
+     "offset": 0.8,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 128
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "whip",
+   "moving": true,
+   "props": {
+    "$use": "hq",
+    "mood": "night",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.1
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 72,
+      "beat": 1,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:real"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.46,
+       0,
+       -0.32
+      ],
+      "yaw": -0.18,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screen": "q",
+    "shift": 60
+   },
+   "beats": [
+    {
+     "word": 128
+    },
+    {
+     "word": 131
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 134
+   },
+   "component": "Actor3D",
+   "theme": "dark",
+   "transition": "cut",
+   "moving": true,
+   "props": {
+    "$use": "bed",
+    "mood": "night",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.6,
+       3.8
+      ],
+      "look": [
+       0.1,
+       1.0,
+       -1.0
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.7,
+       4.8
+      ],
+      "look": [
+       0.1,
+       1.0,
+       -1.0
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 110
+     }
+    ],
+    "actions": [
+     "stamp+stonks:relax",
+     "label:0+stonks:wave"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.22,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.3,
+      "hidden": true
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.55,
+       0,
+       0.15
+      ],
+      "yaw": -0.45,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ],
+    "stamp": {
+     "text": "THE BEDROOM",
+     "x": 540,
+     "y": 1400,
+     "size": 108,
+     "rot": -4
+    },
+    "tags": [
+     {
+      "text": "In no cinemas",
+      "x": 540,
+      "y": 470,
+      "size": 64,
+      "pill": true
+     }
+    ]
+   },
+   "beats": [
+    {
+     "word": 134
+    },
+    {
+     "word": 136
+    }
+   ],
+   "long": true
+  }
+ ]
+}
