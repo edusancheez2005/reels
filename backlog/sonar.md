@@ -10,10 +10,10 @@
 - [x] Mt. Gox: 850,000 BTC lost in 2014 (hack from 2011, 647,000 BTC per DOJ), Karpelès' 2019 verdict, trustee repayments from 2024, ~34,000 BTC still to distribute (deadline Oct 2027) (2026-11-12-mt-gox-850k)
 - [ ] Who holds the most bitcoin: ETFs, exchanges, companies, governments, Satoshi — "Wall Street funds now hold more bitcoin than Satoshi." (#22; verify the latest ETF total; planned Tue 17 Nov, no product mention)
 - [ ] Exchange inflows vs outflows: what a whale moving coins can (and can't) tell you (planned Thu 19 Nov; this week's Sonar mention)
-- [ ] Stablecoin mints: when $1B of new USDT appears overnight, what actually happened — hook from the latest verified mint on-chain (date, amount, treasury address)
+- [ ] (planned Tue 24 Nov, skit) Stablecoin mints: when $1B of new USDT appears overnight, what actually happened — hook from the latest verified mint on-chain (date, amount, treasury address)
 - [ ] Why moving $300M of bitcoin can cost less than a coffee (fees explained)
 - [ ] How trackers label wallets: exchanges, funds, miners, governments
-- [ ] Dormant wallets: why very old coins waking up makes headlines
+- [ ] Dormant wallets: why very old coins waking up makes headlines (told by the-whale skit, 20 Nov; wait for a fresh, big wake-up)
 - [ ] Self-custody vs exchange custody: where the biggest holders keep coins
 - [x] Who holds the most bitcoin: US ETFs (1.25M) now beat Satoshi's estimated ~1.1M; Strategy, the US government, Coinbase (mostly customers' coins) (2026-11-17-who-holds-bitcoin)
 - [ ] Exchange inflows vs outflows: what a whale moving coins can and can't tell you, from a fresh verified move (was planned for Thu 19 Nov; replaced by a skit on 17 Nov)

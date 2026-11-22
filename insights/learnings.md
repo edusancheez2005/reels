@@ -1,66 +1,53 @@
 # What works on @sonartracker.io (from our own numbers, and Edu's taste)
 
-Updated 2026-11-17 (top section, with Edu; rest from 15 Nov): 2,294 followers; on 15 Nov 2,309 (−149 since 8 Nov, the biggest weekly drop so far), 31 reels in the data, 28 old enough to
-judge (median 1,447 views). Reports in `insights/weekly/`. The daily run reads this before writing its script. Each line: what to
-do, how sure we are, and the evidence. Edu's explicit calls on quality override the numbers. The weekly review rewrites this file;
-keep it under 12 bullets.
-
-## Not working: recommendations to non-followers were cut on 7 Nov (read this first; updated 17 Nov with Edu)
-- Our reach is 99% non-followers and always was: followers who see anything number 10–20 a day out of ~2,300. Daily reach from
-  non-followers ran 940–4,460 from 27 Oct to 6 Nov, fell to 254 on 7 Nov and 115 on 8 Nov, sat at 143–258 until 13 Nov, then
-  climbed: 340, 568, 831 (14–16 Nov). [Certain: Instagram's own daily numbers.] It hit every format and topic at once, so it is
-  an account-level drop in recommendations, not eight bad scripts in a row. I do not know what caused it; Edu has to check
-  Account Status in the app. Don't judge a topic or format by a reel posted 7–14 Nov.
-- The follower base doesn't help. 1,813 of the followers Instagram reports by country are in India, 150 in Bangladesh, 13 in the
-  UK, 5 in the US; 137 follows/unfollows were logged 11–13 Nov against ~10 on a normal day. [Certain on the numbers; I do not
-  know where these followers came from or whether they hurt who Instagram shows the reels to.] Edu's call.
-- Openings became the same shot. [Likely, n=10, mixed up with the drop above] From 8 Nov, 6 of 10 reels opened on a red number
-  on a black card with a number fragment ("Forty billion dollars, gone."): 3s skip 46–58%, 164–291 views. Reels in the same
-  stretch that opened on a scene with a full sentence held better: ronin-fake-job 36% skip / 1,285 views, quadriga 40% / 1,602,
-  internet-down 43% / 599. Fix from 18 Nov: RUNBOOK hard rule 7 (scene first, full sentence, never the same opener as the last
-  3 reels; the gate enforces it).
-- Follows. [Certain] Followers keep falling: 2,526 (28 Oct) → 2,309 (15 Nov) → 2,294 (17 Nov).
+Updated 2026-11-22 (weekly review): 2,259 followers (−50 since 15 Nov, −267 since 28 Oct). 45 reels in the data, 39 old enough to
+judge (median 1,368 views); report in `insights/weekly/2026-11-22.md`. The daily run reads this before writing its script. Each line:
+what to do, how sure we are, and the evidence. Edu's explicit calls on quality override the numbers. The weekly review rewrites this
+file; keep it under 12 bullets. (Windsor's trial now returns only the last 30 days of posts, so the pull starts at 25 Oct; nothing
+older was in the data anyway.)
 
 ## Do
-- Open on a full sentence that has a person or actor, what happened and one big concrete number, with the number on screen from frame one as a tag on a real scene (not a number card: RUNBOOK hard rule 7). [Likely]
-  Judged on the 23 reels posted before 8 Nov only: 18 number-led: median 1,599 views, 37% 3s skip; 5 without: median 174, 52%
-  (but two of those 5, quantum-bitcoin 2,116 and wallet-words 1,838, did fine). Not [Certain]: number-led whale-wakes,
-  trump-sniper and midterm-dip-bounce still got 145–210. "Number before the date" stays
-  [Guessing] (broccoli opened on a date and got 477; 184-billion-bug and poly-network did too and got 2,160 and 1,528).
-- Tell scam, hack and loss stories and end on one concrete step the viewer can do today, said aloud and shown. [Likely] The four
-  reels with 4+ shares are all of this kind: copy-paste-50m 10 shares / 44 saves (2.8 / 12.3 per 1k reach), poly-network-hack 6/8,
-  binance-hack 6/3, mempool-bots 4/5. The other 24 judged reels got 0–3 shares each. The most specific step (copy-paste: "never
-  copy an address from your history") got by far the most saves. n=4.
-- Have the card, number or object on screen from the first frame of every scene, and keep it under 60 s. [Certain: reviewer notes,
-  4 of 7 reels this week] Scenes opened on an empty frame for 0.4–1.4 s in ironkey, whale-alert, terra and squid (twice in some);
-  terra-luna ran 61.9 s and ftx 62.7 s. The 54–62 s story reels hold 20–27 s of average watch (pre-8 Nov), so the length is right;
-  the dead air is not. This is this week's one change.
-- Make every reel to the reference standard: episodes/2026-10-29-landfill-story and episodes/2026-11-01-184-billion-bug (real
-  people, real documents as receipts, story-specific scenes, the specific lesson). [Certain: Edu, 29 Oct and 1 Nov] Vary the
-  format; never the same format twice in a row. [Certain: Edu, 31 Oct] Prefer a real name card or headline to a toy-like 3D
-  stand-in: reviewers flagged the stand-ins as the flattest visual in 4 reels this week (pig-butchering, mt-gox, whale-alert, ironkey).
+- Keep making skits, two a day. [Certain on the hook, n=10] 3-second skip 25–33% on 9 of 10 skits (two-pizzas 43% after only
+  0.6 days), against 36–58% on all 7 explainers posted 13–18 Nov and a median 34% on the 16 explainers before the 7 Nov drop.
+  Average watch 22–29 s on the six skits older than two days. Views are good, not better than the best of before: the five judged
+  skits did 1,496–1,871 (median 1,655, 1.2× the account median), the pre-drop explainers 1,221–4,966.
+- **This week's one change: give every skit something worth sending.** [Guessing: a test] On crypto mornings end on one concrete
+  step the viewer can do today, said and shown on a held last frame (≥1.5 s, nothing stamped over it), and put the same step as
+  the caption's second line; on markets evenings do the same with the one thing to remember. Why: 10 skits, 8,855 accounts reached,
+  1 share and 5 saves (0.7 per 1k reach); 16 explainers of 27 Oct–7 Nov: 125 shares+saves on 24,098 reach (5.2 per 1k; 3.4
+  without copy-paste-50m). The same story both ways: copy-paste-50m 11 shares / 44 saves on 3,684 reach, genius-copy-paste 0 / 1
+  on 1,339, and the skit did say the step, so the step alone may not be the answer. Judge it next Sunday on shares+saves per 1k.
+- Say and show the striking fact in the first two seconds; a date alone is not a hook. [Guessing on the numbers; reviewers, 7 of
+  12 reels this week] Hook 3/5 for wrong-zoom ("It's March 2020."), minus-37, wrong-number and riemann-claude; onion-king,
+  newtons-bubble and the-bedroom also held the fact back 2–8 s. Skip stayed 25–33% anyway, so I do not know that it costs views,
+  but it costs nothing to fix. The number goes on a real scene, never a number card (RUNBOOK hard rule 7).
+- Make every reel to the reference standard (landfill-story, 184-billion-bug: real people, real documents, the specific lesson),
+  a set built for each story, and vary the last beat. [Certain: Edu, 29 Oct / 1 Nov; reviewers this week] Reviewers flagged a
+  swear in four skits running (wrong-zoom, popcorn-tin, minus-37, the-whale) and "Stonks one-liner answered in two words" as the
+  ending in 3 of 4 (onion-king). Swearing stays allowed (Edu, 18 Nov), just not as the format's tic.
 
 ## Avoid
-- Off-crypto topics. [Likely] battery-lithium 152 views / 61% skip; ai-agent-hack 1,219 / 47%, 0.8× median (n=2).
-- Politics anywhere near the hook or caption. [Guessing, n=2, matches Edu's 2 Nov rule] midterm-dip-bounce 145 views, 77% skip,
-  5.3 s average watch (still our worst hook); trump-sniper 210. Both were also late second posts of the day, so I do not know which
-  caused it.
-- Meme-coin framing. [Guessing] trump-sniper 210, meme-coin-broccoli 477, both the bottom of their days before the cliff. Meme items
-  stay low in `backlog/crypto.md`. squid-game-token (told as a scam) is too early and inside the cliff, so it proves nothing.
+- Off-crypto tech news and breaking stories that aren't a crypto hack. [Likely, n=3] battery-lithium 152 views / 61% skip,
+  week-of-outages (breaking, 18 Nov) 244 / 46% while that day's two skits did 1,680 and 1,496, ai-agent-hack 1,221 / 47%.
+  Breaking in total: only binance-hack (1,857, 6 shares) earned its place; midterm-dip-bounce 145. Markets history skits are not
+  in this group (see Watching). This week's two breaking reels (biggest-ipo, riemann-claude) are held for Edu and unposted.
+- Politics near the hook or caption, and meme-coin framing. [Guessing, n=2 each, matches Edu's 2 Nov rule] midterm-dip-bounce 145
+  views / 77% skip, trump-sniper 215, meme-coin-broccoli 481. Tell Dogecoin as a story about its two makers, not the coin.
+
+## Not working yet
+- Followers keep falling, though more slowly. [Certain] 2,526 (28 Oct) → 2,309 (15 Nov) → 2,259 (22 Nov): −50 this week against
+  −149 the week before, while reels are reaching as many people as before the drop. I do not know why. 1,813 of the followers
+  Instagram reports by country are in India (15 Nov count); whether that base hurts who Instagram shows us to is Edu's call.
+- Sonar reels. [Guessing, n=2] Since reach came back, both Sonar reels are the account's lowest: who-holds-bitcoin 392 views with
+  58% skip (a hook problem) and the-whale 160 views on 131 accounts after 2.6 days with a 26% skip (the hook held; it was barely
+  shown, while the reels either side reached 1,100–1,200). Every Sonar reel ends "Comment WHALE"; 7 of 9 are under 400 views, but
+  mempool-bots (1,783) and copy-paste-50m (4,966) carried it too, so I do not know if the line is the cause. Edu decides on a test.
 
 ## Watching (not enough data yet)
-- Skits, from 17 Nov (with Edu). [One reel, two hours of data: a hint, not a pattern] The first skit (genius-copy-paste) went
-  up at 20:07 London on 17 Nov with the new narrator (am_michael) and the new rigged characters. Two hours in: 1,241 views on
-  560 accounts reached, 16% three-second skip, 25.4 s average watch, 26 likes. The explainers of 14–17 Nov after 1–4 days:
-  213–1,285 views, 36–57% skip, 12–29 s average watch, 1–5 likes. It also went out in the evening instead of 04:00–06:00, so
-  format and hour can't be told apart yet. Edu the same evening: skits every day, each a different story and film genre, less
-  text, more Stonks ("jumping and clapping"); script guide "Skits", `backlog/skits.md`. Compare skits by genre from 22 Nov.
-- Posting hour (asked by Edu, 17 Nov). [I do not know the best hour] Before the 7 Nov drop, by London hour posted: 04–06
-  n=3, median 1,601 views; 07–08 n=7, 1,800; 11–14 n=5, 174; 15–18 n=4, 903; 21–24 n=4, 1,538. The weak midday and afternoon
-  groups include off-topic reels and second posts of the day, so the hour is confounded. After the drop every reel went out
-  04–06 (n=10, median 272), so the drop was not about the hour. Outside studies agree on midweek and disagree on the hour,
-  and none measures reach to non-followers, which is 99% of ours. A two-slot test with skits (early morning against evening)
-  would answer it; changing the run's time needs Edu's yes.
-- Breaking news vs plan: no breaking reels this week (the scout found nothing big on any day). Still three in total: binance-hack
-  1,857 (6 shares), ai-agent-hack 1,219, midterm-dip-bounce 145. [Guessing] Only an on-topic hack story earned its place. Keep the
-  scout's bar high; skip "why the price moved" stories.
+- The 7 Nov reach drop looks over. [Likely] Reels since 16 Nov reach 1,041–1,339 accounts (ronin and the seven skits that had a
+  day or more), the same band as 27 Oct–7 Nov (1,041–1,677, copy-paste 3,684). Reels posted 8–15 Nov still prove nothing.
+- Morning vs evening, crypto vs markets (Edu asked about the best hour, 17 Nov). [I do not know the best slot] Judged: mornings
+  pay-cut 1,680 and popcorn-tin 1,655 (n=2); evenings genius-copy-paste 1,871, wrong-zoom 1,496, minus-37 1,625 (n=3); skip
+  25–30% in both. Younger: onion-king (evening) 1,487 at 2.0 days, wrong-number (morning) 1,356 at 1.6, newtons-bubble (evening)
+  599 at 1.0. No gap bigger than the day-to-day spread. Markets skits hold as well as crypto ones [Likely: wrong-zoom 30% skip /
+  1,496, minus-37 27% / 1,625, onion-king 26% / 1,487]. We only pull weekly, so I can't compare reels at the same age (48 h).
