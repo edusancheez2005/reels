@@ -1,0 +1,14 @@
+In February 2025, hackers took about $1.5 billion from crypto exchange Bybit in one transaction. Every signer approved it.
+Before you sign anything, check the amount and address on your wallet's own screen, not the website.
+Bybit's offline wallet needed at least three signatures to move coins. Two days before, attackers had slipped code into the signing website: it showed the signers a routine transfer with the right address, while the real transaction handed control of the wallet to them. 401,347 ETH were drained from it. Bybit refilled its customers' ether within three days.
+The suit guy and his friend are made up. The numbers are real.
+Follow for crypto, explained simply.
+Not financial advice.
+#Bybit #Crypto #CryptoExplained #CryptoForBeginners #CryptoSecurity
+
+Sources:
+Bybit, "Bybit Security Incident: Timeline of Events and FAQs": https://www.bybit.com/en/learn/this-week-in-bybit/bybit-security-incident-timeline
+NCC Group, "In-Depth Technical Analysis of the Bybit Hack" (10 Mar 2025): https://www.nccgroup.com/research/in-depth-technical-analysis-of-the-bybit-hack/
+The Block, "Crypto exchange Bybit confirms hack as over $1.4 billion worth of ETH leaves wallets" (21 Feb 2025): https://www.theblock.co/post/342667/crypto-exchange-bybit-hacked-as-over-1-billion-worth-of-eth-leaves-wallets
+FBI IC3 public service announcement I-022625-PSA (26 Feb 2025): https://www.ic3.gov/PSA/2025/PSA250226
+SlowMist, "Bybit's $1.5 Billion Theft Unveiled: Safe{Wallet} Front-End Code Tampered": https://slowmist.medium.com/bybits-1-5-billion-theft-unveiled-safe-wallet-front-end-code-tampered-84b78f0fa9c2

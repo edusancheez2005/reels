@@ -1,0 +1,2846 @@
+{
+ "slug": "the-signing-screen",
+ "format": "skit",
+ "genre": "heist",
+ "bit": "dramatic-irony",
+ "topic_source": "plan",
+ "theme": "light",
+ "tail": 1.5,
+ "emphasis": [
+  "one and a half billion dollars",
+  "your vault.",
+  "offline vault",
+  "three signatures.",
+  "Triple-checked.",
+  "What you don't know:",
+  "rigged the website",
+  "routine transfer.",
+  "hands them the vault.",
+  "the address.",
+  "a green button.",
+  "Ooh. Green.",
+  "walks out the front door.",
+  "Address was right.",
+  "an inside man.",
+  "None of them knew.",
+  "another green button.",
+  "February twenty-first, 2025.",
+  "within three days.",
+  "the amount and address",
+  "wallet's own screen,"
+ ],
+ "defs": {
+  "full": {
+   "set": "desk",
+   "props": [
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.25,
+      -2.43
+     ],
+     "size": [
+      2.5,
+      2.5,
+      0.06
+     ],
+     "color": "#4b5560"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.55,
+      1.3,
+      -2.34
+     ],
+     "size": [
+      0.98,
+      0.16
+     ],
+     "color": "#8e9aa6",
+     "rot": [
+      90,
+      0,
+      0
+     ]
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.55,
+      1.3,
+      -2.25
+     ],
+     "size": [
+      0.74,
+      0.08
+     ],
+     "color": "#6f7b87",
+     "rot": [
+      90,
+      0,
+      0
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.3,
+      -2.18
+     ],
+     "size": [
+      1.1,
+      0.07,
+      0.07
+     ],
+     "color": "#cfd6dd"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.3,
+      -2.18
+     ],
+     "size": [
+      1.1,
+      0.07,
+      0.07
+     ],
+     "color": "#cfd6dd",
+     "rot": [
+      0,
+      0,
+      60
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.3,
+      -2.18
+     ],
+     "size": [
+      1.1,
+      0.07,
+      0.07
+     ],
+     "color": "#cfd6dd",
+     "rot": [
+      0,
+      0,
+      120
+     ]
+    },
+    {
+     "shape": "ball",
+     "at": [
+      -1.55,
+      1.3,
+      -2.15
+     ],
+     "size": [
+      0.15
+     ],
+     "color": "#cfd6dd"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.35,
+      1.3,
+      -2.36
+     ],
+     "size": [
+      0.12,
+      0.5,
+      0.1
+     ],
+     "color": "#2f363d"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.55,
+      0.2,
+      -1.7
+     ],
+     "size": [
+      0.75,
+      0.4,
+      0.45
+     ],
+     "color": "#e2b53a",
+     "glow": 0.15
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.55,
+      0.52,
+      -1.7
+     ],
+     "size": [
+      0.6,
+      0.24,
+      0.38
+     ],
+     "color": "#e2b53a",
+     "glow": 0.15
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.55,
+      0.74,
+      -1.7
+     ],
+     "size": [
+      0.42,
+      0.2,
+      0.3
+     ],
+     "color": "#e2b53a",
+     "glow": 0.15
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.55,
+      0.18,
+      -1.95
+     ],
+     "size": [
+      0.6,
+      0.36,
+      0.4
+     ],
+     "color": "#e2b53a",
+     "glow": 0.15
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.55,
+      0.46,
+      -1.95
+     ],
+     "size": [
+      0.45,
+      0.2,
+      0.3
+     ],
+     "color": "#e2b53a",
+     "glow": 0.15
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.6,
+      0.5,
+      0.5
+     ],
+     "size": [
+      0.1,
+      1.0
+     ],
+     "color": "#2b2f36"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.6,
+      1.01,
+      0.5
+     ],
+     "size": [
+      0.2,
+      0.04
+     ],
+     "color": "#3a3f46"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.6,
+      1.06,
+      0.5
+     ],
+     "size": [
+      0.12,
+      0.07
+     ],
+     "color": "#2ecc71",
+     "glow": 1
+    }
+   ],
+   "screens": {
+    "vault": {
+     "head": "BYBIT \u00b7 OFFLINE VAULT",
+     "big": "LOCKED",
+     "sub": "cold wallet",
+     "tone": "good"
+    },
+    "sigs0": {
+     "head": "MOVE COINS",
+     "big": "0 / 3",
+     "sub": "signatures needed",
+     "tone": "accent"
+    },
+    "routine": {
+     "head": "SIGNING PAGE",
+     "big": "TRANSFER",
+     "sub": "routine \u00b7 address OK",
+     "tone": "good"
+    },
+    "real": {
+     "head": "WHAT IT REALLY DOES",
+     "big": "HANDOVER",
+     "sub": "vault \u2192 hackers",
+     "tone": "alert"
+    },
+    "sig1": {
+     "head": "SIGNING PAGE",
+     "big": "1 / 3",
+     "sub": "signed",
+     "tone": "good"
+    },
+    "sig2": {
+     "head": "SIGNING PAGE",
+     "big": "2 / 3",
+     "sub": "signed",
+     "tone": "good"
+    },
+    "sig3": {
+     "head": "SIGNING PAGE",
+     "big": "3 / 3",
+     "sub": "sent",
+     "tone": "good"
+    },
+    "empty": {
+     "head": "OFFLINE VAULT",
+     "big": "EMPTY",
+     "sub": "",
+     "tone": "alert"
+    },
+    "refill": {
+     "head": "3 DAYS LATER",
+     "big": "REFILLED",
+     "sub": "",
+     "tone": "good"
+    },
+    "step": {
+     "head": "BEFORE YOU SIGN",
+     "big": "CHECK",
+     "sub": "amount + address, on the wallet",
+     "tone": "accent"
+    }
+   }
+  },
+  "empty": {
+   "set": "desk",
+   "props": [
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.25,
+      -2.43
+     ],
+     "size": [
+      2.5,
+      2.5,
+      0.06
+     ],
+     "color": "#4b5560"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.55,
+      1.3,
+      -2.34
+     ],
+     "size": [
+      0.98,
+      0.16
+     ],
+     "color": "#8e9aa6",
+     "rot": [
+      90,
+      0,
+      0
+     ]
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.55,
+      1.3,
+      -2.25
+     ],
+     "size": [
+      0.74,
+      0.08
+     ],
+     "color": "#6f7b87",
+     "rot": [
+      90,
+      0,
+      0
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.3,
+      -2.18
+     ],
+     "size": [
+      1.1,
+      0.07,
+      0.07
+     ],
+     "color": "#cfd6dd"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.3,
+      -2.18
+     ],
+     "size": [
+      1.1,
+      0.07,
+      0.07
+     ],
+     "color": "#cfd6dd",
+     "rot": [
+      0,
+      0,
+      60
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.3,
+      -2.18
+     ],
+     "size": [
+      1.1,
+      0.07,
+      0.07
+     ],
+     "color": "#cfd6dd",
+     "rot": [
+      0,
+      0,
+      120
+     ]
+    },
+    {
+     "shape": "ball",
+     "at": [
+      -1.55,
+      1.3,
+      -2.15
+     ],
+     "size": [
+      0.15
+     ],
+     "color": "#cfd6dd"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.35,
+      1.3,
+      -2.36
+     ],
+     "size": [
+      0.12,
+      0.5,
+      0.1
+     ],
+     "color": "#2f363d"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.6,
+      0.5,
+      0.5
+     ],
+     "size": [
+      0.1,
+      1.0
+     ],
+     "color": "#2b2f36"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.6,
+      1.01,
+      0.5
+     ],
+     "size": [
+      0.2,
+      0.04
+     ],
+     "color": "#3a3f46"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.6,
+      1.06,
+      0.5
+     ],
+     "size": [
+      0.12,
+      0.07
+     ],
+     "color": "#2ecc71",
+     "glow": 1
+    }
+   ],
+   "screens": {
+    "vault": {
+     "head": "BYBIT \u00b7 OFFLINE VAULT",
+     "big": "LOCKED",
+     "sub": "cold wallet",
+     "tone": "good"
+    },
+    "sigs0": {
+     "head": "MOVE COINS",
+     "big": "0 / 3",
+     "sub": "signatures needed",
+     "tone": "accent"
+    },
+    "routine": {
+     "head": "SIGNING PAGE",
+     "big": "TRANSFER",
+     "sub": "routine \u00b7 address OK",
+     "tone": "good"
+    },
+    "real": {
+     "head": "WHAT IT REALLY DOES",
+     "big": "HANDOVER",
+     "sub": "vault \u2192 hackers",
+     "tone": "alert"
+    },
+    "sig1": {
+     "head": "SIGNING PAGE",
+     "big": "1 / 3",
+     "sub": "signed",
+     "tone": "good"
+    },
+    "sig2": {
+     "head": "SIGNING PAGE",
+     "big": "2 / 3",
+     "sub": "signed",
+     "tone": "good"
+    },
+    "sig3": {
+     "head": "SIGNING PAGE",
+     "big": "3 / 3",
+     "sub": "sent",
+     "tone": "good"
+    },
+    "empty": {
+     "head": "OFFLINE VAULT",
+     "big": "EMPTY",
+     "sub": "",
+     "tone": "alert"
+    },
+    "refill": {
+     "head": "3 DAYS LATER",
+     "big": "REFILLED",
+     "sub": "",
+     "tone": "good"
+    },
+    "step": {
+     "head": "BEFORE YOU SIGN",
+     "big": "CHECK",
+     "sub": "amount + address, on the wallet",
+     "tone": "accent"
+    }
+   }
+  },
+  "full2": {
+   "set": "desk",
+   "props": [
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.25,
+      -2.43
+     ],
+     "size": [
+      2.5,
+      2.5,
+      0.06
+     ],
+     "color": "#4b5560"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.55,
+      1.3,
+      -2.34
+     ],
+     "size": [
+      0.98,
+      0.16
+     ],
+     "color": "#8e9aa6",
+     "rot": [
+      90,
+      0,
+      0
+     ]
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      -1.55,
+      1.3,
+      -2.25
+     ],
+     "size": [
+      0.74,
+      0.08
+     ],
+     "color": "#6f7b87",
+     "rot": [
+      90,
+      0,
+      0
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.3,
+      -2.18
+     ],
+     "size": [
+      1.1,
+      0.07,
+      0.07
+     ],
+     "color": "#cfd6dd"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.3,
+      -2.18
+     ],
+     "size": [
+      1.1,
+      0.07,
+      0.07
+     ],
+     "color": "#cfd6dd",
+     "rot": [
+      0,
+      0,
+      60
+     ]
+    },
+    {
+     "shape": "box",
+     "at": [
+      -1.55,
+      1.3,
+      -2.18
+     ],
+     "size": [
+      1.1,
+      0.07,
+      0.07
+     ],
+     "color": "#cfd6dd",
+     "rot": [
+      0,
+      0,
+      120
+     ]
+    },
+    {
+     "shape": "ball",
+     "at": [
+      -1.55,
+      1.3,
+      -2.15
+     ],
+     "size": [
+      0.15
+     ],
+     "color": "#cfd6dd"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.35,
+      1.3,
+      -2.36
+     ],
+     "size": [
+      0.12,
+      0.5,
+      0.1
+     ],
+     "color": "#2f363d"
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.55,
+      0.2,
+      -1.7
+     ],
+     "size": [
+      0.75,
+      0.4,
+      0.45
+     ],
+     "color": "#e2b53a",
+     "glow": 0.15
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.55,
+      0.52,
+      -1.7
+     ],
+     "size": [
+      0.6,
+      0.24,
+      0.38
+     ],
+     "color": "#e2b53a",
+     "glow": 0.15
+    },
+    {
+     "shape": "box",
+     "at": [
+      -2.55,
+      0.74,
+      -1.7
+     ],
+     "size": [
+      0.42,
+      0.2,
+      0.3
+     ],
+     "color": "#e2b53a",
+     "glow": 0.15
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.55,
+      0.18,
+      -1.95
+     ],
+     "size": [
+      0.6,
+      0.36,
+      0.4
+     ],
+     "color": "#e2b53a",
+     "glow": 0.15
+    },
+    {
+     "shape": "box",
+     "at": [
+      -0.55,
+      0.46,
+      -1.95
+     ],
+     "size": [
+      0.45,
+      0.2,
+      0.3
+     ],
+     "color": "#e2b53a",
+     "glow": 0.15
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.6,
+      0.5,
+      0.5
+     ],
+     "size": [
+      0.1,
+      1.0
+     ],
+     "color": "#2b2f36"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.6,
+      1.01,
+      0.5
+     ],
+     "size": [
+      0.2,
+      0.04
+     ],
+     "color": "#3a3f46"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.6,
+      1.06,
+      0.5
+     ],
+     "size": [
+      0.12,
+      0.07
+     ],
+     "color": "#2ecc71",
+     "glow": 1
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.55,
+      0.04,
+      1.35
+     ],
+     "size": [
+      0.62,
+      0.08
+     ],
+     "color": "#3a3f46"
+    },
+    {
+     "shape": "cyl",
+     "at": [
+      1.55,
+      0.13,
+      1.35
+     ],
+     "size": [
+      0.5,
+      0.12
+     ],
+     "color": "#2ecc71",
+     "glow": 1
+    }
+   ],
+   "screens": {
+    "vault": {
+     "head": "BYBIT \u00b7 OFFLINE VAULT",
+     "big": "LOCKED",
+     "sub": "cold wallet",
+     "tone": "good"
+    },
+    "sigs0": {
+     "head": "MOVE COINS",
+     "big": "0 / 3",
+     "sub": "signatures needed",
+     "tone": "accent"
+    },
+    "routine": {
+     "head": "SIGNING PAGE",
+     "big": "TRANSFER",
+     "sub": "routine \u00b7 address OK",
+     "tone": "good"
+    },
+    "real": {
+     "head": "WHAT IT REALLY DOES",
+     "big": "HANDOVER",
+     "sub": "vault \u2192 hackers",
+     "tone": "alert"
+    },
+    "sig1": {
+     "head": "SIGNING PAGE",
+     "big": "1 / 3",
+     "sub": "signed",
+     "tone": "good"
+    },
+    "sig2": {
+     "head": "SIGNING PAGE",
+     "big": "2 / 3",
+     "sub": "signed",
+     "tone": "good"
+    },
+    "sig3": {
+     "head": "SIGNING PAGE",
+     "big": "3 / 3",
+     "sub": "sent",
+     "tone": "good"
+    },
+    "empty": {
+     "head": "OFFLINE VAULT",
+     "big": "EMPTY",
+     "sub": "",
+     "tone": "alert"
+    },
+    "refill": {
+     "head": "3 DAYS LATER",
+     "big": "REFILLED",
+     "sub": "",
+     "tone": "good"
+    },
+    "step": {
+     "head": "BEFORE YOU SIGN",
+     "big": "CHECK",
+     "sub": "amount + address, on the wallet",
+     "tone": "accent"
+    }
+   }
+  }
+ },
+ "scenes": [
+  {
+   "anchor": {
+    "word": 0
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 0
+    },
+    {
+     "word": 9
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "teal",
+    "screen": "vault",
+    "cam": [
+     {
+      "pos": [
+       2.3,
+       1.6,
+       4.1
+      ],
+      "look": [
+       -0.4,
+       1.15,
+       -0.6
+      ],
+      "fov": 42,
+      "beat": -1
+     },
+     {
+      "pos": [
+       2.3,
+       1.6,
+       3.65
+      ],
+      "look": [
+       -0.4,
+       1.15,
+       -0.6
+      ],
+      "fov": 42,
+      "beat": 0,
+      "dur": 110
+     }
+    ],
+    "actions": [
+     "label:0+suit:proud",
+     "suit:lean"
+    ],
+    "tags": [
+     {
+      "text": "$1.5 BILLION",
+      "x": 540,
+      "y": 470,
+      "size": 80,
+      "pill": true
+     }
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "proud"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 11
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 11
+    },
+    {
+     "word": 17
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "teal",
+    "screen": "vault",
+    "cam": [
+     {
+      "pos": [
+       -1.0,
+       1.45,
+       1.2
+      ],
+      "look": [
+       -1.9,
+       1.0,
+       -2.0
+      ],
+      "fov": 44,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -1.0,
+       1.45,
+       1.0
+      ],
+      "look": [
+       -1.9,
+       1.0,
+       -2.0
+      ],
+      "fov": 44,
+      "beat": 0,
+      "dur": 90
+     }
+    ],
+    "actions": [
+     "suit:look:-35",
+     "suit:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 20
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 20
+    },
+    {
+     "word": 22
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "teal",
+    "screen": "vault",
+    "cam": [
+     {
+      "pos": [
+       -1.9,
+       1.3,
+       3.2
+      ],
+      "look": [
+       0.1,
+       1.2,
+       -0.3
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -1.9,
+       1.3,
+       2.9
+      ],
+      "look": [
+       0.1,
+       1.2,
+       -0.3
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 80
+     }
+    ],
+    "actions": [
+     "label:0+suit:relax",
+     "suit:proud"
+    ],
+    "tags": [
+     {
+      "text": "Bybit",
+      "x": 540,
+      "y": 470,
+      "size": 90,
+      "pill": true
+     }
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "proud"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 25
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 25
+    },
+    {
+     "word": 28
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "teal",
+    "screen": "sigs0",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 1
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:sigs0"
+    ],
+    "shift": 60,
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 30
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 30
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "teal",
+    "screen": "sigs0",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.15
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:talk:0.9+suit:genius"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "genius"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 31
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 31
+    },
+    {
+     "word": 35
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "night",
+    "screen": "routine",
+    "cam": [
+     {
+      "pos": [
+       -1.5,
+       1.6,
+       2.9
+      ],
+      "look": [
+       0.0,
+       1.2,
+       0.0
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -1.5,
+       1.6,
+       2.55
+      ],
+      "look": [
+       0.0,
+       1.2,
+       0.0
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 70
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "label:0"
+    ],
+    "tags": [
+     {
+      "text": "2 days ago",
+      "x": 540,
+      "y": 470,
+      "size": 84,
+      "pill": true
+     }
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "dun",
+     "beat": 0,
+     "offset": 0.1,
+     "gain": 0.45
+    }
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": {
+    "word": 38
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 38
+    },
+    {
+     "word": 41
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "night",
+    "screen": "routine",
+    "cam": [
+     {
+      "pos": [
+       -0.55,
+       1.8,
+       -0.85
+      ],
+      "look": [
+       0.05,
+       1.05,
+       0.9
+      ],
+      "fov": 46,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.55,
+       1.8,
+       -0.65
+      ],
+      "look": [
+       0.05,
+       1.05,
+       0.9
+      ],
+      "fov": 46,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "suit:click"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "theme": "dark"
+  },
+  {
+   "anchor": {
+    "word": 45
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 45
+    },
+    {
+     "word": 49
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "teal",
+    "screen": "routine",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.2
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:lean",
+     "suit:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "lean"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 51
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 51
+    },
+    {
+     "word": 54
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "doom",
+    "screen": "routine",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 1
+     }
+    ],
+    "actions": [
+     "screen:routine",
+     "screen:real"
+    ],
+    "shift": 60,
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "scratch",
+     "beat": 1,
+     "offset": -0.05,
+     "gain": 0.3
+    }
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": {
+    "word": 58
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 58
+    },
+    {
+     "word": 63
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "teal",
+    "screen": "routine",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.15
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:lean+screen:routine",
+     "screen:sig1+suit:click"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "lean"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "beat": 1,
+     "offset": 0.25,
+     "gain": 0.35
+    }
+   ],
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 64
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 64
+    },
+    {
+     "word": 66
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "teal",
+    "screen": "sig1",
+    "cam": [
+     {
+      "pos": [
+       2.0,
+       1.55,
+       3.6
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       2.0,
+       1.55,
+       3.3
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:relax",
+     "screen:sig2"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 68
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 68
+    },
+    {
+     "word": 74
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "teal",
+    "screen": "sig2",
+    "cam": [
+     {
+      "pos": [
+       1.8,
+       1.2,
+       4.4
+      ],
+      "look": [
+       1.85,
+       0.95,
+       0.45
+      ],
+      "fov": 32,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.8,
+       1.2,
+       4.1
+      ],
+      "look": [
+       1.85,
+       0.95,
+       0.45
+      ],
+      "fov": 32,
+      "beat": 0,
+      "dur": 80
+     }
+    ],
+    "actions": [
+     "stonks:in",
+     "stonks:point"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       2.1,
+       0,
+       0.35
+      ],
+      "yaw": -0.9,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ]
+   },
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 76
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 76
+    },
+    {
+     "word": 77,
+     "at": "end",
+     "plus": 0.25
+    },
+    {
+     "word": 77,
+     "at": "end",
+     "plus": 0.6
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "teal",
+    "screen": "sig2",
+    "cam": [
+     {
+      "pos": [
+       1.75,
+       1.35,
+       3.3
+      ],
+      "look": [
+       1.85,
+       1.05,
+       0.45
+      ],
+      "fov": 32,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.75,
+       1.35,
+       3.15
+      ],
+      "look": [
+       1.85,
+       1.05,
+       0.45
+      ],
+      "fov": 32,
+      "beat": 0,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "stonks:talk:1.3+stonks:think",
+     "stonks:point+screen:sig3",
+     "stamp"
+    ],
+    "stamp": {
+     "text": "SIGNED",
+     "x": 540,
+     "y": 1420,
+     "size": 130,
+     "tone": "good",
+     "rot": -6
+    },
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       2.1,
+       0,
+       0.35
+      ],
+      "yaw": -0.9,
+      "tall": 1.6,
+      "pose": "think"
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "beat": 1,
+     "offset": 0.05,
+     "gain": 0.45
+    }
+   ],
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 78
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 78
+    },
+    {
+     "word": 84
+    }
+   ],
+   "props": {
+    "$use": "empty",
+    "mood": "doom",
+    "screen": "empty",
+    "cam": [
+     {
+      "pos": [
+       2.3,
+       1.6,
+       4.1
+      ],
+      "look": [
+       -0.6,
+       1.1,
+       -0.8
+      ],
+      "fov": 42,
+      "beat": -1
+     },
+     {
+      "pos": [
+       2.3,
+       1.6,
+       3.7
+      ],
+      "look": [
+       -0.6,
+       1.1,
+       -0.8
+      ],
+      "fov": 42,
+      "beat": 0,
+      "dur": 70
+     }
+    ],
+    "actions": [
+     "suit:panic+stonks:relax",
+     "suit:look:-40"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "panic"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       2.1,
+       0,
+       0.35
+      ],
+      "yaw": -0.9,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "beat": 0,
+     "gain": 0.45
+    },
+    {
+     "name": "trombone",
+     "beat": 1,
+     "offset": 0.35,
+     "gain": 0.35
+    }
+   ],
+   "theme": "dark"
+  },
+  {
+   "anchor": {
+    "word": 85
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 85
+    },
+    {
+     "word": 87,
+     "at": "end",
+     "plus": 0.1
+    }
+   ],
+   "props": {
+    "$use": "empty",
+    "mood": "doom",
+    "screen": "empty",
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.2
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "suit:talk:1.4+suit:point",
+     "suit:slump"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "point"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "theme": "dark"
+  },
+  {
+   "anchor": {
+    "word": 88
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 88
+    },
+    {
+     "word": 92
+    }
+   ],
+   "props": {
+    "$use": "empty",
+    "mood": "doom",
+    "screen": "empty",
+    "cam": [
+     {
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.6,
+       1.36,
+       2.9
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:slump+stonks:relax",
+     "stonks:look:-30"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "slump"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ]
+   },
+   "theme": "dark"
+  },
+  {
+   "anchor": {
+    "word": 94
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 94
+    },
+    {
+     "word": 98
+    }
+   ],
+   "props": {
+    "$use": "empty",
+    "mood": "doom",
+    "screen": "empty",
+    "cam": [
+     {
+      "pos": [
+       2.0,
+       1.55,
+       3.6
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       2.0,
+       1.55,
+       3.3
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 70
+     }
+    ],
+    "actions": [
+     "stonks:wave",
+     "suit:shrug+stonks:shrug"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "slump"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "wave"
+     }
+    ]
+   },
+   "theme": "dark"
+  },
+  {
+   "anchor": {
+    "word": 102
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 102
+    },
+    {
+     "word": 107
+    },
+    {
+     "word": 108,
+     "at": "end",
+     "plus": 0.35
+    }
+   ],
+   "props": {
+    "$use": "full2",
+    "mood": "teal",
+    "screen": "empty",
+    "cam": [
+     {
+      "pos": [
+       1.3,
+       1.2,
+       5.6
+      ],
+      "look": [
+       1.9,
+       0.75,
+       1.1
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.3,
+       1.2,
+       5.3
+      ],
+      "look": [
+       1.9,
+       0.75,
+       1.1
+      ],
+      "fov": 34,
+      "beat": 0,
+      "dur": 80
+     }
+    ],
+    "actions": [
+     "stonks:in+stonks:think",
+     "stonks:point",
+     "stonks:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "relax",
+      "hidden": true
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       2.25,
+       0,
+       1.0
+      ],
+      "yaw": -1.1,
+      "tall": 1.6,
+      "pose": "think"
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "buzzer",
+     "beat": 2,
+     "gain": 0.35
+    }
+   ],
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 109
+   },
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "long": true,
+   "beats": [
+    {
+     "word": 109
+    },
+    {
+     "word": 112
+    },
+    {
+     "word": 114
+    }
+   ],
+   "props": {
+    "src": "ncc_top.png",
+    "chrome": "browser",
+    "width": 940,
+    "maxHeight": 1150,
+    "url": "nccgroup.com/research/in-depth-technical-analysis-of-the-bybit-hack/",
+    "source": "NCC Group \u00b7 10 Mar 2025",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.2,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.47,
+      "zoom": 1.25
+     },
+     {
+      "x": 0.5,
+      "y": 0.62,
+      "zoom": 1.3
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 100,
+      "y": 1030,
+      "w": 1790,
+      "h": 50
+     },
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 95,
+      "y": 1400,
+      "w": 1810,
+      "h": 100
+     }
+    ]
+   }
+  },
+  {
+   "anchor": {
+    "word": 115
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 115
+    },
+    {
+     "word": 120
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "day",
+    "screen": "refill",
+    "cam": [
+     {
+      "pos": [
+       -0.55,
+       1.8,
+       -0.85
+      ],
+      "look": [
+       0.05,
+       1.05,
+       0.9
+      ],
+      "fov": 46,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.55,
+       1.8,
+       -0.65
+      ],
+      "look": [
+       0.05,
+       1.05,
+       0.9
+      ],
+      "fov": 46,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:relax+stonks:relax",
+     "suit:proud+screen:refill"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "relax"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ]
+   },
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 123
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 123
+    },
+    {
+     "word": 127
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "day",
+    "screen": "refill",
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 1
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:step"
+    ],
+    "shift": 60,
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "theme": "light"
+  },
+  {
+   "anchor": {
+    "word": 133
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 133
+    },
+    {
+     "word": 136
+    }
+   ],
+   "props": {
+    "$use": "full",
+    "mood": "day",
+    "screen": "step",
+    "cam": [
+     {
+      "pos": [
+       1.0,
+       1.36,
+       3.7
+      ],
+      "look": [
+       0.5,
+       1.25,
+       0
+      ],
+      "fov": 44,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.0,
+       1.36,
+       3.55
+      ],
+      "look": [
+       0.5,
+       1.25,
+       0
+      ],
+      "fov": 44,
+      "beat": 0,
+      "dur": 70
+     }
+    ],
+    "actions": [
+     "suit:point+stonks:think+label:0",
+     "stonks:look:-25"
+    ],
+    "tags": [
+     {
+      "text": "Check the wallet",
+      "x": 540,
+      "y": 450,
+      "size": 62,
+      "pill": true
+     }
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "yaw": 0,
+      "tall": 1.75,
+      "pose": "point"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.95,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "think"
+     }
+    ]
+   },
+   "theme": "light"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "2026-11-23-the-signing-screen",
+  "channel": "crypto",
+  "topic": "Skit: the signing screen \u2014 on 21 Feb 2025 hackers took about $1.5B (401,347 ETH and more) from Bybit's offline multisig wallet: code slipped into the Safe{Wallet} signing website two days earlier showed signers a routine transfer while the real transaction handed over the wallet; Bybit refilled clients' ETH within 72 hours (heist, dramatic-irony)",
+  "produced_at": "2026-11-23T04:30:06+00:00",
+  "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-23-the-signing-screen.mp4",
+  "posted": false,
+  "story_urls": [
+    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-23-the-signing-screen-story_1.mp4",
+    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-23-the-signing-screen-story_2.mp4",
+    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-23-the-signing-screen-story_3.jpg"
+  ],
+  "format": "skit",
+  "topic_source": "plan"
+}

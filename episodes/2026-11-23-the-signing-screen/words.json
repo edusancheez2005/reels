@@ -1,0 +1,981 @@
+[
+ {
+  "text": "Today,",
+  "startMs": 80,
+  "endMs": 433,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 670,
+  "endMs": 840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " help",
+  "startMs": 840,
+  "endMs": 1139,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hackers",
+  "startMs": 1140,
+  "endMs": 1490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " take",
+  "startMs": 1490,
+  "endMs": 1786,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 1790,
+  "endMs": 2020,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 2020,
+  "endMs": 2198,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 2200,
+  "endMs": 2370,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " half",
+  "startMs": 2370,
+  "endMs": 2580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 2580,
+  "endMs": 2970,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 2970,
+  "endMs": 3434,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 3440,
+  "endMs": 3669,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 3670,
+  "endMs": 3846,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vault.",
+  "startMs": 3930,
+  "endMs": 4140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 4365,
+  "endMs": 4515,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " guard",
+  "startMs": 4515,
+  "endMs": 4932,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 4975,
+  "endMs": 5055,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " offline",
+  "startMs": 5055,
+  "endMs": 5499,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vault",
+  "startMs": 5535,
+  "endMs": 5814,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 5815,
+  "endMs": 5940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bybit,",
+  "startMs": 5945,
+  "endMs": 6444,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 6695,
+  "endMs": 6835,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " giant",
+  "startMs": 6835,
+  "endMs": 7385,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " crypto",
+  "startMs": 7385,
+  "endMs": 7892,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " exchange.",
+  "startMs": 7895,
+  "endMs": 8585,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Moving",
+  "startMs": 8810,
+  "endMs": 9240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins",
+  "startMs": 9240,
+  "endMs": 9590,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " takes",
+  "startMs": 9590,
+  "endMs": 9980,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 9980,
+  "endMs": 10270,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " signatures.",
+  "startMs": 10270,
+  "endMs": 10910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Triple-checked.",
+  "startMs": 11135,
+  "endMs": 12175,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " What",
+  "startMs": 12400,
+  "endMs": 12640,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 12640,
+  "endMs": 12800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " don't",
+  "startMs": 12800,
+  "endMs": 13189,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " know:",
+  "startMs": 13190,
+  "endMs": 13432,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 13670,
+  "endMs": 13918,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " days",
+  "startMs": 13940,
+  "endMs": 14221,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ago,",
+  "startMs": 14230,
+  "endMs": 14525,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hackers",
+  "startMs": 14760,
+  "endMs": 15080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rigged",
+  "startMs": 15080,
+  "endMs": 15380,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 15380,
+  "endMs": 15557,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " website",
+  "startMs": 15620,
+  "endMs": 16040,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 16040,
+  "endMs": 16220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sign",
+  "startMs": 16220,
+  "endMs": 16528,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on.",
+  "startMs": 16540,
+  "endMs": 16710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 16935,
+  "endMs": 17045,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " website",
+  "startMs": 17045,
+  "endMs": 17495,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shows",
+  "startMs": 17495,
+  "endMs": 17809,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 17815,
+  "endMs": 17984,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " routine",
+  "startMs": 17985,
+  "endMs": 18415,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " transfer.",
+  "startMs": 18415,
+  "endMs": 18975,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Underneath,",
+  "startMs": 19200,
+  "endMs": 19793,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 20050,
+  "endMs": 20130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " transaction",
+  "startMs": 20130,
+  "endMs": 20790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hands",
+  "startMs": 20790,
+  "endMs": 21158,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " them",
+  "startMs": 21160,
+  "endMs": 21390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 21390,
+  "endMs": 21513,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vault.",
+  "startMs": 21610,
+  "endMs": 21810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 22035,
+  "endMs": 22205,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " check",
+  "startMs": 22205,
+  "endMs": 22615,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 22615,
+  "endMs": 22755,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " address.",
+  "startMs": 22755,
+  "endMs": 23195,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 23420,
+  "endMs": 23686,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sign.",
+  "startMs": 23690,
+  "endMs": 24130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " So",
+  "startMs": 24355,
+  "endMs": 24631,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " does",
+  "startMs": 24665,
+  "endMs": 24905,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " signer",
+  "startMs": 24905,
+  "endMs": 25265,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two.",
+  "startMs": 25265,
+  "endMs": 25595,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Signer",
+  "startMs": 25820,
+  "endMs": 26220,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 26220,
+  "endMs": 26553,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " signs",
+  "startMs": 26560,
+  "endMs": 26950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " anything",
+  "startMs": 26950,
+  "endMs": 27480,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 27480,
+  "endMs": 27687,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 27720,
+  "endMs": 27887,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " green",
+  "startMs": 27890,
+  "endMs": 28240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " button.",
+  "startMs": 28240,
+  "endMs": 28620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Ooh.",
+  "startMs": 28845,
+  "endMs": 29265,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Green.",
+  "startMs": 29490,
+  "endMs": 30030,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " The",
+  "startMs": 31055,
+  "endMs": 31175,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vault",
+  "startMs": 31175,
+  "endMs": 31475,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " walks",
+  "startMs": 31475,
+  "endMs": 31835,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " out",
+  "startMs": 31835,
+  "endMs": 32075,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 32075,
+  "endMs": 32195,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " front",
+  "startMs": 32195,
+  "endMs": 32555,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " door.",
+  "startMs": 32555,
+  "endMs": 32855,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Address",
+  "startMs": 33080,
+  "endMs": 33700,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " was",
+  "startMs": 33700,
+  "endMs": 34012,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " right.",
+  "startMs": 34020,
+  "endMs": 34530,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " Every",
+  "startMs": 34755,
+  "endMs": 35085,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " heist",
+  "startMs": 35085,
+  "endMs": 35415,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " needs",
+  "startMs": 35415,
+  "endMs": 35883,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 35895,
+  "endMs": 36015,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " inside",
+  "startMs": 36025,
+  "endMs": 36480,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " man.",
+  "startMs": 36485,
+  "endMs": 36745,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " This",
+  "startMs": 36970,
+  "endMs": 37230,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 37230,
+  "endMs": 37520,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 37520,
+  "endMs": 37790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three.",
+  "startMs": 37790,
+  "endMs": 38140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " None",
+  "startMs": 38365,
+  "endMs": 38648,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 38705,
+  "endMs": 38785,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " them",
+  "startMs": 38785,
+  "endMs": 39072,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " knew.",
+  "startMs": 39075,
+  "endMs": 39355,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Signer",
+  "startMs": 39580,
+  "endMs": 39970,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 39970,
+  "endMs": 40298,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " has",
+  "startMs": 40300,
+  "endMs": 40530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " found",
+  "startMs": 40530,
+  "endMs": 40950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " another",
+  "startMs": 40950,
+  "endMs": 41340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " green",
+  "startMs": 41340,
+  "endMs": 41690,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " button.",
+  "startMs": 41690,
+  "endMs": 42060,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " This",
+  "startMs": 42885,
+  "endMs": 43095,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 43095,
+  "endMs": 43273,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bybit,",
+  "startMs": 43275,
+  "endMs": 43717,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " February",
+  "startMs": 43935,
+  "endMs": 44535,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twenty-first,",
+  "startMs": 44535,
+  "endMs": 45271,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2025.",
+  "startMs": 45475,
+  "endMs": 46825,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Bybit",
+  "startMs": 47050,
+  "endMs": 47570,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " refilled",
+  "startMs": 47570,
+  "endMs": 48010,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 48010,
+  "endMs": 48164,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " missing",
+  "startMs": 48170,
+  "endMs": 48530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins",
+  "startMs": 48530,
+  "endMs": 48951,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " within",
+  "startMs": 48960,
+  "endMs": 49344,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 49350,
+  "endMs": 49672,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " days.",
+  "startMs": 49700,
+  "endMs": 50000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Before",
+  "startMs": 50225,
+  "endMs": 50655,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 50655,
+  "endMs": 50795,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sign,",
+  "startMs": 50795,
+  "endMs": 51180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " check",
+  "startMs": 51435,
+  "endMs": 51753,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 51765,
+  "endMs": 51875,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " amount",
+  "startMs": 51875,
+  "endMs": 52325,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 52355,
+  "endMs": 52515,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " address",
+  "startMs": 52515,
+  "endMs": 52885,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 52885,
+  "endMs": 53089,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 53095,
+  "endMs": 53275,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wallet's",
+  "startMs": 53275,
+  "endMs": 53715,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " own",
+  "startMs": 53715,
+  "endMs": 53955,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " screen,",
+  "startMs": 53955,
+  "endMs": 54426,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 54685,
+  "endMs": 54995,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 54995,
+  "endMs": 55125,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " website.",
+  "startMs": 55125,
+  "endMs": 55635,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

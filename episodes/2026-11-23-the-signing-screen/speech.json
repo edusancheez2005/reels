@@ -1,0 +1,134 @@
+[
+ {
+  "speaker": "narrator",
+  "text": "Today, you help hackers take one and a half billion dollars from your vault.",
+  "startMs": 80,
+  "endMs": 4140
+ },
+ {
+  "speaker": "narrator",
+  "text": "You guard the offline vault of Bybit, a giant crypto exchange.",
+  "startMs": 4365,
+  "endMs": 8585
+ },
+ {
+  "speaker": "narrator",
+  "text": "Moving coins takes three signatures.",
+  "startMs": 8810,
+  "endMs": 10910
+ },
+ {
+  "speaker": "suit",
+  "text": "Triple-checked.",
+  "startMs": 11135,
+  "endMs": 12175
+ },
+ {
+  "speaker": "narrator",
+  "text": "What you don't know: two days ago, hackers rigged the website you sign on.",
+  "startMs": 12400,
+  "endMs": 16710
+ },
+ {
+  "speaker": "narrator",
+  "text": "The website shows a routine transfer.",
+  "startMs": 16935,
+  "endMs": 18975
+ },
+ {
+  "speaker": "narrator",
+  "text": "Underneath, the transaction hands them the vault.",
+  "startMs": 19200,
+  "endMs": 21810
+ },
+ {
+  "speaker": "narrator",
+  "text": "You check the address.",
+  "startMs": 22035,
+  "endMs": 23195
+ },
+ {
+  "speaker": "narrator",
+  "text": "You sign.",
+  "startMs": 23420,
+  "endMs": 24130
+ },
+ {
+  "speaker": "narrator",
+  "text": "So does signer two.",
+  "startMs": 24355,
+  "endMs": 25595
+ },
+ {
+  "speaker": "narrator",
+  "text": "Signer three signs anything with a green button.",
+  "startMs": 25820,
+  "endMs": 28620
+ },
+ {
+  "speaker": "stonks",
+  "text": "Ooh.",
+  "startMs": 28845,
+  "endMs": 29265
+ },
+ {
+  "speaker": "stonks",
+  "text": "Green.",
+  "startMs": 29490,
+  "endMs": 30030
+ },
+ {
+  "speaker": "narrator",
+  "text": "The vault walks out the front door.",
+  "startMs": 31055,
+  "endMs": 32855
+ },
+ {
+  "speaker": "suit",
+  "text": "Address was right.",
+  "startMs": 33080,
+  "endMs": 34530
+ },
+ {
+  "speaker": "narrator",
+  "text": "Every heist needs an inside man.",
+  "startMs": 34755,
+  "endMs": 36745
+ },
+ {
+  "speaker": "narrator",
+  "text": "This one had three.",
+  "startMs": 36970,
+  "endMs": 38140
+ },
+ {
+  "speaker": "narrator",
+  "text": "None of them knew.",
+  "startMs": 38365,
+  "endMs": 39355
+ },
+ {
+  "speaker": "narrator",
+  "text": "Signer three has found another green button.",
+  "startMs": 39580,
+  "endMs": 42060
+ },
+ {
+  "speaker": "narrator",
+  "text": "This was Bybit, February twenty-first, 2025.",
+  "startMs": 42885,
+  "endMs": 46825
+ },
+ {
+  "speaker": "narrator",
+  "text": "Bybit refilled the missing coins within three days.",
+  "startMs": 47050,
+  "endMs": 50000
+ },
+ {
+  "speaker": "narrator",
+  "text": "Before you sign, check the amount and address on your wallet's own screen, not the website.",
+  "startMs": 50225,
+  "endMs": 55635
+ }
+]
