@@ -1,0 +1,6 @@
+Sources:
+Bybit, "Bybit Security Incident: Timeline of Events and FAQs": https://www.bybit.com/en/learn/this-week-in-bybit/bybit-security-incident-timeline
+NCC Group, "In-Depth Technical Analysis of the Bybit Hack" (10 Mar 2025): https://www.nccgroup.com/research/in-depth-technical-analysis-of-the-bybit-hack/
+The Block, "Crypto exchange Bybit confirms hack as over $1.4 billion worth of ETH leaves wallets" (21 Feb 2025): https://www.theblock.co/post/342667/crypto-exchange-bybit-hacked-as-over-1-billion-worth-of-eth-leaves-wallets
+FBI IC3 public service announcement I-022625-PSA (26 Feb 2025): https://www.ic3.gov/PSA/2025/PSA250226
+SlowMist, "Bybit's $1.5 Billion Theft Unveiled: Safe{Wallet} Front-End Code Tampered": https://slowmist.medium.com/bybits-1-5-billion-theft-unveiled-safe-wallet-front-end-code-tampered-84b78f0fa9c2

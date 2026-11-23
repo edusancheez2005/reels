@@ -1,0 +1,7 @@
+In February 2025, hackers took about $1.5 billion from crypto exchange Bybit in one transaction. Every signer approved it.
+Before you sign anything, check the amount and address on your wallet's own screen, not the website.
+Bybit's offline wallet needed at least three signatures to move coins. Two days before, attackers had slipped code into the signing website: it showed the signers a routine transfer with the right address, while the real transaction handed control of the wallet to them. 401,347 ETH were drained from it. Bybit refilled its customers' ether within three days.
+The suit guy and his friend are made up. The numbers are real.
+Follow for crypto, explained simply.
+Not financial advice.
+#Bybit #Crypto #CryptoExplained #CryptoForBeginners #CryptoSecurity
