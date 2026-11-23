@@ -3092,7 +3092,7 @@
    "moving": true,
    "props": {
     "$use": "desk",
-    "mood": "blue",
+    "mood": "day",
     "cam": [
      {
       "pos": [
@@ -3193,7 +3193,7 @@
    "moving": true,
    "props": {
     "$use": "desk",
-    "mood": "blue",
+    "mood": "day",
     "cam": [
      {
       "pos": [
@@ -3362,7 +3362,7 @@
    "moving": true,
    "props": {
     "$use": "desk",
-    "mood": "blue",
+    "mood": "day",
     "cam": [
      {
       "pos": [
@@ -3446,7 +3446,7 @@
    "moving": true,
    "props": {
     "$use": "desk",
-    "mood": "blue",
+    "mood": "day",
     "cam": [
      {
       "pos": [
@@ -3525,7 +3525,7 @@
    "moving": true,
    "props": {
     "$use": "desk",
-    "mood": "blue",
+    "mood": "day",
     "cam": [
      {
       "pos": [
@@ -3617,7 +3617,7 @@
    "moving": true,
    "props": {
     "$use": "desk",
-    "mood": "blue",
+    "mood": "day",
     "cam": [
      {
       "pos": [
@@ -3705,7 +3705,7 @@
    "moving": true,
    "props": {
     "$use": "desk",
-    "mood": "blue",
+    "mood": "day",
     "cam": [
      {
       "pos": [
@@ -3788,7 +3788,7 @@
    "moving": true,
    "props": {
     "$use": "desk",
-    "mood": "blue",
+    "mood": "day",
     "cam": [
      {
       "pos": [
