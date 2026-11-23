@@ -1,0 +1,152 @@
+[
+ {
+  "speaker": "narrator",
+  "text": "You were asked to sell one share.",
+  "startMs": 80,
+  "endMs": 1670
+ },
+ {
+  "speaker": "narrator",
+  "text": "You're selling six hundred and ten thousand, for one yen each.",
+  "startMs": 1895,
+  "endMs": 5485
+ },
+ {
+  "speaker": "narrator",
+  "text": "Tokyo, 2005.",
+  "startMs": 5710,
+  "endMs": 7360
+ },
+ {
+  "speaker": "narrator",
+  "text": "That share was worth six hundred and ten thousand yen.",
+  "startMs": 7585,
+  "endMs": 10615
+ },
+ {
+  "speaker": "narrator",
+  "text": "You swapped the numbers.",
+  "startMs": 10840,
+  "endMs": 12050
+ },
+ {
+  "speaker": "narrator",
+  "text": "A warning pops up.",
+  "startMs": 12275,
+  "endMs": 13505
+ },
+ {
+  "speaker": "stonks",
+  "text": "You sure?",
+  "startMs": 13730,
+  "endMs": 14300
+ },
+ {
+  "speaker": "narrator",
+  "text": "You have never read a pop-up in your life.",
+  "startMs": 14555,
+  "endMs": 16745
+ },
+ {
+  "speaker": "suit",
+  "text": "I'm a professional.",
+  "startMs": 16970,
+  "endMs": 18280
+ },
+ {
+  "speaker": "narrator",
+  "text": "That's more than forty times the shares the company has.",
+  "startMs": 19205,
+  "endMs": 22215
+ },
+ {
+  "speaker": "narrator",
+  "text": "Cancel.",
+  "startMs": 22440,
+  "endMs": 23100
+ },
+ {
+  "speaker": "narrator",
+  "text": "Attempt one.",
+  "startMs": 23325,
+  "endMs": 24165
+ },
+ {
+  "speaker": "stonks",
+  "text": "Now I'm sure.",
+  "startMs": 24390,
+  "endMs": 25150
+ },
+ {
+  "speaker": "narrator",
+  "text": "Attempt two, with swearing.",
+  "startMs": 25375,
+  "endMs": 26715
+ },
+ {
+  "speaker": "stonks",
+  "text": "Rude.",
+  "startMs": 26940,
+  "endMs": 27440
+ },
+ {
+  "speaker": "narrator",
+  "text": "The stock exchange has a bug: it can't cancel your order.",
+  "startMs": 27665,
+  "endMs": 31185
+ },
+ {
+  "speaker": "narrator",
+  "text": "Strangers keep buying.",
+  "startMs": 31410,
+  "endMs": 32800
+ },
+ {
+  "speaker": "narrator",
+  "text": "Your firm now owes shares it never had, and must buy them at the real price.",
+  "startMs": 33025,
+  "endMs": 37925
+ },
+ {
+  "speaker": "suit",
+  "text": "Unplug Tokyo.",
+  "startMs": 38150,
+  "endMs": 39670
+ },
+ {
+  "speaker": "narrator",
+  "text": "This happened to a real firm, Mizuho Securities, on the eighth of December, 2005.",
+  "startMs": 40495,
+  "endMs": 46445
+ },
+ {
+  "speaker": "narrator",
+  "text": "About forty billion yen, gone.",
+  "startMs": 46670,
+  "endMs": 48560
+ },
+ {
+  "speaker": "narrator",
+  "text": "A court made the exchange repay about a quarter.",
+  "startMs": 48785,
+  "endMs": 51325
+ },
+ {
+  "speaker": "narrator",
+  "text": "Next morning, your enter key is missing.",
+  "startMs": 51550,
+  "endMs": 53860
+ },
+ {
+  "speaker": "narrator",
+  "text": "Read the box.",
+  "startMs": 54885,
+  "endMs": 55885
+ },
+ {
+  "speaker": "narrator",
+  "text": "Then press enter.",
+  "startMs": 56110,
+  "endMs": 57200
+ }
+]

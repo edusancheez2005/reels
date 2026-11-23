@@ -1,0 +1,1035 @@
+[
+ {
+  "text": "You",
+  "startMs": 80,
+  "endMs": 263,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " were",
+  "startMs": 310,
+  "endMs": 447,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " asked",
+  "startMs": 490,
+  "endMs": 750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 750,
+  "endMs": 936,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sell",
+  "startMs": 950,
+  "endMs": 1181,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 1200,
+  "endMs": 1425,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " share.",
+  "startMs": 1460,
+  "endMs": 1670,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You're",
+  "startMs": 1895,
+  "endMs": 2081,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " selling",
+  "startMs": 2105,
+  "endMs": 2452,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " six",
+  "startMs": 2455,
+  "endMs": 2725,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 2725,
+  "endMs": 3255,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 3255,
+  "endMs": 3442,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ten",
+  "startMs": 3445,
+  "endMs": 3690,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand,",
+  "startMs": 3715,
+  "endMs": 4185,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 4445,
+  "endMs": 4680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 4685,
+  "endMs": 4928,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " yen",
+  "startMs": 4995,
+  "endMs": 5176,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " each.",
+  "startMs": 5195,
+  "endMs": 5485,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Tokyo,",
+  "startMs": 5710,
+  "endMs": 6205,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2005.",
+  "startMs": 6450,
+  "endMs": 7360,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " That",
+  "startMs": 7585,
+  "endMs": 7838,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " share",
+  "startMs": 7865,
+  "endMs": 8085,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 8085,
+  "endMs": 8265,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " worth",
+  "startMs": 8265,
+  "endMs": 8595,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " six",
+  "startMs": 8655,
+  "endMs": 8825,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 8825,
+  "endMs": 9415,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 9415,
+  "endMs": 9605,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ten",
+  "startMs": 9605,
+  "endMs": 9845,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 9845,
+  "endMs": 10362,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " yen.",
+  "startMs": 10435,
+  "endMs": 10615,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 10840,
+  "endMs": 11031,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " swapped",
+  "startMs": 11090,
+  "endMs": 11477,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 11480,
+  "endMs": 11604,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " numbers.",
+  "startMs": 11610,
+  "endMs": 12050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 12275,
+  "endMs": 12455,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " warning",
+  "startMs": 12455,
+  "endMs": 12945,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pops",
+  "startMs": 12945,
+  "endMs": 13320,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " up.",
+  "startMs": 13325,
+  "endMs": 13505,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 13730,
+  "endMs": 13920,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " sure?",
+  "startMs": 13920,
+  "endMs": 14300,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " You",
+  "startMs": 14555,
+  "endMs": 14723,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " have",
+  "startMs": 14765,
+  "endMs": 14935,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " never",
+  "startMs": 14935,
+  "endMs": 15229,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " read",
+  "startMs": 15235,
+  "endMs": 15510,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 15515,
+  "endMs": 15655,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pop-up",
+  "startMs": 15655,
+  "endMs": 16125,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 16125,
+  "endMs": 16295,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 16295,
+  "endMs": 16464,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " life.",
+  "startMs": 16465,
+  "endMs": 16745,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " I'm",
+  "startMs": 16970,
+  "endMs": 17200,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " a",
+  "startMs": 17200,
+  "endMs": 17400,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " professional.",
+  "startMs": 17400,
+  "endMs": 18280,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " That's",
+  "startMs": 19205,
+  "endMs": 19425,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " more",
+  "startMs": 19425,
+  "endMs": 19845,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " than",
+  "startMs": 19845,
+  "endMs": 19955,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forty",
+  "startMs": 19955,
+  "endMs": 20486,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " times",
+  "startMs": 20505,
+  "endMs": 20870,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 20895,
+  "endMs": 20965,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shares",
+  "startMs": 20965,
+  "endMs": 21318,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 21335,
+  "endMs": 21405,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " company",
+  "startMs": 21405,
+  "endMs": 21955,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " has.",
+  "startMs": 21955,
+  "endMs": 22215,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Cancel.",
+  "startMs": 22440,
+  "endMs": 23100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Attempt",
+  "startMs": 23325,
+  "endMs": 23795,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one.",
+  "startMs": 23795,
+  "endMs": 24165,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Now",
+  "startMs": 24390,
+  "endMs": 24666,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " I'm",
+  "startMs": 24680,
+  "endMs": 24874,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " sure.",
+  "startMs": 24900,
+  "endMs": 25150,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Attempt",
+  "startMs": 25375,
+  "endMs": 25705,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two,",
+  "startMs": 25705,
+  "endMs": 25965,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 26245,
+  "endMs": 26340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " swearing.",
+  "startMs": 26345,
+  "endMs": 26715,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Rude.",
+  "startMs": 26940,
+  "endMs": 27440,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " The",
+  "startMs": 27665,
+  "endMs": 27789,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stock",
+  "startMs": 27855,
+  "endMs": 28135,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " exchange",
+  "startMs": 28135,
+  "endMs": 28815,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " has",
+  "startMs": 28815,
+  "endMs": 29085,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 29155,
+  "endMs": 29271,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bug:",
+  "startMs": 29275,
+  "endMs": 29518,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 29765,
+  "endMs": 29835,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " can't",
+  "startMs": 29835,
+  "endMs": 30175,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cancel",
+  "startMs": 30175,
+  "endMs": 30625,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 30625,
+  "endMs": 30785,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " order.",
+  "startMs": 30785,
+  "endMs": 31185,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Strangers",
+  "startMs": 31410,
+  "endMs": 32100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " keep",
+  "startMs": 32100,
+  "endMs": 32340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buying.",
+  "startMs": 32340,
+  "endMs": 32800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Your",
+  "startMs": 33025,
+  "endMs": 33241,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " firm",
+  "startMs": 33245,
+  "endMs": 33601,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " now",
+  "startMs": 33605,
+  "endMs": 33855,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " owes",
+  "startMs": 33855,
+  "endMs": 34165,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shares",
+  "startMs": 34165,
+  "endMs": 34538,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 34555,
+  "endMs": 34682,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " never",
+  "startMs": 34705,
+  "endMs": 35043,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " had,",
+  "startMs": 35045,
+  "endMs": 35331,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 35615,
+  "endMs": 35795,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " must",
+  "startMs": 35795,
+  "endMs": 36175,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buy",
+  "startMs": 36175,
+  "endMs": 36484,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " them",
+  "startMs": 36545,
+  "endMs": 36772,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " at",
+  "startMs": 36835,
+  "endMs": 36905,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 36905,
+  "endMs": 37055,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " real",
+  "startMs": 37055,
+  "endMs": 37455,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " price.",
+  "startMs": 37455,
+  "endMs": 37925,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Unplug",
+  "startMs": 38150,
+  "endMs": 38815,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " Tokyo.",
+  "startMs": 38840,
+  "endMs": 39670,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " This",
+  "startMs": 40495,
+  "endMs": 40665,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " happened",
+  "startMs": 40665,
+  "endMs": 41095,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 41095,
+  "endMs": 41335,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 41335,
+  "endMs": 41505,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " real",
+  "startMs": 41505,
+  "endMs": 41765,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " firm,",
+  "startMs": 41765,
+  "endMs": 42178,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Mizuho",
+  "startMs": 42365,
+  "endMs": 43019,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Securities,",
+  "startMs": 43035,
+  "endMs": 43740,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 43985,
+  "endMs": 44075,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 44075,
+  "endMs": 44281,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eighth",
+  "startMs": 44315,
+  "endMs": 44582,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 44585,
+  "endMs": 44702,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " December,",
+  "startMs": 44705,
+  "endMs": 45183,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2005.",
+  "startMs": 45425,
+  "endMs": 46445,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " About",
+  "startMs": 46670,
+  "endMs": 47024,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forty",
+  "startMs": 47030,
+  "endMs": 47350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 47350,
+  "endMs": 47850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " yen,",
+  "startMs": 47850,
+  "endMs": 48088,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gone.",
+  "startMs": 48370,
+  "endMs": 48560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 48785,
+  "endMs": 48905,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " court",
+  "startMs": 48905,
+  "endMs": 49242,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " made",
+  "startMs": 49245,
+  "endMs": 49495,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 49495,
+  "endMs": 49598,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " exchange",
+  "startMs": 49675,
+  "endMs": 50157,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " repay",
+  "startMs": 50185,
+  "endMs": 50435,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 50435,
+  "endMs": 50765,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 50765,
+  "endMs": 50915,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " quarter.",
+  "startMs": 50915,
+  "endMs": 51325,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Next",
+  "startMs": 51550,
+  "endMs": 51860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " morning,",
+  "startMs": 51860,
+  "endMs": 52401,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 52640,
+  "endMs": 52800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " enter",
+  "startMs": 52800,
+  "endMs": 53130,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " key",
+  "startMs": 53130,
+  "endMs": 53370,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 53370,
+  "endMs": 53490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " missing.",
+  "startMs": 53490,
+  "endMs": 53860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Read",
+  "startMs": 54885,
+  "endMs": 55270,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 55285,
+  "endMs": 55423,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " box.",
+  "startMs": 55555,
+  "endMs": 55885,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Then",
+  "startMs": 56110,
+  "endMs": 56420,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " press",
+  "startMs": 56420,
+  "endMs": 56811,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " enter.",
+  "startMs": 56900,
+  "endMs": 57200,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

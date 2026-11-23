@@ -1,0 +1,21 @@
+You were asked to sell one share. You're selling six hundred and ten thousand, for one yen each.
+Tokyo, 2005. That share was worth six hundred and ten thousand yen. You swapped the numbers.
+A warning pops up.
+[stonks] You sure?
+You have never read a pop-up in your life.
+[suit] I'm a professional.
+[pause 0.7]
+That's more than forty times the shares the company has.
+Cancel. Attempt one.
+[stonks] Now I'm sure.
+Attempt two, with swearing.
+[stonks] Rude.
+The stock exchange has a bug: it can't cancel your order.
+Strangers keep buying. Your firm now owes shares it never had, and must buy them at the real price.
+[suit] Unplug Tokyo.
+[pause 0.6]
+This happened to a real firm, Mizuho Securities, on the eighth of December, 2005. About forty billion yen, gone. A court made the exchange repay about a quarter.
+Next morning, your enter key is missing.
+[pause 0.8]
+Read the box. Then press enter.
+[pause 1.5]
