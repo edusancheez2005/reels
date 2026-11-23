@@ -4,12 +4,23 @@
   "topic": "One share for one yen: the Mizuho Securities / J-Com order of 8 Dec 2005 (plan row, Mon 23 Nov evening)",
   "produced_at": "2026-11-23T17:46:53+00:00",
   "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-23-one-share-one-yen.mp4",
-  "posted": false,
+  "posted": true,
   "story_urls": [
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-23-one-share-one-yen-story_1.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-23-one-share-one-yen-story_2.mp4",
     "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-23-one-share-one-yen-story_3.jpg"
   ],
   "format": "skit",
-  "topic_source": "plan"
+  "topic_source": "plan",
+  "auto_posted": true,
+  "posted_at": "2026-11-23T18:01:52Z",
+  "genre": "office",
+  "bit": "countdown",
+  "instagram_media_id": "17983632888150356",
+  "sources_comment_id": "18099688694139198",
+  "story_media_ids": [
+    "18076216244780742",
+    "18174225214473626",
+    "17911142382333744"
+  ]
 }
