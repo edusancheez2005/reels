@@ -1,0 +1,15 @@
+VERDICT: PASS WITH NOTES
+
+Must fix: none.
+
+Facts checked against research.md: "$1 BILLION" / "a billion ... in under seven minutes" (1,000,000,000 USDC, 19:13:37 to 19:20:24 UTC = 6 min 47 s), "250M × 4" / "two hundred and fifty million, again x3" (four mintTo of 250,000,000), "November twenty-third" and the Whale Alert screenshot (real page, 23 Nov 2026 19:20 UTC, 250,000,000 USDC minted at USDC Treasury), "CASH + US DEBT" (Circle transparency page), "CHECKED MONTHLY" (Big Four monthly assurance), mint/redeem 1:1 and burn (Circle blog, Whale Alert). All match and are sourced. No price talk; the caption adds the "not a price signal / supply fell $607M" line. 57.9 s, 6+ facts, Circle introduced before the payoff, ends on this story's step with the why ("a coin is only worth the drawer behind it").
+Skit checks: it is a story (you want coins, the button, again x3, coins hit the ceiling, the inspector's "Receipt." turns it, ends on the same kitchen with the inspector, a callback to the opening "inspector is at the door"). On-screen text: 6 labels + 2 stamps (MINT, BURN), none longer than three words. Fresh: no set-up, catchphrase or gag from signing-screen, one-share-one-yen or two-pizzas; no clapping, jumping or dancing; no swearing; no "GET OUT!" (right for a how-it-works skit). Funniest moment: Stonks as a deadpan health inspector saying "Receipt." to a man wiping a plate in a room full of coins. Weakest: "Five stars." (it's not clear why the inspector approves). Nobody would forward it to a friend for one big laugh, but it's watchable and clear. Sound could not be judged from the frames.
+
+Notes for next time:
+1. s17 (36.3–38.3 s) "Customer wants dollars back?": no customer is shown, and the chef is half out of frame at the right edge, where Instagram's buttons sit. Show a customer (or a hand) pushing coins back across the counter, with the chef fully in frame.
+2. s15 (31.9–34.5 s): the coin stack covers the inspector's face for the whole line, and in s5–s6 (8.9–13.4 s) the chef's head is cut off at the top with the caption sitting over his eyes. Choose camera angles that keep faces clear of props and captions.
+3. "USDC = $1" (s5) has no critics' line. research.md notes that USDC traded below $1 in March 2023. Next time, add a half-sentence ("it briefly slipped below a dollar in March 2023") or label it "1 USDC ↔ $1 (redeemable)", so the claim reads as "redeemable", not "always worth".
+4. The research's own pick for the send-to-a-friend moment ("The oven is on fire. You're plating." + "Garnish.") was swapped for "You're wiping the rim of the plate", and s13 shows no chaos behind him, so the deadpan contrast is weak. Keep the strongest joke from the joke pass, and show the disaster behind the calm. "Five stars." needs a reason (e.g. he taps the drawer report before giving it).
+5. Caption: "The suit guy and his friend are made up" doesn't fit this episode, where Stonks plays a health inspector. Write "The chef and the inspector are made up".
+
+Scores 1–5: sync 4, detail/realism 3, hook 4, beginner clarity 4, accuracy 5, phone readability 4

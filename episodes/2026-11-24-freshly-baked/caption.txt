@@ -1,0 +1,15 @@
+Last night Circle minted 1 billion new USDC on Solana in under seven minutes: four batches of 250 million each.
+Before you hold a stablecoin, find out who makes it and read its monthly reserve report.
+Between 19:13 and 19:20 UTC on 23 Nov, the same treasury account went from about 1 billion to 2 billion USDC. How it works: a Circle customer pays in dollars, Circle mints the same number of coins, and the dollars sit in cash and short-term US government debt. When someone redeems, the coins are burned. A mint on its own isn't a price signal: in the week before, total USDC supply actually fell by about $607 million.
+The chef and the inspector are made up. The numbers are real.
+Comment "WHALE" and Orca will DM you the breakdown.
+Not financial advice.
+#Stablecoins #USDC #CryptoNews #OnChain #Sonar
+
+Sources:
+Whale Alert, the last of the four 250M USDC mints (23 Nov 2026, 19:20:24 UTC): https://whale-alert.io/transaction/solana/47Ud2xviQSkoJzkhVcPJdEYFDdbhsnP4CbJuk3cZYqeKsx6eCbPm75gxmmaWCoK5ryvPbzcpFWVSkYSMhyS2ceMh
+Whale Alert, the first (19:13:37 UTC): https://whale-alert.io/transaction/solana/9qqMYau5goV5YVir3vbrTU7yVGYvyuxS6SKoYxxfZHenkxBXdpWBSWMryec2rrGtgLxpSDuxNZxDvNk4MHYAUeA
+Circle, USDC contract addresses (Solana mint EPjFWdd5...TDt1v): https://developers.circle.com/stablecoins/usdc-contract-addresses
+Circle, Transparency & stability (reserves, weekly disclosure, monthly assurance): https://www.circle.com/en/transparency
+Circle, "How to Be Stable: USDC Transparency and Trust" (mint and redeem 1:1): https://www.circle.com/blog/how-to-be-stable-usdc-transparency-and-trust
+Stablecoin Insider, weekly supply snapshot to 23 Nov 2026 (DefiLlama data): https://stablecoininsider.org/stablecoin-supply-snapshot-2026-11-23/
