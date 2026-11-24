@@ -4,7 +4,7 @@
  "topic": "Skit: a billion dollars, freshly baked \u2014 on 23 Nov 2026, 19:13\u201319:20 UTC, Circle minted 1,000,000,000 USDC on Solana in four 250M batches (verified on chain); how a stablecoin is minted, backed and burned (cooking-show, deadpan-demo)",
  "produced_at": "2026-11-24T04:51:45+00:00",
  "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-24-freshly-baked.mp4",
- "posted": false,
+ "posted": true,
  "story_urls": [
   "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-24-freshly-baked-story_1.mp4",
   "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-24-freshly-baked-story_2.mp4",
@@ -13,5 +13,14 @@
  "format": "skit",
  "topic_source": "plan",
  "genre": "cooking-show",
- "bit": "deadpan-demo"
+ "bit": "deadpan-demo",
+ "auto_posted": true,
+ "posted_at": "2026-11-24T04:56:46Z",
+ "instagram_media_id": "18136349281820220",
+ "sources_comment_id": "18108512369644612",
+ "story_media_ids": [
+  "17926954638444412",
+  "18042670079914384",
+  "17954863665322347"
+ ]
 }

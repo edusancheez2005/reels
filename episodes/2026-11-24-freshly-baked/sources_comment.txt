@@ -1,0 +1,7 @@
+Sources:
+Whale Alert, the last of the four 250M USDC mints (23 Nov 2026, 19:20:24 UTC): https://whale-alert.io/transaction/solana/47Ud2xviQSkoJzkhVcPJdEYFDdbhsnP4CbJuk3cZYqeKsx6eCbPm75gxmmaWCoK5ryvPbzcpFWVSkYSMhyS2ceMh
+Whale Alert, the first (19:13:37 UTC): https://whale-alert.io/transaction/solana/9qqMYau5goV5YVir3vbrTU7yVGYvyuxS6SKoYxxfZHenkxBXdpWBSWMryec2rrGtgLxpSDuxNZxDvNk4MHYAUeA
+Circle, USDC contract addresses (Solana mint EPjFWdd5...TDt1v): https://developers.circle.com/stablecoins/usdc-contract-addresses
+Circle, Transparency & stability (reserves, weekly disclosure, monthly assurance): https://www.circle.com/en/transparency
+Circle, "How to Be Stable: USDC Transparency and Trust" (mint and redeem 1:1): https://www.circle.com/blog/how-to-be-stable-usdc-transparency-and-trust
+Stablecoin Insider, weekly supply snapshot to 23 Nov 2026 (DefiLlama data): https://stablecoininsider.org/stablecoin-supply-snapshot-2026-11-23/
