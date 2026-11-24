@@ -28,3 +28,4 @@
 - [x] Skit: Newton's bubble — in 1720 Isaac Newton sold his South Sea stock in April at a profit, bought back near the top in June, and lost about a third of his fortune (biopic, argues-back) (2026-11-21-newtons-bubble)
 - [x] The bedroom: the 2010 Flash Crash and Navinder Sarao (plan row, Sun 22 Nov evening) (2026-11-22-the-bedroom)
 - [x] One share for one yen: the Mizuho Securities / J-Com order of 8 Dec 2005 (plan row, Mon 23 Nov evening) (2026-11-23-one-share-one-yen)
+- [x] Hold the line: GameStop, January 2021 — $19.95 to a $483 intraday high in 16 days, Melvin Capital's $2.75B, brokers restricting buying on 28 Jan (plan row, Tue 24 Nov evening; sports, play-by-play) (2026-11-24-hold-the-line)

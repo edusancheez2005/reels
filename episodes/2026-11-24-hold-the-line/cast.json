@@ -1,0 +1,25 @@
+{
+ "suit": {
+  "model": "Bizdude.vrm",
+  "voice": "bm_george",
+  "speed": 1.0,
+  "who": "the suit guy: grumpy, sure of himself, the one who takes the shortcut"
+ },
+ "stonks": {
+  "model": "StonksReporter.vrm",
+  "voice": "am_puck",
+  "speed": 1.12,
+  "who": "Stonks: the friend who cheers every bad idea"
+ },
+ "squeak": {
+  "file": "sfx/getout.mp3",
+  "gain_db": 4,
+  "voice": "bm_george",
+  "speed": 0.7,
+  "pitch": 1.2,
+  "hold": 0.5,
+  "drive": 1.2,
+  "bite": 2,
+  "who": "an off-screen voice, nobody on screen: the \"GET OUT!\" that ends a skit. It is a recording Edu supplied on 17 Nov 2026 (\"here it is. use this.\"), kept on the media branch as sfx/getout.mp3 (not on main); \"file\" plays it as the line. No character says it: no talk, no pointing, no mouth movement. The voice settings here are only the fallback if the file cannot be loaded. If a reel is ever muted or flagged for its audio, delete \"file\" from this entry in every channel."
+ }
+}
