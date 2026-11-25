@@ -1,0 +1,981 @@
+[
+ {
+  "text": "A",
+  "startMs": 80,
+  "endMs": 280,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fund",
+  "startMs": 280,
+  "endMs": 629,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 660,
+  "endMs": 830,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 830,
+  "endMs": 1109,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Nobel",
+  "startMs": 1110,
+  "endMs": 1550,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " prize",
+  "startMs": 1550,
+  "endMs": 2000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " winners",
+  "startMs": 2000,
+  "endMs": 2410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lost",
+  "startMs": 2410,
+  "endMs": 2720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nearly",
+  "startMs": 2720,
+  "endMs": 3167,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " half",
+  "startMs": 3190,
+  "endMs": 3441,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " its",
+  "startMs": 3510,
+  "endMs": 3647,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " value",
+  "startMs": 3650,
+  "endMs": 4127,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 4130,
+  "endMs": 4330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 4330,
+  "endMs": 4600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " month.",
+  "startMs": 4600,
+  "endMs": 4950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It's",
+  "startMs": 5175,
+  "endMs": 5385,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 5385,
+  "endMs": 5625,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " case.",
+  "startMs": 5625,
+  "endMs": 6095,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It's",
+  "startMs": 6320,
+  "endMs": 6560,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " raining.",
+  "startMs": 6560,
+  "endMs": 7120,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It",
+  "startMs": 7345,
+  "endMs": 7465,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " always",
+  "startMs": 7485,
+  "endMs": 7945,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rains",
+  "startMs": 7945,
+  "endMs": 8305,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " when",
+  "startMs": 8305,
+  "endMs": 8545,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 8605,
+  "endMs": 8675,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " spreadsheet",
+  "startMs": 8675,
+  "endMs": 9325,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dies.",
+  "startMs": 9325,
+  "endMs": 9625,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 9850,
+  "endMs": 9976,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " client",
+  "startMs": 9980,
+  "endMs": 10420,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " walks",
+  "startMs": 10420,
+  "endMs": 10860,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in.",
+  "startMs": 10860,
+  "endMs": 11050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It",
+  "startMs": 11275,
+  "endMs": 11405,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " was",
+  "startMs": 11405,
+  "endMs": 11745,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " safe.",
+  "startMs": 11745,
+  "endMs": 12325,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " It",
+  "startMs": 12550,
+  "endMs": 12700,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " looked",
+  "startMs": 12700,
+  "endMs": 13081,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " safe.",
+  "startMs": 13090,
+  "endMs": 13460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Two",
+  "startMs": 13685,
+  "endMs": 13925,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " near-identical",
+  "startMs": 13925,
+  "endMs": 14853,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bonds,",
+  "startMs": 14915,
+  "endMs": 15284,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " slightly",
+  "startMs": 15475,
+  "endMs": 16021,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " different",
+  "startMs": 16025,
+  "endMs": 16513,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " prices.",
+  "startMs": 16515,
+  "endMs": 17005,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " They",
+  "startMs": 17230,
+  "endMs": 17430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bet",
+  "startMs": 17430,
+  "endMs": 17660,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 17660,
+  "endMs": 17790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gap",
+  "startMs": 17790,
+  "endMs": 18050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 18050,
+  "endMs": 18280,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " close.",
+  "startMs": 18280,
+  "endMs": 18760,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " That",
+  "startMs": 18985,
+  "endMs": 19215,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pays",
+  "startMs": 19215,
+  "endMs": 19545,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pennies.",
+  "startMs": 19545,
+  "endMs": 20055,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 20280,
+  "endMs": 20430,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ask",
+  "startMs": 20430,
+  "endMs": 20680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 20680,
+  "endMs": 20856,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " informant",
+  "startMs": 20860,
+  "endMs": 21470,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " how",
+  "startMs": 21470,
+  "endMs": 21720,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " they",
+  "startMs": 21720,
+  "endMs": 21894,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " got",
+  "startMs": 21960,
+  "endMs": 22182,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " rich.",
+  "startMs": 22200,
+  "endMs": 22470,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Leverage.",
+  "startMs": 22695,
+  "endMs": 23355,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Borrowed",
+  "startMs": 23580,
+  "endMs": 24060,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " money.",
+  "startMs": 24060,
+  "endMs": 24500,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " For",
+  "startMs": 24725,
+  "endMs": 24905,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 24905,
+  "endMs": 25205,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar",
+  "startMs": 25205,
+  "endMs": 25625,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 25625,
+  "endMs": 25745,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " their",
+  "startMs": 25745,
+  "endMs": 25845,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " own,",
+  "startMs": 25845,
+  "endMs": 26171,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " thirty",
+  "startMs": 26405,
+  "endMs": 26765,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " borrowed.",
+  "startMs": 26765,
+  "endMs": 27255,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Then",
+  "startMs": 27480,
+  "endMs": 27740,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Russia",
+  "startMs": 27740,
+  "endMs": 28068,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stops",
+  "startMs": 28130,
+  "endMs": 28525,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " paying",
+  "startMs": 28530,
+  "endMs": 28917,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " its",
+  "startMs": 28920,
+  "endMs": 29113,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " debts.",
+  "startMs": 29160,
+  "endMs": 29440,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Investors",
+  "startMs": 29665,
+  "endMs": 30315,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " panic.",
+  "startMs": 30315,
+  "endMs": 30805,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 31030,
+  "endMs": 31170,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gap",
+  "startMs": 31170,
+  "endMs": 31450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gets",
+  "startMs": 31450,
+  "endMs": 31770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " wider.",
+  "startMs": 31770,
+  "endMs": 32240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 32465,
+  "endMs": 32635,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ask",
+  "startMs": 32635,
+  "endMs": 32868,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " how",
+  "startMs": 32895,
+  "endMs": 33098,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 33135,
+  "endMs": 33205,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nearly",
+  "startMs": 33205,
+  "endMs": 33555,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " went",
+  "startMs": 33555,
+  "endMs": 33755,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " under.",
+  "startMs": 33755,
+  "endMs": 34135,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Leverage.",
+  "startMs": 34360,
+  "endMs": 35020,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Thirty",
+  "startMs": 35845,
+  "endMs": 36195,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 36195,
+  "endMs": 36345,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one:",
+  "startMs": 36345,
+  "endMs": 36648,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 36895,
+  "endMs": 37015,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bonds",
+  "startMs": 37015,
+  "endMs": 37450,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " drop",
+  "startMs": 37485,
+  "endMs": 37821,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 37825,
+  "endMs": 38105,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " percent,",
+  "startMs": 38105,
+  "endMs": 38562,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 38755,
+  "endMs": 38994,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar",
+  "startMs": 38995,
+  "endMs": 39325,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 39325,
+  "endMs": 39488,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " gone.",
+  "startMs": 39535,
+  "endMs": 39735,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " This",
+  "startMs": 39960,
+  "endMs": 40190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 40190,
+  "endMs": 40400,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Long-Term",
+  "startMs": 40400,
+  "endMs": 40960,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Capital",
+  "startMs": 40960,
+  "endMs": 41460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Management.",
+  "startMs": 41460,
+  "endMs": 42160,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " September",
+  "startMs": 42385,
+  "endMs": 42915,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twenty-third,",
+  "startMs": 42915,
+  "endMs": 43673,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 1998:",
+  "startMs": 43915,
+  "endMs": 45636,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fourteen",
+  "startMs": 45875,
+  "endMs": 46415,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " firms",
+  "startMs": 46415,
+  "endMs": 46802,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " put",
+  "startMs": 46805,
+  "endMs": 47047,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 47125,
+  "endMs": 47231,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 47235,
+  "endMs": 47515,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " point",
+  "startMs": 47515,
+  "endMs": 47906,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " six",
+  "startMs": 47915,
+  "endMs": 48213,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 48215,
+  "endMs": 48642,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 48645,
+  "endMs": 49072,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 49095,
+  "endMs": 49256,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " save",
+  "startMs": 49265,
+  "endMs": 49555,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it.",
+  "startMs": 49555,
+  "endMs": 49685,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You",
+  "startMs": 49910,
+  "endMs": 50090,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ask",
+  "startMs": 50090,
+  "endMs": 50339,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " what",
+  "startMs": 50380,
+  "endMs": 50570,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " he's",
+  "startMs": 50570,
+  "endMs": 50820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " drinking.",
+  "startMs": 50820,
+  "endMs": 51320,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Leverage.",
+  "startMs": 51545,
+  "endMs": 52205,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Borrowed",
+  "startMs": 53230,
+  "endMs": 53680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " money",
+  "startMs": 53680,
+  "endMs": 54049,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " turns",
+  "startMs": 54050,
+  "endMs": 54427,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 54430,
+  "endMs": 54616,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " small",
+  "startMs": 54680,
+  "endMs": 54990,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mistake",
+  "startMs": 54990,
+  "endMs": 55499,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " into",
+  "startMs": 55500,
+  "endMs": 55810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 55810,
+  "endMs": 55940,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " whole",
+  "startMs": 55960,
+  "endMs": 56190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " firm.",
+  "startMs": 56190,
+  "endMs": 56570,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

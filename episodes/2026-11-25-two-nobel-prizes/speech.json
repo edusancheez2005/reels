@@ -1,0 +1,152 @@
+[
+ {
+  "speaker": "narrator",
+  "text": "A fund with two Nobel prize winners lost nearly half its value in one month.",
+  "startMs": 80,
+  "endMs": 4950
+ },
+ {
+  "speaker": "narrator",
+  "text": "It's your case.",
+  "startMs": 5175,
+  "endMs": 6095
+ },
+ {
+  "speaker": "narrator",
+  "text": "It's raining.",
+  "startMs": 6320,
+  "endMs": 7120
+ },
+ {
+  "speaker": "narrator",
+  "text": "It always rains when a spreadsheet dies.",
+  "startMs": 7345,
+  "endMs": 9625
+ },
+ {
+  "speaker": "narrator",
+  "text": "The client walks in.",
+  "startMs": 9850,
+  "endMs": 11050
+ },
+ {
+  "speaker": "suit",
+  "text": "It was safe.",
+  "startMs": 11275,
+  "endMs": 12325
+ },
+ {
+  "speaker": "narrator",
+  "text": "It looked safe.",
+  "startMs": 12550,
+  "endMs": 13460
+ },
+ {
+  "speaker": "narrator",
+  "text": "Two near-identical bonds, slightly different prices.",
+  "startMs": 13685,
+  "endMs": 17005
+ },
+ {
+  "speaker": "narrator",
+  "text": "They bet the gap would close.",
+  "startMs": 17230,
+  "endMs": 18760
+ },
+ {
+  "speaker": "narrator",
+  "text": "That pays pennies.",
+  "startMs": 18985,
+  "endMs": 20055
+ },
+ {
+  "speaker": "narrator",
+  "text": "You ask your informant how they got rich.",
+  "startMs": 20280,
+  "endMs": 22470
+ },
+ {
+  "speaker": "stonks",
+  "text": "Leverage.",
+  "startMs": 22695,
+  "endMs": 23355
+ },
+ {
+  "speaker": "narrator",
+  "text": "Borrowed money.",
+  "startMs": 23580,
+  "endMs": 24500
+ },
+ {
+  "speaker": "narrator",
+  "text": "For every dollar of their own, thirty borrowed.",
+  "startMs": 24725,
+  "endMs": 27255
+ },
+ {
+  "speaker": "narrator",
+  "text": "Then Russia stops paying its debts.",
+  "startMs": 27480,
+  "endMs": 29440
+ },
+ {
+  "speaker": "narrator",
+  "text": "Investors panic.",
+  "startMs": 29665,
+  "endMs": 30805
+ },
+ {
+  "speaker": "narrator",
+  "text": "The gap gets wider.",
+  "startMs": 31030,
+  "endMs": 32240
+ },
+ {
+  "speaker": "narrator",
+  "text": "You ask how it nearly went under.",
+  "startMs": 32465,
+  "endMs": 34135
+ },
+ {
+  "speaker": "stonks",
+  "text": "Leverage.",
+  "startMs": 34360,
+  "endMs": 35020
+ },
+ {
+  "speaker": "narrator",
+  "text": "Thirty to one: the bonds drop three percent, your dollar is gone.",
+  "startMs": 35845,
+  "endMs": 39735
+ },
+ {
+  "speaker": "narrator",
+  "text": "This was Long-Term Capital Management.",
+  "startMs": 39960,
+  "endMs": 42160
+ },
+ {
+  "speaker": "narrator",
+  "text": "September twenty-third, 1998: fourteen firms put in three point six billion dollars to save it.",
+  "startMs": 42385,
+  "endMs": 49685
+ },
+ {
+  "speaker": "narrator",
+  "text": "You ask what he's drinking.",
+  "startMs": 49910,
+  "endMs": 51320
+ },
+ {
+  "speaker": "stonks",
+  "text": "Leverage.",
+  "startMs": 51545,
+  "endMs": 52205
+ },
+ {
+  "speaker": "narrator",
+  "text": "Borrowed money turns a small mistake into the whole firm.",
+  "startMs": 53230,
+  "endMs": 56570
+ }
+]
