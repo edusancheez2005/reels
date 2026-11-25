@@ -1,0 +1,6 @@
+Sources:
+SEC, "SEC statement on the SECGov X account" (updated 24 Jan 2024): https://www.sec.gov/secgov-x-account
+US Attorney's Office, District of Columbia, "Alabama Man Sentenced in Hack of SEC X Account that Spiked the Value of Bitcoin" (16 May 2025): https://www.justice.gov/usao-dc/pr/alabama-man-sentenced-hack-sec-x-account-spiked-value-bitcoin
+FBI IC3 public service announcement I-020822-PSA, "Criminals Increasing SIM Swap Schemes" (8 Feb 2022): https://www.ic3.gov/PSA/2022/PSA220208
+AT&T, "Introducing Wireless Account Lock" (1 Jul 2025): https://about.att.com/story/2025/wireless-account-lock.html
+TechCrunch, "SIM swapping attacks expose your online accounts to hackers, but your phone carrier can help" (9 Jul 2025): https://techcrunch.com/2025/07/09/how-to-protect-your-cell-phone-number-from-sim-swap-attacks/

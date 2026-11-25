@@ -1,13 +1,13 @@
 In January 2024, a fake ID at a phone shop let hackers take the SEC's own X account. The trick is a SIM swap.
 Tonight, call your phone company and lock your number, and use an authenticator app instead of text codes for anything with money.
-A SIM swap moves your number onto a thief's SIM card. Your calls and texts, including password reset codes, then go to his phone. In the SEC case, a man used an ID he printed himself at a phone shop, the reset code got his team into @SECGov, and a fake post about bitcoin funds moved bitcoin's price. The SEC's extra login check had been switched off since July 2023. The FBI logged 1,611 SIM swap complaints and over $68 million in losses in 2021 alone.
+A SIM swap moves your number onto a thief's SIM card. Your calls and texts, including password reset codes, then go to his phone. In the SEC case, a man used an ID he printed himself at a phone shop, the reset code got his team into the SEC account, and a fake post about bitcoin funds moved bitcoin's price. The SEC's extra login check had been switched off since July 2023. The FBI logged 1,611 SIM swap complaints and over $68 million in losses in 2021 alone.
 The suit guy and his friend are made up. The numbers are real.
 Follow for crypto, explained simply.
 Not financial advice.
 #SIMSwap #Crypto #CryptoExplained #CryptoForBeginners #CyberSecurity
 
 Sources:
-SEC, "SEC statement on the @SECGov X account" (updated 24 Jan 2024): https://www.sec.gov/secgov-x-account
+SEC, "SEC statement on the SECGov X account" (updated 24 Jan 2024): https://www.sec.gov/secgov-x-account
 US Attorney's Office, District of Columbia, "Alabama Man Sentenced in Hack of SEC X Account that Spiked the Value of Bitcoin" (16 May 2025): https://www.justice.gov/usao-dc/pr/alabama-man-sentenced-hack-sec-x-account-spiked-value-bitcoin
 FBI IC3 public service announcement I-020822-PSA, "Criminals Increasing SIM Swap Schemes" (8 Feb 2022): https://www.ic3.gov/PSA/2022/PSA220208
 AT&T, "Introducing Wireless Account Lock" (1 Jul 2025): https://about.att.com/story/2025/wireless-account-lock.html

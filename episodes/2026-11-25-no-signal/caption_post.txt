@@ -1,0 +1,7 @@
+In January 2024, a fake ID at a phone shop let hackers take the SEC's own X account. The trick is a SIM swap.
+Tonight, call your phone company and lock your number, and use an authenticator app instead of text codes for anything with money.
+A SIM swap moves your number onto a thief's SIM card. Your calls and texts, including password reset codes, then go to his phone. In the SEC case, a man used an ID he printed himself at a phone shop, the reset code got his team into the SEC account, and a fake post about bitcoin funds moved bitcoin's price. The SEC's extra login check had been switched off since July 2023. The FBI logged 1,611 SIM swap complaints and over $68 million in losses in 2021 alone.
+The suit guy and his friend are made up. The numbers are real.
+Follow for crypto, explained simply.
+Not financial advice.
+#SIMSwap #Crypto #CryptoExplained #CryptoForBeginners #CyberSecurity
