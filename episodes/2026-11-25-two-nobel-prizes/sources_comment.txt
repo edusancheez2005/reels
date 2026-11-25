@@ -1,0 +1,5 @@
+Sources:
+Federal Reserve History, "Near Failure of Long-Term Capital Management" (two Nobel laureates on the team; about $30 of debt for every $1 of capital at the end of 1997; Russia's default in August 1998; lost 44% of its value in August; fourteen firms and $3.6 billion on 23 September 1998; the Fed lent none of its own funds; the page shown in the reel): https://www.federalreservehistory.org/essays/ltcm-near-failure
+Nobel Prize press release, 14 October 1997 (the economics prize to Robert C. Merton and Myron S. Scholes): https://www.nobelprize.org/prizes/economic-sciences/1997/press-release/
+William J. McDonough, President of the New York Fed, statement to the US House Banking Committee, 1 October 1998 (14 banks and securities firms; "Not one penny of public money was spent or committed"): https://www.newyorkfed.org/newsevents/speeches/1998/mcd981001
+"3%" in the reel is arithmetic: with $30 borrowed for each $1 of your own, a fall of about 3% in what you hold equals your whole dollar.
