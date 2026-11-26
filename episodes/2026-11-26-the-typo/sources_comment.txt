@@ -1,0 +1,7 @@
+Sources:
+Blockscout, the transaction (block 13307440, 27 Sep 2021): https://eth.blockscout.com/tx/0x2c9931793876db33b1a9aad123ad4921dfb9cd5e59dbb78ce78f277759587115
+Blockscout, the miner's return transaction (27 Sep 2021): https://eth.blockscout.com/tx/0x85294effd53126b3bfa9e7f655267e00ac1ae2ef76f4569644670bf5403637d6
+The Block, "Bitfinex just spent $23.7 million in fees to make a single Ethereum transaction" (27 Sep 2021): https://www.theblock.co/news/ecosystems/2021-09-27-bitfinex-just-spent-23-7-million-in-fees-to-make-one-ethereum-transaction-118753
+CoinDesk, "An update on the erroneously high gas fee that temporarily cost DeversiFi $23.7M" (28 Sep 2021): https://hotfix.coindesk.com/tech/2021/09/28/an-update-on-the-erroneously-high-gas-fee-that-temporarily-cost-deversifi-237m
+CoinMarketCap Academy, "Why a $100,000 Tether Transfer Cost $23.7M in Fees": https://coinmarketcap.com/academy/article/why-100-000-tether-transfer-cost-23-7m-in-fees
+BeInCrypto, "Miner Returns 7,626 ETH Wrongly Paid by Bitfinex": https://beincrypto.com/miner-returns-7626-eth-wrongly-paid-by-bitfinex/

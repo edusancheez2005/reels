@@ -1,0 +1,7 @@
+A crypto exchange paid a $23.7 million fee to send $100,000 of digital dollars, and the miner gave it back.
+Before you send anything, read the fee. If you can't read it, don't send.
+On 27 Sept 2021, a deposit for DeversiFi sent 100,000 USDT on Ethereum with a fee of 7,676 ETH, about 237 times the money it moved. Their post-mortem blamed a decimal bug in the fee calculation, and the hardware wallet showed the fee in a way people couldn't read. A blockchain has no undo, so they asked the miner of block 13307440 for it back. That same night the miner returned it and kept 50 ETH as a reward.
+The suit guy and his friend are made up. The numbers are real.
+Comment "WHALE" and Orca will DM you the breakdown.
+Not financial advice.
+#Bitcoin #CryptoNews #WhaleAlert #OnChain #Sonar
