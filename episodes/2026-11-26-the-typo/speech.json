@@ -1,0 +1,176 @@
+[
+ {
+  "speaker": "narrator",
+  "text": "Monday morning.",
+  "startMs": 80,
+  "endMs": 1040
+ },
+ {
+  "speaker": "narrator",
+  "text": "You send a hundred thousand digital dollars, and pay a nearly twenty-four million dollar fee.",
+  "startMs": 1265,
+  "endMs": 6725
+ },
+ {
+  "speaker": "narrator",
+  "text": "Sirens.",
+  "startMs": 6950,
+  "endMs": 7700
+ },
+ {
+  "speaker": "narrator",
+  "text": "Red lights.",
+  "startMs": 7925,
+  "endMs": 8755
+ },
+ {
+  "speaker": "suit",
+  "text": "It's fine.",
+  "startMs": 8980,
+  "endMs": 9930
+ },
+ {
+  "speaker": "narrator",
+  "text": "Replay.",
+  "startMs": 10155,
+  "endMs": 10835
+ },
+ {
+  "speaker": "narrator",
+  "text": "Slower.",
+  "startMs": 11060,
+  "endMs": 11730
+ },
+ {
+  "speaker": "narrator",
+  "text": "A fee is a tip for the miner, whose computer writes your transfer onto the blockchain.",
+  "startMs": 11955,
+  "endMs": 16875
+ },
+ {
+  "speaker": "narrator",
+  "text": "Usually, a few dollars.",
+  "startMs": 17100,
+  "endMs": 18670
+ },
+ {
+  "speaker": "narrator",
+  "text": "Your software got a decimal wrong.",
+  "startMs": 18895,
+  "endMs": 20885
+ },
+ {
+  "speaker": "narrator",
+  "text": "Your wallet showed the fee as a number no human could read.",
+  "startMs": 21110,
+  "endMs": 24460
+ },
+ {
+  "speaker": "narrator",
+  "text": "Quarter speed.",
+  "startMs": 24685,
+  "endMs": 25605
+ },
+ {
+  "speaker": "narrator",
+  "text": "The finger.",
+  "startMs": 25830,
+  "endMs": 26560
+ },
+ {
+  "speaker": "narrator",
+  "text": "A finger with its whole life ahead of it.",
+  "startMs": 26785,
+  "endMs": 28835
+ },
+ {
+  "speaker": "narrator",
+  "text": "The button.",
+  "startMs": 30060,
+  "endMs": 30770
+ },
+ {
+  "speaker": "narrator",
+  "text": "The fee: two hundred and thirty-seven times what you sent.",
+  "startMs": 30995,
+  "endMs": 34145
+ },
+ {
+  "speaker": "narrator",
+  "text": "A blockchain has no undo.",
+  "startMs": 34370,
+  "endMs": 35980
+ },
+ {
+  "speaker": "narrator",
+  "text": "The miner checks the tip jar.",
+  "startMs": 36205,
+  "endMs": 37835
+ },
+ {
+  "speaker": "stonks",
+  "text": "Huh.",
+  "startMs": 38060,
+  "endMs": 38540
+ },
+ {
+  "speaker": "narrator",
+  "text": "The rarest thing in crypto.",
+  "startMs": 39565,
+  "endMs": 41035
+ },
+ {
+  "speaker": "narrator",
+  "text": "The miner gives it back.",
+  "startMs": 41260,
+  "endMs": 42580
+ },
+ {
+  "speaker": "narrator",
+  "text": "That night.",
+  "startMs": 42805,
+  "endMs": 43545
+ },
+ {
+  "speaker": "narrator",
+  "text": "Keeps a tip.",
+  "startMs": 43770,
+  "endMs": 44670
+ },
+ {
+  "speaker": "narrator",
+  "text": "For the tip.",
+  "startMs": 44895,
+  "endMs": 45685
+ },
+ {
+  "speaker": "narrator",
+  "text": "This happened to DeversiFi, a crypto exchange, September twenty-seventh, 2021.",
+  "startMs": 45910,
+  "endMs": 52200
+ },
+ {
+  "speaker": "stonks",
+  "text": "Anytime.",
+  "startMs": 52425,
+  "endMs": 53125
+ },
+ {
+  "speaker": "narrator",
+  "text": "Before you send, read the fee.",
+  "startMs": 53350,
+  "endMs": 55000
+ },
+ {
+  "speaker": "narrator",
+  "text": "Can't read it?",
+  "startMs": 55225,
+  "endMs": 56125
+ },
+ {
+  "speaker": "narrator",
+  "text": "It's not fine.",
+  "startMs": 56380,
+  "endMs": 57390
+ }
+]
