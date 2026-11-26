@@ -1,0 +1,983 @@
+[
+ {
+  "text": "You",
+  "startMs": 80,
+  "endMs": 200,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " pay",
+  "startMs": 200,
+  "endMs": 468,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 470,
+  "endMs": 634,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar",
+  "startMs": 690,
+  "endMs": 966,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fifty",
+  "startMs": 970,
+  "endMs": 1298,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 1300,
+  "endMs": 1490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 1490,
+  "endMs": 1685,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Costco",
+  "startMs": 1760,
+  "endMs": 2128,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hot",
+  "startMs": 2190,
+  "endMs": 2405,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dog",
+  "startMs": 2410,
+  "endMs": 2680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 2680,
+  "endMs": 2840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " drink.",
+  "startMs": 2840,
+  "endMs": 3180,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " You've",
+  "startMs": 3405,
+  "endMs": 3605,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " paid",
+  "startMs": 3605,
+  "endMs": 3895,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 3895,
+  "endMs": 4113,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " since",
+  "startMs": 4115,
+  "endMs": 4385,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 1985.",
+  "startMs": 4395,
+  "endMs": 5855,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " America's",
+  "startMs": 6080,
+  "endMs": 6669,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " longest-running",
+  "startMs": 6670,
+  "endMs": 7586,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sitcom.",
+  "startMs": 7590,
+  "endMs": 8110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Season",
+  "startMs": 8335,
+  "endMs": 8845,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " one.",
+  "startMs": 8845,
+  "endMs": 9175,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Your",
+  "startMs": 9400,
+  "endMs": 9600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " phone",
+  "startMs": 9600,
+  "endMs": 9938,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lives",
+  "startMs": 9940,
+  "endMs": 10340,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 10340,
+  "endMs": 10540,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 10540,
+  "endMs": 10679,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " kitchen.",
+  "startMs": 10680,
+  "endMs": 11150,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 11375,
+  "endMs": 11455,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " usual.",
+  "startMs": 11455,
+  "endMs": 12085,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Season",
+  "startMs": 12310,
+  "endMs": 12800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fifteen.",
+  "startMs": 12800,
+  "endMs": 13390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Your",
+  "startMs": 13615,
+  "endMs": 13845,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " phone",
+  "startMs": 13845,
+  "endMs": 14235,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " flips.",
+  "startMs": 14235,
+  "endMs": 14705,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Your",
+  "startMs": 14930,
+  "endMs": 15160,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hair",
+  "startMs": 15160,
+  "endMs": 15479,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " leaves.",
+  "startMs": 15480,
+  "endMs": 15950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 16175,
+  "endMs": 16333,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sign",
+  "startMs": 16335,
+  "endMs": 16730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stays.",
+  "startMs": 16735,
+  "endMs": 17205,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Plot",
+  "startMs": 17930,
+  "endMs": 18350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " twist.",
+  "startMs": 18350,
+  "endMs": 18800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " An",
+  "startMs": 19025,
+  "endMs": 19147,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " executive",
+  "startMs": 19195,
+  "endMs": 19939,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tells",
+  "startMs": 19945,
+  "endMs": 20244,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 20245,
+  "endMs": 20366,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " co-founder:",
+  "startMs": 20375,
+  "endMs": 21037,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " we're",
+  "startMs": 21185,
+  "endMs": 21435,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " losing",
+  "startMs": 21435,
+  "endMs": 21865,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " money.",
+  "startMs": 21865,
+  "endMs": 22195,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Raise",
+  "startMs": 22420,
+  "endMs": 22820,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 22820,
+  "endMs": 22980,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " price?",
+  "startMs": 22980,
+  "endMs": 23460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 23715,
+  "endMs": 23835,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " answer,",
+  "startMs": 23835,
+  "endMs": 24155,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " as",
+  "startMs": 24395,
+  "endMs": 24532,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 24555,
+  "endMs": 24655,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " executive",
+  "startMs": 24655,
+  "endMs": 25395,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tells",
+  "startMs": 25395,
+  "endMs": 25785,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it:",
+  "startMs": 25785,
+  "endMs": 25914,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " I",
+  "startMs": 26165,
+  "endMs": 26345,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " will",
+  "startMs": 26345,
+  "endMs": 26585,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " kill",
+  "startMs": 26585,
+  "endMs": 26855,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you.",
+  "startMs": 26855,
+  "endMs": 27045,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Figure",
+  "startMs": 27270,
+  "endMs": 27810,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " it",
+  "startMs": 27810,
+  "endMs": 27990,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " out.",
+  "startMs": 27990,
+  "endMs": 28350,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " Costco's",
+  "startMs": 28575,
+  "endMs": 29201,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fix:",
+  "startMs": 29205,
+  "endMs": 29548,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " its",
+  "startMs": 29825,
+  "endMs": 30035,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " own",
+  "startMs": 30035,
+  "endMs": 30313,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hot",
+  "startMs": 30375,
+  "endMs": 30655,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dog",
+  "startMs": 30655,
+  "endMs": 31005,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " factory.",
+  "startMs": 31005,
+  "endMs": 31565,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Season",
+  "startMs": 31790,
+  "endMs": 32245,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forty-one.",
+  "startMs": 32250,
+  "endMs": 32960,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Costco",
+  "startMs": 33185,
+  "endMs": 33687,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sold",
+  "startMs": 33725,
+  "endMs": 34064,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " over",
+  "startMs": 34085,
+  "endMs": 34375,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 34375,
+  "endMs": 34629,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 34635,
+  "endMs": 35132,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 35135,
+  "endMs": 35275,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forty-five",
+  "startMs": 35275,
+  "endMs": 36074,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " million",
+  "startMs": 36095,
+  "endMs": 36513,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 36515,
+  "endMs": 36639,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " these",
+  "startMs": 36645,
+  "endMs": 36945,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 36945,
+  "endMs": 37204,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " year.",
+  "startMs": 37205,
+  "endMs": 37455,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Mostly",
+  "startMs": 37680,
+  "endMs": 38188,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 38190,
+  "endMs": 38378,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 38420,
+  "endMs": 38540,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " friend.",
+  "startMs": 38540,
+  "endMs": 38950,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " I",
+  "startMs": 39175,
+  "endMs": 39330,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " had",
+  "startMs": 39335,
+  "endMs": 39537,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " help.",
+  "startMs": 39545,
+  "endMs": 39795,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Since",
+  "startMs": 40520,
+  "endMs": 40780,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 1985,",
+  "startMs": 40780,
+  "endMs": 42416,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " American",
+  "startMs": 42650,
+  "endMs": 43100,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " prices",
+  "startMs": 43100,
+  "endMs": 43620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " roughly",
+  "startMs": 43620,
+  "endMs": 44010,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tripled.",
+  "startMs": 44010,
+  "endMs": 44490,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " If",
+  "startMs": 44715,
+  "endMs": 44840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 44845,
+  "endMs": 44965,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hot",
+  "startMs": 44965,
+  "endMs": 45275,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dog",
+  "startMs": 45275,
+  "endMs": 45591,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 45645,
+  "endMs": 45815,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " kept",
+  "startMs": 45815,
+  "endMs": 46153,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " up,",
+  "startMs": 46195,
+  "endMs": 46341,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 46595,
+  "endMs": 46665,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 46665,
+  "endMs": 46965,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cost",
+  "startMs": 46965,
+  "endMs": 47235,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 47235,
+  "endMs": 47654,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " four",
+  "startMs": 47655,
+  "endMs": 47965,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars",
+  "startMs": 47965,
+  "endMs": 48405,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " seventy.",
+  "startMs": 48415,
+  "endMs": 48905,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 49130,
+  "endMs": 49240,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " price",
+  "startMs": 49240,
+  "endMs": 49650,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " didn't",
+  "startMs": 49650,
+  "endMs": 50080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " move.",
+  "startMs": 50080,
+  "endMs": 50420,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Your",
+  "startMs": 50645,
+  "endMs": 50861,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollar",
+  "startMs": 50865,
+  "endMs": 51293,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " shrank.",
+  "startMs": 51295,
+  "endMs": 51725,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Costco's",
+  "startMs": 51950,
+  "endMs": 52530,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " boss",
+  "startMs": 52530,
+  "endMs": 52790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " says",
+  "startMs": 52790,
+  "endMs": 53058,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it's",
+  "startMs": 53110,
+  "endMs": 53254,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " staying.",
+  "startMs": 53260,
+  "endMs": 53710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Renewed.",
+  "startMs": 53935,
+  "endMs": 54645,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " When",
+  "startMs": 55470,
+  "endMs": 55710,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 55710,
+  "endMs": 55896,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " price",
+  "startMs": 55910,
+  "endMs": 56261,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " stands",
+  "startMs": 56270,
+  "endMs": 56686,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " still,",
+  "startMs": 56690,
+  "endMs": 56990,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it's",
+  "startMs": 57230,
+  "endMs": 57410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 57410,
+  "endMs": 57538,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " money",
+  "startMs": 57540,
+  "endMs": 57840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 57840,
+  "endMs": 58085,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " moved.",
+  "startMs": 58090,
+  "endMs": 58450,
+  "timestampMs": null,
+  "confidence": null
+ }
+]
