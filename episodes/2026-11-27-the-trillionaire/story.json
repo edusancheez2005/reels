@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 7.61
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 10.78,
+    "to": 14.62
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "What does 100 trillion dollars buy?"
+  }
+]

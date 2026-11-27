@@ -31,3 +31,4 @@
 - [x] Hold the line: GameStop, January 2021 — $19.95 to a $483 intraday high in 16 days, Melvin Capital's $2.75B, brokers restricting buying on 28 Jan (plan row, Tue 24 Nov evening; sports, play-by-play) (2026-11-24-hold-the-line)
 - [x] Two Nobel prizes: Long-Term Capital Management, 1998 (plan row, Wed 25 Nov evening; noir, hard-boiled) (2026-11-25-two-nobel-prizes)
 - [x] The hot dog: Costco's $1.50 combo since 1985 and what inflation did around it (plan row, Thu 26 Nov evening; sitcom, time-lapse) (2026-11-26-the-hot-dog)
+- [x] The trillionaire: Zimbabwe's Z$100 trillion note, January 2009 — about US$30 on day one, barely a bus fare soon after, 40 US cents at the 2015 swap, up to $35 on eBay (plan row, Fri 27 Nov evening; period, the-list) (2026-11-27-the-trillionaire)
