@@ -1,15 +1,27 @@
 {
-  "id": "2026-11-27-the-trillionaire",
-  "channel": "markets",
-  "topic": "The trillionaire: Zimbabwe's Z$100 trillion note, January 2009 \u2014 about US$30 on day one, barely a bus fare soon after, 40 US cents at the 2015 swap, up to $35 on eBay (plan row, Fri 27 Nov evening; period, the-list)",
-  "produced_at": "2026-11-27T18:11:52+00:00",
-  "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-27-the-trillionaire.mp4",
-  "posted": false,
-  "story_urls": [
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-27-the-trillionaire-story_1.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-27-the-trillionaire-story_2.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-27-the-trillionaire-story_3.jpg"
-  ],
-  "format": "skit",
-  "topic_source": "plan"
+ "id": "2026-11-27-the-trillionaire",
+ "channel": "markets",
+ "topic": "The trillionaire: Zimbabwe's Z$100 trillion note, January 2009 \u2014 about US$30 on day one, barely a bus fare soon after, 40 US cents at the 2015 swap, up to $35 on eBay (plan row, Fri 27 Nov evening; period, the-list)",
+ "produced_at": "2026-11-27T18:11:52+00:00",
+ "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-27-the-trillionaire.mp4",
+ "posted": true,
+ "story_urls": [
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-27-the-trillionaire-story_1.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-27-the-trillionaire-story_2.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-27-the-trillionaire-story_3.jpg"
+ ],
+ "format": "skit",
+ "topic_source": "plan",
+ "auto_posted": true,
+ "posted_at": "2026-11-27T18:15:46Z",
+ "genre": "period",
+ "bit": "the-list",
+ "instagram_media_id": "18497738299106003",
+ "sources_comment_id": "17982728301129474",
+ "story_media_ids": [
+  "17985064649912105",
+  "18118302434601375",
+  "18129320887930810"
+ ],
+ "live_check_note": "Windsor reads paused (free plan, 2 accounts connected); duplicate check done against the repo instead"
 }
