@@ -1,0 +1,1001 @@
+[
+ {
+  "text": "You",
+  "startMs": 80,
+  "endMs": 262,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " make",
+  "startMs": 300,
+  "endMs": 565,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 570,
+  "endMs": 746,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " joke",
+  "startMs": 750,
+  "endMs": 1110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin",
+  "startMs": 1110,
+  "endMs": 1413,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 1430,
+  "endMs": 1580,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 1580,
+  "endMs": 1837,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " hours.",
+  "startMs": 1840,
+  "endMs": 2140,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " It",
+  "startMs": 2365,
+  "endMs": 2503,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ends",
+  "startMs": 2505,
+  "endMs": 2845,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " up",
+  "startMs": 2845,
+  "endMs": 2955,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " worth",
+  "startMs": 2955,
+  "endMs": 3398,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " over",
+  "startMs": 3405,
+  "endMs": 3742,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " eighty-five",
+  "startMs": 3745,
+  "endMs": 4431,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 4435,
+  "endMs": 4855,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dollars.",
+  "startMs": 4855,
+  "endMs": 5395,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " December",
+  "startMs": 5620,
+  "endMs": 6080,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2013.",
+  "startMs": 6080,
+  "endMs": 7330,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Your",
+  "startMs": 7555,
+  "endMs": 7724,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mate",
+  "startMs": 7725,
+  "endMs": 7985,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " has",
+  "startMs": 7985,
+  "endMs": 8232,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 8235,
+  "endMs": 8401,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " website",
+  "startMs": 8405,
+  "endMs": 8835,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 8835,
+  "endMs": 9079,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 9085,
+  "endMs": 9248,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " fake",
+  "startMs": 9255,
+  "endMs": 9435,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin",
+  "startMs": 9435,
+  "endMs": 9805,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 9805,
+  "endMs": 9981,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 9985,
+  "endMs": 10055,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dog",
+  "startMs": 10055,
+  "endMs": 10375,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " on",
+  "startMs": 10375,
+  "endMs": 10602,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it.",
+  "startMs": 10605,
+  "endMs": 10715,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Hoodies",
+  "startMs": 10940,
+  "endMs": 11220,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " printed.",
+  "startMs": 11220,
+  "endMs": 11730,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " You",
+  "startMs": 11955,
+  "endMs": 12075,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " copy",
+  "startMs": 12075,
+  "endMs": 12551,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " another",
+  "startMs": 12555,
+  "endMs": 12865,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin's",
+  "startMs": 12865,
+  "endMs": 13255,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " code",
+  "startMs": 13255,
+  "endMs": 13675,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 13675,
+  "endMs": 13865,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " swap",
+  "startMs": 13865,
+  "endMs": 14265,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 14265,
+  "endMs": 14471,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 14475,
+  "endMs": 14604,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dog.",
+  "startMs": 14715,
+  "endMs": 14935,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Told",
+  "startMs": 15160,
+  "endMs": 15510,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " my",
+  "startMs": 15510,
+  "endMs": 15746,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " mum.",
+  "startMs": 15750,
+  "endMs": 15980,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " Six",
+  "startMs": 16205,
+  "endMs": 16515,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " weeks",
+  "startMs": 16515,
+  "endMs": 16910,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " in,",
+  "startMs": 16915,
+  "endMs": 17102,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 17355,
+  "endMs": 17465,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " helps",
+  "startMs": 17465,
+  "endMs": 17855,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " send",
+  "startMs": 17855,
+  "endMs": 18185,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Jamaica's",
+  "startMs": 18185,
+  "endMs": 18831,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " bobsled",
+  "startMs": 18835,
+  "endMs": 19405,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " team",
+  "startMs": 19405,
+  "endMs": 19728,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 19775,
+  "endMs": 19905,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 19905,
+  "endMs": 20048,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Olympics.",
+  "startMs": 20055,
+  "endMs": 20625,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " No",
+  "startMs": 21650,
+  "endMs": 21970,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " limit.",
+  "startMs": 21970,
+  "endMs": 22460,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Five",
+  "startMs": 22685,
+  "endMs": 22965,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " billion",
+  "startMs": 22965,
+  "endMs": 23360,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " new",
+  "startMs": 23365,
+  "endMs": 23585,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coins",
+  "startMs": 23625,
+  "endMs": 23922,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 23955,
+  "endMs": 24091,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " year,",
+  "startMs": 24095,
+  "endMs": 24316,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " forever.",
+  "startMs": 24535,
+  "endMs": 24935,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Is",
+  "startMs": 25160,
+  "endMs": 25387,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " it",
+  "startMs": 25450,
+  "endMs": 25613,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " bigger?",
+  "startMs": 25620,
+  "endMs": 26180,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "suit"
+ },
+ {
+  "text": " It's",
+  "startMs": 26435,
+  "endMs": 26625,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " bulking.",
+  "startMs": 26625,
+  "endMs": 27185,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " 2015.",
+  "startMs": 27410,
+  "endMs": 28600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Laid",
+  "startMs": 28825,
+  "endMs": 29065,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " off,",
+  "startMs": 29065,
+  "endMs": 29278,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 29505,
+  "endMs": 29675,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sell",
+  "startMs": 29675,
+  "endMs": 29902,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " all",
+  "startMs": 29975,
+  "endMs": 30105,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 30105,
+  "endMs": 30242,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " yours",
+  "startMs": 30275,
+  "endMs": 30582,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 30585,
+  "endMs": 30805,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 30805,
+  "endMs": 31148,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 31155,
+  "endMs": 31315,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " used",
+  "startMs": 31315,
+  "endMs": 31645,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Honda",
+  "startMs": 31645,
+  "endMs": 32045,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Civic.",
+  "startMs": 32045,
+  "endMs": 32395,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " May",
+  "startMs": 33620,
+  "endMs": 33850,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 2021.",
+  "startMs": 33850,
+  "endMs": 35190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 35415,
+  "endMs": 35545,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " joke",
+  "startMs": 35545,
+  "endMs": 35945,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 35945,
+  "endMs": 36083,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " worth",
+  "startMs": 36095,
+  "endMs": 36415,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " more",
+  "startMs": 36415,
+  "endMs": 36750,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " than",
+  "startMs": 36755,
+  "endMs": 36951,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " FedEx.",
+  "startMs": 36975,
+  "endMs": 37485,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 37710,
+  "endMs": 37833,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Civic",
+  "startMs": 37840,
+  "endMs": 38200,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 38200,
+  "endMs": 38327,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " still",
+  "startMs": 38330,
+  "endMs": 38635,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 38690,
+  "endMs": 38810,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Civic.",
+  "startMs": 38810,
+  "endMs": 39190,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Nice",
+  "startMs": 39415,
+  "endMs": 39705,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " car.",
+  "startMs": 39705,
+  "endMs": 40175,
+  "timestampMs": null,
+  "confidence": null,
+  "speaker": "stonks"
+ },
+ {
+  "text": " The",
+  "startMs": 40400,
+  "endMs": 40527,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " real",
+  "startMs": 40530,
+  "endMs": 40908,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin:",
+  "startMs": 40910,
+  "endMs": 41225,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Dogecoin,",
+  "startMs": 41480,
+  "endMs": 42178,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " by",
+  "startMs": 42430,
+  "endMs": 42685,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Billy",
+  "startMs": 42700,
+  "endMs": 43000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Markus",
+  "startMs": 43000,
+  "endMs": 43500,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 43500,
+  "endMs": 43700,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Jackson",
+  "startMs": 43700,
+  "endMs": 44209,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Palmer.",
+  "startMs": 44210,
+  "endMs": 44590,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 44815,
+  "endMs": 44955,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Civic",
+  "startMs": 44955,
+  "endMs": 45375,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 45375,
+  "endMs": 45515,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Markus's",
+  "startMs": 45515,
+  "endMs": 46195,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " own",
+  "startMs": 46195,
+  "endMs": 46495,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " words.",
+  "startMs": 46495,
+  "endMs": 46915,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Same",
+  "startMs": 47140,
+  "endMs": 47520,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " dog.",
+  "startMs": 47520,
+  "endMs": 48000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Same",
+  "startMs": 48225,
+  "endMs": 48635,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " code.",
+  "startMs": 48635,
+  "endMs": 49085,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Only",
+  "startMs": 49310,
+  "endMs": 49680,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 49720,
+  "endMs": 49800,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " crowd",
+  "startMs": 49800,
+  "endMs": 50110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " changed.",
+  "startMs": 50110,
+  "endMs": 50730,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Crowds",
+  "startMs": 50955,
+  "endMs": 51486,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " leave.",
+  "startMs": 51515,
+  "endMs": 51865,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Before",
+  "startMs": 52090,
+  "endMs": 52498,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 52500,
+  "endMs": 52670,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buy",
+  "startMs": 52670,
+  "endMs": 52907,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 52910,
+  "endMs": 53082,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " coin,",
+  "startMs": 53150,
+  "endMs": 53373,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ask",
+  "startMs": 53590,
+  "endMs": 53840,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " who'd",
+  "startMs": 53840,
+  "endMs": 54060,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " buy",
+  "startMs": 54060,
+  "endMs": 54360,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " it",
+  "startMs": 54360,
+  "endMs": 54480,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " from",
+  "startMs": 54480,
+  "endMs": 54715,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " you.",
+  "startMs": 54720,
+  "endMs": 54890,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

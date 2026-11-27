@@ -1,0 +1,19 @@
+[
+  {
+    "file": "story_1.mp4",
+    "kind": "video",
+    "from": 0.0,
+    "to": 7.52
+  },
+  {
+    "file": "story_2.mp4",
+    "kind": "video",
+    "from": 33.5,
+    "to": 40.3
+  },
+  {
+    "file": "story_3.jpg",
+    "kind": "image",
+    "line": "A joke coin, a used Honda Civic, and $85B"
+  }
+]

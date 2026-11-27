@@ -1,0 +1,7116 @@
+{
+ "slug": "the-joke",
+ "format": "skit",
+ "genre": "origin",
+ "bit": "it-gets-out-of-hand",
+ "topic_source": "plan",
+ "theme": "dark",
+ "tail": 1.6,
+ "emphasis": [
+  "joke coin",
+  "two hours.",
+  "eighty-five billion",
+  "a dog",
+  "Hoodies printed.",
+  "swap in the dog.",
+  "Told my mum.",
+  "bobsled team",
+  "No limit.",
+  "Five billion",
+  "Is it bigger?",
+  "It's bulking.",
+  "Laid off,",
+  "used Honda Civic.",
+  "FedEx.",
+  "still a Civic.",
+  "Nice car.",
+  "Billy Markus",
+  "Jackson Palmer.",
+  "Crowds leave.",
+  "who'd buy it"
+ ],
+ "scenes": [
+  {
+   "anchor": {
+    "word": 0
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 0
+    },
+    {
+     "word": 4
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.825,
+       1.0
+      ],
+      "size": [
+       0.08,
+       0.012
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.825,
+       1.0066
+      ],
+      "size": [
+       0.06559999999999999,
+       0.0024000000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.829,
+       1.0084
+      ],
+      "size": [
+       0.0336,
+       0.0024000000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.35760000000000003,
+       0.8585999999999999,
+       1.0084
+      ],
+      "size": [
+       0.010400000000000001,
+       0.020800000000000003
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.4024,
+       0.8585999999999999,
+       1.0084
+      ],
+      "size": [
+       0.010400000000000001,
+       0.020800000000000003
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.7,
+       1.3,
+       2.8
+      ],
+      "look": [
+       -0.15,
+       1.1,
+       0.4
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.7,
+       1.3,
+       2.5999999999999996
+      ],
+      "look": [
+       -0.15,
+       1.1,
+       0.4
+      ],
+      "fov": 38,
+      "beat": 0,
+      "dur": 90
+     }
+    ],
+    "actions": [
+     "label:0+suit:type",
+     "suit:type"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "blank",
+    "tags": [
+     {
+      "text": "OVER $85B",
+      "x": 540,
+      "y": 450,
+      "size": 104,
+      "pill": true,
+      "tone": "warm"
+     }
+    ]
+   }
+  },
+  {
+   "anchor": {
+    "word": 8
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 8
+    },
+    {
+     "word": 13
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.0,
+       1.55,
+       -1.75
+      ],
+      "size": [
+       1.5,
+       0.21000000000000002
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.6
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.0,
+       1.55,
+       -1.6345
+      ],
+      "size": [
+       1.23,
+       0.04200000000000001
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.6
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.0,
+       1.625,
+       -1.603
+      ],
+      "size": [
+       0.63,
+       0.04200000000000001
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.6
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.42000000000000004,
+       2.18,
+       -1.603
+      ],
+      "size": [
+       0.195,
+       0.39
+      ],
+      "color": "#c98a1c",
+      "glow": 0.6
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.42000000000000004,
+       2.18,
+       -1.603
+      ],
+      "size": [
+       0.195,
+       0.39
+      ],
+      "color": "#c98a1c",
+      "glow": 0.6
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       2.0,
+       1.55,
+       3.6
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       2.0,
+       1.55,
+       3.25
+      ],
+      "look": [
+       0.2,
+       1.0,
+       0.25
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 90
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "suit:look:-25+suit:panic"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "blank"
+   },
+   "sfx": [
+    {
+     "name": "dun",
+     "beat": 1,
+     "offset": 0.2,
+     "gain": 0.4
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 16
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 16
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.825,
+       1.0
+      ],
+      "size": [
+       0.08,
+       0.012
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.825,
+       1.0066
+      ],
+      "size": [
+       0.06559999999999999,
+       0.0024000000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.829,
+       1.0084
+      ],
+      "size": [
+       0.0336,
+       0.0024000000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.35760000000000003,
+       0.8585999999999999,
+       1.0084
+      ],
+      "size": [
+       0.010400000000000001,
+       0.020800000000000003
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.4024,
+       0.8585999999999999,
+       1.0084
+      ],
+      "size": [
+       0.010400000000000001,
+       0.020800000000000003
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       1.6,
+       1.7,
+       2.6
+      ],
+      "look": [
+       -0.3,
+       1.2,
+       -0.3
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.6,
+       1.7,
+       2.4
+      ],
+      "look": [
+       -0.3,
+       1.2,
+       -0.3
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "label:0+suit:type"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "blank",
+    "tags": [
+     {
+      "text": "DEC 2013",
+      "x": 540,
+      "y": 450,
+      "size": 84,
+      "pill": true
+     }
+    ]
+   }
+  },
+  {
+   "anchor": {
+    "word": 18
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 18
+    },
+    {
+     "word": 22
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.825,
+       1.0
+      ],
+      "size": [
+       0.08,
+       0.012
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.825,
+       1.0066
+      ],
+      "size": [
+       0.06559999999999999,
+       0.0024000000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.829,
+       1.0084
+      ],
+      "size": [
+       0.0336,
+       0.0024000000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.35760000000000003,
+       0.8585999999999999,
+       1.0084
+      ],
+      "size": [
+       0.010400000000000001,
+       0.020800000000000003
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.4024,
+       0.8585999999999999,
+       1.0084
+      ],
+      "size": [
+       0.010400000000000001,
+       0.020800000000000003
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.6,
+       1.36,
+       3.15
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.6,
+       1.36,
+       2.9499999999999997
+      ],
+      "look": [
+       0.22,
+       1.42,
+       0
+      ],
+      "fov": 38,
+      "beat": 0,
+      "dur": 80
+     }
+    ],
+    "actions": [
+     "stonks:in+stonks:scroll",
+     "screen:site+suit:lean"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "blank"
+   }
+  },
+  {
+   "anchor": {
+    "word": 32
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 32
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.79,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.855,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#3bc9ee"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.92,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.9850000000000001,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#ff5b6b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       1.05,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.825,
+       1.0
+      ],
+      "size": [
+       0.08,
+       0.012
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.825,
+       1.0066
+      ],
+      "size": [
+       0.06559999999999999,
+       0.0024000000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.829,
+       1.0084
+      ],
+      "size": [
+       0.0336,
+       0.0024000000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.35760000000000003,
+       0.8585999999999999,
+       1.0084
+      ],
+      "size": [
+       0.010400000000000001,
+       0.020800000000000003
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.4024,
+       0.8585999999999999,
+       1.0084
+      ],
+      "size": [
+       0.010400000000000001,
+       0.020800000000000003
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.8,
+       1.3,
+       2.7
+      ],
+      "look": [
+       0.6,
+       1.05,
+       0.4
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.8,
+       1.3,
+       2.5500000000000003
+      ],
+      "look": [
+       0.6,
+       1.05,
+       0.4
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "stonks:talk:0.8+stonks:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "site"
+   }
+  },
+  {
+   "anchor": {
+    "word": 34
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 34
+    },
+    {
+     "word": 40
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.020000000000000004
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 0,
+      "dur": 90
+     }
+    ],
+    "actions": [
+     "suit:type+screen:code",
+     "suit:click+screen:dog"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "site",
+    "shift": 60
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "beat": 1,
+     "offset": 0.5,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 44
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 44
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.79,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.855,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#3bc9ee"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.92,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.9850000000000001,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#ff5b6b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       1.05,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.885,
+       1.0
+      ],
+      "size": [
+       0.14,
+       0.019600000000000003
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.885,
+       1.01078
+      ],
+      "size": [
+       0.1148,
+       0.003920000000000001
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.892,
+       1.01372
+      ],
+      "size": [
+       0.058800000000000005,
+       0.003920000000000001
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.3608,
+       0.9438,
+       1.01372
+      ],
+      "size": [
+       0.0182,
+       0.0364
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.43920000000000003,
+       0.9438,
+       1.01372
+      ],
+      "size": [
+       0.0182,
+       0.0364
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.2,
+       1.45,
+       2.4
+      ],
+      "look": [
+       0.45,
+       1.35,
+       0.1
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.2,
+       1.45,
+       2.28
+      ],
+      "look": [
+       0.45,
+       1.35,
+       0.1
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "stonks:phone+stonks:talk:0.8"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "dog"
+   }
+  },
+  {
+   "anchor": {
+    "word": 47
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 47
+    },
+    {
+     "word": 53
+    },
+    {
+     "word": 58,
+     "at": "end",
+     "plus": 0.25
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "studio",
+    "mood": "day",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0.0,
+       0.28,
+       0.9
+      ],
+      "size": [
+       0.62,
+       0.36,
+       1.7
+      ],
+      "color": "#1f9d55"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.0,
+       0.47,
+       0.9
+      ],
+      "size": [
+       0.64,
+       0.05,
+       1.72
+      ],
+      "color": "#f0c419"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.0,
+       0.28,
+       1.95
+      ],
+      "size": [
+       0.31,
+       0.45
+      ],
+      "color": "#1f9d55",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.24,
+       0.05,
+       0.9
+      ],
+      "size": [
+       0.05,
+       0.06,
+       1.9
+      ],
+      "color": "#1b1b1b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.24,
+       0.05,
+       0.9
+      ],
+      "size": [
+       0.05,
+       0.06,
+       1.9
+      ],
+      "color": "#1b1b1b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.75,
+       0.2,
+       0.0
+      ],
+      "size": [
+       0.18,
+       0.4,
+       9.0
+      ],
+      "color": "#eef6ff"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.75,
+       0.2,
+       0.0
+      ],
+      "size": [
+       0.18,
+       0.4,
+       9.0
+      ],
+      "color": "#eef6ff"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.0,
+       0.005,
+       0.0
+      ],
+      "size": [
+       1.4,
+       0.01,
+       9.0
+      ],
+      "color": "#dfeefc"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -2.6,
+       1.0,
+       -2.5
+      ],
+      "size": [
+       0.55,
+       1.6
+      ],
+      "color": "#2f6b4a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -2.6,
+       1.65,
+       -2.5
+      ],
+      "size": [
+       0.32,
+       0.8
+      ],
+      "color": "#f4f8ff"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -3.2,
+       1.0,
+       -0.6
+      ],
+      "size": [
+       0.55,
+       1.6
+      ],
+      "color": "#2f6b4a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -3.2,
+       1.65,
+       -0.6
+      ],
+      "size": [
+       0.32,
+       0.8
+      ],
+      "color": "#f4f8ff"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       2.7,
+       1.0,
+       -2.2
+      ],
+      "size": [
+       0.55,
+       1.6
+      ],
+      "color": "#2f6b4a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       2.7,
+       1.65,
+       -2.2
+      ],
+      "size": [
+       0.32,
+       0.8
+      ],
+      "color": "#f4f8ff"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       3.3,
+       1.0,
+       -0.2
+      ],
+      "size": [
+       0.55,
+       1.6
+      ],
+      "color": "#2f6b4a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       3.3,
+       1.65,
+       -0.2
+      ],
+      "size": [
+       0.32,
+       0.8
+      ],
+      "color": "#f4f8ff"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -2.2,
+       1.0,
+       -4.5
+      ],
+      "size": [
+       0.55,
+       1.6
+      ],
+      "color": "#2f6b4a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -2.2,
+       1.65,
+       -4.5
+      ],
+      "size": [
+       0.32,
+       0.8
+      ],
+      "color": "#f4f8ff"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       2.4,
+       1.0,
+       -4.8
+      ],
+      "size": [
+       0.55,
+       1.6
+      ],
+      "color": "#2f6b4a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       2.4,
+       1.65,
+       -4.8
+      ],
+      "size": [
+       0.32,
+       0.8
+      ],
+      "color": "#f4f8ff"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.0,
+       0.62,
+       -1.4
+      ],
+      "size": [
+       0.6,
+       0.084
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.0,
+       0.62,
+       -1.3538
+      ],
+      "size": [
+       0.49199999999999994,
+       0.016800000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.0,
+       0.65,
+       -1.3412
+      ],
+      "size": [
+       0.252,
+       0.016800000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.168,
+       0.872,
+       -1.3412
+      ],
+      "size": [
+       0.078,
+       0.156
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.168,
+       0.872,
+       -1.3412
+      ],
+      "size": [
+       0.078,
+       0.156
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.0,
+       1.9,
+       8.4
+      ],
+      "look": [
+       0,
+       0.85,
+       1.0
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.0,
+       1.9,
+       8.0
+      ],
+      "look": [
+       0,
+       0.85,
+       1.0
+      ],
+      "fov": 38,
+      "beat": 0,
+      "dur": 120
+     }
+    ],
+    "actions": [
+     "label:0+stonks:point",
+     "stonks:cheer",
+     "stonks:wave+suit:think"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.8,
+       0,
+       3.0
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.3
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.8,
+       0,
+       3.1
+      ],
+      "yaw": -0.3,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ],
+    "tags": [
+     {
+      "text": "SOCHI 2014",
+      "x": 540,
+      "y": 450,
+      "size": 84,
+      "pill": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "whoosh",
+     "beat": 2,
+     "offset": 0.0,
+     "gain": 0.4
+    }
+   ],
+   "long": true
+  },
+  {
+   "anchor": {
+    "word": 59
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 59
+    },
+    {
+     "word": 61
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "pink",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.79,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.855,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#3bc9ee"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.92,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.9850000000000001,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#ff5b6b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       1.05,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.25,
+       0.55,
+       0.55
+      ],
+      "size": [
+       0.55,
+       0.07700000000000001
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.25
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.25,
+       0.55,
+       0.59235
+      ],
+      "size": [
+       0.451,
+       0.015400000000000004
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.25
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.25,
+       0.5775,
+       0.6039000000000001
+      ],
+      "size": [
+       0.231,
+       0.015400000000000004
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.25
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.404,
+       0.781,
+       0.6039000000000001
+      ],
+      "size": [
+       0.07150000000000001,
+       0.14300000000000002
+      ],
+      "color": "#c98a1c",
+      "glow": 0.25
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.096,
+       0.781,
+       0.6039000000000001
+      ],
+      "size": [
+       0.07150000000000001,
+       0.14300000000000002
+      ],
+      "color": "#c98a1c",
+      "glow": 0.25
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       -1.6,
+       1.6,
+       3.3
+      ],
+      "look": [
+       -0.4,
+       1.0,
+       0.2
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -1.6,
+       1.6,
+       3.05
+      ],
+      "look": [
+       -0.4,
+       1.0,
+       0.2
+      ],
+      "fov": 38,
+      "beat": 0,
+      "dur": 80
+     }
+    ],
+    "actions": [
+     "screen:mint+suit:think",
+     "label:0"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "dog",
+    "tags": [
+     {
+      "text": "+5B A YEAR",
+      "x": 540,
+      "y": 450,
+      "size": 84,
+      "pill": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "cash",
+     "beat": 1,
+     "offset": 0.6,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 68
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 68
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "pink",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.79,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.855,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#3bc9ee"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.92,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.9850000000000001,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#ff5b6b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       1.05,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.25,
+       0.55,
+       0.55
+      ],
+      "size": [
+       0.55,
+       0.07700000000000001
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.25
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.25,
+       0.55,
+       0.59235
+      ],
+      "size": [
+       0.451,
+       0.015400000000000004
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.25
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.25,
+       0.5775,
+       0.6039000000000001
+      ],
+      "size": [
+       0.231,
+       0.015400000000000004
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.25
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.404,
+       0.781,
+       0.6039000000000001
+      ],
+      "size": [
+       0.07150000000000001,
+       0.14300000000000002
+      ],
+      "color": "#c98a1c",
+      "glow": 0.25
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.096,
+       0.781,
+       0.6039000000000001
+      ],
+      "size": [
+       0.07150000000000001,
+       0.14300000000000002
+      ],
+      "color": "#c98a1c",
+      "glow": 0.25
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.15,
+       1.5,
+       2.0
+      ],
+      "look": [
+       -0.1,
+       1.45,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.15,
+       1.5,
+       1.9
+      ],
+      "look": [
+       -0.1,
+       1.45,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:talk:0.7+suit:look:-30"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "mint"
+   }
+  },
+  {
+   "anchor": {
+    "word": 71
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 71
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "pink",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.79,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.855,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#3bc9ee"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.92,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       0.9850000000000001,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#ff5b6b"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.64,
+       1.05,
+       0.72
+      ],
+      "size": [
+       0.3,
+       0.06,
+       0.2
+      ],
+      "color": "#f0b232"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.35,
+       0.85,
+       0.35
+      ],
+      "size": [
+       0.85,
+       0.11900000000000001
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.25
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.35,
+       0.85,
+       0.41545
+      ],
+      "size": [
+       0.697,
+       0.0238
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.25
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.35,
+       0.8925,
+       0.43329999999999996
+      ],
+      "size": [
+       0.357,
+       0.0238
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.25
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.588,
+       1.2069999999999999,
+       0.43329999999999996
+      ],
+      "size": [
+       0.1105,
+       0.221
+      ],
+      "color": "#c98a1c",
+      "glow": 0.25
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.112,
+       1.2069999999999999,
+       0.43329999999999996
+      ],
+      "size": [
+       0.1105,
+       0.221
+      ],
+      "color": "#c98a1c",
+      "glow": 0.25
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       -0.2,
+       1.55,
+       3.6
+      ],
+      "look": [
+       -0.5,
+       1.1,
+       0.2
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.2,
+       1.55,
+       3.4
+      ],
+      "look": [
+       -0.5,
+       1.1,
+       0.2
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "stonks:talk:0.6+stonks:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "mint"
+   },
+   "sfx": [
+    {
+     "name": "boom",
+     "beat": 0,
+     "offset": 0.55,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 73
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 73
+    },
+    {
+     "word": 74
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "studio",
+    "mood": "pink",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       0.4,
+       0.25
+      ],
+      "size": [
+       1.8,
+       0.42,
+       0.82
+      ],
+      "color": "#b5c3d3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.8,
+       0.79,
+       0.25
+      ],
+      "size": [
+       0.95,
+       0.36,
+       0.76
+      ],
+      "color": "#a3b2c3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.6,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.4,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.06,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.36,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.06,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.1,
+       0.7
+      ],
+      "color": "#ff3b3b",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.81,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.12,
+       0.7
+      ],
+      "color": "#ffe6a8",
+      "glow": 0.5
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.9,
+       1.4,
+       -0.8
+      ],
+      "size": [
+       0.04,
+       2.8
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.9,
+       2.82,
+       -0.8
+      ],
+      "size": [
+       0.13
+      ],
+      "color": "#ffd9a0",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.06,
+       -1.2
+      ],
+      "size": [
+       8.0,
+       0.12,
+       0.4
+      ],
+      "color": "#7b8088"
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.5,
+       6.4
+      ],
+      "look": [
+       0.2,
+       0.9,
+       0
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.5,
+       6.1000000000000005
+      ],
+      "look": [
+       0.2,
+       0.9,
+       0
+      ],
+      "fov": 34,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:slump",
+     "stamp"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.55,
+       0,
+       0.35
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.35
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "stamp": {
+     "text": "LAID OFF",
+     "x": 540,
+     "y": 1450,
+     "size": 140,
+     "tone": "alert",
+     "rot": -6
+    }
+   }
+  },
+  {
+   "anchor": {
+    "word": 76
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 76
+    },
+    {
+     "word": 84
+    },
+    {
+     "word": 86,
+     "at": "end",
+     "plus": 0.3
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "studio",
+    "mood": "pink",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       0.4,
+       0.25
+      ],
+      "size": [
+       1.8,
+       0.42,
+       0.82
+      ],
+      "color": "#b5c3d3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.8,
+       0.79,
+       0.25
+      ],
+      "size": [
+       0.95,
+       0.36,
+       0.76
+      ],
+      "color": "#a3b2c3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.6,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.4,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.06,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.36,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.06,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.1,
+       0.7
+      ],
+      "color": "#ff3b3b",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.81,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.12,
+       0.7
+      ],
+      "color": "#ffe6a8",
+      "glow": 0.5
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.9,
+       1.4,
+       -0.8
+      ],
+      "size": [
+       0.04,
+       2.8
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.9,
+       2.82,
+       -0.8
+      ],
+      "size": [
+       0.13
+      ],
+      "color": "#ffd9a0",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.06,
+       -1.2
+      ],
+      "size": [
+       8.0,
+       0.12,
+       0.4
+      ],
+      "color": "#7b8088"
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       2.0,
+       1.4,
+       5.4
+      ],
+      "look": [
+       0.4,
+       0.85,
+       0.2
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       2.0,
+       1.4,
+       5.15
+      ],
+      "look": [
+       0.4,
+       0.85,
+       0.2
+      ],
+      "fov": 34,
+      "beat": 0,
+      "dur": 90
+     }
+    ],
+    "actions": [
+     "suit:relax",
+     "label:0+suit:point",
+     "suit:shrug"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.55,
+       0,
+       0.35
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.35
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "tags": [
+     {
+      "text": "1 USED CIVIC",
+      "x": 540,
+      "y": 450,
+      "size": 84,
+      "pill": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "cash",
+     "beat": 1,
+     "offset": 0.4,
+     "gain": 0.3
+    }
+   ],
+   "long": true
+  },
+  {
+   "anchor": {
+    "word": 87
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 87
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "studio",
+    "mood": "night",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       0.4,
+       0.25
+      ],
+      "size": [
+       1.8,
+       0.42,
+       0.82
+      ],
+      "color": "#b5c3d3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.8,
+       0.79,
+       0.25
+      ],
+      "size": [
+       0.95,
+       0.36,
+       0.76
+      ],
+      "color": "#a3b2c3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.6,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.4,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.06,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.36,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.06,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.1,
+       0.7
+      ],
+      "color": "#ff3b3b",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.81,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.12,
+       0.7
+      ],
+      "color": "#ffe6a8",
+      "glow": 0.5
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.9,
+       1.4,
+       -0.8
+      ],
+      "size": [
+       0.04,
+       2.8
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.9,
+       2.82,
+       -0.8
+      ],
+      "size": [
+       0.13
+      ],
+      "color": "#ffd9a0",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.06,
+       -1.2
+      ],
+      "size": [
+       8.0,
+       0.12,
+       0.4
+      ],
+      "color": "#7b8088"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.0,
+       -6.5
+      ],
+      "size": [
+       2.6,
+       0.36400000000000005
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.0,
+       -6.2998
+      ],
+      "size": [
+       2.132,
+       0.07280000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.13,
+       -6.2452
+      ],
+      "size": [
+       1.092,
+       0.07280000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.1280000000000001,
+       4.0920000000000005,
+       -6.2452
+      ],
+      "size": [
+       0.338,
+       0.676
+      ],
+      "color": "#c98a1c",
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.32800000000000007,
+       4.0920000000000005,
+       -6.2452
+      ],
+      "size": [
+       0.338,
+       0.676
+      ],
+      "color": "#c98a1c",
+      "glow": 0.9
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.8,
+       1.0,
+       7.4
+      ],
+      "look": [
+       0.0,
+       2.0,
+       -2.0
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.8,
+       1.0,
+       7.1000000000000005
+      ],
+      "look": [
+       0.0,
+       2.0,
+       -2.0
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:relax"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.55,
+       0,
+       0.35
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.35
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "dun",
+     "beat": 0,
+     "offset": 0.2,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 89
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 89
+    },
+    {
+     "word": 95
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "studio",
+    "mood": "night",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       0.4,
+       0.25
+      ],
+      "size": [
+       1.8,
+       0.42,
+       0.82
+      ],
+      "color": "#b5c3d3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.8,
+       0.79,
+       0.25
+      ],
+      "size": [
+       0.95,
+       0.36,
+       0.76
+      ],
+      "color": "#a3b2c3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.6,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.4,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.06,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.36,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.06,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.1,
+       0.7
+      ],
+      "color": "#ff3b3b",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.81,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.12,
+       0.7
+      ],
+      "color": "#ffe6a8",
+      "glow": 0.5
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.9,
+       1.4,
+       -0.8
+      ],
+      "size": [
+       0.04,
+       2.8
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.9,
+       2.82,
+       -0.8
+      ],
+      "size": [
+       0.13
+      ],
+      "color": "#ffd9a0",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.06,
+       -1.2
+      ],
+      "size": [
+       8.0,
+       0.12,
+       0.4
+      ],
+      "color": "#7b8088"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.0,
+       -6.5
+      ],
+      "size": [
+       2.6,
+       0.36400000000000005
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.0,
+       -6.2998
+      ],
+      "size": [
+       2.132,
+       0.07280000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.13,
+       -6.2452
+      ],
+      "size": [
+       1.092,
+       0.07280000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.1280000000000001,
+       4.0920000000000005,
+       -6.2452
+      ],
+      "size": [
+       0.338,
+       0.676
+      ],
+      "color": "#c98a1c",
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.32800000000000007,
+       4.0920000000000005,
+       -6.2452
+      ],
+      "size": [
+       0.338,
+       0.676
+      ],
+      "color": "#c98a1c",
+      "glow": 0.9
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       -1.6,
+       1.2,
+       5.0
+      ],
+      "look": [
+       0.2,
+       1.8,
+       -2.0
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -1.6,
+       1.2,
+       4.75
+      ],
+      "look": [
+       0.2,
+       1.8,
+       -2.0
+      ],
+      "fov": 38,
+      "beat": 0,
+      "dur": 70
+     }
+    ],
+    "actions": [
+     "suit:look:-15",
+     "label:0+suit:think"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.55,
+       0,
+       0.35
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.35
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "tags": [
+     {
+      "text": "> FEDEX",
+      "x": 540,
+      "y": 450,
+      "size": 96,
+      "pill": true,
+      "tone": "warm"
+     }
+    ]
+   }
+  },
+  {
+   "anchor": {
+    "word": 96
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 96
+    },
+    {
+     "word": 101,
+     "at": "end",
+     "plus": 0.1
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "studio",
+    "mood": "night",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       0.4,
+       0.25
+      ],
+      "size": [
+       1.8,
+       0.42,
+       0.82
+      ],
+      "color": "#b5c3d3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.8,
+       0.79,
+       0.25
+      ],
+      "size": [
+       0.95,
+       0.36,
+       0.76
+      ],
+      "color": "#a3b2c3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.6,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.4,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.06,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.36,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.06,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.1,
+       0.7
+      ],
+      "color": "#ff3b3b",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.81,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.12,
+       0.7
+      ],
+      "color": "#ffe6a8",
+      "glow": 0.5
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.9,
+       1.4,
+       -0.8
+      ],
+      "size": [
+       0.04,
+       2.8
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.9,
+       2.82,
+       -0.8
+      ],
+      "size": [
+       0.13
+      ],
+      "color": "#ffd9a0",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.06,
+       -1.2
+      ],
+      "size": [
+       8.0,
+       0.12,
+       0.4
+      ],
+      "color": "#7b8088"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.0,
+       -6.5
+      ],
+      "size": [
+       2.6,
+       0.36400000000000005
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.0,
+       -6.2998
+      ],
+      "size": [
+       2.132,
+       0.07280000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.13,
+       -6.2452
+      ],
+      "size": [
+       1.092,
+       0.07280000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.1280000000000001,
+       4.0920000000000005,
+       -6.2452
+      ],
+      "size": [
+       0.338,
+       0.676
+      ],
+      "color": "#c98a1c",
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.32800000000000007,
+       4.0920000000000005,
+       -6.2452
+      ],
+      "size": [
+       0.338,
+       0.676
+      ],
+      "color": "#c98a1c",
+      "glow": 0.9
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       2.4,
+       0.9,
+       3.8
+      ],
+      "look": [
+       0.5,
+       0.75,
+       0.3
+      ],
+      "fov": 44,
+      "beat": -1
+     },
+     {
+      "pos": [
+       2.4,
+       0.9,
+       3.65
+      ],
+      "look": [
+       0.5,
+       0.75,
+       0.3
+      ],
+      "fov": 44,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:slump",
+     "suit:slump"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.55,
+       0,
+       0.35
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.35
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "crickets",
+     "beat": 1,
+     "gain": 0.3,
+     "dur": 0.6
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 102
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 102
+    },
+    {
+     "word": 103,
+     "at": "end",
+     "plus": 0.1
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "studio",
+    "mood": "night",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       0.4,
+       0.25
+      ],
+      "size": [
+       1.8,
+       0.42,
+       0.82
+      ],
+      "color": "#b5c3d3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.8,
+       0.79,
+       0.25
+      ],
+      "size": [
+       0.95,
+       0.36,
+       0.76
+      ],
+      "color": "#a3b2c3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.6,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.4,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.06,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.36,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.06,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.1,
+       0.7
+      ],
+      "color": "#ff3b3b",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.81,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.12,
+       0.7
+      ],
+      "color": "#ffe6a8",
+      "glow": 0.5
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.9,
+       1.4,
+       -0.8
+      ],
+      "size": [
+       0.04,
+       2.8
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.9,
+       2.82,
+       -0.8
+      ],
+      "size": [
+       0.13
+      ],
+      "color": "#ffd9a0",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.06,
+       -1.2
+      ],
+      "size": [
+       8.0,
+       0.12,
+       0.4
+      ],
+      "color": "#7b8088"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.0,
+       -6.5
+      ],
+      "size": [
+       2.6,
+       0.36400000000000005
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.0,
+       -6.2998
+      ],
+      "size": [
+       2.132,
+       0.07280000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.13,
+       -6.2452
+      ],
+      "size": [
+       1.092,
+       0.07280000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.1280000000000001,
+       4.0920000000000005,
+       -6.2452
+      ],
+      "size": [
+       0.338,
+       0.676
+      ],
+      "color": "#c98a1c",
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.32800000000000007,
+       4.0920000000000005,
+       -6.2452
+      ],
+      "size": [
+       0.338,
+       0.676
+      ],
+      "color": "#c98a1c",
+      "glow": 0.9
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.0,
+       1.35,
+       4.7
+      ],
+      "look": [
+       0.0,
+       1.2,
+       0.7
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.0,
+       1.35,
+       4.58
+      ],
+      "look": [
+       0.0,
+       1.2,
+       0.7
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "stonks:in+stonks:talk:0.6+stonks:point",
+     "stonks:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.55,
+       0,
+       0.35
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.35
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.45,
+       0,
+       1.15
+      ],
+      "yaw": -0.6,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "rimshot",
+     "beat": 1,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 104
+   },
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "long": true,
+   "beats": [
+    {
+     "word": 104
+    },
+    {
+     "word": 107
+    },
+    {
+     "word": 110
+    },
+    {
+     "word": 114
+    },
+    {
+     "word": 117
+    }
+   ],
+   "props": {
+    "src": "receipt.png",
+    "chrome": "browser",
+    "width": 940,
+    "url": "cointelegraph.com/news/founder-of-8-4b-dogecoin-sold-everything-in-2015-for-a-used-honda-civic",
+    "source": "Cointelegraph \u00b7 12 Feb 2021",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.5,
+      "y": 0.4,
+      "zoom": 1.05
+     },
+     {
+      "x": 0.5,
+      "y": 0.6,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.45,
+      "y": 0.55,
+      "zoom": 1.08
+     },
+     {
+      "x": 0.42,
+      "y": 0.58,
+      "zoom": 1.15
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 680,
+      "y": 190,
+      "w": 345,
+      "h": 26
+     },
+     {
+      "beat": 3,
+      "kind": "circle",
+      "x": 30,
+      "y": 290,
+      "w": 470,
+      "h": 100
+     }
+    ]
+   }
+  },
+  {
+   "anchor": {
+    "word": 120
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 120
+    },
+    {
+     "word": 122
+    },
+    {
+     "word": 124
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "studio",
+    "mood": "night",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       0.4,
+       0.25
+      ],
+      "size": [
+       1.8,
+       0.42,
+       0.82
+      ],
+      "color": "#b5c3d3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.8,
+       0.79,
+       0.25
+      ],
+      "size": [
+       0.95,
+       0.36,
+       0.76
+      ],
+      "color": "#a3b2c3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.6,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.4,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.06,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.36,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.06,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.1,
+       0.7
+      ],
+      "color": "#ff3b3b",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.81,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.12,
+       0.7
+      ],
+      "color": "#ffe6a8",
+      "glow": 0.5
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.9,
+       1.4,
+       -0.8
+      ],
+      "size": [
+       0.04,
+       2.8
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.9,
+       2.82,
+       -0.8
+      ],
+      "size": [
+       0.13
+      ],
+      "color": "#ffd9a0",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.06,
+       -1.2
+      ],
+      "size": [
+       8.0,
+       0.12,
+       0.4
+      ],
+      "color": "#7b8088"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.0,
+       -6.5
+      ],
+      "size": [
+       2.6,
+       0.36400000000000005
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.0,
+       -6.2998
+      ],
+      "size": [
+       2.132,
+       0.07280000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       3.13,
+       -6.2452
+      ],
+      "size": [
+       1.092,
+       0.07280000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -1.1280000000000001,
+       4.0920000000000005,
+       -6.2452
+      ],
+      "size": [
+       0.338,
+       0.676
+      ],
+      "color": "#c98a1c",
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.32800000000000007,
+       4.0920000000000005,
+       -6.2452
+      ],
+      "size": [
+       0.338,
+       0.676
+      ],
+      "color": "#c98a1c",
+      "glow": 0.9
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       1.2,
+       0.9,
+       6.6
+      ],
+      "look": [
+       0.0,
+       2.2,
+       -2.5
+      ],
+      "fov": 42,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.2,
+       0.9,
+       6.3
+      ],
+      "look": [
+       0.0,
+       2.2,
+       -2.5
+      ],
+      "fov": 42,
+      "beat": 0,
+      "dur": 100
+     }
+    ],
+    "actions": [
+     "suit:look:-20",
+     "stonks:look:-20",
+     "stonks:shrug"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.55,
+       0,
+       0.35
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.35
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.45,
+       0,
+       1.15
+      ],
+      "yaw": -0.6,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ]
+   },
+   "long": true
+  },
+  {
+   "anchor": {
+    "word": 128
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 128
+    },
+    {
+     "word": 129,
+     "at": "end",
+     "plus": 0.1
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "studio",
+    "mood": "night",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "box",
+      "at": [
+       0.95,
+       0.4,
+       0.25
+      ],
+      "size": [
+       1.8,
+       0.42,
+       0.82
+      ],
+      "color": "#b5c3d3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.8,
+       0.79,
+       0.25
+      ],
+      "size": [
+       0.95,
+       0.36,
+       0.76
+      ],
+      "color": "#a3b2c3"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.6,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.4,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.06,
+       0.8,
+       0.64
+      ],
+      "size": [
+       0.36,
+       0.26,
+       0.01
+      ],
+      "color": "#20303f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.06,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.1,
+       0.7
+      ],
+      "color": "#ff3b3b",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.81,
+       0.47,
+       0.25
+      ],
+      "size": [
+       0.02,
+       0.12,
+       0.7
+      ],
+      "color": "#ffe6a8",
+      "glow": 0.5
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.4,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       -0.17
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.5,
+       0.19,
+       0.67
+      ],
+      "size": [
+       0.19,
+       0.12
+      ],
+      "color": "#16181c",
+      "rot": [
+       90,
+       0,
+       0
+      ]
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.9,
+       1.4,
+       -0.8
+      ],
+      "size": [
+       0.04,
+       2.8
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.9,
+       2.82,
+       -0.8
+      ],
+      "size": [
+       0.13
+      ],
+      "color": "#ffd9a0",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0,
+       0.06,
+       -1.2
+      ],
+      "size": [
+       8.0,
+       0.12,
+       0.4
+      ],
+      "color": "#7b8088"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.5,
+       2.4,
+       -3.5
+      ],
+      "size": [
+       0.3,
+       0.042
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.3
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.5,
+       2.4,
+       -3.4769
+      ],
+      "size": [
+       0.24599999999999997,
+       0.008400000000000001
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.3
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.5,
+       2.415,
+       -3.4706
+      ],
+      "size": [
+       0.126,
+       0.008400000000000001
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.3
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.416,
+       2.526,
+       -3.4706
+      ],
+      "size": [
+       0.039,
+       0.078
+      ],
+      "color": "#c98a1c",
+      "glow": 0.3
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.584,
+       2.526,
+       -3.4706
+      ],
+      "size": [
+       0.039,
+       0.078
+      ],
+      "color": "#c98a1c",
+      "glow": 0.3
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       1.0,
+       0.9,
+       6.4
+      ],
+      "look": [
+       0.0,
+       1.9,
+       -2.5
+      ],
+      "fov": 42,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.0,
+       0.9,
+       6.25
+      ],
+      "look": [
+       0.0,
+       1.9,
+       -2.5
+      ],
+      "fov": 42,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:slump",
+     "stonks:shrug"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       -0.55,
+       0,
+       0.35
+      ],
+      "tall": 1.75,
+      "pose": "relax",
+      "yaw": 0.35
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.45,
+       0,
+       1.15
+      ],
+      "yaw": -0.6,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "trombone",
+     "beat": 1,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 130
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 130
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.825,
+       1.0
+      ],
+      "size": [
+       0.08,
+       0.012
+      ],
+      "color": "#f0b232",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.825,
+       1.0066
+      ],
+      "size": [
+       0.06559999999999999,
+       0.0024000000000000002
+      ],
+      "color": "#ffd166",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.38,
+       0.829,
+       1.0084
+      ],
+      "size": [
+       0.0336,
+       0.0024000000000000002
+      ],
+      "color": "#c98a1c",
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.35760000000000003,
+       0.8585999999999999,
+       1.0084
+      ],
+      "size": [
+       0.010400000000000001,
+       0.020800000000000003
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.4024,
+       0.8585999999999999,
+       1.0084
+      ],
+      "size": [
+       0.010400000000000001,
+       0.020800000000000003
+      ],
+      "color": "#c98a1c",
+      "glow": 0.4
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.48,
+       2.6
+      ],
+      "look": [
+       0,
+       1.3,
+       0.3
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.48,
+       2.4
+      ],
+      "look": [
+       0,
+       1.3,
+       0.3
+      ],
+      "fov": 34,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:think"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "blank"
+   }
+  },
+  {
+   "anchor": {
+    "word": 135
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 135
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.030000000000000006
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 0,
+      "dur": 120
+     }
+    ],
+    "actions": [
+     "screen:ask+suit:type"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "blank": {
+      "head": "NEW FILE",
+      "big": "\u2026",
+      "tone": "white",
+      "sub": "Saturday"
+     },
+     "site": {
+      "head": "DOGECOIN.COM",
+      "big": "WOW",
+      "tone": "warm",
+      "sub": "a coin that doesn't exist"
+     },
+     "code": {
+      "head": "ANOTHER COIN'S CODE",
+      "big": "COPY",
+      "tone": "white",
+      "sub": "ctrl+c \u00b7 ctrl+v"
+     },
+     "dog": {
+      "head": "FIND & REPLACE",
+      "big": "\u2192 DOG",
+      "tone": "warm",
+      "sub": "coin name: Dogecoin"
+     },
+     "mint": {
+      "head": "NEW COINS",
+      "big": "+5B",
+      "tone": "warm",
+      "sub": "every year \u00b7 no limit"
+     },
+     "ask": {
+      "head": "BEFORE YOU BUY",
+      "big": "WHO?",
+      "tone": "white",
+      "sub": "who'd buy it from you?"
+     }
+    },
+    "screen": "blank",
+    "shift": 60
+   },
+   "long": true
+  }
+ ]
+}
