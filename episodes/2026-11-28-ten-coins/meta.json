@@ -1,15 +1,27 @@
 {
-  "id": "2026-11-28-ten-coins",
-  "channel": "crypto",
-  "topic": "Skit: ten coins \u2014 on 12 Jan 2009 (block 170) Satoshi Nakamoto sent Hal Finney 10 BTC as a test, the first bitcoin transfer; Hal reported bugs, Satoshi fixed them; Hal switched mining off because of the heat and fan noise, later wishing he'd kept it up and calling himself extraordinarily lucky to be there (buddy-film, never-meet)",
-  "produced_at": "2026-11-28T04:35:19+00:00",
-  "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-28-ten-coins.mp4",
-  "posted": false,
-  "story_urls": [
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-28-ten-coins-story_1.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-28-ten-coins-story_2.mp4",
-    "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-28-ten-coins-story_3.jpg"
-  ],
-  "format": "skit",
-  "topic_source": "plan"
+ "id": "2026-11-28-ten-coins",
+ "channel": "crypto",
+ "topic": "Skit: ten coins \u2014 on 12 Jan 2009 (block 170) Satoshi Nakamoto sent Hal Finney 10 BTC as a test, the first bitcoin transfer; Hal reported bugs, Satoshi fixed them; Hal switched mining off because of the heat and fan noise, later wishing he'd kept it up and calling himself extraordinarily lucky to be there (buddy-film, never-meet)",
+ "produced_at": "2026-11-28T04:35:19+00:00",
+ "video_url": "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-28-ten-coins.mp4",
+ "posted": true,
+ "story_urls": [
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-28-ten-coins-story_1.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-28-ten-coins-story_2.mp4",
+  "https://raw.githubusercontent.com/edusancheez2005/reels/media/v/2026-11-28-ten-coins-story_3.jpg"
+ ],
+ "format": "skit",
+ "topic_source": "plan",
+ "auto_posted": true,
+ "posted_at": "2026-11-28T04:39:15Z",
+ "genre": "buddy-film",
+ "bit": "never-meet",
+ "instagram_media_id": "18002036784020923",
+ "sources_comment_id": "18353170024250871",
+ "story_media_ids": [
+  "18655847677033665",
+  "18006236637010535",
+  "18110286215354782"
+ ],
+ "live_check_note": "Windsor reads paused (free plan, 2 accounts connected); duplicate check done against the repo instead"
 }

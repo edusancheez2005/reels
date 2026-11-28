@@ -1,0 +1,4 @@
+Sources:
+Guinness World Records, "First Bitcoin transaction" (12 Jan 2009, 10 BTC, block 170, a test): https://guinnessworldrecords.com/world-records/696243-first-bitcoin-transaction
+Hal Finney, "Bitcoin and Me" (bitcointalk, 19 Mar 2013; the test, the bug reports, the fan, "extraordinarily lucky"): https://nakamotoinstitute.org/bitcoin-and-me/
+CoinDesk, "How Does Bitcoin Mining Work?" (mining creates new coins): https://www.coindesk.com/learn/bitcoin-101/how-bitcoin-mining-works
