@@ -1,0 +1,15 @@
+VERDICT: PASS WITH NOTES
+
+Must fix: none.
+
+Checked: every on-screen number against research.md. "TEN COINS" / "10 BTC" (fact 1, 2), "JAN 2009" / "12 Jan 2009" (fact 1), "block 170" (fact 1, Guinness) and the Guinness and "Bitcoin and Me" captures (facts 1-3, real pages) all match. Nothing reads as a price prediction or advice; the ending is this story's one step with its why ("Even bitcoin's inventor sent a test"). 59.3 s, 8+ sourced facts (first transfer, 10 coins, 12 Jan 2009, block 170, the pseudonym, the sceptical cryptography list, the test, bugs reported and fixed, mining makes new coins, switched off for heat and fan noise, wished he'd kept going, "extraordinarily lucky"). Hal is named at the reveal, which the skit rules allow ("you" plays him). Mining gets a plain gloss.
+Skit checks: it is a story, not a list. "You" get a stranger's coins, the partnership builds through bugs and fixes, it turns when he switches off the miner ("Much better."), and it calls back with the 10 BTC screen before the "TEST" screen. On-screen text is light: about 7 labels (TEN COINS, JAN 2009, v0.1, 10 BTC, BUG, FIXED, TEST) and no stamps. It is fresh: nothing reused from the-trillionaire, the-joke, the-typo or the-hot-dog, and Stonks does not clap, jump or dance (he plays the mailing list: "Unsubscribe."). Funniest: the fan, "You switch it off." / "Much better." That is the one to send to a friend, made better by the real "I wish I had kept it up" quote right after. Weakest: "That's the hug." It doesn't land, because nothing is hugged on screen (just a raised hand to nobody). No swearing. Places: an office in daylight, a mailbox street, a teal montage and a dark room at night, so it isn't one room throughout.
+
+Notes for next time:
+1. "v0.1" on the s8–s9 monitor is a number that isn't in research.md. It is true (the first release was 0.1, 9 Jan 2009), but add it with a source before it goes on screen.
+2. s9 (~20.0–21.0 s): "He sends you ten bitcoin" is said while the monitor still shows "DOWNLOADING v0.1". Cut to the RECEIVED 10 BTC screen on "sends", not on "As a test".
+3. "That's the hug." (s11) is the weak beat. Either show the hug literally (him hugging the monitor) or swap the line, e.g. "That's the handshake. Over email." Also reuse fewer poses: s14 copies s5's hand-on-chin pose and framing exactly.
+4. Some static stretches: s6's mailboxes (12.0–15.6 s) barely change for 3.6 s, and s15 says "makes new coins" with no coin appearing. Add a letter dropping into the boxes and a coin popping out of the tower.
+5. Phone readability nits: "You report" (s12, 25.9 s) is faint pale text on the white/teal edge, and the zoomed document shots (s19 47.1 s, s20 49.4 s) crop lines at the frame edges. The highlighted words stay visible, but zoom in a little less. Also, "TEN COINS" in s1 repeats the voice word for word. Next time a label like "FIRST TRANSFER EVER" would add something.
+
+Scores 1–5: sync 4, detail/realism 4, hook 4, beginner clarity 5, accuracy 5, phone readability 4

@@ -1,0 +1,7451 @@
+{
+ "slug": "ten-coins",
+ "format": "skit",
+ "genre": "buddy-film",
+ "bit": "never-meet",
+ "topic_source": "plan",
+ "theme": "light",
+ "tail": 1.6,
+ "emphasis": [
+  "first bitcoin transfer.",
+  "Ten coins.",
+  "never met him.",
+  "Nobody has.",
+  "Satoshi Nakamoto.",
+  "mailing list",
+  "Unsubscribe.",
+  "ten bitcoin.",
+  "As a test.",
+  "Received.",
+  "the hug.",
+  "report bugs.",
+  "fixes them.",
+  "real name.",
+  "runs hot,",
+  "fan's loud.",
+  "switch it off.",
+  "Much better.",
+  "Hal Finney,",
+  "extraordinarily lucky",
+  "small amount first."
+ ],
+ "scenes": [
+  {
+   "anchor": {
+    "word": 0
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 0
+    },
+    {
+     "word": 7
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.754,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.773,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.792,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.8109999999999999,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.83,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.849,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.868,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.887,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.906,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.925,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.9,
+       1.35,
+       2.5
+      ],
+      "look": [
+       0.1,
+       1.05,
+       0.5
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.9,
+       1.35,
+       2.25
+      ],
+      "look": [
+       0.1,
+       1.05,
+       0.5
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 110
+     }
+    ],
+    "actions": [
+     "label:0+suit:type",
+     "suit:look:-20"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "inbox",
+    "tags": [
+     {
+      "text": "TEN COINS",
+      "x": 540,
+      "y": 1280,
+      "size": 104,
+      "pill": true,
+      "tone": "warm"
+     }
+    ]
+   }
+  },
+  {
+   "anchor": {
+    "word": 11
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 11
+    },
+    {
+     "word": 12
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.754,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.773,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.792,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.8109999999999999,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.83,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.849,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.868,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.887,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.906,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.925,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.62,
+       1.05,
+       1.55
+      ],
+      "look": [
+       0.42,
+       0.85,
+       0.95
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.62,
+       1.05,
+       1.45
+      ],
+      "look": [
+       0.42,
+       0.85,
+       0.95
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "cam",
+     "suit:look:-20"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "inbox"
+   }
+  },
+  {
+   "anchor": {
+    "word": 13
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 13
+    },
+    {
+     "word": 15
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.05,
+       0.47,
+       0.45
+      ],
+      "size": [
+       0.46,
+       0.07,
+       0.46
+      ],
+      "color": "#3d4a63"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.05,
+       0.8,
+       0.24
+      ],
+      "size": [
+       0.46,
+       0.56,
+       0.06
+      ],
+      "color": "#3d4a63"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.05,
+       0.22,
+       0.45
+      ],
+      "size": [
+       0.03,
+       0.44
+      ],
+      "color": "#22262e"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.05,
+       0.02,
+       0.45
+      ],
+      "size": [
+       0.24,
+       0.03
+      ],
+      "color": "#22262e"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.754,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.773,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.792,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.8109999999999999,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.83,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.849,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.868,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.887,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.906,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.925,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       1.4,
+       1.5,
+       3.9
+      ],
+      "look": [
+       -0.35,
+       0.95,
+       0.2
+      ],
+      "fov": 40,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.4,
+       1.5,
+       3.6
+      ],
+      "look": [
+       -0.35,
+       0.95,
+       0.2
+      ],
+      "fov": 40,
+      "beat": 0,
+      "dur": 100
+     }
+    ],
+    "actions": [
+     "label:0+suit:relax",
+     "suit:look:-60"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "inbox",
+    "tags": [
+     {
+      "text": "JAN 2009",
+      "x": 540,
+      "y": 450,
+      "size": 84,
+      "pill": true
+     }
+    ]
+   }
+  },
+  {
+   "anchor": {
+    "word": 19
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 19
+    },
+    {
+     "word": 20
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.05,
+       0.47,
+       0.45
+      ],
+      "size": [
+       0.46,
+       0.07,
+       0.46
+      ],
+      "color": "#3d4a63"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.05,
+       0.8,
+       0.24
+      ],
+      "size": [
+       0.46,
+       0.56,
+       0.06
+      ],
+      "color": "#3d4a63"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.05,
+       0.22,
+       0.45
+      ],
+      "size": [
+       0.03,
+       0.44
+      ],
+      "color": "#22262e"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.05,
+       0.02,
+       0.45
+      ],
+      "size": [
+       0.24,
+       0.03
+      ],
+      "color": "#22262e"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -1.05,
+       2.4,
+       0.45
+      ],
+      "size": [
+       0.05
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       -0.2,
+       1.3,
+       3.4
+      ],
+      "look": [
+       -1.05,
+       0.7,
+       0.35
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       -0.2,
+       1.3,
+       3.25
+      ],
+      "look": [
+       -1.05,
+       0.7,
+       0.35
+      ],
+      "fov": 34,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:look:-60",
+     "suit:shrug"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "inbox"
+   }
+  },
+  {
+   "anchor": {
+    "word": 21
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 21
+    },
+    {
+     "word": 24
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.23
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:think",
+     "screen:name+suit:look:0"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "inbox"
+   }
+  },
+  {
+   "anchor": {
+    "word": 26
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 26
+    },
+    {
+     "word": 31
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "studio",
+    "mood": "pink",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -2.1,
+       0.5,
+       -1.3
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.1,
+       1.12,
+       -1.3
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#2f6fb0"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.9200000000000002,
+       1.22,
+       -1.22
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.25,
+       0.5,
+       -1.7
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.12,
+       -1.7
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#c9473c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.07,
+       1.22,
+       -1.6199999999999999
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       0.5,
+       -1.9
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.4,
+       1.12,
+       -1.9
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#2f6fb0"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.22000000000000003,
+       1.22,
+       -1.8199999999999998
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.45,
+       0.5,
+       -1.9
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.45,
+       1.12,
+       -1.9
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#3b8f5a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.63,
+       1.22,
+       -1.8199999999999998
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.3,
+       0.5,
+       -1.7
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.3,
+       1.12,
+       -1.7
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#c9473c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.48,
+       1.22,
+       -1.6199999999999999
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       2.15,
+       0.5,
+       -1.3
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       2.15,
+       1.12,
+       -1.3
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#2f6fb0"
+     },
+     {
+      "shape": "box",
+      "at": [
+       2.33,
+       1.22,
+       -1.22
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.9,
+       0.01,
+       -0.4
+      ],
+      "size": [
+       0.24,
+       0.01,
+       0.16
+      ],
+      "color": "#f4efe4",
+      "rot": [
+       0,
+       20,
+       0
+      ]
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.1,
+       0.01,
+       -0.2
+      ],
+      "size": [
+       0.24,
+       0.01,
+       0.16
+      ],
+      "color": "#f4efe4",
+      "rot": [
+       0,
+       -35,
+       0
+      ]
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.5,
+       0.01,
+       0.4
+      ],
+      "size": [
+       0.24,
+       0.01,
+       0.16
+      ],
+      "color": "#f4efe4",
+      "rot": [
+       0,
+       60,
+       0
+      ]
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.9,
+       0.01,
+       0.6
+      ],
+      "size": [
+       0.24,
+       0.01,
+       0.16
+      ],
+      "color": "#f4efe4",
+      "rot": [
+       0,
+       10,
+       0
+      ]
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.3,
+       0.01,
+       -0.9
+      ],
+      "size": [
+       0.24,
+       0.01,
+       0.16
+      ],
+      "color": "#f4efe4",
+      "rot": [
+       0,
+       -15,
+       0
+      ]
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.0,
+       1.45,
+       3.0
+      ],
+      "look": [
+       0.0,
+       0.85,
+       -1.6
+      ],
+      "fov": 46,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.0,
+       1.35,
+       2.4
+      ],
+      "look": [
+       0.0,
+       0.9,
+       -1.6
+      ],
+      "fov": 46,
+      "beat": 1,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "cam",
+     "cam"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type",
+      "hidden": true
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.0,
+       0,
+       0.6
+      ],
+      "yaw": 0.0,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ]
+   }
+  },
+  {
+   "anchor": {
+    "word": 35
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 35
+    },
+    {
+     "word": 38
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "studio",
+    "mood": "pink",
+    "backdrop": "sky",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -2.1,
+       0.5,
+       -1.3
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -2.1,
+       1.12,
+       -1.3
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#2f6fb0"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.9200000000000002,
+       1.22,
+       -1.22
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.25,
+       0.5,
+       -1.7
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.25,
+       1.12,
+       -1.7
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#c9473c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.07,
+       1.22,
+       -1.6199999999999999
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.4,
+       0.5,
+       -1.9
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.4,
+       1.12,
+       -1.9
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#2f6fb0"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.22000000000000003,
+       1.22,
+       -1.8199999999999998
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.45,
+       0.5,
+       -1.9
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.45,
+       1.12,
+       -1.9
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#3b8f5a"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.63,
+       1.22,
+       -1.8199999999999998
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       1.3,
+       0.5,
+       -1.7
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.3,
+       1.12,
+       -1.7
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#c9473c"
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.48,
+       1.22,
+       -1.6199999999999999
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       2.15,
+       0.5,
+       -1.3
+      ],
+      "size": [
+       0.035,
+       1.0
+      ],
+      "color": "#3b3f48"
+     },
+     {
+      "shape": "box",
+      "at": [
+       2.15,
+       1.12,
+       -1.3
+      ],
+      "size": [
+       0.32,
+       0.26,
+       0.46
+      ],
+      "color": "#2f6fb0"
+     },
+     {
+      "shape": "box",
+      "at": [
+       2.33,
+       1.22,
+       -1.22
+      ],
+      "size": [
+       0.02,
+       0.18,
+       0.06
+      ],
+      "color": "#ffd23f"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.9,
+       0.01,
+       -0.4
+      ],
+      "size": [
+       0.24,
+       0.01,
+       0.16
+      ],
+      "color": "#f4efe4",
+      "rot": [
+       0,
+       20,
+       0
+      ]
+     },
+     {
+      "shape": "box",
+      "at": [
+       1.1,
+       0.01,
+       -0.2
+      ],
+      "size": [
+       0.24,
+       0.01,
+       0.16
+      ],
+      "color": "#f4efe4",
+      "rot": [
+       0,
+       -35,
+       0
+      ]
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.5,
+       0.01,
+       0.4
+      ],
+      "size": [
+       0.24,
+       0.01,
+       0.16
+      ],
+      "color": "#f4efe4",
+      "rot": [
+       0,
+       60,
+       0
+      ]
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.9,
+       0.01,
+       0.6
+      ],
+      "size": [
+       0.24,
+       0.01,
+       0.16
+      ],
+      "color": "#f4efe4",
+      "rot": [
+       0,
+       10,
+       0
+      ]
+     },
+     {
+      "shape": "box",
+      "at": [
+       -0.3,
+       0.01,
+       -0.9
+      ],
+      "size": [
+       0.24,
+       0.01,
+       0.16
+      ],
+      "color": "#f4efe4",
+      "rot": [
+       0,
+       -15,
+       0
+      ]
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.2,
+       1.3,
+       3.9
+      ],
+      "look": [
+       0.0,
+       1.1,
+       0.2
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.2,
+       1.3,
+       3.6999999999999997
+      ],
+      "look": [
+       0.0,
+       1.1,
+       0.2
+      ],
+      "fov": 34,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "stonks:in+stonks:think",
+     "stonks:talk:1.0+stonks:point"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type",
+      "hidden": true
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.0,
+       0,
+       0.6
+      ],
+      "yaw": 0.0,
+      "tall": 1.6,
+      "pose": "relax"
+     }
+    ]
+   },
+   "sfx": [
+    {
+     "name": "buzzer",
+     "beat": 1,
+     "offset": 0.9,
+     "gain": 0.3
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 39
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 39
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.030000000000000006
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:type+screen:download"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "name",
+    "shift": 60
+   }
+  },
+  {
+   "anchor": {
+    "word": 43
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 43
+    },
+    {
+     "word": 46
+    },
+    {
+     "word": 48
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.030000000000000006
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 0,
+      "dur": 80
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:received",
+     "suit:click"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "download",
+    "shift": 60
+   },
+   "sfx": [
+    {
+     "name": "ding",
+     "beat": 1,
+     "offset": 0.3,
+     "gain": 0.35
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 51
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 51
+    },
+    {
+     "word": 51,
+     "at": "end",
+     "plus": 0.35
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.754,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.773,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.792,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.8109999999999999,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.83,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.849,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.868,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.887,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.906,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.925,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.25,
+       1.5,
+       2.1
+      ],
+      "look": [
+       0,
+       1.48,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.25,
+       1.5,
+       2.02
+      ],
+      "look": [
+       0,
+       1.48,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:talk:0.7+suit:relax",
+     "suit:look:-5"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "received"
+   },
+   "sfx": [
+    {
+     "name": "crickets",
+     "beat": 1,
+     "gain": 0.3,
+     "dur": 0.7
+    }
+   ]
+  },
+  {
+   "anchor": {
+    "word": 52
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 52
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.754,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.773,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.792,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.8109999999999999,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.83,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.849,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.868,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.887,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.906,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.925,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       1.1,
+       1.45,
+       2.6
+      ],
+      "look": [
+       0.0,
+       1.2,
+       0.3
+      ],
+      "fov": 34,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.1,
+       1.45,
+       2.5
+      ],
+      "look": [
+       0.0,
+       1.2,
+       0.3
+      ],
+      "fov": 34,
+      "beat": 0,
+      "dur": 40
+     }
+    ],
+    "actions": [
+     "suit:wave"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "received"
+   }
+  },
+  {
+   "anchor": {
+    "word": 55
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 55
+    },
+    {
+     "word": 58
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.030000000000000006
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:type+screen:bug",
+     "screen:fixed"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "received",
+    "shift": 60
+   }
+  },
+  {
+   "anchor": {
+    "word": 61
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 61
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.05,
+       0.47,
+       0.45
+      ],
+      "size": [
+       0.46,
+       0.07,
+       0.46
+      ],
+      "color": "#3d4a63"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.05,
+       0.8,
+       0.24
+      ],
+      "size": [
+       0.46,
+       0.56,
+       0.06
+      ],
+      "color": "#3d4a63"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.05,
+       0.22,
+       0.45
+      ],
+      "size": [
+       0.03,
+       0.44
+      ],
+      "color": "#22262e"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -1.05,
+       0.02,
+       0.45
+      ],
+      "size": [
+       0.24,
+       0.03
+      ],
+      "color": "#22262e"
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       1.6,
+       1.5,
+       3.4
+      ],
+      "look": [
+       -0.3,
+       1.0,
+       0.2
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.6,
+       1.5,
+       3.1999999999999997
+      ],
+      "look": [
+       -0.3,
+       1.0,
+       0.2
+      ],
+      "fov": 38,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:proud"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "fixed"
+   }
+  },
+  {
+   "anchor": {
+    "word": 66
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 66
+    },
+    {
+     "word": 69
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "teal",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.35
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.52,
+       2.25
+      ],
+      "look": [
+       0,
+       1.5,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "screen:who+suit:look:0",
+     "suit:think"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "fixed"
+   }
+  },
+  {
+   "anchor": {
+    "word": 72
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 72
+    },
+    {
+     "word": 77
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       1.6,
+       1.45,
+       2.9
+      ],
+      "look": [
+       0.3,
+       1.0,
+       0.3
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.6,
+       1.45,
+       2.6999999999999997
+      ],
+      "look": [
+       0.3,
+       1.0,
+       0.3
+      ],
+      "fov": 38,
+      "beat": 0,
+      "dur": 80
+     }
+    ],
+    "actions": [
+     "suit:relax+screen:mining",
+     "suit:look:30"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "fixed"
+   }
+  },
+  {
+   "anchor": {
+    "word": 80
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 80
+    },
+    {
+     "word": 86
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "doom",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#ff6a1a",
+      "glow": 1
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.21,
+       0.55
+      ],
+      "size": [
+       0.21,
+       0.012,
+       0.45
+      ],
+      "color": "#ff3b1a",
+      "glow": 0.9
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.73,
+       1.3050000000000002,
+       0.55
+      ],
+      "size": [
+       0.025,
+       0.12
+      ],
+      "color": "#ff8a3a",
+      "glow": 0.8
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.8300000000000001,
+       1.345,
+       0.47000000000000003
+      ],
+      "size": [
+       0.02,
+       0.1
+      ],
+      "color": "#ff8a3a",
+      "glow": 0.8
+     },
+     {
+      "shape": "cone",
+      "at": [
+       0.78,
+       1.365,
+       0.65
+      ],
+      "size": [
+       0.02,
+       0.09
+      ],
+      "color": "#ffb36a",
+      "glow": 0.8
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       1.9,
+       1.35,
+       2.4
+      ],
+      "look": [
+       0.35,
+       1.05,
+       0.35
+      ],
+      "fov": 38,
+      "beat": -1
+     },
+     {
+      "pos": [
+       1.9,
+       1.35,
+       2.28
+      ],
+      "look": [
+       0.35,
+       1.05,
+       0.35
+      ],
+      "fov": 38,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:look:35",
+     "suit:facepalm"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "mining"
+   }
+  },
+  {
+   "anchor": {
+    "word": 88
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 88
+    },
+    {
+     "word": 91
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#203020",
+      "glow": 0
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.9,
+       1.35,
+       2.5
+      ],
+      "look": [
+       0.3,
+       1.05,
+       0.4
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.9,
+       1.35,
+       2.4
+      ],
+      "look": [
+       0.3,
+       1.05,
+       0.4
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "suit:click",
+     "screen:off+suit:relax"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "mining"
+   }
+  },
+  {
+   "anchor": {
+    "word": 92
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 92
+    }
+   ],
+   "theme": "dark",
+   "props": {
+    "set": "desk",
+    "mood": "night",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#1b2a52",
+      "glow": 0.4
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#d9d4c7"
+     },
+     {
+      "shape": "ball",
+      "at": [
+       -0.85,
+       1.78,
+       -1.46
+      ],
+      "size": [
+       0.06
+      ],
+      "color": "#fff6d8",
+      "glow": 1
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#203020",
+      "glow": 0
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.3,
+       1.5,
+       2.3
+      ],
+      "look": [
+       0,
+       1.45,
+       0
+      ],
+      "fov": 30,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.3,
+       1.5,
+       2.1999999999999997
+      ],
+      "look": [
+       0,
+       1.45,
+       0
+      ],
+      "fov": 30,
+      "beat": 0,
+      "dur": 50
+     }
+    ],
+    "actions": [
+     "suit:talk:0.8+suit:lean"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "off"
+   }
+  },
+  {
+   "anchor": {
+    "word": 94
+   },
+   "component": "Shot",
+   "theme": "light",
+   "transition": "zoom",
+   "long": true,
+   "beats": [
+    {
+     "word": 94
+    },
+    {
+     "word": 96
+    },
+    {
+     "word": 97
+    },
+    {
+     "word": 100
+    },
+    {
+     "word": 102
+    },
+    {
+     "word": 104
+    }
+   ],
+   "props": {
+    "src": "guinness.png",
+    "chrome": "browser",
+    "width": 940,
+    "url": "guinnessworldrecords.com/world-records/696243-first-bitcoin-transaction",
+    "source": "Guinness World Records",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.45,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.45,
+      "y": 0.35,
+      "zoom": 1.08
+     },
+     {
+      "x": 0.3,
+      "y": 0.15,
+      "zoom": 1.25
+     },
+     {
+      "x": 0.32,
+      "y": 0.2,
+      "zoom": 1.3
+     },
+     {
+      "x": 0.62,
+      "y": 0.3,
+      "zoom": 1.25
+     },
+     {
+      "x": 0.55,
+      "y": 0.7,
+      "zoom": 1.15
+     }
+    ],
+    "marks": [
+     {
+      "beat": 2,
+      "kind": "box",
+      "x": 20,
+      "y": 82,
+      "w": 530,
+      "h": 42
+     },
+     {
+      "beat": 4,
+      "kind": "box",
+      "x": 662,
+      "y": 232,
+      "w": 290,
+      "h": 42
+     },
+     {
+      "beat": 5,
+      "kind": "underline",
+      "x": 400,
+      "y": 722,
+      "w": 360,
+      "h": 22
+     }
+    ]
+   }
+  },
+  {
+   "anchor": {
+    "word": 105
+   },
+   "component": "Shot",
+   "theme": "light",
+   "transition": "whip",
+   "long": true,
+   "beats": [
+    {
+     "word": 105
+    },
+    {
+     "word": 107
+    },
+    {
+     "word": 109
+    },
+    {
+     "word": 112
+    },
+    {
+     "word": 115
+    },
+    {
+     "word": 117
+    },
+    {
+     "word": 120
+    }
+   ],
+   "props": {
+    "src": "finney_para_fan.png",
+    "chrome": "browser",
+    "width": 940,
+    "url": "nakamotoinstitute.org/bitcoin-and-me/",
+    "source": "Hal Finney, \"Bitcoin and Me\", 19 Mar 2013",
+    "cam": [
+     {
+      "x": 0.5,
+      "y": 0.5,
+      "zoom": 1.0
+     },
+     {
+      "x": 0.45,
+      "y": 0.45,
+      "zoom": 1.1
+     },
+     {
+      "x": 0.6,
+      "y": 0.55,
+      "zoom": 1.3
+     },
+     {
+      "x": 0.4,
+      "y": 0.65,
+      "zoom": 1.3
+     },
+     {
+      "x": 0.5,
+      "y": 0.62,
+      "zoom": 1.2
+     },
+     {
+      "x": 0.62,
+      "y": 0.66,
+      "zoom": 1.35
+     },
+     {
+      "x": 0.65,
+      "y": 0.66,
+      "zoom": 1.42
+     }
+    ],
+    "marks": [
+     {
+      "beat": 1,
+      "kind": "underline",
+      "x": 300,
+      "y": 172,
+      "w": 500,
+      "h": 22
+     },
+     {
+      "beat": 2,
+      "kind": "underline",
+      "x": 1035,
+      "y": 222,
+      "w": 225,
+      "h": 22
+     },
+     {
+      "beat": 3,
+      "kind": "underline",
+      "x": 40,
+      "y": 272,
+      "w": 300,
+      "h": 22
+     },
+     {
+      "beat": 5,
+      "kind": "circle",
+      "x": 735,
+      "y": 240,
+      "w": 420,
+      "h": 56
+     }
+    ]
+   }
+  },
+  {
+   "anchor": {
+    "word": 122
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 122
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.754,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.773,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.792,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.8109999999999999,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.83,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.849,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.868,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.887,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.906,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#f0b232",
+      "glow": 0.35
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.42,
+       0.925,
+       0.95
+      ],
+      "size": [
+       0.055,
+       0.016
+      ],
+      "color": "#ffd166",
+      "glow": 0.35
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0.9,
+       1.35,
+       2.5
+      ],
+      "look": [
+       0.1,
+       1.05,
+       0.5
+      ],
+      "fov": 36,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0.9,
+       1.35,
+       2.35
+      ],
+      "look": [
+       0.1,
+       1.05,
+       0.5
+      ],
+      "fov": 36,
+      "beat": 0,
+      "dur": 60
+     }
+    ],
+    "actions": [
+     "suit:relax"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "received"
+   }
+  },
+  {
+   "anchor": {
+    "word": 128
+   },
+   "component": "Actor3D",
+   "transition": "cut",
+   "moving": true,
+   "beats": [
+    {
+     "word": 128
+    },
+    {
+     "word": 131
+    }
+   ],
+   "theme": "light",
+   "props": {
+    "set": "desk",
+    "mood": "day",
+    "props": [
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.77,
+       0.5
+      ],
+      "size": [
+       0.07,
+       0.03
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       -0.66,
+       0.95,
+       0.5
+      ],
+      "size": [
+       0.012,
+       0.36
+      ],
+      "color": "#2a2f3a"
+     },
+     {
+      "shape": "cone",
+      "at": [
+       -0.66,
+       1.14,
+       0.53
+      ],
+      "size": [
+       0.1,
+       0.12
+      ],
+      "color": "#ffcf7a",
+      "glow": 1
+     },
+     {
+      "shape": "plane",
+      "at": [
+       -1.1,
+       1.6,
+       -1.45
+      ],
+      "size": [
+       0.9,
+       0.7
+      ],
+      "color": "#bfe3ff",
+      "glow": 0.6
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.04,
+       0.72,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       -1.1,
+       1.6,
+       -1.44
+      ],
+      "size": [
+       0.92,
+       0.04,
+       0.02
+      ],
+      "color": "#f4efe4"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       0.975,
+       0.55
+      ],
+      "size": [
+       0.2,
+       0.46,
+       0.44
+      ],
+      "color": "#d8d0bd"
+     },
+     {
+      "shape": "box",
+      "at": [
+       0.78,
+       1.125,
+       0.772
+      ],
+      "size": [
+       0.16,
+       0.05,
+       0.005
+      ],
+      "color": "#3a3a3a"
+     },
+     {
+      "shape": "cyl",
+      "at": [
+       0.78,
+       0.915,
+       0.773
+      ],
+      "size": [
+       0.07,
+       0.006
+      ],
+      "rot": [
+       90,
+       0,
+       0
+      ],
+      "color": "#2b2b2b",
+      "glow": 0
+     },
+     {
+      "shape": "ball",
+      "at": [
+       0.8400000000000001,
+       1.165,
+       0.772
+      ],
+      "size": [
+       0.012
+      ],
+      "color": "#40ff7a",
+      "glow": 1
+     }
+    ],
+    "cam": [
+     {
+      "pos": [
+       0,
+       1.4,
+       0.07
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": -1
+     },
+     {
+      "pos": [
+       0,
+       1.4,
+       0.030000000000000006
+      ],
+      "look": [
+       0,
+       0.92,
+       0.82
+      ],
+      "fov": 74,
+      "beat": 0,
+      "dur": 120
+     }
+    ],
+    "actions": [
+     "suit:type",
+     "screen:test"
+    ],
+    "actors": [
+     {
+      "id": "suit",
+      "model": "Bizdude.vrm",
+      "at": [
+       0,
+       0,
+       0
+      ],
+      "tall": 1.75,
+      "pose": "type"
+     },
+     {
+      "id": "stonks",
+      "model": "StonksReporter.vrm",
+      "at": [
+       0.62,
+       0,
+       0.15
+      ],
+      "yaw": -0.5,
+      "tall": 1.6,
+      "pose": "relax",
+      "hidden": true
+     }
+    ],
+    "screens": {
+     "inbox": {
+      "head": "INBOX",
+      "big": "0",
+      "tone": "white",
+      "sub": "waiting\u2026"
+     },
+     "name": {
+      "head": "FROM",
+      "big": "SATOSHI",
+      "tone": "warm",
+      "sub": "Nakamoto"
+     },
+     "download": {
+      "head": "DOWNLOADING",
+      "big": "v0.1",
+      "tone": "accent",
+      "sub": "bitcoin"
+     },
+     "received": {
+      "head": "RECEIVED",
+      "big": "10 BTC",
+      "tone": "good",
+      "sub": "12 Jan 2009 \u00b7 block 170"
+     },
+     "bug": {
+      "head": "BUG REPORT",
+      "big": "BUG",
+      "tone": "alert",
+      "sub": "to: Satoshi"
+     },
+     "fixed": {
+      "head": "REPLY",
+      "big": "FIXED",
+      "tone": "good",
+      "sub": "from: Satoshi"
+     },
+     "who": {
+      "head": "REAL NAME",
+      "big": "?",
+      "tone": "white",
+      "sub": "unknown"
+     },
+     "mining": {
+      "head": "MINING",
+      "big": "ON",
+      "tone": "warm",
+      "sub": "making new coins"
+     },
+     "off": {
+      "head": "MINING",
+      "big": "OFF",
+      "tone": "white",
+      "sub": ""
+     },
+     "test": {
+      "head": "NEW ADDRESS",
+      "big": "TEST",
+      "tone": "accent",
+      "sub": ""
+     }
+    },
+    "screen": "received",
+    "shift": 60
+   },
+   "long": true
+  }
+ ]
+}
